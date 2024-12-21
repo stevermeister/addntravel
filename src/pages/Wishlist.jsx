@@ -169,8 +169,7 @@ const Wishlist = () => {
   // Handle destination operations
   const handleAddDestination = async (newDestination) => {
     try {
-      const id = await db.addDestination(newDestination);
-      const addedDestination = await db.destinations.get(id);
+      const addedDestination = await db.addDestination(newDestination);
       setDestinations(prev => [...prev, addedDestination]);
       setShowAddForm(false);
     } catch (err) {
@@ -250,7 +249,7 @@ const Wishlist = () => {
   // Add suggested destination to wishlist
   const handleAddSuggestion = async (suggestion) => {
     try {
-      const id = await db.addDestination({
+      const addedDestination = await db.addDestination({
         ...suggestion,
         dateAdded: new Date().toISOString()
       });
@@ -259,7 +258,6 @@ const Wishlist = () => {
       setSuggestions(prev => prev.filter(s => s !== suggestion));
       
       // Add to destinations
-      const addedDestination = await db.destinations.get(id);
       setDestinations(prev => [...prev, addedDestination]);
     } catch (err) {
       console.error('Error adding suggestion:', err);
