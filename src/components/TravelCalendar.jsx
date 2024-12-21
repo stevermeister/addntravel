@@ -62,14 +62,6 @@ const TravelCalendar = ({ onDateRangeChange }) => {
               date.toLocaleDateString(undefined, { month: 'long', year: 'numeric' })
             }
           />
-          <div className="mt-4 text-sm text-gray-600">
-            <p>Select your travel dates to see matching destinations</p>
-            <ul className="mt-2 list-disc list-inside">
-              <li>Short trips: 1-3 days</li>
-              <li>Medium trips: 4-7 days</li>
-              <li>Long trips: 8+ days</li>
-            </ul>
-          </div>
         </div>
       )}
     </div>

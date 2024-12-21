@@ -1,59 +1,37 @@
-import Dexie from 'dexie';
-import { defaultDestinations } from '../data/defaultDestinations';
+import { ref, set, get, remove, update, child } from 'firebase/database';
+import { database } from './firebase.js';
+import { defaultDestinations } from '../data/defaultDestinations.js';
 
-class WishlistDatabase extends Dexie {
+class WishlistDatabase {
   constructor() {
-    super('WishlistDB');
-    
-    // Define database schema
-    this.version(1).stores({
-      destinations: '++id, name, preferredSeason, estimatedBudget, dateAdded, status'
-    });
-
-    // Bind the destinations table to this instance
-    this.destinations = this.table('destinations');
+    this.dbRef = ref(database, 'destinations');
   }
 
-  // Database Initialization
+  // Initialize database with default data if empty
   async initialize() {
-    try {
-      // Check if database is empty
-      const count = await this.destinations.count();
-      
-      if (count === 0) {
-        console.log('Database is empty, seeding with default data...');
-        await this.seedDatabase();
-      }
-      
-      return true;
-    } catch (error) {
-      console.error('Error initializing database:', error);
-      throw error;
+    const snapshot = await get(this.dbRef);
+    if (!snapshot.exists()) {
+      await this.seedDatabase();
     }
+    return true;
   }
 
+  // Seed database with default destinations
   async seedDatabase() {
-    try {
-      // Add timestamp to each destination
-      const destinationsWithTimestamp = defaultDestinations.map(dest => ({
-        ...dest,
+    for (const destination of defaultDestinations) {
+      const newRef = child(this.dbRef, destination.id.toString());
+      await set(newRef, {
+        ...destination,
         dateAdded: new Date().toISOString()
-      }));
-
-      // Use bulkAdd for better performance
-      await this.destinations.bulkAdd(destinationsWithTimestamp);
-      console.log('Database seeded successfully');
-      return true;
-    } catch (error) {
-      console.error('Error seeding database:', error);
-      throw error;
+      });
     }
+    return true;
   }
 
   // Check database health
   async isDatabaseHealthy() {
     try {
-      await this.destinations.count();
+      await get(this.dbRef);
       return true;
     } catch (error) {
       console.error('Database health check failed:', error);
@@ -61,168 +39,148 @@ class WishlistDatabase extends Dexie {
     }
   }
 
-  // CRUD Operations
+  // Get all destinations
   async getAllDestinations() {
-    try {
-      return await this.destinations.toArray();
-    } catch (error) {
-      console.error('Error fetching destinations:', error);
+    const snapshot = await get(this.dbRef);
+    if (!snapshot.exists()) {
       return [];
     }
+    return Object.values(snapshot.val());
   }
 
+  // Add a new destination
   async addDestination(destination) {
-    try {
-      const id = await this.destinations.add({
-        ...destination,
-        dateAdded: new Date().toISOString()
-      });
-      return id;
-    } catch (error) {
-      console.error('Error adding destination:', error);
-      throw error;
-    }
+    const newRef = child(this.dbRef, Date.now().toString());
+    const newDestination = {
+      ...destination,
+      id: Date.now(),
+      dateAdded: new Date().toISOString()
+    };
+    await set(newRef, newDestination);
+    return newDestination;
   }
 
+  // Update an existing destination
   async updateDestination(id, updates) {
-    try {
-      await this.destinations.update(id, updates);
-      return true;
-    } catch (error) {
-      console.error('Error updating destination:', error);
-      throw error;
-    }
+    const destinationRef = child(this.dbRef, id.toString());
+    await update(destinationRef, updates);
+    return { id, ...updates };
   }
 
+  // Delete a destination
   async deleteDestination(id) {
-    try {
-      await this.destinations.delete(id);
-      return true;
-    } catch (error) {
-      console.error('Error deleting destination:', error);
-      throw error;
-    }
+    const destinationRef = child(this.dbRef, id.toString());
+    await remove(destinationRef);
+    return true;
   }
 
-  // Query Operations
-  async searchDestinations(query) {
-    try {
-      return await this.destinations
-        .filter(dest => 
-          dest.name.toLowerCase().includes(query.toLowerCase()) ||
-          dest.description.toLowerCase().includes(query.toLowerCase())
-        )
-        .toArray();
-    } catch (error) {
-      console.error('Error searching destinations:', error);
-      return [];
-    }
-  }
-
-  async filterDestinations({ season, types, minBudget, maxBudget }) {
-    try {
-      let collection = this.destinations;
-
-      if (season) {
-        collection = collection.filter(dest => dest.preferredSeason === season);
-      }
-
-      if (types && types.length > 0) {
-        collection = collection.filter(dest => 
-          dest.tags.some(tag => types.includes(tag))
+  // Query destinations
+  async queryDestinations(filters = {}) {
+    const destinations = await this.getAllDestinations();
+    return destinations.filter(dest => {
+      let matches = true;
+      
+      if (filters.searchQuery) {
+        const query = filters.searchQuery.toLowerCase();
+        matches = matches && (
+          dest.name.toLowerCase().includes(query) ||
+          dest.description.toLowerCase().includes(query)
         );
       }
 
-      if (minBudget !== undefined) {
-        collection = collection.filter(dest => dest.estimatedBudget >= minBudget);
+      if (filters.season && filters.season !== 'all') {
+        matches = matches && dest.preferredSeason === filters.season;
       }
 
-      if (maxBudget !== undefined) {
-        collection = collection.filter(dest => dest.estimatedBudget <= maxBudget);
+      if (filters.types && filters.types.length > 0) {
+        matches = matches && filters.types.includes(dest.type);
       }
 
-      return await collection.toArray();
-    } catch (error) {
-      console.error('Error filtering destinations:', error);
-      return [];
-    }
+      return matches;
+    });
   }
 
-  // Database Management
-  async clearDatabase() {
-    try {
-      await this.destinations.clear();
-      return true;
-    } catch (error) {
-      console.error('Error clearing database:', error);
-      throw error;
+  // Filter destinations
+  async filterDestinations({ season, types, minBudget, maxBudget }) {
+    const destinations = await this.getAllDestinations();
+    let filteredDestinations = destinations;
+
+    if (season) {
+      filteredDestinations = filteredDestinations.filter(dest => dest.preferredSeason === season);
     }
-  }
 
-  async resetToDefaults() {
-    try {
-      await this.clearDatabase();
-      await this.seedDatabase();
-      return true;
-    } catch (error) {
-      console.error('Error resetting database:', error);
-      throw error;
-    }
-  }
-
-  // Backup and Restore
-  async exportData() {
-    try {
-      const destinations = await this.getAllDestinations();
-      return JSON.stringify(destinations);
-    } catch (error) {
-      console.error('Error exporting data:', error);
-      throw error;
-    }
-  }
-
-  async importData(jsonData) {
-    try {
-      const destinations = JSON.parse(jsonData);
-      await this.destinations.clear();
-      await this.destinations.bulkAdd(destinations);
-      return true;
-    } catch (error) {
-      console.error('Error importing data:', error);
-      throw error;
-    }
-  }
-
-  async updateAllAnySeasons() {
-    try {
-      // Get all destinations with 'any' season
-      const destinationsToUpdate = await this.destinations
-        .where('preferredSeason')
-        .equals('any')
-        .toArray();
-
-      // Update each destination
-      const updates = destinationsToUpdate.map(dest => 
-        this.destinations.update(dest.id, { preferredSeason: '' })
+    if (types && types.length > 0) {
+      filteredDestinations = filteredDestinations.filter(dest => 
+        dest.tags.some(tag => types.includes(tag))
       );
-
-      await Promise.all(updates);
-      console.log(`Updated ${updates.length} destinations from 'any' to empty season`);
-      return updates.length;
-    } catch (error) {
-      console.error('Error updating seasons:', error);
-      throw error;
     }
+
+    if (minBudget !== undefined) {
+      filteredDestinations = filteredDestinations.filter(dest => dest.estimatedBudget >= minBudget);
+    }
+
+    if (maxBudget !== undefined) {
+      filteredDestinations = filteredDestinations.filter(dest => dest.estimatedBudget <= maxBudget);
+    }
+
+    return filteredDestinations;
+  }
+
+  // Search destinations
+  async searchDestinations(query) {
+    const destinations = await this.getAllDestinations();
+    return destinations.filter(dest => 
+      dest.name.toLowerCase().includes(query.toLowerCase()) ||
+      dest.description.toLowerCase().includes(query.toLowerCase())
+    );
+  }
+
+  // Clear database
+  async clearDatabase() {
+    await remove(this.dbRef);
+    return true;
+  }
+
+  // Reset to defaults
+  async resetToDefaults() {
+    await this.clearDatabase();
+    await this.seedDatabase();
+    return true;
+  }
+
+  // Export data
+  async exportData() {
+    const destinations = await this.getAllDestinations();
+    return JSON.stringify(destinations);
+  }
+
+  // Import data
+  async importData(jsonData) {
+    const destinations = JSON.parse(jsonData);
+    await remove(this.dbRef);
+    for (const destination of destinations) {
+      const newRef = child(this.dbRef, destination.id.toString());
+      await set(newRef, destination);
+    }
+    return true;
+  }
+
+  // Update all 'any' seasons to empty season
+  async updateAllAnySeasons() {
+    const destinations = await this.getAllDestinations();
+    const updates = destinations.filter(dest => dest.preferredSeason === 'any').map(dest => {
+      const destinationRef = child(this.dbRef, dest.id.toString());
+      return update(destinationRef, { preferredSeason: '' });
+    });
+    await Promise.all(updates);
+    console.log(`Updated ${updates.length} destinations from 'any' to empty season`);
+    return updates.length;
   }
 }
 
-// Create database instance
-const db = new WishlistDatabase();
-
-// Initialize database
-db.initialize().catch(error => {
+// Create and export a single instance
+const wishlistDB = new WishlistDatabase();
+wishlistDB.initialize().catch(error => {
   console.error('Failed to initialize database:', error);
 });
-
-// Export database instance
-export default db;
+export default wishlistDB;
