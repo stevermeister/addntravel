@@ -2,12 +2,15 @@ import React, { useState, useEffect, useMemo } from 'react';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
+import db from '../utils/wishlistDB';
 import destinationsData from '../data/destinations.json';
 
 const Wishlist = () => {
   // State for destinations and form visibility
   const [destinations, setDestinations] = useState([]);
   const [showAddForm, setShowAddForm] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   // Filter states
   const [searchQuery, setSearchQuery] = useState('');
@@ -18,12 +21,37 @@ const Wishlist = () => {
   const [sortCriteria, setSortCriteria] = useState('name');
   const [sortDirection, setSortDirection] = useState('asc');
 
+  // Load initial data
   useEffect(() => {
-    // In the future, this will be replaced with IndexedDB
-    setDestinations(destinationsData.destinations.map(dest => ({
-      ...dest,
-      dateAdded: new Date().toISOString() // Add dateAdded field for sorting
-    })));
+    const loadDestinations = async () => {
+      try {
+        setIsLoading(true);
+        // First, try to get data from IndexedDB
+        let dbDestinations = await db.getAllDestinations();
+        
+        // If no data in IndexedDB, load sample data and store it
+        if (dbDestinations.length === 0) {
+          await Promise.all(
+            destinationsData.destinations.map(dest => 
+              db.addDestination({
+                ...dest,
+                dateAdded: new Date().toISOString()
+              })
+            )
+          );
+          dbDestinations = await db.getAllDestinations();
+        }
+        
+        setDestinations(dbDestinations);
+      } catch (err) {
+        console.error('Error loading destinations:', err);
+        setError('Failed to load destinations. Please try again later.');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadDestinations();
   }, []);
 
   // Compute all available seasons and types
@@ -38,22 +66,38 @@ const Wishlist = () => {
   );
 
   // Handle destination operations
-  const handleAddDestination = (newDestination) => {
-    const destinationWithDate = {
-      ...newDestination,
-      dateAdded: new Date().toISOString()
-    };
-    setDestinations(prev => [...prev, destinationWithDate]);
-    setShowAddForm(false);
+  const handleAddDestination = async (newDestination) => {
+    try {
+      const id = await db.addDestination(newDestination);
+      const addedDestination = await db.destinations.get(id);
+      setDestinations(prev => [...prev, addedDestination]);
+      setShowAddForm(false);
+    } catch (err) {
+      console.error('Error adding destination:', err);
+      setError('Failed to add destination. Please try again.');
+    }
   };
 
-  const handleDeleteDestination = (destinationId) => {
-    setDestinations(prev => prev.filter(dest => dest.id !== destinationId));
+  const handleDeleteDestination = async (destinationId) => {
+    try {
+      await db.deleteDestination(destinationId);
+      setDestinations(prev => prev.filter(dest => dest.id !== destinationId));
+    } catch (err) {
+      console.error('Error deleting destination:', err);
+      setError('Failed to delete destination. Please try again.');
+    }
   };
 
-  const handleEditDestination = (destinationId) => {
-    // To be implemented in the next iteration
-    console.log('Edit destination:', destinationId);
+  const handleEditDestination = async (destinationId, updates) => {
+    try {
+      await db.updateDestination(destinationId, updates);
+      setDestinations(prev => prev.map(dest =>
+        dest.id === destinationId ? { ...dest, ...updates } : dest
+      ));
+    } catch (err) {
+      console.error('Error updating destination:', err);
+      setError('Failed to update destination. Please try again.');
+    }
   };
 
   // Filter and sort destinations
@@ -111,6 +155,23 @@ const Wishlist = () => {
     sortCriteria,
     sortDirection
   ]);
+
+  if (isLoading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="text-center py-12">
+        <h3 className="text-lg font-medium text-red-600 mb-2">Error</h3>
+        <p className="text-gray-600">{error}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
