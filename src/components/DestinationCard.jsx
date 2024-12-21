@@ -1,12 +1,42 @@
 import React, { useState } from 'react';
 
+const getCityImage = (cityName) => {
+  // Default fallback image
+  const defaultImage = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828';
+  
+  // Fallback images for specific cities
+  const cityImages = {
+    'Paris': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34',
+    'Tokyo': 'https://images.unsplash.com/photo-1513407030348-c983a97b98d8',
+    'New York': 'https://images.unsplash.com/photo-1522083165195-3424ed129620',
+    'London': 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad',
+    'Rome': 'https://images.unsplash.com/photo-1552832230-c0197dd311b5',
+    'Sydney': 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9',
+    'Dubai': 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c',
+    'Singapore': 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd',
+    'Barcelona': 'https://images.unsplash.com/photo-1523531294919-4bcd7c65e216',
+    'Amsterdam': 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017',
+    'Venice': 'https://images.unsplash.com/photo-1513805959324-96eb66ca8713',
+    'Prague': 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0',
+    'Santorini': 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e'
+  };
+
+  if (!cityName) return defaultImage;
+  
+  // Extract city name before any comma or dash
+  const mainCity = cityName.split(/[,\-]/)[0].trim();
+  return cityImages[mainCity] || defaultImage;
+};
+
 const DestinationCard = ({ destination, onDelete, onEdit }) => {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
-  const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const [imageUrl, setImageUrl] = useState(destination.imageUrl || getCityImage(destination.name));
 
-  const handleDelete = () => {
-    onDelete(destination.id);
-    setShowDeleteModal(false);
+  const handleImageError = () => {
+    const fallbackUrl = getCityImage(destination.name);
+    if (imageUrl !== fallbackUrl) {
+      setImageUrl(fallbackUrl);
+    }
   };
 
   const formatBudget = (budget) => {
@@ -18,39 +48,42 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
   };
 
   return (
-    <div className="card group hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Image Container */}
-      <div className="relative h-48 -mx-6 -mt-6 mb-4 overflow-hidden rounded-t-lg">
-        <div className={`absolute inset-0 bg-gray-200 ${!isImageLoaded ? 'animate-pulse' : ''}`} />
+      <div className="relative h-48 bg-gray-200">
         <img
-          src={destination.imageUrl}
+          src={imageUrl}
           alt={destination.name}
-          className={`w-full h-full object-cover transition-opacity duration-300 ${
-            isImageLoaded ? 'opacity-100' : 'opacity-0'
-          }`}
-          onLoad={() => setIsImageLoaded(true)}
+          className="w-full h-full object-cover"
+          onError={handleImageError}
+          loading="lazy"
         />
-        <div className="absolute top-0 right-0 p-2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div className="absolute top-2 right-2">
           <button
             onClick={() => setShowDeleteModal(true)}
-            className="p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+            className="p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors opacity-0 group-hover:opacity-100"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
         </div>
+        <div className="absolute bottom-2 right-2">
+          <span className="bg-blue-500 text-white px-2 py-1 rounded-full text-sm">
+            {destination.preferredSeason}
+          </span>
+        </div>
       </div>
 
       {/* Content */}
-      <div>
+      <div className="p-4">
         <h3 className="text-xl font-semibold text-gray-900 mb-2">{destination.name}</h3>
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">{destination.description}</p>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-4">
-          {destination.tags.map((tag, index) => (
-            <span key={index} className="badge badge-blue">
+          {destination.tags?.map((tag, index) => (
+            <span key={index} className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">
               {tag}
             </span>
           ))}
@@ -87,10 +120,10 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
         </div>
 
         {/* Actions */}
-        <div className="flex gap-2">
+        <div className="flex gap-2 pt-4 border-t border-gray-100">
           <button
             onClick={() => onEdit(destination)}
-            className="btn btn-primary flex-1"
+            className="flex-1 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-300"
           >
             Edit
           </button>
@@ -108,13 +141,16 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
             <div className="flex justify-end gap-4">
               <button
                 onClick={() => setShowDeleteModal(false)}
-                className="btn btn-secondary"
+                className="px-4 py-2 text-gray-600 hover:text-gray-800 font-medium"
               >
                 Cancel
               </button>
               <button
-                onClick={handleDelete}
-                className="btn btn-danger"
+                onClick={() => {
+                  onDelete(destination.id);
+                  setShowDeleteModal(false);
+                }}
+                className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 font-medium"
               >
                 Delete
               </button>
