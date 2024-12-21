@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ref, onValue, push, remove, set } from 'firebase/database';
 import { database, auth } from '../utils/firebase';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
@@ -8,19 +9,33 @@ import TravelCalendar from '../components/TravelCalendar';
 import AISuggestions from '../components/AISuggestions';
 
 const Wishlist = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
+
   const [destinations, setDestinations] = useState([]);
   const [newDestination, setNewDestination] = useState('');
   const [loading, setLoading] = useState(true);
   const [showAddForm, setShowAddForm] = useState(false);
   const [editingDestination, setEditingDestination] = useState(null);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedSeason, setSelectedSeason] = useState('');
-  const [selectedTypes, setSelectedTypes] = useState([]);
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('search') || '');
+  const [selectedSeason, setSelectedSeason] = useState(searchParams.get('season') || '');
+  const [selectedTypes, setSelectedTypes] = useState(searchParams.get('types')?.split(',').filter(Boolean) || []);
   const [selectedDateRange, setSelectedDateRange] = useState(null);
-  const [sortCriteria, setSortCriteria] = useState('name');
-  const [sortDirection, setSortDirection] = useState('asc');
+  const [sortCriteria, setSortCriteria] = useState(searchParams.get('sort') || 'name');
+  const [sortDirection, setSortDirection] = useState(searchParams.get('order') || 'asc');
   const [suggestions, setSuggestions] = useState([]);
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set('search', searchQuery);
+    if (selectedSeason) params.set('season', selectedSeason);
+    if (selectedTypes.length > 0) params.set('types', selectedTypes.join(','));
+    if (sortCriteria !== 'name') params.set('sort', sortCriteria);
+    if (sortDirection !== 'asc') params.set('order', sortDirection);
+    
+    setSearchParams(params);
+  }, [searchQuery, selectedSeason, selectedTypes, sortCriteria, sortDirection]);
 
   useEffect(() => {
     const userId = auth.currentUser?.uid;
@@ -199,16 +214,14 @@ const Wishlist = () => {
       <FilterSortControls
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
-        selectedSeason={selectedSeason}
-        setSelectedSeason={setSelectedSeason}
-        selectedTypes={selectedTypes}
-        setSelectedTypes={setSelectedTypes}
         sortCriteria={sortCriteria}
         setSortCriteria={setSortCriteria}
         sortDirection={sortDirection}
         setSortDirection={setSortDirection}
-        allSeasons={allSeasons}
-        allTypes={allTypes}
+        selectedSeason={selectedSeason}
+        setSelectedSeason={setSelectedSeason}
+        selectedTypes={selectedTypes}
+        setSelectedTypes={setSelectedTypes}
       />
 
       {/* Results Count */}
