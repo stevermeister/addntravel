@@ -22,6 +22,13 @@ const FilterSortControls = ({
     );
   };
 
+  // Clear season selection if it becomes invalid
+  React.useEffect(() => {
+    if (selectedSeason && !allSeasons.includes(selectedSeason)) {
+      setSelectedSeason('');
+    }
+  }, [allSeasons, selectedSeason, setSelectedSeason]);
+
   return (
     <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -51,11 +58,16 @@ const FilterSortControls = ({
           >
             <option value="">All Seasons</option>
             {allSeasons.map(season => (
-              <option key={season} value={season}>
+              <option key={season} value={season} className="capitalize">
                 {season.charAt(0).toUpperCase() + season.slice(1)}
               </option>
             ))}
           </select>
+          {selectedSeason && !allSeasons.includes(selectedSeason) && (
+            <p className="mt-1 text-sm text-red-600">
+              This season is not available for the selected dates
+            </p>
+          )}
         </div>
 
         {/* Sort Criteria */}

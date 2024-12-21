@@ -69,6 +69,44 @@ const Wishlist = () => {
     [destinations]
   );
 
+  // Compute valid seasons for selected date range
+  const getValidSeasonsForDateRange = (startDate, endDate) => {
+    if (!startDate || !endDate) return ['winter', 'spring', 'summer', 'autumn'];
+
+    const seasonRanges = {
+      winter: [[12, 1, 2]],
+      spring: [[3, 4, 5]],
+      summer: [[6, 7, 8]],
+      autumn: [[9, 10, 11]]
+    };
+
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+    const startMonth = start.getMonth() + 1; // 1-12
+    const endMonth = end.getMonth() + 1; // 1-12
+
+    return Object.entries(seasonRanges).filter(([season, ranges]) => {
+      return ranges.some(monthRange => {
+        // Check if date range overlaps with season months
+        const seasonMonths = new Set(monthRange);
+        for (let month = startMonth; month !== (endMonth + 1); month = (month % 12) + 1) {
+          if (seasonMonths.has(month)) return true;
+          if (month === endMonth) break;
+        }
+        return false;
+      });
+    }).map(([season]) => season);
+  };
+
+  // Get valid seasons based on selected date range
+  const validSeasons = useMemo(() => {
+    if (!selectedDateRange || !selectedDateRange.startDate) return allSeasons;
+    return getValidSeasonsForDateRange(
+      selectedDateRange.startDate,
+      selectedDateRange.endDate
+    );
+  }, [selectedDateRange, allSeasons]);
+
   // Handle destination operations
   const handleAddDestination = async (newDestination) => {
     try {
@@ -112,6 +150,20 @@ const Wishlist = () => {
   // Handle date range selection
   const handleDateRangeChange = ({ startDate, endDate, availableDays }) => {
     setSelectedDateRange({ startDate, endDate, availableDays });
+    
+    // Get valid seasons for the new date range
+    const newValidSeasons = startDate && endDate ? 
+      getValidSeasonsForDateRange(startDate, endDate) : 
+      ['winter', 'spring', 'summer', 'autumn'];
+
+    // If there's only one valid season, select it automatically
+    if (newValidSeasons.length === 1) {
+      setSelectedSeason(newValidSeasons[0]);
+    } 
+    // If current selection is not in new valid seasons, clear it
+    else if (selectedSeason && !newValidSeasons.includes(selectedSeason)) {
+      setSelectedSeason('');
+    }
   };
 
   // Get AI suggestions based on current filters
@@ -200,6 +252,11 @@ const Wishlist = () => {
         dest.description.toLowerCase().includes(searchQuery.toLowerCase())
       );
       
+      // Check if the destination's season is valid for the selected date range
+      const isSeasonValidForDateRange = !selectedDateRange?.startDate || 
+        validSeasons.includes(dest.preferredSeason);
+      
+      // Check if it matches the selected season filter (if any)
       const matchesSeason = !selectedSeason || dest.preferredSeason === selectedSeason;
       
       const matchesTypes = selectedTypes.length === 0 || 
@@ -212,7 +269,8 @@ const Wishlist = () => {
                (!maxDays || selectedDateRange.availableDays <= maxDays);
       })();
 
-      return matchesSearch && matchesSeason && matchesTypes && matchesDuration;
+      return matchesSearch && matchesSeason && matchesTypes && 
+             matchesDuration && isSeasonValidForDateRange;
     });
 
     // Then, sort the filtered results
@@ -251,7 +309,8 @@ const Wishlist = () => {
     selectedTypes,
     selectedDateRange,
     sortCriteria,
-    sortDirection
+    sortDirection,
+    validSeasons
   ]);
 
   if (isLoading) {
@@ -350,7 +409,7 @@ const Wishlist = () => {
         setSortCriteria={setSortCriteria}
         sortDirection={sortDirection}
         setSortDirection={setSortDirection}
-        allSeasons={allSeasons}
+        allSeasons={validSeasons}
         allTypes={allTypes}
       />
 
