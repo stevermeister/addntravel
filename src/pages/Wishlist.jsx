@@ -15,6 +15,7 @@ const Wishlist = () => {
   const [showAddForm, setShowAddForm] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [editingDestination, setEditingDestination] = useState(null);
 
   // Filter states
   const [searchQuery, setSearchQuery] = useState('');
@@ -81,6 +82,23 @@ const Wishlist = () => {
     }
   };
 
+  const handleEditDestination = async (destinationId, updates) => {
+    try {
+      await db.updateDestination(destinationId, updates);
+      setDestinations(prev => prev.map(dest =>
+        dest.id === destinationId ? { ...dest, ...updates } : dest
+      ));
+      setEditingDestination(null);
+    } catch (err) {
+      console.error('Error updating destination:', err);
+      setError('Failed to update destination. Please try again.');
+    }
+  };
+
+  const handleStartEdit = (destination) => {
+    setEditingDestination(destination);
+  };
+
   const handleDeleteDestination = async (destinationId) => {
     try {
       await db.deleteDestination(destinationId);
@@ -88,18 +106,6 @@ const Wishlist = () => {
     } catch (err) {
       console.error('Error deleting destination:', err);
       setError('Failed to delete destination. Please try again.');
-    }
-  };
-
-  const handleEditDestination = async (destinationId, updates) => {
-    try {
-      await db.updateDestination(destinationId, updates);
-      setDestinations(prev => prev.map(dest =>
-        dest.id === destinationId ? { ...dest, ...updates } : dest
-      ));
-    } catch (err) {
-      console.error('Error updating destination:', err);
-      setError('Failed to update destination. Please try again.');
     }
   };
 
@@ -267,10 +273,16 @@ const Wishlist = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {showAddForm && (
+      {(showAddForm || editingDestination) && (
         <DestinationForm
-          onSubmit={handleAddDestination}
-          onClose={() => setShowAddForm(false)}
+          onSubmit={editingDestination ? 
+            (updates) => handleEditDestination(editingDestination.id, updates) : 
+            handleAddDestination}
+          onClose={() => {
+            setShowAddForm(false);
+            setEditingDestination(null);
+          }}
+          initialData={editingDestination}
         />
       )}
 
@@ -358,7 +370,7 @@ const Wishlist = () => {
             key={destination.id}
             destination={destination}
             onDelete={handleDeleteDestination}
-            onEdit={() => handleEditDestination(destination.id)}
+            onEdit={handleStartEdit}
           />
         ))}
       </div>

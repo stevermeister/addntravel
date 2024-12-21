@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const DestinationForm = ({ onSubmit, onClose }) => {
+const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
     name: '',
     description: '',
@@ -12,6 +12,17 @@ const DestinationForm = ({ onSubmit, onClose }) => {
   });
 
   const [errors, setErrors] = useState({});
+
+  // Initialize form with data if editing
+  useEffect(() => {
+    if (initialData) {
+      setFormData({
+        ...initialData,
+        tags: initialData.tags.join(', '),
+        estimatedBudget: initialData.estimatedBudget.toString()
+      });
+    }
+  }, [initialData]);
 
   const validate = () => {
     const newErrors = {};
@@ -34,13 +45,16 @@ const DestinationForm = ({ onSubmit, onClose }) => {
         .map(tag => tag.trim().toLowerCase())
         .filter(tag => tag);
 
-      onSubmit({
+      const submissionData = {
         ...formData,
-        id: Date.now().toString(),
+        id: initialData?.id || Date.now().toString(),
         estimatedBudget: Number(formData.estimatedBudget),
         tags: tagsArray,
         status: 'wishlist'
-      });
+      };
+
+      onSubmit(submissionData);
+      onClose();
     } else {
       setErrors(newErrors);
     }
@@ -65,7 +79,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center p-4" style={{ zIndex: 1000 }}>
       <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full p-6 m-4">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-xl font-bold">Add New Destination</h2>
+          <h2 className="text-xl font-bold">{initialData ? 'Edit' : 'Add New'} Destination</h2>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-700"
@@ -202,7 +216,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               type="submit"
               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium"
             >
-              Add Destination
+              {initialData ? 'Save Changes' : 'Add Destination'}
             </button>
           </div>
         </form>
