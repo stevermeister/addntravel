@@ -50,7 +50,7 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Image Container */}
-      <div className="relative h-48 bg-gray-200">
+      <div className="relative h-48 bg-gray-200 group">
         <img
           src={imageUrl}
           alt={destination.name}
@@ -58,10 +58,11 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
           onError={handleImageError}
           loading="lazy"
         />
-        <div className="absolute top-2 right-2">
+        <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
           <button
             onClick={() => setShowDeleteModal(true)}
-            className="p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors opacity-0 group-hover:opacity-100"
+            className="p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+            title="Delete destination"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
@@ -76,56 +77,76 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
       </div>
 
       {/* Content */}
-      <div className="p-4">
-        <h3 className="text-xl font-semibold text-gray-900 mb-2">{destination.name}</h3>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-2">{destination.description}</p>
+      <div className="p-4 flex flex-col min-h-[200px]">
+        {/* Main Content */}
+        <div>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">{destination.name}</h3>
+          <p className="text-gray-600 text-sm mb-4 line-clamp-2">{destination.description}</p>
 
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2 mb-4">
-          {destination.tags?.map((tag, index) => (
-            <span key={index} className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        {/* Details Grid */}
-        <div className="grid grid-cols-3 gap-4 text-sm text-gray-600 mb-4">
-          {/* Budget */}
-          <div className="flex items-center">
-            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
-                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span>{formatBudget(destination.estimatedBudget)}</span>
+          {/* Tags */}
+          <div className="mb-4 min-h-[24px]">
+            {destination.tags && destination.tags.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {destination.tags.map((tag, index) => (
+                  <span 
+                    key={index} 
+                    className="px-2 py-0.5 bg-blue-50 text-blue-700 rounded-full text-xs font-medium"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
 
-          {/* Days */}
-          <div className="flex items-center">
-            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
-                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-            <span>{destination.daysRequired} days</span>
-          </div>
+          {/* Details Grid */}
+          <div className="grid grid-cols-3 gap-2 text-sm text-gray-600">
+            {/* Budget */}
+            <div className="flex items-center">
+              <svg className="w-4 h-4 mr-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="truncate">{formatBudget(destination.estimatedBudget)}</span>
+            </div>
 
-          {/* Season */}
-          <div className="flex items-center">
-            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
-                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-            <span className="capitalize">{destination.preferredSeason}</span>
+            {/* Days */}
+            <div className="flex items-center">
+              <svg className="w-4 h-4 mr-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              <span className="truncate">{destination.daysRequired}</span>
+            </div>
+
+            {/* Season */}
+            <div className="flex items-center">
+              <svg className="w-4 h-4 mr-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+              <span className="truncate capitalize">{destination.preferredSeason}</span>
+            </div>
           </div>
         </div>
 
         {/* Actions */}
-        <div className="flex gap-2 pt-4 border-t border-gray-100">
+        <div className="flex items-center gap-2 pt-4 mt-auto border-t border-gray-100">
           <button
             onClick={() => onEdit(destination)}
             className="flex-1 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-300"
           >
             Edit
+          </button>
+          <button
+            onClick={() => setShowDeleteModal(true)}
+            className="p-2 text-gray-400 hover:text-red-500 transition-colors"
+            title="Delete destination"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" 
+                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+            </svg>
           </button>
         </div>
       </div>
