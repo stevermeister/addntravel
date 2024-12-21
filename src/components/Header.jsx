@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { versionInfo } from '../utils/version';
+import DataTransfer from './DataTransfer';
 
 const Header = () => {
   const { user, login, logout } = useAuth();
@@ -36,6 +37,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           {user ? (
             <div className="flex items-center gap-4">
+              <DataTransfer onImportComplete={() => {}} />
               <div className="flex items-center">
                 <UserAvatar />
                 <span className="text-sm font-medium">{user.displayName || user.email}</span>
