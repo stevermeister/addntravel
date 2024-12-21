@@ -26,23 +26,17 @@ const Wishlist = () => {
     const loadDestinations = async () => {
       try {
         setIsLoading(true);
-        // First, try to get data from IndexedDB
-        let dbDestinations = await db.getAllDestinations();
-        
-        // If no data in IndexedDB, load sample data and store it
-        if (dbDestinations.length === 0) {
-          await Promise.all(
-            destinationsData.destinations.map(dest => 
-              db.addDestination({
-                ...dest,
-                dateAdded: new Date().toISOString()
-              })
-            )
-          );
-          dbDestinations = await db.getAllDestinations();
+        setError(null);
+
+        // Check database health and initialize if needed
+        const isHealthy = await db.isDatabaseHealthy();
+        if (!isHealthy) {
+          await db.initialize();
         }
-        
-        setDestinations(dbDestinations);
+
+        // Load destinations
+        const destinations = await db.getAllDestinations();
+        setDestinations(destinations);
       } catch (err) {
         console.error('Error loading destinations:', err);
         setError('Failed to load destinations. Please try again later.');
@@ -184,12 +178,31 @@ const Wishlist = () => {
 
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Travel Wishlist</h1>
-        <button
-          onClick={() => setShowAddForm(true)}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300"
-        >
-          Add Destination
-        </button>
+        <div className="flex gap-4">
+          <button
+            onClick={async () => {
+              try {
+                setIsLoading(true);
+                await db.resetToDefaults();
+                const destinations = await db.getAllDestinations();
+                setDestinations(destinations);
+              } catch (err) {
+                setError('Failed to reset destinations');
+              } finally {
+                setIsLoading(false);
+              }
+            }}
+            className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300"
+          >
+            Reset to Defaults
+          </button>
+          <button
+            onClick={() => setShowAddForm(true)}
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300"
+          >
+            Add Destination
+          </button>
+        </div>
       </div>
 
       {/* Filter and Sort Controls */}

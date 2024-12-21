@@ -1,4 +1,5 @@
 import Dexie from 'dexie';
+import { defaultDestinations } from '../data/defaultDestinations';
 
 class WishlistDatabase extends Dexie {
   constructor() {
@@ -13,8 +14,54 @@ class WishlistDatabase extends Dexie {
     this.destinations = this.table('destinations');
   }
 
-  // CRUD Operations
+  // Database Initialization
+  async initialize() {
+    try {
+      // Check if database is empty
+      const count = await this.destinations.count();
+      
+      if (count === 0) {
+        console.log('Database is empty, seeding with default data...');
+        await this.seedDatabase();
+      }
+      
+      return true;
+    } catch (error) {
+      console.error('Error initializing database:', error);
+      throw error;
+    }
+  }
 
+  async seedDatabase() {
+    try {
+      // Add timestamp to each destination
+      const destinationsWithTimestamp = defaultDestinations.map(dest => ({
+        ...dest,
+        dateAdded: new Date().toISOString()
+      }));
+
+      // Use bulkAdd for better performance
+      await this.destinations.bulkAdd(destinationsWithTimestamp);
+      console.log('Database seeded successfully');
+      return true;
+    } catch (error) {
+      console.error('Error seeding database:', error);
+      throw error;
+    }
+  }
+
+  // Check database health
+  async isDatabaseHealthy() {
+    try {
+      await this.destinations.count();
+      return true;
+    } catch (error) {
+      console.error('Database health check failed:', error);
+      return false;
+    }
+  }
+
+  // CRUD Operations
   async getAllDestinations() {
     try {
       return await this.destinations.toArray();
@@ -57,6 +104,7 @@ class WishlistDatabase extends Dexie {
     }
   }
 
+  // Query Operations
   async searchDestinations(query) {
     try {
       return await this.destinations
@@ -100,8 +148,29 @@ class WishlistDatabase extends Dexie {
     }
   }
 
-  // Backup and Restore
+  // Database Management
+  async clearDatabase() {
+    try {
+      await this.destinations.clear();
+      return true;
+    } catch (error) {
+      console.error('Error clearing database:', error);
+      throw error;
+    }
+  }
 
+  async resetToDefaults() {
+    try {
+      await this.clearDatabase();
+      await this.seedDatabase();
+      return true;
+    } catch (error) {
+      console.error('Error resetting database:', error);
+      throw error;
+    }
+  }
+
+  // Backup and Restore
   async exportData() {
     try {
       const destinations = await this.getAllDestinations();
@@ -123,72 +192,15 @@ class WishlistDatabase extends Dexie {
       throw error;
     }
   }
-
-  // Fallback to localStorage if IndexedDB is not available
-  static async createFallbackStorage() {
-    const storage = {
-      async getAllDestinations() {
-        try {
-          const data = localStorage.getItem('destinations');
-          return data ? JSON.parse(data) : [];
-        } catch (error) {
-          console.error('Error reading from localStorage:', error);
-          return [];
-        }
-      },
-
-      async addDestination(destination) {
-        try {
-          const destinations = await this.getAllDestinations();
-          const newDestination = {
-            ...destination,
-            id: Date.now(),
-            dateAdded: new Date().toISOString()
-          };
-          destinations.push(newDestination);
-          localStorage.setItem('destinations', JSON.stringify(destinations));
-          return newDestination.id;
-        } catch (error) {
-          console.error('Error adding to localStorage:', error);
-          throw error;
-        }
-      },
-
-      async updateDestination(id, updates) {
-        try {
-          const destinations = await this.getAllDestinations();
-          const index = destinations.findIndex(d => d.id === id);
-          if (index !== -1) {
-            destinations[index] = { ...destinations[index], ...updates };
-            localStorage.setItem('destinations', JSON.stringify(destinations));
-            return true;
-          }
-          return false;
-        } catch (error) {
-          console.error('Error updating in localStorage:', error);
-          throw error;
-        }
-      },
-
-      async deleteDestination(id) {
-        try {
-          const destinations = await this.getAllDestinations();
-          const filtered = destinations.filter(d => d.id !== id);
-          localStorage.setItem('destinations', JSON.stringify(filtered));
-          return true;
-        } catch (error) {
-          console.error('Error deleting from localStorage:', error);
-          throw error;
-        }
-      }
-    };
-
-    return storage;
-  }
 }
 
 // Create database instance
 const db = new WishlistDatabase();
+
+// Initialize database
+db.initialize().catch(error => {
+  console.error('Failed to initialize database:', error);
+});
 
 // Export database instance
 export default db;
