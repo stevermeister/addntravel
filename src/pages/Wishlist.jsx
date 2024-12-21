@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
@@ -10,6 +11,8 @@ import destinationsData from '../data/destinations.json';
 import { seedDatabase, initialDestinations } from '../utils/seedData';
 
 const Wishlist = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   // State for destinations and form visibility
   const [destinations, setDestinations] = useState([]);
   const [showAddForm, setShowAddForm] = useState(false);
@@ -17,19 +20,69 @@ const Wishlist = () => {
   const [error, setError] = useState(null);
   const [editingDestination, setEditingDestination] = useState(null);
 
-  // Filter states
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedSeason, setSelectedSeason] = useState('');
-  const [selectedTypes, setSelectedTypes] = useState([]);
-  const [selectedDateRange, setSelectedDateRange] = useState(null);
+  // Helper function to format date to YYYY-MM-DD
+  const formatDateForUrl = (date) => {
+    if (!date) return '';
+    const d = new Date(date);
+    return d.toISOString().split('T')[0];
+  };
 
-  // Sort states
-  const [sortCriteria, setSortCriteria] = useState('name');
-  const [sortDirection, setSortDirection] = useState('asc');
+  // Helper function to parse date from URL
+  const parseDateFromUrl = (dateStr) => {
+    if (!dateStr) return null;
+    return new Date(dateStr + 'T00:00:00');
+  };
+
+  // Filter states - initialize from URL params
+  const [searchQuery, setSearchQuery] = useState(searchParams.get('q') || '');
+  const [selectedSeason, setSelectedSeason] = useState(searchParams.get('season') || '');
+  const [selectedTypes, setSelectedTypes] = useState(searchParams.get('types')?.split(',').filter(Boolean) || []);
+  const [selectedDateRange, setSelectedDateRange] = useState(() => {
+    const startDate = parseDateFromUrl(searchParams.get('start'));
+    const endDate = parseDateFromUrl(searchParams.get('end'));
+    const availableDays = searchParams.get('days');
+    return startDate && endDate ? { 
+      startDate, 
+      endDate, 
+      availableDays: Number(availableDays) 
+    } : null;
+  });
+
+  // Sort states - initialize from URL params
+  const [sortCriteria, setSortCriteria] = useState(searchParams.get('sort') || 'name');
+  const [sortDirection, setSortDirection] = useState(searchParams.get('order') || 'asc');
 
   // AI suggestions state
   const [suggestions, setSuggestions] = useState([]);
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
+
+  // Update URL when filters change
+  useEffect(() => {
+    const params = new URLSearchParams();
+    
+    // Only add parameters that have values
+    if (searchQuery) params.set('q', searchQuery);
+    if (selectedSeason) params.set('season', selectedSeason);
+    if (selectedTypes.length > 0) params.set('types', selectedTypes.join(','));
+    if (selectedDateRange) {
+      params.set('start', formatDateForUrl(selectedDateRange.startDate));
+      params.set('end', formatDateForUrl(selectedDateRange.endDate));
+      params.set('days', selectedDateRange.availableDays.toString());
+    }
+    if (sortCriteria !== 'name') params.set('sort', sortCriteria);
+    if (sortDirection !== 'asc') params.set('order', sortDirection);
+
+    // Update URL without causing a page reload
+    setSearchParams(params, { replace: true });
+  }, [
+    searchQuery,
+    selectedSeason,
+    selectedTypes,
+    selectedDateRange,
+    sortCriteria,
+    sortDirection,
+    setSearchParams
+  ]);
 
   // Load initial data
   useEffect(() => {
@@ -173,7 +226,7 @@ const Wishlist = () => {
       
       const preferences = {
         duration: selectedDateRange ? selectedDateRange.availableDays : 7,
-        season: selectedSeason || 'summer',
+        season: selectedSeason || 'winter', // Default to winter instead of 'any'
         types: selectedTypes,
         budget: 3000 // Default budget, could be made configurable
       };

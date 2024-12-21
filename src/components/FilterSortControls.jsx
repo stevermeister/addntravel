@@ -52,7 +52,7 @@ const FilterSortControls = ({
             Season
           </label>
           <select
-            value={selectedSeason}
+            value={selectedSeason === null ? "" : selectedSeason}
             onChange={(e) => setSelectedSeason(e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
           >
