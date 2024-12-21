@@ -3,6 +3,8 @@ import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
 import TravelCalendar from '../components/TravelCalendar';
+import AISuggestions from '../components/AISuggestions';
+import { getSuggestedDestinations } from '../utils/aiSuggestions';
 import db from '../utils/wishlistDB';
 import destinationsData from '../data/destinations.json';
 
@@ -22,6 +24,10 @@ const Wishlist = () => {
   // Sort states
   const [sortCriteria, setSortCriteria] = useState('name');
   const [sortDirection, setSortDirection] = useState('asc');
+
+  // AI suggestions state
+  const [suggestions, setSuggestions] = useState([]);
+  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
 
   // Load initial data
   useEffect(() => {
@@ -99,6 +105,48 @@ const Wishlist = () => {
   // Handle date range selection
   const handleDateRangeChange = ({ startDate, endDate, availableDays }) => {
     setSelectedDateRange({ startDate, endDate, availableDays });
+  };
+
+  // Get AI suggestions based on current filters
+  const handleGetSuggestions = async () => {
+    try {
+      setIsLoadingSuggestions(true);
+      
+      const preferences = {
+        duration: selectedDateRange ? selectedDateRange.availableDays : 7,
+        season: selectedSeason || 'summer',
+        types: selectedTypes,
+        budget: 3000 // Default budget, could be made configurable
+      };
+
+      const newSuggestions = await getSuggestedDestinations(preferences);
+      setSuggestions(newSuggestions);
+    } catch (error) {
+      console.error('Error getting suggestions:', error);
+      setError('Failed to get AI suggestions. Please try again.');
+    } finally {
+      setIsLoadingSuggestions(false);
+    }
+  };
+
+  // Add suggested destination to wishlist
+  const handleAddSuggestion = async (suggestion) => {
+    try {
+      const id = await db.addDestination({
+        ...suggestion,
+        dateAdded: new Date().toISOString()
+      });
+      
+      // Remove from suggestions
+      setSuggestions(prev => prev.filter(s => s !== suggestion));
+      
+      // Add to destinations
+      const addedDestination = await db.destinations.get(id);
+      setDestinations(prev => [...prev, addedDestination]);
+    } catch (err) {
+      console.error('Error adding suggestion:', err);
+      setError('Failed to add suggestion to wishlist');
+    }
   };
 
   // Filter and sort destinations
@@ -194,6 +242,13 @@ const Wishlist = () => {
         <h1 className="text-3xl font-bold text-gray-900">Travel Wishlist</h1>
         <div className="flex gap-4">
           <button
+            onClick={handleGetSuggestions}
+            disabled={isLoadingSuggestions}
+            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 disabled:opacity-50"
+          >
+            {isLoadingSuggestions ? 'Getting Suggestions...' : 'Get AI Suggestions'}
+          </button>
+          <button
             onClick={async () => {
               try {
                 setIsLoading(true);
@@ -221,6 +276,13 @@ const Wishlist = () => {
 
       {/* Travel Calendar */}
       <TravelCalendar onDateRangeChange={handleDateRangeChange} />
+
+      {/* AI Suggestions */}
+      <AISuggestions
+        suggestions={suggestions}
+        onAddToWishlist={handleAddSuggestion}
+        isLoading={isLoadingSuggestions}
+      />
 
       {/* Filter and Sort Controls */}
       <FilterSortControls
