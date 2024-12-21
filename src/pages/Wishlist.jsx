@@ -7,6 +7,7 @@ import AISuggestions from '../components/AISuggestions';
 import { getSuggestedDestinations } from '../utils/aiSuggestions';
 import db from '../utils/wishlistDB';
 import destinationsData from '../data/destinations.json';
+import { seedDatabase, initialDestinations } from '../utils/seedData';
 
 const Wishlist = () => {
   // State for destinations and form visibility
@@ -149,6 +150,41 @@ const Wishlist = () => {
     }
   };
 
+  const handleSeedData = async () => {
+    try {
+      setIsLoading(true);
+      const success = await seedDatabase(initialDestinations);
+      if (success) {
+        const loadDestinations = async () => {
+          try {
+            setIsLoading(true);
+            setError(null);
+
+            // Check database health and initialize if needed
+            const isHealthy = await db.isDatabaseHealthy();
+            if (!isHealthy) {
+              await db.initialize();
+            }
+
+            // Load destinations
+            const destinations = await db.getAllDestinations();
+            setDestinations(destinations);
+          } catch (err) {
+            console.error('Error loading destinations:', err);
+            setError('Failed to load destinations. Please try again later.');
+          } finally {
+            setIsLoading(false);
+          }
+        };
+        loadDestinations();
+      }
+    } catch (error) {
+      console.error('Error seeding data:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   // Filter and sort destinations
   const filteredAndSortedDestinations = useMemo(() => {
     // First, apply filters
@@ -264,6 +300,12 @@ const Wishlist = () => {
             className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300"
           >
             Reset to Defaults
+          </button>
+          <button
+            onClick={handleSeedData}
+            className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
+          >
+            Load Sample Data
           </button>
           <button
             onClick={() => setShowAddForm(true)}
