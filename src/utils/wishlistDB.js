@@ -1,15 +1,27 @@
 import { ref, set, get, remove, update, child } from 'firebase/database';
-import { database } from './firebase.js';
-import { defaultDestinations } from '../data/defaultDestinations.js';
+import { database, auth } from './firebase';
+import { defaultDestinations } from '../data/defaultDestinations';
 
 class WishlistDatabase {
   constructor() {
-    this.dbRef = ref(database, 'destinations');
+    this.baseRef = ref(database, 'users');
+  }
+
+  getUserRef() {
+    if (!auth.currentUser) {
+      throw new Error('No user is signed in');
+    }
+    return child(this.baseRef, `${auth.currentUser.uid}/destinations`);
   }
 
   // Initialize database with default data if empty
   async initialize() {
-    const snapshot = await get(this.dbRef);
+    if (!auth.currentUser) {
+      throw new Error('No user is signed in');
+    }
+
+    const dbRef = this.getUserRef();
+    const snapshot = await get(dbRef);
     if (!snapshot.exists()) {
       await this.seedDatabase();
     }
@@ -18,8 +30,9 @@ class WishlistDatabase {
 
   // Seed database with default destinations
   async seedDatabase() {
+    const dbRef = this.getUserRef();
     for (const destination of defaultDestinations) {
-      const newRef = child(this.dbRef, destination.id.toString());
+      const newRef = child(dbRef, destination.id.toString());
       await set(newRef, {
         ...destination,
         dateAdded: new Date().toISOString()
@@ -31,7 +44,9 @@ class WishlistDatabase {
   // Check database health
   async isDatabaseHealthy() {
     try {
-      await get(this.dbRef);
+      if (!auth.currentUser) return false;
+      const dbRef = this.getUserRef();
+      await get(dbRef);
       return true;
     } catch (error) {
       console.error('Database health check failed:', error);
@@ -41,7 +56,8 @@ class WishlistDatabase {
 
   // Get all destinations
   async getAllDestinations() {
-    const snapshot = await get(this.dbRef);
+    const dbRef = this.getUserRef();
+    const snapshot = await get(dbRef);
     if (!snapshot.exists()) {
       return [];
     }
@@ -50,7 +66,8 @@ class WishlistDatabase {
 
   // Add a new destination
   async addDestination(destination) {
-    const newRef = child(this.dbRef, Date.now().toString());
+    const dbRef = this.getUserRef();
+    const newRef = child(dbRef, Date.now().toString());
     const newDestination = {
       ...destination,
       id: Date.now(),
@@ -62,14 +79,14 @@ class WishlistDatabase {
 
   // Update an existing destination
   async updateDestination(id, updates) {
-    const destinationRef = child(this.dbRef, id.toString());
+    const destinationRef = child(this.getUserRef(), id.toString());
     await update(destinationRef, updates);
     return { id, ...updates };
   }
 
   // Delete a destination
   async deleteDestination(id) {
-    const destinationRef = child(this.dbRef, id.toString());
+    const destinationRef = child(this.getUserRef(), id.toString());
     await remove(destinationRef);
     return true;
   }
@@ -137,7 +154,8 @@ class WishlistDatabase {
 
   // Clear database
   async clearDatabase() {
-    await remove(this.dbRef);
+    const dbRef = this.getUserRef();
+    await remove(dbRef);
     return true;
   }
 
@@ -157,9 +175,9 @@ class WishlistDatabase {
   // Import data
   async importData(jsonData) {
     const destinations = JSON.parse(jsonData);
-    await remove(this.dbRef);
+    await remove(this.getUserRef());
     for (const destination of destinations) {
-      const newRef = child(this.dbRef, destination.id.toString());
+      const newRef = child(this.getUserRef(), destination.id.toString());
       await set(newRef, destination);
     }
     return true;
@@ -169,7 +187,7 @@ class WishlistDatabase {
   async updateAllAnySeasons() {
     const destinations = await this.getAllDestinations();
     const updates = destinations.filter(dest => dest.preferredSeason === 'any').map(dest => {
-      const destinationRef = child(this.dbRef, dest.id.toString());
+      const destinationRef = child(this.getUserRef(), dest.id.toString());
       return update(destinationRef, { preferredSeason: '' });
     });
     await Promise.all(updates);
