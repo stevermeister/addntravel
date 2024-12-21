@@ -62,8 +62,8 @@ const DestinationForm = ({ onSubmit, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-6">
+    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center p-4" style={{ zIndex: 1000 }}>
+      <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full p-6 m-4">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold">Add New Destination</h2>
           <button
@@ -86,7 +86,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               onChange={handleChange}
               className={`w-full px-3 py-2 border rounded-lg ${
                 errors.name ? 'border-red-500' : 'border-gray-300'
-              }`}
+              } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
             />
             {errors.name && (
               <p className="text-red-500 text-sm mt-1">{errors.name}</p>
@@ -104,7 +104,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               rows="3"
               className={`w-full px-3 py-2 border rounded-lg ${
                 errors.description ? 'border-red-500' : 'border-gray-300'
-              }`}
+              } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
             />
             {errors.description && (
               <p className="text-red-500 text-sm mt-1">{errors.description}</p>
@@ -123,7 +123,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
                 onChange={handleChange}
                 className={`w-full px-3 py-2 border rounded-lg ${
                   errors.estimatedBudget ? 'border-red-500' : 'border-gray-300'
-                }`}
+                } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
               />
               {errors.estimatedBudget && (
                 <p className="text-red-500 text-sm mt-1">{errors.estimatedBudget}</p>
@@ -138,7 +138,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
                 name="preferredSeason"
                 value={formData.preferredSeason}
                 onChange={handleChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
                 <option value="spring">Spring</option>
                 <option value="summer">Summer</option>
@@ -158,7 +158,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               value={formData.daysRequired}
               onChange={handleChange}
               placeholder="e.g., 7-10"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
 
@@ -172,7 +172,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               value={formData.tags}
               onChange={handleChange}
               placeholder="e.g., beach, culture, hiking"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
 
@@ -186,7 +186,7 @@ const DestinationForm = ({ onSubmit, onClose }) => {
               value={formData.imageUrl}
               onChange={handleChange}
               placeholder="https://..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
 
@@ -194,13 +194,13 @@ const DestinationForm = ({ onSubmit, onClose }) => {
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 text-gray-700 hover:text-gray-900"
+              className="px-4 py-2 text-gray-700 hover:text-gray-900 font-medium"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
+              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium"
             >
               Add Destination
             </button>
