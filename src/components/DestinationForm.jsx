@@ -5,7 +5,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     name: '',
     description: '',
     estimatedBudget: '',
-    preferredSeason: 'summer',
+    preferredSeason: '', // Empty string will show as 'All'
     daysRequired: '',
     tags: '',
     imageUrl: ''
@@ -154,10 +154,11 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
                 onChange={handleChange}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
+                <option value="">All</option>
+                <option value="winter">Winter</option>
                 <option value="spring">Spring</option>
                 <option value="summer">Summer</option>
-                <option value="fall">Fall</option>
-                <option value="winter">Winter</option>
+                <option value="autumn">Autumn</option>
               </select>
             </div>
           </div>

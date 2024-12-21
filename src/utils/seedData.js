@@ -16,7 +16,7 @@ const processDestination = (dest) => {
     name: dest.name,
     description: dest.description,
     estimatedBudget: dest.budget || 0,
-    preferredSeason: dest.season[0] || 'winter',
+    preferredSeason: dest.season[0] || '', // Empty string will show as 'All'
     daysRequired,
     tags: [...new Set(dest.tags)], // Remove duplicates
     imageUrl: '', // Will be handled by the fallback system

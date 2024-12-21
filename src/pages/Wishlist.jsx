@@ -97,6 +97,9 @@ const Wishlist = () => {
           await db.initialize();
         }
 
+        // Update any 'any' seasons to empty string (will show as 'All')
+        await db.updateAllAnySeasons();
+
         // Load destinations
         const destinations = await db.getAllDestinations();
         setDestinations(destinations);
@@ -112,10 +115,13 @@ const Wishlist = () => {
   }, []);
 
   // Compute all available seasons and types
-  const allSeasons = useMemo(() => 
-    [...new Set(destinations.map(dest => dest.preferredSeason))],
-    [destinations]
-  );
+  const allSeasons = useMemo(() => {
+    const baseSeasons = ['winter', 'spring', 'summer', 'autumn'];
+    const customSeasons = destinations
+      .map(dest => dest.preferredSeason)
+      .filter(season => season && !baseSeasons.includes(season.toLowerCase()));
+    return [...baseSeasons, ...new Set(customSeasons)];
+  }, [destinations]);
 
   const allTypes = useMemo(() => 
     [...new Set(destinations.flatMap(dest => dest.tags))],

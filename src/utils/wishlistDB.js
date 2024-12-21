@@ -192,6 +192,28 @@ class WishlistDatabase extends Dexie {
       throw error;
     }
   }
+
+  async updateAllAnySeasons() {
+    try {
+      // Get all destinations with 'any' season
+      const destinationsToUpdate = await this.destinations
+        .where('preferredSeason')
+        .equals('any')
+        .toArray();
+
+      // Update each destination
+      const updates = destinationsToUpdate.map(dest => 
+        this.destinations.update(dest.id, { preferredSeason: '' })
+      );
+
+      await Promise.all(updates);
+      console.log(`Updated ${updates.length} destinations from 'any' to empty season`);
+      return updates.length;
+    } catch (error) {
+      console.error('Error updating seasons:', error);
+      throw error;
+    }
+  }
 }
 
 // Create database instance
