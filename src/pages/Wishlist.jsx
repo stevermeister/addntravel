@@ -40,7 +40,8 @@ const Wishlist = () => {
         tags: dest.tags || [],
         daysRequired: dest.daysRequired || '',
         estimatedBudget: dest.estimatedBudget || 0,
-        dateAdded: dest.dateAdded || new Date().toISOString()
+        dateAdded: dest.dateAdded || new Date().toISOString(),
+        imageUrl: dest.imageUrl || ''
       })) : [];
       setDestinations(destinationsList);
       setLoading(false);
@@ -57,6 +58,7 @@ const Wishlist = () => {
       const destinationsRef = ref(database, `users/${userId}/destinations`);
       await push(destinationsRef, {
         ...newDest,
+        imageUrl: newDest.imageUrl || '',
         dateAdded: new Date().toISOString()
       });
       setShowAddForm(false);
@@ -73,6 +75,7 @@ const Wishlist = () => {
       const destinationRef = ref(database, `users/${userId}/destinations/${destinationId}`);
       await set(destinationRef, {
         ...updates,
+        imageUrl: updates.imageUrl || '',
         dateAdded: updates.dateAdded || new Date().toISOString()
       });
       setEditingDestination(null);
