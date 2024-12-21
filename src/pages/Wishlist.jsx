@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
+import TravelCalendar from '../components/TravelCalendar';
 import db from '../utils/wishlistDB';
 import destinationsData from '../data/destinations.json';
 
@@ -16,6 +17,7 @@ const Wishlist = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSeason, setSelectedSeason] = useState('');
   const [selectedTypes, setSelectedTypes] = useState([]);
+  const [selectedDateRange, setSelectedDateRange] = useState(null);
 
   // Sort states
   const [sortCriteria, setSortCriteria] = useState('name');
@@ -94,6 +96,11 @@ const Wishlist = () => {
     }
   };
 
+  // Handle date range selection
+  const handleDateRangeChange = ({ startDate, endDate, availableDays }) => {
+    setSelectedDateRange({ startDate, endDate, availableDays });
+  };
+
   // Filter and sort destinations
   const filteredAndSortedDestinations = useMemo(() => {
     // First, apply filters
@@ -108,7 +115,14 @@ const Wishlist = () => {
       const matchesTypes = selectedTypes.length === 0 || 
         dest.tags.some(tag => selectedTypes.includes(tag));
 
-      return matchesSearch && matchesSeason && matchesTypes;
+      // Filter by available days if date range is selected
+      const matchesDuration = !selectedDateRange || (() => {
+        const [minDays, maxDays] = dest.daysRequired.split('-').map(Number);
+        return selectedDateRange.availableDays >= minDays && 
+               (!maxDays || selectedDateRange.availableDays <= maxDays);
+      })();
+
+      return matchesSearch && matchesSeason && matchesTypes && matchesDuration;
     });
 
     // Then, sort the filtered results
@@ -123,7 +137,6 @@ const Wishlist = () => {
           comparison = a.estimatedBudget - b.estimatedBudget;
           break;
         case 'daysRequired':
-          // Convert "7-10" format to average number for sorting
           const getAverageDays = (days) => {
             const [min, max] = days.split('-').map(Number);
             return max ? (min + max) / 2 : min;
@@ -146,6 +159,7 @@ const Wishlist = () => {
     searchQuery,
     selectedSeason,
     selectedTypes,
+    selectedDateRange,
     sortCriteria,
     sortDirection
   ]);
@@ -205,6 +219,9 @@ const Wishlist = () => {
         </div>
       </div>
 
+      {/* Travel Calendar */}
+      <TravelCalendar onDateRangeChange={handleDateRangeChange} />
+
       {/* Filter and Sort Controls */}
       <FilterSortControls
         searchQuery={searchQuery}
@@ -221,10 +238,11 @@ const Wishlist = () => {
         allTypes={allTypes}
       />
 
-      {/* Results Count */}
+      {/* Results Count with Date Range Info */}
       <div className="mb-6">
         <p className="text-gray-600">
           Showing {filteredAndSortedDestinations.length} destination{filteredAndSortedDestinations.length !== 1 ? 's' : ''}
+          {selectedDateRange && ` for ${selectedDateRange.availableDays} days of travel`}
           {(selectedTypes.length > 0 || selectedSeason || searchQuery) && ' matching your filters'}
         </p>
       </div>
