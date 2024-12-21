@@ -93,29 +93,8 @@ const Wishlist = () => {
     }
   };
 
-  const handleGetSuggestions = async () => {
-    try {
-      setIsLoadingSuggestions(true);
-      
-      const preferences = {
-        duration: selectedDateRange ? selectedDateRange.availableDays : 7,
-        season: selectedSeason || 'winter',
-        types: selectedTypes,
-        budget: 3000
-      };
-
-      // TODO: Implement actual AI suggestions
-      const mockSuggestions = [
-        { name: "Paris", description: "City of Light", preferredSeason: "spring", tags: ["city", "culture"], daysRequired: "3-5", estimatedBudget: 2000 },
-        { name: "Barcelona", description: "Vibrant coastal city", preferredSeason: "summer", tags: ["city", "beach"], daysRequired: "4-6", estimatedBudget: 1800 }
-      ];
-      
-      setSuggestions(mockSuggestions);
-    } catch (error) {
-      console.error('Error getting suggestions:', error);
-    } finally {
-      setIsLoadingSuggestions(false);
-    }
+  const handleGetSuggestions = () => {
+    alert('AI Suggestions feature is coming soon! Stay tuned for personalized travel recommendations.');
   };
 
   const handleDateRangeChange = ({ startDate, endDate, availableDays }) => {
@@ -193,10 +172,13 @@ const Wishlist = () => {
         <div className="flex gap-4">
           <button
             onClick={handleGetSuggestions}
-            disabled={isLoadingSuggestions}
-            className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 disabled:opacity-50"
+            className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2"
           >
-            {isLoadingSuggestions ? 'Getting Suggestions...' : 'Get AI Suggestions'}
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            Get AI Suggestions
+            <span className="text-xs bg-gray-600 px-2 py-0.5 rounded">Coming Soon</span>
           </button>
           <button
             onClick={() => setShowAddForm(true)}
@@ -209,15 +191,6 @@ const Wishlist = () => {
 
       {/* Travel Calendar */}
       <TravelCalendar onDateRangeChange={handleDateRangeChange} />
-
-      {/* AI Suggestions */}
-      {suggestions.length > 0 && (
-        <AISuggestions
-          suggestions={suggestions}
-          onAddToWishlist={handleAddDestination}
-          isLoading={isLoadingSuggestions}
-        />
-      )}
 
       {/* Filter and Sort Controls */}
       <FilterSortControls
