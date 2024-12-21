@@ -50,7 +50,7 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Image Container */}
-      <div className="relative h-48 bg-gray-200 group">
+      <div className="relative h-48 bg-gray-200">
         <img
           src={imageUrl}
           alt={destination.name}
@@ -58,17 +58,6 @@ const DestinationCard = ({ destination, onDelete, onEdit }) => {
           onError={handleImageError}
           loading="lazy"
         />
-        <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <button
-            onClick={() => setShowDeleteModal(true)}
-            className="p-2 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
-            title="Delete destination"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
         <div className="absolute bottom-2 right-2">
           <span className="bg-blue-500 text-white px-2 py-1 rounded-full text-sm">
             {destination.preferredSeason || 'All'}
