@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import DestinationCard from '../components/DestinationCard';
+import DestinationForm from '../components/DestinationForm';
 import destinationsData from '../data/destinations.json';
 
 const Wishlist = () => {
@@ -7,11 +8,26 @@ const Wishlist = () => {
   const [selectedTags, setSelectedTags] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSeason, setSelectedSeason] = useState('');
+  const [showAddForm, setShowAddForm] = useState(false);
 
   useEffect(() => {
     // In the future, this will be replaced with IndexedDB
     setDestinations(destinationsData.destinations);
   }, []);
+
+  const handleAddDestination = (newDestination) => {
+    setDestinations(prev => [...prev, newDestination]);
+    setShowAddForm(false);
+  };
+
+  const handleDeleteDestination = (destinationId) => {
+    setDestinations(prev => prev.filter(dest => dest.id !== destinationId));
+  };
+
+  const handleEditDestination = (destinationId) => {
+    // To be implemented in the next iteration
+    console.log('Edit destination:', destinationId);
+  };
 
   const allTags = [...new Set(destinations.flatMap(dest => dest.tags))];
   const allSeasons = [...new Set(destinations.map(dest => dest.preferredSeason))];
@@ -35,11 +51,18 @@ const Wishlist = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      {showAddForm && (
+        <DestinationForm
+          onSubmit={handleAddDestination}
+          onClose={() => setShowAddForm(false)}
+        />
+      )}
+
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Travel Wishlist</h1>
         <button
+          onClick={() => setShowAddForm(true)}
           className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300"
-          onClick={() => console.log('Add New Destination')}
         >
           Add Destination
         </button>
@@ -118,6 +141,8 @@ const Wishlist = () => {
           <DestinationCard
             key={destination.id}
             destination={destination}
+            onDelete={handleDeleteDestination}
+            onEdit={() => handleEditDestination(destination.id)}
           />
         ))}
       </div>

@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const DestinationCard = ({ destination }) => {
+const DestinationCard = ({ destination, onDelete, onEdit }) => {
+  const [isDeleting, setIsDeleting] = useState(false);
+  
   const { 
+    id,
     name, 
     description, 
     tags, 
@@ -11,8 +14,48 @@ const DestinationCard = ({ destination }) => {
     daysRequired = '7-10' // Default value if not provided
   } = destination;
 
+  const handleDelete = () => {
+    setIsDeleting(true);
+  };
+
+  const confirmDelete = () => {
+    onDelete(id);
+    setIsDeleting(false);
+  };
+
+  const cancelDelete = () => {
+    setIsDeleting(false);
+  };
+
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      {isDeleting && (
+        <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-10">
+          <div className="bg-white p-6 rounded-lg shadow-xl">
+            <h3 className="text-lg font-medium text-gray-900 mb-4">
+              Delete Destination?
+            </h3>
+            <p className="text-gray-500 mb-4">
+              Are you sure you want to delete {name}? This action cannot be undone.
+            </p>
+            <div className="flex justify-end space-x-3">
+              <button
+                onClick={cancelDelete}
+                className="px-4 py-2 text-gray-700 hover:text-gray-900"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={confirmDelete}
+                className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      
       <div className="relative">
         <img 
           className="h-48 w-full object-cover" 
@@ -58,15 +101,22 @@ const DestinationCard = ({ destination }) => {
         </div>
 
         <div className="flex justify-between items-center pt-4 border-t border-gray-100">
-          <button 
-            className="text-blue-500 hover:text-blue-700 font-medium text-sm focus:outline-none"
-            onClick={() => console.log('Edit clicked', name)}
-          >
-            Edit Details
-          </button>
+          <div className="space-x-2">
+            <button 
+              onClick={onEdit}
+              className="text-blue-500 hover:text-blue-700 font-medium text-sm focus:outline-none"
+            >
+              Edit
+            </button>
+            <button 
+              onClick={handleDelete}
+              className="text-red-500 hover:text-red-700 font-medium text-sm focus:outline-none"
+            >
+              Delete
+            </button>
+          </div>
           <button 
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-300"
-            onClick={() => console.log('View Details clicked', name)}
           >
             View Details
           </button>
