@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ref, onValue, push, remove, set } from 'firebase/database';
 import { database, auth } from '../utils/firebase';
 import { useSearchParams, useNavigate } from 'react-router-dom';
+import { parseDatePeriod } from '../utils/dateParser';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import FilterSortControls from '../components/FilterSortControls';
@@ -54,6 +55,8 @@ const Wishlist = () => {
         preferredSeason: dest.preferredSeason,
         tags: dest.tags || [],
         daysRequired: dest.daysRequired || '',
+        min_days: dest.min_days || 0,
+        max_days: dest.max_days || 0,
         estimatedBudget: dest.estimatedBudget || 0,
         dateAdded: dest.dateAdded || new Date().toISOString(),
         imageUrl: dest.imageUrl || ''
@@ -70,9 +73,14 @@ const Wishlist = () => {
     if (!userId) return;
 
     try {
+      console.log('Adding destination with data:', newDest);
+      const { min_days, max_days } = await parseDatePeriod(newDest.daysRequired);
+
       const destinationsRef = ref(database, `users/${userId}/destinations`);
       await push(destinationsRef, {
         ...newDest,
+        min_days,
+        max_days,
         imageUrl: newDest.imageUrl || '',
         dateAdded: new Date().toISOString()
       });
@@ -87,9 +95,14 @@ const Wishlist = () => {
     if (!userId) return;
 
     try {
+      console.log('Updating destination with data:', updates);
+      const { min_days, max_days } = await parseDatePeriod(updates.daysRequired);
+
       const destinationRef = ref(database, `users/${userId}/destinations/${destinationId}`);
       await set(destinationRef, {
         ...updates,
+        min_days,
+        max_days,
         imageUrl: updates.imageUrl || '',
         dateAdded: updates.dateAdded || new Date().toISOString()
       });
@@ -134,7 +147,7 @@ const Wishlist = () => {
 
       const matchesDuration = !selectedDateRange || (() => {
         if (!dest.daysRequired) return true;
-        const [minDays, maxDays] = dest.daysRequired.split('-').map(Number);
+        const [minDays, maxDays] = [dest.min_days, dest.max_days];
         return selectedDateRange.availableDays >= minDays && 
                (!maxDays || selectedDateRange.availableDays <= maxDays);
       })();
@@ -156,10 +169,10 @@ const Wishlist = () => {
         case 'daysRequired':
           const getAverageDays = (days) => {
             if (!days) return 0;
-            const [min, max] = days.split('-').map(Number);
+            const [min, max] = [days.min_days, days.max_days];
             return max ? (min + max) / 2 : min;
           };
-          comparison = getAverageDays(a.daysRequired) - getAverageDays(b.daysRequired);
+          comparison = getAverageDays(a) - getAverageDays(b);
           break;
         case 'dateAdded':
           comparison = new Date(a.dateAdded) - new Date(b.dateAdded);

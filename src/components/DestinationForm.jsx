@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { parseDatePeriod } from '../utils/dateParser';
 
 const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
@@ -7,6 +8,8 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     estimatedBudget: '',
     preferredSeason: '', // Empty string will show as 'All'
     daysRequired: '',
+    min_days: 0,
+    max_days: 0,
     tags: '',
     imageUrl: ''
   });
@@ -19,7 +22,9 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       setFormData({
         ...initialData,
         tags: initialData.tags.join(', '),
-        estimatedBudget: initialData.estimatedBudget.toString()
+        estimatedBudget: initialData.estimatedBudget.toString(),
+        min_days: initialData.min_days || 0,
+        max_days: initialData.max_days || 0
       });
     }
   }, [initialData]);
@@ -35,7 +40,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = validate();
     
@@ -45,16 +50,30 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         .map(tag => tag.trim().toLowerCase())
         .filter(tag => tag);
 
-      const submissionData = {
-        ...formData,
-        id: initialData?.id || Date.now().toString(),
-        estimatedBudget: Number(formData.estimatedBudget),
-        tags: tagsArray,
-        status: 'wishlist'
-      };
+      try {
+        // Parse days required into min_days and max_days
+        const { min_days, max_days } = await parseDatePeriod(formData.daysRequired);
+        console.log('Parsed days:', { min_days, max_days });
 
-      onSubmit(submissionData);
-      onClose();
+        const submissionData = {
+          ...formData,
+          id: initialData?.id || Date.now().toString(),
+          estimatedBudget: Number(formData.estimatedBudget),
+          tags: tagsArray,
+          min_days,
+          max_days,
+          status: 'wishlist'
+        };
+
+        await onSubmit(submissionData);
+        onClose();
+      } catch (error) {
+        console.error('Error processing form:', error);
+        setErrors(prev => ({
+          ...prev,
+          daysRequired: 'Error processing days required'
+        }));
+      }
     } else {
       setErrors(newErrors);
     }
@@ -172,10 +191,14 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
               name="daysRequired"
               value={formData.daysRequired}
               onChange={handleChange}
-              placeholder="e.g., 7-10"
+              placeholder="e.g., 2 weeks, 3-4 days, around 5 days"
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
           </div>
+
+          {/* Hidden fields for min_days and max_days */}
+          <input type="hidden" name="min_days" value={formData.min_days} />
+          <input type="hidden" name="max_days" value={formData.max_days} />
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
