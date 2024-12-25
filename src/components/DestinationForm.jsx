@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { parseDatePeriod } from '../utils/dateParser';
 import debounce from 'lodash/debounce';
+import { getSuggestedTags, correctTagSpelling, getLocalTagSuggestions } from '../utils/tagHelper';
 
 const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
@@ -17,6 +18,10 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   const [errors, setErrors] = useState({});
   const [daysHint, setDaysHint] = useState('');
+  const [tagSuggestions, setTagSuggestions] = useState([]);
+  const [currentTagInput, setCurrentTagInput] = useState('');
+  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
+  const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
 
   // Initialize form with data if editing
   useEffect(() => {
@@ -30,6 +35,20 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       });
     }
   }, [initialData]);
+
+  // Get tag suggestions when location changes
+  useEffect(() => {
+    if (formData.name) {
+      const fetchSuggestions = async () => {
+        setIsLoadingSuggestions(true);
+        const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
+        const suggestions = await getSuggestedTags(formData.name, currentTags);
+        setTagSuggestions(suggestions);
+        setIsLoadingSuggestions(false);
+      };
+      fetchSuggestions();
+    }
+  }, [formData.name]);
 
   const validate = () => {
     const newErrors = {};
@@ -127,6 +146,90 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       updateDaysHint(value);
     }
   };
+
+  // Handle tag input changes with local suggestions
+  const handleTagInputChange = (e) => {
+    const input = e.target.value;
+    setCurrentTagInput(input);
+    
+    if (input.endsWith(',')) {
+      // Add the tag when comma is typed
+      const newTag = input.slice(0, -1).trim();
+      if (newTag) {
+        handleAddTag(newTag);
+      }
+      setCurrentTagInput('');
+    } else {
+      // Update suggestions based on current input
+      const suggestions = getLocalTagSuggestions(input);
+      setTagSuggestions(suggestions);
+    }
+  };
+
+  // Handle adding a new tag
+  const handleAddTag = async (tag) => {
+    const correctedTag = await correctTagSpelling(tag);
+    const tagToAdd = correctedTag || tag;
+    
+    const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
+    if (!currentTags.includes(tagToAdd)) {
+      setFormData(prev => ({
+        ...prev,
+        tags: [...currentTags, tagToAdd].join(', ')
+      }));
+    }
+  };
+
+  // Handle selecting a suggestion
+  const handleSuggestionClick = (tag) => {
+    handleAddTag(tag);
+    setCurrentTagInput('');
+    setTagSuggestions([]);
+  };
+
+  // Handle keyboard navigation
+  const handleTagInputKeyDown = (e) => {
+    if (tagSuggestions.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setSelectedSuggestionIndex(prev => 
+          prev < tagSuggestions.length - 1 ? prev + 1 : prev
+        );
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setSelectedSuggestionIndex(prev => prev > 0 ? prev - 1 : -1);
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (selectedSuggestionIndex >= 0) {
+          handleSuggestionClick(tagSuggestions[selectedSuggestionIndex]);
+        } else if (currentTagInput.trim()) {
+          handleAddTag(currentTagInput.trim());
+          setCurrentTagInput('');
+        }
+        break;
+      case 'Escape':
+        e.preventDefault();
+        setTagSuggestions([]);
+        setSelectedSuggestionIndex(-1);
+        break;
+      case 'Tab':
+        if (tagSuggestions.length > 0) {
+          e.preventDefault();
+          const index = selectedSuggestionIndex >= 0 ? selectedSuggestionIndex : 0;
+          handleSuggestionClick(tagSuggestions[index]);
+        }
+        break;
+    }
+  };
+
+  // Reset selected index when suggestions change
+  useEffect(() => {
+    setSelectedSuggestionIndex(-1);
+  }, [tagSuggestions]);
 
   return (
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center p-4" style={{ zIndex: 1000 }}>
@@ -241,18 +344,77 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
           <input type="hidden" name="min_days" value={formData.min_days} />
           <input type="hidden" name="max_days" value={formData.max_days} />
 
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Tags (comma-separated)
+          <div className="mb-4">
+            <label className="block text-sm font-medium text-gray-700">
+              Tags
+              {isLoadingSuggestions && <span className="ml-2 text-sm text-gray-500">(Loading suggestions...)</span>}
             </label>
-            <input
-              type="text"
-              name="tags"
-              value={formData.tags}
-              onChange={handleChange}
-              placeholder="e.g., beach, culture, hiking"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
+            <div className="relative">
+              <input
+                type="text"
+                value={currentTagInput}
+                onChange={handleTagInputChange}
+                onKeyDown={handleTagInputKeyDown}
+                placeholder="Type to add tags (comma-separated)"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                aria-label="Tag input"
+                aria-expanded={tagSuggestions.length > 0}
+                aria-activedescendant={selectedSuggestionIndex >= 0 ? `tag-suggestion-${selectedSuggestionIndex}` : undefined}
+                role="combobox"
+              />
+              {tagSuggestions.length > 0 && (
+                <div 
+                  className="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg border border-gray-200"
+                  role="listbox"
+                >
+                  {tagSuggestions.map((tag, index) => (
+                    <div
+                      id={`tag-suggestion-${index}`}
+                      key={index}
+                      onClick={() => handleSuggestionClick(tag)}
+                      onMouseEnter={() => setSelectedSuggestionIndex(index)}
+                      className={`px-4 py-2 cursor-pointer text-sm ${
+                        index === selectedSuggestionIndex 
+                          ? 'bg-indigo-100 text-indigo-900' 
+                          : 'hover:bg-gray-100'
+                      }`}
+                      role="option"
+                      aria-selected={index === selectedSuggestionIndex}
+                    >
+                      {tag}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            {formData.tags && (
+              <div className="mt-2 flex flex-wrap gap-2">
+                {formData.tags.split(',').map((tag, index) => (
+                  tag.trim() && (
+                    <span
+                      key={index}
+                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"
+                    >
+                      {tag.trim()}
+                      <button
+                        type="button"
+                        onClick={() => {
+                          const tags = formData.tags.split(',')
+                            .map(t => t.trim())
+                            .filter((_, i) => i !== index)
+                            .join(', ');
+                          setFormData(prev => ({ ...prev, tags }));
+                        }}
+                        className="ml-1 inline-flex items-center p-0.5 rounded-full text-indigo-400 hover:bg-indigo-200 hover:text-indigo-500 focus:outline-none"
+                      >
+                        <span className="sr-only">Remove tag</span>
+                        ×
+                      </button>
+                    </span>
+                  )
+                ))}
+              </div>
+            )}
           </div>
 
           <div>
