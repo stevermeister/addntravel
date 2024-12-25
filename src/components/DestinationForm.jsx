@@ -2,10 +2,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { parseDatePeriod } from '../utils/dateParser';
 import debounce from 'lodash/debounce';
 import { getSuggestedTags, correctTagSpelling, getLocalTagSuggestions } from '../utils/tagHelper';
+import { destinations } from '../data/destinations';
 
 const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
-    name: '',
+    destinationName: '',
     description: '',
     estimatedBudget: '',
     preferredSeason: '', // Empty string will show as 'All'
@@ -22,12 +23,14 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [currentTagInput, setCurrentTagInput] = useState('');
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
   const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
+  const [destinationSuggestions, setDestinationSuggestions] = useState([]);
 
   // Initialize form with data if editing
   useEffect(() => {
     if (initialData) {
       setFormData({
         ...initialData,
+        destinationName: initialData.destinationName || initialData.name || '',
         tags: initialData.tags.join(', '),
         estimatedBudget: initialData.estimatedBudget.toString(),
         min_days: initialData.min_days || 0,
@@ -38,21 +41,33 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   // Get tag suggestions when location changes
   useEffect(() => {
-    if (formData.name) {
+    if (formData.destinationName) {
       const fetchSuggestions = async () => {
         setIsLoadingSuggestions(true);
         const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
-        const suggestions = await getSuggestedTags(formData.name, currentTags);
+        const suggestions = await getSuggestedTags(formData.destinationName, currentTags);
         setTagSuggestions(suggestions);
         setIsLoadingSuggestions(false);
       };
       fetchSuggestions();
     }
-  }, [formData.name]);
+  }, [formData.destinationName]);
+
+  // Get destination suggestions when typing the name
+  useEffect(() => {
+    if (formData.destinationName) {
+      const suggestions = destinations
+        .filter(d => d.name.toLowerCase().includes(formData.destinationName.toLowerCase()))
+        .slice(0, 5);
+      setDestinationSuggestions(suggestions);
+    } else {
+      setDestinationSuggestions([]);
+    }
+  }, [formData.destinationName]);
 
   const validate = () => {
     const newErrors = {};
-    if (!formData.name) newErrors.name = 'Name is required';
+    if (!formData.destinationName) newErrors.destinationName = 'Destination name is required';
     if (!formData.description) newErrors.description = 'Description is required';
     if (!formData.estimatedBudget) newErrors.estimatedBudget = 'Budget is required';
     if (formData.estimatedBudget && isNaN(formData.estimatedBudget)) {
@@ -231,6 +246,17 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     setSelectedSuggestionIndex(-1);
   }, [tagSuggestions]);
 
+  // Set default image when selecting a destination
+  const handleDestinationSelect = (destination) => {
+    setFormData(prev => ({
+      ...prev,
+      destinationName: destination.name,
+      imageUrl: destination.imageUrl || '',
+      tags: destination.tags.join(', ')
+    }));
+    setDestinationSuggestions([]);
+  };
+
   return (
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center p-4" style={{ zIndex: 1000 }}>
       <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full p-6 m-4">
@@ -249,18 +275,35 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Destination Name*
             </label>
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              className={`w-full px-3 py-2 border rounded-lg ${
-                errors.name ? 'border-red-500' : 'border-gray-300'
-              } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
-            />
-            {errors.name && (
-              <p className="text-red-500 text-sm mt-1">{errors.name}</p>
-            )}
+            <div className="relative">
+              <input
+                type="text"
+                name="destinationName"
+                value={formData.destinationName}
+                onChange={handleChange}
+                className={`w-full px-3 py-2 border rounded-lg ${
+                  errors.destinationName ? 'border-red-500' : 'border-gray-300'
+                } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
+                autoComplete="off"
+                placeholder="Enter destination name"
+              />
+              {destinationSuggestions.length > 0 && (
+                <div className="absolute z-10 w-full bg-white border rounded-b shadow-lg">
+                  {destinationSuggestions.map((dest, index) => (
+                    <div
+                      key={dest.name}
+                      className="p-2 hover:bg-gray-100 cursor-pointer"
+                      onClick={() => handleDestinationSelect(dest)}
+                    >
+                      {dest.name}
+                    </div>
+                  ))}
+                </div>
+              )}
+              {errors.destinationName && (
+                <p className="text-red-500 text-sm mt-1">{errors.destinationName}</p>
+              )}
+            </div>
           </div>
 
           <div>
