@@ -200,60 +200,34 @@ const Wishlist = () => {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="flex justify-between items-start mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Travel Wishlist</h1>
-        <div className="flex gap-4">
-          <button
-            onClick={handleGetSuggestions}
-            className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
-            Get AI Suggestions
-            <span className="text-xs bg-gray-600 px-2 py-0.5 rounded">Coming Soon</span>
-          </button>
+        {filteredAndSortedDestinations.length > 0 && (
           <button
             onClick={() => setShowAddForm(true)}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors duration-200"
           >
             Add Destination
           </button>
-        </div>
+        )}
       </div>
 
-      {/* Travel Calendar */}
-      <TravelCalendar onDateRangeChange={handleDateRangeChange} />
-
-      {/* Filter and Sort Controls */}
-      <FilterSortControls
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        sortCriteria={sortCriteria}
-        setSortCriteria={setSortCriteria}
-        sortDirection={sortDirection}
-        setSortDirection={setSortDirection}
-        selectedSeason={selectedSeason}
-        setSelectedSeason={setSelectedSeason}
-        selectedTypes={selectedTypes}
-        setSelectedTypes={setSelectedTypes}
-      />
-
-      {/* Results Count */}
-      <div className="mb-6">
-        <p className="text-gray-600">
-          Showing {filteredAndSortedDestinations.length} destination{filteredAndSortedDestinations.length !== 1 ? 's' : ''}
-          {selectedDateRange && ` for ${selectedDateRange.availableDays} days of travel`}
-          {(selectedTypes.length > 0 || selectedSeason || searchQuery) && ' matching your filters'}
-        </p>
-      </div>
-
-      {/* Destinations Grid */}
-      {loading ? (
-        <div className="flex justify-center py-12">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-        </div>
-      ) : (
+      {filteredAndSortedDestinations.length > 0 ? (
         <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <TravelCalendar onDateRangeChange={handleDateRangeChange} />
+
+          <FilterSortControls
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            selectedSeason={selectedSeason}
+            setSelectedSeason={setSelectedSeason}
+            selectedTypes={selectedTypes}
+            setSelectedTypes={setSelectedTypes}
+            sortCriteria={sortCriteria}
+            setSortCriteria={setSortCriteria}
+            sortDirection={sortDirection}
+            setSortDirection={setSortDirection}
+          />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {filteredAndSortedDestinations.map(destination => (
               <DestinationCard
                 key={destination.id}
@@ -263,21 +237,22 @@ const Wishlist = () => {
               />
             ))}
           </div>
-
-          {filteredAndSortedDestinations.length === 0 && (
-            <div className="text-center py-12">
-              <h3 className="text-lg font-medium text-gray-900 mb-2">No destinations found</h3>
-              <p className="text-gray-600">
-                {searchQuery || selectedSeason || selectedTypes.length > 0
-                  ? "Try adjusting your filters or search criteria"
-                  : "Add your first destination to get started"}
-              </p>
-            </div>
-          )}
         </>
+      ) : (
+        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
+          <div className="bg-gray-50 rounded-lg p-8 max-w-md w-full shadow-sm">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-2">No destinations found</h2>
+            <p className="text-gray-600 mb-8">Add your first destination to get started</p>
+            <button
+              onClick={() => setShowAddForm(true)}
+              className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-4 px-8 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105 w-full"
+            >
+              Add Your First Destination
+            </button>
+          </div>
+        </div>
       )}
 
-      {/* Add/Edit Form Modal */}
       {(showAddForm || editingDestination) && (
         <DestinationForm
           onSubmit={editingDestination ? 

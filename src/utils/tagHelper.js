@@ -1,28 +1,36 @@
 import { touristicTags } from '../data/touristicTags';
 
 /**
- * Get AI-powered tag suggestions based on location and existing tags
+ * Get tag suggestions based on location and existing tags
  * @param {string} location - The destination location
  * @param {string[]} existingTags - Currently selected tags
- * @param {Function} aiModelSessionFactory - Factory function to create AI model session
  * @returns {Promise<string[]>} Suggested tags
  */
-export async function getSuggestedTags(location, existingTags = [], aiModelSessionFactory) {
+export async function getSuggestedTags(location, existingTags = []) {
     try {
-        const session = aiModelSessionFactory ? 
-            await aiModelSessionFactory() : 
-            await ai.languageModel.create();
+        // Get location-based tags
+        const locationWords = location.toLowerCase().split(/[\s,]+/);
+        const locationBasedTags = touristicTags.filter(tag => {
+            // Convert tag to readable format
+            const readableTag = tag.replace(/-/g, ' ');
+            // Check if any location word is related to the tag
+            return locationWords.some(word => 
+                readableTag.includes(word) || word.includes(readableTag)
+            );
+        });
 
-        const prompt = `Given a tourist destination "${location}" and these existing tags: [${existingTags.join(', ')}],
-suggest 5 most relevant additional tags from this list: [${touristicTags.join(', ')}].
-Return only the tag names separated by commas, nothing else.`;
+        // Get popular tags that aren't already selected
+        const popularTags = [
+            'culture', 'food-scene', 'photography', 'architecture', 'historical',
+            'nature', 'shopping', 'nightlife', 'art-gallery', 'local-cuisine'
+        ];
 
-        const response = await session.sendMessage(prompt);
-        const suggestedTags = response.text.split(',').map(tag => tag.trim())
-            .filter(tag => touristicTags.includes(tag))
-            .filter(tag => !existingTags.includes(tag));
+        // Combine and filter suggestions
+        const suggestions = [...new Set([...locationBasedTags, ...popularTags])]
+            .filter(tag => !existingTags.includes(tag))
+            .slice(0, 5);
 
-        return suggestedTags;
+        return suggestions;
     } catch (error) {
         console.error('Error getting tag suggestions:', error);
         return [];
@@ -30,39 +38,31 @@ Return only the tag names separated by commas, nothing else.`;
 }
 
 /**
- * Check if a tag might be misspelled and suggest corrections
- * @param {string} input - The potentially misspelled tag
- * @param {Function} aiModelSessionFactory - Factory function to create AI model session
- * @returns {Promise<string|null>} Corrected tag or null if no correction needed
+ * Get local tag suggestions without using AI
+ * @param {string} input - Partial tag input
+ * @returns {string[]} Matching tags
  */
-export async function correctTagSpelling(input, aiModelSessionFactory) {
-    try {
-        const session = aiModelSessionFactory ? 
-            await aiModelSessionFactory() : 
-            await ai.languageModel.create();
-
-        const prompt = `Is "${input}" a misspelling of any tag from this list: [${touristicTags.join(', ')}]?
-If yes, return only the correct tag name. If no, return "NO_CORRECTION".
-Consider common misspellings and typos.`;
-
-        const response = await session.sendMessage(prompt);
-        const suggestion = response.text.trim();
-        
-        return suggestion === 'NO_CORRECTION' ? null : suggestion;
-    } catch (error) {
-        console.error('Error correcting tag spelling:', error);
-        return null;
-    }
+export function getLocalTagSuggestions(input) {
+    if (!input) return [];
+    
+    const searchTerm = input.toLowerCase();
+    return touristicTags
+        .filter(tag => {
+            const readableTag = tag.replace(/-/g, ' ');
+            return readableTag.includes(searchTerm) || 
+                   tag.includes(searchTerm) ||
+                   levenshteinDistance(searchTerm, readableTag) <= 2;
+        })
+        .slice(0, 5);
 }
 
 /**
  * Calculate Levenshtein distance between two strings
- * Helper function for local tag matching
+ * @param {string} a - First string
+ * @param {string} b - Second string
+ * @returns {number} Distance
  */
 function levenshteinDistance(a, b) {
-    if (a.length === 0) return b.length;
-    if (b.length === 0) return a.length;
-
     const matrix = [];
 
     for (let i = 0; i <= b.length; i++) {
@@ -91,34 +91,25 @@ function levenshteinDistance(a, b) {
 }
 
 /**
- * Get local tag suggestions without using AI
- * @param {string} input - Partial tag input
- * @returns {string[]} Matching tags
+ * Check if a tag might be misspelled and suggest corrections
+ * @param {string} input - The potentially misspelled tag
+ * @returns {Promise<string|null>} Corrected tag or null if no correction needed
  */
-export function getLocalTagSuggestions(input) {
-    if (!input) return [];
-    
-    const normalizedInput = input.toLowerCase();
-    
-    // First try exact prefix matches
-    const exactMatches = touristicTags.filter(tag => 
-        tag.toLowerCase().startsWith(normalizedInput)
-    );
-    
-    if (exactMatches.length > 0) {
-        return exactMatches.slice(0, 5);
+export async function correctTagSpelling(input) {
+    try {
+        const searchTerm = input.toLowerCase();
+        const matchingTags = touristicTags.filter(tag => 
+            tag.toLowerCase() === searchTerm || 
+            levenshteinDistance(searchTerm, tag.toLowerCase()) <= 2
+        );
+
+        if (matchingTags.length > 0) {
+            return matchingTags[0];
+        } else {
+            return null;
+        }
+    } catch (error) {
+        console.error('Error correcting tag spelling:', error);
+        return null;
     }
-    
-    // If no exact matches, try fuzzy matching
-    const fuzzyMatches = touristicTags
-        .map(tag => ({
-            tag,
-            distance: levenshteinDistance(normalizedInput, tag.toLowerCase())
-        }))
-        .filter(({ distance }) => distance <= 3)
-        .sort((a, b) => a.distance - b.distance)
-        .map(({ tag }) => tag)
-        .slice(0, 5);
-        
-    return fuzzyMatches;
 }

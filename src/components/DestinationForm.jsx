@@ -14,7 +14,8 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     min_days: 0,
     max_days: 0,
     tags: '',
-    imageUrl: ''
+    imageUrl: '',
+    destinationSelected: false
   });
 
   const [errors, setErrors] = useState({});
@@ -24,6 +25,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
   const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
   const [destinationSuggestions, setDestinationSuggestions] = useState([]);
+  const [selectedDestinationIndex, setSelectedDestinationIndex] = useState(-1);
 
   // Initialize form with data if editing
   useEffect(() => {
@@ -34,7 +36,8 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         tags: initialData.tags.join(', '),
         estimatedBudget: initialData.estimatedBudget.toString(),
         min_days: initialData.min_days || 0,
-        max_days: initialData.max_days || 0
+        max_days: initialData.max_days || 0,
+        destinationSelected: true
       });
     }
   }, [initialData]);
@@ -55,7 +58,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   // Get destination suggestions when typing the name
   useEffect(() => {
-    if (formData.destinationName) {
+    if (formData.destinationName && !formData.destinationSelected) {
       const suggestions = destinations
         .filter(d => d.name.toLowerCase().includes(formData.destinationName.toLowerCase()))
         .slice(0, 5);
@@ -63,7 +66,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     } else {
       setDestinationSuggestions([]);
     }
-  }, [formData.destinationName]);
+  }, [formData.destinationName, formData.destinationSelected]);
 
   const validate = () => {
     const newErrors = {};
@@ -145,7 +148,8 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: value
+      [name]: value,
+      ...(name === 'destinationName' ? { destinationSelected: false } : {})
     }));
     // Clear error when user starts typing
     if (errors[name]) {
@@ -244,15 +248,53 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     setSelectedSuggestionIndex(-1);
   }, [tagSuggestions]);
 
+  // Reset selected index when destination suggestions change
+  useEffect(() => {
+    setSelectedDestinationIndex(-1);
+  }, [destinationSuggestions]);
+
+  const handleDestinationKeyDown = (e) => {
+    if (destinationSuggestions.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setSelectedDestinationIndex(prev => 
+          prev < destinationSuggestions.length - 1 ? prev + 1 : 0
+        );
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setSelectedDestinationIndex(prev => 
+          prev > 0 ? prev - 1 : destinationSuggestions.length - 1
+        );
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (selectedDestinationIndex >= 0) {
+          handleDestinationSelect(destinationSuggestions[selectedDestinationIndex]);
+        }
+        break;
+      case 'Escape':
+        e.preventDefault();
+        setDestinationSuggestions([]);
+        break;
+      default:
+        break;
+    }
+  };
+
   // Set default image when selecting a destination
   const handleDestinationSelect = (destination) => {
     setFormData(prev => ({
       ...prev,
       destinationName: destination.name,
       imageUrl: destination.imageUrl || '',
-      tags: destination.tags.join(', ')
+      tags: destination.tags.join(', '),
+      destinationSelected: true
     }));
     setDestinationSuggestions([]);
+    setSelectedDestinationIndex(-1);
   };
 
   return (
@@ -279,6 +321,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
                 name="destinationName"
                 value={formData.destinationName}
                 onChange={handleChange}
+                onKeyDown={handleDestinationKeyDown}
                 className={`w-full px-3 py-2 border rounded-lg ${
                   errors.destinationName ? 'border-red-500' : 'border-gray-300'
                 } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
@@ -290,8 +333,13 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
                   {destinationSuggestions.map((dest, index) => (
                     <div
                       key={dest.name}
-                      className="p-2 hover:bg-gray-100 cursor-pointer"
+                      className={`p-2 cursor-pointer ${
+                        index === selectedDestinationIndex
+                          ? 'bg-blue-100 text-blue-800'
+                          : 'hover:bg-gray-100'
+                      }`}
                       onClick={() => handleDestinationSelect(dest)}
+                      onMouseEnter={() => setSelectedDestinationIndex(index)}
                     >
                       {dest.name}
                     </div>
