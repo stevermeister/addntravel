@@ -68,19 +68,19 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const validate = () => {
     const newErrors = {};
     if (!formData.destinationName) newErrors.destinationName = 'Destination name is required';
-    if (!formData.description) newErrors.description = 'Description is required';
-    if (!formData.estimatedBudget) newErrors.estimatedBudget = 'Budget is required';
     if (formData.estimatedBudget && isNaN(formData.estimatedBudget)) {
       newErrors.estimatedBudget = 'Budget must be a number';
     }
-    return newErrors;
+    if (formData.daysRequired && isNaN(formData.daysRequired)) {
+      newErrors.daysRequired = 'Days must be a number';
+    }
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const newErrors = validate();
-    
-    if (Object.keys(newErrors).length === 0) {
+    if (validate()) {
       const tagsArray = formData.tags
         .split(',')
         .map(tag => tag.trim().toLowerCase())
@@ -110,8 +110,6 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
           daysRequired: 'Error processing days required'
         }));
       }
-    } else {
-      setErrors(newErrors);
     }
   };
 
@@ -308,7 +306,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
-              Description*
+              Description
             </label>
             <textarea
               name="description"
@@ -318,6 +316,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
               className={`w-full px-3 py-2 border rounded-lg ${
                 errors.description ? 'border-red-500' : 'border-gray-300'
               } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
+              placeholder="Optional: Add some notes about this destination"
             />
             {errors.description && (
               <p className="text-red-500 text-sm mt-1">{errors.description}</p>
@@ -327,16 +326,17 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                Budget (USD)*
+                Budget
               </label>
               <input
-                type="number"
+                type="text"
                 name="estimatedBudget"
                 value={formData.estimatedBudget}
                 onChange={handleChange}
                 className={`w-full px-3 py-2 border rounded-lg ${
                   errors.estimatedBudget ? 'border-red-500' : 'border-gray-300'
                 } focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
+                placeholder="Optional: Enter estimated budget"
               />
               {errors.estimatedBudget && (
                 <p className="text-red-500 text-sm mt-1">{errors.estimatedBudget}</p>
