@@ -3,122 +3,94 @@ import React from 'react';
 const FilterSortControls = ({
   searchQuery = '',
   setSearchQuery = () => {},
-  sortCriteria = 'name',
-  setSortCriteria = () => {},
-  sortDirection = 'asc',
-  setSortDirection = () => {},
-  selectedSeason = '',
-  setSelectedSeason = () => {},
-  selectedTypes = [],
-  setSelectedTypes = () => {}
+  selectedSeason,
+  setSelectedSeason,
+  selectedTypes,
+  setSelectedTypes,
+  sortCriteria,
+  setSortCriteria,
+  sortDirection,
+  setSortDirection
 }) => {
-  const seasons = [
-    { value: '', label: 'All Seasons' },
-    { value: 'winter', label: 'Winter' },
-    { value: 'spring', label: 'Spring' },
-    { value: 'summer', label: 'Summer' },
-    { value: 'autumn', label: 'Autumn' }
-  ];
-
-  const types = [
-    'beach',
-    'city',
-    'culture',
-    'nature',
-    'adventure',
-    'luxury',
-    'history',
-    'desert'
+  const seasons = ['Spring', 'Summer', 'Autumn', 'Winter'];
+  const types = ['city', 'beach', 'mountain', 'countryside', 'cultural', 'adventure'];
+  const sortOptions = [
+    { value: 'name', label: 'Name' },
+    { value: 'estimatedBudget', label: 'Budget' },
+    { value: 'min_days', label: 'Duration' }
   ];
 
   const handleTypeToggle = (type) => {
-    setSelectedTypes(prev => 
-      prev.includes(type)
-        ? prev.filter(t => t !== type)
-        : [...prev, type]
-    );
+    if (selectedTypes.includes(type)) {
+      setSelectedTypes(selectedTypes.filter(t => t !== type));
+    } else {
+      setSelectedTypes([...selectedTypes, type]);
+    }
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Search Input */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Search Destinations
-          </label>
-          <input
-            type="text"
-            placeholder="Search by name or description..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
-          />
-        </div>
-
-        {/* Sort Controls */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Sort By
-          </label>
-          <div className="flex space-x-2">
-            <select
-              value={sortCriteria}
-              onChange={(e) => setSortCriteria(e.target.value)}
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
-            >
-              <option value="name">Name</option>
-              <option value="dateAdded">Date Added</option>
-              <option value="estimatedBudget">Budget</option>
-            </select>
+    <div className="space-y-4">
+      {/* Season Filter */}
+      <div>
+        <h4 className="text-sm font-medium text-gray-700 mb-2">Season</h4>
+        <div className="flex flex-wrap gap-2">
+          {seasons.map(season => (
             <button
-              onClick={() => setSortDirection(prev => prev === 'asc' ? 'desc' : 'asc')}
-              className="px-3 py-2 border border-gray-300 rounded-lg hover:bg-gray-50"
-              title={sortDirection === 'asc' ? 'Sort Ascending' : 'Sort Descending'}
+              key={season}
+              onClick={() => setSelectedSeason(selectedSeason === season ? '' : season)}
+              className={`px-3 py-1 rounded-full text-sm ${
+                selectedSeason === season
+                  ? 'bg-blue-100 text-blue-800'
+                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              }`}
             >
-              {sortDirection === 'asc' ? '↑' : '↓'}
+              {season}
             </button>
-          </div>
+          ))}
         </div>
+      </div>
 
-        {/* Season Filter */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Season
-          </label>
+      {/* Type Filter */}
+      <div>
+        <h4 className="text-sm font-medium text-gray-700 mb-2">Type</h4>
+        <div className="flex flex-wrap gap-2">
+          {types.map(type => (
+            <button
+              key={type}
+              onClick={() => handleTypeToggle(type)}
+              className={`px-3 py-1 rounded-full text-sm capitalize ${
+                selectedTypes.includes(type)
+                  ? 'bg-blue-100 text-blue-800'
+                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+              }`}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Sort Controls */}
+      <div>
+        <h4 className="text-sm font-medium text-gray-700 mb-2">Sort by</h4>
+        <div className="flex gap-2">
           <select
-            value={selectedSeason}
-            onChange={(e) => setSelectedSeason(e.target.value)}
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+            value={sortCriteria}
+            onChange={(e) => setSortCriteria(e.target.value)}
+            className="block w-full px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           >
-            {seasons.map(season => (
-              <option key={season.value} value={season.value}>
-                {season.label}
+            {sortOptions.map(option => (
+              <option key={option.value} value={option.value}>
+                {option.label}
               </option>
             ))}
           </select>
-        </div>
-
-        {/* Type Filters */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
-            Types
-          </label>
-          <div className="flex flex-wrap gap-2">
-            {types.map(type => (
-              <button
-                key={type}
-                onClick={() => handleTypeToggle(type)}
-                className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                  selectedTypes.includes(type)
-                    ? 'bg-blue-500 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {type}
-              </button>
-            ))}
-          </div>
+          <button
+            onClick={() => setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')}
+            className="px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50"
+          >
+            {sortDirection === 'asc' ? '↑' : '↓'}
+          </button>
         </div>
       </div>
     </div>

@@ -33,16 +33,18 @@ const TravelCalendar = ({ onDateRangeChange }) => {
   };
 
   return (
-    <div className="mb-6 bg-white rounded-lg shadow-md p-4">
-      <div className="flex justify-between items-center cursor-pointer" 
-           onClick={() => setIsExpanded(!isExpanded)}>
+    <div className="bg-white rounded-lg shadow-sm p-4">
+      <div 
+        className="flex justify-between items-center cursor-pointer" 
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
         <div>
           <h3 className="text-lg font-semibold text-gray-800">Travel Dates</h3>
           {dateRange && (
             <p className="text-sm text-gray-600 mt-1">{formatDateRange()}</p>
           )}
         </div>
-        <button className="text-gray-500 hover:text-gray-700">
+        <button className="text-gray-500 hover:text-gray-700 transition-colors">
           {isExpanded ? '▼' : '▶'}
         </button>
       </div>
@@ -53,14 +55,16 @@ const TravelCalendar = ({ onDateRangeChange }) => {
             onChange={handleDateChange}
             value={dateRange}
             selectRange={true}
+            className="w-full text-sm border-0 shadow-none"
+            tileClassName="text-sm p-1"
+            prevLabel="‹"
+            nextLabel="›"
+            prev2Label={null}
+            next2Label={null}
+            minDetail="month"
+            maxDetail="month"
             minDate={new Date()}
-            className="border-0 w-full"
-            tileClassName="rounded-lg"
-            prevLabel="◀"
-            nextLabel="▶"
-            navigationLabel={({ date }) => 
-              date.toLocaleDateString(undefined, { month: 'long', year: 'numeric' })
-            }
+            calendarType="gregory"
           />
         </div>
       )}
