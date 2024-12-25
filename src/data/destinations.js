@@ -219,7 +219,7 @@ export const destinations = [
       "shopping",
       "art-gallery"
     ],
-    "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1200&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1483729558449-3424ed129620?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "name": "Mexico City, Mexico",
@@ -327,7 +327,7 @@ export const destinations = [
       "shopping",
       "nightlife"
     ],
-    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+    "imageUrl": "https://images.unsplash.com/photo-1555990793-2525da8ba833?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "name": "Lisbon, Portugal",
@@ -558,6 +558,342 @@ export const destinations = [
       "photography",
       "archaeological",
       "heritage-site"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Kyoto, Japan",
+    "tags": [
+      "culture",
+      "temples",
+      "historical",
+      "food-scene",
+      "gardens",
+      "traditional"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+  },
+  {
+    "name": "Yellowstone National Park, USA",
+    "tags": [
+      "nature",
+      "wildlife",
+      "hiking",
+      "geothermal",
+      "photography",
+      "camping"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Dubrovnik, Croatia",
+    "tags": [
+      "historical",
+      "coastal",
+      "architecture",
+      "medieval",
+      "beaches",
+      "game-of-thrones"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1555990793-2525da8ba833?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Angkor Wat, Cambodia",
+    "tags": [
+      "temples",
+      "historical",
+      "archaeology",
+      "unesco",
+      "culture",
+      "photography"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Serengeti National Park, Tanzania",
+    "tags": [
+      "safari",
+      "wildlife",
+      "nature",
+      "photography",
+      "adventure",
+      "migration"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Cinque Terre, Italy",
+    "tags": [
+      "coastal",
+      "villages",
+      "hiking",
+      "food-scene",
+      "photography",
+      "unesco"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Cappadocia, Turkey",
+    "tags": [
+      "unique",
+      "hot-air-balloon",
+      "historical",
+      "caves",
+      "landscape",
+      "photography"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Galapagos Islands, Ecuador",
+    "tags": [
+      "wildlife",
+      "nature",
+      "islands",
+      "diving",
+      "unique",
+      "eco-tourism"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Petra, Jordan",
+    "tags": [
+      "historical",
+      "archaeology",
+      "unesco",
+      "desert",
+      "architecture",
+      "ancient"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1579606032821-4e6161c81bd3?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Banff National Park, Canada",
+    "tags": [
+      "mountains",
+      "nature",
+      "hiking",
+      "lakes",
+      "wildlife",
+      "skiing"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1561134643-668f9057cce4?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Havana, Cuba",
+    "tags": [
+      "culture",
+      "historical",
+      "music",
+      "architecture",
+      "vintage-cars",
+      "beaches"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1500759285222-a95626b934cb?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Zhangjiajie National Forest Park, China",
+    "tags": [
+      "nature",
+      "mountains",
+      "hiking",
+      "unique",
+      "photography",
+      "avatar-mountains"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1513977055327-83666731a366?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Reykjavik, Iceland",
+    "tags": [
+      "northern-lights",
+      "nature",
+      "hot-springs",
+      "culture",
+      "unique",
+      "winter"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Queenstown, New Zealand",
+    "tags": [
+      "adventure",
+      "mountains",
+      "skiing",
+      "hiking",
+      "nature",
+      "adrenaline"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Salar de Uyuni, Bolivia",
+    "tags": [
+      "unique",
+      "nature",
+      "photography",
+      "desert",
+      "landscape",
+      "salt-flats"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Maui, Hawaii",
+    "tags": [
+      "beaches",
+      "nature",
+      "surfing",
+      "volcanoes",
+      "tropical",
+      "relaxation"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Tuscany, Italy",
+    "tags": [
+      "countryside",
+      "wine",
+      "food-scene",
+      "culture",
+      "history",
+      "relaxation"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Kruger National Park, South Africa",
+    "tags": [
+      "safari",
+      "wildlife",
+      "nature",
+      "big-five",
+      "photography",
+      "adventure"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Swiss Alps",
+    "tags": [
+      "mountains",
+      "skiing",
+      "hiking",
+      "nature",
+      "scenic-trains",
+      "adventure"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Amalfi Coast, Italy",
+    "tags": [
+      "coastal",
+      "scenic-drive",
+      "food-scene",
+      "beaches",
+      "villages",
+      "mediterranean"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Great Barrier Reef, Australia",
+    "tags": [
+      "diving",
+      "snorkeling",
+      "marine-life",
+      "nature",
+      "coral",
+      "beaches"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Victoria Falls, Zimbabwe/Zambia",
+    "tags": [
+      "waterfalls",
+      "nature",
+      "adventure",
+      "wildlife",
+      "photography",
+      "unesco"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Machu Picchu, Peru",
+    "tags": [
+      "historical",
+      "archaeology",
+      "unesco",
+      "hiking",
+      "mountains",
+      "inca"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Santorini, Greece",
+    "tags": [
+      "islands",
+      "beaches",
+      "romantic",
+      "sunsets",
+      "architecture",
+      "mediterranean"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Moraine Lake, Canada",
+    "tags": [
+      "nature",
+      "mountains",
+      "hiking",
+      "photography",
+      "lakes",
+      "scenic"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Taj Mahal, India",
+    "tags": [
+      "historical",
+      "architecture",
+      "unesco",
+      "culture",
+      "photography",
+      "romantic"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Antelope Canyon, USA",
+    "tags": [
+      "nature",
+      "photography",
+      "unique",
+      "desert",
+      "landscape",
+      "geology"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "name": "Trolltunga, Norway",
+    "tags": [
+      "hiking",
+      "nature",
+      "adventure",
+      "photography",
+      "mountains",
+      "fjords"
     ],
     "imageUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
   }
