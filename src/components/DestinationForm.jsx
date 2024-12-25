@@ -39,12 +39,15 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         max_days: initialData.max_days || 0,
         destinationSelected: true
       });
+      // Clear any existing tag suggestions when editing
+      setTagSuggestions([]);
+      setCurrentTagInput('');
     }
   }, [initialData]);
 
   // Get tag suggestions when location changes
   useEffect(() => {
-    if (formData.destinationName) {
+    if (formData.destinationName && formData.destinationSelected && currentTagInput) {
       const fetchSuggestions = async () => {
         setIsLoadingSuggestions(true);
         const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
@@ -53,8 +56,10 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         setIsLoadingSuggestions(false);
       };
       fetchSuggestions();
+    } else {
+      setTagSuggestions([]);
     }
-  }, [formData.destinationName]);
+  }, [formData.destinationName, formData.destinationSelected, currentTagInput]);
 
   // Get destination suggestions when typing the name
   useEffect(() => {
@@ -176,10 +181,13 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         handleAddTag(newTag);
       }
       setCurrentTagInput('');
-    } else {
-      // Update suggestions based on current input
+      setTagSuggestions([]); // Clear suggestions after adding tag
+    } else if (input.trim() && !initialData?.id) { // Only show suggestions if not editing
+      // Only show suggestions if there's non-empty input
       const suggestions = getLocalTagSuggestions(input);
       setTagSuggestions(suggestions);
+    } else {
+      setTagSuggestions([]); // Clear suggestions if input is empty or editing
     }
   };
 
@@ -195,6 +203,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         tags: [...currentTags, tagToAdd].join(', ')
       }));
     }
+    setTagSuggestions([]); // Clear suggestions after adding tag
   };
 
   // Handle selecting a suggestion
@@ -206,6 +215,18 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   // Handle keyboard navigation
   const handleTagInputKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (selectedSuggestionIndex >= 0 && tagSuggestions.length > 0) {
+        handleSuggestionClick(tagSuggestions[selectedSuggestionIndex]);
+      } else if (currentTagInput.trim()) {
+        handleAddTag(currentTagInput.trim());
+        setCurrentTagInput('');
+      }
+      setTagSuggestions([]); // Clear suggestions after adding tag
+      return;
+    }
+
     if (tagSuggestions.length === 0) return;
 
     switch (e.key) {
@@ -218,15 +239,6 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       case 'ArrowUp':
         e.preventDefault();
         setSelectedSuggestionIndex(prev => prev > 0 ? prev - 1 : -1);
-        break;
-      case 'Enter':
-        e.preventDefault();
-        if (selectedSuggestionIndex >= 0) {
-          handleSuggestionClick(tagSuggestions[selectedSuggestionIndex]);
-        } else if (currentTagInput.trim()) {
-          handleAddTag(currentTagInput.trim());
-          setCurrentTagInput('');
-        }
         break;
       case 'Escape':
         e.preventDefault();
