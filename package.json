@@ -24,5 +24,8 @@
     "prebuild": "node scripts/updateVersion.js",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
   }
 }
