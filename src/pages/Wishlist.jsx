@@ -158,11 +158,12 @@ const Wishlist = () => {
 
     // Then, sort the filtered results
     return [...filtered].sort((a, b) => {
+      if (!a || !b) return 0;
       let comparison = 0;
       
       switch (sortCriteria) {
         case 'name':
-          comparison = a.name.localeCompare(b.name);
+          comparison = (a.name || '').localeCompare(b.name || '');
           break;
         case 'estimatedBudget':
           comparison = (a.estimatedBudget || 0) - (b.estimatedBudget || 0);
@@ -176,7 +177,7 @@ const Wishlist = () => {
           comparison = getAverageDays(a) - getAverageDays(b);
           break;
         case 'dateAdded':
-          comparison = new Date(a.dateAdded) - new Date(b.dateAdded);
+          comparison = (new Date(a.dateAdded || 0)) - (new Date(b.dateAdded || 0));
           break;
         default:
           comparison = 0;
