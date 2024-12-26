@@ -22,8 +22,8 @@ const Wishlist = () => {
   const [selectedSeason, setSelectedSeason] = useState('');
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedDateRange, setSelectedDateRange] = useState(null);
-  const [sortCriteria, setSortCriteria] = useState('name');
-  const [sortDirection, setSortDirection] = useState('asc');
+  const [sortCriteria, setSortCriteria] = useState('dateAdded');
+  const [sortDirection, setSortDirection] = useState('desc');
   const [suggestions, setSuggestions] = useState([]);
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
   const [isFiltersExpanded, setIsFiltersExpanded] = useState(false);
@@ -33,8 +33,8 @@ const Wishlist = () => {
     if (searchQuery) params.set('search', searchQuery);
     if (selectedSeason) params.set('season', selectedSeason);
     if (selectedTypes.length > 0) params.set('types', selectedTypes.join(','));
-    if (sortCriteria !== 'name') params.set('sort', sortCriteria);
-    if (sortDirection !== 'asc') params.set('order', sortDirection);
+    if (sortCriteria !== 'dateAdded') params.set('sort', sortCriteria);
+    if (sortDirection !== 'desc') params.set('order', sortDirection);
     
     setSearchParams(params);
   }, [searchQuery, selectedSeason, selectedTypes, sortCriteria, sortDirection]);
