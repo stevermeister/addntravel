@@ -23,6 +23,7 @@ const Wishlist = () => {
   const [sortDirection, setSortDirection] = useState('desc');
   const [suggestions, setSuggestions] = useState([]);
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
+  const [isCalendarOpen, setIsCalendarOpen] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -154,36 +155,57 @@ const Wishlist = () => {
   };
 
   const sortedDestinations = useMemo(() => {
-    return [...destinations].sort((a, b) => {
+    // First apply filters
+    let filtered = destinations.filter(dest => {
+      // Search filter
+      const matchesSearch = !searchQuery || (
+        dest.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (dest.description && dest.description.toLowerCase().includes(searchQuery.toLowerCase()))
+      );
+
+      // Date range filter
+      const matchesDateRange = !selectedDateRange || (() => {
+        if (!dest.min_days) return true;
+        
+        const availableDays = selectedDateRange.availableDays;
+        const destMinDays = dest.min_days;
+        const destMaxDays = dest.max_days || destMinDays;
+        
+        // Calculate flexible range (+/- 50%)
+        const minFlexible = destMinDays * 0.5;
+        const maxFlexible = destMaxDays * 1.5;
+        
+        return availableDays >= minFlexible && availableDays <= maxFlexible;
+      })();
+
+      return matchesSearch && matchesDateRange;
+    });
+
+    // Then sort
+    return filtered.sort((a, b) => {
       if (!a || !b) return 0;
       let comparison = 0;
       
       switch (sortCriteria) {
         case 'name':
-          comparison = (a.name || '').localeCompare(b.name || '');
+          comparison = a.name.localeCompare(b.name);
           break;
         case 'estimatedBudget':
           comparison = (a.estimatedBudget || 0) - (b.estimatedBudget || 0);
           break;
-        case 'daysRequired':
-          const getAverageDays = (days) => {
-            if (!days) return 0;
-            const [min, max] = [days.min_days, days.max_days];
-            return max ? (min + max) / 2 : min;
-          };
-          comparison = getAverageDays(a) - getAverageDays(b);
-          break;
-        case 'dateAdded':
-          comparison = (new Date(a.dateAdded || 0)) - (new Date(b.dateAdded || 0));
+        case 'min_days':
+          comparison = (a.min_days || 0) - (b.min_days || 0);
           break;
         default:
-          comparison = 0;
+          comparison = new Date(b.dateAdded) - new Date(a.dateAdded);
       }
-
+      
       return sortDirection === 'asc' ? comparison : -comparison;
     });
   }, [
     destinations,
+    searchQuery,
+    selectedDateRange,
     sortCriteria,
     sortDirection
   ]);
@@ -192,42 +214,74 @@ const Wishlist = () => {
     <div className="container mx-auto px-4 py-8">
       {destinations.length > 0 ? (
         <>
-          <div className="flex flex-wrap items-center justify-between mb-6 gap-4">
-            <div className="flex-1 min-w-0 max-w-2xl">
-              <div className="flex items-center gap-4">
-                <h1 className="text-3xl font-bold text-gray-900 whitespace-nowrap">Travel Wishlist</h1>
-                <div className="relative flex-1 min-w-0">
+          {/* Header with search and add button */}
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 space-y-4 md:space-y-0">
+            <div className="flex-1 w-full md:w-auto md:mr-4">
+              <div className="flex gap-3 items-center w-full">
+                <div className="relative flex-1">
                   <input
                     type="text"
+                    placeholder="Type to search..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search destinations..."
-                    className="w-full px-4 py-2 pl-10 pr-4 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full h-12 px-4 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none pl-11 shadow-sm placeholder:text-gray-400"
                   />
-                  <span className="absolute inset-y-0 left-3 flex items-center text-gray-400">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+                  <span className="absolute left-3.5 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    <span className="material-symbols-outlined text-xl">search</span>
                   </span>
                 </div>
+                <div className="relative">
+                  <button
+                    onClick={() => setIsCalendarOpen(!isCalendarOpen)}
+                    className={`h-12 px-4 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl flex items-center gap-2 transition-all shadow-sm
+                      ${selectedDateRange 
+                        ? 'hover:border-gray-300' 
+                        : 'hover:border-gray-300'
+                      }`}
+                  >
+                    <span className="material-symbols-outlined text-xl text-gray-400">calendar_month</span>
+                    {selectedDateRange ? (
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600">
+                          {new Date(selectedDateRange.startDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                          <span className="mx-1.5 text-gray-400">→</span>
+                          {new Date(selectedDateRange.endDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                        </span>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedDateRange(null);
+                          }}
+                          className="p-1 -mr-1.5 hover:bg-gray-100 rounded-full transition-colors"
+                          aria-label="Clear dates"
+                        >
+                          <span className="material-symbols-outlined text-[18px] text-gray-400 hover:text-gray-600">close</span>
+                        </button>
+                      </div>
+                    ) : (
+                      <span className="text-sm text-gray-500">Select dates</span>
+                    )}
+                  </button>
+                  <TravelCalendar
+                    onDateRangeChange={handleDateRangeChange}
+                    isOpen={isCalendarOpen}
+                    onClose={() => setIsCalendarOpen(false)}
+                  />
+                </div>
+                <button
+                  onClick={() => setShowAddForm(true)}
+                  className="h-12 px-5 bg-blue-600 text-white rounded-2xl hover:bg-blue-700 transition-colors flex items-center gap-2 whitespace-nowrap font-medium shadow-sm"
+                >
+                  <span className="material-symbols-outlined text-[20px]">add</span>
+                  Destination
+                </button>
               </div>
             </div>
-            <button
-              onClick={() => setShowAddForm(true)}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors duration-200 whitespace-nowrap"
-            >
-              Add Destination
-            </button>
           </div>
 
           <div className="grid grid-cols-12 gap-6">
-            {/* Left sidebar with calendar */}
-            <div className="col-span-12 md:col-span-3 space-y-4">
-              <TravelCalendar onDateRangeChange={handleDateRangeChange} />
-            </div>
-
             {/* Main content area */}
-            <div className="col-span-12 md:col-span-9">
+            <div className="col-span-12 space-y-6">
               {/* Destinations grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {sortedDestinations.map(destination => (
