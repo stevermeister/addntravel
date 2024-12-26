@@ -5,7 +5,6 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { parseDatePeriod } from '../utils/dateParser';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
-import FilterSortControls from '../components/FilterSortControls';
 import TravelCalendar from '../components/TravelCalendar';
 import AISuggestions from '../components/AISuggestions';
 
@@ -19,20 +18,15 @@ const Wishlist = () => {
   const [showAddForm, setShowAddForm] = useState(false);
   const [editingDestination, setEditingDestination] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedSeason, setSelectedSeason] = useState('');
-  const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedDateRange, setSelectedDateRange] = useState(null);
   const [sortCriteria, setSortCriteria] = useState('dateAdded');
   const [sortDirection, setSortDirection] = useState('desc');
   const [suggestions, setSuggestions] = useState([]);
   const [isLoadingSuggestions, setIsLoadingSuggestions] = useState(false);
-  const [isFiltersExpanded, setIsFiltersExpanded] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams();
     if (searchQuery) params.set('search', searchQuery);
-    if (selectedSeason) params.set('season', selectedSeason);
-    if (selectedTypes.length > 0) params.set('types', selectedTypes.join(','));
     if (sortCriteria !== 'dateAdded') params.set('sort', sortCriteria);
     if (sortDirection !== 'desc') params.set('order', sortDirection);
     if (selectedDateRange) {
@@ -42,7 +36,7 @@ const Wishlist = () => {
     }
     
     setSearchParams(params);
-  }, [searchQuery, selectedSeason, selectedTypes, sortCriteria, sortDirection, selectedDateRange]);
+  }, [searchQuery, sortCriteria, sortDirection, selectedDateRange]);
 
   useEffect(() => {
     const userId = auth.currentUser?.uid;
@@ -76,8 +70,6 @@ const Wishlist = () => {
 
   useEffect(() => {
     const search = searchParams.get('search') || '';
-    const season = searchParams.get('season') || '';
-    const types = searchParams.get('types')?.split(',') || [];
     const sort = searchParams.get('sort') || 'dateAdded';
     const order = searchParams.get('order') || 'desc';
     const startDate = searchParams.get('startDate');
@@ -85,8 +77,6 @@ const Wishlist = () => {
     const availableDays = searchParams.get('availableDays');
 
     setSearchQuery(search);
-    setSelectedSeason(season);
-    setSelectedTypes(types);
     setSortCriteria(sort);
     setSortDirection(order);
     
@@ -163,58 +153,8 @@ const Wishlist = () => {
     setSelectedDateRange({ startDate, endDate, availableDays });
   };
 
-  const filteredAndSortedDestinations = useMemo(() => {
-    // First, apply filters
-    let filtered = destinations.filter(dest => {
-      const matchesSearch = !searchQuery || (
-        dest.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (dest.description && dest.description.toLowerCase().includes(searchQuery.toLowerCase()))
-      );
-
-      // Check if destination's preferred season matches the selected date range's season
-      const getSeason = (date) => {
-        const month = date.getMonth();
-        if (month >= 2 && month <= 4) return 'spring';
-        if (month >= 5 && month <= 7) return 'summer';
-        if (month >= 8 && month <= 10) return 'autumn';
-        return 'winter';
-      };
-
-      const matchesSeason = !selectedDateRange || (() => {
-        // If specific season is selected, use that
-        if (selectedSeason) {
-          return dest.preferredSeason === selectedSeason;
-        }
-        // Otherwise, check if destination's season matches the selected date range's season
-        if (selectedDateRange?.startDate) {
-          const dateRangeSeason = getSeason(new Date(selectedDateRange.startDate));
-          return dest.preferredSeason === dateRangeSeason;
-        }
-        return true;
-      })();
-      
-      const matchesTypes = selectedTypes.length === 0 || 
-        (dest.tags && dest.tags.some(tag => selectedTypes.includes(tag)));
-
-      const matchesDuration = !selectedDateRange || (() => {
-        if (!dest.min_days) return true;
-        
-        const availableDays = selectedDateRange.availableDays;
-        const destMinDays = dest.min_days;
-        const destMaxDays = dest.max_days || destMinDays;
-        
-        // Calculate flexible range (+/- 50%)
-        const minFlexible = destMinDays * 0.5;
-        const maxFlexible = destMaxDays * 1.5;
-        
-        return availableDays >= minFlexible && availableDays <= maxFlexible;
-      })();
-
-      return matchesSearch && matchesSeason && matchesTypes && matchesDuration;
-    });
-
-    // Then, sort the filtered results
-    return [...filtered].sort((a, b) => {
+  const sortedDestinations = useMemo(() => {
+    return [...destinations].sort((a, b) => {
       if (!a || !b) return 0;
       let comparison = 0;
       
@@ -244,16 +184,9 @@ const Wishlist = () => {
     });
   }, [
     destinations,
-    searchQuery,
-    selectedSeason,
-    selectedTypes,
-    selectedDateRange,
     sortCriteria,
     sortDirection
   ]);
-
-  const allSeasons = ['winter', 'spring', 'summer', 'autumn'];
-  const allTypes = ['city', 'beach', 'mountain', 'countryside', 'cultural', 'adventure'];
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -288,84 +221,16 @@ const Wishlist = () => {
           </div>
 
           <div className="grid grid-cols-12 gap-6">
-            {/* Left sidebar with calendar and filters */}
+            {/* Left sidebar with calendar */}
             <div className="col-span-12 md:col-span-3 space-y-4">
               <TravelCalendar onDateRangeChange={handleDateRangeChange} />
-              
-              <div className="bg-white rounded-lg shadow-sm p-4">
-                <div 
-                  className="flex justify-between items-center cursor-pointer" 
-                  onClick={() => setIsFiltersExpanded(!isFiltersExpanded)}
-                >
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-800">Filters</h3>
-                    <p className="text-sm text-gray-600 mt-1">
-                      {[
-                        selectedSeason && '🗓 Season',
-                        selectedTypes.length > 0 && `🏷 ${selectedTypes.length} types`,
-                        sortCriteria !== 'name' && `📊 Sort: ${sortCriteria}`
-                      ].filter(Boolean).join(', ') || 'No filters applied'}
-                    </p>
-                  </div>
-                  <button className="text-gray-500 hover:text-gray-700 transition-colors">
-                    {isFiltersExpanded ? '▼' : '▶'}
-                  </button>
-                </div>
-                
-                {isFiltersExpanded && (
-                  <div className="mt-4">
-                    <FilterSortControls
-                      selectedSeason={selectedSeason}
-                      setSelectedSeason={setSelectedSeason}
-                      selectedTypes={selectedTypes}
-                      setSelectedTypes={setSelectedTypes}
-                      sortCriteria={sortCriteria}
-                      setSortCriteria={setSortCriteria}
-                      sortDirection={sortDirection}
-                      setSortDirection={setSortDirection}
-                    />
-                  </div>
-                )}
-              </div>
             </div>
 
             {/* Main content area */}
             <div className="col-span-12 md:col-span-9">
-              {/* Active filters display */}
-              {(selectedSeason || selectedTypes.length > 0) && (
-                <div className="mb-4 p-3 bg-gray-50 rounded-lg">
-                  <div className="flex flex-wrap items-center justify-between">
-                    <div className="flex flex-wrap gap-2 items-center">
-                      <span className="text-sm text-gray-600">Active filters:</span>
-                      {selectedSeason && (
-                        <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                          {selectedSeason}
-                        </span>
-                      )}
-                      {selectedTypes.map(type => (
-                        <span key={type} className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                          {type}
-                        </span>
-                      ))}
-                    </div>
-                    <button
-                      onClick={() => {
-                        setSelectedSeason('');
-                        setSelectedTypes([]);
-                        setSortCriteria('name');
-                        setSortDirection('asc');
-                      }}
-                      className="text-sm text-gray-500 hover:text-gray-700 whitespace-nowrap ml-2"
-                    >
-                      Clear all
-                    </button>
-                  </div>
-                </div>
-              )}
-
               {/* Destinations grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredAndSortedDestinations.map(destination => (
+                {sortedDestinations.map(destination => (
                   <DestinationCard
                     key={destination.id}
                     destination={destination}
@@ -403,8 +268,6 @@ const Wishlist = () => {
             setEditingDestination(null);
           }}
           initialData={editingDestination}
-          allSeasons={allSeasons}
-          allTypes={allTypes}
         />
       )}
     </div>
