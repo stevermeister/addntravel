@@ -35,9 +35,14 @@ const Wishlist = () => {
     if (selectedTypes.length > 0) params.set('types', selectedTypes.join(','));
     if (sortCriteria !== 'dateAdded') params.set('sort', sortCriteria);
     if (sortDirection !== 'desc') params.set('order', sortDirection);
+    if (selectedDateRange) {
+      params.set('startDate', selectedDateRange.startDate);
+      params.set('endDate', selectedDateRange.endDate);
+      params.set('availableDays', selectedDateRange.availableDays.toString());
+    }
     
     setSearchParams(params);
-  }, [searchQuery, selectedSeason, selectedTypes, sortCriteria, sortDirection]);
+  }, [searchQuery, selectedSeason, selectedTypes, sortCriteria, sortDirection, selectedDateRange]);
 
   useEffect(() => {
     const userId = auth.currentUser?.uid;
@@ -67,6 +72,31 @@ const Wishlist = () => {
     });
 
     return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    const search = searchParams.get('search') || '';
+    const season = searchParams.get('season') || '';
+    const types = searchParams.get('types')?.split(',') || [];
+    const sort = searchParams.get('sort') || 'dateAdded';
+    const order = searchParams.get('order') || 'desc';
+    const startDate = searchParams.get('startDate');
+    const endDate = searchParams.get('endDate');
+    const availableDays = searchParams.get('availableDays');
+
+    setSearchQuery(search);
+    setSelectedSeason(season);
+    setSelectedTypes(types);
+    setSortCriteria(sort);
+    setSortDirection(order);
+    
+    if (startDate && endDate && availableDays) {
+      setSelectedDateRange({
+        startDate,
+        endDate,
+        availableDays: parseInt(availableDays, 10)
+      });
+    }
   }, []);
 
   const handleAddDestination = async (newDest) => {
@@ -141,16 +171,43 @@ const Wishlist = () => {
         (dest.description && dest.description.toLowerCase().includes(searchQuery.toLowerCase()))
       );
 
-      const matchesSeason = !selectedSeason || dest.preferredSeason === selectedSeason;
+      // Check if destination's preferred season matches the selected date range's season
+      const getSeason = (date) => {
+        const month = date.getMonth();
+        if (month >= 2 && month <= 4) return 'spring';
+        if (month >= 5 && month <= 7) return 'summer';
+        if (month >= 8 && month <= 10) return 'autumn';
+        return 'winter';
+      };
+
+      const matchesSeason = !selectedDateRange || (() => {
+        // If specific season is selected, use that
+        if (selectedSeason) {
+          return dest.preferredSeason === selectedSeason;
+        }
+        // Otherwise, check if destination's season matches the selected date range's season
+        if (selectedDateRange?.startDate) {
+          const dateRangeSeason = getSeason(new Date(selectedDateRange.startDate));
+          return dest.preferredSeason === dateRangeSeason;
+        }
+        return true;
+      })();
       
       const matchesTypes = selectedTypes.length === 0 || 
         (dest.tags && dest.tags.some(tag => selectedTypes.includes(tag)));
 
       const matchesDuration = !selectedDateRange || (() => {
-        if (!dest.daysRequired) return true;
-        const [minDays, maxDays] = [dest.min_days, dest.max_days];
-        return selectedDateRange.availableDays >= minDays && 
-               (!maxDays || selectedDateRange.availableDays <= maxDays);
+        if (!dest.min_days) return true;
+        
+        const availableDays = selectedDateRange.availableDays;
+        const destMinDays = dest.min_days;
+        const destMaxDays = dest.max_days || destMinDays;
+        
+        // Calculate flexible range (+/- 50%)
+        const minFlexible = destMinDays * 0.5;
+        const maxFlexible = destMaxDays * 1.5;
+        
+        return availableDays >= minFlexible && availableDays <= maxFlexible;
       })();
 
       return matchesSearch && matchesSeason && matchesTypes && matchesDuration;
