@@ -88,36 +88,96 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (validate()) {
+    const errors = {};
+
+    // Validate required fields
+    if (!formData.destinationName.trim()) {
+      errors.destinationName = 'Destination name is required';
+    }
+
+    if (Object.keys(errors).length > 0) {
+      setErrors(errors);
+      return;
+    }
+
+    try {
       const tagsArray = formData.tags
         .split(',')
-        .map(tag => tag.trim().toLowerCase())
+        .map(tag => tag.trim())
         .filter(tag => tag);
 
-      try {
-        // Parse days required into min_days and max_days
-        const { min_days, max_days } = await parseDatePeriod(formData.daysRequired);
-        console.log('Parsed days:', { min_days, max_days });
+      const { min_days, max_days } = formData.daysRequired
+        ? await parseDatePeriod(formData.daysRequired)
+        : { min_days: formData.min_days || 0, max_days: formData.max_days || 0 };
 
-        const submissionData = {
-          ...formData,
-          id: initialData?.id || Date.now().toString(),
-          estimatedBudget: Number(formData.estimatedBudget),
-          tags: tagsArray,
-          min_days,
-          max_days,
-          status: 'wishlist'
-        };
-
-        await onSubmit(submissionData);
-        onClose();
-      } catch (error) {
-        console.error('Error processing form:', error);
-        setErrors(prev => ({
-          ...prev,
-          daysRequired: 'Error processing days required'
-        }));
+      // If it's a custom destination (not selected from suggestions)
+      if (!formData.destinationSelected) {
+        // Use default image if none provided
+        if (!formData.imageUrl) {
+          formData.imageUrl = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80';
+        }
       }
+
+      const submissionData = {
+        ...formData,
+        id: initialData?.id || Date.now().toString(),
+        estimatedBudget: Number(formData.estimatedBudget) || 0,
+        tags: tagsArray,
+        min_days,
+        max_days,
+        status: 'wishlist',
+        name: formData.destinationName // Ensure name is set for both custom and suggested destinations
+      };
+
+      await onSubmit(submissionData);
+      onClose();
+    } catch (error) {
+      console.error('Error processing form:', error);
+      setErrors(prev => ({
+        ...prev,
+        daysRequired: 'Error processing days required'
+      }));
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    
+    if (name === 'destinationName') {
+      // When typing manually, set destinationSelected to false
+      setFormData(prev => ({
+        ...prev,
+        [name]: value,
+        destinationSelected: false
+      }));
+
+      // Only show suggestions if there's input
+      if (value.trim()) {
+        const suggestions = destinations.filter(dest =>
+          dest.name.toLowerCase().includes(value.toLowerCase())
+        ).slice(0, 5);
+        setDestinationSuggestions(suggestions);
+      } else {
+        setDestinationSuggestions([]);
+      }
+    } else {
+      setFormData(prev => ({
+        ...prev,
+        [name]: value
+      }));
+    }
+
+    // Clear any error when the field is being edited
+    if (errors[name]) {
+      setErrors(prev => ({
+        ...prev,
+        [name]: ''
+      }));
+    }
+
+    // Update days hint if daysRequired field changes
+    if (name === 'daysRequired') {
+      updateDaysHint(value);
     }
   };
 
@@ -149,27 +209,6 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     []
   );
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value,
-      ...(name === 'destinationName' ? { destinationSelected: false } : {})
-    }));
-    // Clear error when user starts typing
-    if (errors[name]) {
-      setErrors(prev => ({
-        ...prev,
-        [name]: ''
-      }));
-    }
-    // Update days hint when daysRequired field changes
-    if (name === 'daysRequired') {
-      updateDaysHint(value);
-    }
-  };
-
-  // Handle tag input changes with local suggestions
   const handleTagInputChange = (e) => {
     const input = e.target.value;
     setCurrentTagInput(input);
