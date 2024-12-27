@@ -325,13 +325,6 @@ const Wishlist = () => {
                   <span className="material-symbols-outlined">add</span>
                   Add First Destination
                 </button>
-                <button
-                  onClick={() => document.getElementById('import-input')?.click()}
-                  className="px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 font-medium"
-                >
-                  <span className="material-symbols-outlined">upload_file</span>
-                  Import Your Data
-                </button>
               </div>
               
               <div className="relative">
