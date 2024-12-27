@@ -34,6 +34,7 @@ const Wishlist = () => {
       params.set('startDate', selectedDateRange.startDate);
       params.set('endDate', selectedDateRange.endDate);
       params.set('availableDays', selectedDateRange.availableDays.toString());
+      if (selectedDateRange.seasons) params.set('seasons', selectedDateRange.seasons.join(','));
     }
     
     setSearchParams(params);
@@ -76,6 +77,7 @@ const Wishlist = () => {
     const startDate = searchParams.get('startDate');
     const endDate = searchParams.get('endDate');
     const availableDays = searchParams.get('availableDays');
+    const seasons = searchParams.get('seasons');
 
     setSearchQuery(search);
     setSortCriteria(sort);
@@ -85,7 +87,8 @@ const Wishlist = () => {
       setSelectedDateRange({
         startDate,
         endDate,
-        availableDays: parseInt(availableDays, 10)
+        availableDays: parseInt(availableDays, 10),
+        seasons: seasons ? seasons.split(',') : null
       });
     }
   }, []);
@@ -164,8 +167,8 @@ const Wishlist = () => {
     alert('AI Suggestions feature is coming soon! Stay tuned for personalized travel recommendations.');
   };
 
-  const handleDateRangeChange = ({ startDate, endDate, availableDays }) => {
-    setSelectedDateRange({ startDate, endDate, availableDays });
+  const handleDateRangeChange = ({ startDate, endDate, availableDays, seasons }) => {
+    setSelectedDateRange({ startDate, endDate, availableDays, seasons });
   };
 
   const sortedDestinations = useMemo(() => {
@@ -188,8 +191,12 @@ const Wishlist = () => {
         // Calculate flexible range (+/- 50%)
         const minFlexible = destMinDays * 0.5;
         const maxFlexible = destMaxDays * 1.5;
+
+        // Season match
+        const matchesSeason = !dest.preferredSeason || !selectedDateRange.seasons || 
+          selectedDateRange.seasons.includes(dest.preferredSeason);
         
-        return availableDays >= minFlexible && availableDays <= maxFlexible;
+        return availableDays >= minFlexible && availableDays <= maxFlexible && matchesSeason;
       })();
 
       return matchesSearch && matchesDateRange;

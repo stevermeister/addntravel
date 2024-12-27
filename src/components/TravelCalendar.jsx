@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { getSeasonFromDateRange } from '../utils/seasonHelper';
 
 const TravelCalendar = ({ onDateRangeChange, isOpen, onClose }) => {
   const [dateRange, setDateRange] = useState([new Date(), new Date()]);
@@ -28,10 +29,12 @@ const TravelCalendar = ({ onDateRangeChange, isOpen, onClose }) => {
     if (Array.isArray(value) && value.length === 2) {
       const [start, end] = value;
       const daysDifference = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
+      const seasons = getSeasonFromDateRange(start, end);
       onDateRangeChange({
         startDate: start,
         endDate: end,
-        availableDays: daysDifference
+        availableDays: daysDifference,
+        seasons: Array.isArray(seasons) ? seasons : [seasons]
       });
       onClose();
     }
