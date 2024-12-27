@@ -3,6 +3,7 @@ import { parseDatePeriod } from '../utils/dateParser';
 import debounce from 'lodash/debounce';
 import { getSuggestedTags, correctTagSpelling, getLocalTagSuggestions } from '../utils/tagHelper';
 import { destinations } from '../data/destinations';
+import { searchDestinationImage } from '../utils/imageSearch';
 
 const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
@@ -15,7 +16,8 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     max_days: 0,
     tags: '',
     imageUrl: '',
-    destinationSelected: false
+    destinationSelected: false,
+    isLoadingImage: false
   });
 
   const [errors, setErrors] = useState({});
@@ -140,16 +142,42 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     }
   };
 
+  // Debounced function to search for images
+  const debouncedImageSearch = useCallback(
+    debounce(async (destination) => {
+      if (destination.trim()) {
+        const imageUrl = await searchDestinationImage(destination);
+        if (imageUrl) {
+          setFormData(prev => ({
+            ...prev,
+            imageUrl,
+            isLoadingImage: false
+          }));
+        }
+      } else {
+        setFormData(prev => ({
+          ...prev,
+          imageUrl: '',
+          isLoadingImage: false
+        }));
+      }
+    }, 500),
+    []
+  );
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     
     if (name === 'destinationName') {
-      // When typing manually, set destinationSelected to false
       setFormData(prev => ({
         ...prev,
         [name]: value,
-        destinationSelected: false
+        destinationSelected: false,
+        isLoadingImage: Boolean(value.trim())
       }));
+
+      // Search for image using debounced function
+      debouncedImageSearch(value);
 
       // Only show suggestions if there's input
       if (value.trim()) {
@@ -336,16 +364,25 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   };
 
   // Set default image when selecting a destination
-  const handleDestinationSelect = (destination) => {
+  const handleDestinationSelect = async (destination) => {
     setFormData(prev => ({
       ...prev,
       destinationName: destination.name,
-      imageUrl: destination.imageUrl || '',
-      tags: destination.tags.join(', '),
-      destinationSelected: true
+      destinationSelected: true,
+      isLoadingImage: true
     }));
     setDestinationSuggestions([]);
     setSelectedDestinationIndex(-1);
+
+    // Search for an image
+    const imageUrl = await searchDestinationImage(destination.name);
+    if (imageUrl) {
+      setFormData(prev => ({
+        ...prev,
+        imageUrl,
+        isLoadingImage: false
+      }));
+    }
   };
 
   return (
@@ -559,21 +596,14 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
             )}
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Image URL
-            </label>
-            <input
-              type="url"
-              name="imageUrl"
-              value={formData.imageUrl}
-              onChange={handleChange}
-              placeholder="https://..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
-          </div>
+          {/* Hidden image URL field */}
+          <input
+            type="hidden"
+            name="imageUrl"
+            value={formData.imageUrl}
+          />
 
-          <div className="flex justify-end space-x-3 pt-4">
+          <div className="flex justify-end space-x-3 mt-6">
             <button
               type="button"
               onClick={onClose}
