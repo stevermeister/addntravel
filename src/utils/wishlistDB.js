@@ -14,23 +14,23 @@ class WishlistDatabase {
     return child(this.baseRef, `${auth.currentUser.uid}/destinations`);
   }
 
-  // Initialize database with default data if empty
+  // Initialize database with default data
   async initialize() {
     if (!auth.currentUser) {
       throw new Error('No user is signed in');
     }
-
-    const dbRef = this.getUserRef();
-    const snapshot = await get(dbRef);
-    if (!snapshot.exists()) {
-      await this.seedDatabase();
-    }
+    await this.seedDatabase();
     return true;
   }
 
   // Seed database with default destinations
   async seedDatabase() {
     const dbRef = this.getUserRef();
+    
+    // First clear any existing data
+    await set(dbRef, null);
+    
+    // Then add default destinations
     for (const destination of defaultDestinations) {
       const newRef = child(dbRef, destination.id.toString());
       await set(newRef, {
@@ -67,10 +67,10 @@ class WishlistDatabase {
   // Add a new destination
   async addDestination(destination) {
     const dbRef = this.getUserRef();
-    const newRef = child(dbRef, Date.now().toString());
+    const newRef = child(dbRef, Math.random().toString(36).substring(2, 15));
     const newDestination = {
       ...destination,
-      id: Date.now(),
+      id: newRef.key,
       dateAdded: new Date().toISOString()
     };
     await set(newRef, newDestination);
@@ -79,14 +79,14 @@ class WishlistDatabase {
 
   // Update an existing destination
   async updateDestination(id, updates) {
-    const destinationRef = child(this.getUserRef(), id.toString());
+    const destinationRef = child(this.getUserRef(), id);
     await update(destinationRef, updates);
     return { id, ...updates };
   }
 
   // Delete a destination
   async deleteDestination(id) {
-    const destinationRef = child(this.getUserRef(), id.toString());
+    const destinationRef = child(this.getUserRef(), id);
     await remove(destinationRef);
     return true;
   }
@@ -177,8 +177,12 @@ class WishlistDatabase {
     const destinations = JSON.parse(jsonData);
     await remove(this.getUserRef());
     for (const destination of destinations) {
-      const newRef = child(this.getUserRef(), destination.id.toString());
-      await set(newRef, destination);
+      const id = destination.id || Math.random().toString(36).substring(2, 15);
+      const newRef = child(this.getUserRef(), id);
+      await set(newRef, {
+        ...destination,
+        id: id
+      });
     }
     return true;
   }
@@ -187,7 +191,7 @@ class WishlistDatabase {
   async updateAllAnySeasons() {
     const destinations = await this.getAllDestinations();
     const updates = destinations.filter(dest => dest.preferredSeason === 'any').map(dest => {
-      const destinationRef = child(this.getUserRef(), dest.id.toString());
+      const destinationRef = child(this.getUserRef(), dest.id);
       return update(destinationRef, { preferredSeason: '' });
     });
     await Promise.all(updates);
@@ -198,7 +202,4 @@ class WishlistDatabase {
 
 // Create and export a single instance
 const wishlistDB = new WishlistDatabase();
-wishlistDB.initialize().catch(error => {
-  console.error('Failed to initialize database:', error);
-});
 export default wishlistDB;

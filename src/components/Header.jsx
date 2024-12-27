@@ -2,12 +2,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { versionInfo } from '../utils/version';
-import DataTransfer from './DataTransfer';
+import { exportWishlistData, importWishlistData } from '../utils/dataManager';
 
 const Header = () => {
   const { user, login, logout } = useAuth();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const fileInputRef = useRef(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -20,6 +21,31 @@ const Header = () => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  const handleImport = async (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    try {
+      await importWishlistData(file);
+      alert('Data imported successfully!');
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+    } catch (error) {
+      console.error('Error importing data:', error);
+      alert('Failed to import data. Please check the file format and try again.');
+    }
+  };
+
+  const handleExport = async () => {
+    try {
+      await exportWishlistData();
+    } catch (error) {
+      console.error('Error exporting data:', error);
+      alert('Failed to export data. Please try again.');
+    }
+  };
 
   const UserAvatar = () => {
     if (user?.photoURL) {
@@ -44,7 +70,6 @@ const Header = () => {
   const handleLogoClick = (e) => {
     e.preventDefault();
     navigate('/', { replace: true });
-    // The URL parameters will be cleared when navigating to root
   };
 
   return (
@@ -75,15 +100,22 @@ const Header = () => {
                     </div>
                     
                     <div className="py-1">
+                      <input
+                        type="file"
+                        ref={fileInputRef}
+                        onChange={handleImport}
+                        accept=".json"
+                        className="hidden"
+                      />
                       <button 
-                        onClick={() => document.getElementById('import-input')?.click()}
+                        onClick={() => fileInputRef.current?.click()}
                         className="w-full px-4 py-2.5 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
                       >
                         <span className="material-symbols-outlined text-gray-400">download</span>
                         Import Data
                       </button>
                       <button 
-                        onClick={() => document.getElementById('export-button')?.click()}
+                        onClick={handleExport}
                         className="w-full px-4 py-2.5 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
                       >
                         <span className="material-symbols-outlined text-gray-400">upload</span>
@@ -119,7 +151,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <DataTransfer />
     </header>
   );
 };

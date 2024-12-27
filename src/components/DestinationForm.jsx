@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { parseDatePeriod } from '../utils/dateParser';
+import { parseDatePeriod } from '../utils/date';
 import debounce from 'lodash/debounce';
 import { getSuggestedTags, correctTagSpelling, getLocalTagSuggestions } from '../utils/tagHelper';
 import { destinations } from '../data/destinations';
@@ -160,21 +160,50 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     };
   }, [onClose]);
 
-  // Get tag suggestions when location changes
+  // Get tag suggestions when typing
   useEffect(() => {
-    if (formData.destinationName && formData.destinationSelected && currentTagInput) {
-      const fetchSuggestions = async () => {
-        setIsLoadingSuggestions(true);
-        const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
-        const suggestions = await getSuggestedTags(formData.destinationName, currentTags);
-        setTagSuggestions(suggestions);
-        setIsLoadingSuggestions(false);
-      };
-      fetchSuggestions();
-    } else {
-      setTagSuggestions([]);
-    }
-  }, [formData.destinationName, formData.destinationSelected, currentTagInput]);
+    let mounted = true;
+
+    const fetchSuggestions = async () => {
+      if (!currentTagInput.trim()) {
+        setTagSuggestions([]);
+        return;
+      }
+
+      setIsLoadingSuggestions(true);
+      try {
+        // Always get local suggestions
+        const localSuggestions = getLocalTagSuggestions(currentTagInput.trim());
+        if (mounted) {
+          setTagSuggestions(localSuggestions);
+        }
+
+        // Only get AI/location-based suggestions if we have a destination name
+        if (formData.destinationName) {
+          const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
+          const aiSuggestions = await getSuggestedTags(formData.destinationName, currentTags);
+          
+          if (mounted) {
+            // Combine and deduplicate suggestions
+            const allSuggestions = [...new Set([...localSuggestions, ...aiSuggestions])];
+            setTagSuggestions(allSuggestions);
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching tag suggestions:', error);
+      } finally {
+        if (mounted) {
+          setIsLoadingSuggestions(false);
+        }
+      }
+    };
+
+    fetchSuggestions();
+
+    return () => {
+      mounted = false;
+    };
+  }, [currentTagInput, formData.destinationName, formData.tags]);
 
   // Get destination suggestions when typing the name
   useEffect(() => {
@@ -274,42 +303,31 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       const newTag = input.slice(0, -1).trim();
       if (newTag) {
         handleAddTag(newTag);
+        setCurrentTagInput(''); // Clear the input after adding tag
       }
-      setCurrentTagInput('');
-      setTagSuggestions([]); // Clear suggestions after adding tag
-    } else if (input.trim() && !initialData?.id) { // Only show suggestions if not editing
-      // Only show suggestions if there's non-empty input
-      const suggestions = getLocalTagSuggestions(input);
-      setTagSuggestions(suggestions);
-    } else {
-      setTagSuggestions([]); // Clear suggestions if input is empty or editing
     }
   };
 
   // Handle adding a new tag
-  const handleAddTag = async (tag) => {
-    const correctedTag = await correctTagSpelling(tag);
-    const tagToAdd = correctedTag || tag;
+  const handleAddTag = (tag) => {
+    const tagToAdd = tag.trim();
+    if (!tagToAdd) return;
     
-    const currentTags = formData.tags.split(',').map(t => t.trim()).filter(Boolean);
+    const currentTags = formData.tags ? formData.tags.split(',').map(t => t.trim()).filter(Boolean) : [];
     if (!currentTags.includes(tagToAdd)) {
+      const newTags = [...currentTags, tagToAdd].join(', ');
       setFormData(prev => ({
         ...prev,
-        tags: [...currentTags, tagToAdd].join(', ')
+        tags: newTags
       }));
+      setCurrentTagInput(''); // Clear the input after adding tag
+      setTagSuggestions([]); // Clear suggestions after adding tag
     }
-    setTagSuggestions([]); // Clear suggestions after adding tag
   };
 
-  // Handle selecting a suggestion
-  const handleSuggestionClick = (destination) => {
-    setFormData(prev => ({
-      ...prev,
-      destinationName: destination.name || destination,
-      destinationSelected: true
-    }));
-    setDestinationSuggestions([]);
-    setSelectedDestinationIndex(-1);
+  // Handle selecting a tag suggestion
+  const handleTagSuggestionClick = (tag) => {
+    handleAddTag(tag);
   };
 
   // Handle keyboard navigation
@@ -317,12 +335,10 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
     if (e.key === 'Enter') {
       e.preventDefault();
       if (selectedSuggestionIndex >= 0 && tagSuggestions.length > 0) {
-        handleSuggestionClick(tagSuggestions[selectedSuggestionIndex]);
+        handleTagSuggestionClick(tagSuggestions[selectedSuggestionIndex]);
       } else if (currentTagInput.trim()) {
-        handleAddTag(currentTagInput.trim());
-        setCurrentTagInput('');
+        handleAddTag(currentTagInput);
       }
-      setTagSuggestions([]); // Clear suggestions after adding tag
       return;
     }
 
@@ -348,7 +364,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
         if (tagSuggestions.length > 0) {
           e.preventDefault();
           const index = selectedSuggestionIndex >= 0 ? selectedSuggestionIndex : 0;
-          handleSuggestionClick(tagSuggestions[index]);
+          handleTagSuggestionClick(tagSuggestions[index]);
         }
         break;
     }
@@ -377,7 +393,7 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
       } else if (e.key === 'Enter' && selectedDestinationIndex >= 0) {
         e.preventDefault();
         const selectedDestination = destinationSuggestions[selectedDestinationIndex];
-        handleSuggestionClick(selectedDestination);
+        handleDestinationSelect(selectedDestination);
       }
     }
   };
@@ -538,14 +554,13 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
           <input type="hidden" name="min_days" value={formData.min_days} />
           <input type="hidden" name="max_days" value={formData.max_days} />
 
-          <div className="mb-4">
+          <div className="mb-4 relative">
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Tags
               {isLoadingSuggestions && <span className="ml-2 text-sm text-gray-500">(Loading suggestions...)</span>}
             </label>
             <input
               type="text"
-              name="tags"
               value={currentTagInput}
               onChange={handleTagInputChange}
               onKeyDown={handleTagInputKeyDown}
@@ -553,14 +568,16 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
             {tagSuggestions.length > 0 && (
-              <div className="tag-suggestions">
+              <div className="absolute z-10 w-full bg-white border rounded-lg shadow-lg mt-1">
                 {tagSuggestions.map((tag, index) => (
                   <div
                     key={tag}
-                    className={`tag-suggestion ${
-                      index === selectedSuggestionIndex ? 'selected' : ''
+                    className={`px-3 py-2 cursor-pointer ${
+                      index === selectedSuggestionIndex 
+                        ? 'bg-blue-100 text-blue-800' 
+                        : 'hover:bg-gray-100'
                     }`}
-                    onClick={() => handleSuggestionClick(tag)}
+                    onClick={() => handleTagSuggestionClick(tag)}
                   >
                     {tag}
                   </div>

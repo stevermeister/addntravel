@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import { getSeasonFromDateRange } from '../utils/seasonHelper';
+import { getSeasonFromDateRange } from '../utils/date';
 
 const TravelCalendar = ({ onDateRangeChange, isOpen, onClose }) => {
   const [dateRange, setDateRange] = useState([new Date(), new Date()]);

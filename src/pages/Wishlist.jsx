@@ -2,11 +2,12 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ref, onValue, push, remove, set, get } from 'firebase/database';
 import { database, auth } from '../utils/firebase';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { parseDatePeriod } from '../utils/dateParser';
+import { parseDatePeriod } from '../utils/date';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import TravelCalendar from '../components/TravelCalendar';
 import AISuggestions from '../components/AISuggestions';
+import wishlistDB from '../utils/wishlistDB';
 
 const Wishlist = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -181,6 +182,16 @@ const Wishlist = () => {
     setSelectedDateRange({ startDate, endDate, availableDays, seasons });
   };
 
+  const handleLoadSampleData = async () => {
+    try {
+      await wishlistDB.initialize();
+      // The database listener will automatically update the UI
+    } catch (error) {
+      console.error('Error loading sample data:', error);
+      // You might want to show an error message to the user here
+    }
+  };
+
   const sortedDestinations = useMemo(() => {
     // First apply filters
     let filtered = destinations.filter(dest => {
@@ -270,29 +281,29 @@ const Wishlist = () => {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:items-center">
               <div className="relative">
-                <button
-                  onClick={() => setIsCalendarOpen(!isCalendarOpen)}
-                  className="w-full sm:w-auto px-4 py-2 bg-white/70 backdrop-blur border border-gray-200 rounded-2xl shadow-sm hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
-                >
-                  <span className="material-symbols-outlined text-gray-600">calendar_month</span>
-                  <span className="text-gray-700">
-                    {selectedDateRange && selectedDateRange.startDate && selectedDateRange.endDate
-                      ? `${new Date(selectedDateRange.startDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
-                        → ${new Date(selectedDateRange.endDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`
-                      : 'Select dates'}
-                  </span>
+                <div className="flex items-center">
+                  <button
+                    onClick={() => setIsCalendarOpen(!isCalendarOpen)}
+                    className="w-full sm:w-auto px-4 py-2 bg-white/70 backdrop-blur border border-gray-200 rounded-2xl shadow-sm hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+                  >
+                    <span className="material-symbols-outlined text-gray-600">calendar_month</span>
+                    <span className="text-gray-700">
+                      {selectedDateRange && selectedDateRange.startDate && selectedDateRange.endDate
+                        ? `${new Date(selectedDateRange.startDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                          → ${new Date(selectedDateRange.endDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`
+                        : 'Select dates'}
+                    </span>
+                  </button>
                   {selectedDateRange && selectedDateRange.startDate && selectedDateRange.endDate && (
                     <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setSelectedDateRange(null);
-                      }}
+                      onClick={() => setSelectedDateRange(null)}
                       className="ml-1 w-5 h-5 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center"
+                      aria-label="Clear date range"
                     >
                       <span className="material-symbols-outlined text-sm">close</span>
                     </button>
                   )}
-                </button>
+                </div>
                 {isCalendarOpen && (
                   <div className="absolute right-0 mt-2 z-10">
                     <TravelCalendar
@@ -354,7 +365,7 @@ const Wishlist = () => {
               </div>
 
               <button
-                onClick={() => document.getElementById('load-sample-button')?.click()}
+                onClick={handleLoadSampleData}
                 className="px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 font-medium group"
               >
                 <span className="material-symbols-outlined text-amber-500 group-hover:text-amber-600">auto_awesome</span>

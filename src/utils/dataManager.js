@@ -49,19 +49,18 @@ export async function importWishlistData(file) {
           const jsonData = JSON.parse(event.target.result);
           
           // Validate the data structure
-          if (!jsonData.destinations || !Array.isArray(jsonData.destinations)) {
-            throw new Error('Invalid data format');
+          const validation = validateImportData(jsonData);
+          if (!validation.isValid) {
+            throw new Error(validation.error);
           }
           
-          // Clear existing data
-          await db.clearDatabase();
-          
-          // Import new data
-          await db.destinations.bulkAdd(jsonData.destinations);
+          // Import new data using wishlistDB
+          await db.importData(JSON.stringify(jsonData.destinations));
           
           resolve(true);
         } catch (error) {
-          reject(new Error('Failed to parse import file'));
+          console.error('Import error:', error);
+          reject(new Error('Failed to import data. Please check the file format and try again.'));
         }
       };
       
@@ -119,13 +118,18 @@ export async function restoreFromBackup() {
  * Validates imported data
  */
 export function validateImportData(data) {
-  const requiredFields = ['name', 'description', 'estimatedBudget', 'preferredSeason', 'daysRequired', 'tags'];
+  const requiredFields = ['name', 'description', 'estimatedBudget', 'preferredSeason', 'daysRequired'];
   
-  if (!Array.isArray(data)) {
-    return { isValid: false, error: 'Data must be an array' };
+  // Check if data has the correct structure
+  if (!data.version || !data.exportDate || !data.destinations) {
+    return { isValid: false, error: 'Invalid data format' };
+  }
+
+  if (!Array.isArray(data.destinations)) {
+    return { isValid: false, error: 'Destinations must be an array' };
   }
   
-  for (const item of data) {
+  for (const item of data.destinations) {
     for (const field of requiredFields) {
       if (!(field in item)) {
         return { isValid: false, error: `Missing required field: ${field}` };
