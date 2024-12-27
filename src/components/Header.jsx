@@ -42,75 +42,74 @@ const Header = () => {
 
   return (
     <header className="bg-blue-600 text-white shadow-md relative z-50">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center">
+      <div className="container mx-auto px-4 py-3">
+        <div className="flex items-center justify-between">
           <Link to="/" className="text-xl font-bold">AddnTravel</Link>
-        </div>
-        <div className="flex items-center gap-4">
-          {user ? (
-            <div className="relative" ref={dropdownRef}>
+          
+          <div className="flex items-center">
+            {user ? (
+              <div className="relative" ref={dropdownRef}>
+                <button
+                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <UserAvatar />
+                  <span className="text-sm font-medium mr-1 hidden sm:inline">{user.displayName || user.email}</span>
+                  <span className="material-symbols-outlined text-sm">
+                    {isDropdownOpen ? 'expand_less' : 'expand_more'}
+                  </span>
+                </button>
+                
+                {isDropdownOpen && (
+                  <div className="absolute right-0 mt-2 w-64 sm:w-48 bg-white rounded-lg shadow-lg py-1 text-gray-700 border border-gray-200">
+                    <div className="px-4 py-2 border-b border-gray-100">
+                      <div className="text-sm font-medium text-gray-900 truncate">{user.displayName}</div>
+                      <div className="text-xs text-gray-500 truncate">{user.email}</div>
+                    </div>
+                    
+                    <div className="py-1">
+                      <button 
+                        onClick={() => document.getElementById('import-input')?.click()}
+                        className="w-full px-4 py-2.5 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
+                      >
+                        <span className="material-symbols-outlined text-gray-400">download</span>
+                        Import Data
+                      </button>
+                      <button 
+                        onClick={() => document.getElementById('export-button')?.click()}
+                        className="w-full px-4 py-2.5 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
+                      >
+                        <span className="material-symbols-outlined text-gray-400">upload</span>
+                        Export Data
+                      </button>
+                    </div>
+                    
+                    <div className="border-t border-gray-100 py-1">
+                      <button
+                        onClick={() => {
+                          setIsDropdownOpen(false);
+                          logout();
+                        }}
+                        className="w-full px-4 py-2.5 text-sm text-left text-red-600 hover:bg-gray-50 flex items-center gap-2"
+                      >
+                        <span className="material-symbols-outlined">logout</span>
+                        Sign Out
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
               <button
-                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="flex items-center gap-2 p-1 rounded-lg hover:bg-blue-700 transition-colors"
+                onClick={login}
+                className="px-4 py-2 text-sm bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors flex items-center gap-2"
               >
-                <UserAvatar />
-                <span className="text-sm font-medium mr-1">{user.displayName || user.email}</span>
-                <span className="material-symbols-outlined text-sm">
-                  {isDropdownOpen ? 'expand_less' : 'expand_more'}
-                </span>
+                <span className="material-symbols-outlined">login</span>
+                <span className="hidden sm:inline">Sign in with Google</span>
+                <span className="sm:hidden">Sign in</span>
               </button>
-              
-              {isDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-1 text-gray-700 border border-gray-200">
-                  <div className="px-4 py-2 border-b border-gray-100">
-                    <div className="text-sm font-medium text-gray-900">{user.displayName}</div>
-                    <div className="text-xs text-gray-500">{user.email}</div>
-                  </div>
-                  
-                  <div className="py-1">
-                    <button 
-                      onClick={() => document.getElementById('import-input')?.click()}
-                      className="w-full px-4 py-2 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
-                    >
-                      <span className="material-symbols-outlined text-gray-400">download</span>
-                      Import Data
-                    </button>
-                    <button 
-                      onClick={() => document.getElementById('export-button')?.click()}
-                      className="w-full px-4 py-2 text-sm text-left hover:bg-gray-50 flex items-center gap-2"
-                    >
-                      <span className="material-symbols-outlined text-gray-400">upload</span>
-                      Export Data
-                    </button>
-                  </div>
-                  
-                  <div className="border-t border-gray-100 py-1">
-                    <button
-                      onClick={() => {
-                        setIsDropdownOpen(false);
-                        logout();
-                      }}
-                      className="w-full px-4 py-2 text-sm text-left text-red-600 hover:bg-gray-50 flex items-center gap-2"
-                    >
-                      <span className="material-symbols-outlined">logout</span>
-                      Sign Out
-                    </button>
-                  </div>
-                </div>
-              )}
-            </div>
-          ) : (
-            <button
-              onClick={login}
-              className="px-4 py-2 text-sm bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors flex items-center gap-2"
-            >
-              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12.545,12.151L12.545,12.151c0,1.054,0.855,1.909,1.909,1.909h3.536c2.118,0,3.536-1.418,3.536-3.536v-0.318c0-2.118-1.418-3.536-3.536-3.536h-3.536c-1.054,0-1.909,0.855-1.909,1.909v0.318c0,1.054,0.855,1.909,1.909,1.909h3.536" />
-                <path d="M8.364,12.151L8.364,12.151c0-1.054-0.855-1.909-1.909-1.909H2.918c-2.118,0-3.536,1.418-3.536,3.536v0.318c0,2.118,1.418,3.536,3.536,3.536h3.536c1.054,0,1.909-0.855,1.909-1.909v-0.318c0-1.054-0.855-1.909-1.909-1.909H2.918" />
-              </svg>
-              Sign in with Google
-            </button>
-          )}
+            )}
+          </div>
         </div>
       </div>
       <DataTransfer />

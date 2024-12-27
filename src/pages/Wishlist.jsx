@@ -214,86 +214,79 @@ const Wishlist = () => {
     <div className="container mx-auto px-4 py-8">
       {destinations.length > 0 ? (
         <>
-          {/* Header with search and add button */}
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 space-y-4 md:space-y-0">
-            <div className="flex-1 w-full md:w-auto md:mr-4">
-              <div className="flex gap-3 items-center w-full">
-                <div className="relative flex-1">
-                  <input
-                    type="text"
-                    placeholder="Type to search..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full h-12 px-4 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:outline-none pl-11 shadow-sm placeholder:text-gray-400"
-                  />
-                  <span className="absolute left-3.5 top-1/2 transform -translate-y-1/2 text-gray-400">
-                    <span className="material-symbols-outlined text-xl">search</span>
-                  </span>
-                </div>
-                <div className="relative">
-                  <button
-                    onClick={() => setIsCalendarOpen(!isCalendarOpen)}
-                    className={`h-12 px-4 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl flex items-center gap-2 transition-all shadow-sm
-                      ${selectedDateRange 
-                        ? 'hover:border-gray-300' 
-                        : 'hover:border-gray-300'
-                      }`}
-                  >
-                    <span className="material-symbols-outlined text-xl text-gray-400">calendar_month</span>
-                    {selectedDateRange ? (
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm text-gray-600">
-                          {new Date(selectedDateRange.startDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
-                          <span className="mx-1.5 text-gray-400">→</span>
-                          {new Date(selectedDateRange.endDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
-                        </span>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setSelectedDateRange(null);
-                          }}
-                          className="p-1 -mr-1.5 hover:bg-gray-100 rounded-full transition-colors"
-                          aria-label="Clear dates"
-                        >
-                          <span className="material-symbols-outlined text-[18px] text-gray-400 hover:text-gray-600">close</span>
-                        </button>
-                      </div>
-                    ) : (
-                      <span className="text-sm text-gray-500">Select dates</span>
-                    )}
-                  </button>
-                  <TravelCalendar
-                    onDateRangeChange={handleDateRangeChange}
-                    isOpen={isCalendarOpen}
-                    onClose={() => setIsCalendarOpen(false)}
-                  />
-                </div>
-                <button
-                  onClick={() => setShowAddForm(true)}
-                  className="h-12 px-5 bg-blue-600 text-white rounded-2xl hover:bg-blue-700 transition-colors flex items-center gap-2 whitespace-nowrap font-medium shadow-sm"
-                >
-                  <span className="material-symbols-outlined text-[20px]">add</span>
-                  Destination
-                </button>
+          {/* Search and Add Section */}
+          <div className="mb-6 space-y-4 sm:space-y-0 sm:flex sm:items-center sm:justify-between">
+            <div className="flex-1 max-w-xl">
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Type to search..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full pl-10 pr-4 py-2 bg-white/70 backdrop-blur border border-gray-200 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+                <span className="material-symbols-outlined absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                  search
+                </span>
               </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3 sm:items-center">
+              <div className="relative">
+                <button
+                  onClick={() => setIsCalendarOpen(!isCalendarOpen)}
+                  className="w-full sm:w-auto px-4 py-2 bg-white/70 backdrop-blur border border-gray-200 rounded-2xl shadow-sm hover:bg-white/90 transition-colors flex items-center justify-center gap-2"
+                >
+                  <span className="material-symbols-outlined text-gray-600">calendar_month</span>
+                  <span className="text-gray-700">
+                    {selectedDateRange && selectedDateRange.startDate && selectedDateRange.endDate
+                      ? `${new Date(selectedDateRange.startDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                        → ${new Date(selectedDateRange.endDate).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`
+                      : 'Select dates'}
+                  </span>
+                  {selectedDateRange && selectedDateRange.startDate && selectedDateRange.endDate && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedDateRange(null);
+                      }}
+                      className="ml-1 w-5 h-5 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center"
+                    >
+                      <span className="material-symbols-outlined text-sm">close</span>
+                    </button>
+                  )}
+                </button>
+                {isCalendarOpen && (
+                  <div className="absolute right-0 mt-2 z-10">
+                    <TravelCalendar
+                      onDateRangeChange={handleDateRangeChange}
+                      isOpen={isCalendarOpen}
+                      onClose={() => setIsCalendarOpen(false)}
+                    />
+                  </div>
+                )}
+              </div>
+
+              <button
+                onClick={() => setShowAddForm(true)}
+                className="px-4 py-2 bg-blue-600 text-white rounded-2xl shadow-sm hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
+              >
+                <span className="material-symbols-outlined">add</span>
+                Add Destination
+              </button>
             </div>
           </div>
 
-          <div className="grid grid-cols-12 gap-6">
-            {/* Main content area */}
-            <div className="col-span-12 space-y-6">
-              {/* Destinations grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {sortedDestinations.map(destination => (
-                  <DestinationCard
-                    key={destination.id}
-                    destination={destination}
-                    onDelete={handleDeleteDestination}
-                    onEdit={() => setEditingDestination(destination)}
-                  />
-                ))}
-              </div>
-            </div>
+          {/* Destinations Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {sortedDestinations.map(destination => (
+              <DestinationCard
+                key={destination.id}
+                destination={destination}
+                onDelete={handleDeleteDestination}
+                onEdit={() => setEditingDestination(destination)}
+              />
+            ))}
           </div>
         </>
       ) : (
