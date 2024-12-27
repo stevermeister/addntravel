@@ -39,7 +39,7 @@ const sampleData = {
   }
 };
 
-const DataTransfer = ({ onImportComplete }) => {
+const DataTransfer = () => {
   const fileInputRef = useRef(null);
 
   const handleExport = async () => {
@@ -99,27 +99,29 @@ const DataTransfer = ({ onImportComplete }) => {
       const importData = JSON.parse(content);
       
       if (!importData.data || typeof importData.data !== 'object') {
-        throw new Error('Invalid import data format');
+        throw new Error('Invalid import file format');
       }
 
       const destinationsRef = ref(database, `users/${userId}/destinations`);
       
       // Import each destination
-      for (const destination of Object.values(importData.data)) {
-        // Ensure imageUrl is preserved during import
+      for (const [key, destination] of Object.entries(importData.data)) {
         await push(destinationsRef, {
           ...destination,
-          imageUrl: destination.imageUrl || '', // Preserve existing imageUrl or set empty string
           dateAdded: destination.dateAdded || new Date().toISOString()
         });
       }
 
-      onImportComplete?.();
-      event.target.value = '';
       alert('Destinations imported successfully!');
+      window.location.reload(); // Refresh to show new data
     } catch (error) {
       console.error('Error importing destinations:', error);
-      alert('Failed to import destinations. Please check your file and try again.');
+      alert('Failed to import destinations. Please check the file format and try again.');
+    }
+
+    // Clear the input
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
     }
   };
 
@@ -141,8 +143,8 @@ const DataTransfer = ({ onImportComplete }) => {
         });
       }
 
-      onImportComplete?.();
       alert('Sample destinations loaded successfully!');
+      window.location.reload(); // Refresh to show new data
     } catch (error) {
       console.error('Error loading sample data:', error);
       alert('Failed to load sample data. Please try again.');
@@ -150,36 +152,26 @@ const DataTransfer = ({ onImportComplete }) => {
   };
 
   return (
-    <div className="flex items-center gap-2">
-      <button
-        onClick={handleExport}
-        className="px-3 py-1.5 text-sm bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors"
-        title="Export destinations"
-      >
-        Export
-      </button>
-      <button
-        onClick={() => fileInputRef.current?.click()}
-        className="px-3 py-1.5 text-sm bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors"
-        title="Import destinations"
-      >
-        Import
-      </button>
-      <button
-        onClick={loadSampleData}
-        className="px-3 py-1.5 text-sm bg-blue-700 hover:bg-blue-800 rounded-lg transition-colors"
-        title="Load sample destinations"
-      >
-        Load Sample
-      </button>
+    <>
       <input
         type="file"
+        id="import-input"
         ref={fileInputRef}
         onChange={handleImport}
         accept=".json"
         className="hidden"
       />
-    </div>
+      <button
+        id="export-button"
+        onClick={handleExport}
+        className="hidden"
+      />
+      <button
+        id="load-sample-button"
+        onClick={loadSampleData}
+        className="hidden"
+      />
+    </>
   );
 };
 

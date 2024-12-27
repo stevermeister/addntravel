@@ -297,17 +297,47 @@ const Wishlist = () => {
           </div>
         </>
       ) : (
-        <div className="flex flex-col items-center justify-center min-h-[60vh]">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">Travel Wishlist</h1>
-            <h2 className="text-2xl font-semibold text-gray-800 mb-2">No destinations found</h2>
-            <p className="text-gray-600 mb-8">Add your first destination to get started</p>
-            <button
-              onClick={() => setShowAddForm(true)}
-              className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold py-4 px-8 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
-            >
-              Add Your First Destination
-            </button>
+        <div className="flex flex-col items-center justify-center py-16 px-4 text-center">
+          <div className="max-w-md">
+            <h2 className="text-2xl font-semibold text-gray-900 mb-2">Start Your Travel Wishlist</h2>
+            <p className="text-gray-600 mb-8">
+              Create your personalized collection of dream destinations. Add places you'd love to visit and organize them by season, duration, and budget.
+            </p>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <button
+                  onClick={() => setShowAddForm(true)}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 font-medium"
+                >
+                  <span className="material-symbols-outlined">add</span>
+                  Add First Destination
+                </button>
+                <button
+                  onClick={() => document.getElementById('import-input')?.click()}
+                  className="px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 font-medium"
+                >
+                  <span className="material-symbols-outlined">upload_file</span>
+                  Import Your Data
+                </button>
+              </div>
+              
+              <div className="relative">
+                <div className="absolute inset-0 flex items-center">
+                  <div className="w-full border-t border-gray-200"></div>
+                </div>
+                <div className="relative flex justify-center">
+                  <span className="px-3 text-sm text-gray-500 bg-gray-50">or get started with</span>
+                </div>
+              </div>
+
+              <button
+                onClick={() => document.getElementById('load-sample-button')?.click()}
+                className="px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 font-medium group"
+              >
+                <span className="material-symbols-outlined text-amber-500 group-hover:text-amber-600">auto_awesome</span>
+                Get Travel Inspiration
+              </button>
+            </div>
           </div>
         </div>
       )}
