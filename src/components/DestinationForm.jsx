@@ -3,6 +3,7 @@ import { parseDatePeriod } from '../utils/dateParser';
 import debounce from 'lodash/debounce';
 import { getSuggestedTags, correctTagSpelling, getLocalTagSuggestions } from '../utils/tagHelper';
 import { destinations } from '../data/destinations';
+import styles from './DestinationForm.module.css';
 
 const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [formData, setFormData] = useState({
@@ -26,24 +27,138 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   const [selectedSuggestionIndex, setSelectedSuggestionIndex] = useState(-1);
   const [destinationSuggestions, setDestinationSuggestions] = useState([]);
   const [selectedDestinationIndex, setSelectedDestinationIndex] = useState(-1);
+  const [isLoadingImages, setIsLoadingImages] = useState(false);
+
+  const searchImages = async (query) => {
+    try {
+      const baseUrl = 'https://www.googleapis.com/customsearch/v1';
+      const params = {
+        key: 'AIzaSyA4K-ifLYl9NBH5m-L2XwRpQ-UGhJ9Lsgc',
+        cx: 'b28797b508c8e4146',
+        q: `${query} photo`,
+        searchType: 'image',
+        num: '10',
+        imgSize: 'large',
+        imgType: 'photo'
+      };
+      
+      const queryString = Object.entries(params)
+        .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
+        .join('&');
+      
+      const url = `${baseUrl}?${queryString}`;
+      const response = await fetch(url);
+      const data = await response.json();
+      
+      if (data.items && data.items.length > 0) {
+        const randomIndex = Math.floor(Math.random() * data.items.length);
+        return data.items[randomIndex].link;
+      }
+      return null;
+    } catch (error) {
+      console.error('Error fetching image:', error);
+      return null;
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const errors = validate();
+    
+    if (Object.keys(errors).length === 0) {
+      try {
+        setIsLoadingImages(true);
+        
+        let min_days = 0;
+        let max_days = 0;
+
+        // If editing, use existing min_days and max_days if no new period is specified
+        if (initialData && !formData.daysRequired) {
+          min_days = initialData.min_days || 0;
+          max_days = initialData.max_days || 0;
+        } else if (formData.daysRequired) {
+          try {
+            [min_days, max_days] = parseDatePeriod(formData.daysRequired);
+          } catch (error) {
+            console.warn('Error parsing period:', error);
+            min_days = 0;
+            max_days = 0;
+          }
+        }
+        
+        // Search for new image if:
+        // 1. Adding new destination
+        // 2. No image URL exists
+        // 3. Editing and destination name has changed
+        let imageUrl = formData.imageUrl;
+        const shouldUpdateImage = !initialData || // new destination
+                                !imageUrl || // no image
+                                (initialData && initialData.name !== formData.destinationName); // name changed during edit
+        
+        if (shouldUpdateImage) {
+          imageUrl = await searchImages(formData.destinationName);
+        }
+
+        const submissionData = {
+          ...formData,
+          name: formData.destinationName,
+          imageUrl: imageUrl || 'https://via.placeholder.com/800x400?text=No+Image+Available',
+          tags: formData.tags ? formData.tags.split(',').map(tag => tag.trim()).filter(tag => tag) : [],
+          min_days,
+          max_days,
+          estimatedBudget: Number(formData.estimatedBudget) || 0
+        };
+        
+        console.log('Submitting data:', submissionData);
+        await onSubmit(submissionData);
+        onClose();
+      } catch (error) {
+        console.error('Error submitting form:', error);
+        setErrors({ submit: 'Error submitting form. Please try again.' });
+      } finally {
+        setIsLoadingImages(false);
+      }
+    } else {
+      setErrors(errors);
+    }
+  };
 
   // Initialize form with data if editing
   useEffect(() => {
     if (initialData) {
-      setFormData({
+      const formattedData = {
         ...initialData,
         destinationName: initialData.destinationName || initialData.name || '',
         tags: initialData.tags.join(', '),
         estimatedBudget: initialData.estimatedBudget.toString(),
         min_days: initialData.min_days || 0,
         max_days: initialData.max_days || 0,
+        imageUrl: initialData.imageUrl || '',
         destinationSelected: true
-      });
+      };
+      setFormData(formattedData);
+      
       // Clear any existing tag suggestions when editing
       setTagSuggestions([]);
       setCurrentTagInput('');
     }
   }, [initialData]);
+
+  // Add ESC key handler
+  useEffect(() => {
+    const handleEscKey = (event) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    document.addEventListener('keydown', handleEscKey);
+
+    // Cleanup listener on component unmount
+    return () => {
+      document.removeEventListener('keydown', handleEscKey);
+    };
+  }, [onClose]);
 
   // Get tag suggestions when location changes
   useEffect(() => {
@@ -75,69 +190,10 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
 
   const validate = () => {
     const newErrors = {};
-    if (!formData.destinationName) newErrors.destinationName = 'Destination name is required';
-    if (formData.estimatedBudget && isNaN(formData.estimatedBudget)) {
-      newErrors.estimatedBudget = 'Budget must be a number';
+    if (!formData.destinationName) {
+      newErrors.destinationName = 'Destination name is required';
     }
-    if (formData.daysRequired && isNaN(formData.daysRequired)) {
-      newErrors.daysRequired = 'Days must be a number';
-    }
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const errors = {};
-
-    // Validate required fields
-    if (!formData.destinationName.trim()) {
-      errors.destinationName = 'Destination name is required';
-    }
-
-    if (Object.keys(errors).length > 0) {
-      setErrors(errors);
-      return;
-    }
-
-    try {
-      const tagsArray = formData.tags
-        .split(',')
-        .map(tag => tag.trim())
-        .filter(tag => tag);
-
-      const { min_days, max_days } = formData.daysRequired
-        ? await parseDatePeriod(formData.daysRequired)
-        : { min_days: formData.min_days || 0, max_days: formData.max_days || 0 };
-
-      // If it's a custom destination (not selected from suggestions)
-      if (!formData.destinationSelected) {
-        // Use default image if none provided
-        if (!formData.imageUrl) {
-          formData.imageUrl = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80';
-        }
-      }
-
-      const submissionData = {
-        ...formData,
-        id: initialData?.id || Date.now().toString(),
-        estimatedBudget: Number(formData.estimatedBudget) || 0,
-        tags: tagsArray,
-        min_days,
-        max_days,
-        status: 'wishlist',
-        name: formData.destinationName // Ensure name is set for both custom and suggested destinations
-      };
-
-      await onSubmit(submissionData);
-      onClose();
-    } catch (error) {
-      console.error('Error processing form:', error);
-      setErrors(prev => ({
-        ...prev,
-        daysRequired: 'Error processing days required'
-      }));
-    }
+    return newErrors;
   };
 
   const handleChange = (e) => {
@@ -246,10 +302,14 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   };
 
   // Handle selecting a suggestion
-  const handleSuggestionClick = (tag) => {
-    handleAddTag(tag);
-    setCurrentTagInput('');
-    setTagSuggestions([]);
+  const handleSuggestionClick = (destination) => {
+    setFormData(prev => ({
+      ...prev,
+      destinationName: destination.name || destination,
+      destinationSelected: true
+    }));
+    setDestinationSuggestions([]);
+    setSelectedDestinationIndex(-1);
   };
 
   // Handle keyboard navigation
@@ -305,33 +365,20 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   }, [destinationSuggestions]);
 
   const handleDestinationKeyDown = (e) => {
-    if (destinationSuggestions.length === 0) return;
-
-    switch (e.key) {
-      case 'ArrowDown':
+    if (destinationSuggestions.length > 0) {
+      if (e.key === 'ArrowDown') {
         e.preventDefault();
         setSelectedDestinationIndex(prev => 
-          prev < destinationSuggestions.length - 1 ? prev + 1 : 0
+          prev < destinationSuggestions.length - 1 ? prev + 1 : prev
         );
-        break;
-      case 'ArrowUp':
+      } else if (e.key === 'ArrowUp') {
         e.preventDefault();
-        setSelectedDestinationIndex(prev => 
-          prev > 0 ? prev - 1 : destinationSuggestions.length - 1
-        );
-        break;
-      case 'Enter':
+        setSelectedDestinationIndex(prev => prev > 0 ? prev - 1 : prev);
+      } else if (e.key === 'Enter' && selectedDestinationIndex >= 0) {
         e.preventDefault();
-        if (selectedDestinationIndex >= 0) {
-          handleDestinationSelect(destinationSuggestions[selectedDestinationIndex]);
-        }
-        break;
-      case 'Escape':
-        e.preventDefault();
-        setDestinationSuggestions([]);
-        break;
-      default:
-        break;
+        const selectedDestination = destinationSuggestions[selectedDestinationIndex];
+        handleSuggestionClick(selectedDestination);
+      }
     }
   };
 
@@ -351,17 +398,22 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
   return (
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex items-center justify-center p-4" style={{ zIndex: 1000 }}>
       <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full p-6 m-4">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-xl font-bold">{initialData ? 'Edit' : 'Add New'} Destination</h2>
-          <button
-            onClick={onClose}
-            className="text-gray-500 hover:text-gray-700"
-          >
-            ✕
-          </button>
-        </div>
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute top-4 right-4 text-gray-400 hover:text-gray-500"
+          aria-label="Close"
+        >
+          <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <h2 className="text-xl font-semibold mb-4">
+          {initialData ? 'Edit' : 'Add New'} Destination
+        </h2>
+
+        <form onSubmit={handleSubmit}>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Destination Name*
@@ -487,48 +539,34 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
           <input type="hidden" name="max_days" value={formData.max_days} />
 
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
               Tags
               {isLoadingSuggestions && <span className="ml-2 text-sm text-gray-500">(Loading suggestions...)</span>}
             </label>
-            <div className="relative">
-              <input
-                type="text"
-                value={currentTagInput}
-                onChange={handleTagInputChange}
-                onKeyDown={handleTagInputKeyDown}
-                placeholder="Type to add tags (comma-separated)"
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                aria-label="Tag input"
-                aria-expanded={tagSuggestions.length > 0}
-                aria-activedescendant={selectedSuggestionIndex >= 0 ? `tag-suggestion-${selectedSuggestionIndex}` : undefined}
-                role="combobox"
-              />
-              {tagSuggestions.length > 0 && (
-                <div 
-                  className="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg border border-gray-200"
-                  role="listbox"
-                >
-                  {tagSuggestions.map((tag, index) => (
-                    <div
-                      id={`tag-suggestion-${index}`}
-                      key={index}
-                      onClick={() => handleSuggestionClick(tag)}
-                      onMouseEnter={() => setSelectedSuggestionIndex(index)}
-                      className={`px-4 py-2 cursor-pointer text-sm ${
-                        index === selectedSuggestionIndex 
-                          ? 'bg-indigo-100 text-indigo-900' 
-                          : 'hover:bg-gray-100'
-                      }`}
-                      role="option"
-                      aria-selected={index === selectedSuggestionIndex}
-                    >
-                      {tag}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+            <input
+              type="text"
+              name="tags"
+              value={currentTagInput}
+              onChange={handleTagInputChange}
+              onKeyDown={handleTagInputKeyDown}
+              placeholder="Type to add tags (comma-separated)"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+            {tagSuggestions.length > 0 && (
+              <div className="tag-suggestions">
+                {tagSuggestions.map((tag, index) => (
+                  <div
+                    key={tag}
+                    className={`tag-suggestion ${
+                      index === selectedSuggestionIndex ? 'selected' : ''
+                    }`}
+                    onClick={() => handleSuggestionClick(tag)}
+                  >
+                    {tag}
+                  </div>
+                ))}
+              </div>
+            )}
             {formData.tags && (
               <div className="mt-2 flex flex-wrap gap-2">
                 {formData.tags.split(',').map((tag, index) => (
@@ -559,35 +597,26 @@ const DestinationForm = ({ onSubmit, onClose, initialData }) => {
             )}
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Image URL
-            </label>
-            <input
-              type="url"
-              name="imageUrl"
-              value={formData.imageUrl}
-              onChange={handleChange}
-              placeholder="https://..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
-          </div>
-
           <div className="flex justify-end space-x-3 pt-4">
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 text-gray-700 hover:text-gray-900 font-medium"
+              className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium"
+              className="px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               {initialData ? 'Save Changes' : 'Add Destination'}
             </button>
           </div>
+          {errors.submit && (
+            <div className="mt-2 text-sm text-red-600">
+              {errors.submit}
+            </div>
+          )}
         </form>
       </div>
     </div>

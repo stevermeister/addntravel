@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const getCityImage = (cityName) => {
   // Default fallback image
@@ -31,6 +31,11 @@ const getCityImage = (cityName) => {
 const DestinationCard = ({ destination, onDelete, onEdit }) => {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [imageUrl, setImageUrl] = useState(destination.imageUrl || getCityImage(destination.name));
+
+  // Update image URL when destination changes
+  useEffect(() => {
+    setImageUrl(destination.imageUrl || getCityImage(destination.name));
+  }, [destination.imageUrl, destination.name]);
 
   const handleImageError = () => {
     const fallbackUrl = getCityImage(destination.name);

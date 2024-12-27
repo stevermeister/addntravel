@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ref, onValue, push, remove, set } from 'firebase/database';
+import { ref, onValue, push, remove, set, get } from 'firebase/database';
 import { database, auth } from '../utils/firebase';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { parseDatePeriod } from '../utils/dateParser';
@@ -118,16 +118,30 @@ const Wishlist = () => {
 
     try {
       console.log('Updating destination with data:', updates);
-      const { min_days, max_days } = await parseDatePeriod(updates.daysRequired);
 
       const destinationRef = ref(database, `users/${userId}/destinations/${destinationId}`);
-      await set(destinationRef, {
+      
+      // Get current destination data
+      const snapshot = await get(destinationRef);
+      const currentData = snapshot.val();
+
+      // Prepare update data
+      const updateData = {
         ...updates,
-        min_days,
-        max_days,
         imageUrl: updates.imageUrl || '',
-        dateAdded: updates.dateAdded || new Date().toISOString()
-      });
+        dateAdded: currentData.dateAdded || new Date().toISOString()
+      };
+
+      // Update the destination
+      await set(destinationRef, updateData);
+      
+      // Update local state to reflect changes immediately
+      setDestinations(prevDestinations => 
+        prevDestinations.map(dest => 
+          dest.id === destinationId ? { ...dest, ...updateData } : dest
+        )
+      );
+
       setEditingDestination(null);
     } catch (error) {
       console.error('Error updating destination:', error);
