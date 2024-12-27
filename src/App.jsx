@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -10,16 +11,16 @@ const App = () => {
   return (
     <AuthProvider>
       <Router>
-        <div className="min-h-screen bg-gray-100">
+        <div className="min-h-screen bg-gray-50 flex flex-col">
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route
               path="/*"
               element={
                 <ProtectedRoute>
-                  <>
+                  <div className="flex flex-col min-h-screen">
                     <Header />
-                    <main>
+                    <main className="flex-grow">
                       <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
                         <Routes>
                           <Route path="/" element={<Wishlist />} />
@@ -28,7 +29,8 @@ const App = () => {
                         </Routes>
                       </div>
                     </main>
-                  </>
+                    <Footer />
+                  </div>
                 </ProtectedRoute>
               }
             />

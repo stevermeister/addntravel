@@ -45,7 +45,6 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold">AddnTravel</Link>
-          <span className="ml-4 text-sm opacity-75">{versionInfo.formatted}</span>
         </div>
         <div className="flex items-center gap-4">
           {user ? (
