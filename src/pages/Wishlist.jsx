@@ -31,8 +31,8 @@ const Wishlist = () => {
     if (sortCriteria !== 'dateAdded') params.set('sort', sortCriteria);
     if (sortDirection !== 'desc') params.set('order', sortDirection);
     if (selectedDateRange) {
-      params.set('startDate', selectedDateRange.startDate);
-      params.set('endDate', selectedDateRange.endDate);
+      params.set('startDate', selectedDateRange.startDate.toISOString());
+      params.set('endDate', selectedDateRange.endDate.toISOString());
       params.set('availableDays', selectedDateRange.availableDays.toString());
       if (selectedDateRange.seasons) params.set('seasons', selectedDateRange.seasons.join(','));
     }
@@ -85,13 +85,23 @@ const Wishlist = () => {
     
     if (startDate && endDate && availableDays) {
       setSelectedDateRange({
-        startDate,
-        endDate,
+        startDate: new Date(startDate),
+        endDate: new Date(endDate),
         availableDays: parseInt(availableDays, 10),
         seasons: seasons ? seasons.split(',') : null
       });
     }
   }, []);
+
+  useEffect(() => {
+    const hasNoParams = Array.from(searchParams.entries()).length === 0;
+    if (hasNoParams) {
+      setSearchQuery('');
+      setSortCriteria('dateAdded');
+      setSortDirection('desc');
+      setSelectedDateRange(null);
+    }
+  }, [searchParams]);
 
   const handleAddDestination = async (newDest) => {
     const userId = auth.currentUser?.uid;

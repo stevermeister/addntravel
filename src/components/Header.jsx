@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { versionInfo } from '../utils/version';
 import DataTransfer from './DataTransfer';
@@ -8,6 +8,7 @@ const Header = () => {
   const { user, login, logout } = useAuth();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -40,11 +41,17 @@ const Header = () => {
     );
   };
 
+  const handleLogoClick = (e) => {
+    e.preventDefault();
+    navigate('/', { replace: true });
+    // The URL parameters will be cleared when navigating to root
+  };
+
   return (
     <header className="bg-blue-600 text-white shadow-md relative z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-xl font-bold">AddnTravel</Link>
+          <Link to="/" className="text-xl font-bold" onClick={handleLogoClick}>AddnTravel</Link>
           
           <div className="flex items-center">
             {user ? (
