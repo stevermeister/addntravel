@@ -41,7 +41,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-blue-600 text-white shadow-md">
+    <header className="bg-blue-600 text-white shadow-md relative z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold">AddnTravel</Link>
