@@ -59,7 +59,7 @@ const Wishlist = () => {
         min_days: dest.min_days || 0,
         max_days: dest.max_days || 0,
         estimatedBudget: dest.estimatedBudget || 0,
-        dateAdded: dest.dateAdded || new Date().toISOString(),
+        dateAdded: dest.dateAdded || '1970-01-01T00:00:00.000Z',
         imageUrl: dest.imageUrl || ''
       })) : [];
       setDestinations(destinationsList);
@@ -210,11 +210,17 @@ const Wishlist = () => {
         case 'min_days':
           comparison = (a.min_days || 0) - (b.min_days || 0);
           break;
+        case 'dateAdded':
+          const dateA = new Date(a.dateAdded || 0).getTime();
+          const dateB = new Date(b.dateAdded || 0).getTime();
+          comparison = dateB - dateA; // Newest first
+          break;
         default:
-          comparison = new Date(b.dateAdded) - new Date(a.dateAdded);
+          comparison = 0;
       }
       
-      return sortDirection === 'asc' ? comparison : -comparison;
+      // For dates, we want desc to show newest first, so we don't need to reverse the comparison
+      return sortCriteria === 'dateAdded' ? comparison : (sortDirection === 'asc' ? comparison : -comparison);
     });
   }, [
     destinations,
