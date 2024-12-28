@@ -84,6 +84,7 @@ const Wishlist: React.FC = () => {
           estimatedBudget: dest.estimatedBudget || 0,
           visitDate: dest.visitDate,
           budget: dest.budget,
+          imageUrl: dest.imageUrl || '',
           createdAt: dest.createdAt || '1970-01-01T00:00:00.000Z',
           type: dest.type
         }
