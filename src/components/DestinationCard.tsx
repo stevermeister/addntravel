@@ -37,9 +37,15 @@ interface DestinationCardProps {
   destination: Destination;
   onDelete: () => void;
   onEdit: (updates: Partial<Destination>) => void;
+  onTagClick?: (tag: string) => void;
 }
 
-const DestinationCard: React.FC<DestinationCardProps> = ({ destination, onDelete, onEdit }) => {
+const DestinationCard: React.FC<DestinationCardProps> = ({ 
+  destination, 
+  onDelete, 
+  onEdit,
+  onTagClick 
+}) => {
   const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
   const [imageUrl, setImageUrl] = useState<string>(destination.imageUrl || getCityImage(destination.name));
 
@@ -130,7 +136,8 @@ const DestinationCard: React.FC<DestinationCardProps> = ({ destination, onDelete
             {destination.tags.map((tag, index) => (
               <span
                 key={index}
-                className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded"
+                onClick={() => onTagClick?.(tag)}
+                className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded cursor-pointer hover:bg-gray-200 transition-colors"
               >
                 #{tag}
               </span>

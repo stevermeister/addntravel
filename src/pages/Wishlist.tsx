@@ -19,10 +19,12 @@ const Wishlist: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedDateRange, setSelectedDateRange] = useState<DateRange | null>(null);
   const [isCalendarOpen, setIsCalendarOpen] = useState<boolean>(false);
+  const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   useEffect(() => {
     const params = new URLSearchParams();
     if (searchQuery) params.set('search', searchQuery);
+    if (selectedTag) params.set('tag', selectedTag);
     if (selectedDateRange) {
       params.set('startDate', selectedDateRange.startDate.toISOString());
       params.set('endDate', selectedDateRange.endDate.toISOString());
@@ -31,7 +33,28 @@ const Wishlist: React.FC = () => {
     }
     
     setSearchParams(params);
-  }, [searchQuery, selectedDateRange, setSearchParams]);
+  }, [searchQuery, selectedDateRange, selectedTag, setSearchParams]);
+
+  useEffect(() => {
+    const search = searchParams.get('search') || '';
+    const tag = searchParams.get('tag') || null;
+    const startDate = searchParams.get('startDate');
+    const endDate = searchParams.get('endDate');
+    const availableDays = searchParams.get('availableDays');
+    const seasons = searchParams.get('seasons');
+
+    setSearchQuery(search);
+    setSelectedTag(tag);
+    
+    if (startDate && endDate && availableDays) {
+      setSelectedDateRange({
+        startDate: new Date(startDate),
+        endDate: new Date(endDate),
+        availableDays: parseInt(availableDays, 10),
+        seasons: seasons ? seasons.split(',') : undefined
+      });
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     const userId = auth.currentUser?.uid;
@@ -73,25 +96,6 @@ const Wishlist: React.FC = () => {
 
     return () => unsubscribe();
   }, []);
-
-  useEffect(() => {
-    const search = searchParams.get('search') || '';
-    const startDate = searchParams.get('startDate');
-    const endDate = searchParams.get('endDate');
-    const availableDays = searchParams.get('availableDays');
-    const seasons = searchParams.get('seasons');
-
-    setSearchQuery(search);
-    
-    if (startDate && endDate && availableDays) {
-      setSelectedDateRange({
-        startDate: new Date(startDate),
-        endDate: new Date(endDate),
-        availableDays: parseInt(availableDays, 10),
-        seasons: seasons ? seasons.split(',') : undefined
-      });
-    }
-  }, [searchParams]);
 
   useEffect(() => {
     const hasNoParams = Array.from(searchParams.entries()).length === 0;
@@ -194,30 +198,35 @@ const Wishlist: React.FC = () => {
     setIsCalendarOpen(false);
   };
 
-  const sortedDestinations = useMemo(() => {
-    // First apply filters
-    let filtered = destinations.filter(dest => {
+  const handleTagClick = (tag: string) => {
+    setSelectedTag(selectedTag === tag ? null : tag);
+  };
+
+  const filteredAndSortedDestinations = useMemo(() => {
+    // First filter
+    const filtered = destinations.filter(destination => {
       const matchesSearch = !searchQuery || 
-        dest.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (dest.description && dest.description.toLowerCase().includes(searchQuery.toLowerCase())) ||
-        (dest.tags && dest.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase())));
+        destination.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        destination.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        destination.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
 
-      const matchesDateRange = !selectedDateRange || (
-        dest.min_days && dest.max_days && 
-        selectedDateRange.availableDays >= dest.min_days &&
-        selectedDateRange.availableDays <= dest.max_days
-      );
+      const matchesTag = !selectedTag || 
+        destination.tags?.includes(selectedTag);
 
-      return matchesSearch && matchesDateRange;
+      const matchesDateRange = !selectedDateRange ||
+        (!destination.daysRequired || 
+          parseInt(destination.daysRequired) <= selectedDateRange.availableDays);
+
+      return matchesSearch && matchesTag && matchesDateRange;
     });
 
-    // Sort by createdAt in descending order (latest first)
+    // Then sort by createdAt in descending order
     return filtered.sort((a, b) => {
       const dateA = new Date(a.createdAt || a.dateAdded || 0).getTime();
       const dateB = new Date(b.createdAt || b.dateAdded || 0).getTime();
       return dateB - dateA;
     });
-  }, [destinations, searchQuery, selectedDateRange]);
+  }, [destinations, searchQuery, selectedTag, selectedDateRange]);
 
   return (
     <div className="container mx-auto px-4 py-6">
@@ -279,24 +288,52 @@ const Wishlist: React.FC = () => {
         </div>
       )}
 
-      {sortedDestinations.length === 0 ? (
+      {(selectedTag || searchQuery || selectedDateRange) && (
+        <div className="flex flex-wrap gap-2 mb-4">
+          {selectedTag && (
+            <span 
+              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+              onClick={() => setSelectedTag(null)}
+            >
+              #{selectedTag} ×
+            </span>
+          )}
+          {searchQuery && (
+            <span 
+              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+              onClick={() => setSearchQuery('')}
+            >
+              Search: {searchQuery} ×
+            </span>
+          )}
+          {selectedDateRange && (
+            <span 
+              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+              onClick={() => setSelectedDateRange(null)}
+            >
+              {selectedDateRange.availableDays} days available ×
+            </span>
+          )}
+        </div>
+      )}
+
+      {filteredAndSortedDestinations.length === 0 ? (
         <div className="text-center py-12">
           <p className="text-gray-500 text-lg">
             {searchQuery
-              ? 'No destinations found matching your search.'
-              : selectedDateRange
-              ? 'No destinations found for the selected dates.'
+              ? 'No destinations found matching your search criteria.'
               : 'No destinations added yet. Add your first destination!'}
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
-          {sortedDestinations.map((destination) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+          {filteredAndSortedDestinations.map((destination) => (
             <DestinationCard
               key={destination.id}
               destination={destination}
-              onDelete={() => destination.id && handleDeleteDestination(destination.id)}
+              onDelete={() => handleDeleteDestination(destination.id!)}
               onEdit={() => setEditingDestination(destination)}
+              onTagClick={handleTagClick}
             />
           ))}
         </div>
