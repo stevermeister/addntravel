@@ -5,7 +5,6 @@ export interface Coordinates {
 
 export interface TravelPeriod {
   label: string;
-  explanation: string;
   minDays: number;
   maxDays: number;
 }

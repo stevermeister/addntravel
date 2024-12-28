@@ -4,43 +4,36 @@ import { Destination, TravelPeriod } from '../types/destination';
 const TRAVEL_PERIODS: TravelPeriod[] = [
   {
     label: 'Weekend Trip',
-    explanation: 'Few days',
     minDays: 1,
     maxDays: 3
   },
   {
     label: 'Short Getaway',
-    explanation: 'A quick break',
     minDays: 3,
     maxDays: 5
   },
   {
     label: 'Weeklong Escape',
-    explanation: 'A solid week away',
     minDays: 5,
     maxDays: 7
   },
   {
     label: 'Leisure Week',
-    explanation: 'More than a week',
     minDays: 7,
     maxDays: 9
   },
   {
     label: 'Two-Week Retreat',
-    explanation: 'Around two weeks',
     minDays: 12,
     maxDays: 16
   },
   {
     label: 'Grand Adventure',
-    explanation: 'Around three weeks',
     minDays: 19,
     maxDays: 23
   },
   {
     label: 'Full Sojourn',
-    explanation: 'A full month away',
     minDays: 25,
     maxDays: 35
   }
@@ -427,15 +420,14 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                         daysRequired: prev.daysRequired?.label === period.label ? undefined : period
                       }));
                     }}
-                    className={`p-4 rounded-xl border text-left transition-colors
+                    className={`p-3 rounded-xl border text-left transition-colors flex justify-between items-center
                       ${formData.daysRequired?.label === period.label
                         ? 'border-blue-600 bg-blue-50 text-blue-700'
                         : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
                       }`}
                   >
                     <div className="font-medium">{period.label}</div>
-                    <div className="text-sm text-gray-600">{period.explanation}</div>
-                    <div className="text-sm text-gray-500 mt-1">
+                    <div className="text-sm text-gray-600">
                       {period.minDays === period.maxDays
                         ? `${period.minDays} days`
                         : `${period.minDays}-${period.maxDays} days`}
