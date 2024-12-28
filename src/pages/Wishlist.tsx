@@ -150,11 +150,22 @@ const Wishlist: React.FC = () => {
       const snapshot = await get(destinationRef);
       const currentData = snapshot.val();
 
+      // If name is being updated, search for a new image
+      let imageUrl = updates.imageUrl;
+      if (updates.name && updates.name !== currentData.name) {
+        const { searchImages } = await import('../utils/imageSearch');
+        const results = await searchImages(updates.name);
+        if (results.length > 0) {
+          const randomIndex = Math.floor(Math.random() * results.length);
+          imageUrl = results[randomIndex].link;
+        }
+      }
+
       // Prepare update data
       const updateData = {
         ...currentData,
         ...updates,
-        imageUrl: updates.imageUrl || currentData.imageUrl || '',
+        imageUrl: imageUrl || currentData.imageUrl || '',
         preferredSeasons: updates.preferredSeasons || currentData.preferredSeasons || [],
         createdAt: currentData.createdAt || new Date().toISOString()
       };
