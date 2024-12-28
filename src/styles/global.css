@@ -73,6 +73,20 @@
   .badge-red {
     @apply bg-red-100 text-red-800;
   }
+  
+  /* Header styles */
+  .header {
+    @apply sticky top-0 z-50 bg-white shadow-sm;
+  }
+  
+  .header-content {
+    @apply flex items-center justify-between px-4 py-2 md:py-3;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    @apply flex items-center gap-2 p-3 md:p-0;
+  }
 }
 
 /* Animations */
