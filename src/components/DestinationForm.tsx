@@ -39,7 +39,7 @@ const TRAVEL_PERIODS: TravelPeriod[] = [
   }
 ];
 
-const MIN_BUDGET = 500;
+const MIN_BUDGET = 0;
 const MAX_BUDGET = 10000;
 const BUDGET_STEP = 500;
 
@@ -161,7 +161,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     } else {
       setFormData(prev => ({
         ...prev,
-        [name]: value
+        [name]: name === 'estimatedBudget' ? Number(value) : value
       }));
     }
     
@@ -359,7 +359,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                   min={MIN_BUDGET}
                   max={MAX_BUDGET}
                   step={BUDGET_STEP}
-                  value={formData.estimatedBudget || MIN_BUDGET}
+                  value={formData.estimatedBudget ?? MIN_BUDGET}
                   onChange={handleInputChange}
                   className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
                 />
@@ -368,7 +368,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                   <span>${MAX_BUDGET}</span>
                 </div>
                 <div className="text-center font-medium text-lg text-blue-700">
-                  {formData.estimatedBudget
+                  {typeof formData.estimatedBudget === 'number'
                     ? new Intl.NumberFormat('en-US', {
                         style: 'currency',
                         currency: 'USD',

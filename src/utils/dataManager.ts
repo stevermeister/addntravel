@@ -177,12 +177,12 @@ export function validateImportData(data: unknown): ValidationResult {
     const newDest: Destination = {
       ...dest,
       preferredSeasons: dest.preferredSeasons || 
-        (dest.preferredSeason ? [dest.preferredSeason] : []),
+        ((dest as any).preferredSeason ? [(dest as any).preferredSeason] : []),
       daysRequired: typeof dest.daysRequired === 'string' ? 
         {
           label: `${dest.daysRequired} days`,
-          minDays: parseInt(dest.daysRequired.split('-')[0]),
-          maxDays: parseInt(dest.daysRequired.split('-')[1] || dest.daysRequired)
+          minDays: parseInt((dest.daysRequired as string).split('-')[0]),
+          maxDays: parseInt((dest.daysRequired as string).split('-')[1] || dest.daysRequired as string)
         } : dest.daysRequired
     };
 

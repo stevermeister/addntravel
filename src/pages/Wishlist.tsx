@@ -128,6 +128,7 @@ const Wishlist: React.FC = () => {
         ...newDest,
         imageUrl: imageUrl || '',
         preferredSeasons: newDest.preferredSeasons || [],
+        estimatedBudget: newDest.estimatedBudget || 0,
         createdAt: now
       });
       setShowAddForm(false);
