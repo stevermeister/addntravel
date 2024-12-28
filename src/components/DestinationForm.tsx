@@ -7,7 +7,7 @@ interface FormData {
   estimatedBudget?: number;
   preferredSeasons: string[];
   daysRequired?: string;
-  tags: string;
+  tags: string[];
 }
 
 interface FormErrors {
@@ -31,11 +31,21 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     estimatedBudget: undefined,
     preferredSeasons: [],
     daysRequired: '',
-    tags: '',
+    tags: [],
   });
   const [showCancelModal, setShowCancelModal] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
+  const [tagSuggestions, setTagSuggestions] = useState<string[]>([]);
+  const [allTags] = useState(['travel', 'food', 'culture', 'nature', 'adventure']);
+  const [showTagSuggestions, setShowTagSuggestions] = useState(false);
+  const [selectedTagIndex, setSelectedTagIndex] = useState(0);
   const nameInputRef = useRef<HTMLInputElement>(null);
+  const descriptionRef = useRef<HTMLTextAreaElement>(null);
+
+  const extractTagsFromDescription = (text: string): string[] => {
+    const tagRegex = /#[\w-]+/g;
+    return (text.match(tagRegex) || []).map(tag => tag.slice(1));
+  };
 
   const initialFormData = useMemo(() => ({
     destinationName: destination?.name || '',
@@ -43,7 +53,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     estimatedBudget: destination?.estimatedBudget,
     preferredSeasons: destination?.preferredSeasons || [],
     daysRequired: destination?.daysRequired || '',
-    tags: destination?.tags?.join(', ') || '',
+    tags: destination?.tags || [],
   }), [destination]);
 
   useEffect(() => {
@@ -73,6 +83,34 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
           ? [...prev.preferredSeasons, season]
           : prev.preferredSeasons.filter(s => s !== season)
       }));
+    } else if (name === 'description') {
+      const extractedTags = extractTagsFromDescription(value);
+      setFormData(prev => ({
+        ...prev,
+        description: value,
+        tags: extractedTags
+      }));
+
+      // Handle tag suggestions
+      const lastHashIndex = value.lastIndexOf('#');
+      if (lastHashIndex !== -1) {
+        const textAfterHash = value.slice(lastHashIndex + 1);
+        const currentWord = textAfterHash.split(/\s/)[0]; // Get the word being typed
+        
+        if (currentWord !== '') {
+          // Filter suggestions based on current input
+          const filteredSuggestions = allTags.filter(tag => 
+            tag.toLowerCase().includes(currentWord.toLowerCase())
+          );
+          setTagSuggestions(filteredSuggestions);
+        } else {
+          setTagSuggestions(allTags);
+        }
+        setShowTagSuggestions(true);
+        setSelectedTagIndex(0);
+      } else {
+        setShowTagSuggestions(false);
+      }
     } else {
       setFormData(prev => ({
         ...prev,
@@ -86,6 +124,50 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
         ...prev,
         [name]: ''
       }));
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (showTagSuggestions) {
+      switch (e.key) {
+        case 'ArrowDown':
+          e.preventDefault();
+          setSelectedTagIndex(prev => 
+            prev < tagSuggestions.length - 1 ? prev + 1 : prev
+          );
+          break;
+        case 'ArrowUp':
+          e.preventDefault();
+          setSelectedTagIndex(prev => prev > 0 ? prev - 1 : prev);
+          break;
+        case 'Enter':
+          e.preventDefault();
+          if (tagSuggestions[selectedTagIndex]) {
+            handleTagSelect(tagSuggestions[selectedTagIndex]);
+          }
+          break;
+        case 'Escape':
+          setShowTagSuggestions(false);
+          break;
+      }
+    }
+  };
+
+  const handleTagSelect = (tag: string) => {
+    if (descriptionRef.current) {
+      const cursorPosition = descriptionRef.current.selectionStart;
+      const text = formData.description;
+      const lastHashIndex = text.lastIndexOf('#', cursorPosition);
+      const partBeforeHash = text.substring(0, lastHashIndex);
+      const partAfterCursor = text.substring(cursorPosition);
+      const newText = `${partBeforeHash}#${tag} ${partAfterCursor}`;
+      
+      setFormData(prev => ({
+        ...prev,
+        description: newText,
+        tags: extractTagsFromDescription(newText)
+      }));
+      setShowTagSuggestions(false);
     }
   };
 
@@ -107,18 +189,19 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (!validateForm()) return;
-
-    const destinationData: Omit<Destination, 'id'> = {
-      name: formData.destinationName,
-      description: formData.description,
-      estimatedBudget: formData.estimatedBudget ? Number(formData.estimatedBudget) : undefined,
-      preferredSeasons: formData.preferredSeasons,
-      daysRequired: formData.daysRequired || undefined,
-      tags: formData.tags.split(',').map(tag => tag.trim()).filter(Boolean)
-    };
-
-    onSubmit(destinationData);
+    if (validateForm()) {
+      const submissionData: Omit<Destination, 'id'> = {
+        name: formData.destinationName.trim(),
+        description: formData.description.trim(),
+        estimatedBudget: formData.estimatedBudget,
+        preferredSeasons: formData.preferredSeasons,
+        daysRequired: formData.daysRequired,
+        tags: formData.tags,
+        createdAt: new Date().toISOString(),
+      };
+      
+      onSubmit(submissionData);
+    }
   };
 
   const handleCancel = () => {
@@ -174,18 +257,48 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
               )}
             </div>
 
-            <div>
-              <label className="block text-lg font-medium text-gray-900 mb-2">
+            <div className="mb-4">
+              <label htmlFor="description" className="block text-gray-700 text-sm font-bold mb-2">
                 Description
               </label>
-              <textarea
-                name="description"
-                value={formData.description}
-                onChange={handleInputChange}
-                rows={4}
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
-                placeholder="Mention why this destination interests you or what activities you'd like to do..."
-              />
+              <div className="relative">
+                <textarea
+                  ref={descriptionRef}
+                  id="description"
+                  name="description"
+                  value={formData.description}
+                  onChange={handleInputChange}
+                  onKeyDown={handleKeyDown}
+                  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  rows={4}
+                  placeholder="Add description and use #tags"
+                />
+                {showTagSuggestions && (
+                  <div className="absolute bottom-full left-0 w-full bg-white border rounded shadow-lg">
+                    {tagSuggestions.map((tag, index) => (
+                      <div
+                        key={tag}
+                        className={`px-4 py-2 cursor-pointer ${
+                          index === selectedTagIndex ? 'bg-blue-100' : 'hover:bg-gray-100'
+                        }`}
+                        onClick={() => handleTagSelect(tag)}
+                      >
+                        #{tag}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {formData.tags.map((tag) => (
+                    <span key={tag} className="inline-flex items-center px-2 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              {errors.description && (
+                <p className="text-red-500 text-xs italic">{errors.description}</p>
+              )}
             </div>
 
             <div>
@@ -260,20 +373,6 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                 onChange={handleInputChange}
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
                 placeholder="e.g., 3-5 or 7"
-              />
-            </div>
-
-            <div>
-              <label className="block text-lg font-medium text-gray-900 mb-2">
-                Tags
-              </label>
-              <input
-                type="text"
-                name="tags"
-                value={formData.tags}
-                onChange={handleInputChange}
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
-                placeholder="e.g., beach, culture, food (comma separated)"
               />
             </div>
 
