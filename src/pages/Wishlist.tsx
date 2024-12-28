@@ -8,6 +8,7 @@ import TravelCalendar from '../components/TravelCalendar';
 import SearchBar from '../components/SearchBar'; // Import the new SearchBar component
 import { Destination } from '../types/destination';
 import { DateRange } from '../types/dateRange';
+import wishlistDB from '../utils/wishlistDB';
 
 const Wishlist: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -222,113 +223,119 @@ const Wishlist: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <div className="flex items-center gap-4">
-        <SearchBar
-          value={searchQuery}
-          onChange={setSearchQuery}
-          placeholder="Type to search..."
-        />
-        <button
-          onClick={() => setIsCalendarOpen(true)}
-          className="flex items-center gap-2 px-4 py-2.5 text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-            />
-          </svg>
-          <span>Select dates</span>
-        </button>
-        <button
-          onClick={() => setShowAddForm(true)}
-          className="flex items-center gap-2 px-4 py-2.5 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 4v16m8-8H4"
-            />
-          </svg>
-          <span>Add Destination</span>
-        </button>
-      </div>
-
-      <div className="mb-6 flex flex-wrap gap-4">
-      </div>
-
-      {selectedDateRange && (
-        <div className="mb-4 p-4 bg-blue-50 rounded flex justify-between items-center">
-          <div>
-            <span className="font-semibold">Selected Dates: </span>
-            {selectedDateRange.startDate.toLocaleDateString()} - {selectedDateRange.endDate.toLocaleDateString()}
-            <span className="ml-4">
-              <span className="font-semibold">Available Days: </span>
-              {selectedDateRange.availableDays}
-            </span>
-          </div>
-          <button
-            onClick={() => setSelectedDateRange(null)}
-            className="text-red-500 hover:text-red-700"
-          >
-            Clear
-          </button>
-        </div>
-      )}
-
-      {(selectedTag || searchQuery || selectedDateRange) && (
-        <div className="flex flex-wrap gap-2 mb-4">
-          {selectedTag && (
-            <span 
-              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
-              onClick={() => setSelectedTag(null)}
-            >
-              #{selectedTag} ×
-            </span>
-          )}
-          {searchQuery && (
-            <span 
-              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
-              onClick={() => setSearchQuery('')}
-            >
-              Search: {searchQuery} ×
-            </span>
-          )}
-          {selectedDateRange && (
-            <span 
-              className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
-              onClick={() => setSelectedDateRange(null)}
-            >
-              {selectedDateRange.availableDays} days available ×
-            </span>
-          )}
-        </div>
-      )}
-
-      {filteredAndSortedDestinations.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-gray-500 text-lg">
-            {searchQuery
-              ? 'No destinations found matching your search criteria.'
-              : 'No destinations added yet. Add your first destination!'}
+      {destinations.length === 0 ? (
+        <div className="text-center py-16">
+          <h1 className="text-4xl font-bold mb-4">Start Your Travel Wishlist</h1>
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Create your personalized collection of dream destinations.
+            Add places you'd love to visit and organize them by season, duration, and budget.
           </p>
+          <button
+            onClick={() => setShowAddForm(true)}
+            className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors text-lg"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            </svg>
+            Add First Destination
+          </button>
+          <div className="mt-12 text-gray-600">
+            <p className="text-lg mb-4">or get started with</p>
+            <button
+              onClick={() => wishlistDB.initialize()}
+              className="inline-flex items-center gap-2 px-6 py-3 text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+              Get Travel Inspiration
+            </button>
+          </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
-          {filteredAndSortedDestinations.map((destination) => (
-            <DestinationCard
-              key={destination.id}
-              destination={destination}
-              onDelete={() => handleDeleteDestination(destination.id!)}
-              onEdit={() => setEditingDestination(destination)}
-              onTagClick={handleTagClick}
+        <>
+          <div className="flex items-center gap-4">
+            <SearchBar
+              value={searchQuery}
+              onChange={setSearchQuery}
+              placeholder="Type to search..."
             />
-          ))}
-        </div>
+            <button
+              onClick={() => setIsCalendarOpen(true)}
+              className="flex items-center gap-2 px-4 py-2.5 text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+              <span>Select dates</span>
+            </button>
+            <button
+              onClick={() => setShowAddForm(true)}
+              className="flex items-center gap-2 px-4 py-2.5 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              </svg>
+              <span>Add Destination</span>
+            </button>
+          </div>
+
+          {(selectedTag || searchQuery || selectedDateRange) && (
+            <div className="flex flex-wrap gap-2 mb-4">
+              {selectedTag && (
+                <span 
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                  onClick={() => setSelectedTag(null)}
+                >
+                  #{selectedTag} ×
+                </span>
+              )}
+              {searchQuery && (
+                <span 
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                  onClick={() => setSearchQuery('')}
+                >
+                  Search: {searchQuery} ×
+                </span>
+              )}
+              {selectedDateRange && (
+                <span 
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                  onClick={() => setSelectedDateRange(null)}
+                >
+                  {selectedDateRange.availableDays} days available ×
+                </span>
+              )}
+            </div>
+          )}
+
+          {filteredAndSortedDestinations.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-gray-500 text-lg">
+                {searchQuery
+                  ? 'No destinations found matching your search criteria.'
+                  : 'No destinations added yet. Add your first destination!'}
+              </p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+              {filteredAndSortedDestinations.map((destination) => (
+                <DestinationCard
+                  key={destination.id}
+                  destination={destination}
+                  onDelete={() => handleDeleteDestination(destination.id!)}
+                  onEdit={() => setEditingDestination(destination)}
+                  onTagClick={handleTagClick}
+                />
+              ))}
+            </div>
+          )}
+        </>
       )}
 
       {showAddForm && (
