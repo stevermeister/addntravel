@@ -133,7 +133,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                 onChange={handleInputChange}
                 rows={4}
                 className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
-                placeholder="Add some notes about this destination..."
+                placeholder="Mention why this destination interests you or what activities you'd like to do..."
               />
             </div>
 
