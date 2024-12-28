@@ -2,7 +2,6 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { ref, onValue, push, remove, set, get, DataSnapshot } from 'firebase/database';
 import { database, auth } from '../utils/firebase';
 import { useSearchParams } from 'react-router-dom';
-import { parseDatePeriod } from '../utils/date';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import TravelCalendar from '../components/TravelCalendar';
@@ -111,7 +110,6 @@ const Wishlist: React.FC = () => {
 
     try {
       console.log('Adding destination with data:', newDest);
-      const { min_days, max_days } = await parseDatePeriod(newDest.daysRequired || '0');
 
       // Search for an image if one isn't provided
       let imageUrl = newDest.imageUrl;
@@ -128,10 +126,7 @@ const Wishlist: React.FC = () => {
       const destinationsRef = ref(database, `users/${userId}/destinations`);
       await push(destinationsRef, {
         ...newDest,
-        min_days,
-        max_days,
         imageUrl: imageUrl || '',
-        daysRequired: newDest.daysRequired || '0',
         preferredSeasons: newDest.preferredSeasons || [],
         dateAdded: now,
         createdAt: now
