@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Destination } from '../types/destination';
 
 interface FormData {
@@ -33,21 +33,27 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     daysRequired: '',
     tags: '',
   });
-
+  const [showCancelModal, setShowCancelModal] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
+
+  const initialFormData = useMemo(() => ({
+    destinationName: destination?.name || '',
+    description: destination?.description || '',
+    estimatedBudget: destination?.estimatedBudget,
+    preferredSeasons: destination?.preferredSeasons || [],
+    daysRequired: destination?.daysRequired || '',
+    tags: destination?.tags?.join(', ') || '',
+  }), [destination]);
 
   useEffect(() => {
     if (destination) {
-      setFormData({
-        destinationName: destination.name,
-        description: destination.description || '',
-        estimatedBudget: destination.estimatedBudget,
-        preferredSeasons: destination.preferredSeasons || [],
-        daysRequired: destination.daysRequired || '',
-        tags: destination.tags?.join(', ') || '',
-      });
+      setFormData(initialFormData);
     }
-  }, [destination]);
+  }, [destination, initialFormData]);
+
+  const hasChanges = useMemo(() => {
+    return JSON.stringify(formData) !== JSON.stringify(initialFormData);
+  }, [formData, initialFormData]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value, type } = e.target;
@@ -108,6 +114,14 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     };
 
     onSubmit(destinationData);
+  };
+
+  const handleCancel = () => {
+    if (hasChanges) {
+      setShowCancelModal(true);
+    } else {
+      onCancel();
+    }
   };
 
   return (
@@ -243,7 +257,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
             <div className="flex justify-end gap-4 mt-8">
               <button
                 type="button"
-                onClick={onCancel}
+                onClick={handleCancel}
                 className="px-6 py-3 text-gray-600 hover:text-gray-800"
               >
                 Cancel
@@ -258,6 +272,32 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
           </form>
         </div>
       </div>
+
+      {showCancelModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+            <h3 className="text-lg font-semibold mb-4">Discard Changes?</h3>
+            <p className="mb-6">You have unsaved changes. Are you sure you want to cancel?</p>
+            <div className="flex justify-end gap-4">
+              <button
+                onClick={() => setShowCancelModal(false)}
+                className="px-4 py-2 text-gray-600 hover:text-gray-800"
+              >
+                Keep Editing
+              </button>
+              <button
+                onClick={() => {
+                  setShowCancelModal(false);
+                  onCancel();
+                }}
+                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+              >
+                Discard
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
