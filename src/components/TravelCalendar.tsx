@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Calendar from 'react-calendar';
 import { DateRange } from '../types/date';
 import 'react-calendar/dist/Calendar.css';
@@ -12,6 +12,32 @@ interface TravelCalendarProps {
 type Value = Date | [Date | null, Date | null] | null;
 
 const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOpen, onClose }) => {
+  const calendarRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (calendarRef.current && !calendarRef.current.contains(event.target as Node)) {
+        onClose();
+      }
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
+
   const handleDateChange = (value: Value) => {
     if (Array.isArray(value) && value.length === 2 && value[0] instanceof Date && value[1] instanceof Date) {
       const [startDate, endDate] = value;
@@ -31,7 +57,7 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white p-4 rounded-lg">
+      <div ref={calendarRef} className="bg-white p-4 rounded-lg shadow-xl transition-all duration-300">
         <Calendar
           onChange={handleDateChange}
           selectRange={true}
@@ -41,7 +67,7 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
         <div className="mt-4 flex justify-end">
           <button
             onClick={onClose}
-            className="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300"
+            className="bg-gray-200 text-gray-700 px-4 py-2 rounded hover:bg-gray-300 transition-colors"
           >
             Cancel
           </button>
