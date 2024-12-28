@@ -30,7 +30,7 @@ export async function searchImages(query: string): Promise<ImageSearchResult[]> 
     
     if (data.items && data.items.length > 0) {
       // Return all items, the random selection will be done where the function is called
-      return data.items.map(item => ({
+      return data.items.map((item: { link: string; title?: string }) => ({
         link: item.link,
         title: item.title || query
       }));

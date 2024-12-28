@@ -82,11 +82,9 @@ const Wishlist: React.FC = () => {
           min_days: dest.min_days || 0,
           max_days: dest.max_days || 0,
           estimatedBudget: dest.estimatedBudget || 0,
-          dateAdded: dest.dateAdded || '1970-01-01T00:00:00.000Z',
-          imageUrl: dest.imageUrl || '',
           visitDate: dest.visitDate,
           budget: dest.budget,
-          createdAt: dest.createdAt || dest.dateAdded || '1970-01-01T00:00:00.000Z',
+          createdAt: dest.createdAt || '1970-01-01T00:00:00.000Z',
           type: dest.type
         }
       }) : [];
@@ -128,7 +126,6 @@ const Wishlist: React.FC = () => {
         ...newDest,
         imageUrl: imageUrl || '',
         preferredSeasons: newDest.preferredSeasons || [],
-        dateAdded: now,
         createdAt: now
       });
       setShowAddForm(false);
@@ -156,8 +153,7 @@ const Wishlist: React.FC = () => {
         ...updates,
         imageUrl: updates.imageUrl || currentData.imageUrl || '',
         preferredSeasons: updates.preferredSeasons || currentData.preferredSeasons || [],
-        dateAdded: currentData.dateAdded || currentData.createdAt || new Date().toISOString(),
-        createdAt: currentData.createdAt || currentData.dateAdded || new Date().toISOString()
+        createdAt: currentData.createdAt || new Date().toISOString()
       };
 
       // Update the destination
@@ -210,15 +206,15 @@ const Wishlist: React.FC = () => {
 
       const matchesDateRange = !selectedDateRange ||
         (!destination.daysRequired || 
-          parseInt(destination.daysRequired) <= selectedDateRange.availableDays);
+          destination.daysRequired.maxDays <= selectedDateRange.availableDays);
 
       return matchesSearch && matchesTag && matchesDateRange;
     });
 
     // Then sort by createdAt in descending order
     return filtered.sort((a, b) => {
-      const dateA = new Date(a.createdAt || a.dateAdded || 0).getTime();
-      const dateB = new Date(b.createdAt || b.dateAdded || 0).getTime();
+      const dateA = new Date(a.createdAt || 0).getTime();
+      const dateB = new Date(b.createdAt || 0).getTime();
       return dateB - dateA;
     });
   }, [destinations, searchQuery, selectedTag, selectedDateRange]);
