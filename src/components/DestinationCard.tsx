@@ -90,42 +90,53 @@ const DestinationCard: React.FC<DestinationCardProps> = ({ destination, onDelete
             </svg>
           </button>
         </div>
-        {destination.tags && destination.tags.length > 0 && (
-          <div className="absolute bottom-2 left-2 right-2 flex flex-wrap gap-1.5">
-            {destination.tags.map((tag, index) => (
-              <span
-                key={index}
-                className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm"
-              >
-                {tag}
-              </span>
-            ))}
+        
+        {/* Seasons - Left Top */}
+        {destination.preferredSeasons && Array.isArray(destination.preferredSeasons) && destination.preferredSeasons.length > 0 && (
+          <div className="absolute top-2 left-2">
+            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm">
+              {destination.preferredSeasons.join(', ')}
+            </span>
+          </div>
+        )}
+
+        {/* Budget - Right Top */}
+        {destination.estimatedBudget && (
+          <div className="absolute top-2 right-2">
+            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm">
+              {formatBudget(destination.estimatedBudget)}
+            </span>
+          </div>
+        )}
+
+        {/* Period - Middle Bottom */}
+        {destination.daysRequired && (
+          <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
+            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm whitespace-nowrap">
+              {destination.daysRequired} days
+            </span>
           </div>
         )}
       </div>
       
       <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2">{destination.name}</h3>
+        <h3 className="font-semibold text-lg mb-2">{destination.name}</h3>
         {destination.description && (
-          <p className="text-gray-600 text-sm mb-4 line-clamp-2">{destination.description}</p>
+          <p className="text-gray-600 text-sm mb-2 line-clamp-2">{destination.description}</p>
         )}
-
-        <div className="grid grid-cols-3 gap-2 text-sm text-gray-700">
-          <div className="flex items-center">
-            <span className="material-symbols-outlined text-lg mr-1.5">event</span>
-            <span className="truncate">{destination.preferredSeasons?.join(', ') || '-'}</span>
+        {/* Tags below description */}
+        {destination.tags && destination.tags.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mt-2">
+            {destination.tags.map((tag, index) => (
+              <span
+                key={index}
+                className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded"
+              >
+                #{tag}
+              </span>
+            ))}
           </div>
-
-          <div className="flex items-center justify-center">
-            <span className="material-symbols-outlined text-lg mr-1.5">schedule</span>
-            <span className="truncate">{destination.daysRequired || '-'}</span>
-          </div>
-
-          <div className="flex items-center justify-end">
-            <span className="material-symbols-outlined text-lg mr-1.5">payments</span>
-            <span className="truncate">{destination.estimatedBudget ? formatBudget(destination.estimatedBudget) : '-'}</span>
-          </div>
-        </div>
+        )}
       </div>
 
       {showDeleteModal && (

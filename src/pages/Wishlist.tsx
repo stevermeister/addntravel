@@ -42,23 +42,32 @@ const Wishlist: React.FC = () => {
     const destinationsRef = ref(database, `users/${userId}/destinations`);
     const unsubscribe = onValue(destinationsRef, (snapshot: DataSnapshot) => {
       const data = snapshot.val();
-      const destinationsList = data ? Object.entries(data).map(([id, dest]: [string, any]) => ({
-        id,
-        name: dest.name,
-        description: dest.description,
-        preferredSeason: dest.preferredSeason,
-        tags: dest.tags || [],
-        daysRequired: dest.daysRequired || '',
-        min_days: dest.min_days || 0,
-        max_days: dest.max_days || 0,
-        estimatedBudget: dest.estimatedBudget || 0,
-        dateAdded: dest.dateAdded || '1970-01-01T00:00:00.000Z',
-        imageUrl: dest.imageUrl || '',
-        visitDate: dest.visitDate,
-        budget: dest.budget,
-        createdAt: dest.createdAt || dest.dateAdded || '1970-01-01T00:00:00.000Z',
-        type: dest.type
-      })) : [];
+      const destinationsList = data ? Object.entries(data).map(([id, dest]: [string, any]) => {
+        let preferredSeasons = [];
+        if (dest.preferredSeasons) {
+          preferredSeasons = Array.isArray(dest.preferredSeasons) ? dest.preferredSeasons : [dest.preferredSeasons];
+        } else if (dest.preferredSeason) {
+          preferredSeasons = Array.isArray(dest.preferredSeason) ? dest.preferredSeason : [dest.preferredSeason];
+        }
+
+        return {
+          id,
+          name: dest.name,
+          description: dest.description,
+          preferredSeasons,
+          tags: dest.tags || [],
+          daysRequired: dest.daysRequired || '',
+          min_days: dest.min_days || 0,
+          max_days: dest.max_days || 0,
+          estimatedBudget: dest.estimatedBudget || 0,
+          dateAdded: dest.dateAdded || '1970-01-01T00:00:00.000Z',
+          imageUrl: dest.imageUrl || '',
+          visitDate: dest.visitDate,
+          budget: dest.budget,
+          createdAt: dest.createdAt || dest.dateAdded || '1970-01-01T00:00:00.000Z',
+          type: dest.type
+        }
+      }) : [];
       setDestinations(destinationsList);
     });
 
@@ -119,6 +128,7 @@ const Wishlist: React.FC = () => {
         max_days,
         imageUrl: imageUrl || '',
         daysRequired: newDest.daysRequired || '0',
+        preferredSeasons: newDest.preferredSeasons || [],
         dateAdded: now,
         createdAt: now
       });
@@ -146,6 +156,7 @@ const Wishlist: React.FC = () => {
         ...currentData,
         ...updates,
         imageUrl: updates.imageUrl || currentData.imageUrl || '',
+        preferredSeasons: updates.preferredSeasons || currentData.preferredSeasons || [],
         dateAdded: currentData.dateAdded || currentData.createdAt || new Date().toISOString(),
         createdAt: currentData.createdAt || currentData.dateAdded || new Date().toISOString()
       };
