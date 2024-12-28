@@ -21,7 +21,6 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/updateVersion.js",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
