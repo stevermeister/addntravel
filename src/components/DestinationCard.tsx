@@ -82,7 +82,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         {/* Seasons - Left Top */}
         {destination.preferredSeasons && Array.isArray(destination.preferredSeasons) && destination.preferredSeasons.length > 0 && (
           <div className="absolute top-2 left-2">
-            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm">
+            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
               {destination.preferredSeasons.join(', ')}
             </span>
           </div>
@@ -91,7 +91,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         {/* Budget - Right Top */}
         {destination.estimatedBudget && (
           <div className="absolute top-2 right-2">
-            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm">
+            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
               {formatBudget(destination.estimatedBudget)}
             </span>
           </div>
@@ -100,19 +100,19 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         {/* Period - Middle Bottom */}
         {destination.daysRequired && (
           <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-            <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm whitespace-nowrap">
+            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm whitespace-nowrap">
               {destination.daysRequired.label}
             </span>
           </div>
         )}
 
-        {/* Action Buttons - Top Right (after hover) */}
-        <div className="absolute top-2 right-2 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        {/* Action Buttons - Always visible on mobile, hover on desktop */}
+        <div className="absolute top-2 right-2 flex gap-2 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
           <button
             onClick={() => onEdit(destination)}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
-            <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 md:w-5 h-4 md:h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
           </button>
@@ -120,7 +120,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             onClick={() => setShowDeleteModal(true)}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
-            <svg className="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 md:w-5 h-4 md:h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
             </svg>
           </button>
@@ -128,9 +128,9 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
       </div>
 
       <div className="p-4">
-        <h3 className="font-semibold text-lg mb-2">{destination.name}</h3>
+        <h3 className="font-semibold text-lg md:text-xl mb-2">{destination.name}</h3>
         {destination.description && (
-          <p className="text-gray-600 text-sm mb-2 line-clamp-2">{destination.description}</p>
+          <p className="text-gray-600 text-sm md:text-base mb-2 line-clamp-2">{destination.description}</p>
         )}
         {/* Tags below description */}
         {destination.tags && destination.tags.length > 0 && (
@@ -139,7 +139,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
               <span
                 key={index}
                 onClick={() => onTagClick?.(tag)}
-                className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded cursor-pointer hover:bg-gray-200 transition-colors"
+                className="text-xs md:text-sm bg-gray-100 text-gray-700 px-2 py-0.5 rounded cursor-pointer hover:bg-gray-200 transition-colors"
               >
                 #{tag}
               </span>
@@ -151,7 +151,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
       {/* Delete Confirmation Modal */}
       {showDeleteModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+          <div className="bg-white p-4 md:p-6 rounded-lg max-w-sm mx-4">
             <h3 className="text-lg font-semibold mb-4">Delete Destination</h3>
             <p className="mb-6">Are you sure you want to delete {destination.name}?</p>
             <div className="flex justify-end gap-4">
