@@ -21,23 +21,15 @@ const Login: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-xl shadow-lg">
         <div className="text-center">
-          <h1 className="text-4xl font-medium mb-2 tracking-wide inline-block" title="add and travel">
-            <span>add</span>
-            <span className="mx-2 text-blue-500 font-light text-3xl align-top">
-              {'(n)'}
-            </span>
-            <span>travel</span>
-          </h1>
-          <p className="text-lg text-gray-600">Your personal travel wishlist</p>
+          <img 
+            src="/logo-for-website-addntravel-com.png" 
+            alt="Add n Travel" 
+            className="w-64 mx-auto mb-4"
+          />
         </div>
 
         <div className="space-y-6">
           <div className="flex flex-col items-center">
-            <img 
-              src="/travel-icon.svg" 
-              alt="Travel illustration" 
-              className="w-48 h-48 mb-4 opacity-80"
-            />
             <p className="text-gray-600 text-center text-sm">
               Keep track of your dream destinations
             </p>
