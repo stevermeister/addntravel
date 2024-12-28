@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Destination } from '../types/destination';
 
 interface FormData {
@@ -35,6 +35,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
   });
   const [showCancelModal, setShowCancelModal] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
+  const nameInputRef = useRef<HTMLInputElement>(null);
 
   const initialFormData = useMemo(() => ({
     destinationName: destination?.name || '',
@@ -50,6 +51,10 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
       setFormData(initialFormData);
     }
   }, [destination, initialFormData]);
+
+  useEffect(() => {
+    nameInputRef.current?.focus();
+  }, []); // Empty dependency array since we only want this on mount
 
   const hasChanges = useMemo(() => {
     return JSON.stringify(formData) !== JSON.stringify(initialFormData);
@@ -155,6 +160,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
                 Destination Name*
               </label>
               <input
+                ref={nameInputRef}
                 type="text"
                 name="destinationName"
                 value={formData.destinationName}
