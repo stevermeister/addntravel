@@ -31,8 +31,15 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-1">
-            <Link to="/" className="text-gray-800 text-lg font-medium">
-              AddnTravel
+            <Link to="/" className="text-xl font-medium tracking-wide hover:opacity-80 transition-opacity flex items-center group">
+              <span>add</span>
+              <span className="mx-1.5 text-blue-500 font-light text-sm align-top" title="and">
+                {'(n)'}
+              </span>
+              <span>travel</span>
+              <span className="ml-1 text-xs text-gray-400 group-hover:opacity-100 opacity-0 transition-opacity">
+                [add and travel]
+              </span>
             </Link>
           </div>
 
