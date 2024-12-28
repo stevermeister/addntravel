@@ -22,10 +22,15 @@
   "scripts": {
     "dev": "vite",
     "prebuild": "node scripts/updateVersion.js",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sharp": "^0.33.5"
+    "@types/lodash": "^4.14.202",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.3.3"
   }
 }
