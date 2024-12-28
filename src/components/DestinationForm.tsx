@@ -5,7 +5,7 @@ interface FormData {
   destinationName: string;
   description: string;
   estimatedBudget?: number;
-  preferredSeason?: string;
+  preferredSeasons: string[];
   daysRequired?: string;
   tags: string;
 }
@@ -29,7 +29,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     destinationName: '',
     description: '',
     estimatedBudget: undefined,
-    preferredSeason: '',
+    preferredSeasons: [],
     daysRequired: '',
     tags: '',
   });
@@ -42,19 +42,33 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
         destinationName: destination.name,
         description: destination.description || '',
         estimatedBudget: destination.estimatedBudget,
-        preferredSeason: destination.preferredSeason || '',
+        preferredSeasons: destination.preferredSeasons || [],
         daysRequired: destination.daysRequired || '',
         tags: destination.tags?.join(', ') || '',
       });
     }
   }, [destination]);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value, type } = e.target;
+    
+    if (type === 'checkbox') {
+      const checkbox = e.target as HTMLInputElement;
+      const season = checkbox.value;
+      
+      setFormData(prev => ({
+        ...prev,
+        preferredSeasons: checkbox.checked
+          ? [...prev.preferredSeasons, season]
+          : prev.preferredSeasons.filter(s => s !== season)
+      }));
+    } else {
+      setFormData(prev => ({
+        ...prev,
+        [name]: value
+      }));
+    }
+    
     // Clear error when user starts typing
     if (errors[name]) {
       setErrors(prev => ({
@@ -88,7 +102,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
       name: formData.destinationName,
       description: formData.description,
       estimatedBudget: formData.estimatedBudget ? Number(formData.estimatedBudget) : undefined,
-      preferredSeason: formData.preferredSeason || undefined,
+      preferredSeasons: formData.preferredSeasons,
       daysRequired: formData.daysRequired || undefined,
       tags: formData.tags.split(',').map(tag => tag.trim()).filter(Boolean)
     };
@@ -156,21 +170,46 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
 
             <div>
               <label className="block text-lg font-medium text-gray-900 mb-2">
-                Preferred Season
+                Preferred Seasons
               </label>
-              <select
-                name="preferredSeason"
-                value={formData.preferredSeason}
-                onChange={handleInputChange}
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg"
-              >
-                <option value="">Select a season</option>
-                <option value="Spring">Spring</option>
-                <option value="Summer">Summer</option>
-                <option value="Fall">Fall</option>
-                <option value="Winter">Winter</option>
-                <option value="Any">Any Season</option>
-              </select>
+              <div className="flex flex-wrap gap-2">
+                {['Any', 'Spring', 'Summer', 'Fall', 'Winter'].map((season) => {
+                  const isSelected = season === 'Any' 
+                    ? formData.preferredSeasons.length === 0 
+                    : formData.preferredSeasons.includes(season);
+                  
+                  return (
+                    <button
+                      key={season}
+                      type="button"
+                      onClick={() => {
+                        if (season === 'Any') {
+                          setFormData(prev => ({
+                            ...prev,
+                            preferredSeasons: []
+                          }));
+                        } else {
+                          setFormData(prev => {
+                            const newSeasons = isSelected
+                              ? prev.preferredSeasons.filter(s => s !== season)
+                              : [...prev.preferredSeasons, season];
+                            return {
+                              ...prev,
+                              preferredSeasons: newSeasons
+                            };
+                          });
+                        }
+                      }}
+                      className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
+                        ${isSelected 
+                          ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                    >
+                      {season}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             <div>

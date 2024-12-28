@@ -113,7 +113,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({ destination, onDelete
         <div className="grid grid-cols-3 gap-2 text-sm text-gray-700">
           <div className="flex items-center">
             <span className="material-symbols-outlined text-lg mr-1.5">event</span>
-            <span className="truncate">{destination.preferredSeason || '-'}</span>
+            <span className="truncate">{destination.preferredSeasons?.join(', ') || '-'}</span>
           </div>
 
           <div className="flex items-center justify-center">

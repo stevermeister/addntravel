@@ -8,7 +8,7 @@ export interface Destination {
   name: string;
   description?: string;
   coordinates?: Coordinates;
-  preferredSeason?: string;
+  preferredSeasons?: string[];
   tags?: string[];
   daysRequired?: string;
   estimatedBudget?: number;
