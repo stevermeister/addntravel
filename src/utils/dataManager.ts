@@ -26,11 +26,26 @@ export async function exportWishlistData(): Promise<boolean> {
     // Get all destinations from the database
     const destinations: Destination[] = await db.getAllDestinations();
     
+    // Sanitize the data to ensure it matches current structure
+    const sanitizedDestinations = destinations.map(dest => ({
+      id: dest.id,
+      name: dest.name,
+      description: dest.description,
+      coordinates: dest.coordinates,
+      preferredSeasons: dest.preferredSeasons || [],
+      tags: dest.tags || [],
+      daysRequired: dest.daysRequired,
+      estimatedBudget: dest.estimatedBudget,
+      imageUrl: dest.imageUrl,
+      visitDate: dest.visitDate,
+      createdAt: dest.createdAt
+    }));
+
     // Create a JSON blob
     const jsonData = JSON.stringify({
       version: '1.0',
       exportDate: new Date().toISOString(),
-      destinations
+      destinations: sanitizedDestinations
     }, null, 2);
     
     // Create and trigger download
@@ -140,7 +155,7 @@ export async function restoreFromBackup(): Promise<boolean> {
  * Validates imported data
  */
 export function validateImportData(data: unknown): ValidationResult {
-  const requiredFields = ['name', 'description', 'estimatedBudget', 'preferredSeason', 'daysRequired'];
+  const requiredFields = ['name'];  // Only name is truly required
   
   // Type guard to check if data has the correct structure
   const isWishlistExport = (value: any): value is WishlistExport => {
@@ -156,6 +171,26 @@ export function validateImportData(data: unknown): ValidationResult {
   if (!isWishlistExport(data)) {
     return { isValid: false, error: 'Invalid data format' };
   }
+
+  // Convert old format to new format
+  data.destinations = data.destinations.map(dest => {
+    const newDest: Destination = {
+      ...dest,
+      preferredSeasons: dest.preferredSeasons || 
+        (dest.preferredSeason ? [dest.preferredSeason] : []),
+      daysRequired: typeof dest.daysRequired === 'string' ? 
+        {
+          label: `${dest.daysRequired} days`,
+          minDays: parseInt(dest.daysRequired.split('-')[0]),
+          maxDays: parseInt(dest.daysRequired.split('-')[1] || dest.daysRequired)
+        } : dest.daysRequired
+    };
+
+    // Remove old fields
+    delete (newDest as any).preferredSeason;
+    
+    return newDest;
+  });
 
   for (const item of data.destinations) {
     for (const field of requiredFields) {
