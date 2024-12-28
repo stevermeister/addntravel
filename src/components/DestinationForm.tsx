@@ -39,6 +39,10 @@ const TRAVEL_PERIODS: TravelPeriod[] = [
   }
 ];
 
+const MIN_BUDGET = 500;
+const MAX_BUDGET = 10000;
+const BUDGET_STEP = 500;
+
 interface FormData {
   destinationName: string;
   description: string;
@@ -348,17 +352,31 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
               <label className="block text-lg font-medium text-gray-900 mb-2">
                 Estimated Budget (USD)
               </label>
-              <input
-                type="number"
-                name="estimatedBudget"
-                value={formData.estimatedBudget || ''}
-                onChange={handleInputChange}
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
-                placeholder="e.g., 1000"
-              />
-              {errors.estimatedBudget && (
-                <p className="mt-1 text-red-500">{errors.estimatedBudget}</p>
-              )}
+              <div className="space-y-4">
+                <input
+                  type="range"
+                  name="estimatedBudget"
+                  min={MIN_BUDGET}
+                  max={MAX_BUDGET}
+                  step={BUDGET_STEP}
+                  value={formData.estimatedBudget || MIN_BUDGET}
+                  onChange={handleInputChange}
+                  className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                />
+                <div className="flex justify-between text-sm text-gray-600">
+                  <span>${MIN_BUDGET}</span>
+                  <span>${MAX_BUDGET}</span>
+                </div>
+                <div className="text-center font-medium text-lg text-blue-700">
+                  {formData.estimatedBudget
+                    ? new Intl.NumberFormat('en-US', {
+                        style: 'currency',
+                        currency: 'USD',
+                        maximumFractionDigits: 0
+                      }).format(formData.estimatedBudget)
+                    : '-'}
+                </div>
+              </div>
             </div>
 
             <div>
