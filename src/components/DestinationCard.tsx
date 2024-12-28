@@ -119,7 +119,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         {destination.daysRequired && (
           <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
             <span className="text-xs bg-black/50 text-white px-2 py-0.5 rounded backdrop-blur-sm whitespace-nowrap">
-              {destination.daysRequired} days
+              {destination.daysRequired.label}
             </span>
           </div>
         )}

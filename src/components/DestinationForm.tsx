@@ -1,12 +1,57 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Destination } from '../types/destination';
+import { Destination, TravelPeriod } from '../types/destination';
+
+const TRAVEL_PERIODS: TravelPeriod[] = [
+  {
+    label: 'Weekend Trip',
+    explanation: 'Few days',
+    minDays: 1,
+    maxDays: 3
+  },
+  {
+    label: 'Short Getaway',
+    explanation: 'A quick break',
+    minDays: 3,
+    maxDays: 5
+  },
+  {
+    label: 'Weeklong Escape',
+    explanation: 'A solid week away',
+    minDays: 5,
+    maxDays: 7
+  },
+  {
+    label: 'Leisure Week',
+    explanation: 'More than a week',
+    minDays: 7,
+    maxDays: 9
+  },
+  {
+    label: 'Two-Week Retreat',
+    explanation: 'Around two weeks',
+    minDays: 12,
+    maxDays: 16
+  },
+  {
+    label: 'Grand Adventure',
+    explanation: 'Around three weeks',
+    minDays: 19,
+    maxDays: 23
+  },
+  {
+    label: 'Full Sojourn',
+    explanation: 'A full month away',
+    minDays: 25,
+    maxDays: 35
+  }
+];
 
 interface FormData {
   destinationName: string;
   description: string;
   estimatedBudget?: number;
   preferredSeasons: string[];
-  daysRequired?: string;
+  daysRequired?: TravelPeriod;
   tags: string[];
 }
 
@@ -30,7 +75,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     description: '',
     estimatedBudget: undefined,
     preferredSeasons: [],
-    daysRequired: '',
+    daysRequired: undefined,
     tags: [],
   });
   const [showCancelModal, setShowCancelModal] = useState(false);
@@ -44,7 +89,9 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
 
   const extractTagsFromDescription = (text: string): string[] => {
     const tagRegex = /#[\w-]+/g;
-    return (text.match(tagRegex) || []).map(tag => tag.slice(1));
+    const matches = text.match(tagRegex) || [];
+    // Get unique tags by converting to Set and back to array
+    return Array.from(new Set(matches.map(tag => tag.slice(1))));
   };
 
   const initialFormData = useMemo(() => ({
@@ -52,7 +99,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
     description: destination?.description || '',
     estimatedBudget: destination?.estimatedBudget,
     preferredSeasons: destination?.preferredSeasons || [],
-    daysRequired: destination?.daysRequired || '',
+    daysRequired: destination?.daysRequired || undefined,
     tags: destination?.tags || [],
   }), [destination]);
 
@@ -98,13 +145,16 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
         const currentWord = textAfterHash.split(/\s/)[0]; // Get the word being typed
         
         if (currentWord !== '') {
-          // Filter suggestions based on current input
-          const filteredSuggestions = allTags.filter(tag => 
-            tag.toLowerCase().includes(currentWord.toLowerCase())
-          );
+          // Filter suggestions based on current input and exclude already used tags
+          const filteredSuggestions = allTags
+            .filter(tag => 
+              tag.toLowerCase().includes(currentWord.toLowerCase()) && 
+              !extractedTags.includes(tag)
+            );
           setTagSuggestions(filteredSuggestions);
         } else {
-          setTagSuggestions(allTags);
+          // Show only unused tags
+          setTagSuggestions(allTags.filter(tag => !extractedTags.includes(tag)));
         }
         setShowTagSuggestions(true);
         setSelectedTagIndex(0);
@@ -364,16 +414,35 @@ const DestinationForm: React.FC<DestinationFormProps> = ({
 
             <div>
               <label className="block text-lg font-medium text-gray-900 mb-2">
-                Days Required
+                Travel Duration
               </label>
-              <input
-                type="text"
-                name="daysRequired"
-                value={formData.daysRequired}
-                onChange={handleInputChange}
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-gray-900 text-lg placeholder:text-gray-400"
-                placeholder="e.g., 3-5 or 7"
-              />
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {TRAVEL_PERIODS.map((period) => (
+                  <button
+                    key={period.label}
+                    type="button"
+                    onClick={() => {
+                      setFormData(prev => ({
+                        ...prev,
+                        daysRequired: prev.daysRequired?.label === period.label ? undefined : period
+                      }));
+                    }}
+                    className={`p-4 rounded-xl border text-left transition-colors
+                      ${formData.daysRequired?.label === period.label
+                        ? 'border-blue-600 bg-blue-50 text-blue-700'
+                        : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
+                      }`}
+                  >
+                    <div className="font-medium">{period.label}</div>
+                    <div className="text-sm text-gray-600">{period.explanation}</div>
+                    <div className="text-sm text-gray-500 mt-1">
+                      {period.minDays === period.maxDays
+                        ? `${period.minDays} days`
+                        : `${period.minDays}-${period.maxDays} days`}
+                    </div>
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="flex justify-end gap-4 mt-8">

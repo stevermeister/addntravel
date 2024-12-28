@@ -3,6 +3,13 @@ export interface Coordinates {
   lng: number;
 }
 
+export interface TravelPeriod {
+  label: string;
+  explanation: string;
+  minDays: number;
+  maxDays: number;
+}
+
 export interface Destination {
   id?: string;
   name: string;
@@ -10,7 +17,7 @@ export interface Destination {
   coordinates?: Coordinates;
   preferredSeasons?: string[];
   tags?: string[];
-  daysRequired?: string;
+  daysRequired?: TravelPeriod;
   estimatedBudget?: number;
   imageUrl?: string;
   visitDate?: string;
