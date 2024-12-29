@@ -3,7 +3,7 @@ export const firebaseConfig = {
   authDomain: 'addntravel.firebaseapp.com',
   databaseURL: import.meta.env.VITE_FIREBASE_DB_URL,
   projectId: 'addntravel',
-  storageBucket: 'addntravel.firebasestorage.app',
-  messagingSenderId: '26158801594',
-  appId: '1:26158801594:web:f1cbce8577c6bcb4a8d883',
+  storageBucket: 'addntravel.appspot.com',
+  messagingSenderId: '1093947856137',
+  appId: '1:1093947856137:web:d6d7d7d7d7d7d7d7d7d7',
 } as const;

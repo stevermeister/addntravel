@@ -4,6 +4,7 @@
   "version": "0.2.3-20241229.1839",
   "type": "module",
   "dependencies": {
+    "@types/google.maps": "^3.58.1",
     "@types/react": "^19.0.2",
     "@types/react-calendar": "^3.9.0",
     "@types/react-dom": "^19.0.2",

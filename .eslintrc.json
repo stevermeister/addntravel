@@ -20,12 +20,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "react-hooks",
-    "jsx-a11y",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "react-hooks", "jsx-a11y", "@typescript-eslint"],
   "settings": {
     "react": {
       "version": "detect"

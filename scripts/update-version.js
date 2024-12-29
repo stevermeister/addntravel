@@ -14,10 +14,7 @@ const baseVersion = packageJson.version.split('-')[0];
 
 // Add timestamp in format YYYYMMDD.HHmm
 const now = new Date();
-const timestamp = now.toISOString()
-    .replace(/[-:]/g, '')
-    .replace(/T/, '.')
-    .slice(0, 13);
+const timestamp = now.toISOString().replace(/[-:]/g, '').replace(/T/, '.').slice(0, 13);
 
 packageJson.version = `${baseVersion}-${timestamp}`;
 

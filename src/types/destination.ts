@@ -10,20 +10,20 @@ export interface TravelPeriod {
 }
 
 export interface Destination {
-  id: string;
+  id?: string;
   name: string;
   description: string;
-  coordinates?: Coordinates;
+  estimatedBudget: number;
   preferredSeasons: string[];
-  tags: string[];
   daysRequired: TravelPeriod | string;
+  tags: string[];
+  createdAt: string;
+  imageUrl: string;
+  coordinates?: { lat: number; lng: number } | null;
   min_days?: number;
   max_days?: number;
-  estimatedBudget: number;
   budget?: number;
-  imageUrl: string;
   visitDate?: string;
-  createdAt: string;
   type?: string;
 }
 

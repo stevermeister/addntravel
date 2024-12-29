@@ -5,14 +5,20 @@ import { useSearchParams } from 'react-router-dom';
 import DestinationCard from '../components/DestinationCard';
 import DestinationForm from '../components/DestinationForm';
 import TravelCalendar from '../components/TravelCalendar';
-import SearchBar from '../components/SearchBar'; // Import the new SearchBar component
+import SearchBar from '../components/SearchBar';
+import SearchOverlay from '../components/SearchOverlay';
 import { Destination } from '../types/destination';
 import { DateRange } from '../types/dateRange';
 import wishlistDB from '../utils/wishlistDB';
 import { useUI } from '../contexts/UIContext';
 import { formatDateRange } from '../utils/dateUtils';
 
-const Wishlist: React.FC = () => {
+interface WishlistProps {
+  isSearchVisible: boolean;
+  onSearchClose: () => void;
+}
+
+const Wishlist: React.FC<WishlistProps> = ({ isSearchVisible, onSearchClose }) => {
   const [searchParams, setSearchParams] = useSearchParams();
   const { showAddForm, setShowAddForm, isCalendarOpen, setIsCalendarOpen } = useUI();
 
@@ -252,6 +258,16 @@ const Wishlist: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
+      {/* Mobile Search Overlay */}
+      <div className="md:hidden">
+        <SearchOverlay
+          searchValue={searchQuery}
+          onSearchChange={setSearchQuery}
+          isVisible={isSearchVisible}
+          onClose={onSearchClose}
+        />
+      </div>
+
       {destinations.length === 0 ? (
         <div className="text-center py-16">
           <h1 className="text-4xl font-bold mb-4">Start Your Travel Wishlist</h1>
@@ -298,7 +314,7 @@ const Wishlist: React.FC = () => {
             <SearchBar
               value={searchQuery}
               onChange={setSearchQuery}
-              placeholder="Type to search..."
+              placeholder="Search destinations..."
             />
             <button
               onClick={() => setIsCalendarOpen(true)}
@@ -330,17 +346,23 @@ const Wishlist: React.FC = () => {
             </button>
           </div>
 
-          {/* Mobile search bar - only visible when search is active */}
-          {(selectedTag || searchQuery || selectedDateRange) && (
+          {/* Mobile Search Button */}
+          <div className="md:hidden flex justify-end mb-4">
+            <button onClick={onSearchClose} className="p-2 text-gray-600 hover:text-gray-800">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Active Filters Display */}
+          {(searchQuery || selectedDateRange) && (
             <div className="flex flex-wrap gap-2 mb-4">
-              {selectedTag && (
-                <button
-                  onClick={() => setSelectedTag(null)}
-                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
-                >
-                  #{selectedTag} ×
-                </button>
-              )}
               {searchQuery && (
                 <button
                   onClick={() => setSearchQuery('')}
@@ -359,7 +381,6 @@ const Wishlist: React.FC = () => {
               )}
             </div>
           )}
-
           {filteredAndSortedDestinations.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-500 text-lg">

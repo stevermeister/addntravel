@@ -1,22 +1,30 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 interface UIContextType {
   showAddForm: boolean;
   setShowAddForm: (show: boolean) => void;
+  isCalendarOpen: boolean;
+  setIsCalendarOpen: (open: boolean) => void;
   showSearch: boolean;
   setShowSearch: (show: boolean) => void;
-  isCalendarOpen: boolean;
-  setIsCalendarOpen: (show: boolean) => void;
   isSideMenuOpen: boolean;
   setIsSideMenuOpen: (show: boolean) => void;
 }
 
 const UIContext = createContext<UIContextType | undefined>(undefined);
 
-export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+export const useUI = () => {
+  const context = useContext(UIContext);
+  if (!context) {
+    throw new Error('useUI must be used within a UIProvider');
+  }
+  return context;
+};
+
+export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [showAddForm, setShowAddForm] = useState(false);
-  const [showSearch, setShowSearch] = useState(false);
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
@@ -24,10 +32,10 @@ export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       value={{
         showAddForm,
         setShowAddForm,
-        showSearch,
-        setShowSearch,
         isCalendarOpen,
         setIsCalendarOpen,
+        showSearch,
+        setShowSearch,
         isSideMenuOpen,
         setIsSideMenuOpen,
       }}
@@ -35,12 +43,4 @@ export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       {children}
     </UIContext.Provider>
   );
-};
-
-export const useUI = () => {
-  const context = useContext(UIContext);
-  if (context === undefined) {
-    throw new Error('useUI must be used within a UIProvider');
-  }
-  return context;
 };

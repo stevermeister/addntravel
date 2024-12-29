@@ -31,18 +31,21 @@ addntravel/
 ## Technology Stack
 
 ### Core
+
 - **React** (v19) - Frontend framework
 - **Vite** (v6) - Build tool and development server
 - **TailwindCSS** (v3) - Utility-first CSS framework
 - **React Router** (v7) - Client-side routing
 
 ### Backend Services
+
 - **Firebase**
   - Authentication (Google Sign-in)
   - Realtime Database
   - Hosting
 
 ### Development Tools
+
 - **Sharp** - Image optimization
 - **PostCSS** - CSS processing
 - **Lodash** - Utility functions

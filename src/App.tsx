@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -11,6 +11,8 @@ import { AuthProvider } from './contexts/AuthContext';
 import { UIProvider } from './contexts/UIContext';
 
 const App: React.FC = () => {
+  const [isSearchVisible, setIsSearchVisible] = useState(false);
+
   return (
     <AuthProvider>
       <UIProvider>
@@ -27,17 +29,57 @@ const App: React.FC = () => {
                       <main className="flex-grow pb-14 md:pb-0">
                         <div className="max-w-7xl mx-auto py-4 sm:py-6 px-4 sm:px-6 lg:px-8">
                           <Routes>
-                            <Route path="/" element={<Wishlist />} />
-                            <Route path="/wishlist" element={<Wishlist />} />
-                            <Route path="/search" element={<Wishlist />} />
-                            <Route path="/add" element={<Wishlist />} />
-                            <Route path="/calendar" element={<Wishlist />} />
+                            <Route
+                              path="/"
+                              element={
+                                <Wishlist
+                                  isSearchVisible={isSearchVisible}
+                                  onSearchClose={() => setIsSearchVisible(false)}
+                                />
+                              }
+                            />
+                            <Route
+                              path="/wishlist"
+                              element={
+                                <Wishlist
+                                  isSearchVisible={isSearchVisible}
+                                  onSearchClose={() => setIsSearchVisible(false)}
+                                />
+                              }
+                            />
+                            <Route
+                              path="/search"
+                              element={
+                                <Wishlist
+                                  isSearchVisible={isSearchVisible}
+                                  onSearchClose={() => setIsSearchVisible(false)}
+                                />
+                              }
+                            />
+                            <Route
+                              path="/add"
+                              element={
+                                <Wishlist
+                                  isSearchVisible={isSearchVisible}
+                                  onSearchClose={() => setIsSearchVisible(false)}
+                                />
+                              }
+                            />
+                            <Route
+                              path="/calendar"
+                              element={
+                                <Wishlist
+                                  isSearchVisible={isSearchVisible}
+                                  onSearchClose={() => setIsSearchVisible(false)}
+                                />
+                              }
+                            />
                             <Route path="*" element={<Navigate to="/" replace />} />
                           </Routes>
                         </div>
                       </main>
                       <Footer className="hidden md:block" />
-                      <BottomNav />
+                      <BottomNav onSearchClick={() => setIsSearchVisible(true)} />
                       <SideMenu />
                     </div>
                   </ProtectedRoute>

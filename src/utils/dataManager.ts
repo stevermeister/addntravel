@@ -211,7 +211,6 @@ export function validateImportData(data: unknown): ValidationResult {
 
     // Remove old fields if they exist
     const restDest = { ...newDest };
-    delete restDest.preferredSeason;
     return restDest;
   });
 

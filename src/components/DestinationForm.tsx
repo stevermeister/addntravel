@@ -1,4 +1,5 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react';
+/// <reference types="@types/google.maps" />
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import { Destination, TravelPeriod } from '../types/destination';
 
 const TRAVEL_PERIODS: TravelPeriod[] = [
@@ -50,6 +51,7 @@ interface FormData {
   preferredSeasons: string[];
   daysRequired?: TravelPeriod;
   tags: string[];
+  coordinates?: { lat: number; lng: number } | null;
 }
 
 interface DestinationFormProps {
@@ -58,7 +60,37 @@ interface DestinationFormProps {
   onCancel: () => void;
 }
 
-const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit, onCancel }) => {
+export default function DestinationForm({ destination, onSubmit, onCancel }: DestinationFormProps) {
+  const searchTimeout = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+  const [predictions, setPredictions] = useState<google.maps.places.AutocompletePrediction[]>([]);
+  const [showPredictions, setShowPredictions] = useState(false);
+  const [placesServiceEnabled, setPlacesServiceEnabled] = useState(true);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+  const suggestionsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Check if Places API is available and working
+    const checkPlacesService = async () => {
+      try {
+        const service = new google.maps.places.AutocompleteService();
+        await service.getPlacePredictions({
+          input: 'test',
+          types: ['(cities)'],
+        });
+      } catch (error) {
+        console.warn('Places API not available:', error);
+        setPlacesServiceEnabled(false);
+      }
+    };
+
+    checkPlacesService();
+  }, []);
+
+  useEffect(() => {
+    // Reset selected index when predictions change
+    setSelectedIndex(-1);
+  }, [predictions]);
+
   const [formData, setFormData] = useState<FormData>({
     destinationName: '',
     description: '',
@@ -80,6 +112,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
             ? { label: destination.daysRequired, minDays: 1, maxDays: 1 }
             : destination.daysRequired,
         tags: destination.tags || [],
+        coordinates: destination.coordinates,
       };
     }
     return {
@@ -92,20 +125,181 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
     };
   }, [destination]);
 
+  const hasChanges = useMemo(() => {
+    return JSON.stringify(formData) !== JSON.stringify(initialFormData);
+  }, [formData, initialFormData]);
+
   useEffect(() => {
     if (destination) {
       setFormData(initialFormData);
     }
   }, [destination, initialFormData]);
 
-  const hasChanges = useMemo(() => {
-    return JSON.stringify(formData) !== JSON.stringify(initialFormData);
-  }, [formData, initialFormData]);
+  const searchPlaces = async (query: string) => {
+    if (!query || query.length < 2 || !placesServiceEnabled) {
+      setPredictions([]);
+      setShowPredictions(false);
+      return;
+    }
+
+    try {
+      const service = new google.maps.places.AutocompleteService();
+      const results = await service.getPlacePredictions({
+        input: query,
+        types: ['(cities)'],
+      });
+
+      if (results?.predictions) {
+        setPredictions(results.predictions);
+        setShowPredictions(true);
+      }
+    } catch (error) {
+      console.error('Error fetching places:', error);
+      setPlacesServiceEnabled(false); // Disable service if it fails
+      setPredictions([]);
+      setShowPredictions(false);
+    }
+  };
+
+  const extractCityName = (description: string): string => {
+    // Split by commas and take the first part
+    return description.split(',')[0].trim();
+  };
+
+  const handlePlaceSelect = async (placeId: string, description: string) => {
+    const cityName = extractCityName(description);
+
+    if (!placesServiceEnabled) {
+      setFormData((prev) => ({
+        ...prev,
+        destinationName: cityName,
+      }));
+      setShowPredictions(false);
+      setPredictions([]);
+      return;
+    }
+
+    try {
+      const service = new google.maps.places.PlacesService(document.createElement('div'));
+
+      service.getDetails(
+        {
+          placeId: placeId,
+          fields: ['geometry'],
+        },
+        (
+          result: google.maps.places.PlaceResult | null,
+          status: google.maps.places.PlacesServiceStatus,
+        ) => {
+          if (
+            status === google.maps.places.PlacesServiceStatus.OK &&
+            result?.geometry?.location &&
+            typeof result.geometry.location.lat === 'function' &&
+            typeof result.geometry.location.lng === 'function'
+          ) {
+            const location = result.geometry.location as google.maps.LatLng;
+            setFormData((prev) => ({
+              ...prev,
+              destinationName: cityName,
+              coordinates: {
+                lat: location.lat(),
+                lng: location.lng(),
+              },
+            }));
+          } else {
+            setFormData((prev) => ({
+              ...prev,
+              destinationName: cityName,
+            }));
+          }
+          setShowPredictions(false);
+          setPredictions([]);
+        },
+      );
+    } catch (error) {
+      console.error('Error fetching place details:', error);
+      setPlacesServiceEnabled(false);
+      setFormData((prev) => ({
+        ...prev,
+        destinationName: cityName,
+      }));
+      setShowPredictions(false);
+      setPredictions([]);
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!showPredictions || predictions.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev < predictions.length - 1 ? prev + 1 : prev));
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setSelectedIndex((prev) => (prev > 0 ? prev - 1 : prev));
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (selectedIndex >= 0) {
+          const selected = predictions[selectedIndex];
+          handlePlaceSelect(selected.place_id, selected.description);
+        }
+        break;
+      case 'Escape':
+        e.preventDefault();
+        setShowPredictions(false);
+        setPredictions([]);
+        break;
+    }
+  };
+
+  // Scroll selected item into view
+  useEffect(() => {
+    if (selectedIndex >= 0 && suggestionsRef.current) {
+      const suggestionItems = suggestionsRef.current.children;
+      if (suggestionItems[selectedIndex]) {
+        suggestionItems[selectedIndex].scrollIntoView({
+          block: 'nearest',
+        });
+      }
+    }
+  }, [selectedIndex]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value, type } = e.target;
 
-    if (type === 'checkbox') {
+    if (name === 'destinationName') {
+      // When manually typing, remove coordinates until a place is selected
+      setFormData((prev) => ({
+        ...prev,
+        destinationName: value,
+        coordinates: undefined, // Reset coordinates when manually typing
+      }));
+
+      // Only try to search if Places API is enabled
+      if (placesServiceEnabled) {
+        if (searchTimeout.current) {
+          clearTimeout(searchTimeout.current);
+        }
+        searchTimeout.current = setTimeout(() => {
+          if (value.length >= 2) {
+            searchPlaces(value);
+          } else {
+            setPredictions([]);
+            setShowPredictions(false);
+          }
+        }, 300);
+      }
+    } else if (name === 'description') {
+      const extractedTags = extractTagsFromDescription(value);
+      setFormData((prev) => ({
+        ...prev,
+        description: value,
+        tags: extractedTags,
+      }));
+    } else if (type === 'checkbox') {
       const checkbox = e.target as HTMLInputElement;
       const season = checkbox.value;
 
@@ -115,17 +309,15 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
           ? [...prev.preferredSeasons, season]
           : prev.preferredSeasons.filter((s) => s !== season),
       }));
-    } else if (name === 'description') {
-      const extractedTags = extractTagsFromDescription(value);
+    } else if (name === 'estimatedBudget') {
       setFormData((prev) => ({
         ...prev,
-        description: value,
-        tags: extractedTags,
+        estimatedBudget: value ? Number(value) : undefined,
       }));
     } else {
       setFormData((prev) => ({
         ...prev,
-        [name]: name === 'estimatedBudget' ? Number(value) : value,
+        [name]: value,
       }));
     }
   };
@@ -164,6 +356,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
         tags: formData.tags,
         createdAt: new Date().toISOString(),
         imageUrl: '',
+        coordinates: formData.coordinates || null,
       };
 
       onSubmit(submissionData);
@@ -194,13 +387,12 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
   const extractTagsFromDescription = (text: string): string[] => {
     const tagRegex = /#[\w-]+/g;
     const matches = text.match(tagRegex) || [];
-    // Get unique tags by converting to Set and back to array
     return Array.from(new Set(matches.map((tag) => tag.slice(1))));
   };
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-start md:items-center justify-center p-0 md:p-4 z-50">
-      <div className="bg-white w-full md:rounded-2xl md:w-auto md:max-w-2xl h-full md:h-auto md:max-h-[90vh] overflow-y-auto">
+      <div className="bg-white w-full md:w-2/3 lg:w-1/2 md:rounded-xl max-h-screen md:max-h-[90vh] overflow-y-auto">
         <div className="sticky top-0 bg-white border-b border-gray-200 p-4 md:p-6 flex justify-between items-center">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900">
             {destination ? 'Edit Destination' : 'Add New Destination'}
@@ -222,7 +414,7 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
         </div>
 
         <form onSubmit={handleSubmit} className="p-4 md:p-6 space-y-4 md:space-y-6">
-          <div>
+          <div className="relative">
             <label
               htmlFor="destinationName"
               className="block text-base md:text-lg font-medium text-gray-900 mb-1 md:mb-2"
@@ -235,10 +427,40 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
               name="destinationName"
               value={formData.destinationName}
               onChange={handleInputChange}
+              onKeyDown={handleKeyDown}
               className="w-full px-3 md:px-4 py-2 md:py-3 rounded-lg md:rounded-xl border border-gray-200 text-gray-900 text-base md:text-lg placeholder:text-gray-400"
               placeholder="e.g., Paris, France"
               required
+              role="combobox"
+              aria-expanded={showPredictions}
+              aria-controls="destination-suggestions"
+              aria-activedescendant={selectedIndex >= 0 ? `suggestion-${selectedIndex}` : undefined}
             />
+            {showPredictions && predictions.length > 0 && (
+              <div
+                ref={suggestionsRef}
+                id="destination-suggestions"
+                className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-md shadow-lg max-h-60 overflow-auto"
+                role="listbox"
+              >
+                {predictions.map((prediction, index) => (
+                  <button
+                    key={prediction.place_id}
+                    id={`suggestion-${index}`}
+                    type="button"
+                    className={`w-full px-4 py-2 text-left hover:bg-gray-100 focus:bg-gray-100 ${
+                      index === selectedIndex ? 'bg-gray-100' : ''
+                    }`}
+                    onClick={() => handlePlaceSelect(prediction.place_id, prediction.description)}
+                    onMouseEnter={() => setSelectedIndex(index)}
+                    role="option"
+                    aria-selected={index === selectedIndex}
+                  >
+                    {prediction.description}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           <div>
@@ -280,33 +502,21 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
               htmlFor="estimatedBudget"
               className="block text-base md:text-lg font-medium text-gray-900 mb-1 md:mb-2"
             >
-              Estimated Budget (USD)
+              Estimated Budget (€)
             </label>
-            <div className="space-y-2 md:space-y-4">
-              <input
-                id="estimatedBudget"
-                type="range"
-                name="estimatedBudget"
-                min={MIN_BUDGET}
-                max={MAX_BUDGET}
-                step={BUDGET_STEP}
-                value={formData.estimatedBudget ?? MIN_BUDGET}
-                onChange={handleInputChange}
-                className="w-full h-1.5 md:h-2 bg-gray-200 rounded-lg md:rounded-xl border border-gray-200 text-gray-900 text-base md:text-lg placeholder:text-gray-400"
-              />
-              <div className="flex justify-between text-xs md:text-sm text-gray-600">
-                <span>${MIN_BUDGET}</span>
-                <span className="font-medium text-sm md:text-lg text-blue-700">
-                  {typeof formData.estimatedBudget === 'number'
-                    ? new Intl.NumberFormat('en-US', {
-                        style: 'currency',
-                        currency: 'USD',
-                        maximumFractionDigits: 0,
-                      }).format(formData.estimatedBudget)
-                    : '-'}
-                </span>
-                <span>${MAX_BUDGET}</span>
-              </div>
+            <input
+              type="range"
+              id="estimatedBudget"
+              name="estimatedBudget"
+              min={MIN_BUDGET}
+              max={MAX_BUDGET}
+              step={BUDGET_STEP}
+              value={formData.estimatedBudget || 0}
+              onChange={handleInputChange}
+              className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+            />
+            <div className="mt-2 text-sm text-gray-600">
+              {formData.estimatedBudget ? `€${formData.estimatedBudget}` : 'Not specified'}
             </div>
           </div>
 
@@ -411,6 +621,4 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
       </div>
     </div>
   );
-};
-
-export default DestinationForm;
+}
