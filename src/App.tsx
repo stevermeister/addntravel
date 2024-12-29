@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BottomNav from './components/BottomNav';
+import SideMenu from './components/SideMenu';
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -37,6 +38,7 @@ const App: React.FC = () => {
                       </main>
                       <Footer className="hidden md:block" />
                       <BottomNav />
+                      <SideMenu />
                     </div>
                   </ProtectedRoute>
                 }

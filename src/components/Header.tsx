@@ -1,12 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { useUI } from '../contexts/UIContext';
 import { exportWishlistData, importWishlistData } from '../utils/dataManager';
 import { ref, remove } from 'firebase/database';
 import { database } from '../utils/firebase';
 
 const Header: React.FC = () => {
   const { user, login, logout } = useAuth();
+  const { setIsSideMenuOpen } = useUI();
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -53,7 +55,6 @@ const Header: React.FC = () => {
       console.error(err);
     } finally {
       setIsLoading(false);
-      // Reset file input
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
@@ -99,10 +100,21 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="header">
-      <div className="container mx-auto">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center flex-1">
+    <header className="bg-white border-b border-gray-200">
+      <div className="container mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden p-2 -ml-2 hover:bg-gray-50 rounded-lg"
+            onClick={() => setIsSideMenuOpen(true)}
+          >
+            <svg className="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+
+          {/* Logo */}
+          <div className="flex items-center flex-1 justify-center md:justify-start">
             <Link to="/" className="text-xl font-medium tracking-wide hover:opacity-80 transition-opacity flex items-center group" title="add and travel">
               <span>add</span>
               <span className="mx-1.5 text-blue-500 font-light text-sm align-top">
@@ -112,7 +124,8 @@ const Header: React.FC = () => {
             </Link>
           </div>
 
-          <div className="flex items-center gap-3">
+          {/* Desktop Profile Menu */}
+          <div className="hidden md:flex items-center gap-3">
             {user ? (
               <div className="relative" ref={profileMenuRef}>
                 <button
@@ -120,7 +133,7 @@ const Header: React.FC = () => {
                   className="flex items-center gap-2 hover:bg-gray-50 rounded-lg p-2 transition-colors"
                 >
                   {renderAvatar()}
-                  <span className="hidden md:inline text-sm text-gray-700">
+                  <span className="text-sm text-gray-700">
                     {user.displayName || user.email}
                   </span>
                   <svg
@@ -134,7 +147,7 @@ const Header: React.FC = () => {
                 </button>
 
                 {isProfileMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-1 z-50 animate-fade-in">
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-1 z-50">
                     <Link
                       to="/wishlist"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
@@ -147,6 +160,7 @@ const Header: React.FC = () => {
                         My Wishlist
                       </div>
                     </Link>
+
                     <button
                       onClick={handleCreateBackup}
                       className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors flex items-center gap-2"
@@ -193,59 +207,54 @@ const Header: React.FC = () => {
                     </button>
                   </div>
                 )}
-
-                <input
-                  type="file"
-                  ref={fileInputRef}
-                  onChange={handleRestoreBackup}
-                  className="hidden"
-                  accept=".json"
-                />
               </div>
             ) : (
               <button
                 onClick={login}
-                className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
               >
-                <span className="hidden md:inline">Sign in with Google</span>
-                <span className="md:hidden">Sign in</span>
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12.545,12.151L12.545,12.151c0,1.054,0.855,1.909,1.909,1.909h3.536c2.118,0,3.536-1.418,3.536-3.536v-0.318c0-2.118-1.418-3.536-3.536-3.536h-3.536c-1.054,0-1.909,0.855-1.909,1.909v0.318c0,1.054,0.855,1.909,1.909,1.909h3.536" />
-                  <path d="M8.364,12.151L8.364,12.151c0-1.054-0.855-1.909-1.909-1.909H2.918c-2.118,0-3.536,1.418-3.536,3.536v0.318c0,2.118,1.418,3.536,3.536,3.536h3.536c1.054,0,1.909-0.855,1.909-1.909v-0.318c0-1.054-0.855-1.909-1.909-1.909H2.918" />
-                </svg>
+                Sign In
               </button>
             )}
           </div>
         </div>
       </div>
 
-      {error && (
-        <div className="fixed bottom-4 right-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded animate-fade-in">
-          {error}
-        </div>
-      )}
+      <input
+        type="file"
+        ref={fileInputRef}
+        className="hidden"
+        accept=".json"
+        onChange={handleRestoreBackup}
+      />
 
+      {/* Confirmation Modal */}
       {showConfirmModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-sm mx-4 animate-fade-in">
-            <h3 className="text-lg font-medium mb-4">Confirm Delete</h3>
-            <p className="text-gray-600 mb-6">Are you sure you want to remove all destinations? This action cannot be undone.</p>
+          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+            <h3 className="text-lg font-semibold mb-4">Remove All Destinations</h3>
+            <p className="mb-6">Are you sure you want to remove all destinations? This action cannot be undone.</p>
             <div className="flex justify-end gap-4">
               <button
                 onClick={() => setShowConfirmModal(false)}
-                className="px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
+                className="px-4 py-2 text-gray-600 hover:text-gray-800"
               >
                 Cancel
               </button>
               <button
                 onClick={handleRemoveAllDestinations}
-                className="px-4 py-2 text-sm text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors"
-                disabled={isLoading}
+                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
               >
-                {isLoading ? 'Removing...' : 'Delete All'}
+                Remove All
               </button>
             </div>
           </div>
+        </div>
+      )}
+
+      {error && (
+        <div className="fixed bottom-4 right-4 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+          {error}
         </div>
       )}
     </header>

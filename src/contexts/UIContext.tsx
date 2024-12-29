@@ -7,6 +7,8 @@ interface UIContextType {
   setShowSearch: (show: boolean) => void;
   isCalendarOpen: boolean;
   setIsCalendarOpen: (show: boolean) => void;
+  isSideMenuOpen: boolean;
+  setIsSideMenuOpen: (show: boolean) => void;
 }
 
 const UIContext = createContext<UIContextType | undefined>(undefined);
@@ -15,6 +17,7 @@ export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [showAddForm, setShowAddForm] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
+  const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
     <UIContext.Provider value={{
@@ -24,6 +27,8 @@ export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
       setShowSearch,
       isCalendarOpen,
       setIsCalendarOpen,
+      isSideMenuOpen,
+      setIsSideMenuOpen,
     }}>
       {children}
     </UIContext.Provider>
