@@ -1,7 +1,7 @@
 {
   "name": "addntravel",
   "private": true,
-  "version": "0.1.3",
+  "version": "0.2.3-20241229.1834",
   "type": "module",
   "dependencies": {
     "@types/react": "^19.0.2",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "node scripts/update-version.js && tsc && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },

@@ -14,7 +14,7 @@ import { formatDateRange } from '../utils/dateUtils';
 
 const Wishlist: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { showAddForm, setShowAddForm, showSearch, setShowSearch, isCalendarOpen, setIsCalendarOpen } = useUI();
+  const { showAddForm, setShowAddForm, isCalendarOpen, setIsCalendarOpen } = useUI();
 
   const [destinations, setDestinations] = useState<Destination[]>([]);
   const [editingDestination, setEditingDestination] = useState<Destination | null>(null);
@@ -302,15 +302,6 @@ const Wishlist: React.FC = () => {
           </div>
 
           {/* Mobile search bar - only visible when search is active */}
-          {showSearch && (
-            <div className="md:hidden mb-4">
-              <SearchBar
-                value={searchQuery}
-                onChange={setSearchQuery}
-                placeholder="Type to search..."
-              />
-            </div>
-          )}
           {(selectedTag || searchQuery || selectedDateRange) && (
             <div className="flex flex-wrap gap-2 mb-4">
               {selectedTag && (
