@@ -67,34 +67,30 @@ const Wishlist: React.FC = () => {
     const unsubscribe = onValue(destinationsRef, (snapshot: DataSnapshot) => {
       const data = snapshot.val();
       const destinationsList = data
-        ? Object.entries(data).map(([id, dest]: [string, Partial<Destination>]) => {
-            let preferredSeasons: string[] = [];
-            if (dest.preferredSeasons) {
-              preferredSeasons = Array.isArray(dest.preferredSeasons)
-                ? dest.preferredSeasons
-                : [dest.preferredSeasons as string];
-            } else if (dest.preferredSeason) {
-              preferredSeasons = Array.isArray(dest.preferredSeason)
-                ? dest.preferredSeason
-                : [dest.preferredSeason as string];
-            }
+        ? Object.entries(data).map(([id, rawDest]) => {
+            const dest = rawDest as Partial<Destination>;
+            const preferredSeasons = Array.isArray(dest.preferredSeasons)
+              ? dest.preferredSeasons
+              : dest.preferredSeasons
+                ? [dest.preferredSeasons]
+                : [];
 
             return {
               id,
-              name: dest.name,
-              description: dest.description,
+              name: dest.name || '',
+              description: dest.description || '',
               preferredSeasons,
               tags: dest.tags || [],
-              daysRequired: dest.daysRequired || '',
-              min_days: dest.min_days || 0,
-              max_days: dest.max_days || 0,
+              daysRequired: dest.daysRequired || { label: '1 day', minDays: 1, maxDays: 1 },
+              min_days: dest.min_days,
+              max_days: dest.max_days,
               estimatedBudget: dest.estimatedBudget || 0,
               visitDate: dest.visitDate,
               budget: dest.budget,
               imageUrl: dest.imageUrl || '',
-              createdAt: dest.createdAt || '1970-01-01T00:00:00.000Z',
+              createdAt: dest.createdAt || new Date().toISOString(),
               type: dest.type,
-            };
+            } as Destination;
           })
         : [];
       setDestinations(destinationsList);
@@ -216,7 +212,7 @@ const Wishlist: React.FC = () => {
 
   const filteredAndSortedDestinations = useMemo(() => {
     // First filter
-    const filtered = destinations.filter((destination) => {
+    let filtered = destinations.filter((destination) => {
       const matchesSearch =
         !searchQuery ||
         destination.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -228,12 +224,23 @@ const Wishlist: React.FC = () => {
       const matchesDateRange =
         !selectedDateRange ||
         !destination.daysRequired ||
-        (destination.daysRequired.maxDays <= selectedDateRange.availableDays &&
+        ((typeof destination.daysRequired === 'object'
+          ? destination.daysRequired.maxDays
+          : parseInt(destination.daysRequired)) <= selectedDateRange.availableDays &&
           (!destination.preferredSeasons ||
             destination.preferredSeasons.includes(selectedDateRange.season)));
 
       return matchesSearch && matchesTag && matchesDateRange;
     });
+
+    if (selectedDateRange) {
+      filtered = filtered.filter((dest) => {
+        const { availableDays } = selectedDateRange;
+        const daysRequired =
+          typeof dest.daysRequired === 'string' ? { minDays: 1, maxDays: 1 } : dest.daysRequired;
+        return daysRequired.maxDays <= availableDays;
+      });
+    }
 
     // Then sort by createdAt in descending order
     return filtered.sort((a, b) => {

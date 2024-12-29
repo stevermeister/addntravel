@@ -106,7 +106,9 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         {destination.daysRequired && (
           <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
             <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm whitespace-nowrap">
-              {destination.daysRequired.label}
+              {typeof destination.daysRequired === 'string'
+                ? destination.daysRequired
+                : destination.daysRequired.label}
             </span>
           </div>
         )}

@@ -68,17 +68,29 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
     tags: [],
   });
 
-  const initialFormData = useMemo(
-    () => ({
-      destinationName: destination?.name || '',
-      description: destination?.description || '',
-      estimatedBudget: destination?.estimatedBudget,
-      preferredSeasons: destination?.preferredSeasons || [],
-      daysRequired: destination?.daysRequired || undefined,
-      tags: destination?.tags || [],
-    }),
-    [destination],
-  );
+  const initialFormData = useMemo((): FormData => {
+    if (destination) {
+      return {
+        destinationName: destination.name || '',
+        description: destination.description || '',
+        estimatedBudget: destination.estimatedBudget,
+        preferredSeasons: destination.preferredSeasons || [],
+        daysRequired:
+          typeof destination.daysRequired === 'string'
+            ? { label: destination.daysRequired, minDays: 1, maxDays: 1 }
+            : destination.daysRequired,
+        tags: destination.tags || [],
+      };
+    }
+    return {
+      destinationName: '',
+      description: '',
+      estimatedBudget: undefined,
+      preferredSeasons: [],
+      daysRequired: undefined,
+      tags: [],
+    };
+  }, [destination]);
 
   useEffect(() => {
     if (destination) {
@@ -146,11 +158,12 @@ const DestinationForm: React.FC<DestinationFormProps> = ({ destination, onSubmit
       const submissionData: Omit<Destination, 'id'> = {
         name: formData.destinationName.trim(),
         description: formData.description.trim(),
-        estimatedBudget: formData.estimatedBudget,
+        estimatedBudget: formData.estimatedBudget || 0,
         preferredSeasons: formData.preferredSeasons,
-        daysRequired: formData.daysRequired,
+        daysRequired: formData.daysRequired || { label: '1 day', minDays: 1, maxDays: 1 },
         tags: formData.tags,
         createdAt: new Date().toISOString(),
+        imageUrl: '',
       };
 
       onSubmit(submissionData);

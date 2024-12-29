@@ -159,16 +159,19 @@ export async function restoreFromBackup(): Promise<boolean> {
  * Validates imported data
  */
 export function validateImportData(data: unknown): ValidationResult {
-  const requiredFields = ['name']; // Only name is truly required
+  const requiredFields = ['name', 'id']; // Required fields as per updated interface
 
   // Type guard to check if data has the correct structure
   const isWishlistExport = (value: unknown): value is WishlistExport => {
+    if (!(typeof value === 'object' && value !== null)) {
+      return false;
+    }
+
+    const obj = value as Record<string, unknown>;
     return (
-      typeof value === 'object' &&
-      value !== null &&
-      typeof value.version === 'string' &&
-      typeof value.exportDate === 'string' &&
-      Array.isArray(value.destinations)
+      typeof obj.version === 'string' &&
+      typeof obj.exportDate === 'string' &&
+      Array.isArray(obj.destinations)
     );
   };
 
@@ -179,29 +182,36 @@ export function validateImportData(data: unknown): ValidationResult {
   // Convert old format to new format
   data.destinations = data.destinations.map((dest: Partial<Destination>) => {
     const newDest: Destination = {
-      ...dest,
-      preferredSeasons:
-        dest.preferredSeasons ||
-        (Object.prototype.hasOwnProperty.call(dest, 'preferredSeason')
-          ? [dest['preferredSeason'] as string]
-          : []),
+      id: dest.id || crypto.randomUUID(),
+      name: dest.name || '',
+      description: dest.description || '',
+      preferredSeasons: dest.preferredSeasons || [],
+      tags: dest.tags || [],
       daysRequired:
         typeof dest.daysRequired === 'string'
           ? {
               label: `${dest.daysRequired} days`,
-              minDays: parseInt((dest.daysRequired as string).split('-')[0]),
-              maxDays: parseInt(
-                (dest.daysRequired as string).split('-')[1] || (dest.daysRequired as string),
-              ),
+              minDays: parseInt((dest.daysRequired as string).split('-')[0]) || 0,
+              maxDays:
+                parseInt(
+                  (dest.daysRequired as string).split('-')[1] || (dest.daysRequired as string),
+                ) || 0,
             }
-          : dest.daysRequired,
+          : dest.daysRequired || { label: '1 day', minDays: 1, maxDays: 1 },
+      estimatedBudget: dest.estimatedBudget || 0,
+      imageUrl: dest.imageUrl || '',
+      createdAt: dest.createdAt || new Date().toISOString(),
+      coordinates: dest.coordinates,
+      visitDate: dest.visitDate,
+      min_days: dest.min_days,
+      max_days: dest.max_days,
+      budget: dest.budget,
+      type: dest.type,
     };
 
-    // Remove old fields if they exist using object destructuring
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { preferredSeason: _, ...restDest } = newDest as Destination & {
-      preferredSeason?: string;
-    };
+    // Remove old fields if they exist
+    const restDest = { ...newDest };
+    delete restDest.preferredSeason;
     return restDest;
   });
 
