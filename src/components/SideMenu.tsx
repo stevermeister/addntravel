@@ -110,7 +110,7 @@ const SideMenu: React.FC = () => {
   if (!isSideMenuOpen) return null;
 
   return (
-    <div 
+    <div
       className={`fixed inset-0 z-50 ${!isSideMenuOpen && 'pointer-events-none'}`}
       aria-modal="true"
       role="dialog"
@@ -120,6 +120,9 @@ const SideMenu: React.FC = () => {
           isSideMenuOpen ? 'opacity-100' : 'opacity-0'
         }`}
         onClick={() => setIsSideMenuOpen(false)}
+        onKeyDown={(e) => e.key === 'Escape' && setIsSideMenuOpen(false)}
+        role="button"
+        tabIndex={0}
         aria-label="Close menu"
       />
       <nav
