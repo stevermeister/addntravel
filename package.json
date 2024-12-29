@@ -1,7 +1,7 @@
 {
   "name": "addntravel",
   "private": true,
-  "version": "0.2.3-20241229.1834",
+  "version": "0.2.3-20241229.1839",
   "type": "module",
   "dependencies": {
     "@types/react": "^19.0.2",

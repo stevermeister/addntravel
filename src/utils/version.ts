@@ -21,6 +21,6 @@ export const versionInfo: VersionInfo = {
     buildTimestamp,
     // You can add more version-related info here
     get formatted() {
-        return `v${this.version} (${new Date(this.buildTimestamp).toLocaleDateString()})`;
+        return `v${this.version}`;
     }
 };
