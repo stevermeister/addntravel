@@ -9,16 +9,16 @@ import SearchBar from '../components/SearchBar'; // Import the new SearchBar com
 import { Destination } from '../types/destination';
 import { DateRange } from '../types/dateRange';
 import wishlistDB from '../utils/wishlistDB';
+import { useUI } from '../contexts/UIContext';
 
 const Wishlist: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
+  const { showAddForm, setShowAddForm, showSearch, setShowSearch, isCalendarOpen, setIsCalendarOpen } = useUI();
 
   const [destinations, setDestinations] = useState<Destination[]>([]);
-  const [showAddForm, setShowAddForm] = useState<boolean>(false);
   const [editingDestination, setEditingDestination] = useState<Destination | null>(null);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedDateRange, setSelectedDateRange] = useState<DateRange | null>(null);
-  const [isCalendarOpen, setIsCalendarOpen] = useState<boolean>(false);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   useEffect(() => {
@@ -266,7 +266,8 @@ const Wishlist: React.FC = () => {
         </div>
       ) : (
         <>
-          <div className="flex items-center gap-4">
+          {/* Desktop buttons */}
+          <div className="hidden md:flex items-center gap-4">
             <SearchBar
               value={searchQuery}
               onChange={setSearchQuery}
@@ -297,6 +298,16 @@ const Wishlist: React.FC = () => {
             </button>
           </div>
 
+          {/* Mobile search bar - only visible when search is active */}
+          {showSearch && (
+            <div className="md:hidden mb-4">
+              <SearchBar
+                value={searchQuery}
+                onChange={setSearchQuery}
+                placeholder="Type to search..."
+              />
+            </div>
+          )}
           {(selectedTag || searchQuery || selectedDateRange) && (
             <div className="flex flex-wrap gap-2 mb-4">
               {selectedTag && (

@@ -48,6 +48,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
 }) => {
   const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
   const [imageUrl, setImageUrl] = useState<string>(destination.imageUrl || getCityImage(destination.name));
+  const [showMobileActions, setShowMobileActions] = useState<boolean>(false);
 
   // Update image URL when destination changes
   useEffect(() => {
@@ -106,10 +107,15 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
           </div>
         )}
 
-        {/* Action Buttons - Always visible on mobile, hover on desktop */}
-        <div className="absolute top-2 right-2 flex gap-2 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+        {/* Action Buttons - Click on mobile, hover on desktop */}
+        <div className={`absolute top-2 right-2 flex gap-2 transition-opacity duration-300 ${
+          showMobileActions ? 'md:opacity-0' : 'opacity-0'
+        } md:group-hover:opacity-100`}>
           <button
-            onClick={() => onEdit(destination)}
+            onClick={(e) => {
+              e.stopPropagation();
+              onEdit(destination);
+            }}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
             <svg className="w-4 md:w-5 h-4 md:h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -117,7 +123,10 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             </svg>
           </button>
           <button
-            onClick={() => setShowDeleteModal(true)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setShowDeleteModal(true);
+            }}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
             <svg className="w-4 md:w-5 h-4 md:h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -127,7 +136,10 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         </div>
       </div>
 
-      <div className="p-4">
+      <div 
+        className="p-4"
+        onClick={() => setShowMobileActions(!showMobileActions)}
+      >
         <h3 className="font-semibold text-lg md:text-xl mb-2">{destination.name}</h3>
         {destination.description && (
           <p className="text-gray-600 text-sm md:text-base mb-2 line-clamp-2">{destination.description}</p>
