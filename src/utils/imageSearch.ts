@@ -17,22 +17,22 @@ export async function searchImages(query: string): Promise<ImageSearchResult[]> 
       searchType: 'image',
       num: '10',
       imgSize: 'large',
-      imgType: 'photo'
+      imgType: 'photo',
     };
-    
+
     const queryString = Object.entries(params)
       .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
       .join('&');
-    
+
     const url = `${baseUrl}?${queryString}`;
     const response = await fetch(url);
     const data = await response.json();
-    
+
     if (data.items && data.items.length > 0) {
       // Return all items, the random selection will be done where the function is called
       return data.items.map((item: { link: string; title?: string }) => ({
         link: item.link,
-        title: item.title || query
+        title: item.title || query,
       }));
     }
     return [];

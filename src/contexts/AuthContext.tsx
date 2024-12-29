@@ -31,13 +31,15 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     console.log('Setting up auth state listener');
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       console.log('Auth state changed:', {
-        user: user ? {
-          displayName: user.displayName,
-          email: user.email,
-          photoURL: user.photoURL,
-          uid: user.uid,
-          providerData: user.providerData
-        } : null
+        user: user
+          ? {
+              displayName: user.displayName,
+              email: user.email,
+              photoURL: user.photoURL,
+              uid: user.uid,
+              providerData: user.providerData,
+            }
+          : null,
       });
       setUser(user);
       setLoading(false);
@@ -54,7 +56,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         email: user.email,
         photoURL: user.photoURL,
         uid: user.uid,
-        providerData: user.providerData
+        providerData: user.providerData,
       });
     } catch (error) {
       console.error('Login error:', error);
@@ -76,12 +78,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     user,
     login,
     logout,
-    loading
+    loading,
   };
 
-  return (
-    <AuthContext.Provider value={value}>
-      {!loading && children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={value}>{!loading && children}</AuthContext.Provider>;
 };

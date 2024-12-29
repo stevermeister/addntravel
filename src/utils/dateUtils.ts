@@ -1,6 +1,6 @@
 export function getSeason(date: Date): string {
   const month = date.getMonth();
-  
+
   if (month >= 2 && month <= 4) return 'Spring';
   if (month >= 5 && month <= 7) return 'Summer';
   if (month >= 8 && month <= 10) return 'Fall';
@@ -10,19 +10,19 @@ export function getSeason(date: Date): string {
 export function getDateRangeSeasons(startDate: Date, endDate: Date): string[] {
   const seasons = new Set<string>();
   const currentDate = new Date(startDate);
-  
+
   while (currentDate <= endDate) {
     seasons.add(getSeason(currentDate));
     currentDate.setMonth(currentDate.getMonth() + 1);
   }
-  
+
   return Array.from(seasons);
 }
 
 export function formatDate(date: Date): string {
   return date.toLocaleDateString('en-US', {
     month: 'short',
-    day: 'numeric'
+    day: 'numeric',
   });
 }
 

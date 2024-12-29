@@ -32,7 +32,7 @@ const Wishlist: React.FC = () => {
       params.set('availableDays', selectedDateRange.availableDays.toString());
       params.set('season', selectedDateRange.season);
     }
-    
+
     setSearchParams(params);
   }, [searchQuery, selectedDateRange, selectedTag, setSearchParams]);
 
@@ -46,13 +46,13 @@ const Wishlist: React.FC = () => {
 
     setSearchQuery(search);
     setSelectedTag(tag);
-    
+
     if (startDate && endDate && availableDays) {
       setSelectedDateRange({
         startDate: new Date(startDate),
         endDate: new Date(endDate),
         availableDays: parseInt(availableDays),
-        season: season || 'Spring'
+        season: season || 'Spring',
       });
     }
   }, [searchParams]);
@@ -66,31 +66,37 @@ const Wishlist: React.FC = () => {
     const destinationsRef = ref(database, `users/${userId}/destinations`);
     const unsubscribe = onValue(destinationsRef, (snapshot: DataSnapshot) => {
       const data = snapshot.val();
-      const destinationsList = data ? Object.entries(data).map(([id, dest]: [string, any]) => {
-        let preferredSeasons = [];
-        if (dest.preferredSeasons) {
-          preferredSeasons = Array.isArray(dest.preferredSeasons) ? dest.preferredSeasons : [dest.preferredSeasons];
-        } else if (dest.preferredSeason) {
-          preferredSeasons = Array.isArray(dest.preferredSeason) ? dest.preferredSeason : [dest.preferredSeason];
-        }
+      const destinationsList = data
+        ? Object.entries(data).map(([id, dest]: [string, Partial<Destination>]) => {
+            let preferredSeasons: string[] = [];
+            if (dest.preferredSeasons) {
+              preferredSeasons = Array.isArray(dest.preferredSeasons)
+                ? dest.preferredSeasons
+                : [dest.preferredSeasons as string];
+            } else if (dest.preferredSeason) {
+              preferredSeasons = Array.isArray(dest.preferredSeason)
+                ? dest.preferredSeason
+                : [dest.preferredSeason as string];
+            }
 
-        return {
-          id,
-          name: dest.name,
-          description: dest.description,
-          preferredSeasons,
-          tags: dest.tags || [],
-          daysRequired: dest.daysRequired || '',
-          min_days: dest.min_days || 0,
-          max_days: dest.max_days || 0,
-          estimatedBudget: dest.estimatedBudget || 0,
-          visitDate: dest.visitDate,
-          budget: dest.budget,
-          imageUrl: dest.imageUrl || '',
-          createdAt: dest.createdAt || '1970-01-01T00:00:00.000Z',
-          type: dest.type
-        }
-      }) : [];
+            return {
+              id,
+              name: dest.name,
+              description: dest.description,
+              preferredSeasons,
+              tags: dest.tags || [],
+              daysRequired: dest.daysRequired || '',
+              min_days: dest.min_days || 0,
+              max_days: dest.max_days || 0,
+              estimatedBudget: dest.estimatedBudget || 0,
+              visitDate: dest.visitDate,
+              budget: dest.budget,
+              imageUrl: dest.imageUrl || '',
+              createdAt: dest.createdAt || '1970-01-01T00:00:00.000Z',
+              type: dest.type,
+            };
+          })
+        : [];
       setDestinations(destinationsList);
     });
 
@@ -130,7 +136,7 @@ const Wishlist: React.FC = () => {
         imageUrl: imageUrl || '',
         preferredSeasons: newDest.preferredSeasons || [],
         estimatedBudget: newDest.estimatedBudget || 0,
-        createdAt: now
+        createdAt: now,
       });
       setShowAddForm(false);
     } catch (error) {
@@ -146,7 +152,7 @@ const Wishlist: React.FC = () => {
       console.log('Updating destination with data:', updates);
 
       const destinationRef = ref(database, `users/${userId}/destinations/${destinationId}`);
-      
+
       // Get current destination data
       const snapshot = await get(destinationRef);
       const currentData = snapshot.val();
@@ -168,17 +174,17 @@ const Wishlist: React.FC = () => {
         ...updates,
         imageUrl: imageUrl || currentData.imageUrl || '',
         preferredSeasons: updates.preferredSeasons || currentData.preferredSeasons || [],
-        createdAt: currentData.createdAt || new Date().toISOString()
+        createdAt: currentData.createdAt || new Date().toISOString(),
       };
 
       // Update the destination
       await set(destinationRef, updateData);
-      
+
       // Update local state to reflect changes immediately
-      setDestinations(prevDestinations => 
-        prevDestinations.map(dest => 
-          dest.id === destinationId ? { ...dest, ...updateData } : dest
-        )
+      setDestinations((prevDestinations) =>
+        prevDestinations.map((dest) =>
+          dest.id === destinationId ? { ...dest, ...updateData } : dest,
+        ),
       );
 
       setEditingDestination(null);
@@ -210,20 +216,21 @@ const Wishlist: React.FC = () => {
 
   const filteredAndSortedDestinations = useMemo(() => {
     // First filter
-    const filtered = destinations.filter(destination => {
-      const matchesSearch = !searchQuery || 
+    const filtered = destinations.filter((destination) => {
+      const matchesSearch =
+        !searchQuery ||
         destination.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         destination.description?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        destination.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+        destination.tags?.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
 
-      const matchesTag = !selectedTag || 
-        destination.tags?.includes(selectedTag);
+      const matchesTag = !selectedTag || destination.tags?.includes(selectedTag);
 
-      const matchesDateRange = !selectedDateRange ||
-        (!destination.daysRequired || (
-          destination.daysRequired.maxDays <= selectedDateRange.availableDays &&
-          (!destination.preferredSeasons || destination.preferredSeasons.includes(selectedDateRange.season))
-        ));
+      const matchesDateRange =
+        !selectedDateRange ||
+        !destination.daysRequired ||
+        (destination.daysRequired.maxDays <= selectedDateRange.availableDays &&
+          (!destination.preferredSeasons ||
+            destination.preferredSeasons.includes(selectedDateRange.season)));
 
       return matchesSearch && matchesTag && matchesDateRange;
     });
@@ -242,15 +249,20 @@ const Wishlist: React.FC = () => {
         <div className="text-center py-16">
           <h1 className="text-4xl font-bold mb-4">Start Your Travel Wishlist</h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Create your personalized collection of dream destinations.
-            Add places you'd love to visit and organize them by season, duration, and budget.
+            Create your personalized collection of dream destinations. Add places you&apos;d love to
+            visit and organize them by season, duration, and budget.
           </p>
           <button
             onClick={() => setShowAddForm(true)}
             className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors text-lg"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
             </svg>
             Add First Destination
           </button>
@@ -261,7 +273,12 @@ const Wishlist: React.FC = () => {
               className="inline-flex items-center gap-2 px-6 py-3 text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                />
               </svg>
               Get Travel Inspiration
             </button>
@@ -295,7 +312,12 @@ const Wishlist: React.FC = () => {
               className="flex items-center gap-2 px-4 py-2.5 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 4v16m8-8H4"
+                />
               </svg>
               <span>Add Destination</span>
             </button>
@@ -305,28 +327,28 @@ const Wishlist: React.FC = () => {
           {(selectedTag || searchQuery || selectedDateRange) && (
             <div className="flex flex-wrap gap-2 mb-4">
               {selectedTag && (
-                <span 
-                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                <button
                   onClick={() => setSelectedTag(null)}
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
                 >
                   #{selectedTag} ×
-                </span>
+                </button>
               )}
               {searchQuery && (
-                <span 
-                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                <button
                   onClick={() => setSearchQuery('')}
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
                 >
                   Search: {searchQuery} ×
-                </span>
+                </button>
               )}
               {selectedDateRange && (
-                <span 
-                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
+                <button
                   onClick={() => setSelectedDateRange(null)}
+                  className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
                 >
                   {formatDateRange(selectedDateRange.startDate, selectedDateRange.endDate)} ×
-                </span>
+                </button>
               )}
             </div>
           )}
@@ -356,16 +378,15 @@ const Wishlist: React.FC = () => {
       )}
 
       {showAddForm && (
-        <DestinationForm
-          onSubmit={handleAddDestination}
-          onCancel={() => setShowAddForm(false)}
-        />
+        <DestinationForm onSubmit={handleAddDestination} onCancel={() => setShowAddForm(false)} />
       )}
 
       {editingDestination && (
         <DestinationForm
           destination={editingDestination}
-          onSubmit={(updates) => editingDestination.id && handleEditDestination(editingDestination.id, updates)}
+          onSubmit={(updates) =>
+            editingDestination.id && handleEditDestination(editingDestination.id, updates)
+          }
           onCancel={() => setEditingDestination(null)}
         />
       )}

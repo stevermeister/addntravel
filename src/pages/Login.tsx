@@ -21,9 +21,9 @@ const Login: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full space-y-8 bg-white p-8 rounded-xl shadow-lg">
         <div className="text-center">
-          <img 
-            src="/logo-for-website-addntravel-com.png" 
-            alt="Add n Travel" 
+          <img
+            src="/logo-for-website-addntravel-com.png"
+            alt="Add n Travel"
             className="w-64 mx-auto mb-4"
           />
         </div>

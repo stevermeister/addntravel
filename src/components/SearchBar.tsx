@@ -9,7 +9,7 @@ interface SearchBarProps {
 const SearchBar: React.FC<SearchBarProps> = ({
   value,
   onChange,
-  placeholder = 'Type to search...'
+  placeholder = 'Type to search...',
 }) => {
   return (
     <div className="relative flex-1">

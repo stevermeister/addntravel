@@ -8,28 +8,28 @@ interface CityImages {
 const getCityImage = (cityName: string): string => {
   // Default fallback image
   const defaultImage = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828';
-  
+
   // Fallback images for specific cities
   const cityImages: CityImages = {
-    'Paris': 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34',
-    'Tokyo': 'https://images.unsplash.com/photo-1513407030348-c983a97b98d8',
+    Paris: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34',
+    Tokyo: 'https://images.unsplash.com/photo-1513407030348-c983a97b98d8',
     'New York': 'https://images.unsplash.com/photo-1522083165195-3424ed129620',
-    'London': 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad',
-    'Rome': 'https://images.unsplash.com/photo-1552832230-c0197dd311b5',
-    'Sydney': 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9',
-    'Dubai': 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c',
-    'Singapore': 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd',
-    'Barcelona': 'https://images.unsplash.com/photo-1523531294919-4bcd7c65e216',
-    'Amsterdam': 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017',
-    'Venice': 'https://images.unsplash.com/photo-1513805959324-96eb66ca8713',
-    'Prague': 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0',
-    'Santorini': 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e'
+    London: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad',
+    Rome: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5',
+    Sydney: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9',
+    Dubai: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c',
+    Singapore: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd',
+    Barcelona: 'https://images.unsplash.com/photo-1523531294919-4bcd7c65e216',
+    Amsterdam: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017',
+    Venice: 'https://images.unsplash.com/photo-1513805959324-96eb66ca8713',
+    Prague: 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0',
+    Santorini: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e',
   };
 
   if (!cityName) return defaultImage;
-  
+
   // Extract city name before any comma or dash
-  const mainCity = cityName.split(/[,\-]/)[0].trim();
+  const mainCity = cityName.split(/[,-]/)[0].trim();
   return cityImages[mainCity] || defaultImage;
 };
 
@@ -40,14 +40,16 @@ interface DestinationCardProps {
   onTagClick?: (tag: string) => void;
 }
 
-const DestinationCard: React.FC<DestinationCardProps> = ({ 
-  destination, 
-  onDelete, 
+const DestinationCard: React.FC<DestinationCardProps> = ({
+  destination,
+  onDelete,
   onEdit,
-  onTagClick 
+  onTagClick,
 }) => {
   const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
-  const [imageUrl, setImageUrl] = useState<string>(destination.imageUrl || getCityImage(destination.name));
+  const [imageUrl, setImageUrl] = useState<string>(
+    destination.imageUrl || getCityImage(destination.name),
+  );
   const [showMobileActions, setShowMobileActions] = useState<boolean>(false);
 
   // Update image URL when destination changes
@@ -66,7 +68,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: 'USD',
-      maximumFractionDigits: 0
+      maximumFractionDigits: 0,
     }).format(budget);
   };
 
@@ -79,15 +81,17 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
           onError={handleImageError}
           className="w-full h-full object-cover"
         />
-        
+
         {/* Seasons - Left Top */}
-        {destination.preferredSeasons && Array.isArray(destination.preferredSeasons) && destination.preferredSeasons.length > 0 && (
-          <div className="absolute top-2 left-2">
-            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
-              {destination.preferredSeasons.join(', ')}
-            </span>
-          </div>
-        )}
+        {destination.preferredSeasons &&
+          Array.isArray(destination.preferredSeasons) &&
+          destination.preferredSeasons.length > 0 && (
+            <div className="absolute top-2 left-2">
+              <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
+                {destination.preferredSeasons.join(', ')}
+              </span>
+            </div>
+          )}
 
         {/* Budget - Right Top */}
         {destination.estimatedBudget && (
@@ -108,9 +112,11 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
         )}
 
         {/* Action Buttons - Click on mobile, hover on desktop */}
-        <div className={`absolute top-2 right-2 flex gap-2 transition-opacity duration-300 ${
-          showMobileActions ? 'md:opacity-0' : 'opacity-0'
-        } md:group-hover:opacity-100`}>
+        <div
+          className={`absolute top-2 right-2 flex gap-2 transition-opacity duration-300 ${
+            showMobileActions ? 'md:opacity-0' : 'opacity-0'
+          } md:group-hover:opacity-100`}
+        >
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -118,8 +124,18 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             }}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
-            <svg className="w-4 md:w-5 h-4 md:h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            <svg
+              className="w-4 md:w-5 h-4 md:h-5 text-gray-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+              />
             </svg>
           </button>
           <button
@@ -129,32 +145,52 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             }}
             className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
           >
-            <svg className="w-4 md:w-5 h-4 md:h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+            <svg
+              className="w-4 md:w-5 h-4 md:h-5 text-red-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              />
             </svg>
           </button>
         </div>
       </div>
 
-      <div 
+      <div
         className="p-4"
+        role="button"
+        tabIndex={0}
+        aria-expanded={showMobileActions}
         onClick={() => setShowMobileActions(!showMobileActions)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            setShowMobileActions(!showMobileActions);
+          }
+        }}
       >
         <h3 className="font-semibold text-lg md:text-xl mb-2">{destination.name}</h3>
         {destination.description && (
-          <p className="text-gray-600 text-sm md:text-base mb-2 line-clamp-2">{destination.description}</p>
+          <p className="text-gray-600 text-sm md:text-base mb-2 line-clamp-2">
+            {destination.description}
+          </p>
         )}
         {/* Tags below description */}
         {destination.tags && destination.tags.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mt-2">
             {destination.tags.map((tag, index) => (
-              <span
+              <button
                 key={index}
                 onClick={() => onTagClick?.(tag)}
                 className="text-xs md:text-sm bg-gray-100 text-gray-700 px-2 py-0.5 rounded cursor-pointer hover:bg-gray-200 transition-colors"
               >
                 #{tag}
-              </span>
+              </button>
             ))}
           </div>
         )}

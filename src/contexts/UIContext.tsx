@@ -20,16 +20,18 @@ export const UIProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   return (
-    <UIContext.Provider value={{
-      showAddForm,
-      setShowAddForm,
-      showSearch,
-      setShowSearch,
-      isCalendarOpen,
-      setIsCalendarOpen,
-      isSideMenuOpen,
-      setIsSideMenuOpen,
-    }}>
+    <UIContext.Provider
+      value={{
+        showAddForm,
+        setShowAddForm,
+        showSearch,
+        setShowSearch,
+        isCalendarOpen,
+        setIsCalendarOpen,
+        isSideMenuOpen,
+        setIsSideMenuOpen,
+      }}
+    >
       {children}
     </UIContext.Provider>
   );

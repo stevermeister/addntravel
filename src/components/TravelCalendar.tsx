@@ -40,15 +40,22 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
   }, [isOpen, onClose]);
 
   const handleDateChange = (value: Value) => {
-    if (Array.isArray(value) && value.length === 2 && value[0] instanceof Date && value[1] instanceof Date) {
+    if (
+      Array.isArray(value) &&
+      value.length === 2 &&
+      value[0] instanceof Date &&
+      value[1] instanceof Date
+    ) {
       const [startDate, endDate] = value;
-      const availableDays = Math.ceil((endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
-      
+      const availableDays = Math.ceil(
+        (endDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24),
+      );
+
       onDateRangeChange({
         startDate,
         endDate,
         availableDays,
-        season: getDateRangeSeasons(startDate, endDate)[0] // Use the first season as primary
+        season: getDateRangeSeasons(startDate, endDate)[0], // Use the first season as primary
       });
       onClose();
     }
@@ -58,7 +65,10 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div ref={calendarRef} className="bg-white p-4 rounded-lg shadow-xl transition-all duration-300">
+      <div
+        ref={calendarRef}
+        className="bg-white p-4 rounded-lg shadow-xl transition-all duration-300"
+      >
         <Calendar
           onChange={handleDateChange}
           selectRange={true}

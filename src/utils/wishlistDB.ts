@@ -29,7 +29,7 @@ class WishlistDatabase {
   // Seed database with default destinations
   private async seedDatabase(): Promise<void> {
     const dbRef = this.getUserRef();
-    
+
     // First clear any existing data
     await set(dbRef, null);
 
@@ -41,7 +41,7 @@ class WishlistDatabase {
         ...destination,
         id: newId,
         createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
+        updatedAt: new Date().toISOString(),
       });
     }
   }
@@ -51,14 +51,14 @@ class WishlistDatabase {
     const dbRef = this.getUserRef();
     const newId = crypto.randomUUID();
     const newRef = child(dbRef, String(newId));
-    
+
     await set(newRef, {
       ...destination,
       id: newId,
       createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
+      updatedAt: new Date().toISOString(),
     });
-    
+
     return newId;
   }
 
@@ -74,21 +74,24 @@ class WishlistDatabase {
     const dbRef = this.getUserRef();
     const snapshot = await get(dbRef);
     const data = snapshot.val();
-    
+
     if (!data) return [];
-    
+
     return Object.entries(data).map(([id, dest]) => ({
       id,
-      ...(dest as Omit<Destination, 'id'>)
+      ...(dest as Omit<Destination, 'id'>),
     }));
   }
 
   // Update a destination
-  async updateDestination(id: string, updates: Partial<Omit<Destination, 'id' | 'createdAt'>>): Promise<void> {
+  async updateDestination(
+    id: string,
+    updates: Partial<Omit<Destination, 'id' | 'createdAt'>>,
+  ): Promise<void> {
     const dbRef = child(this.getUserRef(), id);
     await update(dbRef, {
       ...updates,
-      updatedAt: new Date().toISOString()
+      updatedAt: new Date().toISOString(),
     });
   }
 
@@ -108,10 +111,10 @@ class WishlistDatabase {
   async importData(jsonData: string): Promise<void> {
     const destinations = JSON.parse(jsonData) as Destination[];
     const dbRef = this.getUserRef();
-    
+
     // Clear existing data
     await set(dbRef, null);
-    
+
     // Import new destinations
     for (const destination of destinations) {
       const newId = destination.id || crypto.randomUUID();
@@ -119,7 +122,7 @@ class WishlistDatabase {
       await set(newRef, {
         ...destination,
         id: newId,
-        updatedAt: new Date().toISOString()
+        updatedAt: new Date().toISOString(),
       });
     }
   }
