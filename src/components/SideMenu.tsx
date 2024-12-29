@@ -1,9 +1,9 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useUI } from '../contexts/UIContext';
 import { exportWishlistData, importWishlistData } from '../utils/dataManager';
-import { ref, remove } from 'firebase/database';
+import { ref, remove, get } from 'firebase/database';
 import { database } from '../utils/firebase';
 
 const SideMenu: React.FC = () => {
@@ -63,23 +63,49 @@ const SideMenu: React.FC = () => {
     }
   };
 
-  const handleRemoveAllDestinations = async () => {
+  const handleRemoveAllDestinations = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
     if (!user?.uid) return;
 
-    try {
-      setIsLoading(true);
-      setError(null);
-      const destinationsRef = ref(database, `users/${user.uid}/destinations`);
-      await remove(destinationsRef);
-      setShowConfirmModal(false);
-      setIsSideMenuOpen(false);
-    } catch (err) {
-      setError('Failed to remove destinations');
-      console.error(err);
-    } finally {
-      setIsLoading(false);
-    }
+    setIsLoading(true);
+    setError(null);
+
+    const destinationsRef = ref(database, `users/${user.uid}/destinations`);
+    
+    get(destinationsRef)
+      .then((snapshot) => {
+        if (!snapshot.exists()) {
+          throw new Error('No destinations to remove');
+        }
+        return remove(destinationsRef);
+      })
+      .then(() => {
+        setShowConfirmModal(false);
+        setTimeout(() => setIsSideMenuOpen(false), 100);
+      })
+      .catch((err) => {
+        setError(err.message || 'Failed to remove destinations');
+      })
+      .finally(() => {
+        setIsLoading(false);
+      });
   };
+
+  // Cache the avatar URL to prevent rate limiting
+  const avatarUrl = useMemo(() => {
+    if (!user?.photoURL) return null;
+    try {
+      const url = new URL(user.photoURL);
+      // Add a cache buster that changes daily to prevent over-caching
+      const date = new Date().toISOString().split('T')[0];
+      url.searchParams.set('cb', date);
+      return url.toString();
+    } catch {
+      return user.photoURL;
+    }
+  }, [user?.photoURL]);
 
   if (!isSideMenuOpen) return null;
 
@@ -93,12 +119,14 @@ const SideMenu: React.FC = () => {
       >
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center gap-3">
-            {user?.photoURL ? (
+            {avatarUrl ? (
               <img
-                src={user.photoURL}
-                alt={user.displayName || 'User avatar'}
+                src={avatarUrl}
+                alt={user?.displayName || 'User avatar'}
                 className="w-10 h-10 rounded-full"
                 onError={(e) => {
+                  // On error, replace with default avatar and prevent further attempts
+                  e.currentTarget.onerror = null;
                   e.currentTarget.src = 'https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y';
                 }}
               />
@@ -149,7 +177,10 @@ const SideMenu: React.FC = () => {
           </button>
 
           <button
-            onClick={() => setShowConfirmModal(true)}
+            onMouseDown={(e) => {
+              e.stopPropagation();
+              handleRemoveAllDestinations(e);
+            }}
             className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors text-left text-red-600"
             disabled={isLoading}
           >
@@ -186,22 +217,55 @@ const SideMenu: React.FC = () => {
 
       {/* Confirmation Modal */}
       {showConfirmModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[60]"
+          onMouseDown={(e) => {
+            if (isLoading) return;
+            e.stopPropagation();
+            setShowConfirmModal(false);
+          }}
+        >
+          <div 
+            className="bg-white p-6 rounded-lg max-w-sm mx-4"
+            onMouseDown={(e) => e.stopPropagation()}
+          >
             <h3 className="text-lg font-semibold mb-4">Remove All Destinations</h3>
             <p className="mb-6">Are you sure you want to remove all destinations? This action cannot be undone.</p>
+            {error && (
+              <p className="text-red-600 mb-4 text-sm">{error}</p>
+            )}
             <div className="flex justify-end gap-4">
               <button
-                onClick={() => setShowConfirmModal(false)}
-                className="px-4 py-2 text-gray-600 hover:text-gray-800"
+                type="button"
+                onMouseDown={(e) => {
+                  e.stopPropagation();
+                  if (!isLoading) setShowConfirmModal(false);
+                }}
+                className="px-4 py-2 text-gray-600 hover:text-gray-800 disabled:opacity-50"
+                disabled={isLoading}
               >
                 Cancel
               </button>
               <button
-                onClick={handleRemoveAllDestinations}
-                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+                type="button"
+                onMouseDown={(e) => {
+                  e.stopPropagation();
+                  handleRemoveAllDestinations(e);
+                }}
+                disabled={isLoading}
+                className="relative px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed min-w-[100px]"
               >
-                Remove All
+                <span className={`transition-opacity duration-200 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
+                  Remove All
+                </span>
+                {isLoading && (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                  </div>
+                )}
               </button>
             </div>
           </div>
