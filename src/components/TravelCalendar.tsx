@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Calendar from 'react-calendar';
-import { DateRange } from '../types/date';
+import { DateRange } from '../types/dateRange';
+import { getDateRangeSeasons } from '../utils/dateUtils';
 import 'react-calendar/dist/Calendar.css';
 
 interface TravelCalendarProps {
@@ -47,7 +48,7 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
         startDate,
         endDate,
         availableDays,
-        seasons: [] 
+        season: getDateRangeSeasons(startDate, endDate)[0] // Use the first season as primary
       });
       onClose();
     }

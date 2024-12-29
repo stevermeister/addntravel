@@ -10,6 +10,7 @@ import { Destination } from '../types/destination';
 import { DateRange } from '../types/dateRange';
 import wishlistDB from '../utils/wishlistDB';
 import { useUI } from '../contexts/UIContext';
+import { formatDateRange } from '../utils/dateUtils';
 
 const Wishlist: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -29,7 +30,7 @@ const Wishlist: React.FC = () => {
       params.set('startDate', selectedDateRange.startDate.toISOString());
       params.set('endDate', selectedDateRange.endDate.toISOString());
       params.set('availableDays', selectedDateRange.availableDays.toString());
-      if (selectedDateRange.seasons) params.set('seasons', selectedDateRange.seasons.join(','));
+      params.set('season', selectedDateRange.season);
     }
     
     setSearchParams(params);
@@ -41,7 +42,7 @@ const Wishlist: React.FC = () => {
     const startDate = searchParams.get('startDate');
     const endDate = searchParams.get('endDate');
     const availableDays = searchParams.get('availableDays');
-    const seasons = searchParams.get('seasons');
+    const season = searchParams.get('season');
 
     setSearchQuery(search);
     setSelectedTag(tag);
@@ -50,8 +51,8 @@ const Wishlist: React.FC = () => {
       setSelectedDateRange({
         startDate: new Date(startDate),
         endDate: new Date(endDate),
-        availableDays: parseInt(availableDays, 10),
-        seasons: seasons ? seasons.split(',') : undefined
+        availableDays: parseInt(availableDays),
+        season: season || 'Spring'
       });
     }
   }, [searchParams]);
@@ -219,8 +220,10 @@ const Wishlist: React.FC = () => {
         destination.tags?.includes(selectedTag);
 
       const matchesDateRange = !selectedDateRange ||
-        (!destination.daysRequired || 
-          destination.daysRequired.maxDays <= selectedDateRange.availableDays);
+        (!destination.daysRequired || (
+          destination.daysRequired.maxDays <= selectedDateRange.availableDays &&
+          (!destination.preferredSeasons || destination.preferredSeasons.includes(selectedDateRange.season))
+        ));
 
       return matchesSearch && matchesTag && matchesDateRange;
     });
@@ -331,7 +334,7 @@ const Wishlist: React.FC = () => {
                   className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-100 text-blue-800 cursor-pointer hover:bg-blue-200"
                   onClick={() => setSelectedDateRange(null)}
                 >
-                  {selectedDateRange.availableDays} days available ×
+                  {formatDateRange(selectedDateRange.startDate, selectedDateRange.endDate)} ×
                 </span>
               )}
             </div>
