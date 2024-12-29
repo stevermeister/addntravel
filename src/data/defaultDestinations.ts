@@ -2,93 +2,68 @@ import { Destination } from '../types/destination';
 
 export const defaultDestinations: Destination[] = [
     {
-        id: '1',
         name: "Kyoto, Japan",
-        description: "Ancient temples, traditional gardens, and cultural experiences",
+        description: "Ancient temples, traditional gardens, and cultural experiences. Known for its stunning cherry blossoms in spring, historic geisha district of Gion, and numerous UNESCO World Heritage sites including the famous Kinkaku-ji (Golden Pavilion).",
         daysRequired: {
             label: "Weeklong Escape",
-            minDays: 7,
-            maxDays: 10
-        },
-        estimatedBudget: 3000,
-        preferredSeasons: ["spring"],
-        tags: ["culture", "history", "temples"],
-        imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
-        createdAt: new Date().toISOString()
-    },
-    {
-        id: '2',
-        name: "Santorini, Greece",
-        description: "Beautiful white-washed buildings and stunning Mediterranean views",
-        daysRequired: {
-            label: "Short Getaway",
             minDays: 5,
             maxDays: 7
         },
-        estimatedBudget: 2500,
-        preferredSeasons: ["summer"],
-        tags: ["beach", "romantic", "islands"],
-        imageUrl: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e",
-        createdAt: new Date().toISOString()
+        estimatedBudget: 3000,
+        preferredSeasons: ["Spring"],
+        tags: ["culture", "history", "temples", "food-scene", "nature"],
+        imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80"
     },
     {
-        id: '3',
+        name: "Santorini, Greece",
+        description: "Beautiful white-washed buildings and stunning Mediterranean views. Famous for its dramatic sunsets in Oia, volcanic beaches, and excellent wineries. Perfect for romantic getaways and photography enthusiasts.",
+        daysRequired: {
+            label: "Short Getaway",
+            minDays: 3,
+            maxDays: 5
+        },
+        estimatedBudget: 2500,
+        preferredSeasons: ["Summer", "Spring", "Fall"],
+        tags: ["beach", "romantic", "islands", "food-scene", "photography"],
+        imageUrl: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
         name: "Banff National Park, Canada",
-        description: "Pristine wilderness, mountain lakes, and outdoor adventures",
+        description: "Pristine wilderness, turquoise mountain lakes, and outdoor adventures. Home to the iconic Lake Louise and Moraine Lake. Perfect for hiking, wildlife viewing, and winter sports.",
         daysRequired: {
             label: "Leisure Week",
             minDays: 7,
-            maxDays: 14
+            maxDays: 9
         },
         estimatedBudget: 2000,
-        preferredSeasons: ["summer"],
-        tags: ["nature", "hiking", "mountains"],
-        imageUrl: "https://images.unsplash.com/photo-1513273216459-54c4833d6b4c",
-        createdAt: new Date().toISOString()
+        preferredSeasons: ["Summer", "Winter"],
+        tags: ["nature", "hiking", "mountains", "photography", "wildlife"],
+        imageUrl: "https://images.unsplash.com/photo-1513273216459-54c4833d6b4c?auto=format&fit=crop&w=1200&q=80"
     },
     {
-        id: '4',
         name: "Machu Picchu, Peru",
-        description: "Ancient Incan citadel set high in the Andes Mountains",
+        description: "Ancient Incan citadel set high in the Andes Mountains. This UNESCO World Heritage site offers stunning archaeological ruins, mountain vistas, and a glimpse into ancient Incan civilization.",
         daysRequired: {
             label: "Short Getaway",
-            minDays: 4,
+            minDays: 3,
             maxDays: 5
         },
         estimatedBudget: 1800,
-        preferredSeasons: ["winter"],
-        tags: ["history", "hiking", "culture"],
-        imageUrl: "https://images.unsplash.com/photo-1526392060635-9d6019884377",
-        createdAt: new Date().toISOString()
+        preferredSeasons: ["Winter", "Fall"],
+        tags: ["history", "hiking", "mountains", "archaeology", "culture"],
+        imageUrl: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=1200&q=80"
     },
     {
-        id: '5',
         name: "Maldives",
-        description: "Tropical paradise with overwater bungalows and crystal-clear waters",
+        description: "Paradise islands with crystal clear waters and overwater bungalows. Perfect for snorkeling, diving, and ultimate relaxation. Known for its luxury resorts, marine life, and pristine beaches.",
         daysRequired: {
             label: "Weeklong Escape",
-            minDays: 7,
-            maxDays: 10
+            minDays: 5,
+            maxDays: 7
         },
         estimatedBudget: 4000,
-        preferredSeasons: ["winter"],
-        tags: ["beach", "luxury", "romantic"],
-        imageUrl: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8",
-        createdAt: new Date().toISOString()
-    },
-    {
-        id: '6',
-        name: "Swiss Alps",
-        description: "Stunning mountain scenery and world-class skiing",
-        daysRequired: {
-            label: "Leisure Week",
-            minDays: 7,
-            maxDays: 14
-        },
-        estimatedBudget: 3500,
-        preferredSeasons: ["winter"],
-        tags: ["skiing", "mountains", "nature"],
-        imageUrl: "https://images.unsplash.com/photo-1531310197839-ccf54634509e",
-        createdAt: new Date().toISOString()
+        preferredSeasons: ["Winter", "Spring"],
+        tags: ["beach", "luxury", "romantic", "water-sports", "nature"],
+        imageUrl: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80"
     }
 ];
