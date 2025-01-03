@@ -43,12 +43,19 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
     }
   };
 
+  const stopPropagation = (e: React.MouseEvent | React.KeyboardEvent) => {
+    e.stopPropagation();
+  };
+
   return (
     <>
-      <button
+      <div
         onClick={handleCardClick}
         onKeyDown={handleKeyDown}
-        className="w-full text-left group relative bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
+        className="w-full text-left group relative bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-pointer"
+        role="button"
+        tabIndex={0}
+        aria-label={`View details for ${destination.name}`}
       >
         {/* Image */}
         <div className="relative h-48">
@@ -90,13 +97,24 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
           )}
 
           {/* Desktop Actions - Only visible on hover */}
-          <div className="absolute top-2 right-2 hidden md:flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                onEdit(destination);
+          <div
+            className="absolute top-2 right-2 hidden md:flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity"
+            onClick={stopPropagation}
+            onKeyDown={stopPropagation}
+            role="toolbar"
+            aria-label="Destination actions"
+          >
+            <div
+              onClick={() => onEdit(destination)}
+              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-gray-900 shadow-sm hover:bg-white cursor-pointer"
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onEdit(destination);
+                }
               }}
-              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-gray-900 shadow-sm hover:bg-white"
               aria-label="Edit destination"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,13 +125,18 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
                   d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
                 />
               </svg>
-            </button>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setShowDeleteModal(true);
+            </div>
+            <div
+              onClick={() => setShowDeleteModal(true)}
+              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-red-600 shadow-sm hover:bg-white cursor-pointer"
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  setShowDeleteModal(true);
+                }
               }}
-              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-red-600 shadow-sm hover:bg-white"
               aria-label="Delete destination"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,7 +147,7 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
                   d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
                 />
               </svg>
-            </button>
+            </div>
           </div>
         </div>
 
@@ -135,23 +158,34 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             <p className="text-gray-600 text-sm mb-2 line-clamp-2">{destination.description}</p>
           )}
           {destination.tags && destination.tags.length > 0 && (
-            <div className="flex flex-wrap gap-1 mt-2">
+            <div
+              className="flex flex-wrap gap-1 mt-2"
+              onClick={stopPropagation}
+              onKeyDown={stopPropagation}
+              role="toolbar"
+              aria-label="Destination tags"
+            >
               {destination.tags.map((tag) => (
-                <button
+                <div
                   key={tag}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onTagClick?.(tag);
+                  onClick={() => onTagClick?.(tag)}
+                  className="inline-block px-2 py-1 text-xs font-medium text-blue-800 bg-blue-100 rounded-full hover:bg-blue-200 transition-colors cursor-pointer"
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      onTagClick?.(tag);
+                    }
                   }}
-                  className="inline-block px-2 py-1 text-xs font-medium text-blue-800 bg-blue-100 rounded-full hover:bg-blue-200 transition-colors"
                 >
                   #{tag}
-                </button>
+                </div>
               ))}
             </div>
           )}
         </div>
-      </button>
+      </div>
 
       {/* Mobile Action Panel */}
       <ActionPanel
