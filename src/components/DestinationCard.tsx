@@ -1,91 +1,67 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Destination } from '../types/destination';
-
-interface CityImages {
-  [key: string]: string;
-}
-
-const getCityImage = (cityName: string): string => {
-  // Default fallback image
-  const defaultImage = 'https://images.unsplash.com/photo-1488646953014-85cb44e25828';
-
-  // Fallback images for specific cities
-  const cityImages: CityImages = {
-    Paris: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34',
-    Tokyo: 'https://images.unsplash.com/photo-1513407030348-c983a97b98d8',
-    'New York': 'https://images.unsplash.com/photo-1522083165195-3424ed129620',
-    London: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad',
-    Rome: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5',
-    Sydney: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9',
-    Dubai: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c',
-    Singapore: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd',
-    Barcelona: 'https://images.unsplash.com/photo-1523531294919-4bcd7c65e216',
-    Amsterdam: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017',
-    Venice: 'https://images.unsplash.com/photo-1513805959324-96eb66ca8713',
-    Prague: 'https://images.unsplash.com/photo-1514890547357-a9ee288728e0',
-    Santorini: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e',
-  };
-
-  if (!cityName) return defaultImage;
-
-  // Extract city name before any comma or dash
-  const mainCity = cityName.split(/[,-]/)[0].trim();
-  return cityImages[mainCity] || defaultImage;
-};
+import ActionPanel from './ActionPanel';
 
 interface DestinationCardProps {
   destination: Destination;
-  onDelete: () => void;
-  onEdit: (updates: Partial<Destination>) => void;
+  onEdit: (destination: Destination) => void;
+  onDelete: (destination: Destination) => void;
   onTagClick?: (tag: string) => void;
 }
 
+const formatBudget = (budget: string | number): string => {
+  if (typeof budget === 'string') return budget;
+  return `$${budget}`;
+};
+
 const DestinationCard: React.FC<DestinationCardProps> = ({
   destination,
-  onDelete,
   onEdit,
+  onDelete,
   onTagClick,
 }) => {
-  const [showDeleteModal, setShowDeleteModal] = useState<boolean>(false);
-  const [imageUrl, setImageUrl] = useState<string>(
-    destination.imageUrl || getCityImage(destination.name),
-  );
-  const [showMobileActions, setShowMobileActions] = useState<boolean>(false);
+  const [showActions, setShowActions] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [imageUrl, setImageUrl] = useState<string>(destination.imageUrl);
 
-  // Update image URL when destination changes
-  useEffect(() => {
-    setImageUrl(destination.imageUrl || getCityImage(destination.name));
-  }, [destination.imageUrl, destination.name]);
-
-  const handleImageError = () => {
-    const fallbackUrl = getCityImage(destination.name);
-    if (imageUrl !== fallbackUrl) {
-      setImageUrl(fallbackUrl);
+  const handleCardClick = () => {
+    // Only show actions on mobile
+    if (window.innerWidth < 768) {
+      setShowActions(true);
     }
   };
 
-  const formatBudget = (budget: number): string => {
-    return new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: 'USD',
-      maximumFractionDigits: 0,
-    }).format(budget);
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      handleCardClick();
+    }
+  };
+
+  const handleImageError = () => {
+    if (imageUrl !== destination.imageUrl) {
+      setImageUrl(destination.imageUrl);
+    }
   };
 
   return (
-    <div className="bg-white rounded-lg shadow overflow-hidden group">
-      <div className="relative h-48">
-        <img
-          src={imageUrl}
-          alt={destination.name}
-          onError={handleImageError}
-          className="w-full h-full object-cover"
-        />
+    <>
+      <button
+        onClick={handleCardClick}
+        onKeyDown={handleKeyDown}
+        className="w-full text-left group relative bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
+      >
+        {/* Image */}
+        <div className="relative h-48">
+          <img
+            src={imageUrl}
+            alt={destination.name}
+            onError={handleImageError}
+            className="w-full h-full object-cover"
+          />
 
-        {/* Seasons - Left Top */}
-        {destination.preferredSeasons &&
-          Array.isArray(destination.preferredSeasons) &&
-          destination.preferredSeasons.length > 0 && (
+          {/* Information Labels */}
+          {/* Seasons - Left Top */}
+          {destination.preferredSeasons && destination.preferredSeasons.length > 0 && (
             <div className="absolute top-2 left-2">
               <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
                 {destination.preferredSeasons.join(', ')}
@@ -93,138 +69,132 @@ const DestinationCard: React.FC<DestinationCardProps> = ({
             </div>
           )}
 
-        {/* Budget - Right Top */}
-        {destination.estimatedBudget && (
-          <div className="absolute top-2 right-2">
-            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
-              {formatBudget(destination.estimatedBudget)}
-            </span>
-          </div>
-        )}
+          {/* Budget - Right Top */}
+          {destination.estimatedBudget && (
+            <div className="absolute top-2 right-2 hidden md:block">
+              <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm">
+                {formatBudget(destination.estimatedBudget)}
+              </span>
+            </div>
+          )}
 
-        {/* Period - Middle Bottom */}
-        {destination.daysRequired && (
-          <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-            <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm whitespace-nowrap">
-              {typeof destination.daysRequired === 'string'
-                ? destination.daysRequired
-                : destination.daysRequired.label}
-            </span>
-          </div>
-        )}
+          {/* Period - Middle Bottom */}
+          {destination.daysRequired && (
+            <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
+              <span className="text-xs md:text-sm bg-black/50 text-white px-2 md:px-3 py-0.5 md:py-1 rounded-lg backdrop-blur-sm whitespace-nowrap">
+                {typeof destination.daysRequired === 'string'
+                  ? destination.daysRequired
+                  : destination.daysRequired.label}
+              </span>
+            </div>
+          )}
 
-        {/* Action Buttons - Click on mobile, hover on desktop */}
-        <div
-          className={`absolute top-2 right-2 flex gap-2 transition-opacity duration-300 ${
-            showMobileActions ? 'md:opacity-0' : 'opacity-0'
-          } md:group-hover:opacity-100`}
-        >
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              onEdit(destination);
-            }}
-            className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
-          >
-            <svg
-              className="w-4 md:w-5 h-4 md:h-5 text-gray-600"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          {/* Desktop Actions - Only visible on hover */}
+          <div className="absolute top-2 right-2 hidden md:flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onEdit(destination);
+              }}
+              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-gray-900 shadow-sm hover:bg-white"
+              aria-label="Edit destination"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
-              />
-            </svg>
-          </button>
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowDeleteModal(true);
-            }}
-            className="p-2 rounded-full bg-white/90 hover:bg-white shadow-md hover:shadow-lg transition-all"
-          >
-            <svg
-              className="w-4 md:w-5 h-4 md:h-5 text-red-500"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                />
+              </svg>
+            </button>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowDeleteModal(true);
+              }}
+              className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-red-600 shadow-sm hover:bg-white"
+              aria-label="Delete destination"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-              />
-            </svg>
-          </button>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-      </div>
 
-      <div
-        className="p-4"
-        role="button"
-        tabIndex={0}
-        aria-expanded={showMobileActions}
-        onClick={() => setShowMobileActions(!showMobileActions)}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            setShowMobileActions(!showMobileActions);
-          }
-        }}
-      >
-        <h3 className="font-semibold text-lg md:text-xl mb-2">{destination.name}</h3>
-        {destination.description && (
-          <p className="text-gray-600 text-sm md:text-base mb-2 line-clamp-2">
-            {destination.description}
-          </p>
-        )}
-        {/* Tags below description */}
-        {destination.tags && destination.tags.length > 0 && (
-          <div className="flex flex-wrap gap-1.5 mt-2">
-            {destination.tags.map((tag, index) => (
-              <button
-                key={index}
-                onClick={() => onTagClick?.(tag)}
-                className="text-xs md:text-sm bg-gray-100 text-gray-700 px-2 py-0.5 rounded cursor-pointer hover:bg-gray-200 transition-colors"
-              >
-                #{tag}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
+        {/* Content */}
+        <div className="p-4">
+          <h3 className="text-lg font-semibold text-gray-900 mb-1">{destination.name}</h3>
+          {destination.description && (
+            <p className="text-gray-600 text-sm mb-2 line-clamp-2">{destination.description}</p>
+          )}
+          {destination.tags && destination.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1 mt-2">
+              {destination.tags.map((tag) => (
+                <button
+                  key={tag}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onTagClick?.(tag);
+                  }}
+                  className="inline-block px-2 py-1 text-xs font-medium text-blue-800 bg-blue-100 rounded-full hover:bg-blue-200 transition-colors"
+                >
+                  #{tag}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </button>
+
+      {/* Mobile Action Panel */}
+      <ActionPanel
+        isVisible={showActions}
+        onClose={() => setShowActions(false)}
+        onEdit={() => onEdit(destination)}
+        onDelete={() => onDelete(destination)}
+        destinationName={destination.name}
+      />
 
       {/* Delete Confirmation Modal */}
       {showDeleteModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-4 md:p-6 rounded-lg max-w-sm mx-4">
-            <h3 className="text-lg font-semibold mb-4">Delete Destination</h3>
-            <p className="mb-6">Are you sure you want to delete {destination.name}?</p>
-            <div className="flex justify-end gap-4">
-              <button
-                onClick={() => setShowDeleteModal(false)}
-                className="px-4 py-2 text-gray-600 hover:text-gray-800"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={() => {
-                  onDelete();
-                  setShowDeleteModal(false);
-                }}
-                className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
-              >
-                Delete
-              </button>
+        <div className="fixed inset-0 z-50 overflow-y-auto">
+          <div className="flex items-center justify-center min-h-screen px-4">
+            <div className="fixed inset-0 bg-black opacity-50"></div>
+            <div className="relative bg-white rounded-lg p-6 max-w-sm w-full">
+              <h3 className="text-lg font-semibold mb-2">Delete Destination</h3>
+              <p className="text-gray-600 mb-4">
+                Are you sure you want to delete &ldquo;{destination.name}&rdquo;? This action cannot
+                be undone.
+              </p>
+              <div className="flex justify-end gap-3">
+                <button
+                  onClick={() => setShowDeleteModal(false)}
+                  className="px-4 py-2 text-gray-600 hover:text-gray-800"
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={() => {
+                    onDelete(destination);
+                    setShowDeleteModal(false);
+                  }}
+                  className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700"
+                >
+                  Delete
+                </button>
+              </div>
             </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
