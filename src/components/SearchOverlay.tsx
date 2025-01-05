@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 interface SearchOverlayProps {
   searchValue: string;
@@ -14,14 +14,53 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
   onClose,
 }) => {
   const [isClosing, setIsClosing] = useState(false);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchMove, setTouchMove] = useState<number | null>(null);
+  const [translateY, setTranslateY] = useState(0);
   const quickFilters = ['Beach', 'Mountain', 'City', 'Nature', 'Historical', 'Adventure'];
+  const panelRef = useRef<HTMLDivElement>(null);
 
   const handleClose = () => {
     setIsClosing(true);
     setTimeout(() => {
       setIsClosing(false);
       onClose();
+      setTranslateY(0);
     }, 300);
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientY);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (touchStart === null) return;
+
+    const currentTouch = e.targetTouches[0].clientY;
+    setTouchMove(currentTouch);
+
+    const diff = currentTouch - touchStart;
+    if (diff > 0) {
+      // Only allow downward swipe
+      setTranslateY(diff);
+      e.preventDefault();
+    }
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStart === null || touchMove === null) return;
+
+    const diff = touchMove - touchStart;
+    const threshold = 100; // Minimum distance to trigger close
+
+    if (diff > threshold) {
+      handleClose();
+    } else {
+      setTranslateY(0);
+    }
+
+    setTouchStart(null);
+    setTouchMove(null);
   };
 
   const handleQuickFilterClick = (filter: string) => {
@@ -31,6 +70,7 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
   useEffect(() => {
     if (isVisible) {
       setIsClosing(false);
+      setTranslateY(0);
     }
   }, [isVisible]);
 
@@ -53,7 +93,15 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
 
       {/* Search Panel */}
       <div
-        className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl transition-transform duration-300 transform ${
+        ref={panelRef}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        style={{
+          transform: `translate3d(0, ${translateY}px, 0)`,
+          transition: touchStart ? 'none' : 'transform 0.3s ease-out',
+        }}
+        className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl ${
           isClosing ? 'translate-y-full' : 'translate-y-0'
         }`}
       >
