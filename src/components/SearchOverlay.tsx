@@ -31,9 +31,11 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientY);
+    e.preventDefault(); // Prevent default touch behavior
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
+    e.preventDefault(); // Prevent default touch behavior
     if (touchStart === null) return;
 
     const currentTouch = e.targetTouches[0].clientY;
@@ -43,11 +45,11 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
     if (diff > 0) {
       // Only allow downward swipe
       setTranslateY(diff);
-      e.preventDefault();
     }
   };
 
-  const handleTouchEnd = () => {
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    e.preventDefault(); // Prevent default touch behavior
     if (touchStart === null || touchMove === null) return;
 
     const diff = touchMove - touchStart;
@@ -100,6 +102,7 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
         style={{
           transform: `translate3d(0, ${translateY}px, 0)`,
           transition: touchStart ? 'none' : 'transform 0.3s ease-out',
+          touchAction: 'none',
         }}
         className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl ${
           isClosing ? 'translate-y-full' : 'translate-y-0'
