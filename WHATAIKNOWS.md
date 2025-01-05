@@ -46,17 +46,27 @@ AddnTravel.com is a React-based web application designed to help users organize 
 
 ## Tech Stack
 
-- **Frontend Framework**: React.js with TypeScript
+- **Frontend Framework**: React.js 19.0.0 with TypeScript 5.3.3
+- **Build Tool**: Vite 6.0.5
+- **Styling**: TailwindCSS 3.4.17
 - **State Management**: React Context API
-- **Storage**: Firebase Realtime Database
-- **UI Components**: Tailwind CSS
-- **Date Handling**: date-fns
+- **Routing**: React Router DOM 7.1.0
+- **Storage**: Firebase 10.7.1 Realtime Database
+- **Maps Integration**: Google Maps API
+- **Date Management**: React Calendar 5.1.0
 - **Code Quality**:
-  - ESLint for code style and best practices
-  - Prettier for code formatting
-  - TypeScript for type safety
-  - Husky for pre-commit hooks
-  - lint-staged for staged files validation
+  - ESLint 8.57.1
+  - Prettier 3.4.2
+  - TypeScript strict mode
+  - Husky for git hooks
+
+## Development Practices
+
+- Strong type safety with TypeScript
+- Automated code formatting and linting
+- Git hooks for pre-commit quality checks
+- Environment-specific configurations
+- Continuous version tracking (Current: 0.2.3)
 
 ## Version 1 Functionality
 
@@ -104,25 +114,6 @@ interface TravelPeriod {
   maxDays: number;
 }
 ```
-
-## Development Practices
-
-- **Type Safety**: Strict TypeScript configuration enabled
-
-  - noImplicitAny
-  - strictNullChecks
-  - strictFunctionTypes
-  - strictBindCallApply
-  - strictPropertyInitialization
-  - noImplicitThis
-  - alwaysStrict
-
-- **Code Quality Checks**:
-  - Pre-commit hooks using Husky
-  - Automatic formatting with Prettier
-  - ESLint for code style enforcement
-  - TypeScript type checking
-  - Combined checks with `npm run check`
 
 ## Future Enhancements
 
