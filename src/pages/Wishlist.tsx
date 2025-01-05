@@ -346,8 +346,8 @@ const Wishlist: React.FC<WishlistProps> = ({ isSearchVisible, onSearchClose }) =
             </button>
           </div>
 
-          {/* Mobile Search Button */}
-          <div className="md:hidden flex justify-end mb-4">
+          {/* Mobile Search Button - Removing since we use bottom nav for search */}
+          {/* <div className="md:hidden flex justify-end mb-4">
             <button onClick={onSearchClose} className="p-2 text-gray-600 hover:text-gray-800">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
@@ -358,7 +358,7 @@ const Wishlist: React.FC<WishlistProps> = ({ isSearchVisible, onSearchClose }) =
                 />
               </svg>
             </button>
-          </div>
+          </div> */}
 
           {/* Active Filters Display */}
           {(searchQuery || selectedDateRange) && (
