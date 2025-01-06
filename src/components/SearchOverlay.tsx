@@ -30,12 +30,13 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
   };
 
   const handleTouchStart = (e: React.TouchEvent) => {
-    setTouchStart(e.targetTouches[0].clientY);
-    e.preventDefault(); // Prevent default touch behavior
+    // Only handle touch events on the panel itself or the handle
+    if (e.target === panelRef.current || (e.target as HTMLElement).closest('.handle')) {
+      setTouchStart(e.targetTouches[0].clientY);
+    }
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    e.preventDefault(); // Prevent default touch behavior
     if (touchStart === null) return;
 
     const currentTouch = e.targetTouches[0].clientY;
@@ -43,13 +44,13 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
 
     const diff = currentTouch - touchStart;
     if (diff > 0) {
-      // Only allow downward swipe
+      // Only prevent default and move panel if swiping down
+      e.preventDefault();
       setTranslateY(diff);
     }
   };
 
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    e.preventDefault(); // Prevent default touch behavior
+  const handleTouchEnd = () => {
     if (touchStart === null || touchMove === null) return;
 
     const diff = touchMove - touchStart;
@@ -102,20 +103,16 @@ const SearchOverlay: React.FC<SearchOverlayProps> = ({
         style={{
           transform: `translate3d(0, ${translateY}px, 0)`,
           transition: touchStart ? 'none' : 'transform 0.3s ease-out',
-          touchAction: 'none',
+          touchAction: translateY > 0 ? 'none' : 'auto',
         }}
         className={`absolute bottom-0 left-0 right-0 bg-white rounded-t-3xl ${
           isClosing ? 'translate-y-full' : 'translate-y-0'
         }`}
       >
         {/* Handle */}
-        <button
-          onClick={handleClose}
-          className="w-full flex justify-center pt-4 pb-2"
-          aria-label="Close search overlay"
-        >
-          <div className="w-12 h-1.5 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-300" />
-        </button>
+        <div className="handle w-full flex justify-center pt-4 pb-2">
+          <div className="w-12 h-1.5 bg-gray-200 rounded-full" />
+        </div>
 
         {/* Search Header */}
         <div className="px-4 mb-4">
