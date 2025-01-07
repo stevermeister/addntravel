@@ -79,6 +79,27 @@ const Header: React.FC = () => {
     }
   };
 
+  const handleRemoveAllData = async () => {
+    if (!user?.uid) return;
+
+    try {
+      setIsLoading(true);
+      setError(null);
+      // Remove all user data from Firebase
+      const userRef = ref(database, `users/${user.uid}`);
+      await remove(userRef);
+      // Sign out the user
+      await logout();
+      setShowConfirmModal(false);
+      setIsProfileMenuOpen(false);
+    } catch (err) {
+      setError('Failed to remove user data');
+      console.error(err);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const renderAvatar = () => {
     if (user?.photoURL) {
       return (
@@ -248,6 +269,27 @@ const Header: React.FC = () => {
                         />
                       </svg>
                       Remove All Destinations
+                    </button>
+
+                    <button
+                      onClick={handleRemoveAllData}
+                      className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
+                      disabled={isLoading}
+                    >
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                        />
+                      </svg>
+                      Remove all my data
                     </button>
 
                     <div className="border-t border-gray-100 my-1"></div>

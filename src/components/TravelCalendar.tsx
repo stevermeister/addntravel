@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import Calendar from 'react-calendar';
 import { DateRange } from '../types/dateRange';
 import { getDateRangeSeasons } from '../utils/dateUtils';
@@ -18,14 +18,14 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
   const [isClosing, setIsClosing] = useState(false);
   const [selectedDates, setSelectedDates] = useState<Value>(null);
 
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setIsClosing(true);
     setTimeout(() => {
       setIsClosing(false);
       onClose();
       setSelectedDates(null);
     }, 300);
-  };
+  }, [onClose]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -50,7 +50,7 @@ const TravelCalendar: React.FC<TravelCalendarProps> = ({ onDateRangeChange, isOp
       document.removeEventListener('mousedown', handleClickOutside);
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, [isOpen]);
+  }, [isOpen, handleClose]);
 
   const handleDateChange = (value: Value) => {
     setSelectedDates(value);
