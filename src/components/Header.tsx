@@ -13,6 +13,7 @@ const Header: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
+  const [showRemoveDataModal, setShowRemoveDataModal] = useState(false);
   const profileMenuRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -90,7 +91,7 @@ const Header: React.FC = () => {
       await remove(userRef);
       // Sign out the user
       await logout();
-      setShowConfirmModal(false);
+      setShowRemoveDataModal(false);
       setIsProfileMenuOpen(false);
     } catch (err) {
       setError('Failed to remove user data');
@@ -244,7 +245,7 @@ const Header: React.FC = () => {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth="2"
-                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+                          d="M4 16v1a3 3 0 013 3h10a3 3 0 013-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
                         />
                       </svg>
                       Restore Backup
@@ -272,7 +273,7 @@ const Header: React.FC = () => {
                     </button>
 
                     <button
-                      onClick={handleRemoveAllData}
+                      onClick={() => setShowRemoveDataModal(true)}
                       className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-100 transition-colors flex items-center gap-2"
                       disabled={isLoading}
                     >
@@ -356,6 +357,66 @@ const Header: React.FC = () => {
                 className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
               >
                 Remove All
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Remove All Data Confirmation Modal */}
+      {showRemoveDataModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+            <h3 className="text-lg font-semibold mb-4">Remove All My Data</h3>
+            <p className="text-gray-600 mb-2">
+              Are you sure you want to remove all your data? This action will:
+            </p>
+            <ul className="list-disc ml-6 mb-4 text-gray-600">
+              <li>Delete all your destinations</li>
+              <li>Remove all your preferences</li>
+              <li>Sign you out of the application</li>
+            </ul>
+            <p className="text-gray-600 mb-6">This action cannot be undone.</p>
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setShowRemoveDataModal(false)}
+                className="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                disabled={isLoading}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleRemoveAllData}
+                className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors flex items-center gap-2"
+                disabled={isLoading}
+              >
+                {isLoading ? (
+                  <>
+                    <svg
+                      className="animate-spin h-4 w-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      />
+                    </svg>
+                    Removing...
+                  </>
+                ) : (
+                  'Remove All Data'
+                )}
               </button>
             </div>
           </div>
