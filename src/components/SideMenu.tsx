@@ -12,6 +12,7 @@ const SideMenu: React.FC = () => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
   const [showConfirmModal, setShowConfirmModal] = React.useState(false);
+  const [showRemoveDataModal, setShowRemoveDataModal] = React.useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -91,6 +92,27 @@ const SideMenu: React.FC = () => {
       .finally(() => {
         setIsLoading(false);
       });
+  };
+
+  const handleRemoveAllData = async () => {
+    if (!user?.uid) return;
+
+    try {
+      setIsLoading(true);
+      setError(null);
+      // Remove all user data from Firebase
+      const userRef = ref(database, `users/${user.uid}`);
+      await remove(userRef);
+      // Sign out the user
+      await logout();
+      setShowRemoveDataModal(false);
+      setIsSideMenuOpen(false);
+    } catch (err) {
+      setError('Failed to remove user data');
+      console.error(err);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   // Cache the avatar URL to prevent rate limiting
@@ -255,10 +277,7 @@ const SideMenu: React.FC = () => {
 
             <button
               type="button"
-              onClick={() => {
-                if (isLoading) return;
-                setShowConfirmModal(true);
-              }}
+              onClick={() => setShowConfirmModal(true)}
               className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors text-left text-red-600"
               disabled={isLoading}
               aria-label="Remove all destinations"
@@ -272,6 +291,24 @@ const SideMenu: React.FC = () => {
                 />
               </svg>
               Remove All Destinations
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setShowRemoveDataModal(true)}
+              className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors text-left text-red-600"
+              disabled={isLoading}
+              aria-label="Remove all my data"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                />
+              </svg>
+              Remove all my data
             </button>
 
             <div className="border-t border-gray-200 my-2"></div>
@@ -378,6 +415,66 @@ const SideMenu: React.FC = () => {
                       ></path>
                     </svg>
                   </div>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Remove All Data Confirmation Modal */}
+      {showRemoveDataModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg max-w-sm mx-4">
+            <h3 className="text-lg font-semibold mb-4">Remove All My Data</h3>
+            <p className="text-gray-600 mb-2">
+              Are you sure you want to remove all your data? This action will:
+            </p>
+            <ul className="list-disc ml-6 mb-4 text-gray-600">
+              <li>Delete all your destinations</li>
+              <li>Remove all your preferences</li>
+              <li>Sign you out of the application</li>
+            </ul>
+            <p className="text-gray-600 mb-6">This action cannot be undone.</p>
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setShowRemoveDataModal(false)}
+                className="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+                disabled={isLoading}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleRemoveAllData}
+                className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors flex items-center gap-2"
+                disabled={isLoading}
+              >
+                {isLoading ? (
+                  <>
+                    <svg
+                      className="animate-spin h-4 w-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      />
+                    </svg>
+                    Removing...
+                  </>
+                ) : (
+                  'Remove All Data'
                 )}
               </button>
             </div>
