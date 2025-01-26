@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Taj Mahal",
+    "city": "Agra",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, the Taj Mahal is a stunning white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It symbolizes love and is renowned for its beautiful architecture and intricate carvings.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Jaipur",
+    "city": "Jaipur",
+    "type": "culture",
+    "description": "Known as the Pink City, Jaipur is famous for its historic palaces and forts, including the Hawa Mahal and Amer Fort. The city offers a vibrant culture with traditional markets and festivals.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Goa Beaches",
+    "city": "Goa",
+    "type": "nature",
+    "description": "Goa is famous for its pristine beaches, vibrant nightlife, and Portuguese heritage. From serene stretches of sand to bustling beach shacks, it offers a perfect blend of relaxation and entertainment.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Varanasi",
+    "city": "Varanasi",
+    "type": "culture",
+    "description": "One of the oldest inhabited cities in the world, Varanasi is a spiritual hub for Hindus. The Ganges River ghats, where rituals and ceremonies take place, offer a unique glimpse into Indian spirituality.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kerala Backwaters",
+    "city": "Alleppey",
+    "type": "nature",
+    "description": "The tranquil backwaters of Kerala are a network of lagoons, lakes, and canals, offering a serene experience on traditional houseboats. It's a unique ecosystem that showcases lush landscapes and local wildlife.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Hampi",
+    "city": "Hampi",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, Hampi is known for its ancient temples and ruins from the Vijayanagara Empire. The surreal boulder-strewn landscape and rich history make it a fascinating destination.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Leh-Ladakh",
+    "city": "Leh",
+    "type": "nature",
+    "description": "Leh-Ladakh is renowned for its breathtaking landscapes, including snow-capped mountains and serene lakes like Pangong Lake. It's a paradise for adventure enthusiasts and offers a unique cultural experience.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Mysore Palace",
+    "city": "Mysore",
+    "type": "landmark",
+    "description": "Mysore Palace is an architectural marvel showcasing Indo-Saracenic style. The palace is illuminated every Sunday evening, creating a magical sight that attracts thousands of visitors.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Ajanta and Ellora Caves",
+    "city": "Aurangabad",
+    "type": "landmark",
+    "description": "These UNESCO World Heritage Sites feature rock-cut caves with stunning sculptures and murals dating back to the 2nd century BCE. They are a remarkable testament to ancient Indian art and architecture.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Jaisalmer Fort",
+    "city": "Jaisalmer",
+    "type": "landmark",
+    "description": "Known as the Golden Fort, Jaisalmer Fort is a stunning fort made of yellow sandstone. It is one of the largest forts in the world and is a living fort with shops, hotels, and residences.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Ranthambore National Park",
+    "city": "Sawai Madhopur",
+    "type": "nature",
+    "description": "Ranthambore is one of the largest national parks in North India, known for its Bengal tiger population. The park's diverse wildlife and ancient ruins provide a captivating experience for nature lovers.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Rishikesh",
+    "city": "Rishikesh",
+    "type": "culture",
+    "description": "Known as the Yoga Capital of the World, Rishikesh is a spiritual town on the banks of the Ganges River. It offers numerous ashrams and yoga retreats, along with thrilling adventure activities like white-water rafting.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Darjeeling",
+    "city": "Darjeeling",
+    "type": "nature",
+    "description": "Famous for its tea plantations and stunning views of the Himalayas, Darjeeling is a charming hill station. The Darjeeling Himalayan Railway, a UNESCO World Heritage Site, offers a scenic train ride.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Khajuraho Temples",
+    "city": "Khajuraho",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, the Khajuraho Temples are renowned for their intricate erotic sculptures and stunning architecture. They represent the zenith of Indian temple art during the Chandela dynasty.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Andaman Islands",
+    "city": "Port Blair",
+    "type": "nature",
+    "description": "The Andaman Islands are known for their crystal-clear waters, pristine beaches, and lush forests. It's a perfect destination for snorkeling, scuba diving, and exploring vibrant marine life.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Rajasthan Desert",
+    "city": "Jaisalmer",
+    "type": "nature",
+    "description": "The Thar Desert surrounding Jaisalmer offers stunning sand dunes and unique desert experiences. Camel safaris and cultural performances under the stars create unforgettable memories.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Coorg",
+    "city": "Coorg",
+    "type": "nature",
+    "description": "Coorg, also known as Kodagu, is famous for its coffee plantations, lush greenery, and stunning waterfalls. The scenic landscapes and pleasant climate make it a perfect getaway for nature lovers.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Golden Temple",
+    "city": "Amritsar",
+    "type": "culture",
+    "description": "The Golden Temple is the holiest Sikh gurdwara and is known for its stunning golden architecture and serene atmosphere. It attracts millions of visitors and offers free meals to thousands daily.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Nubra Valley",
+    "city": "Leh",
+    "type": "nature",
+    "description": "Nubra Valley is a breathtakingly beautiful region in Ladakh, known for its sand dunes, double-humped camels, and stunning landscapes. It offers a unique blend of desert and mountain scenery.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kumarakom",
+    "city": "Kottayam",
+    "type": "nature",
+    "description": "Kumarakom is a picturesque village on the banks of Vembanad Lake, famous for its backwaters and bird sanctuary. It's a tranquil escape with opportunities for houseboat cruises and birdwatching.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Udaipur",
+    "city": "Udaipur",
+    "type": "culture",
+    "description": "Known as the City of Lakes, Udaipur is famous for its beautiful palaces, serene lakes, and vibrant culture. The City Palace and Lake Pichola are must-visit attractions.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Chikmagalur",
+    "city": "Chikmagalur",
+    "type": "nature",
+    "description": "Chikmagalur is known for its lush coffee plantations, scenic hills, and pleasant weather. It's an ideal destination for trekking and exploring the serene beauty of the Western Ghats.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kanha National Park",
+    "city": "Kanha",
+    "type": "nature",
+    "description": "Kanha National Park is one of the largest national parks in India, known for its rich biodiversity and successful conservation efforts for the Bengal tiger. It offers thrilling wildlife safaris.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Spiti Valley",
+    "city": "Kaza",
+    "type": "nature",
+    "description": "Spiti Valley is a remote and stunning region in Himachal Pradesh, known for its rugged mountains and ancient monasteries. It's a haven for adventure seekers and offers breathtaking views.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Mahabalipuram",
+    "city": "Mahabalipuram",
+    "type": "landmark",
+    "description": "Famous for its rock-cut temples and sculptures, Mahabalipuram is a UNESCO World Heritage Site. The Shore Temple and Arjuna's Penance are remarkable examples of ancient Indian architecture.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Sundarbans",
+    "city": "Sundarbans",
+    "type": "nature",
+    "description": "The Sundarbans is the largest mangrove forest in the world and a UNESCO World Heritage Site. It is home to the Royal Bengal tiger and diverse wildlife, making it a unique ecological destination.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Chandigarh Rock Garden",
+    "city": "Chandigarh",
+    "type": "entertainment",
+    "description": "The Rock Garden of Chandigarh is an artistic garden created by Nek Chand, featuring sculptures made from industrial and urban waste. It's a unique blend of art and nature, attracting visitors from around the world.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Bundi",
+    "city": "Bundi",
+    "type": "culture",
+    "description": "Bundi is known for its beautiful palaces, step wells, and vibrant blue-painted houses. The Taragarh Fort offers panoramic views of the town and surrounding countryside.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Tawang",
+    "city": "Tawang",
+    "type": "nature",
+    "description": "Tawang is a picturesque town in Arunachal Pradesh, known for its stunning monasteries and breathtaking landscapes. The Tawang Monastery, one of the largest in India, is a major attraction.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Mahabaleshwar",
+    "city": "Mahabaleshwar",
+    "type": "nature",
+    "description": "A popular hill station in Maharashtra, Mahabaleshwar is known for its lush greenery, strawberry farms, and stunning viewpoints like Arthur's Seat. It's an ideal destination for nature lovers.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kanyakumari",
+    "city": "Kanyakumari",
+    "type": "landmark",
+    "description": "Kanyakumari is the southernmost tip of India, famous for its dramatic sunsets and the meeting point of three oceans. The Vivekananda Rock Memorial is a popular attraction.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Agra Fort",
+    "city": "Agra",
+    "type": "landmark",
+    "description": "Agra Fort is a UNESCO World Heritage Site and a magnificent example of Mughal architecture. The fort offers stunning views of the Taj Mahal and showcases the grandeur of the Mughal era.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kumarakom Bird Sanctuary",
+    "city": "Kottayam",
+    "type": "nature",
+    "description": "This sanctuary is a haven for migratory birds and nature enthusiasts. Visitors can enjoy birdwatching and boat rides while surrounded by lush greenery and tranquil waters.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Patan",
+    "city": "Patan",
+    "type": "landmark",
+    "description": "Patan is home to the Rani Ki Vav, a stepwell that is a UNESCO World Heritage Site. The intricately carved structure is a fine example of ancient Indian architecture and engineering.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kanchipuram",
+    "city": "Kanchipuram",
+    "type": "culture",
+    "description": "Known as the City of a Thousand Temples, Kanchipuram is famous for its ancient temples and silk sarees. The Kailasanathar Temple and Ekambareswarar Temple are must-visit sites.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Munnar",
+    "city": "Munnar",
+    "type": "nature",
+    "description": "Munnar is a picturesque hill station in Kerala, known for its tea gardens and breathtaking landscapes. It's a great destination for trekking and enjoying the cool climate.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Nashik",
+    "city": "Nashik",
+    "type": "culture",
+    "description": "Nashik is one of the holiest cities in India, known for the Kumbh Mela and numerous temples. The city is also famous for its vineyards and wineries.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kodaikanal",
+    "city": "Kodaikanal",
+    "type": "nature",
+    "description": "Kodaikanal is a charming hill station known for its cool climate, beautiful lakes, and lush greenery. It offers various outdoor activities like boating and trekking.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Panchgani",
+    "city": "Panchgani",
+    "type": "nature",
+    "description": "Panchgani is a serene hill station known for its stunning viewpoints, lush valleys, and strawberry farms. It offers a peaceful escape from the hustle and bustle of city life.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Rani Durgavati Mahal",
+    "city": "Jabalpur",
+    "type": "landmark",
+    "description": "This historical palace is a testament to the grandeur of the Gondwana dynasty. Its architecture and surroundings provide insight into the region's rich history.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Bodh Gaya",
+    "city": "Bodh Gaya",
+    "type": "culture",
+    "description": "Bodh Gaya is a UNESCO World Heritage Site and the place where Siddhartha Gautama attained enlightenment. The Mahabodhi Temple complex attracts thousands of pilgrims and tourists.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Chikmagalur Coffee Plantations",
+    "city": "Chikmagalur",
+    "type": "nature",
+    "description": "Chikmagalur is known for its lush coffee plantations and scenic beauty. Visitors can take guided tours of coffee estates and learn about the coffee-making process.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kumarakom",
+    "city": "Kottayam",
+    "type": "nature",
+    "description": "Kumarakom is a serene village on the banks of Vembanad Lake, famous for its backwaters and houseboat rides. It's a tranquil escape into nature's beauty.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Khajjiar",
+    "city": "Chamba",
+    "type": "nature",
+    "description": "Often referred to as the 'Mini Switzerland of India', Khajjiar is a beautiful hill station surrounded by lush green meadows and dense forests. It's perfect for picnics and nature walks.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kanha National Park",
+    "city": "Kanha",
+    "type": "nature",
+    "description": "Kanha National Park is one of India's largest national parks, known for its rich biodiversity including tigers and leopards. It offers thrilling wildlife safaris and beautiful landscapes.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Abu",
+    "city": "Mount Abu",
+    "type": "nature",
+    "description": "Mount Abu is the only hill station in Rajasthan, known for its stunning views, Dilwara Temples, and Nakki Lake. It's a popular getaway for its cool climate and scenic beauty.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Bundi Fort",
+    "city": "Bundi",
+    "type": "landmark",
+    "description": "Bundi Fort is a historical fort known for its stunning architecture and intricate frescoes. The fort offers panoramic views of the surrounding town and countryside.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Coorg",
+    "city": "Coorg",
+    "type": "nature",
+    "description": "Known for its coffee plantations and scenic hills, Coorg is a picturesque destination in Karnataka. It offers trekking trails, waterfalls, and a chance to experience local culture.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Ranthambore Fort",
+    "city": "Sawai Madhopur",
+    "type": "landmark",
+    "description": "Ranthambore Fort is a UNESCO World Heritage Site located within Ranthambore National Park. The fort offers stunning views and a glimpse into the region's rich history.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Kumarakom Bird Sanctuary",
+    "city": "Kumarakom",
+    "type": "nature",
+    "description": "This sanctuary is a haven for migratory birds and nature enthusiasts. Visitors can enjoy birdwatching and boat rides while surrounded by lush greenery and tranquil waters.",
+    "country": "India",
+    "country_rank": 8
+  },
+  {
+    "name": "Tawang Monastery",
+    "city": "Tawang",
+    "type": "culture",
+    "description": "Tawang Monastery is one of the largest Buddhist monasteries in India, perched at a high altitude. It offers stunning views and is an important pilgrimage site for Buddhists.",
+    "country": "India",
+    "country_rank": 8
+  }
+]

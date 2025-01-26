@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Anibare Bay",
+    "city": "Anibare",
+    "type": "nature",
+    "description": "Anibare Bay is known for its stunning turquoise waters and picturesque white sandy beaches. It's a perfect spot for swimming, snorkeling, and enjoying the natural beauty of Nauru.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Buada Lagoon",
+    "city": "Buada",
+    "type": "nature",
+    "description": "This serene lagoon is surrounded by lush greenery and offers a peaceful escape from the hustle and bustle of everyday life. Visitors can enjoy picnicking and observing local wildlife in this tranquil setting.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru Government House",
+    "city": "Yaren",
+    "type": "landmark",
+    "description": "Nauru Government House, located in the capital Yaren, is the official residence of the President of Nauru. The architecture reflects the island's unique culture and history, making it a significant landmark.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Command Ridge",
+    "city": "Yaren",
+    "type": "landmark",
+    "description": "Command Ridge is the highest point on the island and offers breathtaking views of the surrounding area. It holds historical significance from World War II and features remnants of war installations.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "The Nauru Island Museum",
+    "city": "Yaren",
+    "type": "culture",
+    "description": "This small museum showcases the rich cultural heritage and history of Nauru. Visitors can explore exhibits on traditional crafts, artifacts, and the island's unique way of life.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Moqua Well",
+    "city": "Moqua",
+    "type": "nature",
+    "description": "Moqua Well is a significant freshwater source on the island, surrounded by unique limestone formations. It offers a fascinating glimpse into the geological features of Nauru.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's WWII Sites",
+    "city": "Various",
+    "type": "landmark",
+    "description": "Throughout Nauru, several remnants of World War II can be explored, including bunkers and artillery installations. These sites provide insight into the island's wartime history.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Aiwo District",
+    "city": "Aiwo",
+    "type": "culture",
+    "description": "Aiwo is known for its vibrant local community and cultural activities. Visitors can engage with locals and experience traditional Nauruan customs and festivities.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's Rock Islands",
+    "city": "Nauru",
+    "type": "nature",
+    "description": "The Rock Islands are a group of small, uninhabited islands off the coast of Nauru, featuring stunning landscapes and diverse marine life. They are ideal for adventurous exploration and snorkeling.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Yaren Beach",
+    "city": "Yaren",
+    "type": "nature",
+    "description": "Yaren Beach is a popular spot for locals and tourists alike, offering beautiful views of the ocean and a relaxing atmosphere. It's a great place to unwind and enjoy the sunset.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Meneng District",
+    "city": "Meneng",
+    "type": "culture",
+    "description": "Meneng is home to traditional Nauruan villages and local markets. Visitors can immerse themselves in the local lifestyle and witness traditional crafts and foods.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's Bird Sanctuary",
+    "city": "Nauru",
+    "type": "nature",
+    "description": "This sanctuary is a haven for various bird species, making it a great spot for birdwatching enthusiasts. The lush environment and diverse birdlife provide a unique experience.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's Phosphate Mines",
+    "city": "Nauru",
+    "type": "landmark",
+    "description": "The phosphate mines are a significant part of Nauru's history and economy. Visitors can learn about the mining process and its impact on the island's landscape.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru\u2019s Cultural Centre",
+    "city": "Yaren",
+    "type": "culture",
+    "description": "This center is dedicated to preserving and promoting Nauruan culture and heritage. It offers workshops, performances, and exhibitions that showcase the island's traditions.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Ewa District",
+    "city": "Ewa",
+    "type": "culture",
+    "description": "Ewa is known for its friendly locals and rich cultural experiences. Visitors can participate in community events and enjoy traditional Nauruan music and dance.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "The Old Lighthouse",
+    "city": "Nauru",
+    "type": "landmark",
+    "description": "This historical lighthouse, though no longer in use, is a picturesque spot that offers stunning coastal views. It's a great place for photography and enjoying the ocean breeze.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's Coastal Walks",
+    "city": "Nauru",
+    "type": "nature",
+    "description": "There are several scenic coastal trails around the island that provide breathtaking views of the ocean and rugged cliffs. These walks are ideal for nature lovers and hikers.",
+    "country": "Nauru",
+    "country_rank": 2
+  },
+  {
+    "name": "Nauru's Traditional Fishing Villages",
+    "city": "Various",
+    "type": "culture",
+    "description": "These villages provide insight into the traditional fishing practices of Nauru. Visitors can learn from local fishermen and experience the island's deep connection to the sea.",
+    "country": "Nauru",
+    "country_rank": 2
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Kokoda Track",
+    "city": "Oro Province",
+    "type": "nature",
+    "description": "A historic trekking route that follows the path taken by Australian and Japanese troops during World War II. The trek offers stunning views of the mountainous landscape and a chance to experience the rich cultural heritage of the local villages.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Rabaul Volcano",
+    "city": "Rabaul",
+    "type": "nature",
+    "description": "An active volcano located in the East New Britain province, known for its dramatic landscapes and historical significance. Visitors can explore the volcanic craters and remnants of the 1994 eruption while enjoying breathtaking views of the surrounding area.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Tufi Dive Resort",
+    "city": "Tufi",
+    "type": "nature",
+    "description": "A hidden gem for divers, Tufi features pristine coral reefs and incredible underwater biodiversity. The resort offers unique fjord-like inlets and a chance to experience the vibrant marine life of the Coral Triangle.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Mount Wilhelm",
+    "city": "Simbu Province",
+    "type": "nature",
+    "description": "The highest peak in Papua New Guinea, Mount Wilhelm offers challenging treks with stunning views of the surrounding valleys and mountains. It is a popular destination for adventure seekers and offers a chance to experience the diverse flora and fauna.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Port Moresby Nature Park",
+    "city": "Port Moresby",
+    "type": "nature",
+    "description": "A conservation area that showcases the unique wildlife and plant species of Papua New Guinea. The park features walking trails, gardens, and a chance to see endangered species in a natural setting.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kumul Lodge",
+    "city": "Kumul",
+    "type": "nature",
+    "description": "Nestled in the highlands, this lodge offers breathtaking views and is a haven for birdwatchers. It is particularly known for its opportunities to see the elusive Bird of Paradise in its natural habitat.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Lae Botanical Gardens",
+    "city": "Lae",
+    "type": "nature",
+    "description": "A beautiful garden that showcases the diverse flora of Papua New Guinea. Visitors can stroll through various themed sections, including tropical rainforests and ferns, making it a peaceful escape in the city.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Paga Hill",
+    "city": "Port Moresby",
+    "type": "landmark",
+    "description": "A historical site offering panoramic views of the city and harbor. Paga Hill is significant for its cultural heritage and is a popular spot for sunset views.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Sepik River",
+    "city": "East Sepik Province",
+    "type": "nature",
+    "description": "One of the longest rivers in Papua New Guinea, the Sepik River is famous for its unique cultures and traditional art. Visitors can take boat trips to explore the river and visit local villages known for their wood carvings and spirit houses.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kikori River",
+    "city": "Gulf Province",
+    "type": "nature",
+    "description": "An off-the-beaten-path river known for its stunning landscapes and wildlife. It offers opportunities for canoeing and exploring remote communities along its banks.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Baining Fire Dance",
+    "city": "East New Britain",
+    "type": "culture",
+    "description": "A unique cultural experience where locals perform traditional fire dances as part of their ceremonies. The vibrant displays of fire and dance are both mesmerizing and culturally significant.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kokopo",
+    "city": "East New Britain",
+    "type": "entertainment",
+    "description": "A lively town known for its markets, cultural festivals, and beautiful beaches. It's a great spot to experience local life and enjoy the coastal scenery.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Simbu Province Highlands",
+    "city": "Simbu",
+    "type": "nature",
+    "description": "Famous for its rugged terrain and unique tribal cultures, the highlands offer stunning landscapes and opportunities for trekking and cultural immersion.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Tawali Resort",
+    "city": "Milne Bay Province",
+    "type": "nature",
+    "description": "A secluded resort that provides access to pristine dive sites and beautiful coral reefs. It\u2019s a paradise for snorkelers and divers looking for an untouched underwater experience.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kumul Wildlife Sanctuary",
+    "city": "Baiyer River",
+    "type": "nature",
+    "description": "A sanctuary dedicated to the conservation of Papua New Guinea's unique wildlife. Visitors can see various bird species, including the famous Birds of Paradise.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Buka Island",
+    "city": "Bougainville",
+    "type": "nature",
+    "description": "Known for its stunning beaches and diving spots, Buka Island is a tranquil escape with rich history and beautiful landscapes to explore.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kokoda Track Memorial Walkway",
+    "city": "Port Moresby",
+    "type": "landmark",
+    "description": "A memorial dedicated to the soldiers who fought during the Kokoda campaign in World War II. The walkway features plaques and information about the historical significance of the area.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Tufi Fjords",
+    "city": "Tufi",
+    "type": "nature",
+    "description": "A spectacular natural formation with steep cliffs and clear waters, perfect for snorkeling and diving. The fjords are also rich in history and offer a glimpse into the culture of the local communities.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kavieng",
+    "city": "New Ireland",
+    "type": "entertainment",
+    "description": "A coastal town known for its vibrant culture, beautiful beaches, and excellent surfing spots. It's a lively hub for local festivals and activities.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kokoda Trail Huts",
+    "city": "Oro Province",
+    "type": "landmark",
+    "description": "Historical huts along the Kokoda Track that served as resting points for soldiers during World War II. They provide insight into the challenges faced during the campaign.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Sogeri Road",
+    "city": "Port Moresby",
+    "type": "nature",
+    "description": "A scenic drive that leads to beautiful mountain views and lush forests, offering a taste of the natural beauty surrounding Port Moresby.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kavieng Market",
+    "city": "Kavieng",
+    "type": "culture",
+    "description": "A bustling local market where visitors can experience the vibrant culture and cuisine of New Ireland. Fresh produce, crafts, and local delicacies are available.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Mount Hagen Cultural Show",
+    "city": "Mount Hagen",
+    "type": "culture",
+    "description": "An annual event that showcases the diverse cultures of Papua New Guinea through dance, music, and traditional attire. It's a celebration of heritage and a must-see for visitors.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Lai Valley",
+    "city": "Simbu Province",
+    "type": "nature",
+    "description": "A picturesque valley known for its stunning landscapes and traditional farming practices. It's a great spot for hiking and experiencing the local way of life.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Yapeni Village",
+    "city": "Madang",
+    "type": "culture",
+    "description": "A small village known for its traditional crafts and art. Visitors can interact with locals and learn about their customs and daily life.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Bramble Cay",
+    "city": "Torres Strait",
+    "type": "nature",
+    "description": "A remote island with pristine beaches and crystal-clear waters, perfect for those seeking solitude and natural beauty. It\u2019s an ideal spot for birdwatching and marine life observation.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Finschhafen",
+    "city": "Morobe Province",
+    "type": "nature",
+    "description": "A coastal area known for its rich marine biodiversity and beautiful landscapes. It's a great place for diving and exploring untouched coral reefs.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kieta",
+    "city": "Bougainville",
+    "type": "nature",
+    "description": "A charming coastal town with beautiful beaches and a rich history. It offers a peaceful atmosphere and opportunities for snorkeling and diving.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Motu Koita",
+    "city": "Port Moresby",
+    "type": "culture",
+    "description": "A community of indigenous people known for their rich traditions and customs. Visitors can engage with the community and learn about their way of life.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Jimi Valley",
+    "city": "Western Highlands",
+    "type": "nature",
+    "description": "Known for its breathtaking landscapes and unique cultural heritage, Jimi Valley is a lesser-known destination perfect for hiking and cultural experiences.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Kokoda Track Interpretive Centre",
+    "city": "Port Moresby",
+    "type": "landmark",
+    "description": "A center dedicated to educating visitors about the Kokoda campaign and its significance in World War II. It features exhibits and artifacts that tell the story of the soldiers.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Doini Island",
+    "city": "Milne Bay",
+    "type": "nature",
+    "description": "A secluded island known for its stunning beaches and vibrant coral reefs. It\u2019s an excellent destination for relaxation and snorkeling.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  },
+  {
+    "name": "Buka Passage",
+    "city": "Bougainville",
+    "type": "nature",
+    "description": "A beautiful waterway known for its clear waters and marine life, ideal for boating and fishing. The surrounding scenery is breathtaking, making it a perfect escape.",
+    "country": "Papua New Guinea",
+    "country_rank": 4
+  }
+]

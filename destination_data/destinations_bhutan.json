@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Paro Taktsang",
+    "city": "Paro",
+    "type": "landmark",
+    "description": "Also known as the Tiger's Nest, this iconic monastery is perched on a cliff 3,000 meters above sea level. It offers breathtaking views and a challenging hike, making it a must-visit for trekking enthusiasts.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Punakha Dzong",
+    "city": "Punakha",
+    "type": "landmark",
+    "description": "This stunning fortress is situated at the confluence of two rivers and is known for its beautiful architecture and vibrant history. It serves as the winter residence of the monk body and is a cultural hub.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Thimphu",
+    "city": "Thimphu",
+    "type": "culture",
+    "description": "The capital city of Bhutan, Thimphu is a unique blend of modernity and tradition. It is home to the National Memorial Chorten and the giant Buddha Dordenma statue, making it a cultural and spiritual center.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Tiger's Nest Monastery",
+    "city": "Paro",
+    "type": "landmark",
+    "description": "Perched on a cliff, this sacred site is a pilgrimage destination for many Bhutanese. The trek to the monastery offers stunning views of the Paro Valley.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Bumthang Valley",
+    "city": "Bumthang",
+    "type": "nature",
+    "description": "Known as the spiritual heartland of Bhutan, Bumthang Valley is dotted with ancient temples and monasteries. Its picturesque landscapes and rich cultural heritage make it a hidden gem.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Gangtey Monastery",
+    "city": "Punakha",
+    "type": "culture",
+    "description": "This important monastery is located on a hill overlooking the beautiful Phobjikha Valley. It is a center for the Nyingma school of Tibetan Buddhism and is known for its serene atmosphere.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Haa Valley",
+    "city": "Haa",
+    "type": "nature",
+    "description": "A lesser-known destination, Haa Valley is famous for its pristine landscapes and traditional Bhutanese architecture. It offers a serene escape and opportunities for hiking and cultural experiences.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Dochula Pass",
+    "city": "Thimphu",
+    "type": "nature",
+    "description": "Famous for its stunning 108 chortens and panoramic views of the Himalayas, Dochula Pass is a popular stop for travelers. The vibrant prayer flags and serene environment make it a peaceful place to visit.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Wangdue Phodrang Dzong",
+    "city": "Wangdue Phodrang",
+    "type": "landmark",
+    "description": "This impressive fortress stands on a hill overlooking the Punakha Valley. It is an architectural marvel and offers insight into Bhutanese history and culture.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Phobjikha Valley",
+    "city": "Wangdue Phodrang",
+    "type": "nature",
+    "description": "A glacial valley known for its stunning scenery and as a winter habitat for the black-necked cranes. The peaceful environment and traditional villages make it a perfect escape into nature.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Jigme Dorji National Park",
+    "city": "Thimphu",
+    "type": "nature",
+    "description": "This national park offers breathtaking landscapes, diverse flora and fauna, and opportunities for trekking. It is a sanctuary for various wildlife, including the elusive snow leopard.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "National Museum of Bhutan",
+    "city": "Paro",
+    "type": "culture",
+    "description": "Housed in a former watchtower, this museum showcases Bhutan\u2019s rich cultural heritage through art, artifacts, and exhibits. It provides an informative overview of the country\u2019s history and traditions.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Chimi Lhakhang",
+    "city": "Punakha",
+    "type": "culture",
+    "description": "Known as the fertility temple, Chimi Lhakhang is dedicated to the Divine Madman, Lama Drukpa Kunley. Visitors often come here to seek blessings for fertility and enjoy the beautiful surroundings.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Kurje Lhakhang",
+    "city": "Bumthang",
+    "type": "culture",
+    "description": "This sacred site is where Guru Padmasambhava is said to have meditated. It features stunning temples and is an important pilgrimage site for Buddhists.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Rinpung Dzong",
+    "city": "Paro",
+    "type": "landmark",
+    "description": "This impressive fortress is known for its stunning architecture and beautiful murals. It serves as the administrative and religious center of Paro district.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Tashichho Dzong",
+    "city": "Thimphu",
+    "type": "landmark",
+    "description": "This impressive fortress houses the throne room of the King of Bhutan and the central monastic body. Its beautiful architecture and serene gardens make it a significant cultural site.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Lungchuzekha Gewog",
+    "city": "Thimphu",
+    "type": "nature",
+    "description": "A lesser-known gem, this area offers stunning views of the Thimphu Valley and is perfect for hiking. Visitors can experience traditional rural life and stunning natural beauty.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Nabji Korphu Trek",
+    "city": "Bumthang",
+    "type": "nature",
+    "description": "This off-the-beaten-path trek offers a glimpse into remote villages and pristine landscapes. It is ideal for adventurous travelers seeking a unique experience.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Sangchhen Dorji Lhuendrup Nunnery",
+    "city": "Punakha",
+    "type": "culture",
+    "description": "Perched on a hill, this nunnery offers panoramic views of the Punakha Valley and is a peaceful place for meditation and reflection. It is a unique cultural site promoting women in Buddhism.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Khotokha Valley",
+    "city": "Wangdue Phodrang",
+    "type": "nature",
+    "description": "This serene valley is often overlooked by tourists. It offers picturesque landscapes, traditional villages, and opportunities for hiking and immersing in nature.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Chendebji Chorten",
+    "city": "Wangdue Phodrang",
+    "type": "landmark",
+    "description": "This unique chorten is inspired by the Boudhanath Stupa in Nepal and is located near the road to Bumthang. It is a peaceful site with beautiful surroundings, perfect for a short stop.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Zuri Dzong",
+    "city": "Paro",
+    "type": "landmark",
+    "description": "An ancient dzong offering stunning views of Paro and the surrounding valley. The hike to Zuri Dzong is rewarding, providing insight into Bhutan's architectural history.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Drukgyel Dzong",
+    "city": "Paro",
+    "type": "landmark",
+    "description": "This historical fortress, although in ruins, offers a glimpse into Bhutan's past and is surrounded by beautiful landscapes. It is a great spot for photography and exploration.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Dechen Phodrang Monastery",
+    "city": "Thimphu",
+    "type": "culture",
+    "description": "Located on a hill overlooking Thimphu, this monastery is a center for Buddhist learning and practice. It offers a peaceful atmosphere and stunning views of the city.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Kila Nunnery",
+    "city": "Paro",
+    "type": "culture",
+    "description": "This hidden gem is a beautiful nunnery located on a cliff, offering a serene environment for meditation and spiritual practice. It is less frequented by tourists, providing a tranquil experience.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Gelephu",
+    "city": "Gelephu",
+    "type": "nature",
+    "description": "This lesser-known town is surrounded by lush jungles and offers access to various trekking routes. It is perfect for nature lovers looking for a quieter experience.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Pangrizampa Monastery",
+    "city": "Thimphu",
+    "type": "culture",
+    "description": "A small but significant monastery known for its unique architecture and tranquil setting. It is a teaching center for traditional crafts and spiritual practices.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Rukubji",
+    "city": "Wangdue Phodrang",
+    "type": "culture",
+    "description": "A hidden rural village that offers a glimpse into traditional Bhutanese life. Visitors can engage with locals and experience authentic culture and hospitality.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Chummey Valley",
+    "city": "Bumthang",
+    "type": "nature",
+    "description": "A secluded valley known for its natural beauty and peaceful atmosphere. It is ideal for nature walks and exploring traditional Bhutanese homes.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Bumthang Jakar Dzong",
+    "city": "Bumthang",
+    "type": "landmark",
+    "description": "This dzong is one of the oldest in Bhutan and offers a rich history and stunning architecture. It is a significant cultural and administrative center in the Bumthang region.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Karma Drubthob Monastery",
+    "city": "Haa",
+    "type": "culture",
+    "description": "A lesser-known monastery that offers a peaceful retreat for spiritual seekers. It is surrounded by beautiful landscapes and provides a unique insight into Bhutanese spirituality.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Himalayan Buddhist Art School",
+    "city": "Thimphu",
+    "type": "culture",
+    "description": "This school is dedicated to preserving traditional Bhutanese art and craftsmanship. Visitors can observe artisans at work and learn about the significance of art in Bhutanese culture.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Dorji Dhen",
+    "city": "Paro",
+    "type": "nature",
+    "description": "A hidden gem known for its tranquil environment and beautiful scenery. It offers opportunities for hiking and exploring untouched nature.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Kanglung",
+    "city": "Trashigang",
+    "type": "culture",
+    "description": "A small town with rich cultural heritage, Kanglung is home to the Sherubtse College, Bhutan's first college. It offers a blend of education and culture in a serene setting.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Lhuentse Dzong",
+    "city": "Lhuentse",
+    "type": "landmark",
+    "description": "This remote dzong is known for its unique architecture and stunning views. It is less visited, providing a peaceful atmosphere for exploration.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ngang Lhakhang",
+    "city": "Bumthang",
+    "type": "culture",
+    "description": "A beautiful temple with a rich history, Ngang Lhakhang is an important pilgrimage site. It is located in a serene environment, perfect for reflection.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Trashi Yangtse",
+    "city": "Trashi Yangtse",
+    "type": "culture",
+    "description": "Known for its traditional crafts and vibrant culture, Trashi Yangtse is a great place to explore Bhutanese art. The local community is welcoming and eager to share their heritage.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Khamsum Yulley Namgyal Chorten",
+    "city": "Punakha",
+    "type": "landmark",
+    "description": "This stunning chorten is built on a hill and offers spectacular views of the Punakha Valley. The trek to reach it is both rewarding and serene.",
+    "country": "Bhutan",
+    "country_rank": 6
+  },
+  {
+    "name": "Rudra Sampa",
+    "city": "Trashigang",
+    "type": "nature",
+    "description": "A lesser-known valley that offers stunning landscapes and opportunities for trekking. The peaceful atmosphere makes it ideal for nature lovers.",
+    "country": "Bhutan",
+    "country_rank": 6
+  }
+]

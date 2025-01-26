@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Avenue of the Baobabs",
+    "city": "Morondava",
+    "type": "nature",
+    "description": "A stunning dirt road lined with towering baobab trees, this iconic landscape is one of Madagascar's most photographed sites. The trees, some of which are over 800 years old, create a surreal and magical atmosphere, especially at sunset.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Andasibe-Mantadia National Park",
+    "city": "Andasibe",
+    "type": "nature",
+    "description": "Home to the famous indri lemur, this national park offers lush rainforests and diverse wildlife. Visitors can enjoy guided hikes to see unique flora and fauna, including rare orchids and vibrant chameleons.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Nosy Be",
+    "city": "Nosy Be",
+    "type": "nature",
+    "description": "A tropical island known for its beautiful beaches, crystal-clear waters, and vibrant marine life. Nosy Be is also famous for its ylang-ylang plantations and offers various water activities like snorkeling and diving.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Tsingy de Bemaraha National Park",
+    "city": "Bekopaka",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this park features dramatic limestone formations known as 'tsingy'. The unique landscape is perfect for adventurous hiking and exploring its incredible biodiversity.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ranomafana National Park",
+    "city": "Ranomafana",
+    "type": "nature",
+    "description": "This rainforest park is known for its hot springs and rich biodiversity, including several species of lemurs. The park offers well-maintained trails and stunning views of waterfalls and lush greenery.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Antananarivo",
+    "city": "Antananarivo",
+    "type": "culture",
+    "description": "The capital city of Madagascar, Antananarivo is rich in history and culture. Visitors can explore its vibrant markets, historical sites, and the iconic Rova of Antananarivo, a royal palace complex.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Isalo National Park",
+    "city": "Ranohira",
+    "type": "nature",
+    "description": "Known for its stunning sandstone formations, canyons, and natural pools, Isalo National Park offers breathtaking landscapes. It's a popular spot for hiking and observing unique wildlife.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "\u00cele Sainte-Marie",
+    "city": "\u00cele Sainte-Marie",
+    "type": "nature",
+    "description": "This picturesque island off the east coast is famous for its beautiful beaches and pirate history. It\u2019s a great place for whale watching during the migration season.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Anakao",
+    "city": "Anakao",
+    "type": "nature",
+    "description": "A hidden gem along the southwest coast, Anakao is known for its pristine beaches and laid-back vibe. It's an excellent spot for snorkeling and experiencing local culture.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ambalavao",
+    "city": "Ambalavao",
+    "type": "culture",
+    "description": "Famous for its zebu market and traditional Antaimoro paper production, Ambalavao offers a glimpse into local culture. The nearby Anja Community Reserve is a great place to see ring-tailed lemurs.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Lemurs' Park",
+    "city": "Antananarivo",
+    "type": "nature",
+    "description": "A unique reserve dedicated to the protection of Madagascar's lemurs, this park is home to several species in a semi-free environment. It's a fantastic place for close encounters with these fascinating creatures.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Antananarivo's Rova",
+    "city": "Antananarivo",
+    "type": "landmark",
+    "description": "The Rova of Antananarivo is a historical royal palace complex that offers stunning views of the city. It holds significant cultural importance and showcases the history of the Merina Kingdom.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Andringitra National Park",
+    "city": "Andringitra",
+    "type": "nature",
+    "description": "Known for its dramatic landscapes and the second-highest peak in Madagascar, Andringitra is a haven for hikers and climbers. The park features diverse ecosystems, from grasslands to tropical forests.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Morondava Beach",
+    "city": "Morondava",
+    "type": "nature",
+    "description": "A serene beach along the Mozambique Channel, Morondava Beach is perfect for relaxation and sunset views. It's also a gateway to the nearby Avenue of the Baobabs.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Tsiribihina River",
+    "city": "Belo Sur Tsiribihina",
+    "type": "nature",
+    "description": "A stunning river known for its scenic canoe trips, the Tsiribihina River offers a unique way to explore Madagascar's wilderness. Travelers can enjoy views of waterfalls, cliffs, and diverse wildlife along the way.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Anjajavy",
+    "city": "Anjajavy",
+    "type": "nature",
+    "description": "A remote and exclusive resort area, Anjajavy is surrounded by pristine nature and offers sandy beaches, a rich marine ecosystem, and luxury accommodations. It\u2019s perfect for those seeking tranquility and adventure.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ifaty",
+    "city": "Ifaty",
+    "type": "nature",
+    "description": "A charming coastal village known for its coral reefs and beautiful beaches, Ifaty is an ideal destination for snorkeling and diving. The area is also home to unique spiny forest ecosystems.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Tulear",
+    "city": "Tulear",
+    "type": "culture",
+    "description": "A vibrant coastal city, Tulear is known for its local markets and rich cultural heritage. It's a great base for exploring nearby beaches and traditional fishing villages.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ile aux Nattes",
+    "city": "Ile aux Nattes",
+    "type": "nature",
+    "description": "A small island near \u00cele Sainte-Marie, it's famous for its tranquil beaches and laid-back atmosphere. Ideal for relaxation, it offers pristine beaches and opportunities for snorkeling.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Masoala National Park",
+    "city": "Masoala",
+    "type": "nature",
+    "description": "One of Madagascar's largest national parks, Masoala is home to lush rainforests and diverse wildlife, including rare species. Visitors can experience its remote beauty through guided treks.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Tsingy de Ankarana",
+    "city": "Ankarana",
+    "type": "nature",
+    "description": "This national park features impressive limestone formations and a unique ecosystem. The park is also home to various lemur species and offers thrilling cave explorations.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Lokobe Nature Reserve",
+    "city": "Nosy Be",
+    "type": "nature",
+    "description": "A protected area on Nosy Be, Lokobe is known for its rich biodiversity, including black lemurs and various endemic plant species. It offers visitors a chance to see Madagascar's wildlife up close.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Antsiranana (Diego Suarez)",
+    "city": "Antsiranana",
+    "type": "culture",
+    "description": "A charming city with a mix of cultures, Antsiranana features a beautiful bay and historical architecture. It\u2019s a great starting point for exploring nearby beaches and natural parks.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Sakalava Bay",
+    "city": "Mahajanga",
+    "type": "nature",
+    "description": "Known for its stunning coastline and vibrant marine life, Sakalava Bay is perfect for water sports and relaxation. The area is also rich in history and local culture.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ambondromamy",
+    "city": "Antananarivo",
+    "type": "culture",
+    "description": "A lesser-known village that showcases traditional Malagasy life. Visitors can experience local customs and crafts, making it an authentic cultural experience.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Antananarivo Botanical Garden",
+    "city": "Antananarivo",
+    "type": "nature",
+    "description": "This garden features a variety of Madagascar's endemic plants and is a peaceful escape from the urban bustle. It's a great place to learn about the island's unique flora.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Belembe Beach",
+    "city": "Toliara",
+    "type": "nature",
+    "description": "A stunning and less-visited beach, Belembe offers white sands and turquoise waters. It's a perfect spot for swimming and enjoying the natural beauty of Madagascar.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Mitsinjo Reserve",
+    "city": "Andasibe",
+    "type": "nature",
+    "description": "A community-run reserve that focuses on conservation and ecotourism, Mitsinjo is home to various lemur species and offers guided night walks to see nocturnal wildlife.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Fianarantsoa",
+    "city": "Fianarantsoa",
+    "type": "culture",
+    "description": "Known as the cultural capital of Madagascar, Fianarantsoa is famous for its vineyards and historical sites. The city offers a glimpse into traditional Malagasy life and culture.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Nosy Komba",
+    "city": "Nosy Komba",
+    "type": "nature",
+    "description": "An island known for its lush landscapes and friendly lemurs, Nosy Komba is a great place to relax and explore local crafts. The island is less touristy compared to Nosy Be.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "The Royal Hill of Ambohimanga",
+    "city": "Ambohimanga",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this royal hill is of great historical and cultural significance. It features the ruins of a royal palace and offers panoramic views of the surrounding area.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Cap Sainte-Marie",
+    "city": "Tulear",
+    "type": "nature",
+    "description": "A remote cape with dramatic cliffs and stunning ocean views, Cap Sainte-Marie is known for its biodiversity and unique landscapes. It's a great spot for birdwatching and exploring nature.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ranomafana Village",
+    "city": "Ranomafana",
+    "type": "culture",
+    "description": "A quaint village near Ranomafana National Park, it's known for its hot springs and community-led tourism. Visitors can learn about local traditions and enjoy the natural thermal baths.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ambalavao Zebu Market",
+    "city": "Ambalavao",
+    "type": "culture",
+    "description": "This lively market is one of the largest zebu markets in Madagascar. It's a colorful display of local culture, where farmers gather to trade livestock and other goods.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Andavadoaka",
+    "city": "Andavadoaka",
+    "type": "nature",
+    "description": "A tranquil fishing village known for its beautiful beaches and pristine waters, Andavadoaka is perfect for snorkeling and experiencing local life. It's a hidden gem for beach lovers.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ivato Airport",
+    "city": "Antananarivo",
+    "type": "landmark",
+    "description": "The main international airport in Madagascar, Ivato serves as the gateway for many visitors. Its architecture reflects traditional Malagasy designs.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great Red Island",
+    "city": "Madagascar",
+    "type": "nature",
+    "description": "Known for its unique red soil and diverse ecosystems, this region offers stunning landscapes and a rich array of wildlife. It's less traveled, making it a hidden gem for nature lovers.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Mahajanga",
+    "city": "Mahajanga",
+    "type": "culture",
+    "description": "A coastal city known for its beautiful beaches and vibrant nightlife, Mahajanga offers a mix of cultures and a relaxed atmosphere. The city is also a gateway to national parks.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Marojejy National Park",
+    "city": "Marojejy",
+    "type": "nature",
+    "description": "This remote park is known for its stunning biodiversity and rugged mountains. It offers excellent trekking opportunities through lush forests and unique wildlife.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Anony",
+    "city": "Ambohitralanana",
+    "type": "nature",
+    "description": "A hidden lake surrounded by lush greenery, Lake Anony is perfect for picnics and relaxation. It's a serene spot away from the tourist crowds.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Vohimana Reserve",
+    "city": "Andasibe",
+    "type": "nature",
+    "description": "A lesser-known reserve focusing on conservation, Vohimana offers eco-tours and opportunities to see endemic wildlife in their natural habitats.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Sambava",
+    "city": "Sambava",
+    "type": "culture",
+    "description": "Known for its vanilla plantations, Sambava is a charming town where visitors can learn about vanilla production and enjoy the local culture. It's surrounded by beautiful landscapes.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Berenty Reserve",
+    "city": "Sainte Luce",
+    "type": "nature",
+    "description": "A private reserve famous for its ring-tailed lemurs and spiny forest. Visitors can take guided walks to see the lemurs up close in their natural habitat.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Zombitse-Vohibasia National Park",
+    "city": "Sakaraha",
+    "type": "nature",
+    "description": "A lesser-known national park that features dry deciduous forests and unique wildlife. It's a great place for birdwatching and experiencing Madagascar's diverse ecosystems.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Maromizaha",
+    "city": "Andasibe",
+    "type": "nature",
+    "description": "A community-managed rainforest reserve that offers eco-tourism experiences. Visitors can see a variety of lemurs and support local conservation efforts.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Atsinanana Rainforests",
+    "city": "Andasibe",
+    "type": "nature",
+    "description": "These rainforests are part of a UNESCO World Heritage site and are crucial for biodiversity. Visitors can explore the lush forests and encounter unique wildlife.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ankarafantsika National Park",
+    "city": "Ankarafantsika",
+    "type": "nature",
+    "description": "A national park known for its diverse ecosystems, including lakes and dry forests. It's a great spot for birdwatching and seeing endemic species.",
+    "country": "Madagascar",
+    "country_rank": 7
+  },
+  {
+    "name": "Ambanja",
+    "city": "Ambanja",
+    "type": "culture",
+    "description": "Famous for its cocoa and ylang-ylang production, Ambanja offers a taste of local agriculture and cultural experiences. It\u2019s a charming town with a laid-back atmosphere.",
+    "country": "Madagascar",
+    "country_rank": 7
+  }
+]

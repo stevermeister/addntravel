@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Grand Place",
+    "city": "Brussels",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, the Grand Place is the central square of Brussels, surrounded by opulent guildhalls and the Town Hall. Its stunning architecture and vibrant flower carpet events make it a must-see.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Atomium",
+    "city": "Brussels",
+    "type": "landmark",
+    "description": "Originally built for the 1958 World Expo, the Atomium is a unique structure representing an iron crystal magnified 165 billion times. Visitors can explore its spheres and enjoy panoramic views of Brussels.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Manneken Pis",
+    "city": "Brussels",
+    "type": "landmark",
+    "description": "This famous bronze statue of a little boy urinating has become a symbol of Brussels' irreverent sense of humor. The statue is often dressed in various costumes, delighting visitors.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Bruges Canals",
+    "city": "Bruges",
+    "type": "nature",
+    "description": "The picturesque canals of Bruges, often referred to as the 'Venice of the North,' offer stunning views and scenic boat tours. The medieval architecture reflected in the water creates a fairy-tale atmosphere.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Belfry of Bruges",
+    "city": "Bruges",
+    "type": "landmark",
+    "description": "This iconic medieval bell tower stands 83 meters tall and offers a breathtaking view of Bruges from its top. Climbing the 366 steps is a rewarding experience for visitors.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Battlefields of Flanders",
+    "city": "Ypres",
+    "type": "culture",
+    "description": "The historic battlefields of Flanders are a poignant reminder of World War I. Visitors can explore memorials, museums, and cemeteries that honor the soldiers who fought here.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Gravensteen Castle",
+    "city": "Ghent",
+    "type": "landmark",
+    "description": "Gravensteen, or the Castle of the Counts, is a medieval fortress that offers a glimpse into the history of Ghent. Its impressive architecture and exhibits on torture and medieval life are intriguing.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Kasteel van Laarne",
+    "city": "Laarne",
+    "type": "landmark",
+    "description": "One of the best-preserved castles in Belgium, Kasteel van Laarne features a stunning collection of tapestries and antique furniture. The beautiful gardens surrounding the castle add to its charm.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Cinquantenaire Park",
+    "city": "Brussels",
+    "type": "nature",
+    "description": "This expansive park features beautiful gardens, impressive arches, and several museums, including the Royal Museum of the Armed Forces. It's a perfect spot for a leisurely stroll or a picnic.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Hallerbos Forest",
+    "city": "Halle",
+    "type": "nature",
+    "description": "Famous for its breathtaking bluebell blooms in spring, Hallerbos is an enchanting forest that attracts nature lovers and photographers alike. The vibrant carpets of flowers create a magical atmosphere.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Antwerp Zoo",
+    "city": "Antwerp",
+    "type": "entertainment",
+    "description": "One of the oldest zoos in the world, Antwerp Zoo is home to a diverse range of animals and offers interactive exhibits. It's located right in the city center, making it a convenient family outing.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Royal Palace of Brussels",
+    "city": "Brussels",
+    "type": "landmark",
+    "description": "The official palace of the King of the Belgians, it is open to the public during the summer months. The grand architecture and opulent interiors showcase Belgium's royal heritage.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Mechelen's St. Rumbold's Cathedral",
+    "city": "Mechelen",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this cathedral is renowned for its impressive tower and stunning stained glass windows. Climbing the tower provides panoramic views of the city.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Dinant Citadel",
+    "city": "Dinant",
+    "type": "landmark",
+    "description": "Perched high above the Meuse River, the Dinant Citadel offers breathtaking views and a glimpse into the region's rich history. Visitors can access it via a funicular or hike up the scenic paths.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Semois River Valley",
+    "city": "Bouillon",
+    "type": "nature",
+    "description": "The Semois River Valley is known for its stunning landscapes, hiking trails, and outdoor activities. The area is perfect for nature enthusiasts looking to explore the tranquil beauty of the Ardennes.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Grote Markt",
+    "city": "Bruges",
+    "type": "landmark",
+    "description": "The central square of Bruges, Grote Markt is surrounded by historic buildings, including the Belfry and the Provincial Court. It's a lively spot filled with cafes and shops.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Comic Strip Route",
+    "city": "Brussels",
+    "type": "culture",
+    "description": "Brussels celebrates its comic strip heritage with murals throughout the city depicting famous characters. The Comic Strip Route is a fun way to explore and appreciate this unique aspect of Belgian culture.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Meuse River",
+    "city": "Namur",
+    "type": "nature",
+    "description": "The Meuse River offers beautiful views and opportunities for kayaking and cycling along its banks. The scenic landscapes make it an ideal spot for a relaxing day outdoors.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Royal Museums of Fine Arts",
+    "city": "Brussels",
+    "type": "culture",
+    "description": "This collection of museums showcases masterpieces from the Flemish Primitives to modern art. It's a cultural haven for art lovers and those interested in Belgium\u2019s artistic heritage.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Brouwerij Westmalle",
+    "city": "Westmalle",
+    "type": "entertainment",
+    "description": "Famous for its Trappist beers, Brouwerij Westmalle offers tours and tastings for visitors interested in learning about the brewing process and enjoying authentic Belgian ales.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Citadel of Namur",
+    "city": "Namur",
+    "type": "landmark",
+    "description": "The Citadel offers stunning views of the confluence of the Meuse and Sambre rivers and has a rich history dating back to the Roman era. Its impressive fortifications are a highlight for history buffs.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Zoute",
+    "city": "Knokke-Heist",
+    "type": "entertainment",
+    "description": "Zoute is a chic seaside resort known for its upscale boutiques, gourmet restaurants, and beautiful beach. It's a favorite destination for luxury travelers and beachgoers.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Basilica of the Sacred Heart",
+    "city": "Brussels",
+    "type": "landmark",
+    "description": "This massive basilica is one of the largest in the world and features stunning Art Deco architecture. Visitors can climb to the dome for a panoramic view of the city.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Grotto of Han",
+    "city": "Han-sur-Lesse",
+    "type": "nature",
+    "description": "The Grotto of Han is a spectacular cave system featuring impressive stalactites and stalagmites. Guided tours take visitors through its natural wonders, making it a thrilling experience.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Abbey of Villers-la-Ville",
+    "city": "Villers-la-Ville",
+    "type": "landmark",
+    "description": "These stunning ruins of a 12th-century Cistercian abbey are surrounded by beautiful gardens. The site tells the story of monastic life and offers a peaceful retreat.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Beguinage of Bruges",
+    "city": "Bruges",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, the Beguinage is a tranquil courtyard filled with white houses and gardens. It offers a glimpse into the lives of the beguines, women who lived in a religious community.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Chocolate Museum",
+    "city": "Brussels",
+    "type": "culture",
+    "description": "This museum celebrates Belgium's rich chocolate heritage, showcasing the history and art of chocolate-making. Visitors can enjoy tastings and demonstrations.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Royal Greenhouses of Laeken",
+    "city": "Brussels",
+    "type": "nature",
+    "description": "These beautiful greenhouses house a stunning collection of plants and flowers, including rare species. Open to the public only a few weeks each year, they are a hidden gem.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Market Square",
+    "city": "Namur",
+    "type": "entertainment",
+    "description": "Known as the 'place des m\u0153urs,' this lively square is surrounded by caf\u00e9s and restaurants, making it the perfect spot to relax and enjoy local cuisine.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Red Star Line Museum",
+    "city": "Antwerp",
+    "type": "culture",
+    "description": "This museum tells the story of the millions of immigrants who traveled to America via the Red Star Line. It offers a moving exploration of their journeys and experiences.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "La Roche-en-Ardenne",
+    "city": "La Roche-en-Ardenne",
+    "type": "nature",
+    "description": "This charming town is nestled in the Ardennes and is known for its beautiful landscapes, outdoor activities, and the medieval castle ruins overlooking the town.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Chocolate Route",
+    "city": "Brussels",
+    "type": "entertainment",
+    "description": "This self-guided tour takes chocolate lovers through some of the best chocolatiers in Brussels, offering tastings and the chance to learn about the art of Belgian chocolate.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Kasteel Ter Borch",
+    "city": "Oostkamp",
+    "type": "landmark",
+    "description": "A hidden gem, this lesser-known castle features beautiful grounds and a serene atmosphere. It's a perfect spot for a quiet picnic and leisurely walks.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Train World",
+    "city": "Brussels",
+    "type": "entertainment",
+    "description": "An interactive railway museum showcasing the history of trains in Belgium. Visitors can enjoy fascinating exhibits and even ride on vintage trains.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Abbey of Saint-Hubert",
+    "city": "Saint-Hubert",
+    "type": "landmark",
+    "description": "A beautiful abbey known for its tranquil setting and stunning architecture. It is a significant pilgrimage site and is surrounded by lush forests.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Toy Museum",
+    "city": "Brussels",
+    "type": "entertainment",
+    "description": "This nostalgic museum is dedicated to toys from different eras, showcasing a vast collection that delights visitors of all ages.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Railway Viaduct",
+    "city": "Viaduc de la Ligne 147",
+    "type": "landmark",
+    "description": "An impressive 19th-century railway viaduct, perfect for photography and enjoying the surrounding nature. It's an architectural marvel set in a picturesque location.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Citadel of Huy",
+    "city": "Huy",
+    "type": "landmark",
+    "description": "This historic citadel overlooking the Meuse River offers stunning views and insights into military history. The climb to the top is well worth the effort.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Forest of Soignes",
+    "city": "Brussels",
+    "type": "nature",
+    "description": "A beautiful forest located just outside Brussels, ideal for hiking and cycling. Its ancient trees and biodiversity make it a peaceful escape from the city.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Museum of History and Art",
+    "city": "Namur",
+    "type": "culture",
+    "description": "This museum features a diverse collection of art and artifacts from Belgium's history, showcasing the country's rich cultural heritage.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Village of Durbuy",
+    "city": "Durbuy",
+    "type": "entertainment",
+    "description": "Often considered the smallest city in the world, Durbuy is a charming destination known for its medieval atmosphere, quaint shops, and delicious local cuisine.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Fortress of Breendonk",
+    "city": "Breendonk",
+    "type": "culture",
+    "description": "This former concentration camp serves as a memorial and museum dedicated to the victims of the Nazi regime. It offers a sobering insight into Belgium's dark history.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Castle of Bouillon",
+    "city": "Bouillon",
+    "type": "landmark",
+    "description": "This medieval castle offers stunning views of the surrounding valley and a fascinating look into the history of the region. Visitors can explore its impressive battlements and exhibits.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "Botanical Garden of Meise",
+    "city": "Meise",
+    "type": "nature",
+    "description": "One of the largest botanical gardens in the world, it features a vast collection of plants and beautiful landscapes. It's a peaceful place for nature lovers to explore.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of the History of Medicine",
+    "city": "Brussels",
+    "type": "culture",
+    "description": "This unique museum showcases the history of medicine through fascinating exhibits and artifacts. It's a captivating visit for anyone interested in medical history.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ardennes",
+    "city": "Various",
+    "type": "nature",
+    "description": "A stunning region known for its rolling hills, dense forests, and outdoor activities such as hiking, cycling, and kayaking. The Ardennes offer a perfect escape into nature.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Village of Ghent",
+    "city": "Ghent",
+    "type": "entertainment",
+    "description": "With its vibrant arts scene, historic architecture, and lively atmosphere, Ghent is a cultural hub. The city's festivals and events attract visitors year-round.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Abbey of Aulne",
+    "city": "Aulne",
+    "type": "landmark",
+    "description": "These beautiful ruins of a former Cistercian abbey are set in a lush landscape, offering a serene atmosphere for contemplation and exploration.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of Contemporary Art",
+    "city": "Antwerp",
+    "type": "culture",
+    "description": "This museum focuses on modern and contemporary art, showcasing works by both Belgian and international artists. It's a dynamic space for art enthusiasts.",
+    "country": "Belgium",
+    "country_rank": 7
+  },
+  {
+    "name": "The Historic Center of Bruges",
+    "city": "Bruges",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, the historic center of Bruges is filled with medieval architecture, cobblestone streets, and charming canals, offering a step back in time.",
+    "country": "Belgium",
+    "country_rank": 7
+  }
+]

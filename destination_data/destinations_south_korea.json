@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Gyeongbokgung Palace",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "The largest of the Five Grand Palaces built during the Joseon Dynasty, Gyeongbokgung is a stunning example of traditional Korean architecture and offers a glimpse into the history of Korea. Visitors can witness the changing of the guard ceremony and explore the beautiful gardens.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Jeju Island",
+    "city": "Jeju",
+    "type": "nature",
+    "description": "Known for its volcanic landscapes, beautiful beaches, and unique flora and fauna, Jeju Island is a UNESCO World Heritage site. It is a popular destination for hiking, especially the iconic Hallasan Mountain.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Namsan Tower",
+    "city": "Seoul",
+    "type": "landmark",
+    "description": "Also known as Seoul Tower, this iconic structure offers panoramic views of the city. Visitors can take a cable car up to the tower and enjoy the romantic atmosphere, especially at night.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Bukchon Hanok Village",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "A preserved village showcasing traditional Korean hanok houses, Bukchon Hanok Village provides a glimpse into the past. Visitors can wander through the narrow streets and experience traditional tea houses and workshops.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Seoraksan National Park",
+    "city": "Sokcho",
+    "type": "nature",
+    "description": "Home to stunning mountain landscapes, hiking trails, and diverse wildlife, Seoraksan National Park is a haven for nature lovers. The park features beautiful temples and scenic viewpoints.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Changdeokgung Palace",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Changdeokgung Palace is renowned for its beautiful secret garden and harmonious architecture that blends with the surrounding nature. It is a prime example of East Asian palace design.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Busan Haeundae Beach",
+    "city": "Busan",
+    "type": "entertainment",
+    "description": "One of the most famous beaches in South Korea, Haeundae Beach offers a vibrant atmosphere with numerous restaurants, cafes, and events. The beach is a popular spot during the summer for locals and tourists alike.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Suwon Hwaseong Fortress",
+    "city": "Suwon",
+    "type": "landmark",
+    "description": "This UNESCO World Heritage site is a well-preserved example of military architecture from the late 18th century. Visitors can walk along the fortress walls and explore its impressive gates and watchtowers.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gwangjang Market",
+    "city": "Seoul",
+    "type": "entertainment",
+    "description": "One of the oldest traditional markets in Korea, Gwangjang Market is famous for its street food, particularly bindaetteok (mung bean pancakes) and bibimbap. It offers an authentic taste of Korean culinary culture.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Nami Island",
+    "city": "Chuncheon",
+    "type": "nature",
+    "description": "A picturesque half-moon shaped island famous for its tree-lined paths and natural beauty, Nami Island is a popular destination for couples and families. It offers various recreational activities and beautiful scenery in every season.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Insa-dong",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "A vibrant neighborhood known for its traditional Korean culture, Insa-dong is filled with art galleries, antique shops, and tea houses. It's a great place to shop for souvenirs and experience local art.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Bukhansan National Park",
+    "city": "Seoul",
+    "type": "nature",
+    "description": "This national park features granite peaks and scenic hiking trails, making it a popular escape from the city. The park is rich in biodiversity and offers beautiful views of Seoul.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Jeonju Hanok Village",
+    "city": "Jeonju",
+    "type": "culture",
+    "description": "Famous for its traditional hanok houses and delicious bibimbap, Jeonju Hanok Village offers visitors a chance to experience traditional Korean culture. The area is also known for its vibrant art scene.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "DMZ (Demilitarized Zone)",
+    "city": "Paju",
+    "type": "landmark",
+    "description": "The DMZ is a buffer zone between North and South Korea, offering a unique opportunity to learn about the Korean War and the ongoing tensions. Guided tours provide insights into the history and significance of this area.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Odaesan National Park",
+    "city": "Pyeongchang",
+    "type": "nature",
+    "description": "Known for its beautiful hiking trails and serene landscapes, Odaesan National Park is home to diverse flora and fauna. The park is especially stunning in autumn when the leaves change color.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gyeongju Historic Areas",
+    "city": "Gyeongju",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Gyeongju is often referred to as 'the museum without walls' due to its rich history and numerous ancient sites, including tombs, temples, and palaces from the Silla Dynasty.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Hwaseong Haenggung Palace",
+    "city": "Suwon",
+    "type": "culture",
+    "description": "This palace served as a temporary residence for kings during the Joseon Dynasty and is an excellent example of traditional Korean architecture. It hosts various cultural events and reenactments.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Yangdong Folk Village",
+    "city": "Gyeongju",
+    "type": "culture",
+    "description": "This traditional village is a UNESCO World Heritage site showcasing well-preserved Joseon-era architecture and rural life. Visitors can explore the homes and learn about traditional Korean customs.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Songdo Central Park",
+    "city": "Incheon",
+    "type": "nature",
+    "description": "A modern urban park that features beautiful landscapes, walking paths, and waterways, Songdo Central Park is perfect for leisurely strolls and outdoor activities. It also offers views of the city skyline.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Seongyojang",
+    "city": "Gangneung",
+    "type": "culture",
+    "description": "A well-preserved traditional Korean house that dates back to the late Joseon Dynasty, Seongyojang offers insight into the lifestyle of the Korean nobility. The property features beautiful gardens and scenic views.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Jinhae Cherry Blossom Festival",
+    "city": "Jinhae",
+    "type": "entertainment",
+    "description": "Held annually in April, the Jinhae Cherry Blossom Festival attracts thousands of visitors to enjoy the stunning cherry blossoms lining the streets and parks. The festival features cultural performances and local food stalls.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Haeinsa Temple",
+    "city": "Hapcheon",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Haeinsa Temple is home to the Tripitaka Koreana, one of the most complete collections of Buddhist scriptures in existence. The temple's tranquil setting makes it a popular pilgrimage site.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Cheonggyecheon Stream",
+    "city": "Seoul",
+    "type": "landmark",
+    "description": "This urban stream is a peaceful retreat in the heart of Seoul, providing a scenic walkway lined with art installations and greenery. It is especially beautiful during the evening when illuminated.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Seongbuk-dong",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "A charming neighborhood known for its traditional hanok houses and art galleries, Seongbuk-dong offers a quiet escape from the bustling city. It's a great place to explore local culture and history.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Dongdaemun Design Plaza",
+    "city": "Seoul",
+    "type": "landmark",
+    "description": "An iconic architectural landmark, the Dongdaemun Design Plaza hosts various exhibitions and events, showcasing contemporary design and culture. Its futuristic design and LED rose garden are popular attractions.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Taean Haean National Park",
+    "city": "Taean",
+    "type": "nature",
+    "description": "Known for its beautiful coastal scenery, tidal flats, and diverse wildlife, Taean Haean National Park is a great destination for nature lovers. It offers hiking trails and opportunities for birdwatching.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Myeongdong Shopping Street",
+    "city": "Seoul",
+    "type": "entertainment",
+    "description": "A bustling shopping district filled with fashion boutiques, beauty stores, and street food vendors, Myeongdong is a must-visit for those looking to experience the vibrant shopping culture of Seoul.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Jinju Fortress",
+    "city": "Jinju",
+    "type": "landmark",
+    "description": "This historic fortress played a significant role during the Imjin War and offers panoramic views of the surrounding area. The fortress is beautifully illuminated at night, creating a picturesque scene.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gwangmyeong Cave",
+    "city": "Gwangmyeong",
+    "type": "entertainment",
+    "description": "Once a gold mine, Gwangmyeong Cave has been transformed into a unique cultural space featuring art installations, light shows, and an aquarium. It's a fascinating blend of nature and modern creativity.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Upo Wetland",
+    "city": "Changnyeong",
+    "type": "nature",
+    "description": "As one of the largest wetlands in South Korea, Upo Wetland is a biodiversity hotspot and a great place for birdwatching. The tranquil environment offers scenic walking paths and beautiful landscapes.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Sokcho Beach",
+    "city": "Sokcho",
+    "type": "entertainment",
+    "description": "A popular beach destination known for its soft sands and clear waters, Sokcho Beach is great for swimming, beach sports, and enjoying fresh seafood at nearby restaurants.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Baengnyeongdo Island",
+    "city": "Incheon",
+    "type": "nature",
+    "description": "A remote island known for its stunning natural beauty and peaceful atmosphere, Baengnyeongdo is ideal for hiking and exploring unique rock formations and coastal scenery.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Pyeongchang Alpensia Resort",
+    "city": "Pyeongchang",
+    "type": "entertainment",
+    "description": "A premier ski resort that hosted events during the 2018 Winter Olympics, Alpensia Resort offers skiing, snowboarding, and various outdoor activities in winter, as well as golf and biking in summer.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gyeongju National Museum",
+    "city": "Gyeongju",
+    "type": "culture",
+    "description": "The museum houses a vast collection of artifacts from the Silla Dynasty, providing insights into Korea's ancient history. It's an essential stop for anyone interested in Korean culture.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Boseong Green Tea Fields",
+    "city": "Boseong",
+    "type": "nature",
+    "description": "Famous for its lush green tea plantations, Boseong is a beautiful destination where visitors can stroll through the fields, taste fresh green tea, and learn about tea production.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Hyangiram Hermitage",
+    "city": "Yeosu",
+    "type": "culture",
+    "description": "Perched on a cliff overlooking the sea, Hyangiram Hermitage is known for its stunning views and serene atmosphere. It is a peaceful retreat that attracts those seeking tranquility.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Cheongju Early Printing Museum",
+    "city": "Cheongju",
+    "type": "culture",
+    "description": "This museum showcases the history of printing in Korea, featuring ancient printing techniques and artifacts. It's an interesting stop for those curious about the evolution of written communication.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Suwon Iksan Fortress",
+    "city": "Suwon",
+    "type": "landmark",
+    "description": "This fortress features impressive walls and gates and offers beautiful views of the surrounding area. It is an important historical site that reflects the military architecture of the Joseon Dynasty.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Daejeon O-World",
+    "city": "Daejeon",
+    "type": "entertainment",
+    "description": "A theme park that combines a zoo, amusement park, and water park, Daejeon O-World is a family-friendly destination offering a variety of rides and animal exhibits.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Geoje Island",
+    "city": "Geoje",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and scenic coastal landscapes, Geoje Island is a great place for outdoor activities, including hiking, biking, and exploring historical sites.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Jeongdongjin Beach",
+    "city": "Gangneung",
+    "type": "nature",
+    "description": "Famous for its beautiful sunrises, Jeongdongjin Beach is a peaceful spot to relax and enjoy the ocean. The beach is also home to unique attractions like the Hourglass Park.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Sangumburi Crater",
+    "city": "Jeju",
+    "type": "nature",
+    "description": "A UNESCO biosphere reserve, Sangumburi Crater features a unique volcanic landscape and rich biodiversity. Visitors can walk along the trails and enjoy the tranquil surroundings.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Hyangjeokbong Peak",
+    "city": "Jeju",
+    "type": "nature",
+    "description": "Part of Hallasan Mountain, Hyangjeokbong Peak offers stunning hiking trails and breathtaking views of Jeju Island. The peak is especially popular among nature enthusiasts.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gongju National Museum",
+    "city": "Gongju",
+    "type": "culture",
+    "description": "This museum specializes in artifacts from the Baekje Kingdom, providing a deep dive into Korea's ancient history. The museum's collection includes pottery, sculptures, and ancient relics.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Seomun Market",
+    "city": "Daegu",
+    "type": "entertainment",
+    "description": "One of the largest traditional markets in Korea, Seomun Market is famous for its street food, textiles, and local products. It's a bustling hub that showcases the vibrant local culture.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Anapji Pond",
+    "city": "Gyeongju",
+    "type": "landmark",
+    "description": "A beautiful artificial pond built during the Silla Dynasty, Anapji Pond is surrounded by historical sites and offers stunning views, especially at night when it is lit up.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Goseong Dinosaur Museum",
+    "city": "Goseong",
+    "type": "entertainment",
+    "description": "Home to numerous dinosaur fossils and tracks, this museum offers an educational experience for families and dinosaur enthusiasts. The nearby dinosaur trail allows visitors to see real footprints.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Seoul Forest",
+    "city": "Seoul",
+    "type": "nature",
+    "description": "A large urban park that features walking paths, gardens, and a deer enclosure, Seoul Forest is an oasis in the city. It's a popular spot for picnics, jogging, and enjoying nature.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Gangneung Coffee Street",
+    "city": "Gangneung",
+    "type": "entertainment",
+    "description": "Famous for its numerous coffee shops and beautiful coastal views, Gangneung Coffee Street is a must-visit for coffee lovers. Visitors can enjoy a variety of brews while taking in the scenery.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Duksung Women's University",
+    "city": "Seoul",
+    "type": "culture",
+    "description": "Known for its beautiful campus and historic buildings, Duksung Women's University is a charming site to explore. The university's architecture features a blend of traditional and modern styles.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Hyangiram Hermitage",
+    "city": "Yeosu",
+    "type": "culture",
+    "description": "Perched on a cliff overlooking the sea, Hyangiram Hermitage is known for its stunning views and serene atmosphere. It is a peaceful retreat that attracts those seeking tranquility.",
+    "country": "South Korea",
+    "country_rank": 9
+  },
+  {
+    "name": "Waryong Park",
+    "city": "Gwangju",
+    "type": "nature",
+    "description": "A beautiful park featuring walking trails and scenic views, Waryong Park is a perfect spot for a leisurely stroll or picnic. The park is especially lovely during cherry blossom season.",
+    "country": "South Korea",
+    "country_rank": 9
+  }
+]

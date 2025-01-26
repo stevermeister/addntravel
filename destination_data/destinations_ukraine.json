@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Kyiv Pechersk Lavra",
+    "city": "Kyiv",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this historic Orthodox monastery features stunning churches and catacombs that are home to mummified monks. Its golden domes and rich history make it a must-visit.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Lviv Old Town",
+    "city": "Lviv",
+    "type": "culture",
+    "description": "Famous for its well-preserved medieval architecture, Lviv Old Town is a UNESCO World Heritage site. The lively atmosphere, charming cafes, and vibrant cultural scene make it a delightful destination.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Odesa Opera House",
+    "city": "Odesa",
+    "type": "culture",
+    "description": "This stunning opera house is renowned for its magnificent architecture and acoustics. It hosts a variety of performances and is an architectural gem in the heart of Odesa.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Carpathian Mountains",
+    "city": "Ivano-Frankivsk",
+    "type": "nature",
+    "description": "The Carpathians offer breathtaking landscapes, lush forests, and opportunities for hiking and skiing. It's a paradise for nature lovers and adventure seekers.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Chernobyl Exclusion Zone",
+    "city": "Chernobyl",
+    "type": "landmark",
+    "description": "A haunting reminder of the 1986 disaster, the Chernobyl Exclusion Zone has become a site of interest for those curious about history and human resilience. Guided tours offer a glimpse into this eerie yet fascinating location.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kamianets-Podilskyi Castle",
+    "city": "Kamianets-Podilskyi",
+    "type": "landmark",
+    "description": "This stunning medieval fortress is perched on a rocky outcrop and surrounded by a picturesque canyon. Its impressive architecture and historical significance attract tourists year-round.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kiev Botanical Garden",
+    "city": "Kyiv",
+    "type": "nature",
+    "description": "Home to diverse plant species and beautiful landscapes, the Kiev Botanical Garden is a serene escape from the city's hustle. The cherry blossoms in spring are particularly breathtaking.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Sofiyivka Park",
+    "city": "Uman",
+    "type": "nature",
+    "description": "This romantic landscape park is known for its picturesque ponds, waterfalls, and classical sculptures. It was designed in the late 18th century and offers a tranquil setting for leisurely strolls.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Pirogovo Open-Air Museum",
+    "city": "Kyiv",
+    "type": "culture",
+    "description": "An open-air museum showcasing traditional Ukrainian architecture, Pirogovo features over 300 structures, including windmills and wooden churches. It offers insights into Ukraine's rural past.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Lutsk Castle",
+    "city": "Lutsk",
+    "type": "landmark",
+    "description": "This medieval castle, also known as Lubart's Castle, is a remarkable example of Gothic architecture. It serves as a historical museum and provides panoramic views of the city.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Ternopil Castle",
+    "city": "Ternopil",
+    "type": "landmark",
+    "description": "Dating back to the 16th century, Ternopil Castle is situated on the shores of Ternopil Lake. Its striking appearance and surrounding park make it a popular spot for both locals and tourists.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kharkiv Park Gorkogo",
+    "city": "Kharkiv",
+    "type": "entertainment",
+    "description": "A large amusement park located in Kharkiv, it offers a variety of rides and attractions for visitors of all ages. The park is a perfect place to enjoy a fun day out with family.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "The Motherland Monument",
+    "city": "Kyiv",
+    "type": "landmark",
+    "description": "This colossal statue commemorates the Soviet victory in World War II. Standing over 60 meters tall, it offers visitors stunning views of the Dnieper River and the city.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Khotyn Fortress",
+    "city": "Khotyn",
+    "type": "landmark",
+    "description": "Overlooking the Dniester River, Khotyn Fortress is a historical site that dates back to the 12th century. Its impressive walls and towers tell tales of battles and sieges.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Olesko Castle",
+    "city": "Olesko",
+    "type": "landmark",
+    "description": "Birthplace of the Polish king Jan III Sobieski, Olesko Castle is surrounded by beautiful landscapes and offers a glimpse into the history of the region. It houses a museum with valuable artifacts.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Vernadsky National Library",
+    "city": "Kyiv",
+    "type": "culture",
+    "description": "The largest library in Ukraine, it houses a vast collection of books and manuscripts. Its architecture and scholarly atmosphere make it a unique place to visit.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Zolochiv Castle",
+    "city": "Zolochiv",
+    "type": "landmark",
+    "description": "This 17th-century castle is famous for its beautiful gardens and Chinese Palace. It offers insight into the region's history and stunning architecture.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Bakhchisaray Palace",
+    "city": "Bakhchisaray",
+    "type": "landmark",
+    "description": "The former residence of the Crimean khans, this palace is a unique blend of Islamic and European architectural styles. Its beautiful gardens and ornate interiors are captivating.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Sirotkin's House",
+    "city": "Chernihiv",
+    "type": "culture",
+    "description": "An architectural gem, this historic house showcases the traditional wooden architecture of Ukraine. It offers a glimpse into the country\u2019s cultural heritage.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Dzharylhach Island",
+    "city": "Dzharylhach",
+    "type": "nature",
+    "description": "Known for its pristine beaches and clear waters, Dzharylhach Island is a hidden gem for nature lovers. It\u2019s perfect for a peaceful getaway and offers opportunities for wildlife watching.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kramatorsk",
+    "city": "Kramatorsk",
+    "type": "culture",
+    "description": "Known for its industrial history, Kramatorsk has several unique sites, including the Kramatorsk Historical Museum, which highlights the region's rich heritage.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "St. Michael's Golden-Domed Monastery",
+    "city": "Kyiv",
+    "type": "landmark",
+    "description": "This iconic monastery is known for its stunning golden domes and beautiful frescoes. It is a symbol of Ukrainian spirituality and resilience.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Truskavets",
+    "city": "Truskavets",
+    "type": "entertainment",
+    "description": "A famous spa town known for its mineral waters, Truskavets attracts visitors seeking relaxation and wellness. The town also features beautiful parks and recreational activities.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kiev's Podil District",
+    "city": "Kyiv",
+    "type": "culture",
+    "description": "One of the oldest neighborhoods in Kyiv, Podil is known for its historic architecture, vibrant nightlife, and cultural venues. It's a hub of creativity and history.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Yalta",
+    "city": "Yalta",
+    "type": "nature",
+    "description": "Nestled on the southern coast of Crimea, Yalta is famous for its stunning landscapes, beaches, and mild climate. It's a popular resort destination with rich botanical gardens.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Mezhyhirya Residence",
+    "city": "Kyiv",
+    "type": "landmark",
+    "description": "Once the residence of former President Yanukovych, this lavish estate is now a museum open to the public. The sprawling grounds and opulent interiors provide insight into Ukraine's political history.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kamenets-Podilskyi",
+    "city": "Kamenets-Podilskyi",
+    "type": "landmark",
+    "description": "Famous for its stunning castle and picturesque old town, Kamenets-Podilskyi features beautiful architecture and rich history, making it a delightful destination for exploration.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "The House with Chimeras",
+    "city": "Kyiv",
+    "type": "culture",
+    "description": "This unique architectural marvel is adorned with intricate sculptures of animals and mythical creatures. It's a fascinating example of Art Nouveau architecture in Kyiv.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kryvyi Rih",
+    "city": "Kryvyi Rih",
+    "type": "culture",
+    "description": "Known for its rich mining history, Kryvyi Rih is home to a variety of museums and parks that highlight its industrial heritage and cultural significance.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Bila Tserkva",
+    "city": "Bila Tserkva",
+    "type": "nature",
+    "description": "Famous for its beautiful parks, including the stunning Oleksandria Park, Bila Tserkva offers picturesque landscapes and a tranquil environment for nature enthusiasts.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Khotyn Fortress",
+    "city": "Khotyn",
+    "type": "landmark",
+    "description": "This ancient fortress is a significant historical site with stunning views of the Dniester River. Its well-preserved walls and towers tell tales of centuries of battles.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Chernivtsi National University",
+    "city": "Chernivtsi",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, the university is renowned for its stunning architecture and beautiful gardens. It was formerly a residence of the Bukovinian and Dalmatian Metropolitans.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Svyatohirsk Lavra",
+    "city": "Svyatohirsk",
+    "type": "culture",
+    "description": "This beautiful monastery is set against the backdrop of the Svyatohirsk Mountains and features stunning architecture. It's a place of pilgrimage and spiritual significance.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kryvyi Rih's Central Park",
+    "city": "Kryvyi Rih",
+    "type": "nature",
+    "description": "A lush green space in the city, Central Park offers recreational areas, walking paths, and picturesque scenery, making it a popular spot for relaxation and outdoor activities.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kremenchuk",
+    "city": "Kremenchuk",
+    "type": "entertainment",
+    "description": "Known for its vibrant nightlife and cultural events, Kremenchuk offers a variety of entertainment options, including theaters, clubs, and outdoor festivals.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Hutsulshchyna National Park",
+    "city": "Yaremche",
+    "type": "nature",
+    "description": "This national park is famous for its stunning Carpathian landscapes, rich biodiversity, and traditional Hutsul culture. It's an ideal destination for hiking and exploring nature.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Alupka Palace",
+    "city": "Alupka",
+    "type": "landmark",
+    "description": "This picturesque palace, located near Yalta, features beautiful gardens and stunning views of the Black Sea. The architecture blends Gothic, Moorish, and Renaissance styles.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Boryspil International Airport",
+    "city": "Boryspil",
+    "type": "entertainment",
+    "description": "As Ukraine's main international airport, Boryspil offers various amenities, shops, and restaurants, making it a bustling hub for travelers.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Nikolai Vavilov Institute of Plant Industry",
+    "city": "Saint Petersburg",
+    "type": "culture",
+    "description": "This institute is famous for its extensive collection of plant genetic resources and is an important center for agricultural research. It's a unique site for those interested in botany.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Kremenchug Reservoir",
+    "city": "Kremenchuk",
+    "type": "nature",
+    "description": "A large reservoir on the Dnieper River, it offers recreational activities such as fishing, boating, and picnicking, making it a popular spot for locals and visitors alike.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Cherkasy National University",
+    "city": "Cherkasy",
+    "type": "culture",
+    "description": "Known for its beautiful campus and historical significance, this university has a vibrant student community and hosts various cultural events throughout the year.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Buchach",
+    "city": "Buchach",
+    "type": "landmark",
+    "description": "A charming town with historic architecture, Buchach is known for its picturesque streets and the remains of a 16th-century castle. It's a hidden gem that showcases the beauty of Ukraine's towns.",
+    "country": "Ukraine",
+    "country_rank": 6
+  },
+  {
+    "name": "Sofiyivka Park",
+    "city": "Uman",
+    "type": "nature",
+    "description": "A stunning landscape park featuring ponds, waterfalls, and classical sculptures, Sofiyivka Park is perfect for leisurely walks and enjoying nature's beauty.",
+    "country": "Ukraine",
+    "country_rank": 6
+  }
+]

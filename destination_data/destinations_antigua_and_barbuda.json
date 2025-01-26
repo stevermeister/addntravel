@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Half Moon Bay",
+    "city": "Saint Philip",
+    "type": "nature",
+    "description": "A stunning crescent-shaped beach known for its soft white sand and crystal-clear waters. It\u2019s a perfect spot for swimming, sunbathing, and snorkeling.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Shirley Heights",
+    "city": "English Harbour",
+    "type": "landmark",
+    "description": "A historic lookout point that offers breathtaking views of English Harbour and the surrounding islands. The Sunday sunset parties here are famous for live music and local cuisine.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Nelson's Dockyard",
+    "city": "English Harbour",
+    "type": "culture",
+    "description": "A restored 18th-century naval base that is now a UNESCO World Heritage Site. It features museums, shops, and restaurants with a rich maritime history.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Dickenson Bay",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "One of the most popular beaches in Antigua, known for its calm waters and vibrant beach bars. It's ideal for water sports and relaxing by the sea.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Devil's Bridge",
+    "city": "Freetown",
+    "type": "landmark",
+    "description": "A natural limestone arch formed by the relentless waves of the Atlantic Ocean. This unique geological formation is steeped in local folklore and history.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "St. John's Cathedral",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "An impressive Anglican cathedral known for its beautiful architecture and historical significance. The interior features stunning wooden ceilings and intricate altars.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Jolly Harbour",
+    "city": "Jolly Harbour",
+    "type": "entertainment",
+    "description": "A lively marina community offering a variety of restaurants, shops, and nightlife options. The area is perfect for sailing enthusiasts and beachgoers alike.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Long Bay",
+    "city": "Saint Philip",
+    "type": "nature",
+    "description": "A serene and less crowded beach known for its shallow waters and gentle waves, making it perfect for families. It's a hidden gem ideal for a peaceful day by the sea.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Fort James",
+    "city": "Saint John\u2019s",
+    "type": "landmark",
+    "description": "An 18th-century fort offering panoramic views of the harbor and the city. It provides insight into the island's colonial past and is a great spot for photography.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Antigua Rainforest Canopy Tour",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "An exhilarating zip-line adventure through the lush rainforest. This unique experience allows visitors to explore Antigua's natural beauty from above.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Ffryes Beach",
+    "city": "Five Islands Village",
+    "type": "nature",
+    "description": "A quiet and picturesque beach known for its soft sands and clear waters. It's less commercialized, making it a perfect spot for relaxation.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Mount Obama",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "The highest point in Antigua, offering spectacular views of the island and surrounding sea. It's a popular hiking destination for nature lovers.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of Antigua and Barbuda",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "A small museum that showcases the rich history and culture of the islands. Exhibits include artifacts from the indigenous peoples and colonial times.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Carlisle Bay",
+    "city": "Saint Mary",
+    "type": "nature",
+    "description": "A stunning bay known for its turquoise waters and beautiful beaches. It's a popular spot for snorkeling and diving, with vibrant coral reefs.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Cades Reef",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A beautiful coral reef that is great for snorkeling and diving. The clear waters are home to a diverse range of marine life, making it a paradise for underwater enthusiasts.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Redcliffe Quay",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "A vibrant shopping and dining area built around historic buildings. It\u2019s a great place to experience local culture and shop for unique souvenirs.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Darkwood Beach",
+    "city": "Saint Mary",
+    "type": "nature",
+    "description": "A tranquil beach with golden sand and clear waters, perfect for swimming and sunbathing. It\u2019s less crowded than other beaches, offering a peaceful retreat.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Galley Bay",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "An idyllic beach known for its stunning sunsets and calm waters. It's a great spot for relaxation and enjoying the natural beauty of Antigua.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Donkey Sanctuary",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "A unique sanctuary dedicated to protecting donkeys and educating visitors about their care. It offers a chance to meet these gentle creatures and learn about local animal welfare.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Half Moon Bay Beach",
+    "city": "Saint Philip",
+    "type": "nature",
+    "description": "Known for its beautiful crescent shape and pristine sand, this beach is perfect for a relaxing day under the sun. The clear waters are great for swimming and snorkeling.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Waladli Beach",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A beautiful, less commercialized beach known for its soft sands and calm waters. It\u2019s a local favorite for a relaxing day by the sea.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Prickly Pear Island",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A small uninhabited island known for its beautiful beaches and excellent snorkeling. It's a perfect spot for a day trip and enjoying the tranquility of nature.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Sandy Island",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A small, picturesque island with crystal-clear waters and stunning beaches. It's ideal for a peaceful escape and offers great snorkeling opportunities.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Fort Barrington",
+    "city": "English Harbour",
+    "type": "landmark",
+    "description": "A historic fort offering spectacular views of the harbor. It\u2019s a great spot for history buffs and those looking to enjoy the scenery.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Antigua's Historic Sugar Mill",
+    "city": "Freetown",
+    "type": "landmark",
+    "description": "The remnants of an old sugar mill that tells the story of Antigua's sugar industry. It's a fascinating site for history enthusiasts.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Antigua and Barbuda International Kite Festival",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "An annual event that celebrates creativity and culture, showcasing beautifully crafted kites. It\u2019s a fun-filled day for families and visitors to enjoy.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Saint John\u2019s Market",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "A vibrant local market where visitors can buy fresh produce, local crafts, and sample traditional foods. It\u2019s a great way to experience the local culture.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Harmony Hall",
+    "city": "Freetown",
+    "type": "culture",
+    "description": "An art gallery and restaurant located in a historic plantation house. It showcases local artwork and offers a taste of Antiguan cuisine in a beautiful setting.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Fig Tree Drive",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A scenic drive through Antigua's lush rainforest, featuring tropical plants and wildlife. It's a great way to experience the island's natural beauty.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Deep Bay",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "A gorgeous beach known for its calm waters and picturesque views. It's a hidden gem that's perfect for swimming and relaxing.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Antigua's Carnival",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "An annual celebration filled with vibrant parades, music, and dance. It showcases the rich culture and traditions of Antigua and is a must-see for visitors.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Pillars of Hercules",
+    "city": "Saint John\u2019s",
+    "type": "landmark",
+    "description": "Natural rock formations located on the east coast of Antigua, offering stunning views and a peaceful atmosphere. It\u2019s a great spot for photography and exploration.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Galleon Beach",
+    "city": "English Harbour",
+    "type": "nature",
+    "description": "A beautiful, secluded beach that offers a tranquil escape from the crowds. It's perfect for sunbathing and swimming in the calm waters.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Sugar Factory",
+    "city": "Freetown",
+    "type": "landmark",
+    "description": "The ruins of a historic sugar factory that provide insight into Antigua's colonial past. It's a great spot for history lovers and photographers.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Coconut Grove Restaurant",
+    "city": "Five Islands Village",
+    "type": "entertainment",
+    "description": "A beachfront restaurant known for its delicious Caribbean cuisine and stunning views. It's a great place to enjoy a meal while soaking in the tropical atmosphere.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Barbuda's Codrington Lagoon",
+    "city": "Codrington",
+    "type": "nature",
+    "description": "A protected lagoon that is home to a variety of bird species and marine life. It's a hidden gem for nature enthusiasts and bird watchers.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The War Memorial",
+    "city": "Saint John\u2019s",
+    "type": "landmark",
+    "description": "A monument dedicated to those who served in the armed forces. It\u2019s a poignant reminder of the island's historical significance.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Old Road",
+    "city": "Saint Mary",
+    "type": "culture",
+    "description": "A charming village with a rich history and beautiful landscapes. It's a great place to experience local life and culture.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Antigua\u2019s 365 Beaches",
+    "city": "Saint John\u2019s",
+    "type": "nature",
+    "description": "Antigua is known for having a beach for every day of the year, each offering unique beauty and charm. Exploring these beaches is a must for any visitor.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Antigua Sailing Week",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "One of the Caribbean's premier sailing events, attracting sailors from around the world. It's a week filled with competitive racing and lively festivities.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Antique Car Museum",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "A unique museum showcasing a collection of vintage cars and memorabilia. It's a fascinating stop for automobile enthusiasts.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great Bird Island",
+    "city": "Codrington",
+    "type": "nature",
+    "description": "A small, uninhabited island known for its diverse bird population and stunning landscapes. It\u2019s ideal for hiking, birdwatching, and enjoying nature.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "Heritage Quay",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "A bustling shopping area with duty-free stores, restaurants, and local crafts. It\u2019s a great place to pick up souvenirs and enjoy local cuisine.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Antiguan House of Culture",
+    "city": "Saint John\u2019s",
+    "type": "culture",
+    "description": "A cultural center dedicated to preserving and promoting Antiguan heritage. It hosts art exhibitions, performances, and educational programs.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  },
+  {
+    "name": "The Antigua Classic Yacht Regatta",
+    "city": "Saint John\u2019s",
+    "type": "entertainment",
+    "description": "An annual event showcasing classic yachts from around the world. It\u2019s a celebration of maritime heritage and a sight to behold.",
+    "country": "Antigua and Barbuda",
+    "country_rank": 7
+  }
+]

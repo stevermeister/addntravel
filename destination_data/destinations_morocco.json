@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Marrakech Medina",
+    "city": "Marrakech",
+    "type": "culture",
+    "description": "The historic heart of Marrakech, renowned for its vibrant souks, stunning palaces, and the iconic Jemaa el-Fnaa square. A UNESCO World Heritage site, it offers a glimpse into traditional Moroccan life.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Chefchaouen",
+    "city": "Chefchaouen",
+    "type": "nature",
+    "description": "Known as the Blue Pearl of Morocco, this charming town is famous for its blue-washed buildings and stunning mountain backdrop. It offers a unique blend of culture and breathtaking nature.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "A\u00eft Benhaddou",
+    "city": "Ouarzazate",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this ancient fortified village is a stunning example of Moroccan earthen clay architecture, often used as a backdrop in films. Its impressive kasbahs and dramatic landscape make it a must-visit.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Sahara Desert",
+    "city": "Merzouga",
+    "type": "nature",
+    "description": "Experience the vastness of the Sahara Desert with its golden dunes, particularly the Erg Chebbi dunes near Merzouga. Camel treks and stargazing are unforgettable experiences here.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Fes el-Bali",
+    "city": "Fes",
+    "type": "culture",
+    "description": "The oldest part of Fes, this medina is a UNESCO World Heritage site known for its labyrinthine streets, historic mosques, and the world\u2019s oldest university. It\u2019s a treasure trove of artisan workshops and traditional crafts.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Essaouira",
+    "city": "Essaouira",
+    "type": "culture",
+    "description": "This coastal city is known for its well-preserved medina, vibrant arts scene, and stunning ocean views. The charming blue and white architecture and lively souks add to its unique character.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ouzoud Falls",
+    "city": "Azilal",
+    "type": "nature",
+    "description": "These spectacular waterfalls are among the tallest in North Africa, cascading over 100 meters. Surrounded by lush vegetation, visitors can hike, swim, or enjoy a picnic while observing local monkeys.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Blue City of Chefchaouen",
+    "city": "Chefchaouen",
+    "type": "culture",
+    "description": "Famous for its striking blue buildings, this city is nestled in the Rif Mountains. It offers a peaceful atmosphere, vibrant markets, and stunning hikes.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Volubilis",
+    "city": "Moulay Idriss",
+    "type": "landmark",
+    "description": "An ancient Roman city, Volubilis boasts well-preserved ruins and stunning mosaics. It provides a fascinating glimpse into Morocco's Roman past.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Toubkal National Park",
+    "city": "Imlil",
+    "type": "nature",
+    "description": "Home to Mount Toubkal, the highest peak in North Africa, this park offers breathtaking landscapes and hiking opportunities. It's a paradise for nature lovers and adventure seekers.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Rabat's Kasbah of the Udayas",
+    "city": "Rabat",
+    "type": "landmark",
+    "description": "This historic fortress features stunning ocean views, beautiful gardens, and charming blue-and-white painted houses. It\u2019s a serene escape from the bustling city.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Agadir Beach",
+    "city": "Agadir",
+    "type": "entertainment",
+    "description": "Known for its long sandy beaches and vibrant nightlife, Agadir is a popular destination for sun-seekers and surfers. The beachfront promenade is lined with cafes and restaurants.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tanger Med",
+    "city": "Tangier",
+    "type": "culture",
+    "description": "A port city with a rich history, Tangier has been a melting pot of cultures. Its vibrant medina, historic kasbah, and the famous Caf\u00e9 Hafa offer a unique cultural experience.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Merzouga Dunes",
+    "city": "Merzouga",
+    "type": "nature",
+    "description": "The stunning Erg Chebbi dunes near Merzouga are a spectacular sight at sunrise and sunset. Visitors can enjoy camel rides and experience traditional Berber culture.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "The Oasis of Fint",
+    "city": "Ouarzazate",
+    "type": "nature",
+    "description": "A hidden gem, this lush oasis is surrounded by dramatic desert landscapes. It's a peaceful retreat perfect for hiking and exploring traditional Berber villages.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Dades Valley",
+    "city": "Boumalne Dades",
+    "type": "nature",
+    "description": "Known for its stunning gorges and unique rock formations, Dades Valley is a breathtaking destination for trekking and photography enthusiasts. The road through the valley is scenic and picturesque.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Moulay Idriss Zerhoun",
+    "city": "Moulay Idriss",
+    "type": "culture",
+    "description": "A sacred town located on a hill, it offers stunning views and fascinating history. It\u2019s a pilgrimage site and features traditional Moroccan architecture.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Skoura Oasis",
+    "city": "Skoura",
+    "type": "nature",
+    "description": "This lush oasis is dotted with palm trees and ancient kasbahs, offering a tranquil escape. It's perfect for hiking and exploring traditional Berber villages.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tafraoute",
+    "city": "Tafraoute",
+    "type": "nature",
+    "description": "Nestled in the Anti-Atlas Mountains, Tafraoute is known for its stunning rock formations and vibrant blue-painted houses. It\u2019s an ideal destination for hiking and photography.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Aguergour",
+    "city": "Marrakech",
+    "type": "nature",
+    "description": "This hidden oasis near Marrakech is surrounded by stunning mountains and offers a peaceful retreat. It\u2019s perfect for picnics and enjoying nature.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "El Jadida",
+    "city": "El Jadida",
+    "type": "landmark",
+    "description": "This coastal city features a well-preserved Portuguese fortress and beautiful beaches. The blend of cultures and history makes it a fascinating place to explore.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Asilah",
+    "city": "Asilah",
+    "type": "culture",
+    "description": "A charming coastal town known for its whitewashed buildings and vibrant murals. Asilah hosts an annual arts festival that attracts artists from around the world.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ifrane",
+    "city": "Ifrane",
+    "type": "nature",
+    "description": "Often referred to as 'Little Switzerland', Ifrane is famous for its alpine architecture and beautiful parks. It's a great spot for hiking and enjoying nature.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tiznit",
+    "city": "Tiznit",
+    "type": "culture",
+    "description": "Known for its silver jewelry and traditional craftsmanship, Tiznit is a charming town with a rich history and vibrant souks.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ouarzazate",
+    "city": "Ouarzazate",
+    "type": "landmark",
+    "description": "Known as the \u2018Gateway to the Sahara\u2019, Ouarzazate is famous for its film studios and the nearby A\u00eft Benhaddou. The dramatic landscapes attract filmmakers from around the world.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Sidi Ifni",
+    "city": "Sidi Ifni",
+    "type": "nature",
+    "description": "This coastal town offers beautiful beaches and stunning cliffs. Known for its unique Art Deco architecture, it\u2019s a hidden gem for beach lovers.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Cascades d'Ouzoud",
+    "city": "Azilal",
+    "type": "nature",
+    "description": "These breathtaking waterfalls are among the most beautiful in Morocco. Visitors can hike to the falls, swim in the pools, and enjoy the surrounding natural beauty.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ksar of Ait-Ben-Haddou",
+    "city": "Ouarzazate",
+    "type": "landmark",
+    "description": "This UNESCO World Heritage site is an ancient fortified village with stunning earthen clay architecture. It has served as a backdrop for many famous films.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tafraoute",
+    "city": "Tafraoute",
+    "type": "nature",
+    "description": "Known for its striking pink granite mountains and stunning landscapes, Tafraoute is perfect for hiking and exploring unique rock formations.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Meknes",
+    "city": "Meknes",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Meknes is known for its rich history, impressive gates, and beautiful gardens. It\u2019s a less crowded alternative to Fes and Marrakech.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "The Highlands of the Atlas Mountains",
+    "city": "Various",
+    "type": "nature",
+    "description": "Offering breathtaking views and rich Berber culture, the Atlas Mountains are perfect for trekking, skiing, and exploring traditional villages.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Boumalne Dades",
+    "city": "Boumalne Dades",
+    "type": "nature",
+    "description": "Famous for its stunning gorges and scenic views, it\u2019s a paradise for hikers and nature lovers. The valley is dotted with traditional Berber homes.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tanger",
+    "city": "Tangier",
+    "type": "culture",
+    "description": "A melting pot of cultures, Tangier boasts a rich history and vibrant arts scene. The city\u2019s medina, kasbah, and stunning coastal views make it a unique destination.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Zagora",
+    "city": "Zagora",
+    "type": "nature",
+    "description": "Known as the gateway to the Sahara, Zagora is famous for its desert landscapes and palm groves. Visitors can explore the nearby Draa Valley and enjoy camel treks.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ronda del Valle de Ourika",
+    "city": "Ourika",
+    "type": "nature",
+    "description": "This beautiful valley is known for its stunning scenery, waterfalls, and traditional Berber villages. It\u2019s a great spot for hiking and enjoying nature.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "The Road of a Thousand Kasbahs",
+    "city": "Various",
+    "type": "landmark",
+    "description": "This scenic route through the Dades Valley features stunning kasbahs, palm groves, and breathtaking landscapes. It\u2019s a perfect road trip for those exploring southern Morocco.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Tafraoute",
+    "city": "Tafraoute",
+    "type": "nature",
+    "description": "Known for its striking pink granite mountains and unique rock formations, Tafraoute offers stunning landscapes and a peaceful atmosphere.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Agdz",
+    "city": "Agdz",
+    "type": "culture",
+    "description": "This small town is famous for its traditional kasbahs and beautiful palm groves. It\u2019s a peaceful retreat along the Draa River.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Khenifra",
+    "city": "Khenifra",
+    "type": "nature",
+    "description": "Located in the Middle Atlas, Khenifra is surrounded by stunning mountains and forests. It\u2019s perfect for outdoor activities like hiking and bird watching.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Sefrou",
+    "city": "Sefrou",
+    "type": "culture",
+    "description": "Known for its cherry blossoms and historic medina, Sefrou is a charming town that offers a glimpse into traditional Moroccan life.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ain Chkaf",
+    "city": "Fes",
+    "type": "nature",
+    "description": "A tranquil oasis near Fes, Ain Chkaf is perfect for picnics and enjoying nature. It's a lesser-known spot with beautiful views.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Lixus",
+    "city": "Larache",
+    "type": "landmark",
+    "description": "An ancient city with Roman ruins, Lixus offers a fascinating look into Morocco's history. The site features impressive archaeological remains and stunning coastal views.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "El Kelaa M'Gouna",
+    "city": "El Kelaa M'Gouna",
+    "type": "culture",
+    "description": "Famous for its rose festival, this town is a center for rose cultivation in Morocco. The surrounding valleys are filled with beautiful rose gardens.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ouarzazate Film Studios",
+    "city": "Ouarzazate",
+    "type": "entertainment",
+    "description": "Known as the Hollywood of Morocco, this film studio complex has hosted many famous films. Visitors can explore sets and learn about the filmmaking process.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Cascades d'Ouzoud",
+    "city": "Azilal",
+    "type": "nature",
+    "description": "A stunning series of waterfalls, Cascades d'Ouzoud is a popular hiking destination. Visitors can swim in the pools and enjoy the beautiful scenery.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Ait Benhaddou",
+    "city": "Ouarzazate",
+    "type": "landmark",
+    "description": "An ancient fortified village and UNESCO World Heritage site, Ait Benhaddou is famous for its stunning architecture and as a filming location for many movies.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Bou Regreg",
+    "city": "Rabat",
+    "type": "nature",
+    "description": "A picturesque river that separates Rabat from Sal\u00e9, Bou Regreg is perfect for a leisurely boat ride. The views of the city from the water are stunning.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Sidi Kaouki",
+    "city": "Sidi Kaouki",
+    "type": "nature",
+    "description": "A laid-back beach destination known for its surfing and relaxed atmosphere. The beautiful coastline and natural scenery make it a perfect getaway.",
+    "country": "Morocco",
+    "country_rank": 8
+  },
+  {
+    "name": "Rissani",
+    "city": "Rissani",
+    "type": "culture",
+    "description": "Known for its vibrant market, Rissani is a great place to experience traditional Moroccan culture. The town is also a gateway to the Sahara Desert.",
+    "country": "Morocco",
+    "country_rank": 8
+  }
+]

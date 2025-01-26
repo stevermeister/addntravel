@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Kotor Old Town",
+    "city": "Kotor",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Kotor Old Town is known for its well-preserved medieval architecture. The cobblestone streets and stunning plazas are surrounded by ancient city walls and offer a glimpse into the region's rich history.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Durmitor National Park",
+    "city": "\u017dabljak",
+    "type": "nature",
+    "description": "This national park is a paradise for outdoor enthusiasts, featuring rugged mountains, deep canyons, and glacial lakes. It's perfect for hiking, skiing, and enjoying the breathtaking natural scenery.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Bay of Kotor",
+    "city": "Kotor",
+    "type": "nature",
+    "description": "Often referred to as Europe's southernmost fjord, the Bay of Kotor is surrounded by steep mountains and dotted with charming villages. It's an ideal spot for sailing and exploring the picturesque coastline.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Sveti Stefan",
+    "city": "Budva",
+    "type": "landmark",
+    "description": "This iconic islet-turned-hotel is famous for its unique architecture and stunning beaches. It's a symbol of Montenegrin luxury and offers stunning views of the Adriatic Sea.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Ostrog Monastery",
+    "city": "Nik\u0161i\u0107",
+    "type": "culture",
+    "description": "Built into a sheer cliff face, Ostrog Monastery is an important pilgrimage site for Orthodox Christians. Its stunning location and serene atmosphere make it a remarkable spiritual destination.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Skadar Lake",
+    "city": "Virpazar",
+    "type": "nature",
+    "description": "As the largest lake in the Balkans, Skadar Lake is a biodiversity hotspot with numerous bird species and unique flora. Boat tours provide an opportunity to explore its hidden bays and islands.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Tara River Canyon",
+    "city": "\u017dabljak",
+    "type": "nature",
+    "description": "Home to one of the deepest canyons in Europe, Tara River Canyon offers thrilling rafting experiences and stunning views. The surrounding nature is pristine and ideal for adventurous activities.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Perast",
+    "city": "Perast",
+    "type": "culture",
+    "description": "A charming coastal town known for its baroque architecture and beautiful churches, Perast is a hidden gem. The nearby islands of Our Lady of the Rocks and St. George add to its allure.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Budva Old Town",
+    "city": "Budva",
+    "type": "culture",
+    "description": "Rich in history and vibrant nightlife, Budva Old Town features ancient city walls and beautiful beaches. Its narrow streets are lined with shops, restaurants, and stunning views of the Adriatic.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Lov\u0107en National Park",
+    "city": "Njegu\u0161i",
+    "type": "nature",
+    "description": "This national park is home to the impressive Njego\u0161 Mausoleum, offering panoramic views of the surrounding mountains and coastline. The park is a great spot for hiking amidst diverse landscapes.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Cetinje",
+    "city": "Cetinje",
+    "type": "culture",
+    "description": "Once the royal capital of Montenegro, Cetinje is steeped in history and culture. The town is home to numerous museums, galleries, and the historic Cetinje Monastery.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Risan",
+    "city": "Risan",
+    "type": "culture",
+    "description": "Known for its ancient Roman ruins, Risan offers a glimpse into Montenegro's distant past. The town's mosaics and archaeological sites make it a fascinating stop for history lovers.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Mora\u010da Monastery",
+    "city": "Podgorica",
+    "type": "culture",
+    "description": "Nestled in a picturesque canyon, Mora\u010da Monastery is a peaceful retreat known for its stunning frescoes and serene surroundings. It's a perfect spot for reflection and appreciation of nature.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Ada Bojana",
+    "city": "Ulcinj",
+    "type": "nature",
+    "description": "A unique river island located at the confluence of the Bojana River and the Adriatic Sea, Ada Bojana is famous for its sandy beaches and nudist culture. It's also a great spot for windsurfing and seafood.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Njegu\u0161i",
+    "city": "Njegu\u0161i",
+    "type": "culture",
+    "description": "Famous for its smoked ham and cheese, Njegu\u0161i is a small village that offers stunning views and a taste of traditional Montenegrin cuisine. The village is also a gateway to Lov\u0107en National Park.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Soko Grad",
+    "city": "Nik\u0161i\u0107",
+    "type": "landmark",
+    "description": "These ancient ruins of a hilltop fortress offer stunning views of the surrounding landscape. The site is steeped in history and provides a glimpse into Montenegro's medieval past.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Kola\u0161in",
+    "city": "Kola\u0161in",
+    "type": "nature",
+    "description": "A mountain town known for its skiing and outdoor activities, Kola\u0161in is surrounded by stunning natural beauty and offers a peaceful retreat. It's a great base for exploring the Biogradska Gora National Park.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Biogradska Gora National Park",
+    "city": "Kola\u0161in",
+    "type": "nature",
+    "description": "One of the last remaining primeval forests in Europe, this national park features diverse flora and fauna, pristine lakes, and hiking trails. It's a paradise for nature lovers.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Gospa od \u0160krpjela",
+    "city": "Perast",
+    "type": "landmark",
+    "description": "This artificial island is home to the Church of Our Lady of the Rocks, built by local seamen. The island's unique history and beautiful setting make it a must-visit.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Piva Lake",
+    "city": "\u0160\u0107epan Polje",
+    "type": "nature",
+    "description": "Created by the damming of the Piva River, Piva Lake is known for its striking turquoise waters and surrounding mountains. It's a popular spot for kayaking and enjoying the stunning scenery.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Plav",
+    "city": "Plav",
+    "type": "nature",
+    "description": "Nestled in the Albanian Alps, Plav is known for its breathtaking landscapes, including Lake Plav and the surrounding mountains. It's a great destination for hiking and exploring traditional villages.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Tivat",
+    "city": "Tivat",
+    "type": "entertainment",
+    "description": "Known for its luxury marina and vibrant nightlife, Tivat is a popular destination for yacht enthusiasts. The town also features beautiful beaches and a lively promenade.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Velika Pla\u017ea",
+    "city": "Ulcinj",
+    "type": "nature",
+    "description": "This long sandy beach stretches for over 12 kilometers along the Adriatic coast. Known for its natural beauty, it's a great spot for sunbathing, swimming, and water sports.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Stari Bar",
+    "city": "Bar",
+    "type": "culture",
+    "description": "An ancient fortress town with a rich history, Stari Bar features ruins of churches, aqueducts, and fortifications. The scenic views and historical significance make it a fascinating place to explore.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Kotor Fortress",
+    "city": "Kotor",
+    "type": "landmark",
+    "description": "Perched high above the city, Kotor Fortress offers stunning views of the bay and surrounding mountains. The hike up to the fortress is rewarding and provides insight into the area's history.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Plav Lake",
+    "city": "Plav",
+    "type": "nature",
+    "description": "A picturesque glacial lake surrounded by mountains, Plav Lake is ideal for fishing, swimming, and hiking. Its serene atmosphere and stunning landscape make it a perfect escape.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Sveti Nikola Island",
+    "city": "Budva",
+    "type": "nature",
+    "description": "Also known as St. Nicholas Island, this small island off the coast of Budva features beautiful beaches and crystal-clear waters. It's a popular destination for day trips and relaxation.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Crno Jezero",
+    "city": "\u017dabljak",
+    "type": "nature",
+    "description": "This beautiful glacial lake is surrounded by lush forests and is perfect for swimming and hiking. Its tranquil setting and stunning scenery make it a popular spot for nature lovers.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Herceg Novi",
+    "city": "Herceg Novi",
+    "type": "culture",
+    "description": "Known for its charming old town and beautiful beaches, Herceg Novi offers a mix of cultural landmarks and natural beauty. The annual Mimosa Festival celebrates the arrival of spring in style.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Blagaj",
+    "city": "Blagaj",
+    "type": "landmark",
+    "description": "An ancient monastery built into a cliff, Blagaj is an incredible sight. The tranquil Buna River flowing at its base adds to the serene atmosphere of this historical site.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Dukley Marina",
+    "city": "Budva",
+    "type": "entertainment",
+    "description": "This luxury marina is known for its elegant yachts and upscale amenities. It's a great place to enjoy fine dining, shopping, and vibrant nightlife by the sea.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Herceg Novi Fortress",
+    "city": "Herceg Novi",
+    "type": "landmark",
+    "description": "This historic fortress offers panoramic views of the Bay of Kotor and the surrounding area. The well-preserved structure is a testament to the region's military history.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Njegu\u0161i",
+    "city": "Njegu\u0161i",
+    "type": "culture",
+    "description": "Famous for its smoked ham and cheese, Njegu\u0161i is a small village that offers stunning views and a taste of traditional Montenegrin cuisine. The village is also a gateway to Lov\u0107en National Park.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Uvac Canyon",
+    "city": "Nova Varo\u0161",
+    "type": "nature",
+    "description": "Known for its meandering river and stunning cliffs, Uvac Canyon is a hidden gem for nature lovers. The area is perfect for hiking, birdwatching, and enjoying breathtaking landscapes.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Petrovac",
+    "city": "Petrovac",
+    "type": "nature",
+    "description": "This charming coastal town features beautiful beaches and a relaxed atmosphere. Petrovac is perfect for families and those looking to enjoy the sun and sea.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Rijeka Crnojevi\u0107a",
+    "city": "Rijeka Crnojevi\u0107a",
+    "type": "nature",
+    "description": "This picturesque village along the Crnojevi\u0107 River is known for its stunning landscapes and traditional architecture. It's a great place for a scenic boat ride or leisurely stroll.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Old Olive Tree",
+    "city": "Boka Kotorska",
+    "type": "landmark",
+    "description": "One of the oldest olive trees in the world, this ancient tree is a symbol of resilience and history. It's a unique landmark that attracts visitors interested in nature and heritage.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Kotor Serpentine",
+    "city": "Kotor",
+    "type": "nature",
+    "description": "This winding road offers breathtaking views of Kotor and the bay below. It's a popular route for photographers and those looking to experience the stunning landscape.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Lipa Cave",
+    "city": "Lipa",
+    "type": "nature",
+    "description": "One of the largest caves in Montenegro, Lipa Cave features stunning stalactites and stalagmites. Guided tours provide insight into its geological history and unique formations.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Gornja Lastva",
+    "city": "Tivat",
+    "type": "culture",
+    "description": "A quaint village located above Tivat, Gornja Lastva offers stunning views of the Bay of Kotor. The traditional stone houses and peaceful atmosphere make it a charming retreat.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Solila",
+    "city": "Tivat",
+    "type": "nature",
+    "description": "This protected area is a unique blend of salt flats and wetlands, attracting various bird species. It's a great spot for birdwatching and enjoying the natural beauty of the region.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Cuca",
+    "city": "Cuca",
+    "type": "culture",
+    "description": "A hidden gem known for its traditional Montenegrin architecture and tranquil ambiance. Cuca is an excellent place to experience the local culture and hospitality.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Mali Ston",
+    "city": "Mali Ston",
+    "type": "culture",
+    "description": "Famous for its oyster farms and historic walls, Mali Ston is a charming coastal town. Visitors can enjoy fresh seafood and explore the rich history of the area.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Zabljak",
+    "city": "Zabljak",
+    "type": "nature",
+    "description": "This picturesque town in the Durmitor region serves as a base for outdoor adventures. Surrounded by mountains and national parks, it's perfect for hiking, skiing, and nature exploration.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Pr\u017eno",
+    "city": "Budva",
+    "type": "nature",
+    "description": "A quaint fishing village near Budva, Pr\u017eno boasts beautiful beaches and a relaxed atmosphere. It's a perfect spot for enjoying local seafood and soaking in the sun.",
+    "country": "Montenegro",
+    "country_rank": 7
+  },
+  {
+    "name": "Civljani",
+    "city": "Civljani",
+    "type": "landmark",
+    "description": "An ancient settlement known for its historical significance and archaeological sites. Civljani offers a glimpse into Montenegro's past and is ideal for history enthusiasts.",
+    "country": "Montenegro",
+    "country_rank": 7
+  }
+]

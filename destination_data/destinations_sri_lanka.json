@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Sigiriya Rock Fortress",
+    "city": "Dambulla",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, Sigiriya is an ancient rock fortress that features stunning frescoes and water gardens. It offers breathtaking views from the top.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ella Rock",
+    "city": "Ella",
+    "type": "nature",
+    "description": "A popular hiking destination, Ella Rock provides a challenging trek with rewarding panoramic views of lush tea plantations and valleys.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Anuradhapura",
+    "city": "Anuradhapura",
+    "type": "culture",
+    "description": "An ancient city and UNESCO World Heritage Site, Anuradhapura is known for its well-preserved ruins, including sacred Buddhist stupas and ancient ponds.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Galle Fort",
+    "city": "Galle",
+    "type": "landmark",
+    "description": "A historic fortified city, Galle Fort showcases colonial architecture and offers a picturesque seaside view, making it a great spot for a leisurely stroll.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Yala National Park",
+    "city": "Tissamaharama",
+    "type": "nature",
+    "description": "Famous for its diverse wildlife, Yala National Park is home to leopards, elephants, and a variety of bird species, providing excellent safari opportunities.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kandy Temple of the Tooth",
+    "city": "Kandy",
+    "type": "culture",
+    "description": "This sacred temple houses a relic believed to be a tooth of the Buddha. It's an important pilgrimage site and a beautiful example of traditional Sri Lankan architecture.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Nuwara Eliya",
+    "city": "Nuwara Eliya",
+    "type": "nature",
+    "description": "Known as 'Little England', Nuwara Eliya is famous for its cool climate, lush gardens, and tea plantations. It's a perfect spot for a refreshing getaway.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Haputale",
+    "city": "Haputale",
+    "type": "nature",
+    "description": "A hidden gem in the hill country, Haputale offers breathtaking views of the surrounding mountains and valleys, along with tranquil tea estates.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Dambulla Cave Temple",
+    "city": "Dambulla",
+    "type": "culture",
+    "description": "This cave complex features stunning Buddhist murals and statues dating back to the 1st century BC, making it a significant cultural and historical site.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Arugam Bay",
+    "city": "Pottuvil",
+    "type": "entertainment",
+    "description": "Renowned for its surfing spots, Arugam Bay is a vibrant beach town with a laid-back atmosphere, attracting surfers and beach lovers alike.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Polonnaruwa",
+    "city": "Polonnaruwa",
+    "type": "culture",
+    "description": "Another UNESCO World Heritage Site, Polonnaruwa boasts impressive ruins of ancient temples and palaces, reflecting the grandeur of Sri Lanka's medieval capital.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Minneriya National Park",
+    "city": "Habarana",
+    "type": "nature",
+    "description": "Famous for its elephant gatherings, Minneriya National Park offers a unique opportunity to witness these majestic creatures in their natural habitat.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kithulgala",
+    "city": "Kithulgala",
+    "type": "nature",
+    "description": "Known for its white-water rafting, Kithulgala is surrounded by lush rainforests and offers various adventure activities amidst stunning scenery.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Suwasiripura",
+    "city": "Hikkaduwa",
+    "type": "nature",
+    "description": "A lesser-known beach area, Suwasiripura offers pristine sands and tranquil waters, ideal for relaxation away from the tourist crowds.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Negombo Lagoon",
+    "city": "Negombo",
+    "type": "nature",
+    "description": "A tranquil escape, Negombo Lagoon is perfect for bird watching and boat trips, showcasing the region's natural beauty and biodiversity.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Sri Pada (Adam's Peak)",
+    "city": "Ratnapura",
+    "type": "nature",
+    "description": "A sacred mountain, Sri Pada is a popular pilgrimage site, famous for its \u2018sacred footprint\u2019 and stunning sunrise views from the summit.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Jaffna Fort",
+    "city": "Jaffna",
+    "type": "landmark",
+    "description": "This well-preserved fort offers a glimpse into the colonial history of Jaffna, with beautiful views of the surrounding area from its ramparts.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Weligama",
+    "city": "Weligama",
+    "type": "entertainment",
+    "description": "Known for its stilt fishing, Weligama is a vibrant coastal town that offers excellent surfing conditions and a lively atmosphere.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ella Spice Garden",
+    "city": "Ella",
+    "type": "culture",
+    "description": "A unique experience, the Ella Spice Garden provides guided tours showcasing various spices and herbs, along with tastings of local cuisine.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ritigala",
+    "city": "Hingurakgoda",
+    "type": "landmark",
+    "description": "An ancient Buddhist monastery set in a serene jungle, Ritigala is known for its archaeological ruins and unique rock formations.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Turtle Hatchery",
+    "city": "Hikkaduwa",
+    "type": "nature",
+    "description": "This conservation project rescues and rehabilitates sea turtles, offering visitors a chance to learn about and engage with these endangered species.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kumarakanda Raja Maha Viharaya",
+    "city": "Beruwala",
+    "type": "culture",
+    "description": "A lesser-known temple with beautiful carvings and a serene atmosphere, offering a glimpse into the local Buddhist culture.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Bambarakanda Falls",
+    "city": "Kalupahana",
+    "type": "nature",
+    "description": "The highest waterfall in Sri Lanka, Bambarakanda Falls cascades down lush greenery, creating a stunning natural spectacle.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Knuckles Mountain Range",
+    "city": "Kandy",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, this mountain range is known for its stunning biodiversity, hiking trails, and breathtaking views.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Batticaloa Lagoon",
+    "city": "Batticaloa",
+    "type": "nature",
+    "description": "Famous for its singing fish, Batticaloa Lagoon is a serene spot for kayaking and bird watching, surrounded by picturesque landscapes.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Horton Plains National Park",
+    "city": "Nuwara Eliya",
+    "type": "nature",
+    "description": "Known for its unique ecosystems and the famous World's End viewpoint, Horton Plains offers breathtaking views and diverse wildlife.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ambalangoda",
+    "city": "Ambalangoda",
+    "type": "culture",
+    "description": "Famous for its traditional mask-making industry, Ambalangoda offers visitors a chance to explore local crafts and cultural heritage.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Maha Vishnu Devalaya",
+    "city": "Kandy",
+    "type": "culture",
+    "description": "An ancient Hindu temple dedicated to Lord Vishnu, featuring intricate carvings and a rich history, reflecting the cultural diversity of Sri Lanka.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Sinharaja Forest Reserve",
+    "city": "Kahawatte",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, this rainforest is a biodiversity hotspot, home to many endemic species and a paradise for nature lovers.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kalpitiya Peninsula",
+    "city": "Kalpitiya",
+    "type": "nature",
+    "description": "A hidden gem for water sports enthusiasts, Kalpitiya offers pristine beaches, lagoons, and opportunities for dolphin and whale watching.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Uda Walawe National Park",
+    "city": "Uda Walawe",
+    "type": "nature",
+    "description": "Known for its large elephant population, Uda Walawe is an excellent safari destination, with diverse wildlife and beautiful landscapes.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kandy Lake",
+    "city": "Kandy",
+    "type": "nature",
+    "description": "A tranquil oasis in the heart of Kandy, this artificial lake is perfect for a leisurely stroll and offers stunning views of the surrounding hills.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Wilpattu National Park",
+    "city": "Puttalam",
+    "type": "nature",
+    "description": "The largest national park in Sri Lanka, Wilpattu is known for its unique 'villus' or natural lakes and is a great spot for wildlife enthusiasts.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Dondra Head Lighthouse",
+    "city": "Dikwella",
+    "type": "landmark",
+    "description": "The southernmost point of Sri Lanka, Dondra Head features a historic lighthouse that offers stunning coastal views and a glimpse into maritime history.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Molkka Wala",
+    "city": "Kandy",
+    "type": "nature",
+    "description": "A hidden waterfall surrounded by lush greenery, Molkka Wala is perfect for a peaceful retreat and a refreshing swim.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Buddha Tooth Relic",
+    "city": "Kandy",
+    "type": "culture",
+    "description": "A significant cultural artifact, this relic attracts pilgrims and tourists alike, housed in the Temple of the Tooth.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Sri Lankan Tea Museum",
+    "city": "Kandy",
+    "type": "culture",
+    "description": "Located in a restored tea factory, this museum offers insights into Sri Lanka's tea industry, with tastings and exhibits on tea production.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Giant's Tank",
+    "city": "Vavuniya",
+    "type": "nature",
+    "description": "An ancient irrigation tank, Giant's Tank is a peaceful spot for bird watching and enjoying the scenic beauty of the surrounding landscape.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Samanalawewa",
+    "city": "Haputale",
+    "type": "nature",
+    "description": "A scenic reservoir surrounded by mountains, Samanalawewa offers opportunities for hiking, bird watching, and enjoying beautiful sunsets.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Hikkaduwa Coral Sanctuary",
+    "city": "Hikkaduwa",
+    "type": "nature",
+    "description": "A vibrant underwater paradise, the Hikkaduwa Coral Sanctuary is ideal for snorkeling and diving, showcasing colorful marine life.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Lankatilaka Temple",
+    "city": "Kandy",
+    "type": "culture",
+    "description": "A stunning Buddhist temple known for its impressive architecture and serene surroundings, offering a unique insight into Sri Lankan spirituality.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Dambatenne Tea Factory",
+    "city": "Nuwara Eliya",
+    "type": "culture",
+    "description": "One of the oldest tea factories in Sri Lanka, Dambatenne offers guided tours showcasing the tea-making process and tastings of fine Ceylon tea.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Bay of Bengal",
+    "city": "Arugam Bay",
+    "type": "nature",
+    "description": "A serene stretch of coastline, the Bay of Bengal is perfect for relaxation, water sports, and enjoying breathtaking sunsets.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Aukana Buddha Statue",
+    "city": "Aukana",
+    "type": "landmark",
+    "description": "This magnificent 12-meter tall statue of Buddha, carved from rock, is a remarkable example of ancient Sri Lankan art and architecture.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Lunugamvehera National Park",
+    "city": "Tissamaharama",
+    "type": "nature",
+    "description": "A lesser-known park that offers a tranquil safari experience, with opportunities to see elephants and a variety of bird species.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Tangalle Beach",
+    "city": "Tangalle",
+    "type": "nature",
+    "description": "Known for its golden sands and clear waters, Tangalle Beach is a peaceful escape ideal for sunbathing, swimming, and enjoying fresh seafood.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Wadduwa Beach",
+    "city": "Wadduwa",
+    "type": "nature",
+    "description": "A quiet beach destination, Wadduwa offers a relaxed atmosphere perfect for unwinding and enjoying the beauty of the coastline.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Pigeon Island National Park",
+    "city": "Nilaveli",
+    "type": "nature",
+    "description": "A marine national park, Pigeon Island is famous for its coral reefs and is a great spot for snorkeling and diving among vibrant marine life.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kithulgala Adventure Park",
+    "city": "Kithulgala",
+    "type": "entertainment",
+    "description": "An adventure hub offering activities like white-water rafting, canyoning, and zip-lining, set against the backdrop of lush greenery.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Maha Oya River",
+    "city": "Maha Oya",
+    "type": "nature",
+    "description": "A scenic river perfect for kayaking and fishing, known for its tranquil surroundings and rich biodiversity.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ruhunu National Park",
+    "city": "Tissamaharama",
+    "type": "nature",
+    "description": "A lesser-known national park that boasts a variety of wildlife, including leopards and elephants, within its diverse ecosystems.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Mirissa",
+    "city": "Mirissa",
+    "type": "nature",
+    "description": "A picturesque beach town known for its whale watching tours, stunning beaches, and vibrant nightlife.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Sambodhi Chaithya",
+    "city": "Colombo",
+    "type": "landmark",
+    "description": "An ancient stupa situated on a hill in Colombo, offering panoramic views of the city and a serene atmosphere for reflection.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Ambewela Farm",
+    "city": "Ambewela",
+    "type": "nature",
+    "description": "A charming dairy farm set in the hills, offering tours and fresh dairy products, surrounded by beautiful landscapes.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kithulgala Eco Park",
+    "city": "Kithulgala",
+    "type": "nature",
+    "description": "A beautiful eco-park that promotes conservation and sustainable tourism, offering various nature trails and adventure activities.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Gonagala",
+    "city": "Gonagala",
+    "type": "culture",
+    "description": "A hidden village known for its traditional crafts and warm hospitality, providing a unique cultural experience.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  },
+  {
+    "name": "Kottukal Beach",
+    "city": "Kalutara",
+    "type": "nature",
+    "description": "A tranquil beach that offers a peaceful retreat, perfect for swimming and enjoying the beauty of the coastline.",
+    "country": "Sri Lanka",
+    "country_rank": 8
+  }
+]

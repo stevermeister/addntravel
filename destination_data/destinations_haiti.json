@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Citadelle Laferri\u00e8re",
+    "city": "Milot",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this massive fortress built in the 19th century is a symbol of Haitian independence. Its impressive architecture and historical significance offer breathtaking views of the surrounding landscape.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Labadee",
+    "city": "Cap-Ha\u00eftien",
+    "type": "entertainment",
+    "description": "A private beach destination often frequented by cruise ships, Labadee boasts stunning beaches and vibrant local culture. Visitors can enjoy water sports, local crafts, and traditional Haitian cuisine.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Saut-d'Eau Waterfall",
+    "city": "Saut-d'Eau",
+    "type": "nature",
+    "description": "Known for its spiritual significance, Saut-d'Eau Waterfall is a stunning natural wonder where locals and visitors alike come to bathe and meditate. The lush surroundings and cascading waters create a picturesque setting.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Jacmel",
+    "city": "Jacmel",
+    "type": "culture",
+    "description": "Famous for its vibrant arts scene and Carnival celebrations, Jacmel is a charming coastal town with colorful architecture and lively streets. The town is also known for its local artisans and beautiful beaches.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Iron Market",
+    "city": "Port-au-Prince",
+    "type": "culture",
+    "description": "A bustling marketplace in the heart of the capital, the Iron Market is the perfect place to experience Haitian culture through local crafts, food, and music. Its vibrant atmosphere and rich history make it a must-visit.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Cap-Ha\u00eftien",
+    "city": "Cap-Ha\u00eftien",
+    "type": "landmark",
+    "description": "The second-largest city in Haiti, Cap-Ha\u00eftien is known for its colonial architecture and rich history. It serves as a gateway to nearby historical sites such as the Citadelle and Sans-Souci Palace.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "\u00cele-\u00e0-Vache",
+    "city": "\u00cele-\u00e0-Vache",
+    "type": "nature",
+    "description": "This picturesque island off the coast of Haiti is a hidden gem known for its pristine beaches and relaxed atmosphere. Visitors can explore its lush landscapes, enjoy water activities, and experience local island culture.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "The National Palace",
+    "city": "Port-au-Prince",
+    "type": "landmark",
+    "description": "Once the official residence of the President of Haiti, the National Palace is an architectural marvel and a symbol of Haitian history. Although it was heavily damaged in the 2010 earthquake, its ruins are still a significant landmark.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Les Cayes",
+    "city": "Les Cayes",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and vibrant fishing culture, Les Cayes offers a unique glimpse into Haitian coastal life. The area is ideal for water sports, relaxation, and enjoying local seafood.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Bassin Bleu",
+    "city": "Jacmel",
+    "type": "nature",
+    "description": "A stunning series of turquoise pools and waterfalls located in the hills near Jacmel, Bassin Bleu is a hidden paradise perfect for swimming and hiking. The lush vegetation and natural beauty make it a serene escape.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Haitian Museum of Contemporary Art",
+    "city": "Port-au-Prince",
+    "type": "culture",
+    "description": "This museum showcases the vibrant contemporary art scene in Haiti, featuring works from both established and emerging artists. It provides insight into Haiti's rich cultural heritage through diverse artistic expressions.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "M\u00f4le Saint-Nicolas",
+    "city": "M\u00f4le Saint-Nicolas",
+    "type": "landmark",
+    "description": "A historic port town known for its beautiful beaches and historical significance in the fight for independence, M\u00f4le Saint-Nicolas is a lesser-known destination with rich cultural heritage and stunning views.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Fort Jacques",
+    "city": "Port-au-Prince",
+    "type": "landmark",
+    "description": "Built in the early 19th century, Fort Jacques offers impressive views of the surrounding mountains and city. The fort's historical significance and scenic setting make it an interesting site to visit.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Gona\u00efves",
+    "city": "Gona\u00efves",
+    "type": "culture",
+    "description": "Known as the birthplace of Haitian independence, Gona\u00efves is rich in history and culture. The city features historical monuments and is home to various festivals celebrating Haitian heritage.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "La Visite National Park",
+    "city": "Kenscoff",
+    "type": "nature",
+    "description": "This national park is known for its stunning mountainous landscapes and diverse ecosystems. Hiking trails lead through lush forests, offering opportunities to see unique flora and fauna.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Port Salut",
+    "city": "Port Salut",
+    "type": "nature",
+    "description": "Famous for its pristine beaches and turquoise waters, Port Salut is a popular destination for relaxation and water activities. The laid-back atmosphere and beautiful scenery make it a hidden paradise.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "Cayes Jacmel",
+    "city": "Jacmel",
+    "type": "entertainment",
+    "description": "A charming coastal town known for its laid-back vibe, Cayes Jacmel is a great spot for beach lovers and those seeking a quieter experience. The local restaurants and vibrant music scene add to its appeal.",
+    "country": "Haiti",
+    "country_rank": 2
+  },
+  {
+    "name": "The National Palace of Haiti",
+    "city": "Port-au-Prince",
+    "type": "landmark",
+    "description": "Though it was severely damaged in the earthquake, the site of the National Palace remains significant. Its historical importance and architecture reflect Haiti's tumultuous yet rich political history.",
+    "country": "Haiti",
+    "country_rank": 2
+  }
+]

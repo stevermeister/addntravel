@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Bula Water Park",
+    "city": "Nadi",
+    "type": "entertainment",
+    "description": "A family-friendly water park featuring thrilling slides and pools, perfect for a day of fun in the sun.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Sigatoka Sand Dunes National Park",
+    "city": "Sigatoka",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this stunning coastal landscape showcases towering sand dunes and rich archaeological sites.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Taveuni Island",
+    "city": "Taveuni",
+    "type": "nature",
+    "description": "Known as the 'Garden Isle', Taveuni boasts lush rainforests, stunning waterfalls, and incredible diving spots.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Nananu-i-Ra Island",
+    "city": "Off the coast of Viti Levu",
+    "type": "nature",
+    "description": "A hidden gem with crystal-clear waters and pristine beaches, perfect for snorkeling and relaxation away from the crowds.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Sawa-i-Lau Caves",
+    "city": "Yasawa Islands",
+    "type": "nature",
+    "description": "These breathtaking limestone caves feature turquoise waters and stunning rock formations, accessible only by boat.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Bouma National Heritage Park",
+    "city": "Taveuni",
+    "type": "nature",
+    "description": "A stunning park that features lush rainforests, waterfalls, and diverse wildlife, ideal for hiking and exploring.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Levuka Historical Port Town",
+    "city": "Ovalau",
+    "type": "culture",
+    "description": "Once the capital of Fiji, Levuka is filled with colonial architecture and rich history, offering a glimpse into Fiji's past.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Cloud 9",
+    "city": "Malolo Island",
+    "type": "entertainment",
+    "description": "A floating bar and restaurant surrounded by crystal-clear waters, known for its picturesque views and laid-back atmosphere.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji Museum",
+    "city": "Suva",
+    "type": "culture",
+    "description": "Home to a rich collection of Fijian artifacts and exhibits, the museum provides insights into Fiji's history and culture.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "The Blue Lagoon",
+    "city": "Yasawa Islands",
+    "type": "nature",
+    "description": "Famous for its stunning blue waters and serene beaches, it's a perfect spot for snorkeling and relaxing.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Kula Eco Park",
+    "city": "Coral Coast",
+    "type": "nature",
+    "description": "A wildlife sanctuary dedicated to conserving Fiji's unique flora and fauna, featuring interactive experiences with native species.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Shark Reef Marine Reserve",
+    "city": "Pacific Harbour",
+    "type": "nature",
+    "description": "A premier diving destination known for its vibrant marine life, including sharks, rays, and colorful coral.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Garden of the Sleeping Giant",
+    "city": "Nadi",
+    "type": "nature",
+    "description": "A beautiful garden filled with exotic orchids and tropical plants, perfect for a peaceful stroll.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji's Coral Coast",
+    "city": "Coral Coast",
+    "type": "nature",
+    "description": "Known for its stunning coral reefs and beautiful beaches, it's a great spot for snorkeling and diving.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Navala Village",
+    "city": "Ba Province",
+    "type": "culture",
+    "description": "A traditional Fijian village known for its authentic thatched bures and rich cultural experiences.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Tomanivi",
+    "city": "Viti Levu",
+    "type": "nature",
+    "description": "The highest peak in Fiji, offering breathtaking views and challenging hiking trails for adventurous travelers.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "The Sacred Heart Cathedral",
+    "city": "Suva",
+    "type": "landmark",
+    "description": "An architectural gem with stunning stained glass windows, this cathedral is a significant religious site in Fiji.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Mamanuca Islands",
+    "city": "Off the coast of Viti Levu",
+    "type": "nature",
+    "description": "A group of stunning islands known for their white sandy beaches and excellent snorkeling and surfing opportunities.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji Culture Village",
+    "city": "Nadi",
+    "type": "culture",
+    "description": "An interactive cultural experience where visitors can learn about traditional Fijian customs, crafts, and cuisine.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Nausori Highlands",
+    "city": "Nausori",
+    "type": "nature",
+    "description": "A lush mountainous region offering scenic views and opportunities for hiking and exploring Fiji's natural beauty.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Kula Eco Park",
+    "city": "Coral Coast",
+    "type": "nature",
+    "description": "A sanctuary for native wildlife, featuring interactive experiences and education on Fiji's unique ecosystems.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Vuda Point",
+    "city": "Vuda",
+    "type": "landmark",
+    "description": "A scenic point known for its stunning sunsets and views of the surrounding islands, popular for picnics.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Dui Dui Island",
+    "city": "Mamanuca Islands",
+    "type": "nature",
+    "description": "A secluded island offering pristine beaches and a perfect escape from the hustle and bustle of tourist hotspots.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "The Pearl Resort",
+    "city": "Pacific Harbour",
+    "type": "entertainment",
+    "description": "A luxury resort with a golf course, spa, and various water sports activities, providing a perfect getaway.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Wailoloa Beach",
+    "city": "Nadi",
+    "type": "nature",
+    "description": "A tranquil beach known for its soft sands and calm waters, ideal for swimming and relaxing.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Tavuni Hill Fort",
+    "city": "Sigatoka",
+    "type": "landmark",
+    "description": "An ancient archaeological site with historical significance, offering panoramic views of the surrounding area.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Bounty Island",
+    "city": "Mamanuca Islands",
+    "type": "nature",
+    "description": "A beautiful island resort known for its lush gardens, white sandy beaches, and vibrant marine life.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fijian Village Night",
+    "city": "Pacific Harbour",
+    "type": "culture",
+    "description": "An evening cultural experience featuring traditional Fijian dance, music, and a delicious lovo feast.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Dravuni Island",
+    "city": "Off the coast of Kadavu",
+    "type": "nature",
+    "description": "A small island known for its beautiful beaches, clear waters, and friendly local community.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Eagle's Nest",
+    "city": "Nadi",
+    "type": "landmark",
+    "description": "A scenic viewpoint offering breathtaking panoramic views of the Nadi Bay and surrounding islands.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Korolevu Beach",
+    "city": "Coral Coast",
+    "type": "nature",
+    "description": "A stunning beach ideal for swimming, snorkeling, and enjoying the peaceful surroundings.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Momi Bay",
+    "city": "Momi",
+    "type": "landmark",
+    "description": "Home to the famous Momi Gun Battery, an important historical site with stunning views over the bay.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Navua River",
+    "city": "Navua",
+    "type": "nature",
+    "description": "A picturesque river offering opportunities for rafting, kayaking, and exploring lush tropical landscapes.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Caqalai Island",
+    "city": "Off the coast of Ovalau",
+    "type": "nature",
+    "description": "A remote island known for its stunning beaches and excellent snorkeling opportunities.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji National Botanical Gardens",
+    "city": "Suva",
+    "type": "nature",
+    "description": "A serene garden featuring a diverse collection of tropical plants and flowers, perfect for leisurely strolls.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Sigatoka",
+    "city": "Sigatoka",
+    "type": "nature",
+    "description": "An impressive mountain offering hiking opportunities and stunning views of the Sigatoka River and surrounding area.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji's Arts Village",
+    "city": "Pacific Harbour",
+    "type": "culture",
+    "description": "A cultural center showcasing Fijian arts, crafts, and performances, providing a unique insight into local traditions.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Taveuni's Bouma Falls",
+    "city": "Taveuni",
+    "type": "nature",
+    "description": "A stunning series of waterfalls surrounded by lush rainforest, perfect for a refreshing swim.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Nadi Temple",
+    "city": "Nadi",
+    "type": "landmark",
+    "description": "An iconic Hindu temple featuring vibrant architecture and a serene atmosphere, welcoming visitors to explore its beauty.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji's Blue Lagoon Resort",
+    "city": "Yasawa Islands",
+    "type": "entertainment",
+    "description": "A luxurious resort offering a variety of activities, including diving, fishing, and cultural experiences.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Kokomo Private Island",
+    "city": "Kadavu",
+    "type": "nature",
+    "description": "An exclusive private island resort known for its pristine beaches, luxurious amenities, and stunning coral reefs.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Namosi Valley",
+    "city": "Namosi",
+    "type": "nature",
+    "description": "A breathtaking valley known for its rugged mountains, river gorges, and opportunities for adventure tourism.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Sawa-i-Lau Island",
+    "city": "Yasawa Islands",
+    "type": "nature",
+    "description": "Famous for its limestone caves and crystal-clear waters, perfect for exploring and snorkeling.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Coconut Grove Beach Resort",
+    "city": "Malolo Island",
+    "type": "entertainment",
+    "description": "A charming beach resort offering various water activities and a relaxed atmosphere, ideal for families.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Rakiraki",
+    "city": "Rakiraki",
+    "type": "nature",
+    "description": "A lesser-known area with beautiful beaches, coral reefs, and opportunities for diving and fishing.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Lautoka Market",
+    "city": "Lautoka",
+    "type": "culture",
+    "description": "A vibrant market where visitors can experience local produce, crafts, and Fijian culture firsthand.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Nadi International Airport",
+    "city": "Nadi",
+    "type": "landmark",
+    "description": "The main international gateway to Fiji, known for its friendly atmosphere and beautiful tropical architecture.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Savusavu",
+    "city": "Savusavu",
+    "type": "nature",
+    "description": "A quaint town known for its hot springs and beautiful bay, perfect for relaxation and exploration.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Yasawa Islands",
+    "city": "Yasawa",
+    "type": "nature",
+    "description": "A stunning group of islands known for their dramatic landscapes, pristine beaches, and vibrant marine life.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Pacific Harbour Arts Village",
+    "city": "Pacific Harbour",
+    "type": "culture",
+    "description": "A hub for Fijian arts and crafts, offering workshops, performances, and a chance to meet local artists.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Buliya Island",
+    "city": "Mamanuca Islands",
+    "type": "nature",
+    "description": "A secluded island offering tranquil beaches and excellent snorkeling opportunities, perfect for a peaceful getaway.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Viti Levu",
+    "city": "Viti Levu",
+    "type": "nature",
+    "description": "Fiji's largest island, offering diverse landscapes, beautiful beaches, and cultural experiences.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Beqa Island",
+    "city": "Beqa",
+    "type": "nature",
+    "description": "Famous for its diving spots and vibrant coral reefs, it's also home to traditional Fijian culture.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Fiji's Coral Coast",
+    "city": "Coral Coast",
+    "type": "nature",
+    "description": "A picturesque stretch of coastline known for its stunning coral reefs and beautiful beaches.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Taveuni's Rainbow Reef",
+    "city": "Taveuni",
+    "type": "nature",
+    "description": "A world-renowned diving spot known for its vibrant coral gardens and diverse marine life.",
+    "country": "Fiji",
+    "country_rank": 8
+  },
+  {
+    "name": "Mamanuca Islands",
+    "city": "Mamanuca Islands",
+    "type": "nature",
+    "description": "A group of stunning islands known for their white sandy beaches and excellent snorkeling and surfing opportunities.",
+    "country": "Fiji",
+    "country_rank": 8
+  }
+]

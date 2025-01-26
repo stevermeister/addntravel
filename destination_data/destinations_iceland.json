@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Golden Circle",
+    "city": "Reykjavik",
+    "type": "nature",
+    "description": "A popular tourist route featuring stunning natural phenomena like the Geysir geothermal area, Gullfoss waterfall, and Thingvellir National Park.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Blue Lagoon",
+    "city": "Grindavik",
+    "type": "entertainment",
+    "description": "A world-renowned geothermal spa known for its bright blue waters rich in minerals, offering a unique relaxation experience surrounded by lava fields.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Reykjavik City Hall",
+    "city": "Reykjavik",
+    "type": "culture",
+    "description": "An architectural gem featuring a large 3D map of Iceland and a beautiful lake, it serves as a hub for local culture and events.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Seljalandsfoss",
+    "city": "Selfoss",
+    "type": "nature",
+    "description": "A stunning waterfall that visitors can walk behind for a unique perspective, offering breathtaking views of the surrounding landscape.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "J\u00f6kuls\u00e1rl\u00f3n Glacier Lagoon",
+    "city": "Skaftafell",
+    "type": "nature",
+    "description": "A mesmerizing glacial lagoon filled with floating icebergs, offering boat tours and stunning views of Vatnaj\u00f6kull glacier.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hallgr\u00edmskirkja",
+    "city": "Reykjavik",
+    "type": "landmark",
+    "description": "This iconic church is known for its unique modernist design and offers panoramic views of the city from its tower.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "\u00deingvellir National Park",
+    "city": "Thingvellir",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site where the North American and Eurasian tectonic plates meet, offering dramatic landscapes and historical significance.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Skaftafell National Park",
+    "city": "Skaftafell",
+    "type": "nature",
+    "description": "A part of Vatnaj\u00f6kull National Park, it features stunning glaciers, waterfalls, and hiking trails through diverse landscapes.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Akureyri",
+    "city": "Akureyri",
+    "type": "culture",
+    "description": "Known as the 'Capital of North Iceland', this charming city offers beautiful botanical gardens, cultural events, and stunning fjord views.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Westfjords",
+    "city": "\u00cdsafj\u00f6r\u00f0ur",
+    "type": "nature",
+    "description": "A remote and rugged region characterized by dramatic cliffs, stunning fjords, and unique wildlife, perfect for adventurous travelers.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Gullfoss",
+    "city": "Blaskogabyggd",
+    "type": "nature",
+    "description": "One of Iceland's most iconic waterfalls, known for its powerful two-tiered cascade and rainbow views on sunny days.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Sn\u00e6fellsnes Peninsula",
+    "city": "Sn\u00e6fellsb\u00e6r",
+    "type": "nature",
+    "description": "Often referred to as 'Iceland in Miniature', this peninsula features diverse landscapes, including volcanoes, waterfalls, and charming fishing villages.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Landmannalaugar",
+    "city": "Hella",
+    "type": "nature",
+    "description": "Famous for its colorful rhyolite mountains and hot springs, it is a popular spot for hiking and outdoor activities.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Vik \u00ed M\u00fdrdal",
+    "city": "Vik",
+    "type": "nature",
+    "description": "A picturesque village known for its black sand beaches, dramatic sea stacks, and stunning views of Reynisfjall mountain.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Fja\u00f0r\u00e1rglj\u00fafur Canyon",
+    "city": "Kirkjub\u00e6jarklaustur",
+    "type": "nature",
+    "description": "A breathtaking canyon with steep walls and lush greenery, it's a hidden gem perfect for hiking and photography.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Nordurslod",
+    "city": "Seydisfjordur",
+    "type": "culture",
+    "description": "A vibrant town known for its colorful wooden houses, artistic community, and stunning fjord surroundings.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "H\u00fasav\u00edk Whale Watching",
+    "city": "H\u00fasav\u00edk",
+    "type": "entertainment",
+    "description": "Considered the whale watching capital of Iceland, it offers unforgettable tours to see various species of whales in their natural habitat.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "\u00deingvellir Rift Valley",
+    "city": "Thingvellir",
+    "type": "nature",
+    "description": "A geological wonder where you can walk between two tectonic plates, offering stunning landscapes and rich history.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "M\u00fdvatn Nature Baths",
+    "city": "M\u00fdvatn",
+    "type": "entertainment",
+    "description": "A relaxing geothermal spa located in North Iceland with beautiful views of the surrounding volcanic landscapes.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Laugavegur Trail",
+    "city": "Landmannalaugar",
+    "type": "nature",
+    "description": "A popular multi-day hiking trail offering diverse landscapes, including glaciers, hot springs, and colorful mountains.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Svartifoss",
+    "city": "Skaftafell",
+    "type": "nature",
+    "description": "Known for its stunning basalt columns, this waterfall is surrounded by beautiful landscapes and offers a rewarding hike.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Sk\u00f3gafoss",
+    "city": "Sk\u00f3gar",
+    "type": "nature",
+    "description": "One of Iceland's biggest waterfalls, it is famous for its width and the rainbows that often appear in its mist.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Keri\u00f0 Crater",
+    "city": "Selfoss",
+    "type": "nature",
+    "description": "A volcanic crater lake with striking red and green slopes, it's a perfect spot for photography and exploring.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hraunfossar",
+    "city": "Reykholt",
+    "type": "nature",
+    "description": "A series of stunning waterfalls flowing through a lava field, creating a unique and beautiful landscape.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "The Settlement Exhibition",
+    "city": "Reykjavik",
+    "type": "culture",
+    "description": "An archaeological site showcasing the remnants of Viking Age houses in Reykjavik, offering insights into early Icelandic life.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Borgarfj\u00f6r\u00f0ur",
+    "city": "Borgarnes",
+    "type": "nature",
+    "description": "A stunning region filled with waterfalls, hot springs, and the historical site of Reykholt, known for its rich literary heritage.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Dimmuborgir Lava Field",
+    "city": "M\u00fdvatn",
+    "type": "nature",
+    "description": "A unique lava field characterized by bizarre rock formations and deep craters, often associated with Icelandic folklore.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "East Fjords",
+    "city": "Egilssta\u00f0ir",
+    "type": "nature",
+    "description": "A scenic area known for its dramatic fjords, charming fishing villages, and opportunities for hiking and wildlife watching.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Reynisfjara Beach",
+    "city": "Vik",
+    "type": "nature",
+    "description": "Famous for its black sand, basalt columns, and powerful waves, it's a striking beach that captivates visitors.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "\u00c1sbyrgi Canyon",
+    "city": "H\u00fasav\u00edk",
+    "type": "nature",
+    "description": "A horseshoe-shaped depression surrounded by steep cliffs, believed to be formed by the hooves of Odin's horse.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Laugardalslaug",
+    "city": "Reykjavik",
+    "type": "entertainment",
+    "description": "The largest swimming pool in Reykjavik, featuring geothermal waters and several hot tubs, it's a popular relaxation spot for locals.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Grj\u00f3tagj\u00e1 Cave",
+    "city": "M\u00fdvatn",
+    "type": "nature",
+    "description": "A small lava cave with a geothermal hot spring inside, famous for its stunning blue water and association with the TV series 'Game of Thrones'.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Kirkjufell Mountain",
+    "city": "Grundarfj\u00f6r\u00f0ur",
+    "type": "landmark",
+    "description": "Often considered the most photographed mountain in Iceland, its unique shape and surrounding waterfalls create a picturesque scene.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Viking World",
+    "city": "Reykjavik",
+    "type": "culture",
+    "description": "A museum dedicated to the Viking heritage of Iceland, showcasing the Viking ship '\u00cdslendingur' and interactive exhibits.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hellnar",
+    "city": "Sn\u00e6fellsnes",
+    "type": "nature",
+    "description": "A charming coastal village with stunning views of the Sn\u00e6fellsj\u00f6kull glacier, offering beautiful hiking trails and birdwatching opportunities.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "B\u00fa\u00f0akirkja",
+    "city": "B\u00fa\u00f0ardalur",
+    "type": "landmark",
+    "description": "A picturesque black church set against a dramatic mountain backdrop, known for its unique architecture and serene surroundings.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "\u00dej\u00f3rs\u00e1rdalur Valley",
+    "city": "\u00dej\u00f3rs\u00e1rdalur",
+    "type": "nature",
+    "description": "A beautiful valley known for its lush landscapes, waterfalls, and the historical site of St\u00f6ng, an ancient Viking farm.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Laugavegur Street",
+    "city": "Reykjavik",
+    "type": "culture",
+    "description": "The main shopping street in Reykjavik, lined with boutiques, cafes, and vibrant street art, it's the heart of the city's cultural scene.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hekla Volcano",
+    "city": "Hella",
+    "type": "nature",
+    "description": "One of Iceland's most active volcanoes, known as the 'Gateway to Hell', offering stunning hiking trails and dramatic landscapes.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Sey\u00f0isfj\u00f6r\u00f0ur",
+    "city": "Seydisfjordur",
+    "type": "culture",
+    "description": "A picturesque town known for its artistic community, colorful wooden houses, and scenic fjord views.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Glymur Waterfall",
+    "city": "Botnss\u00fagur",
+    "type": "nature",
+    "description": "Iceland's second-highest waterfall, accessible via a scenic hike that offers breathtaking views of the surrounding landscape.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Kerlingarfj\u00f6ll",
+    "city": "Haukadalur",
+    "type": "nature",
+    "description": "A mountain range known for its colorful rhyolite peaks and geothermal activity, popular for hiking and hot springs.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Tj\u00f6rnin Lake",
+    "city": "Reykjavik",
+    "type": "nature",
+    "description": "A beautiful lake in the heart of Reykjavik, perfect for birdwatching and leisurely strolls, surrounded by charming buildings.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Strokkur Geyser",
+    "city": "Geysir",
+    "type": "nature",
+    "description": "The most famous geyser in Iceland, known for its regular eruptions that shoot hot water high into the air every few minutes.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hrunalaug Hot Spring",
+    "city": "Fl\u00fa\u00f0ir",
+    "type": "entertainment",
+    "description": "A hidden gem hot spring located near Fl\u00fa\u00f0ir, offering a peaceful and intimate setting for relaxation.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "\u00deingvellir Church",
+    "city": "Thingvellir",
+    "type": "culture",
+    "description": "A historic church located in the national park, it holds a significant place in Iceland's history and offers beautiful surroundings.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Solheimasandur Plane Wreck",
+    "city": "Vik",
+    "type": "landmark",
+    "description": "The remains of a US Navy plane that crashed in 1973 on a black sand beach, it's a popular spot for photography and exploration.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hafnarfj\u00f6r\u00f0ur",
+    "city": "Hafnarfj\u00f6r\u00f0ur",
+    "type": "culture",
+    "description": "Known for its vibrant arts scene and the presence of elves, this charming town offers unique cultural experiences.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Raufarh\u00f6fn",
+    "city": "Raufarh\u00f6fn",
+    "type": "nature",
+    "description": "A remote village located in North Iceland, known for its beautiful landscapes and the nearby Arctic Henge, an artistic installation.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Geysir Geothermal Area",
+    "city": "Haukadalur",
+    "type": "nature",
+    "description": "A fascinating area filled with bubbling mud pots, hot springs, and geysers, including the famous Strokkur.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Gr\u00e1br\u00f3k Crater",
+    "city": "Bifrost",
+    "type": "nature",
+    "description": "An impressive volcanic crater that offers hiking trails and stunning views of the surrounding landscapes.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Eldborg Crater",
+    "city": "Sn\u00e6fellsnes",
+    "type": "nature",
+    "description": "A unique volcanic crater known for its symmetrical shape and beautiful hiking paths leading to the summit.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Viking Museum",
+    "city": "Reykjavik",
+    "type": "culture",
+    "description": "A museum dedicated to the Viking heritage of Iceland, featuring exhibits on Viking life, culture, and exploration.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Keflavik International Airport",
+    "city": "Reykjavik",
+    "type": "entertainment",
+    "description": "The main international airport in Iceland, known for its unique architecture and art installations throughout the terminal.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Seljavallalaug Pool",
+    "city": "Seljavellir",
+    "type": "entertainment",
+    "description": "An outdoor geothermal pool set in a stunning valley, perfect for a relaxing dip after a hike.",
+    "country": "Iceland",
+    "country_rank": 8
+  },
+  {
+    "name": "Hraunfossar and Barnafoss",
+    "city": "Reykholt",
+    "type": "nature",
+    "description": "A series of beautiful waterfalls flowing from a lava field, known for their unique beauty and surrounding landscapes.",
+    "country": "Iceland",
+    "country_rank": 8
+  }
+]

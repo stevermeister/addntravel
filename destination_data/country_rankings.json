@@ -1,0 +1,967 @@
+[
+  {
+    "country": "France",
+    "rank": 10,
+    "reasoning": "France is the most visited country in the world, known for its rich history, culture, and iconic attractions like the Eiffel Tower and Louvre Museum."
+  },
+  {
+    "country": "Japan",
+    "rank": 10,
+    "reasoning": "Japan is a top tourist destination with a unique blend of modernity and tradition, excellent infrastructure, and numerous famous attractions."
+  },
+  {
+    "country": "United Arab Emirates",
+    "rank": 10,
+    "reasoning": "A top luxury travel destination known for attractions like Dubai and Abu Dhabi, the UAE has exceptional tourism infrastructure and attracts millions of visitors."
+  },
+  {
+    "country": "Vatican City",
+    "rank": 10,
+    "reasoning": "As the spiritual center of the Catholic Church, Vatican City is one of the most visited places in the world, with significant historical and religious attractions."
+  },
+  {
+    "country": "United States",
+    "rank": 9,
+    "reasoning": "The U.S. offers diverse attractions from national parks to vibrant cities like New York and Los Angeles, along with a well-developed tourism infrastructure."
+  },
+  {
+    "country": "Australia",
+    "rank": 9,
+    "reasoning": "Known for its unique wildlife, cities, and natural wonders, Australia is a top destination with excellent tourism infrastructure."
+  },
+  {
+    "country": "Canada",
+    "rank": 9,
+    "reasoning": "Canada is known for its natural beauty and diverse cities, attracting millions of international visitors with good infrastructure."
+  },
+  {
+    "country": "Costa Rica",
+    "rank": 9,
+    "reasoning": "Costa Rica is famous for its biodiversity and eco-tourism, drawing in large numbers of international visitors with excellent infrastructure."
+  },
+  {
+    "country": "Greece",
+    "rank": 9,
+    "reasoning": "Greece is renowned for its ancient history, beautiful islands, and vibrant culture, attracting millions of international visitors each year."
+  },
+  {
+    "country": "Maldives",
+    "rank": 9,
+    "reasoning": "The Maldives is a premier luxury destination known for its stunning beaches and resorts, attracting a high number of international tourists."
+  },
+  {
+    "country": "Monaco",
+    "rank": 9,
+    "reasoning": "High-end tourism destination with luxury attractions and excellent infrastructure."
+  },
+  {
+    "country": "Netherlands",
+    "rank": 9,
+    "reasoning": "Highly popular with excellent tourism infrastructure and famous attractions like Amsterdam."
+  },
+  {
+    "country": "New Zealand",
+    "rank": 9,
+    "reasoning": "Famous for its stunning landscapes and adventure tourism, with excellent infrastructure."
+  },
+  {
+    "country": "Peru",
+    "rank": 9,
+    "reasoning": "Famous for Machu Picchu and diverse landscapes, Peru has a strong tourism infrastructure and attracts millions of visitors."
+  },
+  {
+    "country": "Portugal",
+    "rank": 9,
+    "reasoning": "Highly popular for its culture, food, and beaches, with excellent tourism infrastructure and a growing number of international visitors."
+  },
+  {
+    "country": "Singapore",
+    "rank": 9,
+    "reasoning": "Singapore is a highly popular destination with excellent infrastructure, famous attractions, and a high number of international visitors."
+  },
+  {
+    "country": "South Korea",
+    "rank": 9,
+    "reasoning": "South Korea is a vibrant destination with modern attractions, rich culture, and a high volume of international visitors, backed by excellent infrastructure."
+  },
+  {
+    "country": "Sweden",
+    "rank": 9,
+    "reasoning": "Sweden is a popular destination known for its beautiful landscapes, culture, and high-quality tourism infrastructure, attracting many international visitors."
+  },
+  {
+    "country": "Switzerland",
+    "rank": 9,
+    "reasoning": "Known for its stunning landscapes, luxurious resorts, and well-developed tourism infrastructure, Switzerland attracts a significant number of international visitors."
+  },
+  {
+    "country": "Spain",
+    "rank": 8,
+    "reasoning": "Spain is famous for its cultural heritage, beautiful beaches, and landmarks like Sagrada Familia, attracting millions of international visitors annually."
+  },
+  {
+    "country": "Italy",
+    "rank": 8,
+    "reasoning": "Italy is renowned for its historical sites, art, and cuisine, with famous cities like Rome, Venice, and Florence drawing significant tourism."
+  },
+  {
+    "country": "Argentina",
+    "rank": 8,
+    "reasoning": "Offers diverse attractions from Patagonia to Buenos Aires, with good infrastructure, making it a popular destination in South America."
+  },
+  {
+    "country": "Austria",
+    "rank": 8,
+    "reasoning": "A well-known destination for its historical cities and cultural attractions, Austria has a strong tourism infrastructure."
+  },
+  {
+    "country": "Brazil",
+    "rank": 8,
+    "reasoning": "Brazil is famous for its vibrant culture and attractions like Rio de Janeiro and the Amazon, making it a popular tourist destination."
+  },
+  {
+    "country": "Cambodia",
+    "rank": 8,
+    "reasoning": "Cambodia is famous for Angkor Wat and has a growing tourism infrastructure, making it a popular destination in Southeast Asia."
+  },
+  {
+    "country": "Chile",
+    "rank": 8,
+    "reasoning": "Chile offers diverse landscapes and attractions like Patagonia, making it a popular choice for travelers in South America."
+  },
+  {
+    "country": "Croatia",
+    "rank": 8,
+    "reasoning": "Croatia has become increasingly popular for its beaches and historical sites, especially after joining the EU, with good infrastructure."
+  },
+  {
+    "country": "Czech Republic",
+    "rank": 8,
+    "reasoning": "Known for its historic cities like Prague and vibrant culture, the Czech Republic draws many tourists and has good tourism infrastructure."
+  },
+  {
+    "country": "Dominican Republic",
+    "rank": 8,
+    "reasoning": "With its beautiful resorts, beaches, and vibrant culture, the Dominican Republic is a popular Caribbean destination for international tourists."
+  },
+  {
+    "country": "Egypt",
+    "rank": 8,
+    "reasoning": "Egypt is famous for its ancient history and iconic landmarks like the Pyramids, drawing a large number of international visitors."
+  },
+  {
+    "country": "Fiji",
+    "rank": 8,
+    "reasoning": "Fiji is a well-known tropical paradise with excellent resorts and natural beauty, making it a popular destination for international tourists."
+  },
+  {
+    "country": "Iceland",
+    "rank": 8,
+    "reasoning": "Iceland's unique landscapes and natural wonders have made it a top destination in recent years, though it faces challenges with capacity and infrastructure due to rapid growth."
+  },
+  {
+    "country": "India",
+    "rank": 8,
+    "reasoning": "India is rich in history, culture, and diversity, attracting many tourists, but challenges in infrastructure and safety can affect visitor experiences."
+  },
+  {
+    "country": "Ireland",
+    "rank": 8,
+    "reasoning": "Ireland is known for its stunning landscapes, rich culture, and friendly locals, making it a popular destination with good tourism infrastructure."
+  },
+  {
+    "country": "Israel",
+    "rank": 8,
+    "reasoning": "Israel\u2019s historical and religious significance attracts many tourists, but ongoing regional tensions can affect its tourism reputation."
+  },
+  {
+    "country": "Malaysia",
+    "rank": 8,
+    "reasoning": "Malaysia boasts diverse attractions, from urban centers to natural parks, and has a well-developed tourism infrastructure."
+  },
+  {
+    "country": "Malta",
+    "rank": 8,
+    "reasoning": "Malta is popular for its history, culture, and beautiful coastlines, drawing a significant number of tourists and having good infrastructure."
+  },
+  {
+    "country": "Mauritius",
+    "rank": 8,
+    "reasoning": "A popular beach destination with good tourism infrastructure and natural beauty."
+  },
+  {
+    "country": "Morocco",
+    "rank": 8,
+    "reasoning": "Rich in culture and history with famous attractions, though travel can be challenging in some areas."
+  },
+  {
+    "country": "Nepal",
+    "rank": 8,
+    "reasoning": "Popular for trekking and cultural experiences, with a good infrastructure for adventure tourism."
+  },
+  {
+    "country": "Norway",
+    "rank": 8,
+    "reasoning": "Known for stunning fjords and outdoor activities, Norway attracts many visitors, though its high costs can deter some."
+  },
+  {
+    "country": "Philippines",
+    "rank": 8,
+    "reasoning": "Known for its stunning beaches and friendly locals, but challenges with infrastructure can affect travel ease."
+  },
+  {
+    "country": "Saint Lucia",
+    "rank": 8,
+    "reasoning": "Offers stunning natural beauty and luxury resorts, making it a popular choice among Caribbean destinations."
+  },
+  {
+    "country": "Seychelles",
+    "rank": 8,
+    "reasoning": "Seychelles is famous for its stunning beaches and luxury resorts, attracting affluent tourists, with good infrastructure for tourism."
+  },
+  {
+    "country": "South Africa",
+    "rank": 8,
+    "reasoning": "South Africa is a major tourist destination known for its diverse landscapes, wildlife, and cultural experiences, supported by good infrastructure."
+  },
+  {
+    "country": "Sri Lanka",
+    "rank": 8,
+    "reasoning": "Sri Lanka is famous for its rich culture, beaches, and wildlife, attracting a good number of visitors with developing tourism infrastructure."
+  },
+  {
+    "country": "Tanzania",
+    "rank": 8,
+    "reasoning": "Home to famous attractions like Mount Kilimanjaro and Serengeti National Park, Tanzania is popular among adventure and wildlife tourists."
+  },
+  {
+    "country": "Vietnam",
+    "rank": 8,
+    "reasoning": "With its rich history, stunning landscapes, and vibrant culture, Vietnam is a highly popular destination in Southeast Asia, drawing millions of international visitors."
+  },
+  {
+    "country": "China",
+    "rank": 7,
+    "reasoning": "China has a rich cultural history and major attractions like the Great Wall and Forbidden City, but travel can be challenging due to language barriers."
+  },
+  {
+    "country": "United Kingdom",
+    "rank": 7,
+    "reasoning": "The UK offers iconic sites such as Buckingham Palace and Stonehenge, along with a strong tourism infrastructure, though it has seen fluctuations in visitor numbers."
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "rank": 7,
+    "reasoning": "A popular Caribbean destination due to its beaches and resorts, but smaller in scale compared to larger tourist nations."
+  },
+  {
+    "country": "Bahamas",
+    "rank": 7,
+    "reasoning": "Popular for its beautiful beaches and resorts, attracting many visitors, but still smaller in scale compared to larger tourist countries."
+  },
+  {
+    "country": "Barbados",
+    "rank": 7,
+    "reasoning": "A well-known Caribbean destination with beaches and culture, attracting many tourists but still limited compared to larger countries."
+  },
+  {
+    "country": "Belgium",
+    "rank": 7,
+    "reasoning": "Known for its historic cities and culture, Belgium attracts many visitors, but is often overshadowed by neighboring countries."
+  },
+  {
+    "country": "Botswana",
+    "rank": 7,
+    "reasoning": "Botswana is known for its wildlife and national parks, appealing to eco-tourists, but it remains less visited compared to other African nations."
+  },
+  {
+    "country": "Colombia",
+    "rank": 7,
+    "reasoning": "Colombia has significantly improved its safety and tourism infrastructure, becoming increasingly popular for its culture and nature."
+  },
+  {
+    "country": "Cyprus",
+    "rank": 7,
+    "reasoning": "Cyprus offers great beaches, historical sites, and is relatively easy to travel around, making it a popular Mediterranean destination."
+  },
+  {
+    "country": "Denmark",
+    "rank": 7,
+    "reasoning": "Denmark is known for its high quality of life, historic sites, and modern attractions, making it an attractive destination in Northern Europe."
+  },
+  {
+    "country": "Ecuador",
+    "rank": 7,
+    "reasoning": "Ecuador offers diverse attractions including the Galapagos Islands and rich cultural experiences, making it a growing tourist destination."
+  },
+  {
+    "country": "Finland",
+    "rank": 7,
+    "reasoning": "Finland offers unique experiences like the Northern Lights and modern cities, making it a growing tourist destination in Europe."
+  },
+  {
+    "country": "Hungary",
+    "rank": 7,
+    "reasoning": "Hungary, particularly Budapest, is a popular destination known for its history, architecture, and thermal baths, with decent tourism infrastructure."
+  },
+  {
+    "country": "Indonesia",
+    "rank": 7,
+    "reasoning": "Indonesia, especially Bali, is a popular tourist destination with diverse attractions, but some areas lack adequate tourism infrastructure."
+  },
+  {
+    "country": "Jamaica",
+    "rank": 7,
+    "reasoning": "Jamaica is a well-known Caribbean destination famous for its beaches and music, with a decent tourism infrastructure."
+  },
+  {
+    "country": "Kenya",
+    "rank": 7,
+    "reasoning": "Known for its wildlife and national parks, Kenya attracts many international visitors, particularly for safaris, and has good tourism infrastructure."
+  },
+  {
+    "country": "Latvia",
+    "rank": 7,
+    "reasoning": "Latvia, particularly Riga, has developed as a popular European destination with good infrastructure and unique attractions."
+  },
+  {
+    "country": "Madagascar",
+    "rank": 7,
+    "reasoning": "Madagascar is famous for its biodiversity and unique landscapes, attracting adventure tourists, but infrastructure challenges limit its popularity."
+  },
+  {
+    "country": "Montenegro",
+    "rank": 7,
+    "reasoning": "Known for its stunning Adriatic coastline and historical sites, with growing tourism infrastructure."
+  },
+  {
+    "country": "Myanmar",
+    "rank": 7,
+    "reasoning": "Rich cultural heritage and attractions, though recent political issues have impacted tourism."
+  },
+  {
+    "country": "Namibia",
+    "rank": 7,
+    "reasoning": "Known for its unique landscapes and wildlife, but can be logistically challenging to travel."
+  },
+  {
+    "country": "Palau",
+    "rank": 7,
+    "reasoning": "A beautiful tropical destination known for diving and marine life, but limited accessibility keeps it from higher rankings."
+  },
+  {
+    "country": "Poland",
+    "rank": 7,
+    "reasoning": "Rich in history and culture with increasing visitor numbers, but still overshadowed by Western European neighbors."
+  },
+  {
+    "country": "Russia",
+    "rank": 7,
+    "reasoning": "Rich in history and culture, but travel restrictions and political issues can deter visitors."
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "rank": 7,
+    "reasoning": "A popular Caribbean destination with beautiful beaches, but limited by size and accessibility."
+  },
+  {
+    "country": "Saudi Arabia",
+    "rank": 7,
+    "reasoning": "Saudi Arabia is increasingly popular due to religious tourism and recent efforts to promote cultural heritage, though it still faces challenges regarding accessibility."
+  },
+  {
+    "country": "Slovenia",
+    "rank": 7,
+    "reasoning": "Slovenia has gained popularity for its natural beauty and outdoor activities, along with a growing tourism infrastructure."
+  },
+  {
+    "country": "Tunisia",
+    "rank": 7,
+    "reasoning": "With historical sites like Carthage and beautiful Mediterranean beaches, Tunisia remains a popular destination in North Africa despite recent challenges."
+  },
+  {
+    "country": "Uganda",
+    "rank": 7,
+    "reasoning": "Known for its national parks and gorilla trekking, Uganda is becoming more popular among eco-tourists and adventure seekers."
+  },
+  {
+    "country": "Uzbekistan",
+    "rank": 7,
+    "reasoning": "Rich in history with cities like Samarkand and Bukhara, Uzbekistan is gaining traction as a tourist destination, supported by improving infrastructure."
+  },
+  {
+    "country": "Germany",
+    "rank": 6,
+    "reasoning": "Germany is known for its historical sites and festivals, such as Oktoberfest, but it attracts fewer visitors compared to the top-tier countries."
+  },
+  {
+    "country": "Thailand",
+    "rank": 6,
+    "reasoning": "Thailand is a popular destination for its beautiful beaches, vibrant culture, and affordable travel, appealing especially to backpackers and adventure seekers."
+  },
+  {
+    "country": "Andorra",
+    "rank": 6,
+    "reasoning": "Known for its ski resorts and shopping, Andorra attracts visitors but remains limited in terms of global recognition and attractions."
+  },
+  {
+    "country": "Azerbaijan",
+    "rank": 6,
+    "reasoning": "Emerging tourism destination with a mix of modern and historical sites but still developing its global tourism profile."
+  },
+  {
+    "country": "Belize",
+    "rank": 6,
+    "reasoning": "Famous for its natural beauty and adventure tourism, but smaller in scale compared to larger regional destinations."
+  },
+  {
+    "country": "Bhutan",
+    "rank": 6,
+    "reasoning": "Known for its unique culture and stunning landscapes, Bhutan has a niche appeal but is limited by accessibility and tourism infrastructure."
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "rank": 6,
+    "reasoning": "Bosnia and Herzegovina offers rich history and beautiful scenery, gaining popularity, but still has limited tourism infrastructure."
+  },
+  {
+    "country": "Bulgaria",
+    "rank": 6,
+    "reasoning": "Bulgaria has a mix of cultural and natural attractions, gaining traction among European tourists but not yet reaching mass appeal."
+  },
+  {
+    "country": "Cuba",
+    "rank": 6,
+    "reasoning": "Cuba has a rich cultural heritage and beautiful beaches, attracting a fair number of international visitors, but its tourism infrastructure can be limited."
+  },
+  {
+    "country": "Estonia",
+    "rank": 6,
+    "reasoning": "Estonia has charming cities like Tallinn and offers a blend of history and modernity, attracting a decent number of tourists."
+  },
+  {
+    "country": "Georgia",
+    "rank": 6,
+    "reasoning": "Georgia is gaining popularity for its stunning landscapes and rich history, although it still has room to grow in international tourism."
+  },
+  {
+    "country": "Guatemala",
+    "rank": 6,
+    "reasoning": "Guatemala offers rich cultural experiences, stunning landscapes, and Mayan ruins, but it faces challenges in infrastructure and safety, affecting its tourism popularity."
+  },
+  {
+    "country": "Iran",
+    "rank": 6,
+    "reasoning": "Iran has rich cultural and historical attractions but is often overlooked due to political issues and safety concerns, impacting its tourism numbers."
+  },
+  {
+    "country": "Jordan",
+    "rank": 6,
+    "reasoning": "Jordan is famous for historical sites like Petra and the Dead Sea, but political instability in the region can affect its tourism appeal."
+  },
+  {
+    "country": "Kyrgyzstan",
+    "rank": 6,
+    "reasoning": "Known for its natural beauty and adventure tourism, Kyrgyzstan is gaining popularity but still has limited infrastructure compared to top destinations."
+  },
+  {
+    "country": "Laos",
+    "rank": 6,
+    "reasoning": "Laos offers rich culture and natural beauty, attracting a niche market of travelers, but overall visitor numbers remain modest."
+  },
+  {
+    "country": "Lebanon",
+    "rank": 6,
+    "reasoning": "Lebanon has rich history and beautiful landscapes, but political instability affects its tourism appeal and visitor numbers."
+  },
+  {
+    "country": "Liechtenstein",
+    "rank": 6,
+    "reasoning": "As a small but picturesque country, Liechtenstein attracts niche tourism, although its overall visitor numbers are lower than larger nations."
+  },
+  {
+    "country": "Lithuania",
+    "rank": 6,
+    "reasoning": "Lithuania has a growing tourism sector with cultural attractions and good infrastructure, but overall visitor numbers remain modest."
+  },
+  {
+    "country": "Luxembourg",
+    "rank": 6,
+    "reasoning": "Luxembourg is known for its charming landscapes and historical sites, but it does not attract as many tourists as larger European countries."
+  },
+  {
+    "country": "Mongolia",
+    "rank": 6,
+    "reasoning": "Unique landscapes and cultural experiences, but less developed tourism infrastructure."
+  },
+  {
+    "country": "Mozambique",
+    "rank": 6,
+    "reasoning": "Beautiful beaches and wildlife, but limited tourism infrastructure and accessibility."
+  },
+  {
+    "country": "Oman",
+    "rank": 6,
+    "reasoning": "Offers unique cultural experiences and natural landscapes, but still lesser-known compared to more popular destinations."
+  },
+  {
+    "country": "Panama",
+    "rank": 6,
+    "reasoning": "Growing in popularity for its biodiversity and the Panama Canal, though not yet as renowned as other Central American countries."
+  },
+  {
+    "country": "Qatar",
+    "rank": 6,
+    "reasoning": "Rapidly developing as a tourist destination with modern attractions, but still not widely visited compared to top-tier locations."
+  },
+  {
+    "country": "Romania",
+    "rank": 6,
+    "reasoning": "Offers beautiful landscapes and medieval towns, but lacks the same level of popularity and infrastructure as higher-ranked countries."
+  },
+  {
+    "country": "Rwanda",
+    "rank": 6,
+    "reasoning": "Known for gorilla trekking and conservation efforts, but still developing its tourism infrastructure."
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "rank": 6,
+    "reasoning": "Known for its natural beauty and sailing opportunities, but not as widely recognized as other Caribbean nations."
+  },
+  {
+    "country": "Samoa",
+    "rank": 6,
+    "reasoning": "Samoa offers beautiful landscapes and a unique culture, attracting a niche market of eco-tourists, though it lacks extensive tourism infrastructure."
+  },
+  {
+    "country": "Senegal",
+    "rank": 6,
+    "reasoning": "Senegal is known for its vibrant culture and natural attractions, drawing a moderate number of visitors, but tourism infrastructure is still developing."
+  },
+  {
+    "country": "Serbia",
+    "rank": 6,
+    "reasoning": "Serbia offers rich history and nightlife, appealing to younger travelers, but it has a less established tourism infrastructure compared to Western Europe."
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "rank": 6,
+    "reasoning": "This Caribbean destination is known for its vibrant culture and festivals, attracting a good number of tourists, especially during the Carnival season."
+  },
+  {
+    "country": "Ukraine",
+    "rank": 6,
+    "reasoning": "Despite its rich history and cultural sites, current geopolitical issues have impacted tourism, though cities like Kyiv attract visitors."
+  },
+  {
+    "country": "Uruguay",
+    "rank": 6,
+    "reasoning": "With beautiful coastlines and a laid-back atmosphere, Uruguay draws visitors, particularly to Montevideo and Punta del Este, but remains less known than neighboring countries."
+  },
+  {
+    "country": "Vanuatu",
+    "rank": 6,
+    "reasoning": "Known for its natural beauty and adventure activities, Vanuatu attracts tourists but is not as popular as other Pacific destinations."
+  },
+  {
+    "country": "Zambia",
+    "rank": 6,
+    "reasoning": "Zambia is known for its natural beauty and wildlife, including the famous Victoria Falls. It has growing tourism infrastructure and attracts adventure travelers, but it still lacks the popularity of higher-ranked countries."
+  },
+  {
+    "country": "Zimbabwe",
+    "rank": 6,
+    "reasoning": "Zimbabwe offers stunning attractions like Victoria Falls and diverse wildlife. Despite tourism potential, it faces challenges such as economic instability and infrastructure issues, preventing it from ranking higher."
+  },
+  {
+    "country": "Mexico",
+    "rank": 4,
+    "reasoning": "Mexico is famous for its rich history, cuisine, and beaches, but safety concerns can impact its tourism appeal relative to higher-ranked countries."
+  },
+  {
+    "country": "Albania",
+    "rank": 4,
+    "reasoning": "Emerging as a tourist destination with beautiful coastlines and historical sites, but still lacks the tourism infrastructure of more established countries."
+  },
+  {
+    "country": "Armenia",
+    "rank": 4,
+    "reasoning": "Rich in history and culture, Armenia attracts niche tourism but lacks widespread international recognition and infrastructure."
+  },
+  {
+    "country": "Bahrain",
+    "rank": 4,
+    "reasoning": "Offers a mix of modern attractions and rich culture, but not as popular or developed in terms of tourism compared to regional peers."
+  },
+  {
+    "country": "Bolivia",
+    "rank": 4,
+    "reasoning": "Bolivia has stunning natural landscapes and cultural heritage but lacks extensive tourism infrastructure and international recognition."
+  },
+  {
+    "country": "Cabo Verde",
+    "rank": 4,
+    "reasoning": "Cabo Verde is increasingly popular for beach tourism, but still has limited international visitor numbers."
+  },
+  {
+    "country": "Dominica",
+    "rank": 4,
+    "reasoning": "Dominica's natural beauty and eco-tourism appeal to visitors, but it remains lesser-known compared to other Caribbean destinations."
+  },
+  {
+    "country": "El Salvador",
+    "rank": 4,
+    "reasoning": "El Salvador has beautiful beaches and a rich culture, but it is often overlooked by tourists in favor of other Central American countries."
+  },
+  {
+    "country": "Ethiopia",
+    "rank": 4,
+    "reasoning": "Ethiopia has rich cultural heritage and historical sites, but it faces challenges in tourism infrastructure and political stability."
+  },
+  {
+    "country": "Gambia",
+    "rank": 4,
+    "reasoning": "Gambia is known for its beaches and cultural heritage, but it remains a smaller player in the tourism market compared to other West African countries."
+  },
+  {
+    "country": "Ghana",
+    "rank": 4,
+    "reasoning": "Ghana has a growing tourism sector with rich cultural heritage and historical sites, but it lacks the extensive tourism infrastructure of higher-ranked countries."
+  },
+  {
+    "country": "Grenada",
+    "rank": 4,
+    "reasoning": "Grenada is a charming Caribbean destination known for its beaches and spice plantations, but it has limited tourism infrastructure compared to larger Caribbean nations."
+  },
+  {
+    "country": "Honduras",
+    "rank": 4,
+    "reasoning": "Honduras offers beautiful beaches and Mayan ruins, but safety concerns and infrastructure issues affect its tourism popularity."
+  },
+  {
+    "country": "Kazakhstan",
+    "rank": 4,
+    "reasoning": "Kazakhstan has unique attractions and a growing tourism infrastructure, but it lacks the international visitor numbers seen in more popular destinations."
+  },
+  {
+    "country": "Kuwait",
+    "rank": 4,
+    "reasoning": "Kuwait has modern infrastructure and attractions, but it is less frequented by tourists compared to its regional neighbors."
+  },
+  {
+    "country": "Malawi",
+    "rank": 4,
+    "reasoning": "Malawi offers natural beauty and cultural experiences, but it remains relatively under-the-radar compared to other African destinations."
+  },
+  {
+    "country": "Micronesia",
+    "rank": 4,
+    "reasoning": "Known for diving and natural beauty, but has limited accessibility and infrastructure."
+  },
+  {
+    "country": "Nicaragua",
+    "rank": 4,
+    "reasoning": "Emerging destination with natural beauty and culture, but less developed than its neighbors."
+  },
+  {
+    "country": "Nigeria",
+    "rank": 4,
+    "reasoning": "Rich in culture and diversity, but has security concerns that affect tourism appeal."
+  },
+  {
+    "country": "North Macedonia",
+    "rank": 4,
+    "reasoning": "Increasingly popular for its natural beauty and historical sites, but lacks the extensive tourism infrastructure of higher-ranked countries."
+  },
+  {
+    "country": "Papua New Guinea",
+    "rank": 4,
+    "reasoning": "Offers unique cultural experiences and natural beauty; however, challenges in infrastructure and accessibility limit its appeal."
+  },
+  {
+    "country": "San Marino",
+    "rank": 4,
+    "reasoning": "San Marino is a small but charming destination with historical significance, attracting visitors mainly from Italy, but overall international visitor numbers are low."
+  },
+  {
+    "country": "Slovakia",
+    "rank": 4,
+    "reasoning": "Slovakia offers beautiful nature and historical sites but is less known than its neighbors, resulting in moderate tourism levels."
+  },
+  {
+    "country": "Solomon Islands",
+    "rank": 4,
+    "reasoning": "The Solomon Islands are known for their natural beauty and diving spots, but they attract a limited number of international visitors."
+  },
+  {
+    "country": "Tonga",
+    "rank": 4,
+    "reasoning": "Known for its beautiful islands and marine life, Tonga attracts niche travelers but lacks the infrastructure and visitor numbers of more popular destinations."
+  },
+  {
+    "country": "Turkey",
+    "rank": 3,
+    "reasoning": "Turkey attracts visitors with its unique blend of East and West, historical sites, and beautiful coastlines, although it faces competition from other Mediterranean destinations."
+  },
+  {
+    "country": "Algeria",
+    "rank": 3,
+    "reasoning": "Offers unique attractions like ancient ruins and the Sahara Desert, but struggles with tourism infrastructure and accessibility."
+  },
+  {
+    "country": "Bangladesh",
+    "rank": 3,
+    "reasoning": "Features rich cultural heritage and natural beauty but faces challenges with tourism infrastructure and safety perceptions."
+  },
+  {
+    "country": "Belarus",
+    "rank": 3,
+    "reasoning": "Has historical sites and natural beauty, but political issues and limited infrastructure make it less popular among tourists."
+  },
+  {
+    "country": "Brunei",
+    "rank": 3,
+    "reasoning": "Brunei has a unique cultural appeal and natural beauty, but its tourism is limited by size and accessibility."
+  },
+  {
+    "country": "Cameroon",
+    "rank": 3,
+    "reasoning": "Cameroon offers diverse attractions but struggles with tourism infrastructure and safety concerns."
+  },
+  {
+    "country": "Congo",
+    "rank": 3,
+    "reasoning": "The Republic of Congo has natural attractions and wildlife but lacks the tourism infrastructure and safety of more popular destinations."
+  },
+  {
+    "country": "Eswatini",
+    "rank": 3,
+    "reasoning": "Eswatini offers cultural experiences and wildlife, but its tourism appeal is limited compared to larger Southern African countries."
+  },
+  {
+    "country": "Gabon",
+    "rank": 3,
+    "reasoning": "Gabon has beautiful national parks and wildlife, but it lacks significant tourism infrastructure and international visibility."
+  },
+  {
+    "country": "Guyana",
+    "rank": 3,
+    "reasoning": "Guyana features unique natural attractions and biodiversity, but limited tourism infrastructure and accessibility hinder its ranking."
+  },
+  {
+    "country": "Kiribati",
+    "rank": 3,
+    "reasoning": "While beautiful and unique, Kiribati is remote and less accessible, resulting in lower tourism numbers."
+  },
+  {
+    "country": "Lesotho",
+    "rank": 3,
+    "reasoning": "Lesotho offers stunning landscapes and adventure opportunities, but its tourism infrastructure is limited, affecting overall visitor numbers."
+  },
+  {
+    "country": "Mali",
+    "rank": 3,
+    "reasoning": "Mali has rich cultural heritage, but safety concerns and limited infrastructure hinder its tourism growth."
+  },
+  {
+    "country": "Mauritania",
+    "rank": 3,
+    "reasoning": "Offers unique cultural and historical sites, but lacks robust tourism infrastructure."
+  },
+  {
+    "country": "Moldova",
+    "rank": 3,
+    "reasoning": "Emerging as a tourist destination with cultural sites, but lacks widespread recognition."
+  },
+  {
+    "country": "North Korea",
+    "rank": 3,
+    "reasoning": "Very controlled tourism experience, unique attractions, but limited accessibility and appeal."
+  },
+  {
+    "country": "Pakistan",
+    "rank": 3,
+    "reasoning": "Rich in culture and nature, but travel advisories and infrastructure challenges limit tourism potential."
+  },
+  {
+    "country": "Palestine",
+    "rank": 3,
+    "reasoning": "Historically and culturally significant, but ongoing conflict and travel restrictions hinder tourism."
+  },
+  {
+    "country": "Paraguay",
+    "rank": 3,
+    "reasoning": "Less visited compared to its neighbors, with potential in ecotourism, but lacks the infrastructure and attractions of higher-ranked countries."
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "rank": 3,
+    "reasoning": "This island nation is known for its natural beauty and biodiversity, but it remains relatively unknown and has limited infrastructure for tourism."
+  },
+  {
+    "country": "Suriname",
+    "rank": 3,
+    "reasoning": "Suriname has unique rainforest experiences and cultural diversity, but it is relatively lesser-known, leading to fewer international visitors."
+  },
+  {
+    "country": "Timor-Leste",
+    "rank": 3,
+    "reasoning": "As a developing destination with beautiful beaches and a rich culture, Timor-Leste is gaining popularity but still has limited tourism infrastructure."
+  },
+  {
+    "country": "Venezuela",
+    "rank": 3,
+    "reasoning": "Despite its natural beauty and attractions like Angel Falls, Venezuela faces challenges due to safety concerns and political instability, leading to low visitor numbers."
+  },
+  {
+    "country": "Angola",
+    "rank": 2,
+    "reasoning": "Has natural beauty and cultural experiences but faces challenges with tourism infrastructure and safety perceptions."
+  },
+  {
+    "country": "Benin",
+    "rank": 2,
+    "reasoning": "Offers unique cultural experiences and historical sites but lacks infrastructure and safety concerns limit its appeal."
+  },
+  {
+    "country": "Burkina Faso",
+    "rank": 2,
+    "reasoning": "Burkina Faso has cultural attractions but faces challenges due to safety and limited tourism infrastructure."
+  },
+  {
+    "country": "Comoros",
+    "rank": 2,
+    "reasoning": "Comoros has beautiful landscapes but is lesser-known and faces challenges in tourism infrastructure."
+  },
+  {
+    "country": "Djibouti",
+    "rank": 2,
+    "reasoning": "Djibouti has unique landscapes and marine life but lacks significant tourism infrastructure and international visitor numbers."
+  },
+  {
+    "country": "Equatorial Guinea",
+    "rank": 2,
+    "reasoning": "Equatorial Guinea has limited tourism infrastructure and international visitors, making it a less popular destination."
+  },
+  {
+    "country": "Eritrea",
+    "rank": 2,
+    "reasoning": "Eritrea has unique cultural and historical attractions, but it suffers from political issues and lacks tourism infrastructure."
+  },
+  {
+    "country": "Guinea",
+    "rank": 2,
+    "reasoning": "Guinea has limited tourism infrastructure and attractions, which restricts its appeal to international visitors."
+  },
+  {
+    "country": "Haiti",
+    "rank": 2,
+    "reasoning": "Haiti has rich cultural heritage and beautiful landscapes, but political instability and lack of infrastructure limit its tourism appeal."
+  },
+  {
+    "country": "Liberia",
+    "rank": 2,
+    "reasoning": "Liberia has potential for tourism but is still rebuilding its infrastructure and attracting visitors post-conflict."
+  },
+  {
+    "country": "Libya",
+    "rank": 2,
+    "reasoning": "Libya has rich historical attractions, but ongoing instability severely limits tourism and visitor safety."
+  },
+  {
+    "country": "Marshall Islands",
+    "rank": 2,
+    "reasoning": "Limited tourism infrastructure and few famous attractions, but beautiful natural scenery."
+  },
+  {
+    "country": "Nauru",
+    "rank": 2,
+    "reasoning": "Very limited tourism infrastructure and attractions, primarily known for its isolation."
+  },
+  {
+    "country": "Niger",
+    "rank": 2,
+    "reasoning": "Limited tourism opportunities and infrastructure, though has some unique cultural aspects."
+  },
+  {
+    "country": "Sierra Leone",
+    "rank": 2,
+    "reasoning": "Sierra Leone has beautiful landscapes and a recovering tourism sector, but ongoing challenges limit its popularity and infrastructure."
+  },
+  {
+    "country": "Sudan",
+    "rank": 2,
+    "reasoning": "Sudan has historical attractions and natural beauty but suffers from safety concerns and limited infrastructure for tourism."
+  },
+  {
+    "country": "Tajikistan",
+    "rank": 2,
+    "reasoning": "While it has beautiful mountainous landscapes and unique cultural experiences, Tajikistan remains relatively unknown to many international tourists."
+  },
+  {
+    "country": "Togo",
+    "rank": 2,
+    "reasoning": "Togo offers unique cultural experiences and some natural beauty, but it remains under-visited and lacks extensive tourism infrastructure."
+  },
+  {
+    "country": "Turkmenistan",
+    "rank": 2,
+    "reasoning": "While it has unique attractions like the Door to Hell, Turkmenistan has limited tourism infrastructure and is not widely visited."
+  },
+  {
+    "country": "Yemen",
+    "rank": 2,
+    "reasoning": "Yemen has a rich cultural heritage and unique historical sites, but ongoing conflict and safety concerns severely limit international tourism. Infrastructure is underdeveloped, leading to challenges for travelers."
+  },
+  {
+    "country": "Afghanistan",
+    "rank": 1,
+    "reasoning": "Despite its rich history and culture, ongoing security concerns and limited infrastructure significantly hinder tourism appeal."
+  },
+  {
+    "country": "Burundi",
+    "rank": 1,
+    "reasoning": "Burundi is less known on the tourist map with limited attractions and infrastructure, affecting its popularity."
+  },
+  {
+    "country": "Central African Republic",
+    "rank": 1,
+    "reasoning": "The Central African Republic has limited tourism due to safety and infrastructure challenges, making it less appealing."
+  },
+  {
+    "country": "Chad",
+    "rank": 1,
+    "reasoning": "Chad is known for certain natural attractions but suffers from safety issues and limited tourist infrastructure."
+  },
+  {
+    "country": "Guinea-Bissau",
+    "rank": 1,
+    "reasoning": "Guinea-Bissau is not widely recognized as a tourist destination and lacks the necessary infrastructure and attractions to draw visitors."
+  },
+  {
+    "country": "Iraq",
+    "rank": 1,
+    "reasoning": "Iraq has significant historical sites but is hindered by safety concerns and infrastructure issues, making it a less favorable tourist destination."
+  },
+  {
+    "country": "Somalia",
+    "rank": 1,
+    "reasoning": "Somalia has significant challenges related to safety and infrastructure, resulting in very low tourism numbers."
+  },
+  {
+    "country": "South Sudan",
+    "rank": 1,
+    "reasoning": "South Sudan faces significant challenges related to safety and infrastructure, leading to very low interest from tourists."
+  },
+  {
+    "country": "Syria",
+    "rank": 1,
+    "reasoning": "Due to ongoing conflicts and safety concerns, Syria sees very few international visitors despite its rich history and cultural heritage."
+  },
+  {
+    "country": "Tuvalu",
+    "rank": 1,
+    "reasoning": "As one of the least visited countries in the world, Tuvalu offers pristine beaches but lacks the tourism infrastructure to attract larger numbers."
+  }
+]

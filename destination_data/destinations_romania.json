@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Bran Castle",
+    "city": "Bran",
+    "type": "landmark",
+    "description": "Often referred to as Dracula's Castle, this medieval fortress offers stunning views of the Carpathian Mountains and a rich history of Romanian royalty.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Pele\u0219 Castle",
+    "city": "Sinaia",
+    "type": "landmark",
+    "description": "A stunning Neo-Renaissance castle nestled in the Carpathians, known for its exquisite architecture and beautiful interior.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Transf\u0103g\u0103r\u0103\u0219an Highway",
+    "city": "F\u0103g\u0103ra\u0219",
+    "type": "nature",
+    "description": "Dubbed the best road in the world, it offers breathtaking mountain views and winding roads through the F\u0103g\u0103ra\u0219 Mountains.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Sighi\u0219oara Citadel",
+    "city": "Sighi\u0219oara",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, this well-preserved medieval town is the birthplace of Vlad the Impaler and features colorful houses and cobblestone streets.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Danube Delta",
+    "city": "Tulcea",
+    "type": "nature",
+    "description": "One of Europe's last wild areas, it boasts rich biodiversity and is a UNESCO Biosphere Reserve, perfect for birdwatching and boat tours.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Bucovina Painted Monasteries",
+    "city": "Suceava",
+    "type": "culture",
+    "description": "Famous for their exterior frescoes, these UNESCO World Heritage Sites offer a glimpse into Romania's rich religious art and history.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Corvin Castle",
+    "city": "Hunedoara",
+    "type": "landmark",
+    "description": "A stunning Gothic-Renaissance castle, known for its impressive towers and rich history, believed to have been home to Vlad the Impaler.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Merry Cemetery",
+    "city": "S\u0103p\u00e2n\u021ba",
+    "type": "culture",
+    "description": "Famous for its colorful tombstones with humorous epitaphs, this cemetery offers a unique perspective on life and death in Romanian culture.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Salt Mine of Turda",
+    "city": "Turda",
+    "type": "entertainment",
+    "description": "An underground amusement park and salt mine, it features a Ferris wheel, mini-golf, and a boat ride on an underground lake.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Bigar Waterfall",
+    "city": "Cara\u0219-Severin",
+    "type": "nature",
+    "description": "Known for its unique appearance, this waterfall resembles a giant green sponge and is often considered one of the most beautiful in the world.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Biertan Fortified Church",
+    "city": "Biertan",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, this fortified church is a stunning example of Transylvanian architecture and offers insights into medieval life.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Hoia Forest",
+    "city": "Cluj-Napoca",
+    "type": "nature",
+    "description": "Known as Romania's most haunted forest, it attracts visitors with its eerie legends and unique natural beauty.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Transylvania's Saxon Villages",
+    "city": "Various",
+    "type": "culture",
+    "description": "These picturesque villages, with their fortified churches and traditional houses, showcase the rich cultural heritage of the Saxons in Romania.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Carpathian Mountains",
+    "city": "Various",
+    "type": "nature",
+    "description": "A stunning mountain range that offers numerous hiking trails, picturesque landscapes, and opportunities for winter sports.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Maramure\u0219 Wooden Churches",
+    "city": "Maramure\u0219",
+    "type": "culture",
+    "description": "Famous for their tall wooden spires, these churches are UNESCO World Heritage Sites that reflect the region's unique architectural tradition.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Black Sea Coast",
+    "city": "Constan\u021ba",
+    "type": "entertainment",
+    "description": "Known for its beautiful beaches and vibrant nightlife, the Black Sea Coast is a popular destination for sun-seekers and party-goers.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Transylvania International Film Festival",
+    "city": "Cluj-Napoca",
+    "type": "entertainment",
+    "description": "Romania's largest film festival, it showcases both local and international films, attracting filmmakers and cinephiles from around the world.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Iron Gates",
+    "city": "Cazane",
+    "type": "nature",
+    "description": "A stunning gorge along the Danube River, offering breathtaking views and opportunities for hiking and boat trips.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Village Museum",
+    "city": "Bucharest",
+    "type": "culture",
+    "description": "An open-air museum showcasing traditional Romanian village life with authentic houses and artifacts from different regions.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "F\u0103g\u0103ra\u0219 Fortress",
+    "city": "F\u0103g\u0103ra\u0219",
+    "type": "landmark",
+    "description": "A well-preserved medieval fortress with a rich history, offering insights into the region's past and stunning views from its towers.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Retezat National Park",
+    "city": "Hunedoara",
+    "type": "nature",
+    "description": "Known for its stunning mountain landscapes, glacial lakes, and diverse wildlife, it's a paradise for hikers and nature lovers.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Palace of the Parliament",
+    "city": "Bucharest",
+    "type": "landmark",
+    "description": "The second-largest administrative building in the world, it showcases Romania's communist-era architecture and offers guided tours.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The National Museum of Art of Romania",
+    "city": "Bucharest",
+    "type": "culture",
+    "description": "Housed in the former Royal Palace, the museum features an impressive collection of Romanian and European art.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Dacian Fortresses of the Or\u0103\u0219tie Mountains",
+    "city": "Hunedoara",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, these ancient fortresses offer a glimpse into the lives of the Dacians and their impressive defensive structures.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "B\u0103ile Herculane",
+    "city": "B\u0103ile Herculane",
+    "type": "entertainment",
+    "description": "A historic spa town known for its thermal waters and beautiful architecture, perfect for relaxation and wellness.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Transylvanian Alps",
+    "city": "Various",
+    "type": "nature",
+    "description": "A breathtaking mountain range that offers stunning landscapes, hiking, and opportunities for winter sports.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "Cascada Big\u0103r",
+    "city": "Cara\u0219-Severin",
+    "type": "nature",
+    "description": "Famous for its unique shape and picturesque setting, this waterfall is a hidden gem in Romania's natural landscape.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Old City of Bucharest",
+    "city": "Bucharest",
+    "type": "culture",
+    "description": "Known for its vibrant nightlife, historic architecture, and charming streets, it's a hub of culture and entertainment.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Piatra Craiului National Park",
+    "city": "Z\u0103rne\u0219ti",
+    "type": "nature",
+    "description": "Renowned for its dramatic limestone ridges, this park offers exceptional hiking opportunities and rich biodiversity.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The R\u0103chi\u021bele Waterfall",
+    "city": "Cluj-Napoca",
+    "type": "nature",
+    "description": "A stunning waterfall set in a picturesque landscape, it's a perfect spot for a day trip and nature photography.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Citadel of Alba Iulia",
+    "city": "Alba Iulia",
+    "type": "landmark",
+    "description": "A historic star-shaped fortress that played a vital role in Romania's history, now a popular tourist site with museums and events.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Painted Hills of Buz\u0103u",
+    "city": "Buz\u0103u",
+    "type": "nature",
+    "description": "Known for their unique geological formations and vibrant colors, these hills are a hidden natural treasure.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Fortress of Poenari",
+    "city": "Arefu",
+    "type": "landmark",
+    "description": "A ruined fortress often associated with Vlad the Impaler, it offers stunning views and a challenging hike to reach.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Seven Ladders Canyon",
+    "city": "Bra\u0219ov",
+    "type": "nature",
+    "description": "A breathtaking canyon with wooden ladders and waterfalls, perfect for adventurous hikers.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Turda Gorge",
+    "city": "Turda",
+    "type": "nature",
+    "description": "A stunning natural reserve known for its dramatic cliffs and diverse flora and fauna, ideal for hiking and climbing.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Memorial of the Victims of Communism and of the Resistance",
+    "city": "Sighetu Marma\u021biei",
+    "type": "culture",
+    "description": "A poignant museum documenting Romania's communist past and the struggles of those who resisted it.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Sphinx and Babele",
+    "city": "Bu\u0219teni",
+    "type": "nature",
+    "description": "Unique rock formations in the Bucegi Mountains, steeped in legends and offering stunning panoramic views of the surrounding landscape.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Caves of Sc\u0103ri\u0219oara",
+    "city": "G\u00e2rda de Sus",
+    "type": "nature",
+    "description": "Home to one of the largest underground glaciers in the world, this cave system is a fascinating natural wonder.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Fortress of R\u00e2\u0219nov",
+    "city": "R\u00e2\u0219nov",
+    "type": "landmark",
+    "description": "A medieval fortress with panoramic views of the surrounding area and rich historical significance.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Iron Gates Natural Park",
+    "city": "Or\u0219ova",
+    "type": "nature",
+    "description": "A picturesque natural reserve along the Danube, known for its stunning landscapes and rich biodiversity.",
+    "country": "Romania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Hoia Forest",
+    "city": "Cluj-Napoca",
+    "type": "nature",
+    "description": "Often referred to as the world's most haunted forest, it is not only mysterious but also a beautiful natural area for hiking.",
+    "country": "Romania",
+    "country_rank": 6
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Iguazu Falls",
+    "city": "Puerto Iguazu",
+    "type": "nature",
+    "description": "One of the largest and most spectacular waterfall systems in the world, Iguazu Falls is a UNESCO World Heritage site. The falls are surrounded by lush rainforest teeming with diverse wildlife.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Perito Moreno Glacier",
+    "city": "El Calafate",
+    "type": "nature",
+    "description": "A stunning glacier located in Los Glaciares National Park, Perito Moreno is famous for its dynamic ice movements. Visitors can witness huge chunks of ice calving into the turquoise waters of Lake Argentino.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Buenos Aires",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "The vibrant capital city is known for its rich cultural life, including tango music and dance, historic architecture, and a diverse culinary scene. Neighborhoods like San Telmo and La Boca are particularly popular for their art and history.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Bariloche",
+    "city": "San Carlos de Bariloche",
+    "type": "nature",
+    "description": "Nestled in the Andes, Bariloche is known for its stunning lakes and mountains, making it a year-round destination for outdoor activities. The region is famous for its Swiss-style architecture and delicious chocolate.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Salinas Grandes",
+    "city": "Jujuy",
+    "type": "nature",
+    "description": "This vast salt flat in the northwest of Argentina offers otherworldly landscapes and stunning reflections. It's a hidden gem that provides incredible photo opportunities, especially at sunrise and sunset.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Quebrada de Humahuaca",
+    "city": "Humahuaca",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this colorful valley features dramatic rock formations and ancient indigenous cultures. The vibrant hills, like the Hill of Seven Colors, provide breathtaking scenery and cultural experiences.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Tigre Delta",
+    "city": "Tigre",
+    "type": "entertainment",
+    "description": "Just a short train ride from Buenos Aires, the Tigre Delta offers a unique network of islands and waterways. Visitors can explore the lush landscape by boat, visit charming markets, and enjoy outdoor activities.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Mendoza",
+    "city": "Mendoza",
+    "type": "culture",
+    "description": "Renowned for its wine production, particularly Malbec, Mendoza is a paradise for wine lovers. The region features picturesque vineyards, wine tours, and stunning views of the Andes mountains.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "C\u00f3rdoba",
+    "city": "C\u00f3rdoba",
+    "type": "culture",
+    "description": "The second largest city in Argentina, C\u00f3rdoba is known for its colonial architecture and vibrant student population. The Jesuit Block and the surrounding Sierras de C\u00f3rdoba offer a mix of history and nature.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Vald\u00e9s Peninsula",
+    "city": "Puerto Madryn",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this peninsula is a haven for marine wildlife, including whales, sea lions, and penguins. It offers stunning coastal views and opportunities for wildlife watching.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "El Chalt\u00e9n",
+    "city": "El Chalt\u00e9n",
+    "type": "nature",
+    "description": "Known as the trekking capital of Argentina, El Chalt\u00e9n offers access to incredible hiking trails in Los Glaciares National Park. The stunning views of Mount Fitz Roy attract outdoor enthusiasts from around the world.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Ushuaia",
+    "city": "Ushuaia",
+    "type": "nature",
+    "description": "Recognized as the southernmost city in the world, Ushuaia is surrounded by breathtaking landscapes, including mountains and the Beagle Channel. It's a gateway for exploring Tierra del Fuego National Park.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Caminito",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "A vibrant street museum and traditional alley in the La Boca neighborhood, Caminito is famous for its colorful buildings and tango performances. It's a popular spot for tourists seeking local art and culture.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Glaciares National Park",
+    "city": "El Calafate",
+    "type": "nature",
+    "description": "This national park is home to numerous glaciers, including the famous Perito Moreno Glacier. The park offers stunning landscapes, hiking trails, and opportunities for glacier trekking.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "La Boca",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "Known for its colorful houses and rich Italian heritage, La Boca is a lively neighborhood full of art, music, and dance. Visitors can enjoy street performances and explore the local artisan markets.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Rosario",
+    "city": "Rosario",
+    "type": "culture",
+    "description": "Famous for being the birthplace of Che Guevara, Rosario is also known for its beautiful riverfront and vibrant cultural scene. The city boasts impressive architecture, parks, and a rich artistic atmosphere.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "San Juan",
+    "city": "San Juan",
+    "type": "culture",
+    "description": "This province is known for its wine production and stunning natural landscapes such as the Andes mountains. San Juan is also home to rich cultural festivals and historic sites.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Sierra de la Ventana",
+    "city": "Sierra de la Ventana",
+    "type": "nature",
+    "description": "A picturesque mountain range perfect for hiking and outdoor activities, Sierra de la Ventana offers stunning views and a variety of trails. It's a tranquil getaway from city life.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cueva de las Manos",
+    "city": "Santa Cruz",
+    "type": "culture",
+    "description": "This UNESCO World Heritage site features ancient rock paintings created by indigenous people thousands of years ago. The cave's unique art and beautiful surroundings make it a must-visit.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Esteros del Iber\u00e1",
+    "city": "Corrientes",
+    "type": "nature",
+    "description": "One of the largest wetlands in the world, Iber\u00e1 is a paradise for wildlife enthusiasts. Visitors can see capybaras, caimans, and diverse bird species in their natural habitat.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Foz do Igua\u00e7u",
+    "city": "Puerto Iguazu",
+    "type": "nature",
+    "description": "Although technically in Brazil, the Foz do Igua\u00e7u is often visited alongside Iguazu Falls. It's a stunning area with numerous trails and viewpoints to experience the breathtaking waterfalls.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Purmamarca",
+    "city": "Purmamarca",
+    "type": "culture",
+    "description": "A quaint village famous for its Hill of Seven Colors, Purmamarca offers a glimpse of indigenous culture and stunning landscapes. The local artisan market is perfect for finding unique handicrafts.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Che Guevara Museum",
+    "city": "Rosario",
+    "type": "culture",
+    "description": "Housed in the childhood home of Che Guevara, this museum showcases his life and legacy. It's a fascinating place for those interested in the history of the Argentine revolutionary.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro Catedral",
+    "city": "San Carlos de Bariloche",
+    "type": "nature",
+    "description": "A premier ski resort in Argentina, Cerro Catedral is known for its stunning peaks and excellent winter sports. In the summer, it transforms into a hiking and mountain biking destination.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "San Mart\u00edn de los Andes",
+    "city": "San Mart\u00edn de los Andes",
+    "type": "nature",
+    "description": "Surrounded by lakes and mountains, this charming town is a gateway to Lan\u00edn National Park. It's ideal for outdoor activities such as hiking, fishing, and skiing.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Quebrada del Condorito",
+    "city": "La Convenci\u00f3n",
+    "type": "nature",
+    "description": "This breathtaking gorge is home to numerous Andean condors. The hike to the viewpoint offers stunning vistas of the surrounding mountains and valleys.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Valle de la Luna",
+    "city": "Ischigualasto",
+    "type": "nature",
+    "description": "Known as the Valley of the Moon, this unique landscape features striking rock formations and dinosaur fossils. It's a UNESCO World Heritage site and offers guided tours through its otherworldly terrain.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "El Bols\u00f3n",
+    "city": "El Bols\u00f3n",
+    "type": "nature",
+    "description": "A picturesque town known for its artisanal markets and organic farms, El Bols\u00f3n is surrounded by stunning mountains and lakes. It's a great spot for hiking and enjoying local craft beer.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Salta",
+    "city": "Salta",
+    "type": "culture",
+    "description": "Rich in colonial history and Andean culture, Salta is known for its beautiful architecture and vibrant traditions. The surrounding regions are great for exploring indigenous markets and stunning landscapes.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro San Javier",
+    "city": "Tucum\u00e1n",
+    "type": "nature",
+    "description": "Offering panoramic views of Tucum\u00e1n province, Cerro San Javier is a popular destination for hiking and nature lovers. The area is lush with flora and fauna, making it an ideal spot for outdoor activities.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Pueblo Hist\u00f3rico de Tafi del Valle",
+    "city": "Taf\u00ed del Valle",
+    "type": "culture",
+    "description": "This charming town is known for its beautiful landscapes and rich indigenous history. Visitors can explore the local culture and enjoy outdoor activities in the surrounding hills.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Laguna de los Tres",
+    "city": "El Chalt\u00e9n",
+    "type": "nature",
+    "description": "A stunning glacial lake located at the base of Mount Fitz Roy, Laguna de los Tres is a must-visit for hikers. The breathtaking views and the turquoise water create a picturesque setting.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Termas de Cacheuta",
+    "city": "Mendoza",
+    "type": "entertainment",
+    "description": "A natural hot spring resort, Termas de Cacheuta offers relaxation amidst beautiful mountain scenery. Visitors can enjoy thermal pools, spa treatments, and various outdoor activities.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Museo de Arte Latinoamericano de Buenos Aires (MALBA)",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "This modern art museum showcases Latin American art from the 20th century to the present. Its impressive collection includes works by renowned artists, making it a cultural highlight of the city.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Los 7 Colores",
+    "city": "Purmamarca",
+    "type": "nature",
+    "description": "The Hill of Seven Colors is an iconic natural wonder known for its vibrant, multi-colored layers. This geological formation is a favorite among photographers and nature lovers.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "El Tigre",
+    "city": "Tigre",
+    "type": "entertainment",
+    "description": "A popular weekend getaway from Buenos Aires, El Tigre offers boat rides through its beautiful delta. Visitors can explore charming riverside towns, markets, and enjoy activities like kayaking.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral de Sal",
+    "city": "Zipaquir\u00e1",
+    "type": "landmark",
+    "description": "This unique underground cathedral, carved from salt mines, is an architectural marvel and a spiritual site. It features stunning sculptures and light displays, attracting thousands of visitors each year.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional Quebrada del Condorito",
+    "city": "C\u00f3rdoba",
+    "type": "nature",
+    "description": "Home to the largest condor colony in Argentina, this national park offers breathtaking views and hiking trails. The quebrada itself is a dramatic gorge that showcases stunning natural beauty.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Ischigualasto Provincial Park",
+    "city": "San Juan",
+    "type": "nature",
+    "description": "Known as the Valley of the Moon, this park features unique rock formations and fossils from the Triassic period. Guided tours provide insight into its geological significance and ancient history.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Estancia El Salvador",
+    "city": "Santa Cruz",
+    "type": "culture",
+    "description": "This historic ranch offers visitors a glimpse into traditional Argentine ranch life. Guests can enjoy horseback riding, traditional asado (barbecue), and learn about the region's history.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Laguna Brava",
+    "city": "La Rioja",
+    "type": "nature",
+    "description": "A stunning high-altitude lagoon known for its vibrant colors and breathtaking views, Laguna Brava is a hidden gem in the Andes. It's ideal for those seeking peace and natural beauty.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro de los Siete Colores",
+    "city": "Purmamarca",
+    "type": "nature",
+    "description": "This colorful mountain range features striking layers of rock in various hues. It's a popular spot for photography and provides a captivating backdrop for the small town of Purmamarca.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Museo del Oro",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "This museum showcases the history of gold in Argentina and features impressive gold artifacts from indigenous cultures. It's an engaging place to learn about the country's rich heritage.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional Talampaya",
+    "city": "La Rioja",
+    "type": "nature",
+    "description": "This national park is known for its stunning red rock formations and unique landscapes. It offers guided tours to explore its geological wonders and ancient petroglyphs.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Colonia del Sacramento",
+    "city": "Colonia del Sacramento",
+    "type": "culture",
+    "description": "A charming historic town across the river from Buenos Aires, Colonia features cobblestone streets, well-preserved colonial architecture, and a rich Portuguese and Spanish heritage.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "R\u00edo de las Conchas",
+    "city": "Salta",
+    "type": "nature",
+    "description": "This river is famous for its striking red rock formations and scenic landscapes. Visitors can hike, explore the area, and enjoy the unique geological features.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Bodega Catena Zapata",
+    "city": "Mendoza",
+    "type": "culture",
+    "description": "An iconic winery in Mendoza, Catena Zapata is renowned for its Malbec wines and stunning architecture. Visitors can tour the vineyard and enjoy tastings while learning about Argentine winemaking.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional Los Glaciares",
+    "city": "El Chalt\u00e9n",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this park is home to breathtaking glaciers and rugged mountains. It's a paradise for hikers and nature lovers, offering stunning vistas and diverse wildlife.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "La Feria de Mataderos",
+    "city": "Buenos Aires",
+    "type": "entertainment",
+    "description": "A traditional market showcasing Argentine culture, La Feria de Mataderos features local crafts, food, and live music. It's a vibrant spot to experience local traditions and flavors.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro Torre",
+    "city": "El Chalt\u00e9n",
+    "type": "nature",
+    "description": "A legendary peak among climbers, Cerro Torre is known for its challenging ascents and stunning beauty. The surrounding area offers breathtaking views and excellent hiking opportunities.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Museo de Bellas Artes de Buenos Aires",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "This fine arts museum features an extensive collection of European and Argentine art, including works by renowned artists. It's a cultural highlight for art enthusiasts visiting the city.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Reserva Natural Otamendi",
+    "city": "Buenos Aires",
+    "type": "nature",
+    "description": "A protected area near Buenos Aires, Otamendi is home to diverse flora and fauna. Visitors can hike, birdwatch, and enjoy the tranquility of nature just outside the city.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Estancia Santa Susana",
+    "city": "Buenos Aires",
+    "type": "culture",
+    "description": "An authentic ranch experience, Estancia Santa Susana offers visitors the chance to enjoy traditional Argentine barbecue, folkloric music, and horseback riding in a picturesque setting.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro de la Gloria",
+    "city": "Mendoza",
+    "type": "landmark",
+    "description": "This monument commemorates the Army of the Andes and offers panoramic views of Mendoza. It's a significant historical site and a popular spot for visitors to learn about Argentine history.",
+    "country": "Argentina",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Andes",
+    "city": "Mendoza",
+    "type": "nature",
+    "description": "The majestic Andes mountains provide a stunning backdrop for outdoor activities such as hiking, skiing, and mountaineering. The region is known for its breathtaking landscapes and adventure sports.",
+    "country": "Argentina",
+    "country_rank": 8
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Chocolate Hills",
+    "city": "Bohol",
+    "type": "nature",
+    "description": "A unique geological formation consisting of at least 1,260 hills that turn brown during the dry season. This natural wonder is often covered in green grass, creating a stunning landscape.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Banaue Rice Terraces",
+    "city": "Ifugao",
+    "type": "culture",
+    "description": "Often referred to as the 'Eighth Wonder of the World', these ancient rice terraces are a testament to the ingenuity of the Ifugao people. They were carved into the mountains over 2,000 years ago.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Palawan Underground River",
+    "city": "Puerto Princesa",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, this river flows through a stunning limestone cave system. It features impressive rock formations and a rich biodiversity.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mayon Volcano",
+    "city": "Albay",
+    "type": "nature",
+    "description": "Known for its perfect cone shape, Mayon is an active volcano that offers breathtaking views and adventure opportunities. It is considered one of the most beautiful volcanoes in the world.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Vigan City",
+    "city": "Ilocos Sur",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, Vigan is famous for its preserved Spanish colonial and Asian architecture. The cobblestone streets and heritage houses reflect the rich history of the Philippines.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "White Beach",
+    "city": "Boracay",
+    "type": "nature",
+    "description": "Renowned for its powdery white sand and crystal-clear waters, White Beach is a popular destination for sunbathing and water sports. The vibrant nightlife adds to its allure.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Taal Volcano",
+    "city": "Batangas",
+    "type": "nature",
+    "description": "One of the most active volcanoes in the Philippines, Taal is unique because it sits within a lake. Visitors can hike to the crater and enjoy stunning views of the surrounding scenery.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Intramuros",
+    "city": "Manila",
+    "type": "culture",
+    "description": "The historic walled city of Intramuros is a significant cultural site that showcases Spanish colonial architecture. Key attractions include Fort Santiago and San Agustin Church.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Coron",
+    "city": "Palawan",
+    "type": "nature",
+    "description": "Known for its spectacular limestone cliffs and crystal-clear lakes, Coron is a paradise for divers. The area is famous for its shipwreck diving sites and vibrant coral reefs.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Siquijor",
+    "city": "Siquijor",
+    "type": "nature",
+    "description": "Often referred to as the 'Mystical Island', Siquijor is known for its stunning beaches, waterfalls, and healing traditions. Its laid-back atmosphere makes it a perfect getaway.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Hanging Coffins",
+    "city": "Sagada",
+    "type": "culture",
+    "description": "A unique burial tradition of the Igorot people, the hanging coffins are perched on cliffs and offer a glimpse into the region's rich cultural heritage. The practice reflects their beliefs about the afterlife.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Dumaguete",
+    "city": "Negros Oriental",
+    "type": "nature",
+    "description": "Known as the 'City of Gentle People', Dumaguete is famous for its beautiful coastline and proximity to diving spots like Apo Island. The vibrant expat community adds to its charm.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Kawasan Falls",
+    "city": "Cebu",
+    "type": "nature",
+    "description": "A stunning three-tiered waterfall known for its turquoise blue water. Visitors can enjoy canyoneering adventures and swim in the refreshing natural pools.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Calle Crisologo",
+    "city": "Vigan",
+    "type": "culture",
+    "description": "A historic street lined with Spanish colonial houses, Calle Crisologo is a UNESCO World Heritage Site. It's perfect for strolling and immersing oneself in Vigan's rich history.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Donsol",
+    "city": "Sorsogon",
+    "type": "nature",
+    "description": "A popular destination for whale shark watching, Donsol offers eco-friendly tours to see these gentle giants. The experience is both thrilling and educational.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Samar Island Natural Park",
+    "city": "Samar",
+    "type": "nature",
+    "description": "One of the largest protected areas in the Philippines, this park is home to diverse flora and fauna. It offers opportunities for trekking, wildlife spotting, and exploring caves.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Pulag",
+    "city": "Benguet",
+    "type": "nature",
+    "description": "The highest peak in Luzon, Mount Pulag is famous for its sea of clouds and diverse ecosystem. It's a popular hiking destination, especially during the cool months.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Bohol Tarsier Sanctuary",
+    "city": "Bohol",
+    "type": "nature",
+    "description": "Home to the smallest primates in the world, the sanctuary allows visitors to observe tarsiers in their natural habitat. The conservation efforts here aim to protect these unique creatures.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Pahiyas Festival",
+    "city": "Lucban",
+    "type": "culture",
+    "description": "An annual harvest festival, Pahiyas is celebrated with colorful decorations made from rice and other produce. The vibrant display and cultural performances make it a must-see.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Apo",
+    "city": "Davao",
+    "type": "nature",
+    "description": "As the highest peak in the Philippines, Mount Apo is a popular destination for trekkers and nature lovers. The mountain boasts diverse flora and fauna, including the endangered Philippine Eagle.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Taal Heritage Town",
+    "city": "Batangas",
+    "type": "culture",
+    "description": "This charming town is known for its well-preserved historical structures, including ancestral homes and churches. It's a great place to experience Filipino heritage and culture.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Malapascua Island",
+    "city": "Cebu",
+    "type": "nature",
+    "description": "Famous for its thresher sharks, Malapascua Island is a top diving destination. The island offers pristine beaches and a relaxed atmosphere for travelers.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Siargao",
+    "city": "Surigao del Norte",
+    "type": "nature",
+    "description": "Known as the surfing capital of the Philippines, Siargao boasts beautiful beaches and vibrant nightlife. Cloud 9 is famous for its surf breaks, attracting surfers from around the world.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Iglit-Baco National Park",
+    "city": "Mindoro",
+    "type": "nature",
+    "description": "A lesser-known national park, it is home to unique wildlife and indigenous communities. The park offers hiking trails and stunning views of the surrounding mountains.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Enchanted River",
+    "city": "Surigao del Sur",
+    "type": "nature",
+    "description": "A mesmerizing blue river that is said to have mystical powers. The crystal-clear waters and surrounding lush greenery make it a serene and beautiful spot for swimming.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Batanes",
+    "city": "Batanes",
+    "type": "nature",
+    "description": "A remote archipelago known for its stunning landscapes and unique culture. The rolling hills, stone houses, and breathtaking cliffs make Batanes a hidden gem in the Philippines.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Biri Island",
+    "city": "Northern Samar",
+    "type": "nature",
+    "description": "Famous for its dramatic rock formations and pristine beaches, Biri Island is a hidden paradise for nature lovers. It offers a tranquil escape from the bustling tourist spots.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Cagbalete Island",
+    "city": "Quezon",
+    "type": "nature",
+    "description": "A peaceful island known for its white sand beaches and tidal pools. Cagbalete is perfect for relaxation, picnics, and exploring its natural beauty.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Hidden Beach",
+    "city": "El Nido",
+    "type": "nature",
+    "description": "A secluded beach surrounded by towering limestone cliffs, Hidden Beach is a paradise for those seeking tranquility. It's accessible only by boat, adding to its charm.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Bamboo Organ",
+    "city": "Las Pi\u00f1as",
+    "type": "culture",
+    "description": "A unique musical instrument made entirely of bamboo, the Bamboo Organ is housed in St. Joseph Parish Church. It showcases the rich musical heritage of the Philippines.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Kawit, Cavite",
+    "city": "Cavite",
+    "type": "culture",
+    "description": "The site of the historic Aguinaldo Shrine, where Philippine independence was declared. The shrine and its surrounding gardens are a testament to the country's rich history.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Bantayan Island",
+    "city": "Cebu",
+    "type": "nature",
+    "description": "Known for its stunning beaches and laid-back atmosphere, Bantayan Island is perfect for relaxation. The island offers beautiful sunsets and crystal-clear waters.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Lake Sebu",
+    "city": "South Cotabato",
+    "type": "nature",
+    "description": "Famous for its seven lakes and rich cultural heritage, Lake Sebu is a serene destination. It is also known for the T'boli tribe, who maintain their traditional way of life.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Camiguin",
+    "city": "Camiguin",
+    "type": "nature",
+    "description": "Known as the 'Island Born of Fire', Camiguin is home to numerous volcanoes and hot springs. The island's natural beauty and unique attractions make it a hidden gem.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Samar Island",
+    "city": "Samar",
+    "type": "nature",
+    "description": "Home to the Sohoton Natural Bridge National Park, Samar Island is known for its limestone formations and stunning rivers. It's a great destination for eco-adventures.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Batanes' Basco Lighthouse",
+    "city": "Basco",
+    "type": "landmark",
+    "description": "A picturesque lighthouse that offers breathtaking views of the surrounding sea and landscapes. It's a popular spot for photography and sunsets.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Panjangan Island",
+    "city": "Batangas",
+    "type": "nature",
+    "description": "A lesser-known island offering pristine beaches and clear waters. It's an ideal destination for snorkeling, swimming, and relaxing away from the crowds.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Samat",
+    "city": "Bataan",
+    "type": "landmark",
+    "description": "Home to the Dambana ng Kagitingan (Shrine of Valor), this site commemorates Filipino and American soldiers who fought during World War II. The view from the top is spectacular.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Subterranean River National Park",
+    "city": "Puerto Princesa",
+    "type": "nature",
+    "description": "A stunning underground river that flows through a limestone cave system. It's a UNESCO World Heritage Site and one of the New7Wonders of Nature.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "The Ruins",
+    "city": "Talisay",
+    "type": "landmark",
+    "description": "The remains of a grand ancestral house, The Ruins is known for its romantic atmosphere and beautiful gardens. It offers a glimpse into the country's colonial past.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Baguio City",
+    "city": "Benguet",
+    "type": "entertainment",
+    "description": "Known as the 'Summer Capital of the Philippines', Baguio offers a cool climate, vibrant markets, and beautiful parks. It's famous for its annual Panagbenga Festival.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Masungi Georeserve",
+    "city": "Baras",
+    "type": "nature",
+    "description": "A conservation area featuring stunning limestone formations and a network of trails. The georeserve promotes environmental awareness while offering adventure activities.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Daranak Falls",
+    "city": "Tanay",
+    "type": "nature",
+    "description": "A beautiful waterfall surrounded by lush greenery, Daranak Falls is a popular spot for swimming and picnicking. Its serene atmosphere makes it a great escape from the city.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Laoag Sand Dunes",
+    "city": "Ilocos Norte",
+    "type": "entertainment",
+    "description": "A unique desert-like landscape, the Laoag Sand Dunes offer thrilling activities such as sandboarding and 4x4 rides. It's a fun adventure for adrenaline junkies.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Kitanglad",
+    "city": "Bukidnon",
+    "type": "nature",
+    "description": "Part of the Kitanglad Mountain Range, this mountain is known for its rich biodiversity and stunning views. It's a popular destination for hikers and nature enthusiasts.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Batanes' Valugan Boulder Beach",
+    "city": "Basco",
+    "type": "nature",
+    "description": "This unique beach is covered with smooth boulders instead of sand, offering a different kind of beauty. The picturesque landscape is perfect for photography.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Samar's Sohoton Natural Bridge",
+    "city": "Samar",
+    "type": "nature",
+    "description": "A stunning natural bridge formed by limestone, it features lush forests and beautiful rivers. Visitors can explore the area through kayaking and trekking.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "San Juan Beach",
+    "city": "La Union",
+    "type": "nature",
+    "description": "Known for its surfing spots and vibrant beach culture, San Juan Beach is a favorite among surfers and beachgoers. The laid-back atmosphere makes it perfect for relaxation.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Nacpan Beach",
+    "city": "El Nido",
+    "type": "nature",
+    "description": "A pristine beach known for its golden sand and clear waters, Nacpan Beach is a peaceful retreat away from the crowds. It's ideal for sunbathing and beach activities.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Bohol Bee Farm",
+    "city": "Bohol",
+    "type": "culture",
+    "description": "An organic farm that offers tours and tastings of local honey and dishes. The farm promotes sustainability and provides insights into beekeeping.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Sulu Archipelago",
+    "city": "Sulu",
+    "type": "nature",
+    "description": "A stunning group of islands known for their rich marine life and pristine beaches. It's an off-the-beaten-path destination for adventurous travelers.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Taal Vista Hotel",
+    "city": "Tagaytay",
+    "type": "entertainment",
+    "description": "Known for its stunning views of Taal Volcano, this hotel is a popular getaway spot. The surrounding area offers numerous attractions and dining options.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "The Mind Museum",
+    "city": "Taguig",
+    "type": "entertainment",
+    "description": "A science museum that offers interactive exhibits and educational experiences. It's a great place for families and curious minds to learn about science.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Bataan National Park",
+    "city": "Bataan",
+    "type": "nature",
+    "description": "A protected area that features diverse flora and fauna, hiking trails, and historical sites. It's perfect for outdoor enthusiasts and history buffs.",
+    "country": "Philippines",
+    "country_rank": 8
+  },
+  {
+    "name": "Baguio Botanical Garden",
+    "city": "Baguio",
+    "type": "nature",
+    "description": "A beautiful garden filled with native plants and flowers, it offers a peaceful escape in the city. Visitors can enjoy leisurely walks and take in the fresh mountain air.",
+    "country": "Philippines",
+    "country_rank": 8
+  }
+]

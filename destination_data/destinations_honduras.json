@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Cop\u00e1n Ruins",
+    "city": "Cop\u00e1n Ruinas",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Cop\u00e1n Ruins is an ancient Mayan city known for its stunning stone sculptures and hieroglyphics. It offers a glimpse into the sophisticated civilization that once thrived here.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Roatan",
+    "city": "Roatan",
+    "type": "nature",
+    "description": "This beautiful Caribbean island is renowned for its stunning beaches and vibrant coral reefs, making it a top destination for diving and snorkeling. The lush landscapes and friendly locals add to its charm.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Utila",
+    "city": "Utila",
+    "type": "nature",
+    "description": "Famous for its diving opportunities and laid-back atmosphere, Utila is one of the Bay Islands of Honduras. The island is also a great place to see whale sharks and explore its vibrant marine life.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Pico Bonito National Park",
+    "city": "La Ceiba",
+    "type": "nature",
+    "description": "This national park is a paradise for outdoor enthusiasts, featuring lush rainforests, waterfalls, and diverse wildlife. Hiking, birdwatching, and river rafting are popular activities here.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "La Tigra National Park",
+    "city": "Tegucigalpa",
+    "type": "nature",
+    "description": "Located just outside the capital, La Tigra is known for its cloud forests and rich biodiversity. The park is perfect for hiking and offers various trails that lead through its stunning landscapes.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Cayos Cochinos",
+    "city": "Cayos Cochinos",
+    "type": "nature",
+    "description": "This secluded archipelago is known for its pristine beaches and coral reefs. It\u2019s a hidden gem for those looking to escape the crowds and enjoy nature's tranquility.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Santa Rosa de Cop\u00e1n",
+    "city": "Santa Rosa de Cop\u00e1n",
+    "type": "culture",
+    "description": "This charming town is known for its colonial architecture and vibrant local culture. It serves as a gateway to the nearby Mayan ruins of Cop\u00e1n and offers a taste of traditional Honduran life.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Gracias",
+    "city": "Gracias",
+    "type": "culture",
+    "description": "A historical town with beautiful colonial architecture, Gracias is surrounded by lush mountains. It's known for its hot springs and the picturesque Celaque National Park nearby.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerro Azul Meambar National Park",
+    "city": "Comayagua",
+    "type": "nature",
+    "description": "This national park is a gem for hikers, featuring scenic trails, waterfalls, and diverse flora and fauna. It's a great spot to experience the beauty of Honduras' mountainous regions.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "El Cacao",
+    "city": "La Ceiba",
+    "type": "culture",
+    "description": "A unique indigenous community dedicated to preserving their culture and traditions, El Cacao offers visitors workshops on traditional crafts and a chance to experience local customs.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Omoa Castle",
+    "city": "Omoa",
+    "type": "landmark",
+    "description": "This historic fortress was built in the 18th century to protect against pirate attacks. Today, it stands as a fascinating landmark showcasing the history of the region.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Lago de Yojoa",
+    "city": "Santa Cruz de Yojoa",
+    "type": "nature",
+    "description": "The largest lake in Honduras, Lago de Yojoa is surrounded by lush vegetation and offers excellent birdwatching and fishing opportunities. The area is also home to several waterfalls and parks.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerro de las Antorchas",
+    "city": "Tegucigalpa",
+    "type": "landmark",
+    "description": "A prominent hill in Tegucigalpa, Cerro de las Antorchas offers panoramic views of the city. It\u2019s a popular spot for both locals and tourists seeking stunning sunsets.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Punta Sal National Park",
+    "city": "Tela",
+    "type": "nature",
+    "description": "This coastal park is a blend of lush tropical forests and beautiful beaches, offering a refuge for many wildlife species. It's an excellent spot for eco-tourism and marine activities.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Islas de la Bah\u00eda",
+    "city": "Roatan",
+    "type": "nature",
+    "description": "A collection of islands known for their stunning beaches and rich marine biodiversity. The islands are perfect for snorkeling, diving, and relaxing in a tropical paradise.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Tegucigalpa Cathedral",
+    "city": "Tegucigalpa",
+    "type": "landmark",
+    "description": "An impressive example of colonial architecture, the Tegucigalpa Cathedral is located in the city center. Its beautiful interior and historical significance make it a must-visit.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Valle de Angeles",
+    "city": "Valle de Angeles",
+    "type": "culture",
+    "description": "A quaint mountain town known for its artisan shops and stunning views, Valle de Angeles is a great place to experience local crafts and cuisine. It's a popular getaway from the capital.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "San Pedro Sula",
+    "city": "San Pedro Sula",
+    "type": "culture",
+    "description": "Honduras' second-largest city is a hub for commerce and culture. Visitors can explore its museums, parks, and vibrant markets to get a taste of urban life.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Choluteca",
+    "city": "Choluteca",
+    "type": "culture",
+    "description": "Known for its colonial history and beautiful landscapes, Choluteca features charming architecture and local culture. It's an ideal spot for those interested in exploring off-the-beaten-path destinations.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Cascadas de Pulhapanzak",
+    "city": "La Esperanza",
+    "type": "nature",
+    "description": "These stunning waterfalls are one of the most beautiful natural attractions in Honduras. Visitors can swim, hike, and enjoy the breathtaking views of the cascading water.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Santa Barbara",
+    "city": "Santa Barbara",
+    "type": "culture",
+    "description": "A historic town surrounded by mountains, Santa Barbara is known for its colonial churches and vibrant local culture. It\u2019s a great place to learn about Honduran history.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "La Ceiba",
+    "city": "La Ceiba",
+    "type": "entertainment",
+    "description": "Known as the nightlife capital of Honduras, La Ceiba offers a vibrant atmosphere with bars, clubs, and restaurants. It's also famous for its annual carnival.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Los Cayos de Tela",
+    "city": "Tela",
+    "type": "nature",
+    "description": "A beautiful group of islands off the coast of Tela, known for their stunning beaches and rich marine life. It's an ideal destination for a day trip or snorkeling adventure.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "El Salvador de la Frontera",
+    "city": "Choloma",
+    "type": "culture",
+    "description": "A lesser-known town with rich cultural heritage and local festivals, it offers visitors a glimpse into traditional Honduran life. The town is surrounded by beautiful landscapes.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "La Mosquitia",
+    "city": "La Mosquitia",
+    "type": "nature",
+    "description": "A remote region known for its biodiversity and indigenous cultures. It\u2019s a hidden gem for adventure travelers seeking eco-tourism and exploration.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Los Naranjos Ecological Park",
+    "city": "Tegucigalpa",
+    "type": "nature",
+    "description": "This ecological park is a serene escape within the city, offering walking trails, picnic areas, and opportunities for birdwatching. It's a perfect spot for families and nature lovers.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Palacio Nacional",
+    "city": "Tegucigalpa",
+    "type": "landmark",
+    "description": "The National Palace is an important political building with beautiful architecture and rich history. Guided tours offer insights into the country's governance and heritage.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Catedral de Comayagua",
+    "city": "Comayagua",
+    "type": "landmark",
+    "description": "This stunning cathedral is one of the oldest in Central America, featuring beautiful baroque architecture. It holds significant historical and religious importance.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "El Pital",
+    "city": "La Paz",
+    "type": "nature",
+    "description": "The highest point in Honduras, El Pital offers breathtaking views and a cooler climate. It's a popular destination for hiking and enjoying nature away from the heat.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Siguatepeque",
+    "city": "Siguatepeque",
+    "type": "culture",
+    "description": "Known for its beautiful landscapes and cultural festivals, Siguatepeque is a charming town that offers visitors a taste of local traditions and cuisine.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Playa El Porvenir",
+    "city": "Tegucigalpa",
+    "type": "nature",
+    "description": "A lovely beach destination close to the capital, Playa El Porvenir is ideal for relaxation and enjoying the sun. The area is also known for its seafood and local cuisine.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "El Cacao EcoLodge",
+    "city": "La Ceiba",
+    "type": "nature",
+    "description": "This eco-lodge offers a unique experience of staying in harmony with nature. Visitors can enjoy outdoor activities like hiking and birdwatching while supporting sustainable tourism.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Iglesia San Francisco",
+    "city": "Tegucigalpa",
+    "type": "landmark",
+    "description": "A significant historical and architectural landmark, this church showcases intricate colonial designs and is a peaceful place for reflection in the heart of the city.",
+    "country": "Honduras",
+    "country_rank": 4
+  },
+  {
+    "name": "Los Andes",
+    "city": "Santa Rosa de Cop\u00e1n",
+    "type": "nature",
+    "description": "A hidden gem known for its stunning mountain views and tranquil environment. It's a perfect getaway for those looking to escape the hustle and bustle of city life.",
+    "country": "Honduras",
+    "country_rank": 4
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Olumo Rock",
+    "city": "Abeokuta",
+    "type": "nature",
+    "description": "A massive outcrop of granite rocks that offers stunning views of the surrounding area. It holds historical significance as a fortress during the Yoruba civil wars.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Aso Rock",
+    "city": "Abuja",
+    "type": "landmark",
+    "description": "A prominent 400-meter tall rock formation that overlooks the Nigerian Presidential Complex. It is a symbol of the capital city and offers breathtaking views.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Zuma Rock",
+    "city": "Abuja",
+    "type": "nature",
+    "description": "Often referred to as the 'Gateway to Abuja', Zuma Rock is a massive monolith that stands tall and is rich in local folklore. It is a popular spot for photography and picnics.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Lekki Conservation Centre",
+    "city": "Lagos",
+    "type": "nature",
+    "description": "A serene nature reserve featuring a canopy walkway, wildlife, and lush vegetation. It's a great spot for bird watchers and those looking to escape the city's hustle.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Kano City Walls",
+    "city": "Kano",
+    "type": "landmark",
+    "description": "These ancient walls date back to the 14th century and showcase the rich history of Kano. The walls are a UNESCO World Heritage site and offer insight into the city's past.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ogbunike Caves",
+    "city": "Ogbunike",
+    "type": "nature",
+    "description": "A network of caves with historical significance and beautiful rock formations. It is an ideal spot for adventure seekers and nature lovers.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Gurara Waterfalls",
+    "city": "Minna",
+    "type": "nature",
+    "description": "A stunning waterfall located just outside Minna, perfect for picnics and relaxation. The surrounding area offers opportunities for hiking and exploration.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Nike Art Gallery",
+    "city": "Lagos",
+    "type": "culture",
+    "description": "One of the largest art galleries in Nigeria, showcasing a diverse range of Nigerian art. It promotes local artists and offers a glimpse into Nigeria's rich cultural heritage.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Idanre Hills",
+    "city": "Idanre",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site known for its stunning landscape and rich history. The hills offer hiking trails and a chance to explore ancient settlements.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "The National Mosque",
+    "city": "Abuja",
+    "type": "landmark",
+    "description": "One of the largest mosques in Africa, famous for its stunning architecture and serene atmosphere. It is open to visitors of all faiths.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Badagry Slave Museum",
+    "city": "Badagry",
+    "type": "culture",
+    "description": "An important historical site that educates visitors on the transatlantic slave trade. It houses artifacts and documents that tell the story of slavery in Nigeria.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Obudu Mountain Resort",
+    "city": "Obudu",
+    "type": "nature",
+    "description": "A stunning mountain resort known for its scenic beauty and cool climate. It features a cable car, hiking trails, and a water park.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Lekki Market",
+    "city": "Lagos",
+    "type": "culture",
+    "description": "A vibrant market known for its unique crafts, textiles, and local foods. It's a great place to experience the local culture and shop for souvenirs.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Sukur Cultural Landscape",
+    "city": "Adamawa",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site that showcases ancient terraced fields and traditional architecture. It is a testament to the rich cultural heritage of the Berom people.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ebute Metta",
+    "city": "Lagos",
+    "type": "culture",
+    "description": "A historic area in Lagos that reflects the colonial past and local culture. It features beautiful architecture and is home to several cultural festivals.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Awhum Waterfall",
+    "city": "Enugu",
+    "type": "nature",
+    "description": "A beautiful waterfall located in a serene environment, perfect for relaxation and picnics. The surrounding forest is rich in biodiversity.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Tinubu Square",
+    "city": "Lagos",
+    "type": "landmark",
+    "description": "A historic square in Lagos that commemorates the legacy of the Tinubu family. It is surrounded by colonial buildings and is a bustling area of the city.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Niger Delta",
+    "city": "Delta",
+    "type": "nature",
+    "description": "Known for its rich biodiversity and unique ecosystems, the Niger Delta is a hidden gem for eco-tourists. It offers opportunities for bird watching and cultural experiences.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Oyo Empire Museum",
+    "city": "Oyo",
+    "type": "culture",
+    "description": "A museum dedicated to the history of the Oyo Empire, showcasing artifacts and exhibits that highlight the empire's influence in Nigeria.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ogbomosho",
+    "city": "Ogbomosho",
+    "type": "culture",
+    "description": "A city rich in Yoruba culture, known for its traditional festivals, crafts, and vibrant local markets. It provides a glimpse into the lifestyle of the Yoruba people.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Epe Mangroves",
+    "city": "Epe",
+    "type": "nature",
+    "description": "A hidden gem featuring lush mangrove forests and diverse wildlife. It's an excellent spot for kayaking and exploring the unique ecosystem.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "The National Theatre",
+    "city": "Lagos",
+    "type": "entertainment",
+    "description": "A cultural landmark known for hosting various art performances, including music, dance, and drama. It is a hub for Nigeria's creative industry.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Gidan Makama Museum",
+    "city": "Kano",
+    "type": "culture",
+    "description": "A museum that showcases the history and culture of Kano, featuring traditional artifacts and exhibits that highlight the city's significance.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Awhum Monastery",
+    "city": "Enugu",
+    "type": "culture",
+    "description": "A serene monastery nestled in the hills, attracting visitors seeking tranquility and spiritual reflection. Its natural surroundings enhance its peaceful ambiance.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ladi Kwali Pottery Centre",
+    "city": "Abuja",
+    "type": "culture",
+    "description": "Dedicated to the art of pottery, this center showcases the work of renowned potter Ladi Kwali and offers workshops for visitors to learn the craft.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "The Bower's Tower",
+    "city": "Ibadan",
+    "type": "landmark",
+    "description": "An iconic tower that offers panoramic views of Ibadan city. It is a popular spot for tourists and locals alike, especially during sunset.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Oyo National Park",
+    "city": "Oyo",
+    "type": "nature",
+    "description": "A national park known for its diverse wildlife and scenic landscapes. It provides opportunities for hiking, bird watching, and exploring nature.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "The Osun-Osogbo Sacred Grove",
+    "city": "Osogbo",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site that is a sacred forest and the spiritual home of the Osun goddess. It is known for its cultural festivals and lush greenery.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Calabar Carnival",
+    "city": "Calabar",
+    "type": "entertainment",
+    "description": "Known as Africa's biggest street party, this carnival features vibrant parades, music, and dance. It attracts visitors from all over the world.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Kainji Lake National Park",
+    "city": "New Bussa",
+    "type": "nature",
+    "description": "A national park that is home to diverse wildlife and offers opportunities for boat rides and fishing. It is a haven for nature enthusiasts.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ikogosi Warm Springs",
+    "city": "Ekiti",
+    "type": "nature",
+    "description": "A unique natural spring where warm and cold waters converge. It is surrounded by lush vegetation and offers a serene environment for relaxation.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "The Ogbunike Caves",
+    "city": "Ogbunike",
+    "type": "nature",
+    "description": "A series of caves that offer adventure and historical significance. The caves are surrounded by lush greenery and provide a unique exploration experience.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Oyo-Ile",
+    "city": "Oyo",
+    "type": "culture",
+    "description": "A historic town that was once the capital of the Oyo Empire, known for its rich history and cultural heritage. It's a great spot for exploring ancient Yoruba culture.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Ngwo Pine Forest",
+    "city": "Enugu",
+    "type": "nature",
+    "description": "A beautiful pine forest that offers a serene escape from the city. It features walking trails and picnic spots amidst towering pine trees.",
+    "country": "Nigeria",
+    "country_rank": 4
+  },
+  {
+    "name": "Bantu Cultural Centre",
+    "city": "Lagos",
+    "type": "culture",
+    "description": "A center dedicated to promoting African culture through art, music, and dance performances. It offers workshops and events for visitors to engage with local culture.",
+    "country": "Nigeria",
+    "country_rank": 4
+  }
+]

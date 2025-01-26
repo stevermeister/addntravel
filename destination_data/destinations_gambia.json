@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Kachikally Crocodile Pool",
+    "city": "Bakau",
+    "type": "nature",
+    "description": "A sacred pool home to dozens of Nile crocodiles, where visitors can observe these magnificent creatures up close. It is also a site for traditional healing rituals and is steeped in local folklore.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Abuko Nature Reserve",
+    "city": "Banjul",
+    "type": "nature",
+    "description": "A protected area known for its diverse wildlife, including various bird species, monkeys, and reptiles. The reserve offers serene walking trails through lush vegetation, perfect for birdwatching and nature lovers.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kunta Kinteh Island",
+    "city": "Banjul",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site that serves as a poignant reminder of the transatlantic slave trade. Visitors can explore the historical ruins and learn about the island's significance in African history.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Gambia River",
+    "city": "Various",
+    "type": "nature",
+    "description": "The lifeblood of the country, the Gambia River offers stunning views and opportunities for boat trips, fishing, and wildlife spotting. It is a vital habitat for numerous bird species and other wildlife.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Juffureh",
+    "city": "Juffureh",
+    "type": "culture",
+    "description": "The birthplace of Kunta Kinteh, this village is steeped in history and culture. Visitors can explore the local museum and engage with the community to learn about the legacy of the slave trade.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Arch 22",
+    "city": "Banjul",
+    "type": "landmark",
+    "description": "A striking monument that commemorates the coup d'\u00e9tat of 1994. Visitors can climb to the top for panoramic views of Banjul and the surrounding area, offering a glimpse into the country\u2019s political history.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tanji Fishing Village",
+    "city": "Tanji",
+    "type": "culture",
+    "description": "A vibrant coastal village where traditional fishing techniques are still practiced. Visitors can witness the daily catch being brought in and enjoy fresh seafood at local eateries.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Serekunda Market",
+    "city": "Serekunda",
+    "type": "culture",
+    "description": "The largest market in The Gambia, bustling with life and offering a wide array of goods from fresh produce to handmade crafts. It\u2019s a perfect place to immerse yourself in local culture and shop for souvenirs.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Banjul Arts and Crafts Market",
+    "city": "Banjul",
+    "type": "culture",
+    "description": "A colorful market featuring local artisans selling handmade crafts, textiles, and artwork. It\u2019s an ideal spot to find unique gifts and support local artists.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kerewan",
+    "city": "Kerewan",
+    "type": "culture",
+    "description": "A lesser-known village known for its traditional Gambian architecture and local crafts. Visitors can engage with the community and learn about their customs and lifestyle.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bamboo Village",
+    "city": "Banjul",
+    "type": "entertainment",
+    "description": "A lively venue that hosts traditional music and dance performances, showcasing Gambian culture. It\u2019s an excellent spot for tourists to experience local entertainment in a vibrant atmosphere.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "James Island",
+    "city": "Banjul",
+    "type": "landmark",
+    "description": "A historic site that was once a major slave trading post. The island features ruins and museums that tell the stories of the past, providing a reflective experience for visitors.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Pirang Forest Park",
+    "city": "Pirang",
+    "type": "nature",
+    "description": "A hidden gem for nature lovers, this park is home to diverse flora and fauna, including rare bird species. It offers a tranquil environment for hiking and exploring the natural beauty of The Gambia.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Gambia National Museum",
+    "city": "Banjul",
+    "type": "culture",
+    "description": "The country\u2019s premier museum, showcasing artifacts, art, and exhibits that represent Gambian history and culture. It\u2019s an informative stop for anyone interested in the rich heritage of the country.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kotu Beach",
+    "city": "Kotu",
+    "type": "nature",
+    "description": "A popular beach known for its stunning sunsets and vibrant atmosphere. It\u2019s a great spot for relaxation, swimming, and enjoying water sports.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Fathala Wildlife Reserve",
+    "city": "Fathala",
+    "type": "nature",
+    "description": "A wildlife preserve home to diverse species, including giraffes, zebras, and various birdlife. Visitors can go on guided safaris to observe animals in their natural habitat.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Makasutu Culture Forest",
+    "city": "Banjul",
+    "type": "nature",
+    "description": "A unique ecotourism destination that combines nature and culture. Visitors can explore the mangroves, enjoy birdwatching, and learn about local traditions and customs.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Banjul Ferry Terminal",
+    "city": "Banjul",
+    "type": "landmark",
+    "description": "A bustling hub where locals and tourists cross the Gambia River. The terminal offers a glimpse into daily life and provides access to nearby islands.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Senegambia Strip",
+    "city": "Kololi",
+    "type": "entertainment",
+    "description": "A lively area filled with restaurants, bars, and shops, catering to tourists looking for nightlife and entertainment. It\u2019s a great place to experience the vibrant social scene of The Gambia.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Sanyang Beach",
+    "city": "Sanyang",
+    "type": "nature",
+    "description": "A beautiful, less crowded beach known for its pristine sands and clear waters. It\u2019s an ideal spot for relaxation, picnics, and enjoying the natural surroundings.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Banjul City Hall",
+    "city": "Banjul",
+    "type": "landmark",
+    "description": "An architectural gem that reflects the colonial history of The Gambia. Visitors can admire its design and learn about the city\u2019s governance and local history.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Niumi National Park",
+    "city": "Niumi",
+    "type": "nature",
+    "description": "A serene national park that is home to various wildlife and stunning landscapes. It\u2019s a perfect destination for eco-tourism and exploring the natural beauty of The Gambia.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kankurang Festival",
+    "city": "Various",
+    "type": "culture",
+    "description": "An annual traditional festival celebrating the Kankurang, a masked figure representing the spirit of the forest. The festival features vibrant parades, music, and dances that showcase local culture.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Gunjur Village Museum",
+    "city": "Gunjur",
+    "type": "culture",
+    "description": "A small museum dedicated to preserving the history and culture of Gunjur and surrounding areas. It provides insight into local traditions, crafts, and community life.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Banjul Beach",
+    "city": "Banjul",
+    "type": "nature",
+    "description": "A lesser-known beach that offers a quiet retreat from the busier tourist spots. It's perfect for sunbathing, swimming, and enjoying a peaceful day by the sea.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kachikally Museum",
+    "city": "Bakau",
+    "type": "culture",
+    "description": "Adjacent to the Crocodile Pool, this museum showcases the history and cultural practices of the Gambian people. It features exhibits on traditional healing and local folklore.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Sankandi Beach",
+    "city": "Sankandi",
+    "type": "nature",
+    "description": "A secluded beach known for its natural beauty and tranquility. It\u2019s an ideal spot for those looking to escape the crowds and enjoy a peaceful day by the ocean.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kunta Kinteh Memorial",
+    "city": "Juffureh",
+    "type": "landmark",
+    "description": "A memorial dedicated to Kunta Kinteh, symbolizing the struggle against slavery. This site is significant for understanding the impact of the slave trade on Gambian heritage.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tanjay Village",
+    "city": "Tanji",
+    "type": "culture",
+    "description": "A traditional fishing village where visitors can experience the local way of life and see the fishermen at work. It offers a glimpse into the fishing culture and community spirit.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Gambia Horse and Donkey Trust",
+    "city": "Brikama",
+    "type": "nature",
+    "description": "A charitable organization dedicated to the welfare of working animals. Visitors can learn about animal care, take part in educational activities, and support the trust's mission.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Makasutu Cultural Forest",
+    "city": "Banjul",
+    "type": "nature",
+    "description": "A unique blend of culture and nature, this forest is a haven for birdwatchers and nature enthusiasts. Guided tours offer insights into the ecosystem and local traditions.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kangkor Village",
+    "city": "Kangkor",
+    "type": "culture",
+    "description": "A hidden gem where visitors can experience traditional Gambian life and customs. The village offers cultural tours, local cuisine, and an opportunity to engage with the community.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Sankandi Island",
+    "city": "Sankandi",
+    "type": "nature",
+    "description": "A picturesque island known for its wildlife and natural beauty. Perfect for a day trip, visitors can explore its landscapes and enjoy activities like fishing and birdwatching.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Jambur Village",
+    "city": "Jambur",
+    "type": "culture",
+    "description": "A vibrant village known for its rich cultural heritage and warm hospitality. Visitors can experience traditional music, dance, and local crafts, making for an immersive cultural experience.",
+    "country": "Gambia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kunta Kinteh's Tree",
+    "city": "Juffureh",
+    "type": "landmark",
+    "description": "A historic tree believed to be the spot where Kunta Kinteh was captured. It serves as a poignant reminder of the slave trade and attracts visitors interested in history and heritage.",
+    "country": "Gambia",
+    "country_rank": 4
+  }
+]

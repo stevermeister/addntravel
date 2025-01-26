@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Christ the Redeemer",
+    "city": "Rio de Janeiro",
+    "type": "landmark",
+    "description": "This iconic statue of Jesus Christ stands atop the Corcovado Mountain, offering breathtaking views of the city. It is one of the New Seven Wonders of the World and a symbol of Brazil.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Iguazu Falls",
+    "city": "Foz do Igua\u00e7u",
+    "type": "nature",
+    "description": "A stunning network of waterfalls on the border of Brazil and Argentina, Iguazu Falls is a UNESCO World Heritage Site. The sheer power and beauty of the falls attract millions of visitors each year.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Amazon Rainforest",
+    "city": "Manaus",
+    "type": "nature",
+    "description": "The Amazon Rainforest is the largest tropical rainforest in the world, teeming with biodiversity. Guided tours offer a chance to explore its unique ecosystem and meet indigenous communities.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Len\u00e7\u00f3is Maranhenses",
+    "city": "Barreirinhas",
+    "type": "nature",
+    "description": "This national park features vast sand dunes interspersed with crystal-clear lagoons, creating a surreal landscape. It's a perfect destination for adventure seekers and nature lovers.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Sugarloaf Mountain",
+    "city": "Rio de Janeiro",
+    "type": "landmark",
+    "description": "Rising 396 meters above the harbor, Sugarloaf Mountain offers panoramic views of Rio de Janeiro. A cable car ride takes visitors to the summit for stunning sunset vistas.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Pantanal",
+    "city": "Cuiab\u00e1",
+    "type": "nature",
+    "description": "The Pantanal is the world's largest tropical wetland, known for its incredible wildlife diversity, including jaguars, capybaras, and caimans. It's an ideal destination for eco-tourism and birdwatching.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Salvador's Pelourinho",
+    "city": "Salvador",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, Pelourinho is the historic center of Salvador, featuring colorful colonial buildings and cobblestone streets. It is a vibrant hub of Afro-Brazilian culture and music.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Bonito",
+    "city": "Bonito",
+    "type": "nature",
+    "description": "Renowned for its ecotourism, Bonito is home to crystal-clear rivers, underwater caves, and stunning waterfalls. Activities like snorkeling and cave diving showcase its natural beauty.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Fernando de Noronha",
+    "city": "Noronha",
+    "type": "nature",
+    "description": "This stunning archipelago is known for its pristine beaches, rich marine life, and strict environmental preservation. It's a paradise for divers and nature enthusiasts.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cataratas do Igua\u00e7u National Park",
+    "city": "Foz do Igua\u00e7u",
+    "type": "nature",
+    "description": "This national park surrounds the magnificent Iguazu Falls, offering hiking trails and breathtaking viewpoints. The park is a haven for wildlife and a UNESCO World Heritage Site.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "S\u00e3o Paulo Museum of Art",
+    "city": "S\u00e3o Paulo",
+    "type": "culture",
+    "description": "The S\u00e3o Paulo Museum of Art is famous for its striking modern architecture and an impressive collection of Western art. It hosts various cultural events and exhibitions throughout the year.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Chapada Diamantina",
+    "city": "Len\u00e7\u00f3is",
+    "type": "nature",
+    "description": "A national park known for its dramatic landscapes, including table mountains, waterfalls, and caves. It's a favorite destination for hikers and nature lovers.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Ouro Preto",
+    "city": "Ouro Preto",
+    "type": "culture",
+    "description": "This colonial town is known for its baroque architecture and rich mining history. It is a UNESCO World Heritage Site and offers a glimpse into Brazil's colonial past.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Jalap\u00e3o State Park",
+    "city": "Tocantins",
+    "type": "nature",
+    "description": "Jalap\u00e3o is famous for its golden sand dunes, crystal-clear rivers, and unique rock formations. It's a hidden gem for those seeking adventure and stunning landscapes.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Paraty",
+    "city": "Paraty",
+    "type": "culture",
+    "description": "A beautifully preserved colonial town with cobblestone streets and colorful buildings, Paraty hosts a variety of cultural festivals and is surrounded by stunning natural landscapes.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "P\u00e3o de A\u00e7\u00facar",
+    "city": "Rio de Janeiro",
+    "type": "landmark",
+    "description": "Known as Sugarloaf Mountain, this landmark offers spectacular views of Rio de Janeiro and its coastline. A cable car ride provides an unforgettable experience.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Praia do Espelho",
+    "city": "Trancoso",
+    "type": "nature",
+    "description": "This stunning beach is known for its clear waters and beautiful cliffs. It is often less crowded, making it a perfect spot for relaxation and enjoying nature.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Theatro Municipal",
+    "city": "Rio de Janeiro",
+    "type": "culture",
+    "description": "An architectural gem, the Theatro Municipal is one of Brazil's most important cultural venues, showcasing opera, ballet, and concerts. Its opulent interior is a sight to behold.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Belo Horizonte's Pampulha Modern Ensemble",
+    "city": "Belo Horizonte",
+    "type": "culture",
+    "description": "This UNESCO World Heritage Site features modernist architecture designed by Oscar Niemeyer, including the Pampulha Art Museum. It's a symbol of contemporary Brazilian culture.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cascatinha do Horto",
+    "city": "Rio de Janeiro",
+    "type": "nature",
+    "description": "A beautiful waterfall located in the Tijuca National Park, Cascatinha do Horto is a peaceful escape from the city. It's surrounded by lush greenery and is perfect for a refreshing dip.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cultural Complex of the Republic",
+    "city": "Bras\u00edlia",
+    "type": "culture",
+    "description": "This cultural complex includes the National Museum, the National Library, and the National Theatre, showcasing Brazil's artistic heritage and contemporary culture.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Guatape",
+    "city": "Guatap\u00e9",
+    "type": "nature",
+    "description": "This lesser-known destination features stunning lakes and mountains, with opportunities for hiking and water sports. The colorful town is a feast for the eyes.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Serra da Capivara National Park",
+    "city": "S\u00e3o Raimundo Nonato",
+    "type": "nature",
+    "description": "Home to some of the oldest rock art in the Americas, this national park offers a glimpse into prehistoric cultures. The stunning landscapes and unique rock formations are also a highlight.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Praia do Sancho",
+    "city": "Fernando de Noronha",
+    "type": "nature",
+    "description": "Considered one of the best beaches in the world, Praia do Sancho features golden sands and turquoise waters. It's a top destination for snorkeling and relaxation.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro do Jaragu\u00e1",
+    "city": "S\u00e3o Paulo",
+    "type": "nature",
+    "description": "The highest point in S\u00e3o Paulo, Jaragu\u00e1 offers panoramic views of the city and surrounding areas. It's a great spot for hiking and enjoying nature.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Lapa Arches",
+    "city": "Rio de Janeiro",
+    "type": "landmark",
+    "description": "A stunning aqueduct built in the 18th century, the Lapa Arches are an iconic symbol of Rio de Janeiro's architecture. The area is lively with nightlife and cultural events.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Aparados da Serra National Park",
+    "city": "Cambar\u00e1 do Sul",
+    "type": "nature",
+    "description": "Known for its dramatic canyons and breathtaking landscapes, this national park is a haven for hikers and adventure seekers. The park's famous Itaimbezinho Canyon is a must-see.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "The Cathedral of Bras\u00edlia",
+    "city": "Bras\u00edlia",
+    "type": "landmark",
+    "description": "Designed by Oscar Niemeyer, the Cathedral of Bras\u00edlia is an architectural marvel featuring 16 hyperboloid columns. Its striking design and beautiful stained glass make it a spiritual and artistic landmark.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Canoa Quebrada",
+    "city": "Aracati",
+    "type": "nature",
+    "description": "This beach destination is known for its stunning red cliffs and clear waters. It's a great spot for kitesurfing and enjoying vibrant nightlife.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Praia do Forte",
+    "city": "Praia do Forte",
+    "type": "nature",
+    "description": "This charming beach town is famous for its beautiful beaches and the Projeto Tamar turtle sanctuary. It's a perfect destination for families and nature lovers.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cultural Center of S\u00e3o Paulo",
+    "city": "S\u00e3o Paulo",
+    "type": "culture",
+    "description": "This cultural hub hosts a variety of events, exhibitions, and performances, making it a vibrant part of the city's art scene. The center also features a library and cinema.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Ilhabela",
+    "city": "Ilhabela",
+    "type": "nature",
+    "description": "An island paradise known for its stunning beaches, waterfalls, and hiking trails. Ilhabela is perfect for nature lovers and those looking for adventure.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Praia do Leste",
+    "city": "Paraty",
+    "type": "nature",
+    "description": "Often overlooked, this beach features beautiful landscapes and is ideal for those seeking tranquility. It's a great spot for relaxation and enjoying nature.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Caf\u00e9 do Mercado",
+    "city": "S\u00e3o Paulo",
+    "type": "culture",
+    "description": "A hidden gem within the municipal market, this caf\u00e9 offers delicious local cuisine and a cozy atmosphere. It's a great place to experience S\u00e3o Paulo's culinary scene.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Teatro Amazonas",
+    "city": "Manaus",
+    "type": "landmark",
+    "description": "An opera house built during the rubber boom, the Teatro Amazonas is an architectural masterpiece with a rich history. It hosts various cultural events and performances.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Grumari Beach",
+    "city": "Rio de Janeiro",
+    "type": "nature",
+    "description": "A secluded beach known for its natural beauty, Grumari is a perfect escape from the bustling city. It's surrounded by lush vegetation and offers a tranquil atmosphere.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Vale do Ribeira",
+    "city": "S\u00e3o Paulo",
+    "type": "nature",
+    "description": "This region is known for its stunning natural landscapes, including waterfalls, caves, and rich biodiversity. It's a hidden gem for eco-tourism and adventure.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cataratas do Igua\u00e7u",
+    "city": "Foz do Igua\u00e7u",
+    "type": "nature",
+    "description": "This national park features one of the largest and most spectacular waterfall systems in the world. Visitors can experience the falls from various viewpoints and trails.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Serra do Cip\u00f3",
+    "city": "Minas Gerais",
+    "type": "nature",
+    "description": "This national park offers stunning landscapes, waterfalls, and rich biodiversity. It's a popular destination for hiking and outdoor activities.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabo de Santo Agostinho",
+    "city": "Pernambuco",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and crystal-clear waters, Cabo de Santo Agostinho is a hidden gem in Pernambuco. It's perfect for relaxation and water sports.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Jardim Bot\u00e2nico",
+    "city": "Rio de Janeiro",
+    "type": "nature",
+    "description": "This botanical garden is home to a stunning collection of tropical plants and trees. It's a peaceful oasis in the city and offers walking trails and beautiful landscapes.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Ilha Grande",
+    "city": "Angra dos Reis",
+    "type": "nature",
+    "description": "This beautiful island features stunning beaches, hiking trails, and a rich history. It's a popular destination for eco-tourism and adventure activities.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Pico da Neblina",
+    "city": "Amazonas",
+    "type": "nature",
+    "description": "The highest peak in Brazil, Pico da Neblina offers breathtaking views and challenging hikes. It's a remote and pristine area, perfect for adventurous travelers.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Museu do Amanh\u00e3",
+    "city": "Rio de Janeiro",
+    "type": "culture",
+    "description": "This contemporary science museum explores themes of sustainability and the future. Its innovative design and interactive exhibits make it a must-visit.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Praia da Pipa",
+    "city": "Tibau do Sul",
+    "type": "nature",
+    "description": "Known for its stunning cliffs and vibrant nightlife, Praia da Pipa is a popular beach destination. It's perfect for surfing and enjoying the local atmosphere.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Lagoa do Munda\u00fa",
+    "city": "Macei\u00f3",
+    "type": "nature",
+    "description": "A beautiful lagoon surrounded by palm trees, Lagoa do Munda\u00fa offers opportunities for kayaking and enjoying the sunset. It's a peaceful escape from the city.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional da Serra dos \u00d3rg\u00e3os",
+    "city": "Teres\u00f3polis",
+    "type": "nature",
+    "description": "This national park features stunning mountains, waterfalls, and hiking trails. It's a favorite destination for outdoor enthusiasts and offers breathtaking views.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Foz do Igua\u00e7u",
+    "city": "Igua\u00e7u",
+    "type": "landmark",
+    "description": "Known for its stunning waterfalls, Foz do Igua\u00e7u is a major tourist destination. The surrounding national park is a UNESCO World Heritage Site.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Catarina Waterfall",
+    "city": "S\u00e3o Paulo",
+    "type": "nature",
+    "description": "A hidden waterfall located in the Atlantic Forest, Catarina Waterfall is a tranquil spot for relaxation and nature appreciation.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Rio's Santa Teresa",
+    "city": "Rio de Janeiro",
+    "type": "culture",
+    "description": "A charming neighborhood known for its narrow streets and colonial houses, Santa Teresa is a hub of art and culture. It features galleries, cafes, and cultural events.",
+    "country": "Brazil",
+    "country_rank": 8
+  },
+  {
+    "name": "Buzios",
+    "city": "Buzios",
+    "type": "nature",
+    "description": "A beautiful beach destination known for its charming streets and vibrant nightlife. Buzios offers a variety of water sports and stunning beaches.",
+    "country": "Brazil",
+    "country_rank": 8
+  }
+]

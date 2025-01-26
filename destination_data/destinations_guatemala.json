@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Tikal National Park",
+    "city": "El Pet\u00e9n",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Tikal is one of the largest archaeological sites of the Maya civilization. Its towering temples and pyramids are surrounded by lush rainforest, offering both historical significance and stunning natural beauty.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Antigua Guatemala",
+    "city": "Antigua",
+    "type": "culture",
+    "description": "A beautifully preserved colonial city, Antigua is known for its cobblestone streets and vibrant architecture. The city offers a rich cultural experience, with numerous festivals, markets, and historical landmarks.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Lake Atitl\u00e1n",
+    "city": "San Lucas Tolim\u00e1n",
+    "type": "nature",
+    "description": "Surrounded by volcanoes and charming villages, Lake Atitl\u00e1n is often considered one of the most beautiful lakes in the world. Its serene environment is perfect for hiking, kayaking, and immersing in local indigenous cultures.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Semuc Champey",
+    "city": "Lanqu\u00edn",
+    "type": "nature",
+    "description": "A natural monument known for its stunning turquoise pools and limestone bridge, Semuc Champey is a hidden gem for nature lovers. Visitors can swim in the pools and explore the surrounding lush jungle.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Quetzaltenango (Xela)",
+    "city": "Quetzaltenango",
+    "type": "culture",
+    "description": "Known as Xela, this city is a cultural hub offering rich indigenous traditions, vibrant markets, and beautiful architecture. It's also a great base for exploring nearby hot springs and hiking trails.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Pacaya Volcano",
+    "city": "Escuintla",
+    "type": "nature",
+    "description": "An active volcano that provides breathtaking views and hiking opportunities. Adventurers can hike to the summit for a chance to see real volcanic activity.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Chichicastenango Market",
+    "city": "Chichicastenango",
+    "type": "culture",
+    "description": "One of the largest and most colorful markets in Central America, it offers a vibrant mix of textiles, crafts, and local produce. The market is a cultural experience, showcasing Maya traditions.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Coban",
+    "city": "Coban",
+    "type": "nature",
+    "description": "A lesser-known destination nestled in the highlands, Coban is famous for its lush cloud forests and coffee plantations. It serves as a gateway to natural wonders like Semuc Champey and the stunning Orchid Garden.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Yaxh\u00e1",
+    "city": "El Pet\u00e9n",
+    "type": "landmark",
+    "description": "An ancient Mayan city that is less visited than Tikal, Yaxh\u00e1 features impressive ruins and stunning views over the surrounding jungle. It's a perfect spot for those seeking a quieter archaeological experience.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Santiago Atitl\u00e1n",
+    "city": "Santiago Atitl\u00e1n",
+    "type": "culture",
+    "description": "This lakeside town is known for its traditional Tz'utujil culture and beautiful church. Visitors can engage with local artisans and explore the vibrant markets.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro de la Cruz",
+    "city": "Antigua",
+    "type": "landmark",
+    "description": "Offering panoramic views of Antigua, this viewpoint is famous for its large cross and is a popular hiking destination. It's a perfect spot for photography and appreciating the city's beauty.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "El Mirador",
+    "city": "El Pet\u00e9n",
+    "type": "landmark",
+    "description": "An ancient Maya city that is remote and requires a multi-day trek to reach, El Mirador features some of the largest pyramids in the Maya world. It offers a glimpse into the grandeur of ancient civilizations.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Rio Dulce",
+    "city": "Izabal",
+    "type": "nature",
+    "description": "A beautiful river that flows from Lake Izabal to the Caribbean Sea, Rio Dulce is famous for its stunning scenery and biodiversity. Visitors can explore the river by boat and visit the nearby Livingston.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Aguateca",
+    "city": "Pet\u00e9n",
+    "type": "landmark",
+    "description": "An archaeological site that was abandoned during the Maya collapse, Aguateca features impressive ruins on a cliff overlooking the river. It's less crowded than other sites, making it a peaceful exploration.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Santa Teresa",
+    "city": "Antigua",
+    "type": "entertainment",
+    "description": "A vibrant venue in Antigua known for live music and local performances, Santa Teresa offers a lively atmosphere for those looking to enjoy nightlife. It's a great place to taste local cuisine and craft beers.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Las Conchas",
+    "city": "Cob\u00e1n",
+    "type": "nature",
+    "description": "A stunning natural site featuring beautiful waterfalls and natural pools. Las Conchas is perfect for swimming and relaxing in a serene environment surrounded by lush greenery.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Iximch\u00e9",
+    "city": "Tecp\u00e1n",
+    "type": "landmark",
+    "description": "An ancient Maya city that served as the capital of the Kaqchikel Maya. Iximch\u00e9 is known for its well-preserved ruins and ceremonial sites, making it a culturally enriching destination.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Bio Parque Centro Verde",
+    "city": "San Miguel Due\u00f1as",
+    "type": "nature",
+    "description": "A wildlife reserve dedicated to preserving Guatemalan flora and fauna. Visitors can enjoy guided tours and learn about conservation efforts while experiencing the beauty of nature.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "El Pared\u00f3n",
+    "city": "Escuintla",
+    "type": "nature",
+    "description": "A hidden beach destination known for its black sand and relaxed vibe, El Pared\u00f3n is ideal for surfing and enjoying the Pacific coast. It offers a unique retreat away from typical tourist spots.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Torre de la Merced",
+    "city": "Antigua",
+    "type": "landmark",
+    "description": "This iconic clock tower is a symbol of Antigua and offers stunning views of the surrounding area. It's a great spot for photography, especially at sunrise or sunset.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Nim Po't",
+    "city": "Antigua",
+    "type": "culture",
+    "description": "A cultural shop that showcases traditional Guatemalan handicrafts. Visitors can find unique souvenirs while supporting local artisans and learning about indigenous crafts.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "San Juan La Laguna",
+    "city": "Lake Atitl\u00e1n",
+    "type": "culture",
+    "description": "A picturesque village on the shores of Lake Atitl\u00e1n known for its vibrant art scene and traditional textile weaving. Visitors can engage with local artists and explore the stunning lake views.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cascadas de Las Lajas",
+    "city": "San Pedro",
+    "type": "nature",
+    "description": "A series of beautiful waterfalls located near Lake Atitl\u00e1n, Cascadas de Las Lajas is a perfect spot for hiking and enjoying nature. The crystal-clear waters and lush surroundings make it a hidden gem.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Panajachel",
+    "city": "Lake Atitl\u00e1n",
+    "type": "entertainment",
+    "description": "A lively town known for its vibrant nightlife, restaurants, and waterfront views of Lake Atitl\u00e1n. Panajachel is a hub for travelers seeking adventure and relaxation.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Castillo de San Felipe",
+    "city": "Izabal",
+    "type": "landmark",
+    "description": "A historical fortress that overlooks the entrance to Lake Izabal, Castillo de San Felipe offers insights into colonial history and stunning views of the lake. It's a peaceful spot for exploration.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Los Siete Altares",
+    "city": "Livingston",
+    "type": "nature",
+    "description": "A series of natural pools and waterfalls located near the Caribbean coast, Los Siete Altares is a tranquil escape for swimming and enjoying nature. It's a hidden gem for those looking for relaxation.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro San Gil",
+    "city": "San Marcos",
+    "type": "nature",
+    "description": "A scenic hill offering breathtaking views of Lake Atitl\u00e1n and its surrounding volcanoes. It's a great spot for hiking and enjoying the natural beauty of the area.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Chocola",
+    "city": "Antigua",
+    "type": "culture",
+    "description": "A unique chocolate museum and workshop where visitors can learn about the chocolate-making process and indulge in delicious treats. It's an interactive experience for chocolate lovers.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "La Antigua Bodega",
+    "city": "Antigua",
+    "type": "entertainment",
+    "description": "A charming bar and restaurant known for its live music and vibrant atmosphere. It's a great place to enjoy local cuisine and socialize with both locals and travelers.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Finca El Pilar",
+    "city": "Antigua",
+    "type": "nature",
+    "description": "An eco-friendly coffee plantation that offers tours and tastings, Finca El Pilar is a perfect spot for coffee lovers to learn about the coffee-making process while enjoying stunning views.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Tzununa",
+    "city": "Lake Atitl\u00e1n",
+    "type": "culture",
+    "description": "A tranquil village that offers a glimpse into traditional Maya life. Tzununa is less touristy and perfect for those looking to experience the local culture and natural beauty.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Catedral de Santiago",
+    "city": "Antigua",
+    "type": "landmark",
+    "description": "This stunning cathedral is a prime example of colonial architecture in Antigua. Its beautiful fa\u00e7ade and historical significance make it a must-visit landmark.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Las Escobas",
+    "city": "Coban",
+    "type": "nature",
+    "description": "A series of beautiful waterfalls and natural pools, Las Escobas is perfect for swimming and picnicking in a serene environment. It's a hidden gem in the lush highlands.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Mirador de la Cruz",
+    "city": "San Pedro La Laguna",
+    "type": "nature",
+    "description": "A popular hiking spot that offers breathtaking views of Lake Atitl\u00e1n and the surrounding volcanoes. The hike is rewarding and perfect for photography enthusiasts.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "San Antonio Aguas Calientes",
+    "city": "Antigua",
+    "type": "culture",
+    "description": "A small town known for its traditional textile weaving, San Antonio Aguas Calientes offers visitors a chance to see artisans at work and purchase unique handmade goods.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro de Oro",
+    "city": "Lake Atitl\u00e1n",
+    "type": "nature",
+    "description": "A scenic viewpoint that offers stunning views of Lake Atitl\u00e1n and the surrounding volcanoes. It's a great spot for hiking and enjoying the natural beauty of the area.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Tzunun\u00e1",
+    "city": "Lake Atitl\u00e1n",
+    "type": "culture",
+    "description": "A quiet village known for its traditional Maya culture and stunning lake views. It's an excellent spot for those looking to escape the crowds and connect with nature.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "El Puente de la Amistad",
+    "city": "Izabal",
+    "type": "landmark",
+    "description": "A beautiful bridge that connects the towns of Morales and Izabal, offering picturesque views of the surrounding landscape. It's a lovely spot for a walk or photography.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Lago de Izabal",
+    "city": "Izabal",
+    "type": "nature",
+    "description": "The largest lake in Guatemala, Lago de Izabal is known for its biodiversity and beautiful landscapes. It's a great destination for boating and exploring nearby natural attractions.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cultura Maya",
+    "city": "Various",
+    "type": "culture",
+    "description": "A cultural experience that celebrates the rich heritage of the Maya people. Various locations across Guatemala host events showcasing traditional music, dance, and crafts.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Cascadas de Agua Caliente",
+    "city": "San Vicente Pacaya",
+    "type": "nature",
+    "description": "A series of hot springs and waterfalls that provide a unique natural experience. Visitors can relax in the warm waters while enjoying the surrounding beauty.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Pueblo de Atitl\u00e1n",
+    "city": "Atitl\u00e1n",
+    "type": "culture",
+    "description": "A collection of lakeside villages each with their own unique traditions and cultures. Visitors can explore the communities, learn about local crafts, and enjoy the stunning views.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Volc\u00e1n San Pedro",
+    "city": "San Pedro La Laguna",
+    "type": "nature",
+    "description": "An impressive volcano that offers challenging hikes and breathtaking views of Lake Atitl\u00e1n. The trek is popular among adventure seekers and nature enthusiasts.",
+    "country": "Guatemala",
+    "country_rank": 6
+  },
+  {
+    "name": "Caf\u00e9 La Antigua",
+    "city": "Antigua",
+    "type": "entertainment",
+    "description": "A popular caf\u00e9 known for its delicious coffee and vibrant atmosphere. It's a great place to relax, socialize, and enjoy local flavors.",
+    "country": "Guatemala",
+    "country_rank": 6
+  }
+]

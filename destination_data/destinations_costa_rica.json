@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Arenal Volcano",
+    "city": "La Fortuna",
+    "type": "nature",
+    "description": "Arenal Volcano is one of Costa Rica's most famous landmarks, known for its perfect cone shape. The surrounding Arenal Volcano National Park offers lush rainforests and diverse wildlife.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Monteverde Cloud Forest",
+    "city": "Monteverde",
+    "type": "nature",
+    "description": "This unique ecosystem is characterized by its misty, lush forests filled with diverse flora and fauna. It's a paradise for bird watchers, especially for spotting the elusive quetzal.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Manuel Antonio National Park",
+    "city": "Quepos",
+    "type": "nature",
+    "description": "A small but biodiverse national park that features beautiful beaches, hiking trails, and abundant wildlife, including monkeys and sloths. It's perfect for both relaxation and adventure.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "La Fortuna Waterfall",
+    "city": "La Fortuna",
+    "type": "nature",
+    "description": "This stunning waterfall drops over 70 meters into a natural pool. Visitors can hike down to swim or enjoy the surrounding lush tropical landscape.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Tortuguero National Park",
+    "city": "Tortuguero",
+    "type": "nature",
+    "description": "Known as the Amazon of Costa Rica, Tortuguero is famous for its turtle nesting sites. The park's network of canals offers a unique way to explore its biodiversity.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Corcovado National Park",
+    "city": "Puerto Jim\u00e9nez",
+    "type": "nature",
+    "description": "This remote park is one of the most biodiverse regions on Earth, hosting an array of wildlife, including jaguars, tapirs, and scarlet macaws. It's ideal for adventurous hikers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Osa Peninsula",
+    "city": "Puerto Jim\u00e9nez",
+    "type": "nature",
+    "description": "Home to Corcovado National Park, the Osa Peninsula is a remote paradise offering pristine beaches, lush jungles, and incredible wildlife. The area's seclusion makes it a hidden gem.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Rinc\u00f3n de la Vieja National Park",
+    "city": "Guanacaste",
+    "type": "nature",
+    "description": "This park features volcanic landscapes, hot springs, and diverse ecosystems. Visitors can hike trails that lead to waterfalls, fumaroles, and beautiful viewpoints.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cahuita National Park",
+    "city": "Cahuita",
+    "type": "nature",
+    "description": "A coastal park famous for its coral reefs and marine life. It's an excellent spot for snorkeling and offers beautiful beaches and hiking trails through lush forests.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Po\u00e1s Volcano",
+    "city": "Po\u00e1s",
+    "type": "landmark",
+    "description": "One of Costa Rica's most accessible volcanoes, Po\u00e1s features a massive crater with an active acid lake. The surrounding park offers scenic viewpoints and trails.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Guanacaste National Park",
+    "city": "Guanacaste",
+    "type": "nature",
+    "description": "Known for its dry tropical forest and diverse wildlife, this park is home to various species, including howler monkeys and colorful birds. It's a great destination for hiking and wildlife watching.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Santa Teresa Beach",
+    "city": "Santa Teresa",
+    "type": "nature",
+    "description": "A stunning beach known for its surf and laid-back vibe. The area offers beautiful sunsets, yoga retreats, and a vibrant community.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Copper Canyon",
+    "city": "Cerro de la Muerte",
+    "type": "nature",
+    "description": "A lesser-known gem, Copper Canyon offers breathtaking views and unique hiking opportunities. It's a perfect spot for those seeking solitude in nature.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Orosi Valley",
+    "city": "Orosi",
+    "type": "culture",
+    "description": "A beautiful and picturesque valley known for its coffee plantations and historical landmarks. Visitors can explore charming colonial towns and stunning landscapes.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Sarch\u00ed",
+    "city": "Sarch\u00ed",
+    "type": "culture",
+    "description": "Famous for its colorful oxcarts and artisan crafts, Sarch\u00ed is a cultural hub where visitors can see traditional craftsmanship in action and purchase unique souvenirs.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cartago",
+    "city": "Cartago",
+    "type": "culture",
+    "description": "Costa Rica's first capital, Cartago is rich in history and culture. The Basilica of Our Lady of the Angels is a significant pilgrimage site and features stunning architecture.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Tamarindo",
+    "city": "Tamarindo",
+    "type": "entertainment",
+    "description": "A popular beach town known for its vibrant nightlife, surf culture, and beautiful beaches. It's a great destination for both relaxation and adventure activities.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "La Paz Waterfall Gardens",
+    "city": "Alajuela",
+    "type": "nature",
+    "description": "This ecological park features stunning waterfalls, wildlife rescue attractions, and beautiful gardens. Visitors can enjoy scenic trails and observe various animal species.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "R\u00edo Celeste",
+    "city": "Tenorio Volcano National Park",
+    "type": "nature",
+    "description": "Famous for its striking turquoise waters, R\u00edo Celeste is a hidden gem where visitors can hike through lush rainforest and witness the stunning waterfall and river.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Punta Uva",
+    "city": "Puerto Viejo",
+    "type": "nature",
+    "description": "A tranquil beach known for its clear waters and vibrant marine life. It's a perfect spot for snorkeling and enjoying the natural beauty of the Caribbean coast.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Nicoya Peninsula",
+    "city": "Nicoya",
+    "type": "nature",
+    "description": "A serene escape filled with picturesque beaches and charming villages. The peninsula is known for its wellness retreats and vibrant local culture.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Lankester Botanical Gardens",
+    "city": "Cartago",
+    "type": "nature",
+    "description": "A stunning collection of tropical plants and orchids, the gardens are a peaceful retreat for nature lovers. Visitors can stroll through beautifully landscaped paths.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "El Establo",
+    "city": "Monteverde",
+    "type": "entertainment",
+    "description": "A unique accommodation and entertainment venue that offers beautiful views of the cloud forest. It features a variety of activities, including horseback riding and zip-lining.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cerro Chirrip\u00f3",
+    "city": "San Gerardo de Rivas",
+    "type": "nature",
+    "description": "The highest peak in Costa Rica, Cerro Chirrip\u00f3 offers breathtaking views and challenging hikes. The diverse ecosystems provide a unique experience for adventurous trekkers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Piedades Norte",
+    "city": "San Jos\u00e9",
+    "type": "culture",
+    "description": "A hidden cultural gem known for its traditional festivals and local arts. Visitors can immerse themselves in authentic Costa Rican culture and cuisine.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cabo Blanco Absolute Natural Reserve",
+    "city": "Cabo Blanco",
+    "type": "nature",
+    "description": "Costa Rica's first nature reserve, Cabo Blanco is a serene refuge for diverse wildlife. The park offers hiking trails leading to secluded beaches and stunning coastal views.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Barra Honda National Park",
+    "city": "Nicoya",
+    "type": "nature",
+    "description": "Home to impressive limestone caves, this park offers unique spelunking opportunities and beautiful hiking trails. It's a lesser-known destination for adventurous travelers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Finca Rosa Blanca",
+    "city": "Santa Barbara",
+    "type": "entertainment",
+    "description": "An organic coffee plantation and eco-lodge that offers tours and tastings. Visitors can learn about coffee production while enjoying breathtaking views.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "San Jos\u00e9 Central Market",
+    "city": "San Jos\u00e9",
+    "type": "culture",
+    "description": "A bustling market filled with local vendors selling everything from fresh produce to crafts. It's a great place to experience the local culture and cuisine.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Kinkajou Treehouse",
+    "city": "Puntarenas",
+    "type": "entertainment",
+    "description": "A unique lodging experience in the trees, offering stunning views and a chance to connect with nature. The treehouse is surrounded by wildlife and lush greenery.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Chirrip\u00f3 National Park",
+    "city": "San Gerardo de Rivas",
+    "type": "nature",
+    "description": "Known for its challenging hikes to the highest point in Costa Rica, this park features diverse ecosystems and stunning vistas. It's a mecca for serious hikers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Bajos del Toro Waterfalls",
+    "city": "Sarch\u00ed",
+    "type": "nature",
+    "description": "A hidden gem featuring a series of stunning waterfalls nestled in a lush valley. It's a perfect destination for those seeking tranquility and natural beauty.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Hacienda La Isla",
+    "city": "La Fortuna",
+    "type": "entertainment",
+    "description": "An adventure park offering a variety of activities, including zip-lining, horseback riding, and cultural experiences. It's an exciting way to explore the region.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Playa Carrillo",
+    "city": "Carrillo",
+    "type": "nature",
+    "description": "A beautiful, less-crowded beach known for its calm waters and stunning scenery. It's an ideal spot for relaxation and enjoying the natural beauty of the Nicoya Peninsula.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Tuk Tuk Tours",
+    "city": "San Jos\u00e9",
+    "type": "entertainment",
+    "description": "Unique guided tours around the city in colorful tuk-tuks. It's a fun and eco-friendly way to explore the cultural and historical sites of San Jos\u00e9.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cerro de la Muerte",
+    "city": "San Isidro",
+    "type": "nature",
+    "description": "Known for its cool climate and diverse wildlife, this mountain offers stunning vistas and hiking opportunities. It's a lesser-known destination for nature lovers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Isla del Ca\u00f1o",
+    "city": "Osa Peninsula",
+    "type": "nature",
+    "description": "A small island renowned for its marine biodiversity and coral reefs, making it a perfect spot for snorkeling and diving. It's a hidden paradise for ocean enthusiasts.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Doka Estate",
+    "city": "Sabanilla",
+    "type": "culture",
+    "description": "A coffee plantation that offers tours showcasing the coffee-making process. Visitors can learn about Costa Rican coffee culture and sample delicious brews.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Catarata del Toro",
+    "city": "Sarch\u00ed",
+    "type": "nature",
+    "description": "This stunning waterfall drops into a volcanic crater, creating a breathtaking sight. The surrounding area is less touristy, making it a perfect hidden gem.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Los Quetzales National Park",
+    "city": "San Gerardo de Dota",
+    "type": "nature",
+    "description": "A haven for bird watchers, the park is known for its vibrant quetzal population. The cool climate and lush forests create a unique ecosystem.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Agua Caliente",
+    "city": "Aguas Zarcas",
+    "type": "nature",
+    "description": "A hidden thermal spring surrounded by lush nature, offering a serene escape and an opportunity to relax in warm waters away from the crowds.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "La Selva Biological Station",
+    "city": "Sarapiqu\u00ed",
+    "type": "nature",
+    "description": "A research station and ecotourism destination that offers guided tours through tropical rainforests. It's an excellent place to learn about biodiversity.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "El Silencio Lodge",
+    "city": "Bijagua",
+    "type": "entertainment",
+    "description": "An eco-lodge nestled in the rainforest, offering luxury accommodations along with nature tours and wellness activities. It's a perfect retreat for relaxation.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cerro Chirrip\u00f3 National Park",
+    "city": "San Gerardo de Rivas",
+    "type": "nature",
+    "description": "This national park features the tallest mountain in Costa Rica, offering challenging hikes and breathtaking views. It's a paradise for passionate trekkers.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Pueblo Antiguo",
+    "city": "San Jos\u00e9",
+    "type": "culture",
+    "description": "An open-air museum that recreates a traditional Costa Rican village, showcasing culture, crafts, and local history. It's a great place to learn about the country\u2019s heritage.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Cahuita Village",
+    "city": "Cahuita",
+    "type": "culture",
+    "description": "A charming coastal village known for its Afro-Caribbean culture and vibrant community. Visitors can experience local music, food, and traditions.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Selvatura Park",
+    "city": "Monteverde",
+    "type": "entertainment",
+    "description": "An adventure park offering zip-lining, suspension bridges, and a butterfly garden. It's a thrilling way to experience the beauty of the cloud forest.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Irazu Volcano",
+    "city": "Cartago",
+    "type": "landmark",
+    "description": "The highest volcano in Costa Rica, Irazu offers breathtaking views and a unique landscape featuring craters and a green lagoon. It's easily accessible for visitors.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Nauyaca Waterfalls",
+    "city": "Dominical",
+    "type": "nature",
+    "description": "A stunning two-tiered waterfall located in a lush tropical setting. Visitors can hike or take a horseback ride to reach this hidden gem.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  },
+  {
+    "name": "Playa Hermosa",
+    "city": "Guanacaste",
+    "type": "nature",
+    "description": "A tranquil beach known for its dark sand and clear waters, ideal for relaxation and swimming. It's a perfect spot for those looking to escape the crowds.",
+    "country": "Costa Rica",
+    "country_rank": 9
+  }
+]

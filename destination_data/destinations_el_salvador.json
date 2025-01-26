@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Santa Ana Volcano",
+    "city": "Santa Ana",
+    "type": "nature",
+    "description": "One of the most picturesque volcanoes in El Salvador, Santa Ana offers stunning views and a challenging hike. The crater lake at its summit is a breathtaking sight.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Suchitoto",
+    "city": "Suchitoto",
+    "type": "culture",
+    "description": "A charming colonial town known for its cobblestone streets and vibrant arts scene. Visitors can explore galleries and enjoy cultural festivals throughout the year.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Ruta de Las Flores",
+    "city": "Ahuachapan",
+    "type": "nature",
+    "description": "This scenic route is famous for its coffee plantations, waterfalls, and picturesque villages. It's a great way to experience the natural beauty and culture of El Salvador.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "El Tunco",
+    "city": "La Libertad",
+    "type": "entertainment",
+    "description": "A popular beach destination known for its surf culture and vibrant nightlife. El Tunco is a hub for backpackers and surfers looking for adventure.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Joya de Cer\u00e9n",
+    "city": "La Libertad",
+    "type": "culture",
+    "description": "Often referred to as the 'Pompeii of the Americas', this UNESCO World Heritage site preserves a pre-Columbian village buried by volcanic ash.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerro Verde National Park",
+    "city": "Santa Ana",
+    "type": "nature",
+    "description": "Home to stunning views of the Izalco and Cerro Verde volcanoes, this national park is a paradise for hikers and nature lovers.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "La Libertad Coast",
+    "city": "La Libertad",
+    "type": "entertainment",
+    "description": "This stretch of coastline is famous for its surfing spots and beautiful beaches. It\u2019s a great place to relax, enjoy fresh seafood, and soak up the sun.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "San Salvador Cathedral",
+    "city": "San Salvador",
+    "type": "landmark",
+    "description": "A beautiful neo-Gothic cathedral located in the heart of the capital. It houses the tomb of Archbishop Oscar Romero, a national hero.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "El Imposible National Park",
+    "city": "Ahuachapan",
+    "type": "nature",
+    "description": "A stunning national park with diverse flora and fauna, it offers hiking trails and opportunities to see wildlife in their natural habitat.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "The Mayan ruins of Tazumal",
+    "city": "Chalchuapa",
+    "type": "culture",
+    "description": "These impressive ruins are among the most significant archaeological sites in El Salvador, showcasing the ancient Mayan civilization.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Los Planes de Renderos",
+    "city": "San Salvador",
+    "type": "nature",
+    "description": "A beautiful viewpoint offering panoramic views of the San Salvador city and surrounding landscape, it is perfect for picnics and hiking.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Panchimalco",
+    "city": "San Salvador",
+    "type": "culture",
+    "description": "A small town known for its rich indigenous heritage, colorful festivals, and traditional crafts. The town retains a charming colonial vibe.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "La Palma",
+    "city": "Chalatenango",
+    "type": "culture",
+    "description": "Famous for its vibrant art scene and handicrafts, this town is a hidden gem where visitors can meet local artisans and enjoy the stunning mountain scenery.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "San Vicente Volcano",
+    "city": "San Vicente",
+    "type": "nature",
+    "description": "This volcano features a scenic hiking trail with breathtaking views. It's less crowded than other volcanoes, making it a great spot for solitude.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cascadas de Los Tercios",
+    "city": "Tacuba",
+    "type": "nature",
+    "description": "A beautiful series of waterfalls surrounded by lush greenery, perfect for a refreshing swim and enjoying nature in a tranquil setting.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Museo Nacional de Antropolog\u00eda",
+    "city": "San Salvador",
+    "type": "culture",
+    "description": "This museum showcases the rich history and culture of El Salvador, featuring artifacts from ancient civilizations and contemporary exhibits.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "El Cuco",
+    "city": "San Miguel",
+    "type": "entertainment",
+    "description": "A beautiful beach destination known for its surfing and laid-back atmosphere. It's ideal for relaxation and enjoying fresh seafood.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cascada El Chifl\u00f3n",
+    "city": "La Uni\u00f3n",
+    "type": "nature",
+    "description": "A stunning waterfall that cascades down a rocky cliff, surrounded by lush vegetation. It's a great spot for picnics and photography.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Sierra de Las Maderas",
+    "city": "La Libertad",
+    "type": "nature",
+    "description": "This mountain range features diverse ecosystems and offers excellent hiking and bird-watching opportunities.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "San Miguel",
+    "city": "San Miguel",
+    "type": "culture",
+    "description": "Known for its vibrant nightlife and cultural festivals, San Miguel is a bustling city with a rich history and beautiful architecture.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerro de San Vicente",
+    "city": "San Salvador",
+    "type": "landmark",
+    "description": "An archaeological site that features ancient ruins and offers a glimpse into the indigenous history of the region.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Playa Las Flores",
+    "city": "San Miguel",
+    "type": "entertainment",
+    "description": "A beautiful beach known for its excellent surfing conditions and stunning sunsets, it\u2019s a favorite spot for both locals and tourists.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Santa Teresa",
+    "city": "La Libertad",
+    "type": "nature",
+    "description": "A tranquil beach destination that offers a peaceful escape with beautiful views and opportunities for water sports.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cascada de La Paz",
+    "city": "La Paz",
+    "type": "nature",
+    "description": "A hidden gem featuring a picturesque waterfall surrounded by tropical forest, perfect for hiking and enjoying nature.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "El Salvador del Mundo",
+    "city": "San Salvador",
+    "type": "landmark",
+    "description": "A prominent monument symbolizing the country, it is a popular meeting point and a great place for photos.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Isla de M\u00e9ndez",
+    "city": "La Paz",
+    "type": "nature",
+    "description": "A small island off the coast that offers unique wildlife viewing opportunities and a chance to explore untouched nature.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Parque Nacional Cerro Verde",
+    "city": "Santa Ana",
+    "type": "nature",
+    "description": "This national park features breathtaking views and a variety of trails for hiking, showcasing the region's stunning biodiversity.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Museo de Arte de El Salvador",
+    "city": "San Salvador",
+    "type": "culture",
+    "description": "This museum houses a collection of Salvadoran art from various periods, offering insight into the country's cultural evolution.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "El Salvador's Coffee Plantations",
+    "city": "Various",
+    "type": "culture",
+    "description": "Experience the process of coffee production with guided tours of local coffee farms, where you can learn about cultivation and enjoy tastings.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerro Blanco",
+    "city": "San Salvador",
+    "type": "nature",
+    "description": "A nature reserve located near the capital, offering trails for hiking and birdwatching in a protected environment.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Punta Roca",
+    "city": "La Libertad",
+    "type": "entertainment",
+    "description": "A renowned surfing spot that attracts surfers from around the world, known for its powerful waves and beautiful coastal scenery.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Archbishop Romero's Tomb",
+    "city": "San Salvador",
+    "type": "landmark",
+    "description": "The final resting place of the beloved Archbishop Oscar Romero, this site is a pilgrimage destination for many who admire his legacy.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Pueblo Blanco",
+    "city": "La Palma",
+    "type": "culture",
+    "description": "A unique town known for its whitewashed buildings and artistic vibe, it is a great place to explore local art and culture.",
+    "country": "El Salvador",
+    "country_rank": 4
+  },
+  {
+    "name": "Cayo Cuca",
+    "city": "La Uni\u00f3n",
+    "type": "nature",
+    "description": "A small island that offers beautiful beaches and opportunities for snorkeling and exploring marine life.",
+    "country": "El Salvador",
+    "country_rank": 4
+  }
+]

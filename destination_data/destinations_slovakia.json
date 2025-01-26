@@ -1,0 +1,274 @@
+[
+  {
+    "name": "High Tatras",
+    "city": "Various",
+    "type": "nature",
+    "description": "A stunning mountain range that offers breathtaking views, hiking trails, and skiing opportunities. It's a paradise for nature lovers and outdoor enthusiasts.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bratislava Castle",
+    "city": "Bratislava",
+    "type": "landmark",
+    "description": "Perched on a hill overlooking the capital, this castle offers a glimpse into Slovakia's history and stunning views of the Danube River.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Slovak Paradise National Park",
+    "city": "Various",
+    "type": "nature",
+    "description": "Known for its unique rock formations, gorges, and waterfalls, this national park is perfect for hikers seeking adventure and natural beauty.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bansk\u00e1 \u0160tiavnica",
+    "city": "Bansk\u00e1 \u0160tiavnica",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this historic town is famous for its medieval architecture, mining history, and charming streets.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Dem\u00e4novsk\u00e1 Cave of Liberty",
+    "city": "Dem\u00e4novsk\u00e1 Dolina",
+    "type": "nature",
+    "description": "One of the most beautiful caves in Slovakia, known for its stunning stalactites and stalagmites and fascinating underground rivers.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Spis Castle",
+    "city": "Spisske Podhradie",
+    "type": "landmark",
+    "description": "One of the largest castle complexes in Central Europe, this medieval fortress offers panoramic views and a glimpse into Slovakia's feudal past.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tatra National Park",
+    "city": "Various",
+    "type": "nature",
+    "description": "Home to some of the highest peaks in the Carpathians, this park is ideal for hiking, climbing, and wildlife spotting, including bears and chamois.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kysuck\u00e9 Nov\u00e9 Mesto",
+    "city": "Kysuck\u00e9 Nov\u00e9 Mesto",
+    "type": "culture",
+    "description": "A lesser-known destination rich in folk traditions and surrounded by beautiful nature, making it a great spot for cultural exploration.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tren\u010d\u00edn Castle",
+    "city": "Tren\u010d\u00edn",
+    "type": "landmark",
+    "description": "A historic castle that dominates the skyline of Tren\u010d\u00edn, it offers a deep dive into the region's history and spectacular views.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Blue Church",
+    "city": "Bratislava",
+    "type": "landmark",
+    "description": "An architectural gem with its striking blue color and unique Art Nouveau style, this church is a must-visit for architecture enthusiasts.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Orava Castle",
+    "city": "Oravsk\u00fd Podz\u00e1mok",
+    "type": "landmark",
+    "description": "Perched on a cliff above the Orava River, this fairy-tale castle is one of Slovakia's most picturesque and historically significant.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Caves of Aggtelek Karst",
+    "city": "Various",
+    "type": "nature",
+    "description": "A unique geological site featuring stunning caves and rich biodiversity, perfect for cave exploration and nature walks.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bojnice Castle",
+    "city": "Bojnice",
+    "type": "landmark",
+    "description": "This romantic castle is famous for its fairy-tale appearance and is surrounded by beautiful gardens, making it a popular destination.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "\u010ci\u010dmany",
+    "city": "\u010ci\u010dmany",
+    "type": "culture",
+    "description": "A small village known for its unique wooden houses decorated with traditional patterns, representing Slovakia's rich folk architecture.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Hronsek Wooden Church",
+    "city": "Hronsek",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this wooden church symbolizes the unique architecture of the region and is a beautiful example of traditional craftsmanship.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Pieniny National Park",
+    "city": "Various",
+    "type": "nature",
+    "description": "Known for its stunning river canyons and the iconic Dunajec River, where visitors can enjoy rafting and breathtaking views.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Vlkol\u00ednec",
+    "city": "Ru\u017eomberok",
+    "type": "culture",
+    "description": "A well-preserved village listed as a UNESCO World Heritage site, showcasing traditional Slovak wooden architecture and rural lifestyle.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Slovak National Gallery",
+    "city": "Bratislava",
+    "type": "culture",
+    "description": "The largest gallery in Slovakia, featuring an extensive collection of Slovak and international art, housed in a beautiful modern building.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Hiking in Ve\u013ek\u00e1 Fatra",
+    "city": "Various",
+    "type": "nature",
+    "description": "An excellent destination for hiking enthusiasts with diverse trails, rich wildlife, and stunning vistas of the surrounding mountains.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "S\u00fa\u013eov Rocks",
+    "city": "S\u00fa\u013eov",
+    "type": "nature",
+    "description": "A hidden gem for rock climbers and hikers, known for its unique rock formations and beautiful landscapes.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Nitra Castle",
+    "city": "Nitra",
+    "type": "landmark",
+    "description": "This historical castle offers insight into the region's past and provides visitors with panoramic views of the city and surrounding area.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kremnica",
+    "city": "Kremnica",
+    "type": "culture",
+    "description": "A medieval town known for its historic mint and charming streets, perfect for those interested in Slovakia's mining history.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tatransk\u00e1 Lomnica",
+    "city": "Tatransk\u00e1 Lomnica",
+    "type": "entertainment",
+    "description": "A popular ski resort and a hub for mountain sports, offering a variety of activities year-round, including hiking and cycling.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Liptovsk\u00e1 Mara",
+    "city": "Liptovsk\u00fd Mikul\u00e1\u0161",
+    "type": "nature",
+    "description": "A large reservoir surrounded by mountains, perfect for water sports, hiking, and enjoying the serene beauty of nature.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Old Town of Ko\u0161ice",
+    "city": "Ko\u0161ice",
+    "type": "culture",
+    "description": "The charming Old Town features beautiful architecture, vibrant street life, and the impressive St. Elisabeth Cathedral.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bansk\u00e1 Bystrica",
+    "city": "Bansk\u00e1 Bystrica",
+    "type": "culture",
+    "description": "A city rich in history, featuring a well-preserved Old Town and numerous museums showcasing the region's mining heritage.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Wooden Churches of the Slovak Carpathians",
+    "city": "Various",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site featuring beautifully crafted wooden churches that represent Slovakia's rich cultural and religious heritage.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Jasn\u00e1 N\u00edzke Tatry",
+    "city": "Dem\u00e4novsk\u00e1 Dolina",
+    "type": "entertainment",
+    "description": "The largest ski resort in Slovakia, known for its excellent slopes and stunning mountain scenery, attracting winter sports enthusiasts.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Cerveny Klastor",
+    "city": "Cerveny Klastor",
+    "type": "culture",
+    "description": "An ancient monastery located near the Dunajec River, offering historical insights and opportunities for rafting and hiking.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Zuberec",
+    "city": "Zuberec",
+    "type": "culture",
+    "description": "A quaint village known for its traditional architecture and the nearby Museum of Orava Village, showcasing rural life in Slovakia.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Watermill in Kva\u010dany",
+    "city": "Kva\u010dany",
+    "type": "landmark",
+    "description": "A traditional watermill that offers a glimpse into historical milling techniques and the beautiful natural surroundings.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bela Dubsk\u00e1",
+    "city": "\u010cierny Balog",
+    "type": "nature",
+    "description": "A picturesque area with beautiful landscapes, ideal for hiking and enjoying the serene environment.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Roman Catholic Church of St. Michael",
+    "city": "Bratislava",
+    "type": "landmark",
+    "description": "A stunning church with a rich history, offering beautiful architecture and cultural significance in the heart of the city.",
+    "country": "Slovakia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Carpathian Biosphere Reserve",
+    "city": "Various",
+    "type": "nature",
+    "description": "A protected area that showcases the diverse ecosystems of the Carpathian Mountains, perfect for nature lovers and wildlife enthusiasts.",
+    "country": "Slovakia",
+    "country_rank": 4
+  }
+]

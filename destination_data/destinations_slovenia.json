@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Lake Bled",
+    "city": "Bled",
+    "type": "nature",
+    "description": "A stunning glacial lake known for its picturesque island and medieval castle. Visitors can enjoy rowing to the island or hiking around the lake for breathtaking views.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Postojna Cave",
+    "city": "Postojna",
+    "type": "nature",
+    "description": "One of the largest karst cave systems in the world, featuring a fascinating train ride through its stunning chambers filled with stalactites and stalagmites.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Predjama Castle",
+    "city": "Postojna",
+    "type": "landmark",
+    "description": "A dramatic Renaissance castle built into a cliff, surrounded by legends and history. It offers tours that delve into its rich past and stunning architecture.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Triglav National Park",
+    "city": "Bohinj",
+    "type": "nature",
+    "description": "Slovenia's only national park, it boasts breathtaking alpine scenery, diverse wildlife, and numerous hiking trails, making it a paradise for nature lovers.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ljubljana Castle",
+    "city": "Ljubljana",
+    "type": "landmark",
+    "description": "Overlooking the capital, this medieval castle offers panoramic views of Ljubljana and features various exhibitions about the city's history.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Soca Valley",
+    "city": "Bovec",
+    "type": "nature",
+    "description": "Famous for its emerald-green river, this valley is popular for outdoor activities such as rafting, kayaking, and hiking in stunning natural surroundings.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Piran",
+    "city": "Piran",
+    "type": "culture",
+    "description": "A coastal town with a rich Venetian heritage, known for its narrow streets, picturesque squares, and stunning views of the Adriatic Sea.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Vintgar Gorge",
+    "city": "Bled",
+    "type": "nature",
+    "description": "A beautiful natural gorge carved by the Radovna River, featuring wooden walkways that allow visitors to explore its breathtaking waterfalls and rapids.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Skocjan Caves",
+    "city": "Divaca",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, these caves are known for their immense caverns and underground waterfalls, offering guided tours of their impressive formations.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Celje Castle",
+    "city": "Celje",
+    "type": "landmark",
+    "description": "One of the largest and best-preserved castles in Slovenia, it offers a glimpse into medieval life with its well-preserved walls and panoramic views.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Maribor Wine Region",
+    "city": "Maribor",
+    "type": "culture",
+    "description": "Famous for its Old Vine, this region is a hub for wine lovers, offering vineyards and tastings that highlight Slovenia's wine heritage.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kranjska Gora",
+    "city": "Kranjska Gora",
+    "type": "nature",
+    "description": "A picturesque alpine resort town, perfect for skiing in winter and hiking or cycling in summer, surrounded by the Julian Alps.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "\u0160kofja Loka",
+    "city": "\u0160kofja Loka",
+    "type": "culture",
+    "description": "One of Slovenia's oldest towns, known for its charming medieval architecture and the annual \u0160kofja Loka Passion Play.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ljubljana Old Town",
+    "city": "Ljubljana",
+    "type": "culture",
+    "description": "A vibrant area filled with baroque architecture, lively markets, and numerous cafes, making it a perfect spot to experience local culture.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Bohinj",
+    "city": "Bohinj",
+    "type": "nature",
+    "description": "The largest permanent lake in Slovenia, surrounded by mountains, it offers a tranquil setting for swimming, hiking, and enjoying nature.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Velika Planina",
+    "city": "Kamnik",
+    "type": "nature",
+    "description": "A unique alpine plateau known for its traditional herdsmen's huts and stunning views, accessible by cable car and hiking trails.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ljubelj Pass",
+    "city": "Tr\u017ei\u010d",
+    "type": "nature",
+    "description": "A scenic mountain pass that offers stunning views and hiking opportunities, as well as a glimpse into the old smuggling routes between Slovenia and Austria.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Zelenci Nature Reserve",
+    "city": "Kranjska Gora",
+    "type": "nature",
+    "description": "A stunning natural reserve known for its emerald-green springs and rich biodiversity, perfect for gentle hikes and photography.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ljubljanica River",
+    "city": "Ljubljana",
+    "type": "entertainment",
+    "description": "Flowing through the capital, this river is lined with cafes and bars, making it a lively spot for leisurely walks, boat rides, and socializing.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tivoli Park",
+    "city": "Ljubljana",
+    "type": "nature",
+    "description": "The largest park in Ljubljana, offering extensive walking paths, beautiful gardens, and art installations, ideal for a relaxing day outdoors.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kopelnik Cave",
+    "city": "Bled",
+    "type": "nature",
+    "description": "A lesser-known cave that offers guided tours showcasing its unique rock formations and underground river.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kozjak Waterfall",
+    "city": "Bovec",
+    "type": "nature",
+    "description": "A hidden gem nestled in the Triglav National Park, this stunning waterfall is accessible by a scenic hike through the forest.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of Illusions",
+    "city": "Ljubljana",
+    "type": "entertainment",
+    "description": "A fun and interactive museum that challenges visitors\u2019 perception of reality with optical illusions and immersive exhibits.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cerknica Lake",
+    "city": "Cerknica",
+    "type": "nature",
+    "description": "A unique disappearing lake that changes size with the seasons, offering diverse wildlife and stunning landscapes.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bled Castle",
+    "city": "Bled",
+    "type": "landmark",
+    "description": "Perched on a cliff above Lake Bled, this castle offers captivating views and houses a museum detailing the region's history.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Metlika",
+    "city": "Metlika",
+    "type": "culture",
+    "description": "Known for its wine production, this charming town features beautiful vineyards and hosts the annual Metlika Wine Festival.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Slovenian Ethnographic Museum",
+    "city": "Ljubljana",
+    "type": "culture",
+    "description": "A museum that showcases Slovenia's cultural heritage through exhibits of traditional crafts, costumes, and customs.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Piran Salt Pans",
+    "city": "Piran",
+    "type": "nature",
+    "description": "A unique landscape of traditional salt pans, where visitors can learn about salt production and enjoy the beautiful coastal scenery.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Castle of Ptuj",
+    "city": "Ptuj",
+    "type": "landmark",
+    "description": "The oldest castle in Slovenia, it features a rich collection of artifacts and offers stunning views of the surrounding area.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Velenje Castle",
+    "city": "Velenje",
+    "type": "landmark",
+    "description": "A picturesque castle situated on a hill, offering beautiful views and a museum with exhibits on the history of the region.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Savinjska Valley",
+    "city": "Celje",
+    "type": "nature",
+    "description": "This valley features stunning landscapes, charming villages, and opportunities for hiking and cycling.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Caves of \u0160kocjan",
+    "city": "Divaca",
+    "type": "nature",
+    "description": "A UNESCO Heritage site, renowned for its impressive underground canyons and diverse ecosystems.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Rogla",
+    "city": "Rogla",
+    "type": "nature",
+    "description": "A popular mountain resort known for skiing in winter and hiking and biking in summer, surrounded by beautiful forests.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ljubno ob Savinji",
+    "city": "Ljubno",
+    "type": "culture",
+    "description": "Known for its rich cultural heritage and as a center for women's ski jumping, it offers beautiful mountain scenery.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Robba Fountain",
+    "city": "Ljubljana",
+    "type": "landmark",
+    "description": "An iconic Baroque fountain located in the heart of Ljubljana, symbolizing the city's artistic heritage.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Miran's Wine Cellar",
+    "city": "Maribor",
+    "type": "culture",
+    "description": "A family-run wine cellar that offers tastings of local wines, showcasing the rich viniculture of the region.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kozjansko Regional Park",
+    "city": "Pod\u010detrtek",
+    "type": "nature",
+    "description": "A beautiful park featuring diverse flora and fauna, hiking trails, and historical sites, ideal for nature lovers.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Vrbnik",
+    "city": "Vrbnik",
+    "type": "culture",
+    "description": "A charming village perched on a cliff, known for its local wine, \u017dlahtina, and stunning views of the sea.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Treetop Walk",
+    "city": "Bohinj",
+    "type": "nature",
+    "description": "An elevated walkway through the treetops, offering a unique perspective of the forest and beautiful views of the surrounding landscape.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cerkno",
+    "city": "Cerkno",
+    "type": "entertainment",
+    "description": "A mountain town known for its ski resort and the unique Cerkno Carnival, which features traditional masks and performances.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Beekeeping Museum",
+    "city": "Radovljica",
+    "type": "culture",
+    "description": "A museum dedicated to Slovenia's rich beekeeping tradition, showcasing the importance of bees and honey in local culture.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Alpine Botanical Garden",
+    "city": "Julian Alps",
+    "type": "nature",
+    "description": "Home to a wide variety of alpine plants, this garden showcases Slovenia's rich biodiversity and offers peaceful walking paths.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bohinj Waterfall",
+    "city": "Bohinj",
+    "type": "nature",
+    "description": "A hidden gem in the heart of the Julian Alps, this waterfall is accessible via scenic trails and is perfect for a peaceful retreat.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Pivka Park of Military History",
+    "city": "Pivka",
+    "type": "culture",
+    "description": "A unique museum dedicated to military history, featuring various exhibitions and outdoor displays of military vehicles.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Vine House",
+    "city": "Maribor",
+    "type": "culture",
+    "description": "Home to the world's oldest grapevine, this house offers wine tastings and tells the story of the region's viniculture.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Natural History Museum",
+    "city": "Ljubljana",
+    "type": "culture",
+    "description": "A museum showcasing Slovenia's natural heritage, featuring exhibits on geology, paleontology, and biodiversity.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The House of Experiments",
+    "city": "Ljubljana",
+    "type": "entertainment",
+    "description": "An interactive science center where visitors can explore hands-on exhibits and participate in experiments.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ljubljana Zoo",
+    "city": "Ljubljana",
+    "type": "entertainment",
+    "description": "Home to a variety of animal species, this zoo focuses on conservation and offers educational programs for visitors.",
+    "country": "Slovenia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Railway Museum",
+    "city": "Ljubljana",
+    "type": "culture",
+    "description": "A museum dedicated to Slovenia's railway history, showcasing vintage locomotives and interactive exhibits.",
+    "country": "Slovenia",
+    "country_rank": 7
+  }
+]

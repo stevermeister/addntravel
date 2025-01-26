@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Panama Canal",
+    "city": "Balboa",
+    "type": "landmark",
+    "description": "A marvel of engineering, the Panama Canal connects the Atlantic and Pacific Oceans, allowing ships to save time and distance. Visitors can watch large vessels transit the canal from observation points.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Casco Viejo",
+    "city": "Panama City",
+    "type": "culture",
+    "description": "This historic district is known for its colonial architecture and vibrant atmosphere. Visitors can explore charming streets, plazas, and a variety of cafes and shops.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Bocas del Toro",
+    "city": "Bocas del Toro",
+    "type": "nature",
+    "description": "An archipelago famous for its stunning beaches and rich biodiversity. It's a perfect spot for snorkeling, diving, and enjoying the laid-back Caribbean vibe.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "San Blas Islands",
+    "city": "Guna Yala",
+    "type": "nature",
+    "description": "A group of over 300 islands known for their pristine beaches and vibrant indigenous culture. The islands are ideal for eco-tourism, offering a glimpse into the lifestyle of the Guna people.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Metropolitan Natural Park",
+    "city": "Panama City",
+    "type": "nature",
+    "description": "This unique urban park offers a green escape within the city. Visitors can hike trails, observe wildlife, and enjoy stunning views of Panama City and the Panama Canal.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Amador Causeway",
+    "city": "Panama City",
+    "type": "entertainment",
+    "description": "A scenic road built on a set of islands that connects to the mainland, featuring parks, restaurants, and stunning views of the Panama City skyline.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "El Valle de Ant\u00f3n",
+    "city": "Ant\u00f3n",
+    "type": "nature",
+    "description": "A picturesque valley located in a volcanic crater, known for its lush scenery and rich biodiversity. Visitors can enjoy hiking, waterfalls, and local markets.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Coiba National Park",
+    "city": "Isla Coiba",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this park is famous for its diverse marine life and beautiful islands. It's a hotspot for snorkeling and diving.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Panama Viejo",
+    "city": "Panama City",
+    "type": "landmark",
+    "description": "The ruins of the original Panama City, founded in 1519, offer a glimpse into the country's colonial history. The site includes a museum and a tower with panoramic views.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Gamboa Rainforest Resort",
+    "city": "Gamboa",
+    "type": "nature",
+    "description": "Located in the Soberania National Park, this resort offers eco-friendly accommodations and numerous activities like jungle tours and boat trips on the Panama Canal.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Soberania National Park",
+    "city": "Gamboa",
+    "type": "nature",
+    "description": "A vast park filled with diverse wildlife and lush tropical rainforest. It's a great place for birdwatching, hiking, and experiencing Panama's natural beauty.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Chiriqu\u00ed Highlands",
+    "city": "Boquete",
+    "type": "nature",
+    "description": "Known for its cool climate, stunning landscapes, and coffee plantations, this area is perfect for hiking, birdwatching, and enjoying the local coffee culture.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Ancon Hill",
+    "city": "Panama City",
+    "type": "nature",
+    "description": "A popular lookout point offering panoramic views of the city and the Panama Canal. The hill is surrounded by lush vegetation, making it a great spot for a nature walk.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Isla Taboga",
+    "city": "Taboga",
+    "type": "nature",
+    "description": "Known as the 'Island of Flowers,' Taboga is a tranquil getaway just a short boat ride from Panama City, featuring beautiful beaches and hiking trails.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Mi Pueblito",
+    "city": "Panama City",
+    "type": "culture",
+    "description": "A cultural village showcasing traditional Panamanian architecture and crafts. Visitors can learn about the country\u2019s diverse cultures and traditions.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Fort San Lorenzo",
+    "city": "Col\u00f3n",
+    "type": "landmark",
+    "description": "A historic fort built in the 16th century to protect the entrance of the Chagres River. The site offers beautiful views of the Caribbean Sea and historical insights.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Biodiversity Museum",
+    "city": "Panama City",
+    "type": "culture",
+    "description": "Designed by Frank Gehry, this museum focuses on Panama's rich biodiversity and ecological importance. Exhibits explore the relationship between humans and nature.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "La Amistad International Park",
+    "city": "Chiriqu\u00ed",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this park is home to lush rainforests and diverse wildlife, offering numerous hiking trails and opportunities for ecotourism.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "El Chorro Macho",
+    "city": "El Valle de Ant\u00f3n",
+    "type": "nature",
+    "description": "A stunning waterfall surrounded by lush forest, ideal for hiking and picnicking. The area offers various trails and opportunities for birdwatching.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro Anc\u00f3n",
+    "city": "Panama City",
+    "type": "nature",
+    "description": "A hill that provides stunning views of Panama City and the Canal. It is a great spot for hiking and observing local wildlife.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "The Panama Rainforest Discovery Center",
+    "city": "Gamboa",
+    "type": "nature",
+    "description": "A unique eco-tourism destination featuring a tower that offers incredible views of the rainforest canopy and opportunities for birdwatching.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "El Salto de Agua",
+    "city": "Veraguas",
+    "type": "nature",
+    "description": "A beautiful waterfall located in the Veraguas province, surrounded by lush greenery and perfect for a refreshing swim.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro Punta",
+    "city": "Chiriqu\u00ed",
+    "type": "nature",
+    "description": "Known for its cool climate and agricultural richness, Cerro Punta is a great place for hiking and exploring coffee and flower farms.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "La Casa de la Cultura",
+    "city": "Panama City",
+    "type": "culture",
+    "description": "A cultural center that promotes Panamanian arts and traditions, hosting exhibitions, performances, and workshops.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa Venao",
+    "city": "Los Santos",
+    "type": "nature",
+    "description": "A beautiful beach known for its surfing conditions and vibrant atmosphere. It's a popular spot for both relaxation and water sports.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro Chucanti",
+    "city": "Bocas del Toro",
+    "type": "nature",
+    "description": "A lesser-known gem in Bocas del Toro, this mountain offers hiking trails with breathtaking views and opportunities to see rare wildlife.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Arco Seco",
+    "city": "Veraguas",
+    "type": "landmark",
+    "description": "A natural rock formation resembling an arch, offering unique photo opportunities and stunning views of the surrounding area.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "La India Dormida",
+    "city": "Chiriqu\u00ed",
+    "type": "landmark",
+    "description": "A mountain range shaped like a sleeping woman, this site is steeped in local legend and offers excellent hiking trails.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Finca L\u00e9rida",
+    "city": "Boquete",
+    "type": "entertainment",
+    "description": "A coffee plantation that offers tours and tastings, providing insight into Panama's famous coffee production and stunning views of the surrounding mountains.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "El Valle Zoo",
+    "city": "El Valle de Ant\u00f3n",
+    "type": "entertainment",
+    "description": "A small zoo dedicated to the conservation of native species, offering visitors a chance to see local wildlife up close, including endangered species.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa Las Lajas",
+    "city": "Chiriqu\u00ed",
+    "type": "nature",
+    "description": "A tranquil beach known for its long stretches of sand and calm waters, perfect for a relaxing day by the sea.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Monumento a los Martires",
+    "city": "Panama City",
+    "type": "landmark",
+    "description": "A significant monument commemorating the martyrs of the 1964 Panama Canal riots, set in a beautiful park area.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Punta Chame",
+    "city": "Punta Chame",
+    "type": "nature",
+    "description": "A peninsula known for its beautiful beaches and water sports, including kite surfing and fishing, offering a peaceful escape from the city.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Omar Torrijos Park",
+    "city": "Panama City",
+    "type": "entertainment",
+    "description": "A large urban park featuring recreational facilities, walking paths, and open spaces for picnics and outdoor activities.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Los Istmos",
+    "city": "Panama City",
+    "type": "entertainment",
+    "description": "A vibrant cultural hub offering art exhibits, workshops, and performances, showcasing Panama's diverse artistic expressions.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Ca\u00f1on de La India Dormida",
+    "city": "Chiriqu\u00ed",
+    "type": "nature",
+    "description": "A stunning canyon offering hiking opportunities and breathtaking views, with unique rock formations and diverse flora and fauna.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "El Parque Natural Metropolitano",
+    "city": "Panama City",
+    "type": "nature",
+    "description": "A natural park in the city that provides trails through lush rainforest and opportunities to see wildlife, making it a great escape from urban life.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Museo del Canal Interoce\u00e1nico",
+    "city": "Panama City",
+    "type": "culture",
+    "description": "A museum dedicated to the history and construction of the Panama Canal, featuring exhibits, artifacts, and interactive displays.",
+    "country": "Panama",
+    "country_rank": 6
+  },
+  {
+    "name": "Las Perlas Archipelago",
+    "city": "Panama",
+    "type": "nature",
+    "description": "A collection of islands known for their stunning beaches and rich marine life, ideal for diving, fishing, and relaxation.",
+    "country": "Panama",
+    "country_rank": 6
+  }
+]

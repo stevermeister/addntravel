@@ -1,0 +1,538 @@
+[
+  {
+    "name": "Mount Fuji",
+    "city": "Fujiyoshida",
+    "type": "nature",
+    "description": "Japan's tallest peak and an iconic symbol of the country, Mount Fuji is a popular destination for hiking and photography, especially during cherry blossom season.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Fushimi Inari Taisha",
+    "city": "Kyoto",
+    "type": "landmark",
+    "description": "Known for its thousands of vermillion torii gates, this Shinto shrine dedicated to Inari is a stunning site to explore, offering beautiful views and a spiritual atmosphere.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Nara Park",
+    "city": "Nara",
+    "type": "nature",
+    "description": "Home to freely roaming deer and historic temples, Nara Park is a serene place to experience nature and Japan's ancient culture.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Gion District",
+    "city": "Kyoto",
+    "type": "culture",
+    "description": "Famous for its traditional wooden machiya houses and geisha culture, Gion is a captivating area to experience the elegance of Kyoto's past.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Hiroshima Peace Memorial Park",
+    "city": "Hiroshima",
+    "type": "landmark",
+    "description": "A poignant memorial dedicated to the victims of the atomic bomb, this park features the Atomic Bomb Dome and various monuments that promote peace.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Okinawa Islands",
+    "city": "Okinawa",
+    "type": "nature",
+    "description": "Known for their stunning beaches and vibrant coral reefs, the Okinawa Islands are a tropical paradise offering unique cultural experiences and delicious cuisine.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shinjuku Gyoen National Garden",
+    "city": "Tokyo",
+    "type": "nature",
+    "description": "This expansive and beautifully landscaped garden is a peaceful escape in the heart of Tokyo, featuring traditional Japanese, French, and English gardens.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kinkaku-ji (Golden Pavilion)",
+    "city": "Kyoto",
+    "type": "landmark",
+    "description": "This stunning Zen Buddhist temple is covered in gold leaf and surrounded by serene gardens, making it one of Kyoto's most photographed sites.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Itsukushima Shrine",
+    "city": "Miyajima",
+    "type": "landmark",
+    "description": "Famous for its 'floating' torii gate, this UNESCO World Heritage Site is revered for its stunning location and sacred significance.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Odaiba",
+    "city": "Tokyo",
+    "type": "entertainment",
+    "description": "This futuristic entertainment hub features shopping, dining, and attractions like teamLab Borderless and the life-sized Unicorn Gundam statue.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kamakura",
+    "city": "Kamakura",
+    "type": "culture",
+    "description": "Home to the Great Buddha and numerous temples, Kamakura is a historic seaside town that offers beautiful hiking trails and coastal views.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Takachiho Gorge",
+    "city": "Takachiho",
+    "type": "nature",
+    "description": "This stunning gorge features dramatic cliffs, waterfalls, and lush greenery, making it a fantastic spot for hiking and canoeing.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Nikko National Park",
+    "city": "Nikko",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, this national park is famous for its stunning natural beauty, ancient temples, and vibrant autumn foliage.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Naoshima Island",
+    "city": "Naoshima",
+    "type": "culture",
+    "description": "Known as 'Art Island', Naoshima is home to contemporary art museums and installations set against a beautiful coastal backdrop.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shibuya Crossing",
+    "city": "Tokyo",
+    "type": "entertainment",
+    "description": "Famous for being one of the busiest pedestrian crossings in the world, Shibuya Crossing is a vibrant symbol of Tokyo's dynamic urban culture.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Himeji Castle",
+    "city": "Himeji",
+    "type": "landmark",
+    "description": "Considered Japan's most beautiful castle, Himeji Castle is a UNESCO World Heritage Site known for its stunning architecture and well-preserved grounds.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shiretoko National Park",
+    "city": "Shiretoko",
+    "type": "nature",
+    "description": "This UNESCO World Heritage Site is renowned for its biodiversity and stunning landscapes, including mountains, forests, and coastal areas.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tottori Sand Dunes",
+    "city": "Tottori",
+    "type": "nature",
+    "description": "The largest sand dunes in Japan, Tottori Sand Dunes are a unique natural attraction where visitors can enjoy activities like sandboarding and camel rides.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kurashiki Bikan Historical Quarter",
+    "city": "Kurashiki",
+    "type": "culture",
+    "description": "A beautifully preserved area featuring traditional Edo-period buildings, Kurashiki Bikan offers a glimpse into Japan's historical commerce and arts.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Sapporo Snow Festival",
+    "city": "Sapporo",
+    "type": "entertainment",
+    "description": "Held annually in February, this festival showcases incredible ice and snow sculptures, attracting visitors from around the world.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Okinawa Churaumi Aquarium",
+    "city": "Motobu",
+    "type": "entertainment",
+    "description": "One of the largest aquariums in the world, it features a massive tank with whale sharks and a variety of marine life from the surrounding ocean.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Matsumoto Castle",
+    "city": "Matsumoto",
+    "type": "landmark",
+    "description": "Also known as 'Crow Castle' for its dark exterior, Matsumoto Castle is one of Japan's most beautiful and well-preserved feudal castles.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shikoku Pilgrimage",
+    "city": "Shikoku",
+    "type": "culture",
+    "description": "A famous pilgrimage route consisting of 88 temples, this journey offers spiritual insights and stunning scenery across the island of Shikoku.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Katsuura Underwater Park",
+    "city": "Katsuura",
+    "type": "nature",
+    "description": "A hidden gem for diving enthusiasts, Katsuura Underwater Park offers vibrant marine life and beautiful underwater landscapes.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Iya Valley",
+    "city": "Tokushima",
+    "type": "nature",
+    "description": "Known for its stunning mountainous scenery and vine bridges, Iya Valley is a hidden gem perfect for outdoor activities and cultural experiences.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Miyajima Island",
+    "city": "Miyajima",
+    "type": "nature",
+    "description": "Famous for its sacred deer and the iconic floating torii gate, Miyajima is a picturesque island that offers hiking trails and breathtaking views.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Yoshinoyama",
+    "city": "Yoshino",
+    "type": "nature",
+    "description": "Renowned for its cherry blossoms, Yoshinoyama is a beautiful mountain area that attracts visitors during spring for its stunning floral displays.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Otaru Canal",
+    "city": "Otaru",
+    "type": "landmark",
+    "description": "This scenic canal is lined with historic warehouses and gas lamps, making it a romantic spot to explore, especially during winter when the area is illuminated with lights.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Hokkaido Lavender Fields",
+    "city": "Furano",
+    "type": "nature",
+    "description": "Famous for its vibrant lavender fields, Furano is a picturesque destination that attracts visitors during the summer months for its stunning floral displays.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tsumago",
+    "city": "Nagano",
+    "type": "culture",
+    "description": "A beautifully preserved post town along the Nakasendo Trail, Tsumago offers a glimpse into Japan's Edo-period history and stunning mountain landscapes.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Dotonbori",
+    "city": "Osaka",
+    "type": "entertainment",
+    "description": "Famous for its bright neon lights and street food, Dotonbori is a lively district where visitors can enjoy local cuisine and vibrant nightlife.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kiso Valley",
+    "city": "Nagano",
+    "type": "nature",
+    "description": "Known for its scenic hiking trails and historic post towns, Kiso Valley offers a glimpse into Japan's past and beautiful natural landscapes.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Lake Kawaguchi",
+    "city": "Fujikawaguchiko",
+    "type": "nature",
+    "description": "One of the Fuji Five Lakes, Lake Kawaguchi offers stunning views of Mount Fuji and is a popular destination for outdoor activities and relaxation.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tottori Sand Dunes Conan",
+    "city": "Tottori",
+    "type": "entertainment",
+    "description": "This unique museum showcases life-sized sand sculptures and art made from sand, providing a fun and interactive experience for visitors.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Hakone Open-Air Museum",
+    "city": "Hakone",
+    "type": "culture",
+    "description": "Nestled in the mountains, this museum features a stunning collection of sculptures and artworks set in a beautiful outdoor landscape.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kumano Kodo",
+    "city": "Wakayama",
+    "type": "nature",
+    "description": "This ancient pilgrimage route offers breathtaking scenery and a spiritual experience as hikers traverse through the beautiful Kumano region.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Okinawa World",
+    "city": "Okinawa",
+    "type": "entertainment",
+    "description": "A theme park showcasing Okinawan culture, visitors can explore limestone caves, traditional crafts, and enjoy local performances.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kochi Castle",
+    "city": "Kochi",
+    "type": "landmark",
+    "description": "One of the few original castles remaining in Japan, Kochi Castle offers an insight into Japan's feudal history with stunning views from its keep.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Ritsurin Garden",
+    "city": "Takamatsu",
+    "type": "nature",
+    "description": "A beautifully landscaped garden with ponds, tea houses, and seasonal flowers, Ritsurin Garden is a perfect place for a peaceful stroll.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tottori Castle Ruins",
+    "city": "Tottori",
+    "type": "landmark",
+    "description": "These ruins offer a glimpse into Japan's feudal past, with beautiful views of Tottori City and the surrounding landscape.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kamikochi",
+    "city": "Miyihashi",
+    "type": "nature",
+    "description": "A stunning national park known for its beautiful mountain scenery and hiking trails, Kamikochi is a paradise for nature lovers.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Roppongi Hills",
+    "city": "Tokyo",
+    "type": "entertainment",
+    "description": "A modern complex featuring shopping, dining, and an observation deck with panoramic views of Tokyo, Roppongi Hills is a must-visit for urban explorers.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tama Art University Library",
+    "city": "Kawasaki",
+    "type": "culture",
+    "description": "A stunning architectural gem, this library features a unique design and offers a tranquil space for art and design enthusiasts.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Sado Island",
+    "city": "Niigata",
+    "type": "nature",
+    "description": "Known for its stunning landscapes, Sado Island offers hiking, traditional culture, and the chance to see the famous Kodo drummers.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kizuna World",
+    "city": "Tottori",
+    "type": "entertainment",
+    "description": "A unique theme park dedicated to the bond between humans and animals, featuring interactive experiences with various animals.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Rugged Coast of Oki Islands",
+    "city": "Oki Islands",
+    "type": "nature",
+    "description": "Featuring dramatic cliffs and serene beaches, this remote area is perfect for those looking to escape the crowds and enjoy nature.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Hoshino Resort",
+    "city": "Nagano",
+    "type": "entertainment",
+    "description": "A luxury resort offering a unique blend of traditional Japanese hospitality and modern amenities, perfect for relaxation and rejuvenation.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Sannomiya Center Gai",
+    "city": "Kobe",
+    "type": "entertainment",
+    "description": "A bustling shopping and dining district known for its vibrant atmosphere and delicious street food.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kawagoe",
+    "city": "Kawagoe",
+    "type": "culture",
+    "description": "Known as 'Little Edo', Kawagoe features well-preserved historic buildings and offers a glimpse into Japan's Edo period.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shimanami Kaido",
+    "city": "Shikoku",
+    "type": "nature",
+    "description": "A scenic cycling route that connects Honshu and Shikoku islands, offering stunning views of the Seto Inland Sea.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Oji Zoo",
+    "city": "Nara",
+    "type": "entertainment",
+    "description": "This charming zoo is home to a variety of animals and features beautiful parkland, making it a great spot for families.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shikoku Karst",
+    "city": "Ehime",
+    "type": "nature",
+    "description": "A stunning limestone plateau, Shikoku Karst offers breathtaking views and hiking opportunities amidst unique geological formations.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Saiko Iyashi no Sato",
+    "city": "Fujikawaguchiko",
+    "type": "culture",
+    "description": "A historical village showcasing traditional thatched-roof houses, where visitors can learn about rural life in Japan.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Miyako Island",
+    "city": "Miyakojima",
+    "type": "nature",
+    "description": "Famous for its pristine beaches and coral reefs, Miyako Island offers stunning natural beauty and opportunities for snorkeling.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kiyomizu-dera Temple",
+    "city": "Kyoto",
+    "type": "landmark",
+    "description": "A historic temple famous for its wooden stage that juts out over the hillside, offering spectacular views of the cherry and maple trees below.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shirakawa-go",
+    "city": "Gifu",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, this traditional gassho-zukuri village is known for its unique farmhouses and stunning winter landscapes.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Takamatsu Castle",
+    "city": "Takamatsu",
+    "type": "landmark",
+    "description": "Also known as 'Hirajo', this castle features beautiful gardens and moats, providing a glimpse into Japan's feudal history.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Shirakami-Sanchi",
+    "city": "Aomori",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, this pristine forest area is known for its ancient beech trees and stunning hiking trails.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kusatsu Onsen",
+    "city": "Kusatsu",
+    "type": "entertainment",
+    "description": "Famed for its high-quality sulfuric waters, Kusatsu Onsen is a popular hot spring resort offering a traditional Japanese ryokan experience.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Niseko",
+    "city": "Hokkaido",
+    "type": "nature",
+    "description": "Renowned for its world-class skiing and snowboarding, Niseko is a popular winter destination that also offers stunning summer hiking trails.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kumamoto Castle",
+    "city": "Kumamoto",
+    "type": "landmark",
+    "description": "One of Japan's most impressive castles, Kumamoto Castle features a stunning architectural design and beautiful surrounding gardens.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tottori Sand Dunes Conan",
+    "city": "Tottori",
+    "type": "entertainment",
+    "description": "This unique museum showcases life-sized sand sculptures and art made from sand, providing a fun and interactive experience for visitors.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Aoshima Island",
+    "city": "Kagoshima",
+    "type": "nature",
+    "description": "Known for its unique 'cat island', Aoshima is a tranquil getaway that offers beautiful beaches and a chance to see free-roaming cats.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kikuchi Gorge",
+    "city": "Kumamoto",
+    "type": "nature",
+    "description": "A hidden gem featuring beautiful waterfalls and lush greenery, Kikuchi Gorge is perfect for hiking and enjoying nature away from crowds.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Nagasaki Peace Park",
+    "city": "Nagasaki",
+    "type": "landmark",
+    "description": "This poignant park commemorates the victims of the atomic bombing and features various monuments dedicated to peace and remembrance.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Kushiro Shitsugen National Park",
+    "city": "Kushiro",
+    "type": "nature",
+    "description": "Home to Japan's largest wetland, this national park is known for its diverse wildlife and beautiful landscapes, perfect for nature lovers.",
+    "country": "Japan",
+    "country_rank": 10
+  },
+  {
+    "name": "Tsumago",
+    "city": "Nagano",
+    "type": "culture",
+    "description": "This historic post town along the Nakasendo Trail offers a glimpse into Japan's Edo-period history, with well-preserved buildings and scenic walks.",
+    "country": "Japan",
+    "country_rank": 10
+  }
+]

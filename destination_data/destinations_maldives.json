@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Mal\u00e9",
+    "city": "Mal\u00e9",
+    "type": "culture",
+    "description": "The bustling capital of Maldives, Mal\u00e9 is known for its vibrant markets, historical mosques, and rich culture. Explore local life, try traditional food, and visit the Maldives Islamic Centre.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Banana Reef",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "Famous for its stunning coral formations and vibrant marine life, Banana Reef is a diver's paradise. It offers the chance to see everything from colorful fish to magnificent sharks.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Maafushi Island",
+    "city": "Kaafu Atoll",
+    "type": "entertainment",
+    "description": "Maafushi is a local island known for its guesthouses and budget-friendly accommodations. Visitors can enjoy water sports, local cuisine, and the vibrant island life.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Sunset Beach",
+    "city": "Thulusdhoo",
+    "type": "nature",
+    "description": "A hidden gem known for its breathtaking sunsets and tranquil atmosphere. The soft white sands and clear waters make it a perfect spot for relaxation.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Hulhumal\u00e9",
+    "city": "Hulhumal\u00e9",
+    "type": "culture",
+    "description": "A reclaimed island with beautiful beaches and a modern design. It offers a mix of urban life and beach relaxation, making it a unique place to explore.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Utheemu",
+    "city": "Utheemu",
+    "type": "culture",
+    "description": "The birthplace of Sultan Mohamed Thakurufaanu, Utheemu is rich in history. Visitors can explore the Utheemu Ganduvaru, a historic palace that narrates the island's past.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Thulusdhoo Island",
+    "city": "Kaafu Atoll",
+    "type": "nature",
+    "description": "Known for its incredible surf breaks and local culture, Thulusdhoo is a great destination for adventure seekers. The island also has beautiful beaches and a friendly local community.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Fihalhohi Island",
+    "city": "South Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A serene island resort surrounded by lush vegetation and crystal-clear waters. Fihalhohi is ideal for snorkeling and enjoying the untouched natural beauty of the Maldives.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Manta Point",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A renowned diving site where visitors can witness majestic manta rays. This unique underwater experience is a must for marine life enthusiasts.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Addu City",
+    "city": "Addu Atoll",
+    "type": "culture",
+    "description": "The southernmost city in the Maldives, Addu City has a rich history and distinct culture. Explore the old British base and enjoy the unique local lifestyle.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Dhigurah Island",
+    "city": "Alif Dhaal Atoll",
+    "type": "nature",
+    "description": "Known for its long sandy beach and proximity to whale shark hotspots, Dhigurah is a charming island perfect for nature lovers and those seeking adventure.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kandolhu Island",
+    "city": "North Ari Atoll",
+    "type": "nature",
+    "description": "A small, picturesque island with stunning beaches and vibrant coral reefs. Kandolhu offers an intimate experience with luxury resorts and exceptional diving.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Nalaguraidhoo Island",
+    "city": "South Ari Atoll",
+    "type": "nature",
+    "description": "Home to the popular Sun Siyam Iru Fushi resort, this island is known for its beautiful beaches and vibrant marine life, making it a top choice for relaxation and diving.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Thoddoo Island",
+    "city": "Alif Alif Atoll",
+    "type": "nature",
+    "description": "Famous for its agriculture, particularly watermelons, Thoddoo is a local island offering a glimpse into Maldivian life. Its stunning beaches and friendly community are inviting.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Vihamanaafushi",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "entertainment",
+    "description": "Home to several luxury resorts, Vihamanaafushi boasts beautiful beaches and a vibrant nightlife. Enjoy water sports or relax at upscale beach bars.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kuredu Island",
+    "city": "Lhaviyani Atoll",
+    "type": "nature",
+    "description": "One of the largest islands in the Maldives, Kuredu features beautiful beaches and excellent snorkeling opportunities. It\u2019s known for its diverse marine life and vibrant coral reefs.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Baa Atoll Biosphere Reserve",
+    "city": "Baa Atoll",
+    "type": "nature",
+    "description": "A UNESCO Biosphere Reserve, this atoll is famous for its rich biodiversity and stunning natural beauty. It's a great destination for eco-tourism and marine conservation.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kanduma Island",
+    "city": "South Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A luxurious resort island known for its lush landscapes and pristine beaches. Kanduma is perfect for relaxation and offers various water sports activities.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kooddoo Island",
+    "city": "Gaafu Alif Atoll",
+    "type": "nature",
+    "description": "A lesser-known island with beautiful beaches and rich marine life. Kooddoo is an excellent spot for diving and snorkeling enthusiasts.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Rasdhoo Island",
+    "city": "Rasdhoo Atoll",
+    "type": "culture",
+    "description": "Known for its vibrant culture and friendly locals, Rasdhoo offers an authentic Maldivian experience. The island is also famous for its nearby dive sites.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Villingili Island",
+    "city": "Addu Atoll",
+    "type": "nature",
+    "description": "A tranquil island with lush greenery and white sandy beaches, Villingili is ideal for those seeking peace and quiet away from the more touristy spots.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Dhigurah Beach",
+    "city": "Dhigurah",
+    "type": "nature",
+    "description": "This stunning beach is known for its crystal-clear waters and long stretch of white sand. It\u2019s a perfect spot for sunbathing and swimming.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kandolhu Island",
+    "city": "North Ari Atoll",
+    "type": "nature",
+    "description": "A small, picturesque island with stunning beaches and vibrant coral reefs. Kandolhu offers an intimate experience with luxury resorts and exceptional diving.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Biyadhoo Island",
+    "city": "South Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "Known as the 'island of the divers', Biyadhoo offers pristine diving sites and beautiful beaches. The island's lush greenery adds to its charm.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Fotteyo Kandu",
+    "city": "Addu Atoll",
+    "type": "nature",
+    "description": "A renowned diving spot famous for its strong currents and vibrant marine life, Fotteyo Kandu offers an exhilarating experience for adventurous divers.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Miyaru Faru",
+    "city": "North Ari Atoll",
+    "type": "nature",
+    "description": "A hidden diving site known for its vibrant reef sharks and diverse marine life. It's a must-visit for those looking to explore the underwater world.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kuda Huraa",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "entertainment",
+    "description": "This private island resort is known for its luxurious accommodations and excellent water sports facilities. It offers a perfect blend of relaxation and adventure.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Madivaru",
+    "city": "North Ari Atoll",
+    "type": "nature",
+    "description": "A small deserted island that offers a secluded escape. Madivaru is great for picnics, snorkeling, and enjoying untouched nature.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Fuvahmulah Island",
+    "city": "Fuvahmulah",
+    "type": "nature",
+    "description": "Unique for its freshwater lakes and diverse ecosystems, Fuvahmulah is a hidden gem perfect for eco-tourism. Its vibrant marine life makes it a great diving destination.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Himmafushi Island",
+    "city": "Kaafu Atoll",
+    "type": "culture",
+    "description": "Known for its surfing spots and local culture, Himmafushi is a great place to experience the real Maldives. The island has a vibrant community and local markets.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Rasdhoo Madivaru",
+    "city": "Rasdhoo Atoll",
+    "type": "nature",
+    "description": "A stunning dive site known for its vibrant coral reefs and marine life. It\u2019s a popular spot for diving enthusiasts seeking unique underwater experiences.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kudahuvadhoo",
+    "city": "Dhaalu Atoll",
+    "type": "culture",
+    "description": "Famous for its ancient mosques and cultural heritage, Kudahuvadhoo offers a glimpse into the historical significance of the Maldives.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Maafushi Prison",
+    "city": "Maafushi",
+    "type": "culture",
+    "description": "A former prison turned into a historical site, offering tours that share stories of the Maldives' past and its journey to independence.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Thulhagiri Island",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A small island known for its beautiful beaches and crystal-clear waters. Thulhagiri is perfect for snorkeling and enjoying a peaceful retreat.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Guraidhoo Island",
+    "city": "Kaafu Atoll",
+    "type": "culture",
+    "description": "A quaint local island with rich traditions and friendly inhabitants. Guraidhoo offers visitors a chance to experience authentic Maldivian culture.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Nalaguraidhoo Island",
+    "city": "South Ari Atoll",
+    "type": "nature",
+    "description": "This island is home to some of the best diving spots in the Maldives, with a variety of marine life and coral reefs to explore.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Vaadhoo Island",
+    "city": "Raa Atoll",
+    "type": "nature",
+    "description": "Famous for its bioluminescent beaches, Vaadhoo Island offers a magical experience at night when the waves glow with natural light.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kithafushi Island",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A secluded island known for its tranquil atmosphere and beautiful beaches. Ideal for those looking for a quiet getaway.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kanfushi Island",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "Renowned for its luxurious resorts and stunning beaches, Kanfushi offers an exceptional experience for travelers seeking comfort and beauty.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Hinnavaru",
+    "city": "Hinnavaru Atoll",
+    "type": "culture",
+    "description": "A local island famous for its traditional Maldivian culture and warm hospitality. Experience local crafts, cuisine, and community life.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Miyaru Kandu",
+    "city": "North Ari Atoll",
+    "type": "nature",
+    "description": "A popular diving site known for its diverse marine life and beautiful coral gardens, attracting divers from around the world.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Dhigali Haa",
+    "city": "Raa Atoll",
+    "type": "nature",
+    "description": "A remote dive site with stunning underwater landscapes and vibrant marine ecosystems, perfect for adventurous divers.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Mahal Island",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A serene island known for its lush greenery and beautiful beaches. It's an ideal spot for relaxation and enjoying nature.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Thaa Atoll",
+    "city": "Thaa Atoll",
+    "type": "nature",
+    "description": "Known for its rich marine biodiversity and stunning dive sites, Thaa Atoll offers an unforgettable underwater experience.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Nassimo Island",
+    "city": "Mal\u00e9 Atoll",
+    "type": "nature",
+    "description": "A small, picturesque island ideal for a quiet retreat. The island is surrounded by beautiful coral reefs and clear waters.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kumaradhoo Island",
+    "city": "Haa Dhaal Atoll",
+    "type": "culture",
+    "description": "A local island with a rich cultural heritage, Kumaradhoo offers visitors a glimpse into traditional Maldivian life.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Fainu Island",
+    "city": "Haa Dhaal Atoll",
+    "type": "nature",
+    "description": "Known for its stunning beaches and friendly locals, Fainu is a hidden gem that offers a peaceful escape from the hustle and bustle.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Dharavandhoo Island",
+    "city": "Baa Atoll",
+    "type": "nature",
+    "description": "A small island renowned for its proximity to Hanifaru Bay, a UNESCO Biosphere Reserve known for manta ray and whale shark sightings.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Kooddoo",
+    "city": "Gaafu Alif Atoll",
+    "type": "nature",
+    "description": "A local island known for its beautiful beaches and rich marine life. Kooddoo is an excellent spot for diving and snorkeling enthusiasts.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Hithadhoo",
+    "city": "Addu Atoll",
+    "type": "culture",
+    "description": "The largest city in the southern Maldives, Hithadhoo offers a mix of modern amenities and cultural experiences.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Villingili",
+    "city": "Addu Atoll",
+    "type": "nature",
+    "description": "Known for its lush greenery and beautiful beaches, Villingili is perfect for eco-tourism and relaxation.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Gulhi Island",
+    "city": "South Mal\u00e9 Atoll",
+    "type": "culture",
+    "description": "A small local island known for its beautiful beaches and vibrant culture, Gulhi offers a laid-back atmosphere and friendly locals.",
+    "country": "Maldives",
+    "country_rank": 9
+  },
+  {
+    "name": "Fenfushi Island",
+    "city": "North Mal\u00e9 Atoll",
+    "type": "culture",
+    "description": "A local island rich in culture and traditions, Fenfushi is perfect for those looking to experience authentic Maldivian life.",
+    "country": "Maldives",
+    "country_rank": 9
+  }
+]

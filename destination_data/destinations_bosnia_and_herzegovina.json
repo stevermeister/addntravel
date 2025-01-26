@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Stari Most",
+    "city": "Mostar",
+    "type": "landmark",
+    "description": "The Old Bridge is a UNESCO World Heritage site and a symbol of reconciliation. Its stunning architecture and the view from the bridge make it a must-visit spot.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Sutjeska National Park",
+    "city": "Tjenti\u0161te",
+    "type": "nature",
+    "description": "Home to the highest peak in Bosnia and Herzegovina, Magli\u0107 Mountain, this park offers breathtaking landscapes and diverse wildlife.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Jajce Waterfall",
+    "city": "Jajce",
+    "type": "nature",
+    "description": "This spectacular waterfall, located in the heart of Jajce, cascades 22 meters down, creating a stunning natural spectacle.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Sarajevo Tunnel Museum",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "This museum commemorates the Sarajevo Tunnel, which was a lifeline during the Siege of Sarajevo in the 1990s, offering a poignant insight into the city's history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Kravice Waterfalls",
+    "city": "Studenci",
+    "type": "nature",
+    "description": "A hidden gem, these cascading waterfalls are surrounded by lush greenery and offer a serene swimming spot during the summer months.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Banja Luka Fortress",
+    "city": "Banja Luka",
+    "type": "landmark",
+    "description": "Also known as Kastel, this historical fortress offers panoramic views of the city and has a rich history dating back to the Roman era.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Blagaj Tekke",
+    "city": "Blagaj",
+    "type": "landmark",
+    "description": "This 16th-century Dervish monastery is nestled at the base of a cliff next to the Buna River, providing a peaceful and spiritual atmosphere.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Tuzla Pannonica",
+    "city": "Tuzla",
+    "type": "entertainment",
+    "description": "A unique saltwater lake complex that offers relaxation, swimming, and wellness experiences, surrounded by beautiful parks.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Visoko Pyramids",
+    "city": "Visoko",
+    "type": "landmark",
+    "description": "These controversial pyramids are believed by some to be ancient structures, attracting tourists and researchers alike for their mystery.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Gazi Husrev-beg Mosque",
+    "city": "Sarajevo",
+    "type": "landmark",
+    "description": "One of the most significant examples of Ottoman architecture in the city, this mosque features intricate calligraphy and beautiful tile work.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Neretva River",
+    "city": "Mostar",
+    "type": "nature",
+    "description": "Renowned for its emerald-green color, the Neretva River is perfect for outdoor activities like rafting and offers stunning views of the surrounding landscapes.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Yellow Fortress",
+    "city": "Sarajevo",
+    "type": "landmark",
+    "description": "This fortress offers some of the best panoramic views of Sarajevo and is a great spot for watching the sunset over the city.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Srebrenica Memorial Center",
+    "city": "Srebrenica",
+    "type": "culture",
+    "description": "A poignant place of remembrance for the victims of the Srebrenica massacre, it offers guided tours and deep insights into the tragic events.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Vrelo Bosne",
+    "city": "Sarajevo",
+    "type": "nature",
+    "description": "A beautiful spring area near Sarajevo, famous for its crystal-clear waters and picturesque wooden boats, ideal for a peaceful outing.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Old Bazaar (Ba\u0161\u010dar\u0161ija)",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "The heart of Sarajevo's cultural life, this bazaar is filled with shops, cafes, and historical buildings that showcase the city's Ottoman heritage.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Roman Bridge in Vi\u0161egrad",
+    "city": "Vi\u0161egrad",
+    "type": "landmark",
+    "description": "This historical bridge, featured in Ivo Andri\u0107's novel, is an architectural masterpiece and a UNESCO World Heritage site.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Bijela Tabija",
+    "city": "Sarajevo",
+    "type": "landmark",
+    "description": "An old white fort that offers spectacular views of the city, perfect for photography and enjoying the historical ambiance.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Tvr\u0111ava Fortica",
+    "city": "Zenica",
+    "type": "landmark",
+    "description": "A medieval fortress with stunning views of Zenica and the surrounding valleys, offering a glimpse into the region's history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Krupa na Vrbasu",
+    "city": "Banja Luka",
+    "type": "nature",
+    "description": "Known for its serene river and stunning waterfalls, this area is perfect for picnics, swimming, and enjoying nature.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Sutjeska Memorial",
+    "city": "Tjenti\u0161te",
+    "type": "culture",
+    "description": "A memorial dedicated to the soldiers who fought in the Battle of Sutjeska during World War II, surrounded by stunning natural beauty.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Rama Lake",
+    "city": "Prozor-Rama",
+    "type": "nature",
+    "description": "A tranquil lake surrounded by mountains, ideal for hiking, fishing, and enjoying the peaceful environment.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Sarajevo City Hall",
+    "city": "Sarajevo",
+    "type": "landmark",
+    "description": "An architectural gem, this building is a stunning example of Moorish revival style and houses the National and University Library of Bosnia and Herzegovina.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Tito's Gallery",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "A museum dedicated to the life of Josip Broz Tito, featuring artifacts and exhibitions about his presidency and the former Yugoslavia.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Bora\u010dko Lake",
+    "city": "Konjic",
+    "type": "nature",
+    "description": "A hidden paradise known for its clear blue waters, making it perfect for swimming and hiking in the surrounding mountains.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Ostrog Monastery",
+    "city": "Ostrog",
+    "type": "landmark",
+    "description": "A stunning Orthodox monastery built into a cliff, attracting pilgrims and visitors for its spiritual significance and breathtaking views.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Gradska tr\u017enica",
+    "city": "Sarajevo",
+    "type": "entertainment",
+    "description": "The city's main market, bustling with local vendors selling fresh produce, crafts, and traditional foods, offering a taste of local life.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Crimes Against Humanity",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "A museum dedicated to documenting the atrocities committed during the Bosnian War, providing a sobering perspective on the conflict.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Trebinje Old Town",
+    "city": "Trebinje",
+    "type": "culture",
+    "description": "A charming town with well-preserved architecture, cobblestone streets, and a vibrant caf\u00e9 culture, perfect for leisurely strolls.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Watermills of Jajce",
+    "city": "Jajce",
+    "type": "landmark",
+    "description": "A series of well-preserved medieval watermills along the Pliva River that showcase traditional craftsmanship and the region's history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Bistro Vila",
+    "city": "Banja Luka",
+    "type": "entertainment",
+    "description": "A popular bistro offering local cuisine and a lively atmosphere, perfect for experiencing Banja Luka's culinary scene.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Ru\u017eica Church",
+    "city": "Belgrade",
+    "type": "landmark",
+    "description": "A unique church built from the remains of a medieval fortress, showcasing stunning architecture and beautiful surroundings.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Proko\u0161ko Lake",
+    "city": "Fojnica",
+    "type": "nature",
+    "description": "A picturesque lake surrounded by traditional wooden houses, perfect for hiking and enjoying the natural beauty.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Srebrenik Fortress",
+    "city": "Srebrenik",
+    "type": "landmark",
+    "description": "An impressive medieval fortress perched on a hill, offering panoramic views and a rich history stretching back to the 13th century.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Gallery of Bosnian History",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "This gallery showcases significant artifacts from Bosnia's past, offering insights into its diverse cultures and history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Rijeka Neretva",
+    "city": "Konjic",
+    "type": "nature",
+    "description": "A beautiful river known for its turquoise waters, ideal for kayaking, fishing, and enjoying the surrounding nature.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Vrelo Bosne",
+    "city": "Sarajevo",
+    "type": "nature",
+    "description": "A beautiful spring area near Sarajevo, famous for its crystal-clear waters and picturesque wooden boats, ideal for a peaceful outing.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Battle of the Neretva Museum",
+    "city": "Konjic",
+    "type": "culture",
+    "description": "A museum dedicated to the historical battle that took place at the Neretva River during World War II, offering a deep dive into local history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Maglaj Fortress",
+    "city": "Maglaj",
+    "type": "landmark",
+    "description": "A well-preserved medieval fortress that offers stunning views of the surrounding landscape and a glimpse into the region's history.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Srebrenica Memorial Center",
+    "city": "Srebrenica",
+    "type": "culture",
+    "description": "A center dedicated to the victims of the Srebrenica genocide, providing educational resources and memorials.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Zlatibor Mountain",
+    "city": "Fojnica",
+    "type": "nature",
+    "description": "A beautiful mountain area known for its hiking trails, stunning views, and diverse flora and fauna, perfect for outdoor enthusiasts.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "Gra\u010danica Monastery",
+    "city": "Gra\u010danica",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this medieval Serbian Orthodox monastery is renowned for its stunning frescoes and architecture.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of the Second World War",
+    "city": "Sarajevo",
+    "type": "culture",
+    "description": "This museum hosts a range of exhibits related to the events of World War II in the region, showcasing artifacts and personal stories.",
+    "country": "Bosnia and Herzegovina",
+    "country_rank": 6
+  }
+]

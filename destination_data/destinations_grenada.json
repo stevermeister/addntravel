@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Grand Anse Beach",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "A stunning 2-mile stretch of soft white sand and turquoise waters, Grand Anse Beach is perfect for sunbathing, swimming, and water sports. It's often considered one of the best beaches in the Caribbean.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "St. George's Market",
+    "city": "St. George's",
+    "type": "culture",
+    "description": "This vibrant market is a hub of local culture, offering fresh produce, spices, and handcrafted goods. Visitors can experience the lively atmosphere and interact with friendly vendors.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Fort George",
+    "city": "St. George's",
+    "type": "landmark",
+    "description": "Built in 1705, Fort George offers panoramic views of the harbor and the city. The fort's historical significance and picturesque setting make it a must-visit for history enthusiasts.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Annandale Falls",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "A beautiful waterfall surrounded by lush rainforest, Annandale Falls is a hidden gem perfect for a refreshing swim or a peaceful picnic. The falls are easily accessible and offer stunning photo opportunities.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Grenada Underwater Sculpture Park",
+    "city": "Moliniere Bay",
+    "type": "nature",
+    "description": "The world's first underwater sculpture park, this unique site combines art and nature. Snorkelers and divers can explore the submerged sculptures that promote marine conservation.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Carriacou Island",
+    "city": "Carriacou",
+    "type": "nature",
+    "description": "Known for its stunning beaches and vibrant culture, Carriacou Island is an ideal spot for sailing, snorkeling, and experiencing traditional Caribbean life. The island offers a tranquil escape from the mainland.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Spice Market",
+    "city": "St. George's",
+    "type": "culture",
+    "description": "Grenada is known as the 'Spice Island,' and the Spice Market is the perfect place to experience this heritage. Visitors can purchase fresh spices, herbs, and local products while soaking in the lively atmosphere.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Lake Antoine",
+    "city": "St. Patrick",
+    "type": "nature",
+    "description": "A serene crater lake surrounded by lush vegetation, Lake Antoine is a picturesque spot for picnicking, bird watching, and hiking. It's a lesser-known destination that offers tranquility and beauty.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Fort Frederick",
+    "city": "St. George's",
+    "type": "landmark",
+    "description": "This historical fort offers breathtaking views of St. George's and the surrounding area. Visitors can explore the fort's well-preserved structures and learn about its role in Grenada's history.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Morne Gazo",
+    "city": "St. John",
+    "type": "nature",
+    "description": "A hidden hiking trail that leads to one of the highest points in Grenada, offering stunning vistas of the island's lush landscape. It's perfect for adventurous travelers looking for a unique experience.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "La Sagesse Nature Center",
+    "city": "St. David",
+    "type": "nature",
+    "description": "This nature center is set in a beautiful coastal area with sandy beaches and wetlands. It's a great spot for birdwatching, picnicking, and enjoying the natural beauty of Grenada.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Grenada National Museum",
+    "city": "St. George's",
+    "type": "culture",
+    "description": "Housed in a historic building, the museum showcases Grenada's rich history, culture, and artifacts. It's a great place to learn about the island's past and its journey to independence.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Carenage",
+    "city": "St. George's",
+    "type": "entertainment",
+    "description": "This picturesque harbor is lined with colorful buildings, shops, and restaurants. It's a vibrant place to relax, enjoy local cuisine, and take in the beautiful views of the waterfront.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Grand Etang National Park",
+    "city": "St. Andrew",
+    "type": "nature",
+    "description": "A pristine rainforest reserve with hiking trails, waterfalls, and a stunning crater lake. Grand Etang is a haven for nature lovers and offers opportunities for birdwatching and exploring diverse flora.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Belmont Estate",
+    "city": "St. Patrick",
+    "type": "culture",
+    "description": "A historic plantation that offers tours about cocoa production and the island's agricultural heritage. Visitors can enjoy delicious local food and participate in chocolate-making workshops.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Rum Distillery Tour",
+    "city": "St. George's",
+    "type": "culture",
+    "description": "Grenada is famous for its rum, and a distillery tour provides insight into the rum-making process. Visitors can sample different varieties and learn about the island's rum history.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Hog Island",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "A small, uninhabited island that offers a peaceful retreat for beachgoers and nature lovers. It's accessible by boat and features beautiful beaches and excellent snorkeling spots.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Petite Martinique",
+    "city": "Petite Martinique",
+    "type": "nature",
+    "description": "A charming island known for its stunning beaches and rich fishing culture. Visitors can enjoy a quiet getaway and explore the island's picturesque scenery.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Gouyave Fish Fridays",
+    "city": "Gouyave",
+    "type": "entertainment",
+    "description": "A weekly street festival celebrating local seafood and culture. Visitors can enjoy live music, delicious food, and a lively atmosphere while mingling with locals.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Botanical Gardens",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "These beautiful gardens feature a variety of tropical plants and trees, making it a perfect spot for a leisurely stroll. The gardens are also home to historical monuments and a serene pond.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Clarke's Court Rum Distillery",
+    "city": "St. George's",
+    "type": "culture",
+    "description": "One of Grenada's oldest rum distilleries, known for its rich flavors and traditional production methods. Visitors can tour the facility and sample some of the best rums on the island.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Sandy Island",
+    "city": "Carriacou",
+    "type": "nature",
+    "description": "A small, uninhabited island surrounded by crystal-clear waters and vibrant coral reefs. It's an ideal spot for snorkeling, swimming, and enjoying a day of relaxation in paradise.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Levera National Park",
+    "city": "St. Patrick",
+    "type": "nature",
+    "description": "A stunning natural reserve featuring beautiful beaches, mangroves, and wetlands. It's a great location for hiking, birdwatching, and experiencing Grenada's diverse ecosystems.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Flamboyant Tree",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "A famous tree known for its vibrant red flowers, located in the heart of St. George's. It's a popular spot for photos and a symbol of Grenada's natural beauty.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Grenada Chocolate Company",
+    "city": "St. Patrick",
+    "type": "culture",
+    "description": "A small, organic chocolate factory that offers tours and tastings. Visitors can learn about the chocolate-making process and sample delicious, locally-made chocolates.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Mount Carmel Waterfall",
+    "city": "St. David",
+    "type": "nature",
+    "description": "A breathtaking waterfall nestled in the rainforest, accessible via a scenic hike. It's a perfect spot for a refreshing swim in the natural pool at the base.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Victoria Falls",
+    "city": "St. Mark",
+    "type": "nature",
+    "description": "A lesser-known but stunning waterfall that requires a scenic hike to reach. The peaceful surroundings and natural beauty make it a hidden treasure for adventurers.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Old Prison",
+    "city": "St. George's",
+    "type": "landmark",
+    "description": "This historical site offers insight into Grenada's colonial past. The preserved ruins provide a glimpse into the island's history and the lives of its former inhabitants.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "La Tante Marine",
+    "city": "St. David",
+    "type": "entertainment",
+    "description": "A charming beachfront restaurant known for its delicious seafood and local dishes. The relaxed atmosphere and stunning views make it a great spot for a meal.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Nutmeg Processing Station",
+    "city": "Gouyave",
+    "type": "culture",
+    "description": "An important site for Grenada's nutmeg industry, where visitors can learn about the processing of this spice. Tours provide fascinating insights into the island's agricultural practices.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "Cocoa Farm Tour",
+    "city": "St. Patrick",
+    "type": "culture",
+    "description": "Experience Grenada's chocolate heritage on a guided tour of a cocoa farm. Visitors can learn about the cultivation process and enjoy fresh cocoa beans.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Pink Gin Beach",
+    "city": "St. George's",
+    "type": "nature",
+    "description": "A less crowded beach known for its clear waters and soft sand, perfect for swimming and relaxation. It's a great spot to enjoy the sun away from the more popular beaches.",
+    "country": "Grenada",
+    "country_rank": 4
+  },
+  {
+    "name": "The Grenada Whale Watching Tour",
+    "city": "St. George's",
+    "type": "entertainment",
+    "description": "A thrilling experience for marine life enthusiasts, offering the chance to see dolphins and whales in their natural habitat. Tours provide educational insights into the local marine ecosystem.",
+    "country": "Grenada",
+    "country_rank": 4
+  }
+]

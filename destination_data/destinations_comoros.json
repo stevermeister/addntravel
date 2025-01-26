@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Mount Karthala",
+    "city": "Grande Comore",
+    "type": "nature",
+    "description": "An active volcano and the highest point in Comoros, Mount Karthala offers breathtaking views and unique hiking opportunities. Its lush surroundings are home to diverse flora and fauna, making it a paradise for nature enthusiasts.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Lac Sale",
+    "city": "Anjouan",
+    "type": "nature",
+    "description": "This salt lake is surrounded by stunning landscapes and is a perfect spot for birdwatching and photography. Its serene environment provides a peaceful escape from the hustle and bustle of everyday life.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Sima",
+    "city": "Anjouan",
+    "type": "culture",
+    "description": "Sima is a charming village known for its traditional wooden houses and vibrant local culture. Visitors can immerse themselves in the daily life of the locals and experience authentic Comorian hospitality.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Chandra",
+    "city": "Moh\u00e9li",
+    "type": "nature",
+    "description": "Chandra is a pristine beach renowned for its clear waters and stunning coral reefs. It's an ideal destination for snorkeling, swimming, and enjoying the natural beauty of the Comorian coastline.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Mitsamiouli",
+    "city": "Grande Comore",
+    "type": "entertainment",
+    "description": "A lively coastal town, Mitsamiouli is known for its vibrant markets and local music scenes. Visitors can explore traditional crafts and enjoy fresh seafood while experiencing the local culture.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Moh\u00e9li Marine Park",
+    "city": "Moh\u00e9li",
+    "type": "nature",
+    "description": "This protected marine reserve is home to diverse marine life, including sea turtles and coral reefs. It's a prime spot for eco-tourism and offers opportunities for diving and snorkeling.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Fomboni",
+    "city": "Moh\u00e9li",
+    "type": "culture",
+    "description": "The capital of Moh\u00e9li, Fomboni is known for its vibrant cultural festivals and rich history. Visitors can explore the local markets and enjoy traditional Comorian music and dance.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Old Friday Mosque",
+    "city": "Moroni",
+    "type": "landmark",
+    "description": "One of the oldest mosques in Comoros, the Old Friday Mosque showcases beautiful traditional architecture and is a significant cultural site. It's a peaceful place to learn about the island's Islamic heritage.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Moya",
+    "city": "Grande Comore",
+    "type": "culture",
+    "description": "Moya is known for its ancient ruins and historical significance. Visitors can explore the remnants of past civilizations and learn about the rich history of the Comoros.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Koni Djodjo",
+    "city": "Anjouan",
+    "type": "nature",
+    "description": "This hidden gem features stunning waterfalls and lush rainforest trails. It's a perfect spot for hiking and discovering the island's natural beauty away from the tourist crowds.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Ndzuwani",
+    "city": "Anjouan",
+    "type": "culture",
+    "description": "Ndzuwani is an area rich in cultural heritage, with traditional crafts and local culinary delights. Visitors can participate in workshops and taste authentic Comorian dishes.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Bambao",
+    "city": "Moh\u00e9li",
+    "type": "nature",
+    "description": "Bambao offers beautiful landscapes and secluded beaches, perfect for relaxation and solitude. The area is a great spot for swimming and enjoying the tranquility of nature.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Iconi Beach",
+    "city": "Moroni",
+    "type": "nature",
+    "description": "A stunning beach known for its picturesque views and calm waters, Iconi Beach is ideal for sunbathing and swimming. The surrounding palm trees and soft sands create a perfect tropical paradise.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Amboni Caves",
+    "city": "Anjouan",
+    "type": "landmark",
+    "description": "Amboni Caves are fascinating geological formations that offer a glimpse into the natural history of the islands. Visitors can explore the caves and learn about their unique geology.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Lac Nzwani",
+    "city": "Anjouan",
+    "type": "nature",
+    "description": "This serene lake is surrounded by lush greenery and provides opportunities for kayaking and birdwatching. It's a peaceful retreat for nature lovers seeking tranquility.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Moroni Market",
+    "city": "Moroni",
+    "type": "culture",
+    "description": "The bustling Moroni Market is a vibrant hub of local life where visitors can find fresh produce, spices, and handmade crafts. It's the perfect place to experience the local culture and cuisine.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Tsimanga",
+    "city": "Grande Comore",
+    "type": "entertainment",
+    "description": "Tsimanga is known for its lively nightlife and local entertainment, including music and dance performances. It's a great place to experience the vibrant social life of the Comoros.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Koni Djougou",
+    "city": "Moh\u00e9li",
+    "type": "landmark",
+    "description": "This historical site features ancient structures and offers insights into the island's past. It's a fascinating place for history buffs and those interested in the heritage of Comoros.",
+    "country": "Comoros",
+    "country_rank": 2
+  },
+  {
+    "name": "Saziley",
+    "city": "Moh\u00e9li",
+    "type": "nature",
+    "description": "Saziley boasts stunning coastal landscapes and is a great spot for snorkeling and diving. The area is known for its rich marine biodiversity and beautiful underwater views.",
+    "country": "Comoros",
+    "country_rank": 2
+  }
+]

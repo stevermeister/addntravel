@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Dunn's River Falls",
+    "city": "Ocho Rios",
+    "type": "nature",
+    "description": "A stunning waterfall that cascades down terraced rocks into the Caribbean Sea. Visitors can climb the falls or relax on the beach at its base.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Bob Marley Museum",
+    "city": "Kingston",
+    "type": "culture",
+    "description": "The former home of reggae legend Bob Marley, this museum showcases his life, music, and impact on the world through memorabilia and guided tours.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Blue Hole",
+    "city": "Ocho Rios",
+    "type": "nature",
+    "description": "A hidden gem featuring beautiful turquoise water and natural swimming pools. Visitors can jump from cliffs and explore the lush surroundings.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Negril Seven Mile Beach",
+    "city": "Negril",
+    "type": "nature",
+    "description": "Famous for its stunning sunsets and powdery white sand, this beach is perfect for relaxation and water sports.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Port Antonio",
+    "city": "Port Antonio",
+    "type": "nature",
+    "description": "Known for its natural beauty and laid-back vibe, Port Antonio offers stunning beaches, lush rainforests, and the famous Blue Lagoon.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Luminous Lagoon",
+    "city": "Falmouth",
+    "type": "nature",
+    "description": "A bioluminescent lagoon where the water glows at night due to tiny microorganisms. Boat tours allow visitors to experience this magical phenomenon.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Rose Hall Great House",
+    "city": "Montego Bay",
+    "type": "landmark",
+    "description": "A restored plantation house with a fascinating history and tales of the White Witch of Rose Hall. Guided tours reveal its intriguing past.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Royal Palm Reserve",
+    "city": "Treasure Beach",
+    "type": "nature",
+    "description": "A protected area featuring mangroves and wetlands, home to diverse wildlife. It's a great spot for birdwatching and enjoying nature trails.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Rick's Cafe",
+    "city": "Negril",
+    "type": "entertainment",
+    "description": "Famous for its stunning cliffside views and lively atmosphere, Rick's Cafe is known for cliff diving and live reggae music.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Blue Mountains",
+    "city": "Kingston",
+    "type": "nature",
+    "description": "Home to Jamaica's highest peaks and renowned coffee plantations, the Blue Mountains offer breathtaking views and hiking opportunities.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Treasure Beach",
+    "city": "Treasure Beach",
+    "type": "nature",
+    "description": "A quiet, rustic beach area known for its friendly locals and beautiful landscapes. It's perfect for those seeking tranquility.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Maroon Town",
+    "city": "Cockpit Country",
+    "type": "culture",
+    "description": "A historic village where descendants of escaped slaves maintain their traditions and culture. Visitors can learn about Maroon heritage.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Fort Charles",
+    "city": "Port Royal",
+    "type": "landmark",
+    "description": "A historic fort that dates back to the 17th century, offering insight into Jamaica's colonial past and the infamous pirate haven.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Mayfield Falls",
+    "city": "Westmoreland",
+    "type": "nature",
+    "description": "A lesser-known waterfall with natural pools and lush vegetation, ideal for a peaceful day of swimming and relaxation.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Devon House",
+    "city": "Kingston",
+    "type": "landmark",
+    "description": "A beautiful mansion and cultural heritage site known for its architecture and delicious ice cream. It's a symbol of Jamaica's rich history.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Sandy Bay",
+    "city": "Sandy Bay",
+    "type": "nature",
+    "description": "A tranquil beach destination with soft sands and clear waters, perfect for swimming, snorkeling, and enjoying the local atmosphere.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Y.S. Falls",
+    "city": "St. Elizabeth",
+    "type": "nature",
+    "description": "A spectacular waterfall set in a beautiful landscape, featuring natural pools and zip-lining opportunities, making it great for adventure seekers.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Blue Lagoon",
+    "city": "Port Antonio",
+    "type": "nature",
+    "description": "A stunning natural lagoon with varying shades of blue that is perfect for swimming, kayaking, or simply enjoying the serene environment.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Accompong Village",
+    "city": "Cockpit Country",
+    "type": "culture",
+    "description": "A village founded by Maroons, rich in history and culture, where visitors can experience traditional practices and local cuisine.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Jamaica National Gallery",
+    "city": "Kingston",
+    "type": "culture",
+    "description": "One of the leading art institutions in the Caribbean, showcasing Jamaican art, including contemporary and historical pieces.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Blue Mountain Coffee Plantation",
+    "city": "Blue Mountains",
+    "type": "culture",
+    "description": "Famous for producing some of the world's best coffee, visitors can tour the plantation and sample the unique flavors.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Bamboo Avenue",
+    "city": "St. Elizabeth",
+    "type": "landmark",
+    "description": "A picturesque road lined with towering bamboo, creating a stunning natural tunnel that's perfect for photography.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Cockpit Country",
+    "city": "Cockpit Country",
+    "type": "nature",
+    "description": "A unique limestone region with rolling hills and deep valleys, known for its biodiversity and opportunities for hiking and exploration.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Frenchman's Cove",
+    "city": "Port Antonio",
+    "type": "nature",
+    "description": "A beautiful private beach with crystal-clear waters and lush surroundings, ideal for relaxation and enjoying the scenic views.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Hellshire Beach",
+    "city": "Portmore",
+    "type": "entertainment",
+    "description": "A lively beach known for its vibrant atmosphere, delicious seafood shacks, and the perfect spot for a weekend getaway.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Martha Brae River",
+    "city": "Martha Brae",
+    "type": "nature",
+    "description": "Experience a relaxing bamboo raft ride down this beautiful river surrounded by lush vegetation and local wildlife.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Zion Hill",
+    "city": "St. Ann",
+    "type": "culture",
+    "description": "A small community known for its Rastafarian culture, where visitors can learn about the lifestyle and beliefs of the Rasta people.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Taino Museum",
+    "city": "Ocho Rios",
+    "type": "culture",
+    "description": "A museum dedicated to the indigenous Taino people, showcasing artifacts and providing insight into their history and culture.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great River",
+    "city": "Montego Bay",
+    "type": "nature",
+    "description": "A scenic river perfect for rafting, tubing, and exploring the lush landscapes surrounding it.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Little Ochi Seafood Restaurant",
+    "city": "Alligator Pond",
+    "type": "entertainment",
+    "description": "A popular local spot known for its fresh seafood and stunning views of the Caribbean Sea, offering a true taste of Jamaica.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Nanny Falls",
+    "city": "Jamaica",
+    "type": "nature",
+    "description": "A hidden waterfall located in the Blue Mountains, offering a serene setting for hiking and enjoying nature away from the crowds.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Green Grotto Caves",
+    "city": "Discovery Bay",
+    "type": "nature",
+    "description": "A fascinating limestone cave system that features stalactites, stalagmites, and a rich history, including pirate hideouts.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Sangster International Airport",
+    "city": "Montego Bay",
+    "type": "landmark",
+    "description": "One of the busiest airports in the Caribbean, known for its modern facilities and vibrant local art displays.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Cannonball Beach",
+    "city": "Negril",
+    "type": "nature",
+    "description": "A lesser-known beach with calm waters perfect for swimming and relaxing, away from the more crowded tourist areas.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Crocodile Swamp",
+    "city": "Black River",
+    "type": "nature",
+    "description": "A unique ecological area where visitors can observe crocodiles in their natural habitat while enjoying boat tours.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Bamboo Rafting on the Rio Grande",
+    "city": "Port Antonio",
+    "type": "nature",
+    "description": "Experience a tranquil rafting adventure on the Rio Grande, surrounded by beautiful landscapes and tropical flora.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Jail",
+    "city": "Port Royal",
+    "type": "landmark",
+    "description": "An interesting historical site that showcases the colonial history of Jamaica and the notorious pirates who once roamed the area.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Peter Tosh Museum",
+    "city": "Kingston",
+    "type": "culture",
+    "description": "A museum dedicated to the life and legacy of reggae artist Peter Tosh, featuring memorabilia and exhibits about his contributions to music.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Jamaica's Historic Railway",
+    "city": "Various",
+    "type": "landmark",
+    "description": "Explore the remnants of Jamaica's historic railway system, offering scenic views and insights into the country's transport history.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Heroes Park",
+    "city": "Kingston",
+    "type": "landmark",
+    "description": "A significant site honoring Jamaica's national heroes and featuring monuments, gardens, and a peaceful atmosphere.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Mandeville",
+    "city": "Mandeville",
+    "type": "culture",
+    "description": "A charming town known for its cool climate and colonial architecture, offering a glimpse into local life and culture.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "Catherine Hall",
+    "city": "Montego Bay",
+    "type": "culture",
+    "description": "A vibrant community known for its cultural festivals and rich history, where visitors can experience authentic Jamaican life.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The Pineapple Place",
+    "city": "Ocho Rios",
+    "type": "entertainment",
+    "description": "A fun, family-friendly attraction featuring a variety of activities, including zip-lining and a petting zoo, set in a lush environment.",
+    "country": "Jamaica",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Gallery of Jamaica",
+    "city": "Kingston",
+    "type": "culture",
+    "description": "Celebrated for its collection of Jamaican art, the gallery hosts exhibitions that showcase both historical and contemporary works.",
+    "country": "Jamaica",
+    "country_rank": 7
+  }
+]

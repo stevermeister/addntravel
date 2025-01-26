@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Rila Monastery",
+    "city": "Rila",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Rila Monastery is a masterpiece of the Bulgarian National Revival architecture. Nestled in the picturesque Rila Mountains, it is famous for its stunning frescoes and rich history.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Plovdiv Old Town",
+    "city": "Plovdiv",
+    "type": "culture",
+    "description": "Known for its beautifully preserved Roman ruins and colorful houses from the Bulgarian Revival period, Plovdiv's Old Town offers a glimpse into the rich history of one of Europe's oldest cities.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Seven Rila Lakes",
+    "city": "Rila",
+    "type": "nature",
+    "description": "This stunning group of glacial lakes is known for their breathtaking beauty and crystal-clear waters. Each lake has its own unique shape and name, making it a popular hiking destination.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Nessebar",
+    "city": "Nessebar",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Nessebar is a charming ancient town with a history dating back to Thracian times. Its beautiful old churches and cobblestone streets make it a must-visit destination.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Vitosha Mountain",
+    "city": "Sofia",
+    "type": "nature",
+    "description": "Located just outside Sofia, Vitosha Mountain offers stunning views, hiking trails, and opportunities for skiing in the winter. Its diverse flora and fauna make it a popular spot for nature lovers.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Koprivshtitsa",
+    "city": "Koprivshtitsa",
+    "type": "culture",
+    "description": "This small town is famous for its colorful houses and as a center of the Bulgarian National Revival. The town is rich in history and traditions, with many museums and monuments dedicated to its past.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Belogradchik Rocks",
+    "city": "Belogradchik",
+    "type": "nature",
+    "description": "These unique rock formations are not only a natural wonder but also home to the Belogradchik Fortress. The dramatic landscape makes for stunning photography opportunities.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Bachkovo Monastery",
+    "city": "Bachkovo",
+    "type": "culture",
+    "description": "This is one of the oldest monasteries in Bulgaria, known for its remarkable frescoes and serene surroundings. It offers a peaceful retreat and insight into Bulgarian spiritual heritage.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Cape Kaliakra",
+    "city": "Kaliakra",
+    "type": "nature",
+    "description": "Offering breathtaking sea views and steep cliffs, Cape Kaliakra is rich in history and legend. It's a great spot for birdwatching and offers a glimpse into Bulgaria's maritime past.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Varna Archaeological Museum",
+    "city": "Varna",
+    "type": "culture",
+    "description": "Home to some of the oldest gold treasures in the world, the Varna Archaeological Museum showcases Bulgaria's rich history from prehistoric times to the Roman era.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Burgas Sea Garden",
+    "city": "Burgas",
+    "type": "nature",
+    "description": "This beautiful park along the Black Sea features walking paths, gardens, and artistic installations. It\u2019s a perfect spot for relaxation and enjoying the coastal scenery.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Wine Road in Thracian Valley",
+    "city": "Pazardzhik",
+    "type": "entertainment",
+    "description": "Explore the charming wineries and vineyards of the Thracian Valley. This wine route offers tastings, tours, and a taste of Bulgaria's rich wine-making tradition.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Thracian Tomb of Kazanlak",
+    "city": "Kazanlak",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this tomb is renowned for its remarkable frescoes that date back to the 4th century BC. It provides insight into the burial customs of the Thracian civilization.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Wild Pink Tomatoes Valley",
+    "city": "Kazanlak",
+    "type": "nature",
+    "description": "Known for its rose gardens and stunning natural beauty, this valley is a unique place to experience Bulgaria's famous rose oil production during spring.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Srebarna Nature Reserve",
+    "city": "Srebarna",
+    "type": "nature",
+    "description": "A UNESCO Biosphere Reserve, Srebarna is home to diverse bird species and stunning wetlands. It\u2019s perfect for birdwatching and enjoying the tranquility of nature.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Shiroka Laka",
+    "city": "Shiroka Laka",
+    "type": "culture",
+    "description": "This picturesque village is known for its traditional Bulgarian architecture and folklore. It is a hub for music and culture, especially during the annual folklore festival.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Black Sea Coast",
+    "city": "Various",
+    "type": "nature",
+    "description": "Spanning from Varna to Burgas, the Black Sea Coast is dotted with beautiful beaches, resorts, and natural parks. It\u2019s a perfect destination for sunbathing, water sports, and relaxation.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Stone Forest",
+    "city": "Varna",
+    "type": "nature",
+    "description": "This natural phenomenon consists of stone columns that resemble a forest. It is a unique geological formation that attracts nature enthusiasts and curious tourists.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Pirin National Park",
+    "city": "Bansko",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Pirin National Park is known for its rugged mountains, glacial lakes, and diverse wildlife. It offers excellent hiking trails and stunning landscapes.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Etar Architectural-Ethnographic Complex",
+    "city": "Gabrovo",
+    "type": "culture",
+    "description": "This open-air museum showcases traditional Bulgarian crafts and architecture. Visitors can explore restored houses, workshops, and experience traditional crafts in action.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Stara Zagora Regional Museum of History",
+    "city": "Stara Zagora",
+    "type": "culture",
+    "description": "The museum features a comprehensive collection of artifacts that showcase the region's rich history, from prehistoric times to the present.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Church of Boyana",
+    "city": "Sofia",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, the Boyana Church is famous for its well-preserved medieval frescoes. It provides a glimpse into the artistic and spiritual life of Bulgaria in the Middle Ages.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Rose Valley",
+    "city": "Kazanlak",
+    "type": "nature",
+    "description": "Famous for its rose oil production, the Rose Valley is a beautiful region filled with blooming rose fields. Visiting during the rose festival in June is an unforgettable experience.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Kamen Bryag",
+    "city": "Kamen Bryag",
+    "type": "nature",
+    "description": "This coastal village is known for its stunning cliffs and beaches. It offers a peaceful escape from the hustle of more touristy areas and is popular among nature lovers.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Buzludzha Monument",
+    "city": "Shipka",
+    "type": "landmark",
+    "description": "An abandoned communist monument, Buzludzha stands as a striking architectural relic on a mountain peak. Its unique design and history make it a fascinating site to explore.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Asen's Fortress",
+    "city": "Asenovgrad",
+    "type": "landmark",
+    "description": "Perched on a hill, this medieval fortress offers stunning views of the surrounding landscape. It is steeped in history and is a popular hiking destination.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Magura Cave",
+    "city": "Belogradchik",
+    "type": "nature",
+    "description": "One of Bulgaria's largest and most impressive caves, Magura features fascinating stalactites and prehistoric cave paintings. It\u2019s a must-visit for adventure seekers.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Sofia Central Mineral Baths",
+    "city": "Sofia",
+    "type": "entertainment",
+    "description": "These historic baths offer a unique experience with natural mineral waters. Visitors can enjoy relaxation and wellness in a beautifully restored building.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Kaliakra Fortress",
+    "city": "Kaliakra",
+    "type": "landmark",
+    "description": "With its dramatic cliffs and stunning sea views, Kaliakra Fortress has a rich history and is surrounded by legends. It's a perfect spot for both history buffs and nature lovers.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Valley of the Thracian Kings",
+    "city": "Kazlak",
+    "type": "culture",
+    "description": "This archaeological region is home to numerous Thracian tombs and burial mounds. It offers a deep insight into the ancient Thracian civilization.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The National Palace of Culture",
+    "city": "Sofia",
+    "type": "entertainment",
+    "description": "The largest multifunctional complex in Southeast Europe, it hosts various cultural events, concerts, and exhibitions, making it a vibrant hub of Bulgarian culture.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Sinite Kamani Nature Park",
+    "city": "Sliven",
+    "type": "nature",
+    "description": "Known for its unique rock formations and rich biodiversity, this nature park is a hidden gem for hiking and exploring Bulgaria's natural beauty.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Black Sea Coast - Sozopol",
+    "city": "Sozopol",
+    "type": "culture",
+    "description": "An ancient seaside town known for its beautiful beaches and archaeological sites. Sozopol is famous for its vibrant arts scene and summer festivals.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Socialist Art",
+    "city": "Sofia",
+    "type": "culture",
+    "description": "This unique museum showcases art from the socialist period in Bulgaria, providing insight into the country's history and cultural evolution.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Melnik",
+    "city": "Melnik",
+    "type": "culture",
+    "description": "The smallest town in Bulgaria, Melnik is famous for its wine and unique sandstone pyramids. Its charming architecture and rich history make it a delightful stop.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Enchanted Rock",
+    "city": "Kardzhali",
+    "type": "nature",
+    "description": "A fascinating natural rock formation, The Enchanted Rock is surrounded by legends and offers breathtaking views of the surrounding landscape.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Srebarna Nature Reserve",
+    "city": "Srebarna",
+    "type": "nature",
+    "description": "A UNESCO Biosphere Reserve, it is a haven for birdwatchers and nature lovers, with diverse wetland ecosystems and rich biodiversity.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "Pleven Panorama",
+    "city": "Pleven",
+    "type": "culture",
+    "description": "This unique museum features a panoramic painting depicting the Battle of Pleven, providing visitors with a vivid historical experience.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "St. Alexander Nevsky Cathedral",
+    "city": "Sofia",
+    "type": "landmark",
+    "description": "A stunning example of Neo-Byzantine architecture, this cathedral is one of Sofia's most iconic landmarks and a symbol of Bulgarian Orthodox faith.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  },
+  {
+    "name": "The Red Church",
+    "city": "Perushtitsa",
+    "type": "landmark",
+    "description": "An ancient ruin with a rich history, the Red Church is known for its unique architecture and historical significance, making it a fascinating site to visit.",
+    "country": "Bulgaria",
+    "country_rank": 6
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Fogo Volcano",
+    "city": "S\u00e3o Filipe",
+    "type": "nature",
+    "description": "An active volcano that is the highest peak in Cabo Verde, Fogo offers breathtaking views and unique hiking opportunities. The surrounding landscape is dotted with coffee plantations and charming villages.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Salinas de Pedra de Lume",
+    "city": "Sal",
+    "type": "nature",
+    "description": "These historic salt flats are located in an old volcanic crater and offer a unique swimming experience in salt-rich waters. Visitors can also learn about the salt production process that has shaped the island's economy.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Praia de Santa Maria",
+    "city": "Sal",
+    "type": "nature",
+    "description": "Famous for its stunning white sandy beaches and crystal-clear waters, Santa Maria is a paradise for sunbathers and water sports enthusiasts alike. The vibrant local market adds to its charm.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cidade Velha",
+    "city": "Ribeira Grande",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Cidade Velha is the oldest settlement in Cabo Verde and is rich in history. Visitors can explore the ruins of old fortifications and the picturesque colonial architecture.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cova Crater",
+    "city": "Fogo",
+    "type": "nature",
+    "description": "This stunning volcanic crater is surrounded by lush green vegetation and provides a unique ecosystem for diverse flora and fauna. Hiking trails offer breathtaking views of the crater and the surrounding landscape.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Praia de Chaves",
+    "city": "Boa Vista",
+    "type": "nature",
+    "description": "Known for its beautiful turquoise waters and long stretches of white sand, Praia de Chaves is an ideal spot for relaxation and water activities. It's less crowded, making it a hidden gem for beach lovers.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Santo Ant\u00e3o",
+    "city": "Ponta do Sol",
+    "type": "nature",
+    "description": "The rugged terrain of Santo Ant\u00e3o is perfect for hiking and exploring the island's natural beauty. With lush valleys, towering mountains, and breathtaking coastal views, it's a paradise for nature enthusiasts.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Mindelo",
+    "city": "S\u00e3o Vicente",
+    "type": "culture",
+    "description": "Known as the cultural capital of Cabo Verde, Mindelo is famous for its music scene and vibrant nightlife. The colorful colonial buildings and lively markets reflect the island's rich cultural heritage.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ba\u00eda das Gatas",
+    "city": "S\u00e3o Vicente",
+    "type": "nature",
+    "description": "This stunning bay is known for its natural beauty and hosts an annual music festival that attracts artists from around the world. The calm waters are perfect for swimming and snorkeling.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ribeira da Janela",
+    "city": "S\u00e3o Vicente",
+    "type": "nature",
+    "description": "A picturesque coastal area known for its dramatic rock formations and stunning ocean views. It's a perfect spot for photography and enjoying the natural beauty of Cabo Verde.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Sal Island",
+    "city": "Espargos",
+    "type": "nature",
+    "description": "Famous for its beaches and salt flats, Sal Island is a hotspot for water sports such as windsurfing and kite surfing. Its vibrant nightlife and local cuisine make it a favorite among tourists.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Pedra de Lume",
+    "city": "Sal",
+    "type": "nature",
+    "description": "This unique geological formation features stunning natural salt ponds. Visitors can enjoy floating in the saltwater and explore the fascinating history of salt production.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Tarrafal Beach",
+    "city": "Tarrafal",
+    "type": "nature",
+    "description": "Known for its stunning natural beauty, Tarrafal Beach offers calm waters and a serene atmosphere, making it ideal for swimming and relaxation. The nearby fishing village adds to its charm.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ilha do Sal",
+    "city": "Santa Maria",
+    "type": "nature",
+    "description": "A well-known island famous for its beautiful beaches and vibrant marine life. Visitors can indulge in various water sports or simply relax by the shore.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Pico do Fogo",
+    "city": "S\u00e3o Filipe",
+    "type": "nature",
+    "description": "The highest peak in Cabo Verde, Pico do Fogo is a must-visit for adventurous hikers. Its volcanic landscape and the surrounding vineyards make for stunning views.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ch\u00e3 das Caldeiras",
+    "city": "Fogo",
+    "type": "nature",
+    "description": "Located within the Fogo volcano, this region is known for its unique landscapes and wine production. Visitors can taste local wine and explore the picturesque village.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Monte Verde",
+    "city": "Santo Ant\u00e3o",
+    "type": "nature",
+    "description": "The highest point on Santo Ant\u00e3o, Monte Verde offers panoramic views of the island and the Atlantic Ocean. It's a popular spot for hiking and enjoying the diverse plant life.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Praia do Norte",
+    "city": "Boa Vista",
+    "type": "nature",
+    "description": "This secluded beach is known for its pristine sands and clear waters. It's a great spot for those looking to escape the crowds and enjoy some peace and quiet.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Fortaleza Real de S\u00e3o Filipe",
+    "city": "S\u00e3o Filipe",
+    "type": "landmark",
+    "description": "This historic fortress offers a glimpse into Cabo Verde's colonial past and provides breathtaking views of the surrounding area. It's a great spot for history buffs.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ribeira Grande",
+    "city": "Ribeira Grande",
+    "type": "culture",
+    "description": "The second-largest city in Cabo Verde, Ribeira Grande is known for its colonial architecture and vibrant local culture. The local market is a must-visit for fresh produce and local crafts.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cabo Verdean Music Festival",
+    "city": "Mindelo",
+    "type": "entertainment",
+    "description": "An annual celebration of Cabo Verdean music, this festival attracts musicians and artists from around the world. It showcases the rich musical heritage of the islands.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Kite Beach",
+    "city": "Sal",
+    "type": "nature",
+    "description": "Famous for its ideal wind conditions, Kite Beach is a hotspot for kite surfers from around the globe. The vibrant atmosphere and scenic views make it a popular spot for visitors.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Tarrafal Camp",
+    "city": "Tarrafal",
+    "type": "culture",
+    "description": "This former political prison is now a museum that tells the story of Cabo Verde's struggle for independence. It offers a poignant look at the country's history.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Ponta do Sol",
+    "city": "Ponta do Sol",
+    "type": "nature",
+    "description": "Known for its stunning coastal scenery, Ponta do Sol is a great spot for hiking and enjoying the beauty of the cliffs and ocean. It's a tranquil spot away from the hustle and bustle.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Boca de Inferno",
+    "city": "S\u00e3o Vicente",
+    "type": "nature",
+    "description": "This natural rock formation is famous for its dramatic cliffs and crashing waves. It's a stunning spot for photography and enjoying the power of nature.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Caf\u00e9 La Planicie",
+    "city": "Fogo",
+    "type": "culture",
+    "description": "A charming caf\u00e9 located in the heart of Fogo, known for its locally sourced coffee and stunning views. It's a great place to relax and enjoy the local culture.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cabo Verdean Cuisine Tour",
+    "city": "Various",
+    "type": "culture",
+    "description": "This culinary tour offers a taste of traditional Cabo Verdean dishes, including fresh seafood and local specialties. It's a delicious way to experience the culture.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Caculi Beach",
+    "city": "Santo Ant\u00e3o",
+    "type": "nature",
+    "description": "This hidden beach is known for its dramatic cliffs and beautiful scenery. It's a perfect spot for a relaxing day away from the crowds.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Mindelo Marina",
+    "city": "Mindelo",
+    "type": "entertainment",
+    "description": "A lively marina filled with restaurants and shops, Mindelo Marina is a great place to enjoy the local nightlife and sample fresh seafood.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cabo Verde National Park",
+    "city": "Santo Ant\u00e3o",
+    "type": "nature",
+    "description": "This national park is home to diverse ecosystems, including lush valleys and high mountains. It's perfect for hiking and enjoying the rich biodiversity of the island.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Cabo Verdean Carnival",
+    "city": "Mindelo",
+    "type": "entertainment",
+    "description": "One of the biggest events in Cabo Verde, the Carnival features colorful parades, traditional music, and vibrant costumes. It's a lively celebration of culture and community.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Praia de Laginha",
+    "city": "Mindelo",
+    "type": "nature",
+    "description": "A popular beach in Mindelo, known for its clear waters and vibrant atmosphere. It's a great spot for swimming and enjoying the local beach culture.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Capela de Nossa Senhora da Concei\u00e7\u00e3o",
+    "city": "Cidade Velha",
+    "type": "landmark",
+    "description": "This historic chapel is a beautiful example of colonial architecture and is located near the ruins of Cidade Velha. It offers insight into the island's religious heritage.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  },
+  {
+    "name": "Fundu de Bordeira",
+    "city": "Santo Ant\u00e3o",
+    "type": "nature",
+    "description": "A stunning natural area with lush landscapes and hiking trails, Fundu de Bordeira is perfect for nature lovers. The scenic views of the surrounding mountains are breathtaking.",
+    "country": "Cabo Verde",
+    "country_rank": 4
+  }
+]

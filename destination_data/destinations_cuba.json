@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Old Havana",
+    "city": "Havana",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Old Havana is a vibrant area filled with colonial architecture, colorful streets, and rich history. Visitors can explore its plazas, museums, and lively street life.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Varadero Beach",
+    "city": "Varadero",
+    "type": "nature",
+    "description": "Famous for its stunning white sand beaches and crystal-clear waters, Varadero Beach is a top destination for sun-seekers. The area offers a variety of water sports and luxurious resorts.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Vi\u00f1ales Valley",
+    "city": "Vi\u00f1ales",
+    "type": "nature",
+    "description": "Known for its dramatic limestone cliffs and tobacco plantations, Vi\u00f1ales Valley is a stunning natural landscape. Visitors can hike, horseback ride, or take guided tours through the lush countryside.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Trinidad",
+    "city": "Trinidad",
+    "type": "culture",
+    "description": "This well-preserved colonial town is a UNESCO World Heritage site, characterized by cobblestone streets and colorful buildings. Trinidad offers a glimpse into Cuba's past with its museums and vibrant arts scene.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Coco",
+    "city": "Cayo Coco",
+    "type": "nature",
+    "description": "A beautiful island known for its pristine beaches and diverse wildlife, Cayo Coco is a paradise for nature lovers. The clear waters are perfect for diving and snorkeling.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Sierra del Rosario",
+    "city": "La Palma",
+    "type": "nature",
+    "description": "This biosphere reserve is home to unique flora and fauna, making it a great destination for eco-tourism. Visitors can hike through lush forests and enjoy breathtaking views.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Castillo del Morro",
+    "city": "Havana",
+    "type": "landmark",
+    "description": "A historical fortress guarding the entrance to Havana Bay, Castillo del Morro offers panoramic views of the city. Its impressive architecture and rich history make it a must-visit.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cienfuegos",
+    "city": "Cienfuegos",
+    "type": "culture",
+    "description": "Known as the 'Pearl of the South,' Cienfuegos features a blend of French colonial architecture and vibrant Cuban culture. The waterfront promenade is perfect for leisurely strolls.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "El Nicho Waterfalls",
+    "city": "Cienfuegos",
+    "type": "nature",
+    "description": "This stunning natural park features beautiful waterfalls and lush surroundings. It's an ideal spot for hiking, swimming, and enjoying a picnic in nature.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Bay of Pigs",
+    "city": "Playa Gir\u00f3n",
+    "type": "nature",
+    "description": "Famous for the failed invasion in 1961, the Bay of Pigs is also known for its stunning beaches and excellent diving spots. Visitors can explore its underwater coral reefs.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Jos\u00e9 Mart\u00ed Memorial",
+    "city": "Havana",
+    "type": "landmark",
+    "description": "This towering monument honors the Cuban national hero, Jos\u00e9 Mart\u00ed. The site features a museum and offers spectacular views of Havana from its observation deck.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Levisa",
+    "city": "Cayo Levisa",
+    "type": "nature",
+    "description": "A tranquil island known for its beautiful beaches and excellent diving opportunities. Cayo Levisa is less commercialized, making it perfect for a peaceful getaway.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Las Terrazas",
+    "city": "Las Terrazas",
+    "type": "nature",
+    "description": "An eco-village set in the Sierra del Rosario, Las Terrazas is known for its sustainable tourism practices. Visitors can hike, zip-line, and enjoy the lush landscape.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Santa Clara",
+    "city": "Santa Clara",
+    "type": "culture",
+    "description": "Home to Che Guevara's mausoleum, Santa Clara is a city rich in revolutionary history. The Che Guevara Museum offers insights into the life of this iconic figure.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Palacio de Valle",
+    "city": "Cienfuegos",
+    "type": "landmark",
+    "description": "This stunning mansion combines Gothic, Moorish, and Baroque architectural elements. The palace offers guided tours and beautiful views of the bay.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Vi\u00f1ales Tobacco Farms",
+    "city": "Vi\u00f1ales",
+    "type": "culture",
+    "description": "Visitors can tour traditional tobacco farms in Vi\u00f1ales, learning about the cigar-making process. The scenic views of the valley make the experience even more memorable.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Isla de la Juventud",
+    "city": "Isla de la Juventud",
+    "type": "nature",
+    "description": "This beautiful island features pristine beaches, lush forests, and unique rock formations. It's perfect for those looking to escape the crowds and explore nature.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Museum of the Revolution",
+    "city": "Havana",
+    "type": "culture",
+    "description": "Housed in the former Presidential Palace, this museum showcases the history of the Cuban Revolution. The exhibits include artifacts and photographs that tell the story of the struggle for independence.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Plaza de la Revoluci\u00f3n",
+    "city": "Havana",
+    "type": "landmark",
+    "description": "A significant site for political rallies, this large square features iconic monuments and murals, including the famous image of Che Guevara. It's a symbol of Cuba's revolutionary past.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "El Malec\u00f3n",
+    "city": "Havana",
+    "type": "entertainment",
+    "description": "This iconic seawall stretches along the coast of Havana, offering stunning views of the ocean and city skyline. It's a popular gathering place for locals and tourists alike.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Santa Mar\u00eda",
+    "city": "Cayo Santa Mar\u00eda",
+    "type": "nature",
+    "description": "A beautiful island known for its all-inclusive resorts and pristine beaches. Cayo Santa Mar\u00eda is perfect for relaxation and water sports.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Jardines del Rey",
+    "city": "Cayo Coco",
+    "type": "nature",
+    "description": "A stunning archipelago featuring beautiful beaches and rich marine life. It's a paradise for snorkeling and diving enthusiasts.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Fusterlandia",
+    "city": "Havana",
+    "type": "culture",
+    "description": "An artistic neighborhood created by local artist Jos\u00e9 Fuster, Fusterlandia features colorful mosaics and sculptures. It's a unique place that showcases the creativity of the community.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Parque Nacional Vi\u00f1ales",
+    "city": "Vi\u00f1ales",
+    "type": "nature",
+    "description": "This national park is known for its stunning landscapes, unique rock formations, and diverse ecosystems. It's ideal for hiking, birdwatching, and exploring nature.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Castillo de San Pedro de la Roca",
+    "city": "Santiago de Cuba",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this historic fortress offers stunning views of Santiago Bay. Its impressive architecture and historical significance attract many visitors.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "El Cobre Sanctuary",
+    "city": "Santiago de Cuba",
+    "type": "landmark",
+    "description": "Home to the revered Virgin of Charity, Cuba's patron saint, this sanctuary is a pilgrimage site. The beautiful church and surrounding scenery make it a peaceful visit.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Hicacos",
+    "city": "Varadero",
+    "type": "nature",
+    "description": "This small island is known for its beautiful beaches and vibrant marine life. It's a great spot for snorkeling and enjoying the stunning natural beauty.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Artemisa",
+    "city": "Artemisa",
+    "type": "culture",
+    "description": "A lesser-known city with rich history and culture, Artemisa offers visitors a chance to explore local art, music, and cuisine. The nearby natural parks provide plenty of outdoor activities.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Soroa",
+    "city": "Soroa",
+    "type": "nature",
+    "description": "Known as the 'Rainbow of Cuba,' Soroa is famous for its waterfalls and lush vegetation. The orchid garden is a highlight, showcasing a variety of beautiful species.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Saet\u00eda",
+    "city": "Cayo Saet\u00eda",
+    "type": "nature",
+    "description": "A beautiful nature reserve known for its wildlife, including deer and exotic birds. Visitors can relax on the beach or take guided tours to explore the natural beauty.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "San Juan de los Remedios",
+    "city": "Remedios",
+    "type": "culture",
+    "description": "One of the oldest towns in Cuba, San Juan de los Remedios is known for its colonial architecture and vibrant local festivals. The town's history and culture are deeply rooted in Cuban traditions.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Guanabo Beach",
+    "city": "Havana",
+    "type": "nature",
+    "description": "A popular beach destination near Havana, Guanabo Beach offers a more local experience with its lively atmosphere and beautiful sands. It's perfect for a day trip from the city.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cuban Institute of Cinematographic Art and Industry",
+    "city": "Havana",
+    "type": "culture",
+    "description": "This institute plays a vital role in Cuban cinema and culture. Visitors can attend film screenings and learn about the rich history of Cuban filmmaking.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Pico Turquino",
+    "city": "Sierra Maestra",
+    "type": "nature",
+    "description": "Cuba's highest peak offers challenging hikes and breathtaking views. The surrounding national park is rich in biodiversity and offers opportunities for outdoor adventures.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Guillermo",
+    "city": "Cayo Guillermo",
+    "type": "nature",
+    "description": "Known for its stunning beaches and clear waters, Cayo Guillermo is a great destination for relaxation and water sports. It's less crowded than other tourist areas.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Baconao Park",
+    "city": "Santiago de Cuba",
+    "type": "nature",
+    "description": "This large nature park features diverse ecosystems, scenic views, and cultural attractions. It's perfect for hiking, exploring, and enjoying nature.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cuban National Ballet",
+    "city": "Havana",
+    "type": "entertainment",
+    "description": "One of the premier ballet companies in the world, the Cuban National Ballet performs at the Alicia Alonso Grand Theatre. Attending a performance is a cultural experience not to be missed.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Blanco",
+    "city": "Cayo Blanco",
+    "type": "nature",
+    "description": "A small, uninhabited island known for its pristine beaches and clear waters. It's perfect for day trips, snorkeling, and enjoying the natural beauty.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Mor\u00f3n",
+    "city": "Mor\u00f3n",
+    "type": "culture",
+    "description": "A charming town with a rich history and vibrant culture, Mor\u00f3n is known for its local music and cuisine. The town's lively atmosphere makes it a great place to explore.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa Anc\u00f3n",
+    "city": "Trinidad",
+    "type": "nature",
+    "description": "A beautiful beach located near Trinidad, Playa Anc\u00f3n offers white sands and clear waters. It's ideal for swimming, sunbathing, and enjoying water sports.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "Los Jardines de la Reina",
+    "city": "Jardines de la Reina",
+    "type": "nature",
+    "description": "An archipelago known for its stunning coral reefs and diverse marine life, it's a paradise for divers and snorkelers. The area is relatively untouched, offering pristine natural beauty.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "R\u00edo de la Plata",
+    "city": "Havana",
+    "type": "nature",
+    "description": "This picturesque river offers opportunities for fishing, kayaking, and enjoying the natural landscape. It's a serene spot for nature enthusiasts.",
+    "country": "Cuba",
+    "country_rank": 6
+  },
+  {
+    "name": "El Capitolio",
+    "city": "Havana",
+    "type": "landmark",
+    "description": "Resembling the U.S. Capitol, El Capitolio is an architectural gem in Havana. It houses the Cuban Academy of Sciences and features beautiful gardens.",
+    "country": "Cuba",
+    "country_rank": 6
+  }
+]

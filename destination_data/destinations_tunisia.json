@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Carthage",
+    "city": "Carthage",
+    "type": "culture",
+    "description": "Ancient Phoenician city known for its rich history and archaeological sites, including the Antonine Baths and the Roman Theater.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sidi Bou Said",
+    "city": "Sidi Bou Said",
+    "type": "culture",
+    "description": "Charming coastal village famous for its blue and white architecture, stunning sea views, and vibrant arts scene.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Medina of Tunis",
+    "city": "Tunis",
+    "type": "culture",
+    "description": "UNESCO World Heritage site filled with narrow streets, traditional souks, and rich Islamic architecture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kairouan",
+    "city": "Kairouan",
+    "type": "culture",
+    "description": "Considered the fourth holiest city in Islam, known for the Great Mosque of Kairouan and its rich Islamic heritage.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bardo National Museum",
+    "city": "Tunis",
+    "type": "culture",
+    "description": "Home to one of the largest collections of Roman mosaics in the world, showcasing Tunisia's rich history.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Douz",
+    "city": "Douz",
+    "type": "nature",
+    "description": "Known as the 'Gateway to the Sahara', this town offers unique experiences like camel trekking and desert camping.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "El Jem Amphitheater",
+    "city": "El Jem",
+    "type": "landmark",
+    "description": "One of the best-preserved Roman amphitheaters, famous for its impressive architecture and historical significance.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Chott el Jerid",
+    "city": "Nefta",
+    "type": "nature",
+    "description": "A vast salt flat known for its stunning landscapes and unique climate, perfect for photography and exploration.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sousse Medina",
+    "city": "Sousse",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site with narrow streets, vibrant markets, and historic monuments like the Ribat of Sousse.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cascades de la M\u00e2\u00e7ra",
+    "city": "Tunis",
+    "type": "nature",
+    "description": "Beautiful waterfalls located in the Boukornine National Park, ideal for hiking and enjoying nature.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Zaghouan",
+    "city": "Zaghouan",
+    "type": "nature",
+    "description": "Known for its stunning mountains, natural springs, and ancient Roman aqueducts that showcase its historical significance.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ksar Ouled Soltane",
+    "city": "Medenine",
+    "type": "culture",
+    "description": "An ancient granary showcasing unique architecture and featured in films like 'Star Wars', it offers a glimpse into traditional Berber life.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Mausoleum of Habib Bourguiba",
+    "city": "Monastir",
+    "type": "landmark",
+    "description": "A beautiful mausoleum dedicated to Tunisia's first president, known for its stunning architecture and serene gardens.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cap Bon Peninsula",
+    "city": "Nabeul",
+    "type": "nature",
+    "description": "A picturesque region famous for its beaches, citrus groves, and charming coastal towns like Nabeul and Kelibia.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tamerza",
+    "city": "Tamerza",
+    "type": "nature",
+    "description": "A hidden oasis in the mountains known for its stunning canyons, waterfalls, and traditional Berber architecture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Matmata",
+    "city": "Matmata",
+    "type": "culture",
+    "description": "Famous for its troglodyte dwellings, offering a unique glimpse into Berber culture and architecture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Djerba Island",
+    "city": "Djerba",
+    "type": "nature",
+    "description": "A beautiful island known for its sandy beaches, ancient synagogues, and a unique blend of cultures.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ajim",
+    "city": "Djerba",
+    "type": "culture",
+    "description": "A quaint fishing village on Djerba Island, known for its traditional architecture and local crafts.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Chebika",
+    "city": "Tamerza",
+    "type": "nature",
+    "description": "A stunning oasis surrounded by mountains, offering beautiful palm groves and natural springs.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ksar Medenine",
+    "city": "Medenine",
+    "type": "culture",
+    "description": "An ancient granary with unique architecture, showcasing the history of the region and its traditional Berber culture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ribat of Monastir",
+    "city": "Monastir",
+    "type": "landmark",
+    "description": "A historical fortress offering breathtaking views of the Mediterranean and insight into Tunisia's past.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sbeitla",
+    "city": "Sbeitla",
+    "type": "culture",
+    "description": "An archaeological site featuring impressive Roman ruins and temples dedicated to Jupiter, Minerva, and Juno.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Nefta",
+    "city": "Nefta",
+    "type": "culture",
+    "description": "Known for its beautiful palm groves and traditional mud-brick architecture, it offers a unique cultural experience.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kairouan Mosque",
+    "city": "Kairouan",
+    "type": "landmark",
+    "description": "A stunning example of Islamic architecture, this mosque is a pilgrimage site and a testament to Tunisia's rich history.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Chikly Island",
+    "city": "Bizerte",
+    "type": "nature",
+    "description": "A serene island perfect for day trips, known for its beautiful beaches and historical ruins.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bizerte",
+    "city": "Bizerte",
+    "type": "culture",
+    "description": "Tunisia's northernmost city, known for its vibrant waterfront, historic medina, and beautiful beaches.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Hammamet",
+    "city": "Hammamet",
+    "type": "entertainment",
+    "description": "A popular tourist destination known for its sandy beaches, vibrant nightlife, and luxurious resorts.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sousse Archaeological Museum",
+    "city": "Sousse",
+    "type": "culture",
+    "description": "Home to a vast collection of Roman mosaics and artifacts, showcasing the region's rich history.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tunis Zoo",
+    "city": "Tunis",
+    "type": "entertainment",
+    "description": "A family-friendly destination featuring a variety of animals and beautiful gardens, perfect for a day out.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great Mosque of Tunis",
+    "city": "Tunis",
+    "type": "landmark",
+    "description": "A stunning example of Islamic architecture located in the heart of the medina, rich in history and beauty.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Medenine",
+    "city": "Medenine",
+    "type": "culture",
+    "description": "Known for its unique architecture and ksours, offering insight into traditional Berber life.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Dar Sebastien",
+    "city": "Hammamet",
+    "type": "culture",
+    "description": "A cultural center set in a beautiful villa, hosting art exhibitions and performances throughout the year.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Caves of Matmata",
+    "city": "Matmata",
+    "type": "culture",
+    "description": "Unique underground dwellings carved into the rock, offering a glimpse into the traditional lifestyle of the Berber people.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Palace of the Bey",
+    "city": "Tunis",
+    "type": "landmark",
+    "description": "A beautiful palace showcasing the opulence of Tunisia's former rulers, with stunning gardens and architecture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "La Goulette",
+    "city": "La Goulette",
+    "type": "entertainment",
+    "description": "A lively seaside town known for its beautiful beaches, seafood restaurants, and vibrant atmosphere.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Museum of Islamic Art",
+    "city": "Tunis",
+    "type": "culture",
+    "description": "Showcasing a vast collection of Islamic art and artifacts, this museum is a treasure trove for history and art lovers.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bulla Regia",
+    "city": "Bulla Regia",
+    "type": "culture",
+    "description": "Ancient Roman city known for its underground villas and impressive mosaics, offering a glimpse into the past.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Medina of Sousse",
+    "city": "Sousse",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site with a maze of narrow streets, traditional souks, and historic architecture.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Carthage Museum",
+    "city": "Carthage",
+    "type": "culture",
+    "description": "Houses artifacts from the ancient city of Carthage, providing insight into its rich history and significance.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "El Alia",
+    "city": "Tunis",
+    "type": "nature",
+    "description": "A hidden beach destination known for its crystal-clear waters and tranquil atmosphere, perfect for relaxation.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ksar Ouled Soltane",
+    "city": "Medenine",
+    "type": "culture",
+    "description": "An ancient granary featuring unique architecture, famously used as a filming location for 'Star Wars'.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Chott el Jerid",
+    "city": "Nefta",
+    "type": "nature",
+    "description": "A mesmerizing salt flat that changes colors at sunset, perfect for photography and exploring the desert landscape.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "La Marsa",
+    "city": "La Marsa",
+    "type": "entertainment",
+    "description": "A bustling coastal town known for its beautiful beaches, vibrant cafes, and lively atmosphere.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sidi Bou Said",
+    "city": "Sidi Bou Said",
+    "type": "entertainment",
+    "description": "A picturesque village with stunning sea views, known for its charming blue and white buildings and lively arts scene.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Carthage Acropolium",
+    "city": "Carthage",
+    "type": "landmark",
+    "description": "An impressive historical site featuring remnants of ancient Carthage, offering stunning views of the Mediterranean.",
+    "country": "Tunisia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tunisian Sahara",
+    "city": "Various",
+    "type": "nature",
+    "description": "A vast desert region offering thrilling experiences such as dune bashing, camel riding, and stargazing.",
+    "country": "Tunisia",
+    "country_rank": 7
+  }
+]

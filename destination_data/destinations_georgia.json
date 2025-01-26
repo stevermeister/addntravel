@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Tbilisi Old Town",
+    "city": "Tbilisi",
+    "type": "culture",
+    "description": "A vibrant area filled with narrow streets, colorful buildings, and stunning architecture. It's a melting pot of cultures with historic churches, art galleries, and local cafes.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kazbegi National Park",
+    "city": "Stepantsminda",
+    "type": "nature",
+    "description": "Home to the stunning Mount Kazbek, this national park offers breathtaking views and numerous hiking trails. The picturesque Gergeti Trinity Church perched on the mountainside is a must-see.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Uplistsikhe",
+    "city": "Gori",
+    "type": "landmark",
+    "description": "An ancient rock-hewn town dating back to the early Iron Age. Uplistsikhe features fascinating cave structures, ancient temples, and a panoramic view of the surrounding area.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Batumi Boulevard",
+    "city": "Batumi",
+    "type": "entertainment",
+    "description": "A scenic promenade along the Black Sea, lined with palm trees, cafes, and parks. The boulevard is perfect for leisurely walks and offers a vibrant nightlife.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vardzia Monastery",
+    "city": "Aspindza",
+    "type": "landmark",
+    "description": "A stunning cave monastery complex carved into a cliffside, Vardzia offers a glimpse into medieval Georgia's spiritual life. The complex features beautiful frescoes and impressive architecture.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Sighnaghi",
+    "city": "Sighnaghi",
+    "type": "culture",
+    "description": "Known as the 'City of Love', Sighnaghi is famous for its charming streets, wine production, and beautiful views of the Alazani Valley. The city is also home to the impressive Sighnaghi Fortress.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mtskheta",
+    "city": "Mtskheta",
+    "type": "landmark",
+    "description": "One of the oldest continuously inhabited cities in the world and a UNESCO World Heritage site. Mtskheta is home to historic churches and monasteries, including the stunning Svetitskhoveli Cathedral.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Prometheus Cave",
+    "city": "Tskaltubo",
+    "type": "nature",
+    "description": "A spectacular cave system featuring impressive stalactites, stalagmites, and underground rivers. Prometheus Cave offers guided tours to explore its natural wonders.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Ananuri Fortress",
+    "city": "Ananuri",
+    "type": "landmark",
+    "description": "A historic fortress complex overlooking the Aragvi River, Ananuri is known for its stunning views and architectural beauty. The complex includes churches and towers dating back to the 16th century.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Narikala Fortress",
+    "city": "Tbilisi",
+    "type": "landmark",
+    "description": "An ancient fortress overlooking Tbilisi, providing panoramic views of the city. Its history dates back to the 4th century, and it\u2019s a great spot for sunset views.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tbilisi Sulphur Baths",
+    "city": "Tbilisi",
+    "type": "entertainment",
+    "description": "A unique experience in Tbilisi\u2019s historic Abanotubani district, these natural sulfur baths are famous for their therapeutic properties. Enjoy a relaxing soak in traditional bathhouses.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kakheti Wine Region",
+    "city": "Telavi",
+    "type": "culture",
+    "description": "Renowned as the birthplace of wine, Kakheti offers beautiful vineyards, traditional wine cellars, and tastings of unique Georgian wines. The region is rich in history and culture.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Gergeti Trinity Church",
+    "city": "Stepantsminda",
+    "type": "landmark",
+    "description": "Perched at an altitude of 2170 meters, this iconic church offers breathtaking views of Mount Kazbek. It's a popular pilgrimage site and a stunning photo opportunity.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mestia",
+    "city": "Mestia",
+    "type": "nature",
+    "description": "A picturesque mountain town in Svaneti, Mestia is surrounded by the Caucasus mountains and offers hiking, skiing, and unique Svan towers. The local culture and traditions are fascinating.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Okatse Canyon",
+    "city": "Zugdidi",
+    "type": "nature",
+    "description": "A breathtaking natural canyon known for its stunning views and the hanging walkway that offers a thrilling experience. The area is perfect for hiking and enjoying nature.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tsinandali Estate",
+    "city": "Tsinandali",
+    "type": "culture",
+    "description": "The historic estate of the Chavchavadze family, featuring beautiful gardens and a winery. Visitors can explore the museum and enjoy wine tastings on the estate.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Lagodekhi National Park",
+    "city": "Lagodekhi",
+    "type": "nature",
+    "description": "A hidden gem known for its diverse flora and fauna, Lagodekhi offers stunning hiking trails and waterfalls. It's a perfect spot for nature lovers seeking tranquility.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vardzia Cave Monastery",
+    "city": "Aspindza",
+    "type": "landmark",
+    "description": "A remarkable cave monastery built into a cliff, featuring hundreds of rooms and churches. It's a testament to medieval architecture and spirituality.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Katskhi Pillar",
+    "city": "Chiatura",
+    "type": "landmark",
+    "description": "A limestone monolith rising 40 meters high, home to a small monastery at the top. The climb is challenging, but the views and sense of accomplishment are rewarding.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Zugdidi Dadiani Palace",
+    "city": "Zugdidi",
+    "type": "culture",
+    "description": "The former residence of the Dadiani family, this palace features beautiful gardens and a rich collection of artifacts. Visitors can learn about the history of the Mingrelian nobility.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Gori Fortress",
+    "city": "Gori",
+    "type": "landmark",
+    "description": "An ancient fortress offering panoramic views of the city and surrounding landscapes. It dates back to the 8th century and has historical significance.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Shatili",
+    "city": "Shatili",
+    "type": "culture",
+    "description": "A fortified village in the Khevsureti region, known for its medieval architecture and stunning mountain scenery. It's a great place to immerse in local traditions and history.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Svaneti Towers",
+    "city": "Ushguli",
+    "type": "landmark",
+    "description": "Unique stone towers that serve as both homes and watchtowers, showcasing the rich heritage of the Svan people. Ushguli is also one of the highest inhabited villages in Europe.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kakheti Wine Route",
+    "city": "Telavi",
+    "type": "culture",
+    "description": "A scenic route through Georgia's wine country, featuring vineyards and wineries. Travelers can enjoy wine tastings and learn about traditional winemaking methods.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Gombori Pass",
+    "city": "Gombori",
+    "type": "nature",
+    "description": "A beautiful mountain pass offering stunning views and hiking opportunities. It's a popular route connecting Tbilisi to the Kakheti region.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mtatsminda Park",
+    "city": "Tbilisi",
+    "type": "entertainment",
+    "description": "An amusement park located on Mtatsminda Mountain, offering fun rides and panoramic views of Tbilisi. It's a favorite spot for both locals and tourists.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kvareli Lake",
+    "city": "Kvareli",
+    "type": "nature",
+    "description": "A serene lake surrounded by vineyards and mountains, perfect for relaxation and picnics. The area also offers wine tasting and hiking opportunities.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tbilisi Funicular",
+    "city": "Tbilisi",
+    "type": "entertainment",
+    "description": "A scenic railway that takes visitors up Mtatsminda Mountain, offering stunning views of Tbilisi along the way. At the top, visitors can explore the park and enjoy dining options.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "David Gareja Monastery",
+    "city": "Gareja",
+    "type": "landmark",
+    "description": "An ancient rock-hewn monastery complex located in a semi-desert area near the Azerbaijani border. The stunning frescoes and unique landscapes make it a must-visit.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tbilisi History Museum",
+    "city": "Tbilisi",
+    "type": "culture",
+    "description": "Housed in a stunning building, the museum showcases the rich history and culture of Tbilisi through various exhibits and artifacts. It's a great place to learn about the city's past.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Khevsureti",
+    "city": "Shatili",
+    "type": "nature",
+    "description": "A remote mountain region known for its stunning landscapes, traditional villages, and unique culture. It's perfect for hiking and experiencing traditional Georgian life.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Davit Gareja Monastery",
+    "city": "Gareja",
+    "type": "landmark",
+    "description": "An ancient rock-hewn monastery complex famous for its frescoes and stunning views of the surrounding semi-desert landscape. A spiritual and historical treasure.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Ninoshvili Wine Cellar",
+    "city": "Kvareli",
+    "type": "culture",
+    "description": "A family-owned winery offering intimate wine tastings and tours of traditional Georgian wine-making methods. It's a hidden gem for wine enthusiasts.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Alaverdi Monastery",
+    "city": "Telavi",
+    "type": "landmark",
+    "description": "One of the oldest monasteries in Georgia, known for its ancient wine-making traditions and beautiful architecture. Visitors can see the vineyards and taste the local wines.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Martvili Canyon",
+    "city": "Martvili",
+    "type": "nature",
+    "description": "A stunning natural canyon with turquoise waters and beautiful waterfalls. Visitors can take boat rides and enjoy the serene surroundings.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kakheti Region",
+    "city": "Telavi",
+    "type": "culture",
+    "description": "Known for its beautiful landscapes, historic sites, and wine production, Kakheti is a cultural hub. Visitors can explore ancient monasteries and vineyards.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vardzia Cave Monastery",
+    "city": "Aspindza",
+    "type": "landmark",
+    "description": "A remarkable cave monastery built into a cliff, featuring hundreds of rooms and churches. It's a testament to medieval architecture and spirituality.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Svaneti Region",
+    "city": "Mestia",
+    "type": "nature",
+    "description": "A remote region renowned for its stunning mountain landscapes, unique Svan towers, and rich cultural heritage. It's perfect for adventure seekers and nature lovers.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Telavi",
+    "city": "Telavi",
+    "type": "culture",
+    "description": "The capital of Kakheti, Telavi is known for its rich history, beautiful landscapes, and wine culture. Visitors can explore local markets and historic sites.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Gori",
+    "city": "Gori",
+    "type": "culture",
+    "description": "Known for its historical significance, Gori is the birthplace of Joseph Stalin. Visitors can explore the Stalin Museum and learn about the city's history.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chateau Mukhrani",
+    "city": "Mukhrani",
+    "type": "culture",
+    "description": "A beautiful winery set in a historic castle, offering wine tastings and tours. The estate is rich in history and is a great place to learn about Georgian winemaking.",
+    "country": "Georgia",
+    "country_rank": 6
+  },
+  {
+    "name": "Shatili",
+    "city": "Shatili",
+    "type": "landmark",
+    "description": "A historical village in the Khevsureti region, known for its medieval architecture and stunning mountain scenery. It's a great place to immerse in local traditions and history.",
+    "country": "Georgia",
+    "country_rank": 6
+  }
+]

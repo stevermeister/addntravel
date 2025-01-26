@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Bali",
+    "city": "Bali",
+    "type": "nature",
+    "description": "Famous for its stunning beaches, lush rice terraces, and vibrant culture, Bali is a tropical paradise that attracts millions of visitors each year. The island offers a mix of relaxation and adventure, from surfing to yoga retreats.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Borobudur Temple",
+    "city": "Magelang",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, Borobudur is the world's largest Buddhist temple, built in the 9th century. Its intricate carvings and massive stupas make it a stunning architectural marvel.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Komodo National Park",
+    "city": "Labuan Bajo",
+    "type": "nature",
+    "description": "Home to the famous Komodo dragons, this national park is a UNESCO World Heritage Site known for its stunning landscapes and rich marine biodiversity. Visitors can explore the islands, go snorkeling, and see the majestic reptiles in their natural habitat.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ubud",
+    "city": "Bali",
+    "type": "culture",
+    "description": "Ubud is the cultural heart of Bali, known for its art markets, traditional dance performances, and wellness retreats. The surrounding rice fields and lush jungles provide a tranquil escape for visitors.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tana Toraja",
+    "city": "South Sulawesi",
+    "type": "culture",
+    "description": "Famous for its unique funeral rituals and traditional houses called Tongkonan, Tana Toraja offers a glimpse into a rich cultural heritage. The stunning mountainous landscape adds to its charm.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Raja Ampat Islands",
+    "city": "West Papua",
+    "type": "nature",
+    "description": "Renowned for its breathtaking coral reefs and diverse marine life, Raja Ampat is a paradise for divers and nature lovers. Its remote location ensures pristine beauty and tranquility.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Mount Bromo",
+    "city": "East Java",
+    "type": "nature",
+    "description": "An iconic volcano known for its dramatic sunrises and otherworldly landscapes, Mount Bromo attracts photographers and adventurers alike. The surrounding national park is also home to diverse flora and fauna.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Prambanan Temple",
+    "city": "Yogyakarta",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, Prambanan is the largest Hindu temple complex in Indonesia, featuring stunning architecture and intricate reliefs. The temple is a testament to the artistic and cultural achievements of the region.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Gili Islands",
+    "city": "Lombok",
+    "type": "nature",
+    "description": "The Gili Islands are a trio of small islands known for their crystal-clear waters, vibrant coral reefs, and laid-back atmosphere. Ideal for snorkeling, diving, and relaxation, each island has its own unique charm.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Toba",
+    "city": "North Sumatra",
+    "type": "nature",
+    "description": "The largest volcanic lake in the world, Lake Toba is surrounded by stunning landscapes and offers opportunities for swimming, hiking, and exploring traditional Batak villages. It's a serene escape from the hustle of city life.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Krakatau",
+    "city": "Sunda Strait",
+    "type": "nature",
+    "description": "The site of one of the most famous volcanic eruptions in history, Krakatau is a fascinating destination for those interested in geology and natural history. The surrounding islands and waters are perfect for exploration.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Yogyakarta",
+    "city": "Yogyakarta",
+    "type": "culture",
+    "description": "Known as the cultural capital of Indonesia, Yogyakarta is famous for its traditional arts, heritage, and the Sultan's Palace. Visitors can experience batik workshops, shadow puppet shows, and local cuisine.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Belitung Island",
+    "city": "Belitung",
+    "type": "nature",
+    "description": "Belitung Island boasts stunning white-sand beaches, crystal-clear waters, and unique rock formations. It's a lesser-known gem for those looking to escape the crowds and enjoy natural beauty.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Seminyak",
+    "city": "Bali",
+    "type": "entertainment",
+    "description": "A trendy upscale area in Bali, Seminyak is known for its chic beach clubs, fine dining, and vibrant nightlife. It's the perfect spot for those looking to indulge in luxury and entertainment.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bunaken Marine Park",
+    "city": "North Sulawesi",
+    "type": "nature",
+    "description": "A diver's paradise, Bunaken Marine Park is famous for its rich marine biodiversity and stunning underwater landscapes. The park offers some of the best diving spots in the world.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Taman Nasional Gunung Leuser",
+    "city": "Aceh",
+    "type": "nature",
+    "description": "Part of the UNESCO-listed Tropical Rainforest Heritage of Sumatra, this national park is home to endangered species like orangutans and Sumatran tigers. It's a haven for eco-tourists and wildlife enthusiasts.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Nusa Penida",
+    "city": "Bali",
+    "type": "nature",
+    "description": "A stunning island known for its dramatic cliffs, pristine beaches, and vibrant coral reefs, Nusa Penida is perfect for adventurous travelers. Highlights include Kelingking Beach and the scenic Angel's Billabong.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Lombok",
+    "city": "Lombok",
+    "type": "nature",
+    "description": "Less commercialized than Bali, Lombok offers beautiful beaches, waterfalls, and the majestic Mount Rinjani. It\u2019s an excellent destination for hiking, surfing, and experiencing local culture.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Candi Sukuh",
+    "city": "Central Java",
+    "type": "landmark",
+    "description": "An ancient Hindu temple complex known for its unique erotic sculptures and pyramid-shaped structures, Candi Sukuh offers a fascinating glimpse into Indonesia's past.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sambangan Waterfall",
+    "city": "Bali",
+    "type": "nature",
+    "description": "A hidden gem in Bali, Sambangan Waterfall features stunning cascades surrounded by lush greenery. It's a perfect spot for adventurous travelers looking to swim and explore.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuta Beach",
+    "city": "Bali",
+    "type": "entertainment",
+    "description": "Famous for its vibrant nightlife and surfing culture, Kuta Beach is one of Bali's most popular destinations. The beach is ideal for sunbathing, and the area is filled with shops, restaurants, and bars.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tanjung Puting National Park",
+    "city": "Central Kalimantan",
+    "type": "nature",
+    "description": "This national park is known for its orangutan conservation efforts and unique swamp ecosystems. Visitors can take river cruises to spot wildlife and enjoy the natural beauty.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Banyumala Twin Waterfalls",
+    "city": "Bali",
+    "type": "nature",
+    "description": "A hidden waterfall gem in Bali, Banyumala Twin Waterfalls offers a serene escape with stunning views and natural pools for swimming. The lush surroundings make it a perfect spot for nature lovers.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Canggu",
+    "city": "Bali",
+    "type": "entertainment",
+    "description": "A hip and trendy area, Canggu is known for its surf breaks, beach clubs, and vibrant caf\u00e9 culture. It's a favorite spot for digital nomads and those looking to enjoy a laid-back lifestyle.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Menjangan Island",
+    "city": "Bali",
+    "type": "nature",
+    "description": "Part of the Bali Barat National Park, Menjangan Island is known for its pristine beaches and excellent diving spots. The island is less crowded than others, making it a perfect getaway.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tugul Watu",
+    "city": "Bali",
+    "type": "landmark",
+    "description": "A unique rock formation on the cliffs of Bali, Tugul Watu offers breathtaking views of the ocean and is a great spot for photography and contemplation.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kota Tua",
+    "city": "Jakarta",
+    "type": "culture",
+    "description": "The old town of Jakarta, known as Kota Tua, is rich in history with colonial architecture, museums, and vibrant street life. It's a great place to explore the city's past.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Candi Borobudur",
+    "city": "Magelang",
+    "type": "landmark",
+    "description": "This massive Buddhist temple complex is adorned with thousands of relief panels and Buddha statues. It's an awe-inspiring site that reflects Indonesia's cultural heritage.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Batu Caves",
+    "city": "West Java",
+    "type": "landmark",
+    "description": "A series of limestone caves and temples, Batu Caves is a significant religious site for Hindus. The impressive golden statue of Lord Murugan and colorful steps attract many visitors.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kota Gede",
+    "city": "Yogyakarta",
+    "type": "culture",
+    "description": "Kota Gede is known for its traditional silver workshops and historic buildings. It's a charming area to explore local crafts and taste traditional Javanese food.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Taman Safari Indonesia",
+    "city": "Bogor",
+    "type": "entertainment",
+    "description": "An expansive wildlife park that allows visitors to drive through and see animals in a natural habitat setting. It's a fun and educational experience for families.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jatiluwih Rice Terraces",
+    "city": "Bali",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, the Jatiluwih Rice Terraces showcase the stunning beauty of Bali's landscape and traditional subak irrigation system. It's a peaceful place for walking and photography.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Pulau Weh",
+    "city": "Aceh",
+    "type": "nature",
+    "description": "A hidden gem off the coast of Sumatra, Pulau Weh is known for its pristine beaches, diving spots, and relaxed atmosphere. It's a great place for snorkeling and enjoying unspoiled nature.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bromo Tengger Semeru National Park",
+    "city": "East Java",
+    "type": "nature",
+    "description": "Home to the iconic Mount Bromo, this national park offers breathtaking views, hiking opportunities, and unique volcanic landscapes. It's a popular spot for sunrise watching.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ngarai Sianok",
+    "city": "West Sumatra",
+    "type": "nature",
+    "description": "Known as the Sianok Canyon, this stunning valley features lush green hills and a river running through it. It's perfect for hiking and enjoying the natural beauty.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Gunung Padang",
+    "city": "West Java",
+    "type": "landmark",
+    "description": "An ancient megalithic site, Gunung Padang features massive stone structures and is believed to have significant historical value. It remains a mystery and attracts archaeologists and tourists alike.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Baliem Valley",
+    "city": "Papua",
+    "type": "culture",
+    "description": "Known for its stunning landscapes and traditional tribes, Baliem Valley is a cultural treasure trove. Visitors can experience local festivals, traditional ceremonies, and breathtaking scenery.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Wakatobi National Park",
+    "city": "Southeast Sulawesi",
+    "type": "nature",
+    "description": "A UNESCO Biosphere Reserve, Wakatobi National Park is famous for its pristine coral reefs and rich marine life. It's a top destination for divers and those seeking untouched nature.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Curahee Island",
+    "city": "Bali",
+    "type": "nature",
+    "description": "A hidden paradise, Curahee Island offers tranquil beaches, clear waters, and stunning landscapes. It's perfect for those seeking solitude and natural beauty away from the crowds.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sukamade Beach",
+    "city": "East Java",
+    "type": "nature",
+    "description": "Known for its turtle conservation efforts, Sukamade Beach is a remote and beautiful beach where visitors can witness turtles nesting. The serene environment makes it a unique experience.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Taman Nasional Komodo",
+    "city": "East Nusa Tenggara",
+    "type": "nature",
+    "description": "This national park is famous for the Komodo dragon and breathtaking landscapes. Visitors can explore the islands, dive in crystal-clear waters, and see diverse wildlife.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bintan Island",
+    "city": "Riau Archipelago",
+    "type": "nature",
+    "description": "A beautiful island known for its resorts, beaches, and water sports, Bintan offers a perfect escape from the hustle and bustle of city life. It's ideal for relaxation and adventure.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Taman Mini Indonesia Indah",
+    "city": "Jakarta",
+    "type": "culture",
+    "description": "A cultural park showcasing Indonesia's diverse cultures, Taman Mini features traditional houses, museums, and cultural performances. It's a great place to learn about the country's heritage.",
+    "country": "Indonesia",
+    "country_rank": 7
+  },
+  {
+    "name": "Pantai Pink",
+    "city": "Komodo",
+    "type": "nature",
+    "description": "Known for its unique pink sand, Pantai Pink is a stunning beach surrounded by beautiful landscapes. It's a great spot for swimming, snorkeling, and enjoying the clear waters.",
+    "country": "Indonesia",
+    "country_rank": 7
+  }
+]

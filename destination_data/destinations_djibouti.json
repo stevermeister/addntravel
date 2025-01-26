@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Lake Assal",
+    "city": "Djibouti",
+    "type": "nature",
+    "description": "Lake Assal is the lowest point in Africa and one of the saltiest lakes in the world. Its stunning turquoise waters and striking white salt flats create a surreal landscape that attracts nature lovers and photographers alike.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Tadjoura",
+    "city": "Tadjoura",
+    "type": "culture",
+    "description": "Known as the oldest town in Djibouti, Tadjoura features charming whitewashed buildings and beautiful beaches. The town's rich history and vibrant local culture make it a great spot for experiencing traditional Djiboutian life.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Day Forest National Park",
+    "city": "Dikhil",
+    "type": "nature",
+    "description": "This hidden gem is a lush forest area that provides a stark contrast to the arid landscape surrounding it. Home to diverse flora and fauna, it offers hiking trails and a chance to see the unique wildlife of Djibouti.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Gulf of Tadjoura",
+    "city": "Tadjoura",
+    "type": "nature",
+    "description": "Famous for its rich marine biodiversity, the Gulf of Tadjoura is perfect for diving and snorkeling. The coral reefs and colorful fish make it a must-visit for underwater enthusiasts.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Mount Moussa",
+    "city": "Djibouti",
+    "type": "nature",
+    "description": "This volcanic mountain offers hiking opportunities and breathtaking panoramic views of the surrounding landscape. It's a great spot for adventurous travelers looking to explore Djibouti's rugged terrain.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Djibouti City Central Market",
+    "city": "Djibouti City",
+    "type": "culture",
+    "description": "The bustling central market is a vibrant hub of local life where you can find everything from spices to textiles. It's a fantastic place to immerse yourself in the local culture and sample traditional foods.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Ras Bir",
+    "city": "Djibouti",
+    "type": "nature",
+    "description": "Ras Bir is the northernmost point of Djibouti and offers stunning views of the Red Sea. It\u2019s a perfect spot for birdwatching and enjoying the serene coastal scenery.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Khor Ambado Beach",
+    "city": "Djibouti City",
+    "type": "entertainment",
+    "description": "Known for its clear waters and sandy shores, Khor Ambado Beach is a popular spot for relaxation and water sports. It\u2019s a great place to unwind and enjoy the sun, with options for snorkeling and swimming.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Arta Coast",
+    "city": "Arta",
+    "type": "nature",
+    "description": "The Arta Coast offers stunning coastal views and opportunities for adventure activities like snorkeling and kayaking. The pristine beaches are less crowded, making it a perfect escape from the bustling city life.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "African Market",
+    "city": "Djibouti City",
+    "type": "culture",
+    "description": "This market is a treasure trove of local crafts, food, and culture. Visitors can experience the vibrant atmosphere and find unique souvenirs while interacting with local artisans.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Ali Sabieh",
+    "city": "Ali Sabieh",
+    "type": "culture",
+    "description": "This town is known for its traditional architecture and local customs. It offers a glimpse into the everyday life of Djiboutians and is a great place to enjoy the local cuisine.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Lac Abbe",
+    "city": "Djibouti",
+    "type": "nature",
+    "description": "This otherworldly landscape is characterized by its limestone chimneys and surreal scenery. Lac Abbe's unique geological formations make it a fascinating destination for nature lovers and photographers.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Presidential Palace",
+    "city": "Djibouti City",
+    "type": "landmark",
+    "description": "An important landmark in Djibouti City, the Presidential Palace showcases stunning architecture and beautifully landscaped gardens. While it's not open to the public, its grandeur is worth seeing from the outside.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Gare de Djibouti",
+    "city": "Djibouti City",
+    "type": "landmark",
+    "description": "This historic train station is a beautiful example of colonial architecture and serves as a reminder of Djibouti's railway history. It's a great spot for photography enthusiasts and history buffs.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Moucha Island",
+    "city": "Djibouti",
+    "type": "nature",
+    "description": "A small island off the coast of Djibouti, Moucha Island is known for its beautiful beaches and excellent snorkeling opportunities. It\u2019s a perfect getaway for those looking to explore the marine life of the region.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "The Djibouti Railway",
+    "city": "Djibouti City",
+    "type": "landmark",
+    "description": "This historic railway connects Djibouti to Addis Ababa and is an essential part of the region's transport history. Riding the train is a unique way to see the stunning landscapes of the area.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Hamoudi Mosque",
+    "city": "Djibouti City",
+    "type": "landmark",
+    "description": "One of the most beautiful mosques in Djibouti, Hamoudi Mosque features stunning Islamic architecture. Visitors can admire its intricate designs and learn about the role of Islam in Djiboutian culture.",
+    "country": "Djibouti",
+    "country_rank": 2
+  },
+  {
+    "name": "Doraleh",
+    "city": "Doraleh",
+    "type": "entertainment",
+    "description": "Doraleh offers a blend of modernity and tradition with its bustling commercial areas and local markets. It's a lively place to experience urban life in Djibouti.",
+    "country": "Djibouti",
+    "country_rank": 2
+  }
+]

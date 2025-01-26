@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Vilnius Old Town",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this area boasts stunning Baroque architecture and a rich history. Visitors can explore its narrow streets, historic buildings, and numerous churches.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Trakai Castle",
+    "city": "Trakai",
+    "type": "landmark",
+    "description": "Nestled on an island in Lake Galv\u0117, this picturesque castle dates back to the 14th century. It offers stunning views and a glimpse into Lithuania's medieval past.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Curonian Spit",
+    "city": "Nida",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this unique sand dune peninsula separates the Curonian Lagoon from the Baltic Sea. Visitors can enjoy breathtaking landscapes, hiking trails, and rich biodiversity.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Hill of Crosses",
+    "city": "\u0160iauliai",
+    "type": "landmark",
+    "description": "A striking pilgrimage site filled with thousands of crosses, this place symbolizes the Lithuanian spirit and resilience. It attracts visitors seeking to immerse themselves in local traditions.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Kernav\u0117 Archaeological Site",
+    "city": "Kernav\u0117",
+    "type": "culture",
+    "description": "Another UNESCO World Heritage site, this ancient settlement features archaeological remains dating back to the Paleolithic era. It offers insight into Lithuania's early history.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Vilnius Cathedral",
+    "city": "Vilnius",
+    "type": "landmark",
+    "description": "An iconic symbol of the city, this neoclassical cathedral boasts impressive interiors and a grand bell tower. It's a central hub for cultural and religious events.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "\u0160iauliai Bicycle Museum",
+    "city": "\u0160iauliai",
+    "type": "entertainment",
+    "description": "Home to a vast collection of bicycles and cycling memorabilia, this quirky museum showcases the evolution of cycling in Lithuania. It's a fun visit for bike enthusiasts.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Palanaga Beach",
+    "city": "Palanga",
+    "type": "nature",
+    "description": "Known for its sandy beaches and vibrant atmosphere, Palanga is a popular summer destination. Visitors can enjoy sunbathing, beach sports, and the lively promenade.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Occupations and Freedom Fights",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "This museum provides a poignant insight into Lithuania's struggles during the Soviet occupation. It features exhibits on resistance and the fight for independence.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Rumsiskes Open-Air Museum",
+    "city": "Rumsiskes",
+    "type": "culture",
+    "description": "An extensive ethnographic museum showcasing traditional Lithuanian rural life. Visitors can explore authentic wooden houses and experience folklore events.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Devil's Museum",
+    "city": "Kaunas",
+    "type": "culture",
+    "description": "A unique museum dedicated to devil-themed art and folklore, featuring over 3,000 exhibits. It's a quirky yet fascinating place that delves into the darker side of mythology.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Nida Dunes",
+    "city": "Nida",
+    "type": "nature",
+    "description": "These spectacular dunes are part of the Curonian Spit and offer stunning views of the Baltic Sea. Ideal for hiking and photography, they are a tranquil escape into nature.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Auk\u0161taitija National Park",
+    "city": "Ignalina",
+    "type": "nature",
+    "description": "Famed for its beautiful lakes, forests, and rich biodiversity, this national park is perfect for hiking, kayaking, and birdwatching. It's a hidden gem for nature lovers.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Ninth Fort",
+    "city": "Kaunas",
+    "type": "culture",
+    "description": "A former fort turned museum, it commemorates the victims of Nazi and Soviet oppression. The haunting exhibitions provide deep historical insights.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Klaipeda Sea Museum",
+    "city": "Klaipeda",
+    "type": "entertainment",
+    "description": "Located in a former fort, this museum offers engaging exhibits on marine life, history, and maritime culture. Its aquarium and dolphin shows are particularly popular.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Dzukija National Park",
+    "city": "Varena",
+    "type": "nature",
+    "description": "Known for its dense forests and rich wildlife, this national park provides a peaceful retreat for hiking, cycling, and nature observation. It's an ideal spot for outdoor enthusiasts.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Gr\u016btas Park",
+    "city": "Druskininkai",
+    "type": "culture",
+    "description": "A unique outdoor museum featuring Soviet-era statues and artifacts, it offers a thought-provoking experience about Lithuania's past. The park is set in a picturesque forest.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Siauliai's Sundial",
+    "city": "Siauliai",
+    "type": "landmark",
+    "description": "This giant sundial is a symbol of Siauliai and offers a unique experience as visitors can learn about timekeeping and enjoy views of the surrounding area.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The White Bridge",
+    "city": "Kaunas",
+    "type": "landmark",
+    "description": "A modern architectural marvel, this pedestrian bridge across the Neris River is adorned with art installations. It connects two vibrant parts of the city.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Raudondvaris Manor",
+    "city": "Kaunas",
+    "type": "landmark",
+    "description": "This 17th-century manor features beautiful gardens and a charming atmosphere. It's a perfect place for leisurely walks and enjoying local art exhibitions.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Iron Wolf",
+    "city": "Vilnius",
+    "type": "landmark",
+    "description": "A famous sculpture that represents one of the legendary figures in Lithuanian folklore. It is located near the National Museum, making it a popular photo spot.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Zalgiris Arena",
+    "city": "Kaunas",
+    "type": "entertainment",
+    "description": "Home to the famous Zalgiris Kaunas basketball team, this modern arena hosts various sporting events, concerts, and exhibitions, making it a lively entertainment hub.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Lakes of Anyk\u0161\u010diai",
+    "city": "Anyk\u0161\u010diai",
+    "type": "nature",
+    "description": "A picturesque area featuring several lakes, ideal for swimming, fishing, and picnicking. It\u2019s surrounded by beautiful forests, providing a tranquil escape.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Sventoji",
+    "city": "Sventoji",
+    "type": "nature",
+    "description": "A coastal resort town known for its beautiful beaches and relaxed atmosphere. It's a great place for sunbathing, water sports, and enjoying fresh seafood.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Cathedral of St. Peter and St. Paul",
+    "city": "Vilnius",
+    "type": "landmark",
+    "description": "A stunning example of Baroque architecture, this cathedral is adorned with beautiful frescoes and sculptures. It's a prominent religious site in Lithuania.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "Riga Street",
+    "city": "Kaunas",
+    "type": "entertainment",
+    "description": "A vibrant street filled with cafes, shops, and art galleries. It's a popular spot for locals and tourists alike to experience the city's lively culture.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of the History of Lithuanian Medicine and Pharmacy",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "This unique museum offers insight into the history of medicine and pharmacy in Lithuania. It's filled with fascinating exhibits and artifacts.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Parnidis Dune",
+    "city": "Nida",
+    "type": "nature",
+    "description": "A stunning dune offering panoramic views of the Curonian Lagoon and the Baltic Sea. It\u2019s a popular spot for sunset watching and photography.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Botanical Garden of Vilnius University",
+    "city": "Vilnius",
+    "type": "nature",
+    "description": "A peaceful oasis filled with diverse plant species and beautiful landscapes. It's perfect for a leisurely stroll or a picnic among nature.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Town Hall Square",
+    "city": "Vilnius",
+    "type": "landmark",
+    "description": "A historic square surrounded by beautiful buildings, cafes, and shops. It often hosts cultural events and festivals, making it a lively gathering place.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Europos Parkas",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "An open-air museum showcasing contemporary sculptures in a natural landscape. It features works from various international artists and is a unique cultural experience.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Wild Animal Park",
+    "city": "Palanga",
+    "type": "entertainment",
+    "description": "A family-friendly destination where visitors can see various animals in a natural environment. It's a fun and educational experience for all ages.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Maironis Museum of Literature",
+    "city": "Kaunas",
+    "type": "culture",
+    "description": "Dedicated to the famous Lithuanian poet Maironis, this museum showcases his life and work along with other Lithuanian literary figures.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The War Museum of Vytautas the Great",
+    "city": "Kaunas",
+    "type": "culture",
+    "description": "This museum focuses on Lithuania's military history and features a vast collection of artifacts, weapons, and exhibitions related to the country's defense.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Rumsiskes Ethnographic Museum",
+    "city": "Rumsiskes",
+    "type": "culture",
+    "description": "An open-air museum that displays traditional Lithuanian rural life through reconstructed buildings and exhibitions. It's a great place to learn about local customs.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The J\u016brat\u0117 and Kastytis Sculpture",
+    "city": "Palanga",
+    "type": "landmark",
+    "description": "A beautiful sculpture based on a famous Lithuanian legend about a sea goddess and a fisherman. It\u2019s a popular spot for photos near the beach.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Treetop Walking Path",
+    "city": "Anyks\u010diai",
+    "type": "nature",
+    "description": "A unique elevated walkway that allows visitors to experience nature from above. It offers stunning views of the surrounding forest and river.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Siauliai City Park",
+    "city": "Siauliai",
+    "type": "nature",
+    "description": "A picturesque park perfect for leisurely walks, picnics, and outdoor activities. It features beautiful gardens and a tranquil lake.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The National Museum of Lithuania",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "This museum offers comprehensive exhibitions on Lithuania's history, culture, and heritage. It's a must-visit for anyone interested in the country's past.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Lithuanian Folk Museum",
+    "city": "Rum\u0161i\u0161k\u0117s",
+    "type": "culture",
+    "description": "An open-air museum showcasing traditional Lithuanian life, featuring folk architecture and cultural events. It's a great place to experience local customs.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Pabrade Forest",
+    "city": "Pabrade",
+    "type": "nature",
+    "description": "A serene forest area perfect for hiking and exploring nature. It's less touristy, offering a quiet retreat for nature lovers.",
+    "country": "Lithuania",
+    "country_rank": 6
+  },
+  {
+    "name": "The Tuskul\u0117nai Estate",
+    "city": "Vilnius",
+    "type": "culture",
+    "description": "Once a private estate, it now serves as a cultural and educational center, hosting exhibitions and events related to Lithuanian history.",
+    "country": "Lithuania",
+    "country_rank": 6
+  }
+]

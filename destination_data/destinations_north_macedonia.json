@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Lake Ohrid",
+    "city": "Ohrid",
+    "type": "nature",
+    "description": "One of Europe's oldest and deepest lakes, Lake Ohrid is a UNESCO World Heritage site. Its crystal-clear waters and unique biodiversity make it a paradise for nature lovers and a perfect spot for swimming and boating.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Ohrid Old Town",
+    "city": "Ohrid",
+    "type": "culture",
+    "description": "A charming historical area filled with ancient churches, cobblestone streets, and stunning views over the lake. The Old Town is rich in cultural heritage, showcasing the blend of Byzantine and Ottoman influences.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "St. Naum Monastery",
+    "city": "Ohrid",
+    "type": "landmark",
+    "description": "Located on the shores of Lake Ohrid, this 10th-century monastery is known for its beautiful frescoes and serene surroundings. It's a pilgrimage site and a great spot for relaxation and contemplation.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kalkandelen",
+    "city": "Tetovo",
+    "type": "nature",
+    "description": "This hidden gem features stunning natural landscapes and diverse flora. It is perfect for hiking and photography, offering breathtaking views of the surrounding mountains.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Skopje Fortress (Kale)",
+    "city": "Skopje",
+    "type": "landmark",
+    "description": "An ancient fortress overlooking the capital city, Skopje Fortress offers panoramic views and a glimpse into the region's rich history. The site is perfect for exploring medieval architecture and enjoying the sunset.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Matka Canyon",
+    "city": "Skopje",
+    "type": "nature",
+    "description": "A stunning natural canyon located just outside Skopje, Matka is perfect for outdoor activities like kayaking and hiking. The canyon is home to diverse wildlife and several ancient monasteries.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bitola's Clock Tower",
+    "city": "Bitola",
+    "type": "landmark",
+    "description": "This iconic clock tower dates back to the 16th century and is a symbol of Bitola. It offers a glimpse into the city's Ottoman past and is a great spot for photos.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Pelister National Park",
+    "city": "Bitola",
+    "type": "nature",
+    "description": "Known for its diverse landscapes, including forests, lakes, and peaks, Pelister National Park is a haven for hikers and nature enthusiasts. The park is home to unique flora and fauna, including the endemic Pelister pine.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Heraclea Lyncestis",
+    "city": "Bitola",
+    "type": "culture",
+    "description": "An archaeological site featuring ancient ruins of a city founded by Philip II of Macedon. Visitors can explore the well-preserved mosaics and Roman theater, offering a glimpse into the region's ancient history.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Stone Bridge",
+    "city": "Skopje",
+    "type": "landmark",
+    "description": "A historic bridge that connects the old and new parts of Skopje, the Stone Bridge is an architectural marvel dating back to the 15th century. It serves as a symbol of the city's rich cultural heritage.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "St. Clement of Ohrid Church",
+    "city": "Ohrid",
+    "type": "landmark",
+    "description": "This beautiful church is known for its stunning frescoes and significant historical importance as a center of education and culture in the region. It's a must-visit for those interested in Orthodox Christianity.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Vardar River",
+    "city": "Skopje",
+    "type": "nature",
+    "description": "The Vardar River runs through Skopje, providing a scenic backdrop for various outdoor activities. The riverbanks are perfect for a leisurely stroll, cycling, or picnicking.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kumanovo's Memorial Park",
+    "city": "Kumanovo",
+    "type": "culture",
+    "description": "This park commemorates the soldiers who fought in World War I and offers a peaceful ambiance with monuments and green spaces. It's a reflective place for history enthusiasts.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kozjak Lake",
+    "city": "Kumanovo",
+    "type": "nature",
+    "description": "A tranquil artificial lake surrounded by mountains, Kozjak Lake is ideal for fishing, boating, and enjoying nature's serenity. It\u2019s a lesser-known spot, perfect for a peaceful day out.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Museum of Macedonian Struggle",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "A museum dedicated to the history and struggles of the Macedonian people. It offers insightful exhibits that highlight the nation's fight for independence and cultural identity.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Old Bazaar",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "A vibrant area filled with shops, cafes, and historical buildings, the Old Bazaar reflects Skopje's Ottoman heritage. It's a perfect place to experience local culture and cuisine.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kratovo",
+    "city": "Kratovo",
+    "type": "landmark",
+    "description": "Known for its medieval towers and unique architecture, Kratovo is a picturesque town built on volcanic rock. Its charming streets and rich history make it a hidden gem.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Caves of Vrelo",
+    "city": "Matka",
+    "type": "nature",
+    "description": "One of the deepest underwater caves in the world, Vrelo is a fascinating natural site. Visitors can take boat trips to explore its stunning stalactites and stalagmites.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Mavrovo National Park",
+    "city": "Mavrovo",
+    "type": "nature",
+    "description": "This national park is known for its stunning landscapes, including mountains, lakes, and diverse wildlife. It's a popular spot for skiing in winter and hiking in summer.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Stobi Archaeological Site",
+    "city": "Gradsko",
+    "type": "culture",
+    "description": "An ancient city with well-preserved ruins, Stobi offers a journey through Roman history in Macedonia. Visitors can explore the remains of a theater, basilicas, and mosaics.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Albanian Bazaar",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "A vibrant marketplace that showcases the cultural diversity of Skopje, the Albanian Bazaar is a great place to shop for unique handmade crafts and sample local delicacies.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Lake Prespa",
+    "city": "Resen",
+    "type": "nature",
+    "description": "A beautiful lake that straddles the borders of North Macedonia, Albania, and Greece, Prespa offers stunning views and opportunities for birdwatching, particularly for rare species.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Museum of Contemporary Art",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "Dedicated to modern art, this museum features a diverse collection of works from Macedonian and international artists. It's a cultural hub that promotes creativity and artistic expression.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kokino Observatory",
+    "city": "Kumanovo",
+    "type": "landmark",
+    "description": "An ancient astronomical observatory dating back to the Bronze Age, Kokino offers insight into early human history and celestial observations. The site provides stunning views of the surrounding landscape.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Skopje City Park",
+    "city": "Skopje",
+    "type": "nature",
+    "description": "A lush urban park that provides a tranquil escape from the city bustle. It features walking paths, a lake, and plenty of greenery, making it ideal for picnics and relaxation.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Wax Museum",
+    "city": "Skopje",
+    "type": "entertainment",
+    "description": "An engaging museum featuring lifelike wax figures of historical and contemporary figures. It's a fun and educational experience for visitors of all ages.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Museum of the Macedonian Revolution",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "A museum dedicated to the history of the Macedonian independence movement, showcasing artifacts, documents, and exhibits that narrate the struggle for freedom.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Struga's Poetry Evening",
+    "city": "Struga",
+    "type": "entertainment",
+    "description": "An annual poetry event that attracts poets from around the world to celebrate and share their work. It's a vibrant cultural experience that highlights the importance of literature.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The Church of St. John at Kaneo",
+    "city": "Ohrid",
+    "type": "landmark",
+    "description": "Perched on a cliff overlooking Lake Ohrid, this beautiful 13th-century church is renowned for its stunning architecture and breathtaking views, making it a popular spot for photography.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kopachki Monastery",
+    "city": "Ohrid",
+    "type": "landmark",
+    "description": "A hidden gem located near Lake Ohrid, this peaceful monastery features stunning frescoes and a serene atmosphere, perfect for those seeking tranquility.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "The City Museum of Skopje",
+    "city": "Skopje",
+    "type": "culture",
+    "description": "Housed in a historic building, the museum showcases the rich history and cultural heritage of Skopje through various artifacts and exhibitions.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  },
+  {
+    "name": "Sveti Nikola Church",
+    "city": "Kumanovo",
+    "type": "landmark",
+    "description": "An 18th-century church known for its beautiful frescoes and serene surroundings. It's a peaceful spot for reflection and appreciation of Orthodox architecture.",
+    "country": "North Macedonia",
+    "country_rank": 4
+  }
+]

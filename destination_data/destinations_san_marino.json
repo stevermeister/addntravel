@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Guaita",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "The oldest and most iconic of San Marino's three towers, Guaita offers breathtaking views of the surrounding countryside and a glimpse into the medieval past of the Republic.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Cesta",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "Cesta, the second tower, is notable for its impressive architecture and the historical artifacts housed within, including a collection of ancient weaponry.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Montale",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "This third tower is less visited but provides a more tranquil atmosphere and stunning panoramic views, perfect for those looking to escape the crowds.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Palazzo Pubblico",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "The seat of government in San Marino, this beautiful neoclassical palace is notable for its stunning facade and the changing of the guard ceremony that attracts many visitors.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Basilica di San Marino",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "This majestic basilica, dedicated to the founder of San Marino, features impressive neoclassical architecture and ornate interiors, making it a must-visit for history buffs.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Museo di Stato",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "The State Museum showcases a rich collection of art and artifacts that tell the story of San Marino's history, culture, and identity.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Piazza della Libert\u00e0",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "This central square is surrounded by historic buildings and is a vibrant hub of activity, hosting events and offering stunning views of the area.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "The Three Towers",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "A symbol of San Marino's independence, these towers are a UNESCO World Heritage site and offer captivating insights into the Republic's medieval history.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Guerrino the Magnificent",
+    "city": "San Marino",
+    "type": "entertainment",
+    "description": "A unique experience, this restaurant combines dining with live performances, showcasing local talent and traditional cuisine.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "La Rocca",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "A beautiful fortress that provides a glimpse into the military history of San Marino, La Rocca is surrounded by stunning views and hiking trails.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Monte Titano",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "This mountain is a UNESCO World Heritage site and offers various walking trails, panoramic viewpoints, and a chance to explore the natural beauty of San Marino.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Museo di Tortura",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "A fascinating yet eerie museum that displays historical torture devices, providing a chilling insight into medieval justice.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Ponte del Diavolo",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "A picturesque bridge that connects two parts of the city, it's a great spot for photos and enjoying the surrounding scenery.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Parco di Montecchio",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "A hidden gem, this park is ideal for picnics and leisurely walks, featuring beautiful flora and fauna unique to the region.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Chiesa di San Francesco",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "This church is known for its stunning frescoes and serene atmosphere, offering a peaceful retreat from the bustling city.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Museo dell'Emigrante",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "Dedicated to the history of San Marino's emigrants, this museum tells the stories of those who left their homeland in search of a better life.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Cava dei Balestrieri",
+    "city": "San Marino",
+    "type": "entertainment",
+    "description": "A unique archery range where visitors can watch crossbow competitions and even try their hand at this traditional sport.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Santuario della Madonna di Carpineto",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "A serene sanctuary located in the hills, it is a place of pilgrimage and offers stunning views of the surrounding landscape.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Torre di Montale",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "The least visited of the three towers, Montale offers a more secluded experience with equally impressive views and historical significance.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Via delle Malateste",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "A charming street lined with historical buildings and quaint shops, perfect for exploring local crafts and enjoying the ambiance.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Palazzo dei Capitani",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "A beautiful building that reflects the architectural style of the region and serves as a venue for various cultural events.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Piazza Garibaldi",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "This square is a great place to relax and enjoy the atmosphere, surrounded by local cafes and shops.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "San Marino Adventure Park",
+    "city": "San Marino",
+    "type": "entertainment",
+    "description": "An exciting outdoor park that offers various activities such as zip-lining, rope courses, and hiking, perfect for adventure seekers.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Sasso di Simone",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "A stunning natural rock formation that is less frequented, offering hiking trails and breathtaking views of the surrounding area.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Giardini della Libert\u00e0",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "These beautiful gardens are a peaceful retreat and a great spot to relax while enjoying the manicured landscapes and views.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "La Storia della Repubblica di San Marino",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "An engaging exhibition that outlines the history of this unique republic, showcasing its culture, traditions, and independence.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Cimitero Monumentale",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "An evocative and historical cemetery with beautiful monuments and tombs, providing insights into the lives of notable figures from San Marino.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Fortezza di Guaita",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "This fortress offers guided tours that delve into its history and significance, making it a fascinating visit for history enthusiasts.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Parco naturale di Monte San Bartolo",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "A beautiful natural park that is perfect for hiking and exploring the diverse ecosystems and stunning vistas of the region.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Antico Giardino dei Liburni",
+    "city": "San Marino",
+    "type": "nature",
+    "description": "A lesser-known garden that provides a quiet escape from the busy tourist areas, featuring local flora and peaceful walking paths.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Monumento a Vittorio Emanuele II",
+    "city": "San Marino",
+    "type": "landmark",
+    "description": "A monument dedicated to the Italian King, this site offers historical insights and is a pleasant spot for a photo opportunity.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Palazzo di Giustizia",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "Known for its unique architecture, this courthouse is a testament to San Marino's judicial independence and a point of interest for visitors.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Chiesa di San Giuseppe",
+    "city": "San Marino",
+    "type": "culture",
+    "description": "This church is celebrated for its beautiful interior and tranquil atmosphere, providing a peaceful place for reflection.",
+    "country": "San Marino",
+    "country_rank": 4
+  },
+  {
+    "name": "Caf\u00e9 Teatro",
+    "city": "San Marino",
+    "type": "entertainment",
+    "description": "A lively venue that hosts various events, performances, and cultural activities, making it a great spot to experience local entertainment.",
+    "country": "San Marino",
+    "country_rank": 4
+  }
+]

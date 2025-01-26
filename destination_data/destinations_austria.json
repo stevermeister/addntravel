@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Sch\u00f6nbrunn Palace",
+    "city": "Vienna",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, Sch\u00f6nbrunn Palace is an opulent baroque palace with beautiful gardens, offering a glimpse into the imperial past of Austria.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "St. Stephen's Cathedral",
+    "city": "Vienna",
+    "type": "landmark",
+    "description": "This iconic Gothic cathedral is located in the heart of Vienna and is known for its stunning architecture and impressive tower, offering panoramic views of the city.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Hallstatt",
+    "city": "Hallstatt",
+    "type": "nature",
+    "description": "A picturesque village nestled between the mountains and a serene lake, Hallstatt is famous for its salt production and stunning views, making it one of Austria's most photographed spots.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Melk Abbey",
+    "city": "Melk",
+    "type": "culture",
+    "description": "This magnificent Benedictine abbey overlooks the Danube River and is renowned for its stunning baroque architecture and extensive library.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Grossglockner High Alpine Road",
+    "city": "Kaprun",
+    "type": "nature",
+    "description": "One of the most scenic drives in the Alps, the Grossglockner High Alpine Road offers breathtaking views of Austria's highest peak and surrounding glaciers.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Innsbruck Old Town",
+    "city": "Innsbruck",
+    "type": "culture",
+    "description": "Characterized by its colorful buildings and the famous Golden Roof, Innsbruck's Old Town is a charming area filled with history and Austrian culture.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Wachau Valley",
+    "city": "D\u00fcrnstein",
+    "type": "nature",
+    "description": "This UNESCO World Heritage site is known for its stunning vineyards, beautiful landscapes, and charming villages along the Danube River.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Eisriesenwelt",
+    "city": "Werfen",
+    "type": "nature",
+    "description": "The largest ice cave in the world, Eisriesenwelt features spectacular ice formations and a breathtaking underground landscape.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Zell am See",
+    "city": "Zell am See",
+    "type": "nature",
+    "description": "A beautiful lakeside town surrounded by the Alps, Zell am See is perfect for outdoor activities year-round, including skiing, hiking, and swimming.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Mariazell Basilica",
+    "city": "Mariazell",
+    "type": "culture",
+    "description": "This stunning pilgrimage church is known for its baroque architecture and is a significant religious site, attracting visitors from all over Europe.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Salzburg Fortress",
+    "city": "Salzburg",
+    "type": "landmark",
+    "description": "Perched atop a hill, Hohensalzburg Fortress offers panoramic views of the city and is one of the best-preserved medieval castles in Europe.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "National Park Ges\u00e4use",
+    "city": "Admont",
+    "type": "nature",
+    "description": "A stunning national park characterized by its dramatic mountain landscapes, deep gorges, and diverse wildlife, perfect for hiking and nature exploration.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Burgenland Wine Region",
+    "city": "Eisenstadt",
+    "type": "culture",
+    "description": "Known for its exquisite wines, the Burgenland region offers charming wineries and beautiful landscapes, making it a delightful destination for wine lovers.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "St. Wolfgang",
+    "city": "St. Wolfgang",
+    "type": "nature",
+    "description": "A charming lakeside village known for its beautiful church and stunning views of the Wolfgangsee, it's a perfect spot for relaxation and outdoor activities.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Kunsthistorisches Museum",
+    "city": "Vienna",
+    "type": "culture",
+    "description": "One of the world's most important art museums, it houses an extensive collection of artworks, including pieces by masters like Vermeer and Rembrandt.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Seeboden",
+    "city": "Seeboden",
+    "type": "nature",
+    "description": "Located on the shores of Lake Millstatt, Seeboden is a hidden gem for those seeking tranquility, with opportunities for swimming, hiking, and exploring the surrounding nature.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Linz Ars Electronica Center",
+    "city": "Linz",
+    "type": "entertainment",
+    "description": "A center for art, technology, and society, Ars Electronica offers interactive exhibitions and events that explore the intersection of innovation and creativity.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Graz Old Town",
+    "city": "Graz",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Graz's Old Town is filled with medieval architecture, vibrant street life, and a rich cultural scene.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Dachstein Ice Cave",
+    "city": "Dachstein",
+    "type": "nature",
+    "description": "This stunning ice cave features mesmerizing ice formations and is accessible via cable car, offering a unique underground experience.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Ski Resort St. Anton",
+    "city": "St. Anton",
+    "type": "entertainment",
+    "description": "Renowned for its exceptional skiing and vibrant apr\u00e8s-ski scene, St. Anton is a favorite among winter sports enthusiasts.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "P\u00f6rtschach am W\u00f6rthersee",
+    "city": "P\u00f6rtschach",
+    "type": "nature",
+    "description": "A charming town on the shores of Lake W\u00f6rthersee, known for its beautiful beaches, water sports, and mild climate, perfect for a summer getaway.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Zukunftswerkstatt",
+    "city": "Vienna",
+    "type": "entertainment",
+    "description": "An innovative space that hosts workshops, events, and exhibitions focused on sustainability and social change.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Bregenz Festival",
+    "city": "Bregenz",
+    "type": "entertainment",
+    "description": "Famous for its unique floating stage on Lake Constance, the Bregenz Festival offers world-class opera and musical performances every summer.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Hochosterwitz Castle",
+    "city": "Launsdorf",
+    "type": "landmark",
+    "description": "This medieval castle perched on a rocky hill is known for its impressive defenses and offers breathtaking views of the surrounding countryside.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Vienna State Opera",
+    "city": "Vienna",
+    "type": "entertainment",
+    "description": "One of the most prestigious opera houses in the world, the Vienna State Opera is renowned for its exceptional performances and stunning architecture.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Landskron Castle",
+    "city": "Villach",
+    "type": "landmark",
+    "description": "Overlooking Lake Faak, Landskron Castle features historical exhibits and offers spectacular views, along with a resident population of birds of prey.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Krems an der Donau",
+    "city": "Krems",
+    "type": "culture",
+    "description": "A charming town located in the Wachau Valley, known for its historic architecture, vibrant arts scene, and nearby vineyards.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Kalkalpen National Park",
+    "city": "Weyer",
+    "type": "nature",
+    "description": "An untouched wilderness area, this national park is known for its diverse flora and fauna, offering numerous hiking trails and pristine landscapes.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Burg Kreuzenstein",
+    "city": "Leobendorf",
+    "type": "landmark",
+    "description": "A spectacular castle built in the 19th century that features impressive architecture and a fascinating collection of historical artifacts.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Fuschlsee",
+    "city": "Fuschl am See",
+    "type": "nature",
+    "description": "A stunning alpine lake surrounded by mountains, perfect for swimming, hiking, and enjoying nature's tranquility.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "The House of Music",
+    "city": "Vienna",
+    "type": "culture",
+    "description": "An interactive sound museum that celebrates the world of music, offering engaging exhibits and experiences for visitors of all ages.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Alpbach",
+    "city": "Alpbach",
+    "type": "nature",
+    "description": "Known for its traditional wooden architecture and stunning mountain views, Alpbach is a picturesque village perfect for outdoor enthusiasts.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "W\u00f6rthersee",
+    "city": "Klagenfurt",
+    "type": "nature",
+    "description": "A popular summer destination, W\u00f6rthersee is famous for its crystal-clear waters, beaches, and vibrant nightlife.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Hohenwerfen Castle",
+    "city": "Werfen",
+    "type": "landmark",
+    "description": "This medieval castle offers stunning views of the surrounding mountains and is home to fascinating exhibitions, including falconry displays.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "The Belvedere",
+    "city": "Vienna",
+    "type": "culture",
+    "description": "An impressive baroque palace complex that houses an extensive collection of Austrian art, including works by Gustav Klimt.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Kitzb\u00fchel",
+    "city": "Kitzb\u00fchel",
+    "type": "entertainment",
+    "description": "Famous for its ski resort and the Hahnenkamm race, Kitzb\u00fchel is a year-round destination offering skiing, hiking, and vibrant nightlife.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Riegersburg Castle",
+    "city": "Riegersburg",
+    "type": "landmark",
+    "description": "Perched on a volcanic hill, this medieval castle offers tours, stunning views, and a unique history of witch trials.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Tulln",
+    "city": "Tulln",
+    "type": "culture",
+    "description": "Known for its beautiful gardens and the Danube Park, Tulln features a rich cultural heritage and is a great destination for art lovers.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Altenmarkt-Zauchensee",
+    "city": "Altenmarkt",
+    "type": "nature",
+    "description": "This charming alpine village offers stunning mountain views, excellent skiing, and numerous hiking trails for outdoor enthusiasts.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Stift Klosterneuburg",
+    "city": "Klosterneuburg",
+    "type": "culture",
+    "description": "A historic monastery known for its impressive baroque architecture and beautiful vineyard, offering tours and tastings.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Lienz",
+    "city": "Lienz",
+    "type": "nature",
+    "description": "A charming town in East Tyrol, Lienz is known for its beautiful scenery, outdoor activities, and a lovely old town with a rich history.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Schafberg",
+    "city": "St. Wolfgang",
+    "type": "nature",
+    "description": "An iconic mountain offering breathtaking views over the Salzkammergut region, accessible by a cog railway.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Gr\u00fcner See",
+    "city": "Thal",
+    "type": "nature",
+    "description": "A stunning green lake that appears after snowmelt, offering crystal-clear waters ideal for swimming and diving.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Linz",
+    "city": "Linz",
+    "type": "culture",
+    "description": "Austria's third-largest city, Linz boasts a vibrant arts scene, innovative architecture, and a rich history along the Danube River.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Mauthausen Memorial",
+    "city": "Mauthausen",
+    "type": "culture",
+    "description": "A historical site and memorial dedicated to the victims of the Mauthausen concentration camp, offering a profound glimpse into Austria's history.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Burg Kreuzenstein",
+    "city": "Leobendorf",
+    "type": "landmark",
+    "description": "A reconstructed medieval castle that offers historical tours, archery shows, and stunning views of the surrounding countryside.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Alpenzoo Innsbruck",
+    "city": "Innsbruck",
+    "type": "entertainment",
+    "description": "The highest zoo in Europe, featuring a variety of alpine animals and spectacular views of the Innsbruck valley.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "The Mauthausen Memorial",
+    "city": "Mauthausen",
+    "type": "culture",
+    "description": "A significant historical site that serves as a memorial to the victims of the Mauthausen concentration camp, providing visitors with a sobering insight into history.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Wildsch\u00f6nau",
+    "city": "Wildsch\u00f6nau",
+    "type": "nature",
+    "description": "A picturesque valley in Tyrol known for its stunning landscapes, hiking trails, and traditional alpine villages.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "P\u00f6stlingberg",
+    "city": "Linz",
+    "type": "landmark",
+    "description": "A hill overlooking Linz, known for its pilgrimage church, fantastic views, and the P\u00f6stlingbergbahn tram.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Nockberge National Park",
+    "city": "Nockberge",
+    "type": "nature",
+    "description": "Famous for its gentle rolling mountains and unique biodiversity, this national park offers a range of outdoor activities.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Feldkirch",
+    "city": "Feldkirch",
+    "type": "culture",
+    "description": "A medieval town known for its historic buildings, including Schattenburg Castle and vibrant cultural events.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "Wiener Prater",
+    "city": "Vienna",
+    "type": "entertainment",
+    "description": "A large public park in Vienna, home to the famous Giant Ferris Wheel, amusement rides, and beautiful walking paths.",
+    "country": "Austria",
+    "country_rank": 8
+  },
+  {
+    "name": "The Sound of Music Tour",
+    "city": "Salzburg",
+    "type": "entertainment",
+    "description": "A guided tour that takes you to the iconic filming locations of the beloved movie, showcasing the stunning landscapes of Salzburg.",
+    "country": "Austria",
+    "country_rank": 8
+  }
+]

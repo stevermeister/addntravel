@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Buda Castle",
+    "city": "Budapest",
+    "type": "landmark",
+    "description": "A historic castle and palace complex of the Hungarian kings, offering stunning views of the Danube River and the city. It's a UNESCO World Heritage site and a symbol of Hungarian history.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Fisherman's Bastion",
+    "city": "Budapest",
+    "type": "landmark",
+    "description": "A panoramic terrace in neo-Romanesque style that provides one of the best views of Budapest, especially the Parliament building. Its turrets and ramparts resemble a fairy tale castle.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Sz\u00e9chenyi Thermal Bath",
+    "city": "Budapest",
+    "type": "entertainment",
+    "description": "One of the largest and most famous thermal baths in Europe, known for its grand architecture and outdoor thermal pools. A perfect place to relax and unwind.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Hungarian Parliament Building",
+    "city": "Budapest",
+    "type": "landmark",
+    "description": "An architectural masterpiece and the largest building in Hungary, known for its stunning Gothic Revival style and rich history. Visitors can explore its impressive interior.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Heroes' Square",
+    "city": "Budapest",
+    "type": "landmark",
+    "description": "A significant historical site featuring the Millenary Monument, which honors the leaders of the seven tribes that founded Hungary. It\u2019s surrounded by the Museum of Fine Arts and the Palace of Art.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Balaton",
+    "city": "Balatonf\u00fcred",
+    "type": "nature",
+    "description": "Known as the 'Hungarian Sea,' it's the largest lake in Central Europe, offering stunning views, water sports, and vineyards. A popular summer destination for relaxation and recreation.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Eger Castle",
+    "city": "Eger",
+    "type": "landmark",
+    "description": "A historic castle known for its role in the defense against the Ottoman Empire and its stunning views of the city. Visitors can explore the castle's museum and enjoy the surrounding gardens.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great Market Hall",
+    "city": "Budapest",
+    "type": "culture",
+    "description": "The largest and oldest indoor market in Budapest, featuring a vibrant atmosphere with local produce, traditional Hungarian foods, and unique souvenirs. A must-visit for food lovers.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Danube Bend",
+    "city": "Esztergom",
+    "type": "nature",
+    "description": "A picturesque bend in the Danube River, surrounded by hills and charming towns. It's an ideal spot for hiking, cycling, and exploring historic sites like the Esztergom Basilica.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Szentendre",
+    "city": "Szentendre",
+    "type": "culture",
+    "description": "A charming riverside town known for its art galleries, museums, and colorful Baroque architecture. Szentendre is a cultural hub and a great place for leisurely strolls.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Visegr\u00e1d Citadel",
+    "city": "Visegr\u00e1d",
+    "type": "landmark",
+    "description": "A medieval fortress overlooking the Danube River, offering panoramic views and a glimpse into Hungary's royal history. The site is also perfect for hiking and enjoying nature.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "G\u00f6d\u00f6ll\u0151 Palace",
+    "city": "G\u00f6d\u00f6ll\u0151",
+    "type": "landmark",
+    "description": "A beautiful baroque palace that was a favorite residence of Queen Elisabeth of Hungary. Visitors can explore its stunning gardens and opulent interiors.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "P\u00e9cs",
+    "city": "P\u00e9cs",
+    "type": "culture",
+    "description": "A city rich in history and culture, known for its Mediterranean atmosphere, ancient Roman ruins, and vibrant arts scene. The UNESCO-listed Early Christian Necropolis is a highlight.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Keszthely Castle",
+    "city": "Keszthely",
+    "type": "landmark",
+    "description": "A stunning baroque palace located on the shores of Lake Balaton, known for its beautiful gardens and museum. It reflects the history of the local aristocracy.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Tihany Abbey",
+    "city": "Tihany",
+    "type": "landmark",
+    "description": "An ancient Benedictine monastery situated on a peninsula overlooking Lake Balaton, famous for its stunning views and historical significance. The lavender fields in the area are a seasonal attraction.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Miskolctapolca Cave Bath",
+    "city": "Miskolc",
+    "type": "entertainment",
+    "description": "A unique thermal bath complex featuring natural cave formations and thermal waters. It's an unusual and relaxing experience for visitors.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Aggtelek National Park",
+    "city": "Aggtelek",
+    "type": "nature",
+    "description": "Home to the famous Baradla Cave, this national park is known for its stunning limestone formations and rich biodiversity. Ideal for hiking and exploring the natural beauty of Hungary.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Hortob\u00e1gy National Park",
+    "city": "Hortob\u00e1gy",
+    "type": "nature",
+    "description": "The largest continuous grassland in Europe, known for its unique wildlife, traditional shepherd culture, and vast landscapes. It's a UNESCO World Heritage site.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "S\u00e1rospatak Castle",
+    "city": "S\u00e1rospatak",
+    "type": "landmark",
+    "description": "A historic castle with a blend of Gothic and Renaissance architecture, known for its beautiful location by the Bodrog River. It has a rich history and offers guided tours.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Budapest Ruin Bars",
+    "city": "Budapest",
+    "type": "entertainment",
+    "description": "Unique bars located in abandoned buildings and courtyards, known for their eclectic decor and vibrant nightlife. These ruin bars are a cultural phenomenon and a must-visit.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Lillaf\u00fcred",
+    "city": "Miskolc",
+    "type": "nature",
+    "description": "A picturesque resort area featuring beautiful lakes, waterfalls, and hiking trails. The Palace Hotel here offers stunning views and access to nature.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Tokaj Wine Region",
+    "city": "Tokaj",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site known for its sweet wines, particularly Tokaji Asz\u00fa. Visitors can explore vineyards, attend wine tastings, and learn about the winemaking process.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Kecskem\u00e9t",
+    "city": "Kecskem\u00e9t",
+    "type": "culture",
+    "description": "Famous for its Art Nouveau architecture and rich cultural heritage. The city is also known for its fruit brandies and vibrant festivals.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Nagykanizsa",
+    "city": "Nagykanizsa",
+    "type": "culture",
+    "description": "A lesser-known city with a rich history, featuring beautiful architecture and museums. It's a great place to explore local culture and traditions.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Civita di Bagnoregio",
+    "city": "Bagnoregio",
+    "type": "landmark",
+    "description": "Often called the 'dying town,' this stunning hilltop village is known for its picturesque views and unique geological features. It's a hidden gem worth visiting.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Zalakaros Thermal Bath",
+    "city": "Zalakaros",
+    "type": "entertainment",
+    "description": "A family-friendly thermal spa known for its wellness facilities and outdoor pools. It's a great spot for relaxation and fun.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Sopron",
+    "city": "Sopron",
+    "type": "culture",
+    "description": "A historic town near the Austrian border, known for its medieval architecture and vibrant cultural scene. The Firewatch Tower offers panoramic views of the city.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Veszpr\u00e9m",
+    "city": "Veszpr\u00e9m",
+    "type": "culture",
+    "description": "One of Hungary's oldest cities, known for its charming streets, historic buildings, and the Veszpr\u00e9m Castle. It's a cultural center with a rich history.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "K\u00e1poszt\u00e1smegyer",
+    "city": "Budapest",
+    "type": "nature",
+    "description": "A hidden gem in Budapest with beautiful parks and nature reserves, perfect for outdoor activities and relaxation away from the city's hustle.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "M\u00e1tra Mountains",
+    "city": "Gy\u00f6ngy\u00f6s",
+    "type": "nature",
+    "description": "A mountain range offering hiking trails, stunning landscapes, and the highest peak in Hungary, K\u00e9kes. Ideal for nature lovers and outdoor enthusiasts.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Fert\u0151-Hans\u00e1g National Park",
+    "city": "Fert\u0151r\u00e1kos",
+    "type": "nature",
+    "description": "A UNESCO Biosphere Reserve known for its rich wildlife and diverse ecosystems. Visitors can enjoy birdwatching, hiking, and exploring the beautiful landscapes.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "B\u00e9k\u00e9scsaba",
+    "city": "B\u00e9k\u00e9scsaba",
+    "type": "culture",
+    "description": "Known as the home of the famous Hungarian sausage, this town offers a rich culinary experience. It's a great place to explore local traditions and festivals.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Kiskuns\u00e1g National Park",
+    "city": "Kiskunf\u00e9legyh\u00e1za",
+    "type": "nature",
+    "description": "A protected area known for its unique wetlands and diverse wildlife, including a variety of bird species. It's perfect for nature walks and photography.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Szeged",
+    "city": "Szeged",
+    "type": "culture",
+    "description": "Famous for its open-air festivals, including the Szeged Open-Air Festival. The city is also known for its beautiful Art Nouveau buildings and vibrant cultural scene.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Etyek",
+    "city": "Etyek",
+    "type": "culture",
+    "description": "A wine region near Budapest known for its excellent white wines and charming vineyards. Wine tours and tastings offer a wonderful way to experience local culture.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Tata Castle",
+    "city": "Tata",
+    "type": "landmark",
+    "description": "A beautiful castle located by a lake, surrounded by stunning landscapes. It offers rich historical insights and picturesque views.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Pannonhalma Archabbey",
+    "city": "Pannonhalma",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this historic abbey is a center of Benedictine monasticism and offers stunning architecture and beautiful gardens.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Szentgotth\u00e1rd",
+    "city": "Szentgotth\u00e1rd",
+    "type": "culture",
+    "description": "A charming town with a rich history, featuring the impressive Szentgotth\u00e1rd Abbey and beautiful natural surroundings, perfect for exploring.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "R\u00e1ckeve",
+    "city": "R\u00e1ckeve",
+    "type": "nature",
+    "description": "A picturesque town along the Danube River, known for its historic buildings and scenic views. It's a great spot for cycling and boating.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "H\u00e9v\u00edz Lake",
+    "city": "H\u00e9v\u00edz",
+    "type": "nature",
+    "description": "The largest thermal lake in the world, known for its healing properties. Visitors can enjoy swimming in its warm waters, surrounded by a stunning natural setting.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Balatonf\u00fcred",
+    "city": "Balatonf\u00fcred",
+    "type": "entertainment",
+    "description": "A popular resort town on Lake Balaton, known for its beautiful promenade, wellness spas, and vibrant nightlife. It's a hub for summer activities.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Keszthely",
+    "city": "Keszthely",
+    "type": "culture",
+    "description": "A charming town on the shores of Lake Balaton, known for its beautiful architecture and the Helikon Palace Museum. It's a great place to explore local culture.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Budapest Opera House",
+    "city": "Budapest",
+    "type": "culture",
+    "description": "A stunning neo-Renaissance opera house renowned for its acoustics and beautiful architecture. It hosts world-class performances and guided tours.",
+    "country": "Hungary",
+    "country_rank": 7
+  },
+  {
+    "name": "Sziget Festival",
+    "city": "Budapest",
+    "type": "entertainment",
+    "description": "One of Europe's largest music and cultural festivals, held annually on \u00d3buda Island. It attracts international artists and thousands of visitors for a week of music and fun.",
+    "country": "Hungary",
+    "country_rank": 7
+  }
+]

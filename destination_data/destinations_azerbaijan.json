@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Baku Old City",
+    "city": "Baku",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Baku Old City features ancient architecture, narrow streets, and historical sites like the Maiden Tower and the Palace of the Shirvanshahs.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Gobustan National Park",
+    "city": "Baku",
+    "type": "nature",
+    "description": "Famous for its ancient rock carvings, Gobustan offers a glimpse into prehistoric life, with petroglyphs dating back over 40,000 years.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Flame Towers",
+    "city": "Baku",
+    "type": "landmark",
+    "description": "These three skyscrapers are a modern symbol of Baku, resembling flames and beautifully illuminated at night, representing the country's fire heritage.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Sheki Khan's Palace",
+    "city": "Sheki",
+    "type": "culture",
+    "description": "An architectural masterpiece, this palace is known for its stunning stained glass windows and intricate woodwork, reflecting the opulence of the Sheki khans.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Naftalan",
+    "city": "Naftalan",
+    "type": "entertainment",
+    "description": "Known for its unique therapeutic oil, Naftalan is a spa town where visitors can enjoy oil baths believed to have healing properties.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba Mosque",
+    "city": "Quba",
+    "type": "landmark",
+    "description": "This beautiful mosque features stunning architecture and is a prominent place of worship, reflecting the rich Islamic heritage of Azerbaijan.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ganja",
+    "city": "Ganja",
+    "type": "culture",
+    "description": "A city with a rich historical background, Ganja is home to the Nizami Mausoleum and beautiful parks, showcasing a blend of culture and nature.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Khinalug Village",
+    "city": "Guba",
+    "type": "nature",
+    "description": "One of the highest and most remote mountain villages in Azerbaijan, Khinalug offers breathtaking views and a glimpse into the traditional lifestyle of its residents.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba Q\u0259biristanl\u0131\u011f\u0131",
+    "city": "Quba",
+    "type": "culture",
+    "description": "This Jewish cemetery, one of the largest in the world, is a unique cultural site that reflects the history of the Jewish community in Azerbaijan.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Lahij",
+    "city": "Ganja",
+    "type": "culture",
+    "description": "Famous for its copper craftsmanship, Lahij is a picturesque village with cobblestone streets, where visitors can watch artisans at work.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Shemakha Observatory",
+    "city": "Shemakha",
+    "type": "landmark",
+    "description": "One of the oldest observatories in the region, it offers stunning views of the night sky and is a center for astronomical research.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Carpet Museum",
+    "city": "Baku",
+    "type": "culture",
+    "description": "Housed in a building shaped like a rolled carpet, this museum showcases the rich tradition of Azerbaijani carpet weaving and its cultural significance.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba Genocide Memorial Complex",
+    "city": "Quba",
+    "type": "landmark",
+    "description": "This memorial commemorates the victims of the 1918 massacre of Azerbaijanis and serves as a poignant reminder of the country's history.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Goygol Lake",
+    "city": "Goygol",
+    "type": "nature",
+    "description": "Surrounded by stunning mountains and lush forests, Goygol Lake is a serene spot perfect for hiking, picnicking, and enjoying nature.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Shaki Fortress",
+    "city": "Shaki",
+    "type": "landmark",
+    "description": "This ancient fortress offers panoramic views of the surrounding landscape and is a testament to the strategic importance of the region throughout history.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Atashgah Fire Temple",
+    "city": "Baku",
+    "type": "landmark",
+    "description": "An ancient Zoroastrian temple, Atashgah features a unique architecture and was once a place of worship for fire worshippers.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Kuba Carpet Factory",
+    "city": "Quba",
+    "type": "culture",
+    "description": "Visitors can explore the traditional carpet-making process and purchase beautiful, handcrafted carpets directly from the artisans.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Azerbaijan National Museum of Art",
+    "city": "Baku",
+    "type": "culture",
+    "description": "This museum houses an extensive collection of Azerbaijani and international art, showcasing the country's rich artistic heritage.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Nakhchivan Autonomous Republic",
+    "city": "Nakhchivan",
+    "type": "culture",
+    "description": "Known for its historical sites, including the Mausoleum of Nakhchivan and the ancient fortress of Alinja, this region offers a unique glimpse into Azerbaijan's past.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba Cherry Blossom Valley",
+    "city": "Quba",
+    "type": "nature",
+    "description": "In spring, this valley transforms into a breathtaking landscape filled with cherry blossoms, attracting visitors for picnics and photography.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Beshbarmag Mountain",
+    "city": "Guba",
+    "type": "nature",
+    "description": "A sacred mountain in Azerbaijani culture, Beshbarmag offers hiking trails and stunning views from its summit.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Fountain Square",
+    "city": "Baku",
+    "type": "entertainment",
+    "description": "A vibrant area in Baku filled with cafes, shops, and fountains, it's a popular gathering spot for locals and tourists alike.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Shamakhi Juma Mosque",
+    "city": "Shamakhi",
+    "type": "landmark",
+    "description": "One of the oldest mosques in Azerbaijan, this architectural gem features intricate carvings and a rich history.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Khinalug Plateau",
+    "city": "Guba",
+    "type": "nature",
+    "description": "This remote plateau is known for its stunning landscapes and unique flora and fauna, making it perfect for nature lovers.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba's Quba-Qusar Nature Reserve",
+    "city": "Quba",
+    "type": "nature",
+    "description": "This nature reserve is home to diverse wildlife and offers scenic hiking trails through lush forests and mountains.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ganja State Philharmonic Hall",
+    "city": "Ganja",
+    "type": "entertainment",
+    "description": "A cultural hub in Ganja, this venue hosts various performances, including music concerts and theatrical productions.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Khachmaz",
+    "city": "Khachmaz",
+    "type": "culture",
+    "description": "Known for its historical significance and beautiful landscapes, Khachmaz offers a mix of culture, nature, and local cuisine.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Miniature Books",
+    "city": "Baku",
+    "type": "culture",
+    "description": "This unique museum showcases a vast collection of miniature books from around the world, highlighting the artistry and history of bookmaking.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Lahij Handicraft Workshop",
+    "city": "Ganja",
+    "type": "culture",
+    "description": "Visitors can engage with local artisans and learn about traditional handicrafts, including pottery and weaving.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The State Historical-Architectural Reserve of Sheki",
+    "city": "Sheki",
+    "type": "landmark",
+    "description": "This reserve includes several historical sites, offering insight into Sheki's rich architectural heritage.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba's Quba-Qusar Highway",
+    "city": "Quba",
+    "type": "nature",
+    "description": "Known for its stunning views, this scenic highway takes travelers through picturesque landscapes and charming villages.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Goychay",
+    "city": "Goychay",
+    "type": "culture",
+    "description": "Famous for its pomegranate festival, Goychay is a cultural hub where visitors can taste local delicacies and enjoy traditional music.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "Quba's Quba Museum of History",
+    "city": "Quba",
+    "type": "culture",
+    "description": "This museum showcases the history and culture of the Quba region, with exhibits on local traditions and artifacts.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Nizami Mausoleum",
+    "city": "Ganja",
+    "type": "landmark",
+    "description": "A tribute to the famous poet Nizami Ganjavi, this mausoleum is an architectural marvel surrounded by beautifully landscaped gardens.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Caspian Sea",
+    "city": "Baku",
+    "type": "nature",
+    "description": "The largest enclosed inland body of water in the world, the Caspian Sea offers beautiful beaches and a range of water activities.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Fire Mountain (Yanardag)",
+    "city": "Baku",
+    "type": "landmark",
+    "description": "This natural gas fire blazes continuously on a hillside, showcasing Azerbaijan's rich history of fire worship.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Gobustan Museum",
+    "city": "Baku",
+    "type": "culture",
+    "description": "An extension of Gobustan National Park, this museum provides insights into the ancient rock art and archaeological discoveries of the area.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Tufandag Mountain Resort",
+    "city": "Gabala",
+    "type": "entertainment",
+    "description": "A year-round resort offering skiing in winter and hiking in summer, Tufandag is perfect for outdoor enthusiasts.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Gabala Shooting Club",
+    "city": "Gabala",
+    "type": "entertainment",
+    "description": "An international shooting range that hosts various competitions, providing a unique experience for shooting sports enthusiasts.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Ismayilli Region",
+    "city": "Ismayilli",
+    "type": "nature",
+    "description": "Known for its lush landscapes and diverse wildlife, Ismayilli offers tranquil spots for hiking and exploring nature.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Khinalug Cultural Center",
+    "city": "Guba",
+    "type": "culture",
+    "description": "A center dedicated to preserving the cultural heritage of Khinalug, offering workshops and exhibitions on local traditions.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Shahdag Mountain Resort",
+    "city": "Qusar",
+    "type": "entertainment",
+    "description": "A popular year-round resort for skiing, hiking, and adventure sports, surrounded by stunning mountain views.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Baku Boulevard",
+    "city": "Baku",
+    "type": "entertainment",
+    "description": "A picturesque promenade along the Caspian Sea, filled with parks, cafes, and attractions, perfect for leisurely strolls.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Ganja Waterfall",
+    "city": "Ganja",
+    "type": "nature",
+    "description": "A beautiful natural waterfall surrounded by lush greenery, offering a peaceful retreat and a great spot for photography.",
+    "country": "Azerbaijan",
+    "country_rank": 6
+  }
+]

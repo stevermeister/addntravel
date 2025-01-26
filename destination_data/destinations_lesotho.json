@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Maletsunyane Falls",
+    "city": "Semonkong",
+    "type": "nature",
+    "description": "One of the highest single-drop waterfalls in Southern Africa, Maletsunyane Falls offers breathtaking views and thrilling abseiling opportunities. The surrounding area is rich in biodiversity, making it a perfect spot for nature lovers.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Thaba Bosiu",
+    "city": "Thaba Bosiu",
+    "type": "landmark",
+    "description": "A historical site and mountain fortress, Thaba Bosiu is considered the birthplace of the Basotho nation. It features ancient rock paintings and stunning views, along with a rich history that can be explored through guided tours.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Katse Dam",
+    "city": "Leribe",
+    "type": "nature",
+    "description": "One of the largest dams in Africa, Katse Dam is an engineering marvel that provides stunning scenery and recreational opportunities. Visitors can take boat tours on the dam and explore the surrounding mountainous terrain.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Sani Pass",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "A breathtaking mountain pass that connects Lesotho and South Africa, Sani Pass offers stunning views of the Drakensberg mountains. It's a popular spot for adventure seekers looking to hike or drive through dramatic landscapes.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Malealea Lodge",
+    "city": "Malealea",
+    "type": "entertainment",
+    "description": "A charming lodge that serves as a gateway to outdoor adventures, Malealea Lodge offers horseback riding, hiking, and cultural experiences with local Basotho communities. It's a perfect base for exploring the surrounding beauty.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Liphofung Caves",
+    "city": "Quthing",
+    "type": "culture",
+    "description": "These ancient caves are home to remarkable San rock art and artifacts, providing insight into the region's early inhabitants. Guided tours educate visitors about the cultural significance and the history of the San people.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Sehlabathebe National Park",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "This national park is known for its unique alpine flora and fauna, as well as stunning landscapes featuring grasslands and rocky outcrops. It's a great destination for hiking and wildlife observation.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Leribe District",
+    "city": "Leribe",
+    "type": "culture",
+    "description": "A vibrant area known for its rich cultural heritage, Leribe is famous for its traditional crafts, pottery, and vibrant markets. Visitors can interact with local artisans and learn about Basotho culture.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Mokhotlong",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "Known for its dramatic scenery and high-altitude landscapes, Mokhotlong is a haven for hikers and outdoor enthusiasts. The area is also home to rare plant species and unique wildlife.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Mohale Dam",
+    "city": "Mohale's Hoek",
+    "type": "nature",
+    "description": "This dam is a stunning example of modern engineering, set against a backdrop of beautiful mountains. It's a popular spot for fishing, hiking, and enjoying picnics by the water.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Ha Kome Cave Houses",
+    "city": "Mokhotlong",
+    "type": "culture",
+    "description": "An extraordinary village where people still live in cave houses, Ha Kome offers a glimpse into traditional Basotho life. Visitors can explore the caves and learn about the unique lifestyle of the inhabitants.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Teyateyaneng",
+    "city": "Teyateyaneng",
+    "type": "culture",
+    "description": "Home to one of the largest markets in Lesotho, Teyateyaneng is a bustling hub of local culture. It's a great place to experience Basotho life, shop for crafts, and enjoy local cuisine.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "The Basotho Hat",
+    "city": "Various",
+    "type": "culture",
+    "description": "Symbolizing the Basotho culture, this traditional hat is an iconic souvenir. Visitors can learn about its significance and even purchase handmade hats from local artisans.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Bokong Nature Reserve",
+    "city": "Bokong",
+    "type": "nature",
+    "description": "A hidden gem, this reserve offers stunning hiking trails and the chance to see diverse wildlife, including various bird species. The scenic landscapes are perfect for photography and nature walks.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Leribe River",
+    "city": "Leribe",
+    "type": "nature",
+    "description": "The Leribe River winds through picturesque landscapes, providing opportunities for fishing, kayaking, and riverside picnics. The area is peaceful and ideal for relaxation.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Quthing",
+    "city": "Quthing",
+    "type": "culture",
+    "description": "Known for its rich history and cultural significance, Quthing is a great place to explore traditional Basotho villages and experience local customs and practices.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Tsehlanyane National Park",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "This park is known for its rugged mountains and lush valleys, offering numerous trails for hiking and birdwatching. It's a tranquil escape for nature lovers.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "The Royal Palace",
+    "city": "Maseru",
+    "type": "landmark",
+    "description": "The official residence of the Basotho king, the Royal Palace showcases the rich cultural heritage of Lesotho. Visitors can explore the beautiful grounds and learn about the monarchy.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Maseru Mall",
+    "city": "Maseru",
+    "type": "entertainment",
+    "description": "The largest shopping center in Lesotho, Maseru Mall offers a variety of shops, restaurants, and entertainment options. It's a great place to experience modern life in the capital.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Ts'ehlanyane River",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "This pristine river is perfect for fishing and enjoying peaceful walks along its banks. The surrounding scenery is breathtaking, making it a popular spot for picnics.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Bobete Village",
+    "city": "Bobete",
+    "type": "culture",
+    "description": "A quaint village that offers a glimpse into traditional Basotho life, Bobete is known for its warm hospitality and cultural experiences. Visitors can engage with locals and learn about their customs.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Maphutseng",
+    "city": "Maphutseng",
+    "type": "nature",
+    "description": "A tranquil area surrounded by mountains, Maphutseng is ideal for hiking and exploring the outdoors. The region is less touristy, offering a peaceful retreat.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Pitso Ground",
+    "city": "Maseru",
+    "type": "entertainment",
+    "description": "A popular venue for local sports and cultural events, Pitso Ground is a hub of community activity. Visitors can enjoy local games and witness the vibrant culture of Lesotho.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "T\u0161oana T\u0161oana",
+    "city": "Maseru",
+    "type": "landmark",
+    "description": "A significant historical site and revered rock formation, T\u0161oana T\u0161oana is an important part of Basotho heritage. The site offers beautiful views and a chance to learn about local legends.",
+    "country": "Lesotho",
+    "country_rank": 3
+  },
+  {
+    "name": "Thabana Ntlenyana",
+    "city": "Mokhotlong",
+    "type": "nature",
+    "description": "Known as the highest peak in Southern Africa, Thabana Ntlenyana attracts hikers and adventure enthusiasts. The stunning panoramic views from the summit are worth the trek.",
+    "country": "Lesotho",
+    "country_rank": 3
+  }
+]

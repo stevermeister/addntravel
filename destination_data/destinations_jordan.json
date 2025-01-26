@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Petra",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "An archaeological wonder, Petra is known for its rock-cut architecture and water conduit system. Often referred to as the 'Rose City' due to the color of the stone, it was the capital of the Nabataean Kingdom.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Rum",
+    "city": "Ma'an",
+    "type": "nature",
+    "description": "Known as the Valley of the Moon, Wadi Rum features stunning sandstone mountains, deep canyons, and unique rock formations. Visitors can enjoy hiking, rock climbing, and jeep tours in this mesmerizing desert landscape.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Jerash",
+    "city": "Jerash",
+    "type": "landmark",
+    "description": "One of the best-preserved Roman provincial towns in the world, Jerash boasts impressive ruins including temples, theaters, and colonnaded streets. The annual Jerash Festival showcases the city's rich heritage through music and performance.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Dead Sea",
+    "city": "Balqa",
+    "type": "nature",
+    "description": "The Dead Sea is renowned for its extreme salinity, allowing visitors to float effortlessly on its surface. It is also famous for its mineral-rich mud, often used for therapeutic and cosmetic purposes.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ajloun Castle",
+    "city": "Ajloun",
+    "type": "landmark",
+    "description": "A 12th-century Muslim castle, Ajloun Castle offers panoramic views of the surrounding hills and valleys. It was built to protect the region from Crusaders and is an excellent example of medieval Islamic architecture.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Mount Nebo",
+    "city": "Madaba",
+    "type": "landmark",
+    "description": "A significant biblical site, Mount Nebo is believed to be the place where Moses was granted a view of the Promised Land. The site features a memorial church and stunning views of the Jordan Valley.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Madaba",
+    "city": "Madaba",
+    "type": "culture",
+    "description": "Known for its stunning Byzantine mosaics, especially the Madaba Map, a 6th-century mosaic of the Holy Land. The city is a vibrant center for Christian pilgrimage and cultural heritage.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Royal Automobile Museum",
+    "city": "Amman",
+    "type": "entertainment",
+    "description": "Showcasing an impressive collection of vehicles once owned by King Hussein, this museum offers a glimpse into Jordan's royal history. It features classic cars, motorcycles, and unique vehicles from various eras.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Little Petra",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "Often overshadowed by its larger counterpart, Little Petra is a smaller archaeological site that features intricate rock-cut architecture. It offers a quieter, more intimate experience of the Nabataean culture.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Dana Biosphere Reserve",
+    "city": "Tafila",
+    "type": "nature",
+    "description": "Jordan's largest nature reserve, Dana Biosphere Reserve is home to diverse wildlife and stunning landscapes. Hiking trails offer breathtaking views and the chance to explore various ecosystems.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Aljoun Nature Reserve",
+    "city": "Ajloun",
+    "type": "nature",
+    "description": "A beautiful nature reserve known for its oak forests and rich biodiversity. It offers hiking trails and eco-tourism opportunities, making it a perfect escape for nature lovers.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Kerak Castle",
+    "city": "Kerak",
+    "type": "landmark",
+    "description": "An imposing Crusader fortress, Kerak Castle is a remarkable historical site with a rich history. Visitors can explore its vast halls and enjoy panoramic views of the surrounding region.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Citadel",
+    "city": "Amman",
+    "type": "landmark",
+    "description": "This historical site in the heart of Amman contains ancient ruins from Roman, Byzantine, and Islamic periods. The Citadel offers stunning views of the city and insights into Jordan's diverse history.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Maghtas",
+    "city": "Madaba",
+    "type": "cultural",
+    "description": "Recognized as the baptism site of Jesus Christ, Al-Maghtas is a UNESCO World Heritage site. It features ancient churches, baptismal pools, and a rich spiritual history.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Um Qais",
+    "city": "Irbid",
+    "type": "landmark",
+    "description": "An ancient Roman city located on a hilltop, Um Qais offers stunning views of the Golan Heights and the Sea of Galilee. The ruins include a theater, basilica, and remnants of Roman life.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Jordan Museum",
+    "city": "Amman",
+    "type": "culture",
+    "description": "A modern museum showcasing Jordan's rich history and culture, featuring artifacts from prehistoric times to the Islamic period. Highlights include the Dead Sea Scrolls and the statue of the Ain Ghazal.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Feynan Eco Lodge",
+    "city": "Wadi Araba",
+    "type": "entertainment",
+    "description": "An eco-friendly lodge set in the stunning backdrop of Wadi Feynan, which offers unique experiences such as hiking, stargazing, and learning about local Bedouin culture.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Baptism Site of Jesus Christ",
+    "city": "Madaba",
+    "type": "cultural",
+    "description": "This site, located on the banks of the Jordan River, is believed to be where Jesus was baptized by John the Baptist. It is an important pilgrimage destination for Christians worldwide.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Sela",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "An ancient Nabataean city, Sela features remarkable rock carvings and archaeological remains. It's a lesser-known gem that provides insight into the Nabataeans' architectural prowess.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Qasr Al-Kharraneh",
+    "city": "Amman",
+    "type": "landmark",
+    "description": "An impressive desert castle dating back to the Umayyad period, Qasr Al-Kharraneh features stunning architecture and is surrounded by a serene desert landscape.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Desert Castles",
+    "city": "Jordanian Desert",
+    "type": "landmark",
+    "description": "A group of historic castles scattered throughout the eastern desert of Jordan, showcasing Islamic art and architecture. They served various purposes, including hunting lodges and caravanserais.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Mujib Nature Reserve",
+    "city": "Madaba",
+    "type": "nature",
+    "description": "A unique biosphere reserve located near the Dead Sea, Mujib offers stunning landscapes, hiking trails, and diverse wildlife. It\u2019s known for its river canyons and thrilling water hikes.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The King Abdullah I Mosque",
+    "city": "Amman",
+    "type": "landmark",
+    "description": "An iconic mosque with a striking blue dome, it is one of the largest mosques in Jordan. Open to visitors, it offers insights into Islamic architecture and culture.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Roman Theatre",
+    "city": "Amman",
+    "type": "landmark",
+    "description": "A well-preserved ancient Roman amphitheater that dates back to the 2nd century AD. The theatre, which can seat around 6,000 spectators, is still used for cultural events today.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Salt Heritage Trail",
+    "city": "Salt",
+    "type": "culture",
+    "description": "A unique trail that showcases the rich history and architecture of Salt, a city known for its Ottoman-era buildings and vibrant culture. The trail offers a glimpse into local traditions and heritage.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Mujib",
+    "city": "Madaba",
+    "type": "nature",
+    "description": "A stunning canyon that offers adventurous hiking opportunities and breathtaking views. Known for its river and diverse ecosystems, it is a paradise for nature enthusiasts.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Royal Tombs of Petra",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "A series of elaborate rock-cut tombs in Petra showcasing the grandeur of Nabataean architecture. Each tomb tells a unique story through intricate carvings and designs.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Shobak Castle",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "A Crusader castle built in the 12th century, Shobak Castle offers stunning views and an interesting glimpse into the medieval history of the region.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Qasr Al-Azraq",
+    "city": "Azraq",
+    "type": "landmark",
+    "description": "An ancient fortress made of black basalt stone, Qasr Al-Azraq has a rich history, having served as a base for Lawrence of Arabia. Its unique architecture and desert backdrop make it a fascinating stop.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Karak Governorate",
+    "city": "Karak",
+    "type": "culture",
+    "description": "Home to traditional Jordanian culture, the region features local crafts, markets, and stunning landscapes. It is an excellent place to experience authentic Jordanian hospitality.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Mafraq",
+    "city": "Mafraq",
+    "type": "culture",
+    "description": "Known for its diverse communities, Al-Mafraq offers a blend of cultures and traditions. Visitors can explore local markets and enjoy traditional cuisine.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Black Desert",
+    "city": "Jordanian Desert",
+    "type": "nature",
+    "description": "A unique desert landscape characterized by its black volcanic rock formations. It offers a stark contrast to the surrounding red sands and is perfect for adventurous exploration.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Jordan Trail",
+    "city": "Various",
+    "type": "nature",
+    "description": "A long-distance hiking trail that spans the length of Jordan, offering breathtaking views, cultural experiences, and encounters with local communities. It showcases the diverse landscapes of the country.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Karak",
+    "city": "Karak",
+    "type": "culture",
+    "description": "A vibrant city known for its historic sites, including the famous Karak Castle and local markets. Al-Karak offers visitors a taste of traditional Jordanian life.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Dead Sea Panorama Complex",
+    "city": "Balqa",
+    "type": "entertainment",
+    "description": "An observation point that provides breathtaking views of the Dead Sea and surrounding landscapes. The complex includes facilities for dining and relaxation.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The King's Highway",
+    "city": "Various",
+    "type": "landmark",
+    "description": "An ancient trade route that offers stunning views of Jordan's landscapes and historical sites. Traveling along this highway allows visitors to explore the rich heritage of the region.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Beida (Little Petra)",
+    "city": "Ma'an",
+    "type": "landmark",
+    "description": "A smaller archaeological site near Petra, Beida features rock-cut architecture and offers a quieter experience of the Nabataean civilization. It showcases less-known treasures of Jordan.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Hussein Public Parks",
+    "city": "Amman",
+    "type": "entertainment",
+    "description": "A large urban park in Amman, it offers recreational facilities, gardens, and cultural spaces. It's a great spot for families and outdoor activities in the city.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Mosaic Map of Madaba",
+    "city": "Madaba",
+    "type": "landmark",
+    "description": "A stunning 6th-century mosaic depicting the Holy Land, located in St. George's Church. It is one of the largest and most significant mosaics in the world.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Rumman Forest",
+    "city": "Amman",
+    "type": "nature",
+    "description": "A beautiful forested area near Amman, Rumman Forest is perfect for hiking and picnicking. It is home to various plant species and offers a peaceful escape from the city.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "The Jordan River",
+    "city": "Various",
+    "type": "nature",
+    "description": "A significant historical and religious site, the Jordan River is where many biblical events took place. It offers opportunities for exploration and connection to the spiritual history of the region.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ayla",
+    "city": "Aqaba",
+    "type": "cultural",
+    "description": "An ancient city that dates back to the Islamic period, Ayla offers archaeological sites and a glimpse into the region's history. It is also a beautiful area for relaxation by the Red Sea.",
+    "country": "Jordan",
+    "country_rank": 6
+  },
+  {
+    "name": "Ras Mohammed National Park",
+    "city": "Aqaba",
+    "type": "nature",
+    "description": "Located at the southern tip of the Sinai Peninsula, this national park is famous for its stunning coral reefs and diverse marine life, making it a paradise for divers and snorkelers.",
+    "country": "Jordan",
+    "country_rank": 6
+  }
+]

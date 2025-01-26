@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Butrint",
+    "city": "Saranda",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Butrint is an ancient city that showcases ruins from the Greek, Roman, and Byzantine eras. Its stunning natural surroundings and rich history make it a must-visit.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Ksamil Islands",
+    "city": "Saranda",
+    "type": "nature",
+    "description": "Known for its crystal-clear waters and beautiful beaches, the Ksamil Islands are a perfect spot for relaxation and swimming. The islands offer a picturesque getaway with stunning views.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Theth National Park",
+    "city": "Theth",
+    "type": "nature",
+    "description": "This remote park is famous for its breathtaking landscapes, traditional stone houses, and hiking trails. It's an excellent destination for nature lovers and adventure seekers.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Gjirokast\u00ebr",
+    "city": "Gjirokast\u00ebr",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Gjirokast\u00ebr is known for its well-preserved Ottoman architecture and the impressive Gjirokast\u00ebr Castle. The town offers a glimpse into Albania's rich history.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Berat",
+    "city": "Berat",
+    "type": "culture",
+    "description": "Often referred to as the 'City of a Thousand Windows', Berat is known for its stunning Ottoman-era architecture and beautiful hillside location. The castle offers panoramic views of the surrounding area.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Blue Eye (Syri i Kalt\u00ebr)",
+    "city": "Saranda",
+    "type": "nature",
+    "description": "This natural spring features striking blue waters and lush greenery, creating a stunning visual contrast. It's a great spot for hiking and photography.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Apollonia",
+    "city": "Fier",
+    "type": "culture",
+    "description": "An ancient Greek city known for its archaeological remains, Apollonia features ruins such as a theater and a temple. The site provides insight into the ancient history of the region.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Vlora Promenade",
+    "city": "Vlora",
+    "type": "entertainment",
+    "description": "The bustling promenade in Vlora is lined with cafes, restaurants, and shops, making it a perfect place for a leisurely stroll. It offers beautiful views of the Adriatic Sea.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Lake Ohrid",
+    "city": "Pogradec",
+    "type": "nature",
+    "description": "Lake Ohrid is one of the oldest and deepest lakes in Europe, known for its biodiversity and stunning scenery. It's a great location for swimming, fishing, and enjoying nature.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Kruj\u00eb Castle",
+    "city": "Kruj\u00eb",
+    "type": "landmark",
+    "description": "A historical fortress that played a significant role in Albania's resistance against the Ottoman Empire. The castle offers impressive views and houses a museum dedicated to national hero Skanderbeg.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Shkodra Lake",
+    "city": "Shkodra",
+    "type": "nature",
+    "description": "This expansive lake offers opportunities for boating, fishing, and birdwatching. The surrounding area is rich in natural beauty and cultural heritage.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Dajti Mountain",
+    "city": "Tirana",
+    "type": "nature",
+    "description": "Just outside Tirana, Dajti Mountain is accessible by a cable car and offers stunning views of the city and surrounding landscapes. It's a popular spot for hiking and picnicking.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Shetitorja",
+    "city": "Saranda",
+    "type": "entertainment",
+    "description": "This vibrant waterfront promenade is filled with restaurants, bars, and shops, making it a lively spot for both locals and tourists. It's ideal for evening strolls by the sea.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The National History Museum",
+    "city": "Tirana",
+    "type": "culture",
+    "description": "The largest museum in Albania, it showcases the country's rich history from ancient times to the present. The museum's exhibits provide valuable insights into Albanian culture.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Blaz",
+    "city": "Kuk\u00ebs",
+    "type": "nature",
+    "description": "A hidden gem in the Kuk\u00ebs region, Blaz is known for its stunning landscapes and traditional villages. It offers a true off-the-beaten-path experience.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Llogara National Park",
+    "city": "Vlor\u00eb",
+    "type": "nature",
+    "description": "This park features breathtaking mountain views, diverse flora and fauna, and stunning coastal scenery. It's perfect for hiking and nature exploration.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "P\u00ebrmet",
+    "city": "P\u00ebrmet",
+    "type": "nature",
+    "description": "Known for its natural hot springs and stunning landscapes, P\u00ebrmet is a tranquil destination perfect for relaxation and outdoor activities.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Ethnographic Museum",
+    "city": "Gjirokast\u00ebr",
+    "type": "culture",
+    "description": "Housed in a beautifully preserved Ottoman-era home, the museum offers a glimpse into traditional Albanian life and culture.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Koman Lake",
+    "city": "Koman",
+    "type": "nature",
+    "description": "Famous for its breathtaking fjord-like scenery, Koman Lake is a stunning destination for boat tours and exploration of the surrounding mountains.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Saranda Castle",
+    "city": "Saranda",
+    "type": "landmark",
+    "description": "Perched above the town, Saranda Castle offers panoramic views of the Ionian Sea and the nearby islands. The ruins are a testament to the area's rich history.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Mosaic of Aleksand\u00ebr Moisiu",
+    "city": "Durr\u00ebs",
+    "type": "landmark",
+    "description": "This stunning mosaic is a remarkable piece of art located in Durr\u00ebs, showcasing intricate designs and vibrant colors. It's a symbol of the city's artistic heritage.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Bunker Art",
+    "city": "Tirana",
+    "type": "culture",
+    "description": "A unique art installation in a former bunker, Bunker Art combines history with contemporary art. It reflects on Albania's communist past and offers a thought-provoking experience.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Church of St. Mary",
+    "city": "Voskopoja",
+    "type": "culture",
+    "description": "This historic church is known for its stunning frescoes and beautiful architecture. It offers insight into the region's religious and cultural heritage.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Albanian Riviera",
+    "city": "Various",
+    "type": "nature",
+    "description": "The Albanian Riviera boasts stunning beaches, crystal-clear waters, and charming coastal towns. It's perfect for a summer getaway with plenty of sun and sea.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Bovilla Lake",
+    "city": "Tirana",
+    "type": "nature",
+    "description": "A beautiful reservoir located just outside of Tirana, Bovilla Lake is a great spot for hiking and enjoying nature. The surrounding mountains add to its stunning beauty.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Rr\u00ebza i Dajti",
+    "city": "Tirana",
+    "type": "nature",
+    "description": "A lesser-known area near Dajti Mountain, offering peaceful trails and stunning views. It's perfect for those looking to escape the crowds.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "P\u00ebrmet's Thermal Springs",
+    "city": "P\u00ebrmet",
+    "type": "nature",
+    "description": "Famous for its natural thermal springs, P\u00ebrmet offers a relaxing experience amidst beautiful landscapes. The mineral-rich waters are said to have therapeutic properties.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Ruins of Kalivo",
+    "city": "Parga",
+    "type": "landmark",
+    "description": "Abandoned ruins of an old village located near the sea, Kalivo offers a glimpse into history along with stunning views of the coastline.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Fortress of Bashtov\u00eb",
+    "city": "Bashtov\u00eb",
+    "type": "landmark",
+    "description": "A historical fortress that dates back to the 14th century, it offers fascinating insights into the medieval history of Albania.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Tomb of Ali Pasha",
+    "city": "Parga",
+    "type": "landmark",
+    "description": "This picturesque site is the resting place of the famous Ottoman leader Ali Pasha. It is set on an island and can be reached by a short boat ride.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "The Castle of Petrela",
+    "city": "Petrela",
+    "type": "landmark",
+    "description": "A historic castle overlooking the landscape near Tirana, known for its impressive architecture and stunning views. It offers a glimpse into Albania's medieval past.",
+    "country": "Albania",
+    "country_rank": 4
+  },
+  {
+    "name": "Sari Salltiku Mountain",
+    "city": "Gjirokast\u00ebr",
+    "type": "nature",
+    "description": "A less-traveled mountain offering hiking trails and stunning vistas of the Gjirokast\u00ebr valley. It's perfect for those seeking adventure and solitude.",
+    "country": "Albania",
+    "country_rank": 4
+  }
+]

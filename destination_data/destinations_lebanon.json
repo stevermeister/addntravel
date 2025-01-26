@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Jeita Grotto",
+    "city": "Jeita",
+    "type": "nature",
+    "description": "A stunning natural wonder featuring a series of interconnected limestone caves. The grotto is known for its breathtaking rock formations and is a UNESCO World Heritage site.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Byblos",
+    "city": "Byblos",
+    "type": "cultural",
+    "description": "One of the oldest continuously inhabited cities in the world, Byblos boasts ancient ruins, a picturesque harbor, and charming medieval architecture. It is also recognized as a UNESCO World Heritage site.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Cedars of God",
+    "city": "Bsharri",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this ancient cedar forest is home to some of the last remaining cedar trees in Lebanon. The area offers stunning views and is significant in Lebanese culture and history.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Harissa",
+    "city": "Jounieh",
+    "type": "landmark",
+    "description": "Home to the famous Our Lady of Lebanon statue, Harissa offers panoramic views of the Mediterranean Sea and the surrounding mountains. Visitors can reach it via a scenic cable car ride.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Beiteddine Palace",
+    "city": "Beiteddine",
+    "type": "landmark",
+    "description": "An exquisite 19th-century palace known for its stunning architecture and beautiful gardens. It is a symbol of Lebanon's rich cultural heritage.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Qadisha Valley",
+    "city": "Bsharri",
+    "type": "nature",
+    "description": "A breathtaking gorge that is a UNESCO World Heritage site, known for its stunning landscapes, monasteries, and hiking trails. It is a spiritual retreat and offers a glimpse into Lebanon's early Christian heritage.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Ba'albek",
+    "city": "Ba'albek",
+    "type": "cultural",
+    "description": "Home to some of the best-preserved Roman ruins in the world, including the Temple of Bacchus. Ba'albek is a UNESCO World Heritage site that highlights Lebanon's historical significance.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Corniche",
+    "city": "Beirut",
+    "type": "entertainment",
+    "description": "A scenic waterfront promenade perfect for leisurely strolls, picnics, and enjoying the vibrant atmosphere of the city. The Corniche offers beautiful views of the Mediterranean.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Tyre",
+    "city": "Tyre",
+    "type": "cultural",
+    "description": "An ancient Phoenician city known for its archaeological sites, including Roman ruins and a beautiful sandy beach. Tyre is a UNESCO World Heritage site with a rich maritime history.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Mzaar Kfardebian",
+    "city": "Kfardebian",
+    "type": "entertainment",
+    "description": "Lebanon's premier ski resort, offering winter sports and breathtaking mountain views. It attracts both local and international tourists for skiing and snowboarding.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Nahr El Kalb",
+    "city": "Nahr el Kalb",
+    "type": "landmark",
+    "description": "A historical site with ancient inscriptions and monuments dating back to various civilizations. It is located along the Dog River and is known for its scenic beauty.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Saint George's Cathedral",
+    "city": "Beirut",
+    "type": "cultural",
+    "description": "An iconic church in the heart of Beirut, known for its stunning architecture and historical significance. It is a symbol of religious diversity in Lebanon.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Roman Colonnade",
+    "city": "Baalbek",
+    "type": "landmark",
+    "description": "A magnificent example of Roman architecture featuring towering columns and intricate stonework. It is part of the larger Baalbek archaeological site.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Klein's Cave",
+    "city": "Kfardebian",
+    "type": "nature",
+    "description": "A hidden gem known for its unique rock formations and crystal-clear waters. An ideal spot for adventurous explorers and nature lovers.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Sursock Museum",
+    "city": "Beirut",
+    "type": "cultural",
+    "description": "A contemporary art museum housed in a beautiful villa, showcasing Lebanese and international artists. It represents the thriving art scene in Beirut.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Tripoli Citadel",
+    "city": "Tripoli",
+    "type": "landmark",
+    "description": "An impressive medieval fortress that offers panoramic views of the city and is steeped in history. It's a great place to explore and learn about the region's past.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The National Museum of Beirut",
+    "city": "Beirut",
+    "type": "cultural",
+    "description": "Lebanon's most important archaeological museum, housing a vast collection of artifacts from various periods of Lebanese history. It provides deep insights into the country's rich heritage.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Baatara Gorge Waterfall",
+    "city": "Tannourine",
+    "type": "nature",
+    "description": "A stunning waterfall that cascades into a natural sinkhole, surrounded by breathtaking cliffs. It is a hidden gem perfect for nature enthusiasts.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Zahle",
+    "city": "Zahle",
+    "type": "cultural",
+    "description": "Known as the 'Bride of the Beqaa Valley,' Zahle is famous for its wine production and charming riverside promenades. It's a great place to experience Lebanese hospitality.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Qasr el-Bsharri",
+    "city": "Bsharri",
+    "type": "cultural",
+    "description": "A historical palace that showcases the rich heritage of the Lebanese mountain region. It is also the birthplace of renowned poet Khalil Gibran.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Temple of Jupiter",
+    "city": "Ba'albek",
+    "type": "landmark",
+    "description": "A monumental Roman temple dedicated to Jupiter, showcasing incredible architecture and engineering. It's one of the largest Roman temples ever built.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Rachana",
+    "city": "Rachana",
+    "type": "cultural",
+    "description": "A quaint village known for its arts and crafts, particularly stone carving. Visitors can explore galleries and meet local artisans.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Nabi Younes",
+    "city": "Jounieh",
+    "type": "landmark",
+    "description": "A historical site believed to be the burial place of the Prophet Jonah. The location offers beautiful views and a serene atmosphere.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Beqaa Valley",
+    "city": "Beqaa",
+    "type": "nature",
+    "description": "A fertile agricultural region known for its vineyards and stunning landscapes. It's an excellent destination for wine tours and nature walks.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Lebanese Heritage Museum",
+    "city": "Beirut",
+    "type": "cultural",
+    "description": "Showcases the rich heritage and traditions of Lebanon through various exhibits and artifacts. It's a great place to learn about the country's diverse culture.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Kfardebian Village",
+    "city": "Kfardebian",
+    "type": "nature",
+    "description": "A charming mountain village offering breathtaking views and access to outdoor activities year-round. Ideal for hiking and enjoying nature.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Church of St. George",
+    "city": "Byblos",
+    "type": "landmark",
+    "description": "A beautiful historic church located in the heart of Byblos, known for its stunning architecture and rich history. It is a popular site for both tourists and locals.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Al-Shouf Biosphere Reserve",
+    "city": "Shouf",
+    "type": "nature",
+    "description": "A protected area known for its biodiversity and stunning landscapes. It offers numerous hiking trails and opportunities to see Lebanon's natural beauty.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Batroun",
+    "city": "Batroun",
+    "type": "entertainment",
+    "description": "A coastal city famous for its beautiful beaches, vibrant nightlife, and relaxed atmosphere. Batroun is perfect for those looking to enjoy sun and sea.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Phoenician Wall",
+    "city": "Tyre",
+    "type": "landmark",
+    "description": "Ancient city walls that date back to the Phoenician era, offering a glimpse into Tyre's historical significance. It's a UNESCO World Heritage site.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Moussa Castle",
+    "city": "Chouf",
+    "type": "landmark",
+    "description": "An impressive castle built by a local artist, showcasing a mix of traditional Lebanese architecture and modern art. It offers a unique experience for visitors.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Beqaa Wine Region",
+    "city": "Beqaa",
+    "type": "entertainment",
+    "description": "Famous for its vineyards and wineries, the Beqaa Valley is ideal for wine tastings and tours. It\u2019s a perfect destination for wine enthusiasts.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Tannourine Cedar Forest",
+    "city": "Tannourine",
+    "type": "nature",
+    "description": "A beautiful forest area known for its ancient cedar trees, hiking trails, and stunning vistas. It's a great place for outdoor activities and nature exploration.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The House of Khalil Gibran",
+    "city": "Bsharri",
+    "type": "cultural",
+    "description": "The birthplace of the famous poet and artist Khalil Gibran, now a museum dedicated to his life and works. It offers insights into his literary contributions.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Saida Old City",
+    "city": "Sidon",
+    "type": "cultural",
+    "description": "A charming area filled with narrow streets, historical buildings, and markets. It reflects the rich history and culture of the city.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Chouwen Lake",
+    "city": "Chouwen",
+    "type": "nature",
+    "description": "A serene lake surrounded by mountains, perfect for picnicking and enjoying nature. It's an ideal spot for a peaceful retreat.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Grand Serail",
+    "city": "Beirut",
+    "type": "landmark",
+    "description": "An important historical building that serves as the headquarters of the Lebanese government. Its architecture is a blend of Ottoman and modern styles.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "Ain Zhalta",
+    "city": "Ain Zhalta",
+    "type": "nature",
+    "description": "A picturesque village known for its stunning landscapes and hiking trails. It offers a tranquil escape into nature.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Martyrs' Square",
+    "city": "Beirut",
+    "type": "landmark",
+    "description": "A historic square that has played a significant role in Lebanon's modern history. It's a popular gathering place and a symbol of national pride.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Roman Theater",
+    "city": "Tyre",
+    "type": "landmark",
+    "description": "An ancient Roman theater that showcases the rich history of Tyre. It's one of the well-preserved sites, providing insights into Roman architecture.",
+    "country": "Lebanon",
+    "country_rank": 6
+  },
+  {
+    "name": "The Blue Mosque",
+    "city": "Tripoli",
+    "type": "cultural",
+    "description": "A stunning mosque known for its beautiful blue tiles and intricate architecture. It is a significant cultural and religious site in Tripoli.",
+    "country": "Lebanon",
+    "country_rank": 6
+  }
+]

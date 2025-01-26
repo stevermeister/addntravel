@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Ha\u02bbapai Islands",
+    "city": "Ha\u02bbapai",
+    "type": "nature",
+    "description": "A stunning group of islands known for their pristine beaches, crystal-clear waters, and vibrant coral reefs. It's an ideal spot for diving and snorkeling, away from the usual tourist crowds.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tongatapu",
+    "city": "Nuku'alofa",
+    "type": "culture",
+    "description": "The largest island in Tonga, rich in history and culture, featuring ancient sites and traditional villages. Visitors can explore the Royal Palace and enjoy local crafts and cuisine.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tongan National Museum",
+    "city": "Nuku'alofa",
+    "type": "culture",
+    "description": "A fascinating museum that showcases Tonga's rich history, including artifacts, traditional costumes, and cultural exhibits. It's a great place to understand the Tongan way of life.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Hufangalupe Natural Land Bridge",
+    "city": "Tongatapu",
+    "type": "nature",
+    "description": "A unique natural rock formation that offers stunning ocean views and a great photo opportunity. It's a peaceful spot perfect for a scenic picnic.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Anahulu Cave",
+    "city": "Tongatapu",
+    "type": "nature",
+    "description": "A beautiful cave known for its freshwater pools and impressive stalactite formations. Visitors can swim in the pools and explore the cave's natural beauty.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Lukafa Beach",
+    "city": "Nuku'alofa",
+    "type": "nature",
+    "description": "A serene and less crowded beach known for its white sands and clear waters. It's perfect for sunbathing, swimming, and enjoying spectacular sunsets.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Royal Tombs of Tonga",
+    "city": "Nuku'alofa",
+    "type": "culture",
+    "description": "These historic tombs are the final resting place of many Tongan royalty. The site is steeped in history and offers insight into the royal lineage of Tonga.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tapuaetai (One Foot Island)",
+    "city": "Ha\u02bbapai",
+    "type": "nature",
+    "description": "A small, picturesque island with incredible snorkeling opportunities and stunning beaches. It's a hidden gem ideal for a day trip.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Ifi Ifi Cave",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A lesser-known cave that boasts incredible limestone formations and a tranquil atmosphere. It's a great spot for exploration and photography.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Nuku'alofa Waterfront",
+    "city": "Nuku'alofa",
+    "type": "entertainment",
+    "description": "A vibrant area filled with local markets, restaurants, and cafes, offering a taste of Tongan life. It's a great spot to enjoy local food and socialize.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Fafa Island",
+    "city": "Nuku'alofa",
+    "type": "nature",
+    "description": "A private island just a short boat ride from Tongatapu, known for its idyllic beaches and luxurious accommodation. It's perfect for a romantic getaway or a peaceful retreat.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Vava\u02bbu Archipelago",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A stunning group of islands renowned for their sailing and marine activities. The area is rich in biodiversity and offers beautiful landscapes and secluded beaches.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Maui's Cave",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A hidden cave that features impressive rock formations and a unique geological history. It's less visited, making it a peaceful spot for exploration.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga Blowholes",
+    "city": "Tongatapu",
+    "type": "nature",
+    "description": "A spectacular natural phenomenon where ocean waves crash through holes in the rocks, creating impressive sprays of water. It's a breathtaking sight, especially during high tide.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Eua National Park",
+    "city": "Eua",
+    "type": "nature",
+    "description": "A lush national park featuring hiking trails, stunning cliffs, and diverse wildlife. It's a great spot for nature lovers and those looking to explore Tonga's natural beauty.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's 'Eua Island",
+    "city": "Eua",
+    "type": "nature",
+    "description": "Known for its rugged cliffs and lush forests, 'Eua offers excellent hiking trails and wildlife spotting opportunities. It's a quieter alternative to the more touristy islands.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Niuatoputapu",
+    "city": "Niuatoputapu",
+    "type": "culture",
+    "description": "One of Tonga's northernmost islands, known for its untouched beauty and traditional Tongan culture. It's a perfect destination for those looking to experience authentic island life.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Nukuhifolu Island",
+    "city": "Ha\u02bbapai",
+    "type": "nature",
+    "description": "A small and tranquil island known for its beautiful beaches and snorkeling spots. It offers a peaceful escape for those looking to relax.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Sopu Beach",
+    "city": "Nuku'alofa",
+    "type": "nature",
+    "description": "A beautiful and less crowded beach perfect for swimming and picnicking. It's a popular spot among locals for its calm waters.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Cultural Show",
+    "city": "Nuku'alofa",
+    "type": "entertainment",
+    "description": "Experience traditional Tongan music and dance performances that showcase the island's rich cultural heritage. It's a lively and entertaining way to immerse yourself in Tongan culture.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Motu A'Kau",
+    "city": "Ha\u02bbapai",
+    "type": "nature",
+    "description": "A small, secluded island known for its stunning coral reefs and rich marine life. It's an ideal spot for snorkeling and exploring underwater.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Traditional Markets",
+    "city": "Nuku'alofa",
+    "type": "culture",
+    "description": "Visit the local markets to experience the vibrant culture and purchase handmade crafts, fresh produce, and local delicacies. It's a great way to interact with locals.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Ancient Stone Walls",
+    "city": "Nuku'alofa",
+    "type": "landmark",
+    "description": "These impressive stone walls date back centuries and are remnants of Tongan history. They provide insight into the engineering skills of ancient Tongans.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Kapa Island",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A beautiful and tranquil island known for its stunning landscapes and serene beaches. It's perfect for snorkeling and enjoying the natural surroundings.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Alaivahamama'o",
+    "city": "Tongatapu",
+    "type": "culture",
+    "description": "A sacred site for Tongan culture, featuring ancient burial mounds and historical significance. It provides a unique insight into the spiritual beliefs of the Tongan people.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Nukuleka",
+    "city": "Tongatapu",
+    "type": "culture",
+    "description": "A historic village where the first missionaries arrived in Tonga. The area is rich in history and offers a glimpse into the early days of European influence.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Fangatave",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "This scenic area features beautiful lagoons and a variety of marine life, ideal for kayaking and snorkeling. It's a less-known destination for those seeking adventure.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Otea Island",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A small, beautiful island perfect for a day trip, offering stunning beaches and excellent snorkeling opportunities. It's a hidden paradise for nature lovers.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Fale",
+    "city": "Nuku'alofa",
+    "type": "culture",
+    "description": "Traditional Tongan houses made of thatch and wood, offering an insight into the local architectural style. Some are open to visitors, showcasing Tongan hospitality.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Waterfalls",
+    "city": "Eua",
+    "type": "nature",
+    "description": "A series of beautiful waterfalls located in Eua National Park, perfect for hiking and refreshing swims. They provide a stunning backdrop for nature lovers.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Holopeka Beach",
+    "city": "Tongatapu",
+    "type": "nature",
+    "description": "A tranquil beach known for its soft sands and clear waters, perfect for relaxation and swimming. It's a quieter alternative to the more popular beaches.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Koloa Cave",
+    "city": "Vava\u02bbu",
+    "type": "nature",
+    "description": "A lesser-known cave with beautiful rock formations and a serene atmosphere. It's a great spot for those looking to explore Tonga's natural wonders.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Cultural Festival",
+    "city": "Nuku'alofa",
+    "type": "entertainment",
+    "description": "An annual event showcasing Tongan culture through music, dance, and traditional crafts. It provides a vibrant and colorful experience for visitors.",
+    "country": "Tonga",
+    "country_rank": 4
+  },
+  {
+    "name": "Tonga's Scenic Lookouts",
+    "city": "Tongatapu",
+    "type": "nature",
+    "description": "Various lookout points across Tongatapu offer breathtaking views of the ocean and surrounding landscapes. They are perfect for photography and appreciating Tonga's beauty.",
+    "country": "Tonga",
+    "country_rank": 4
+  }
+]

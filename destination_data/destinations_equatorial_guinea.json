@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bioko Island",
+    "city": "Malabo",
+    "type": "nature",
+    "description": "Bioko Island is known for its stunning landscapes, volcanic mountains, and rich biodiversity. It offers opportunities for hiking, exploring lush rainforests, and observing unique wildlife.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Pico Basil\u00e9",
+    "city": "Malabo",
+    "type": "nature",
+    "description": "Pico Basil\u00e9 is the highest peak in Equatorial Guinea, providing breathtaking views and a challenging hike for adventurers. The surrounding cloud forests are home to diverse flora and fauna.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Catedral de Santa Isabel",
+    "city": "Malabo",
+    "type": "landmark",
+    "description": "This striking cathedral is a central landmark in Malabo, notable for its unique architecture and beautiful stained glass windows. It reflects the city's colonial past and religious significance.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Monte Al\u00e9n National Park",
+    "city": "Evinayong",
+    "type": "nature",
+    "description": "Monte Al\u00e9n National Park is a hidden gem with rich wildlife and pristine rainforests. It offers trails for hiking and the chance to see rare species such as the African forest elephant.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Malabo Market",
+    "city": "Malabo",
+    "type": "culture",
+    "description": "The Malabo Market is a vibrant place to experience local culture, offering a variety of fresh produce, spices, and handcrafted goods. It is a great spot for visitors to interact with locals and taste traditional foods.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Bata Beach",
+    "city": "Bata",
+    "type": "nature",
+    "description": "Bata Beach is a beautiful coastal area perfect for relaxing and enjoying the sun. The beach features clear waters and is an excellent spot for swimming and beach activities.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Rio Muni",
+    "city": "Mongomo",
+    "type": "nature",
+    "description": "Rio Muni is the mainland region of Equatorial Guinea, known for its dense rainforests and waterways. It's an excellent destination for eco-tourism and adventure, with opportunities for canoeing and wildlife spotting.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "La Pe\u00f1a de la Emperatriz",
+    "city": "Malabo",
+    "type": "landmark",
+    "description": "This natural rock formation is steeped in local legend and offers panoramic views of the surrounding area. It\u2019s a great spot for hiking and experiencing the natural beauty of Bioko Island.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Bubis Cultural Center",
+    "city": "Malabo",
+    "type": "culture",
+    "description": "This center highlights the culture and traditions of the Bubi people, the indigenous inhabitants of Bioko Island. Visitors can learn about local crafts, music, and history.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Bata Colonial Architecture",
+    "city": "Bata",
+    "type": "culture",
+    "description": "The colonial architecture in Bata provides a glimpse into the historical influences that shaped the region. Walking through the streets reveals charming buildings with unique designs.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Corisco Island",
+    "city": "Corisco",
+    "type": "nature",
+    "description": "Corisco Island is a tranquil paradise with beautiful beaches and lush vegetation. It is less frequented by tourists, making it a perfect spot for those seeking solitude and natural beauty.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Luba River",
+    "city": "Luba",
+    "type": "nature",
+    "description": "The Luba River flows through stunning landscapes, offering opportunities for canoeing and fishing. It\u2019s a serene location for nature lovers looking to explore the waterways of Equatorial Guinea.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Sierra de Niefang",
+    "city": "Niefang",
+    "type": "nature",
+    "description": "This mountainous region is a hidden gem for hikers and nature enthusiasts. The Sierra de Niefang features lush forests, diverse wildlife, and picturesque views of the surrounding landscape.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Bokomo Waterfall",
+    "city": "Evinayong",
+    "type": "nature",
+    "description": "Bokomo Waterfall is a stunning natural feature that captivates visitors with its beauty. Surrounded by dense jungle, it's an ideal spot for photography and enjoying the tranquility of nature.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Coconut Beach",
+    "city": "Bata",
+    "type": "nature",
+    "description": "Coconut Beach is known for its soft sands and swaying palm trees. It\u2019s a great location for swimming, sunbathing, and enjoying local seafood at nearby beachside restaurants.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Fang Cultural Heritage",
+    "city": "Mongomo",
+    "type": "culture",
+    "description": "The Fang people have a rich cultural heritage that can be explored through their art, music, and rituals. Visitors can engage with local communities and learn about traditional practices.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Nku\u00e9 Waterfall",
+    "city": "Evinayong",
+    "type": "nature",
+    "description": "Nku\u00e9 Waterfall is a breathtaking cascade hidden in the rainforest. It offers a serene environment for hiking and picnicking, making it a perfect escape into nature.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  },
+  {
+    "name": "Malabo Botanical Garden",
+    "city": "Malabo",
+    "type": "nature",
+    "description": "This botanical garden showcases a variety of plant species native to Equatorial Guinea. It is a peaceful place for a leisurely stroll while appreciating the local flora.",
+    "country": "Equatorial Guinea",
+    "country_rank": 2
+  }
+]

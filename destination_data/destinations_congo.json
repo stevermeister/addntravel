@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Virunga National Park",
+    "city": "Goma",
+    "type": "nature",
+    "description": "Africa's oldest national park, Virunga is home to diverse wildlife, including the critically endangered mountain gorillas. The park's stunning landscapes range from lush forests to volcanic mountains.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Lake Kivu",
+    "city": "Goma",
+    "type": "nature",
+    "description": "A beautiful freshwater lake known for its scenic views and serene atmosphere. Visitors can enjoy activities like kayaking, fishing, and exploring local fishing villages.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Okapi Wildlife Reserve",
+    "city": "Epulu",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this reserve is famous for its unique biodiversity, including the elusive okapi. It's a remote paradise for nature enthusiasts and wildlife lovers.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kinshasa",
+    "city": "Kinshasa",
+    "type": "culture",
+    "description": "The bustling capital city is known for its vibrant music scene, particularly soukous. Visitors can explore local markets, dance clubs, and cultural institutions.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Lola ya Bonobo",
+    "city": "Kinshasa",
+    "type": "culture",
+    "description": "A sanctuary dedicated to the protection and rehabilitation of bonobos, this facility offers visitors a chance to learn about these amazing primates and their conservation.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Tshuapa National Park",
+    "city": "Bokungu",
+    "type": "nature",
+    "description": "An off-the-beaten-path national park featuring pristine rainforest, diverse wildlife, and rich biodiversity. It's a great spot for eco-tourism and adventure seekers.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Zongo Falls",
+    "city": "Zongo",
+    "type": "nature",
+    "description": "A breathtaking waterfall located near Kinshasa, Zongo Falls is a perfect spot for picnics and photography. The surrounding area is lush with greenery, making it a tranquil escape.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Boma",
+    "city": "Boma",
+    "type": "culture",
+    "description": "A historic town on the Congo River, Boma is known for its colonial architecture and vibrant culture. The town has a rich history as a former capital and is a great place to explore local traditions.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Inga Dam",
+    "city": "Inga",
+    "type": "landmark",
+    "description": "One of the largest hydroelectric projects in Africa, the Inga Dam offers insights into the country's energy initiatives. The structure and surrounding landscape are impressive to witness.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kisangani",
+    "city": "Kisangani",
+    "type": "culture",
+    "description": "Known as the 'Gateway to the East,' Kisangani is a vibrant city with a mix of Congolese and colonial influences. The city is famous for its markets and the Congo River.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Mount Nyiragongo",
+    "city": "Goma",
+    "type": "nature",
+    "description": "An active volcano with one of the world's largest lava lakes, it's a popular trek for adventurous travelers. The summit offers spectacular views of the surrounding landscape.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "The Congo River",
+    "city": "Various",
+    "type": "nature",
+    "description": "One of the longest rivers in the world, the Congo River is vital for transportation and local culture. River cruises offer a unique perspective on the lush landscapes and wildlife.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Bokoro",
+    "city": "Bokoro",
+    "type": "culture",
+    "description": "A lesser-known village that showcases traditional Congolese life. Visitors can engage with local communities and learn about their customs and crafts.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kahuzi-Bi\u00e9ga National Park",
+    "city": "Bukavu",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this national park protects the eastern lowland gorilla and features stunning landscapes, including mountains and lush forests.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "The Great Lakes Region",
+    "city": "Various",
+    "type": "nature",
+    "description": "This region is known for its breathtaking lakes and diverse ecosystems. It's a perfect area for hiking, fishing, and enjoying nature.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Odzala-Kokoua National Park",
+    "city": "Mbomo",
+    "type": "nature",
+    "description": "Known for its dense forests and wildlife, Odzala-Kokoua is a hidden gem for eco-tourists. Visitors can experience guided safaris and the beauty of the rainforest.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Lola ya Bonobo",
+    "city": "Kinshasa",
+    "type": "culture",
+    "description": "A sanctuary for orphaned bonobos, offering visitors a unique opportunity to see these endangered primates up close while supporting their conservation.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kinsuka",
+    "city": "Kinshasa",
+    "type": "entertainment",
+    "description": "A lively neighborhood known for its bars and nightlife, Kinsuka is where you can experience the local music and dance scene in an energetic atmosphere.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Malebo Pool",
+    "city": "Kinshasa",
+    "type": "nature",
+    "description": "A picturesque area along the Congo River, perfect for leisure activities and scenic views. It's a great spot for boating and enjoying the sunset.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Ngiri-Ngiri",
+    "city": "Kinshasa",
+    "type": "culture",
+    "description": "A vibrant district in Kinshasa known for its rich art scene, including galleries and street art. It's a hub for cultural expression and local creativity.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kongolo",
+    "city": "Kongolo",
+    "type": "nature",
+    "description": "A serene area along the Lualaba River, perfect for fishing and relaxing by the water. The surrounding landscape is unspoiled and offers stunning views.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "The Congo Basin",
+    "city": "Various",
+    "type": "nature",
+    "description": "The second-largest rainforest in the world, offering diverse flora and fauna. It\u2019s a paradise for nature lovers and those interested in conservation.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Beni",
+    "city": "Beni",
+    "type": "culture",
+    "description": "This town is known for its rich cultural diversity, featuring various ethnic groups. Visitors can explore local markets and enjoy traditional Congolese cuisine.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "The Caves of Inongo",
+    "city": "Inongo",
+    "type": "landmark",
+    "description": "A lesser-known natural attraction featuring stunning caves and unique geological formations. It's a hidden gem for adventurous travelers.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Kalemie",
+    "city": "Kalemie",
+    "type": "nature",
+    "description": "Located on the shores of Lake Tanganyika, Kalemie offers beautiful beaches and a relaxed atmosphere. It's ideal for those looking to unwind in nature.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Lufira River",
+    "city": "Kolwezi",
+    "type": "nature",
+    "description": "A picturesque river known for its beautiful landscapes and rich biodiversity. It's a great spot for fishing and enjoying nature.",
+    "country": "Congo",
+    "country_rank": 3
+  },
+  {
+    "name": "Lodja",
+    "city": "Lodja",
+    "type": "culture",
+    "description": "A small town rich in culture and tradition, Lodja is known for its vibrant local markets and handicrafts. It's a great place to experience authentic Congolese life.",
+    "country": "Congo",
+    "country_rank": 3
+  }
+]

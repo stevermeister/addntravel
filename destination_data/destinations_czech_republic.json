@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Prague Castle",
+    "city": "Prague",
+    "type": "landmark",
+    "description": "One of the largest ancient castles in the world, Prague Castle offers stunning views of the city and is rich in history, with beautiful architectural styles ranging from Gothic to Baroque.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Charles Bridge",
+    "city": "Prague",
+    "type": "landmark",
+    "description": "A historic stone bridge adorned with statues, it connects the Old Town with the Lesser Town and is a popular spot for photographers and artists.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Old Town Square",
+    "city": "Prague",
+    "type": "culture",
+    "description": "The heart of Prague, this square features the famous Astronomical Clock and is surrounded by colorful baroque buildings, cafes, and shops.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "\u010cesk\u00fd Krumlov Castle",
+    "city": "\u010cesk\u00fd Krumlov",
+    "type": "landmark",
+    "description": "Nestled in a picturesque town, this UNESCO World Heritage site features stunning gardens and a unique Baroque theater.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Kutn\u00e1 Hora",
+    "city": "Kutn\u00e1 Hora",
+    "type": "culture",
+    "description": "Known for its historical significance, this town is famous for the Sedlec Ossuary, a chapel decorated with human bones, and the magnificent St. Barbara's Church.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Karlovy Vary",
+    "city": "Karlovy Vary",
+    "type": "entertainment",
+    "description": "A spa town renowned for its hot springs and beautiful architecture, Karlovy Vary hosts an international film festival every year.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Bohemian Switzerland National Park",
+    "city": "D\u011b\u010d\u00edn",
+    "type": "nature",
+    "description": "This national park boasts breathtaking sandstone formations and lush forests, making it a paradise for hikers and nature lovers.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Pilsen",
+    "city": "Plze\u0148",
+    "type": "culture",
+    "description": "Famous for its Pilsner beer, the city offers brewery tours and a vibrant cultural scene, including the historic Great Synagogue.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Terez\u00edn",
+    "city": "Terez\u00edn",
+    "type": "culture",
+    "description": "A former military fortress turned concentration camp, Terez\u00edn is a poignant site that offers insight into the Holocaust and the resilience of its prisoners.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hlubok\u00e1 Castle",
+    "city": "Hlubok\u00e1 nad Vltavou",
+    "type": "landmark",
+    "description": "This stunning castle resembles a fairy tale palace and features beautiful gardens and richly decorated interiors.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "K\u0159ivokl\u00e1t Castle",
+    "city": "K\u0159ivokl\u00e1t",
+    "type": "landmark",
+    "description": "Surrounded by deep forests, this medieval castle offers a glimpse into the Czech Republic's royal history and hosts various cultural events.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "S\u00e1zava Monastery",
+    "city": "S\u00e1zava",
+    "type": "culture",
+    "description": "Founded in the 11th century, this monastery is situated along the S\u00e1zava River and is known for its beautiful architecture and serene surroundings.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Lednice-Valtice Cultural Landscape",
+    "city": "Lednice",
+    "type": "landmark",
+    "description": "This UNESCO World Heritage site features a stunning landscape of castles, gardens, and ponds, perfect for leisurely strolls and picnics.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Moravian Karst",
+    "city": "Blansko",
+    "type": "nature",
+    "description": "Home to impressive limestone caves and gorges, this area offers exceptional hiking trails and the famous Macocha Abyss.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Tel\u010d",
+    "city": "Tel\u010d",
+    "type": "culture",
+    "description": "A charming town with a well-preserved Renaissance square featuring colorful facades, Tel\u010d is a UNESCO World Heritage site and a hidden gem.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "\u010cesk\u00fd r\u00e1j",
+    "city": "Turnov",
+    "type": "nature",
+    "description": "Known as the Czech Paradise, this region features unique rock formations, castles, and beautiful hiking trails, offering a blend of nature and history.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Z\u00e1mek Hranice",
+    "city": "Hranice",
+    "type": "landmark",
+    "description": "This picturesque chateau is surrounded by a beautiful park and offers tours showcasing its historical significance and architectural beauty.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Vltava River",
+    "city": "Prague",
+    "type": "nature",
+    "description": "The longest river in the Czech Republic, it is perfect for boat cruises, kayaking, and enjoying scenic views of Prague.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Plze\u0148 Historical Underground",
+    "city": "Plze\u0148",
+    "type": "culture",
+    "description": "Explore the extensive network of tunnels and cellars beneath Pilsen, used for brewing and storage, a fascinating glimpse into the city's history.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Koko\u0159\u00ednsko",
+    "city": "M\u011bln\u00edk",
+    "type": "nature",
+    "description": "A protected landscape area known for its unique sandstone formations, deep forests, and charming villages, ideal for outdoor activities.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Mikulov",
+    "city": "Mikulov",
+    "type": "culture",
+    "description": "This small town is famous for its wine production, stunning castle, and the beautiful surrounding countryside, perfect for wine enthusiasts.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Dev\u00edn Castle",
+    "city": "Bratislava",
+    "type": "landmark",
+    "description": "Perched on a cliff, this castle offers breathtaking views of the confluence of the Morava and Danube rivers, rich in history and archaeological significance.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Olomouc",
+    "city": "Olomouc",
+    "type": "culture",
+    "description": "Known for its historical architecture, including the Holy Trinity Column, and vibrant student life, Olomouc is a cultural hub worth exploring.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Ji\u010d\u00edn",
+    "city": "Ji\u010d\u00edn",
+    "type": "culture",
+    "description": "A picturesque town known as the gateway to the Bohemian Paradise, featuring a beautiful square and the iconic Valdice Gate.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hranick\u00e1 Propast",
+    "city": "Hranice",
+    "type": "nature",
+    "description": "The deepest abyss in the Czech Republic, this natural wonder is shrouded in mystery and offers stunning views and hiking opportunities.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "S\u00e1zava River",
+    "city": "S\u00e1zava",
+    "type": "nature",
+    "description": "A popular destination for canoeing and hiking, the river flows through beautiful landscapes, dotted with historic towns and monasteries.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Beskydy Mountains",
+    "city": "Fr\u00fddek-M\u00edstek",
+    "type": "nature",
+    "description": "This mountain range is known for its stunning scenery, hiking trails, and unique cultural traditions of the local Gorals.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Vranov nad Dyj\u00ed Castle",
+    "city": "Vranov nad Dyj\u00ed",
+    "type": "landmark",
+    "description": "Situated above the Dyje River, this castle offers striking views and is surrounded by beautiful gardens and a picturesque reservoir.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Krom\u011b\u0159\u00ed\u017e",
+    "city": "Krom\u011b\u0159\u00ed\u017e",
+    "type": "culture",
+    "description": "Famous for its beautiful gardens and the Krom\u011b\u0159\u00ed\u017e Castle, a UNESCO World Heritage site, this town is a must-visit for garden lovers.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "T\u0159ebo\u0148",
+    "city": "T\u0159ebo\u0148",
+    "type": "culture",
+    "description": "This charming town is known for its picturesque ponds and spa treatments, offering a relaxing getaway surrounded by nature.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Ostrava's Lower V\u00edtkovice",
+    "city": "Ostrava",
+    "type": "entertainment",
+    "description": "An industrial heritage site transformed into a cultural and educational center, featuring a unique blend of art, science, and entertainment.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "B\u0159eznice Castle",
+    "city": "B\u0159eznice",
+    "type": "landmark",
+    "description": "A lesser-known castle with beautiful Baroque architecture, surrounded by a picturesque park, perfect for a peaceful visit.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Prachov Rocks",
+    "city": "Ji\u010d\u00edn",
+    "type": "nature",
+    "description": "A dramatic rock formation offering hiking trails and stunning views, it's a popular spot for rock climbing and nature photography.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Kladno",
+    "city": "Kladno",
+    "type": "culture",
+    "description": "Known for its industrial heritage, Kladno features several museums and parks, showcasing the city's rich history and culture.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Lys\u00e1 hora",
+    "city": "Fr\u00fddek-M\u00edstek",
+    "type": "nature",
+    "description": "The highest peak of the Beskydy Mountains, it offers panoramic views and is a popular destination for hiking and skiing.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "P\u00edsek",
+    "city": "P\u00edsek",
+    "type": "culture",
+    "description": "Home to the oldest stone bridge in the Czech Republic, P\u00edsek boasts a beautiful historic center and a rich cultural scene.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "M\u011bln\u00edk Castle",
+    "city": "M\u011bln\u00edk",
+    "type": "landmark",
+    "description": "Set on a hill overlooking the confluence of the Elbe and Vltava rivers, this castle offers stunning views and rich history.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Koko\u0159\u00edn Castle",
+    "city": "Koko\u0159\u00edn",
+    "type": "landmark",
+    "description": "A charming castle set in a picturesque landscape, Koko\u0159\u00edn offers a glimpse into the medieval history of the Czech Republic.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Adr\u0161pach-Teplice Rocks",
+    "city": "Adr\u0161pach",
+    "type": "nature",
+    "description": "Known for its unique sandstone cliffs and rock formations, this area offers breathtaking hiking trails and stunning natural beauty.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Zlin",
+    "city": "Zl\u00edn",
+    "type": "culture",
+    "description": "Famous for its functionalist architecture, Zl\u00edn offers a unique cultural experience with museums and galleries showcasing modern design.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Czech Paradise",
+    "city": "Turnov",
+    "type": "nature",
+    "description": "A UNESCO biosphere reserve known for its natural beauty, rock formations, and historical sites, perfect for outdoor enthusiasts.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Bude\u010d",
+    "city": "Kladno",
+    "type": "landmark",
+    "description": "A historic site with remnants of a medieval settlement and a beautiful view of the surrounding countryside.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "K\u0159tiny",
+    "city": "Brno",
+    "type": "culture",
+    "description": "Home to the stunning Baroque Church of St. John the Baptist, K\u0159tiny is a peaceful village surrounded by lush forests.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Velehrad",
+    "city": "Velehrad",
+    "type": "culture",
+    "description": "A significant pilgrimage site with a beautiful basilica, Velehrad is known for its spiritual heritage and peaceful atmosphere.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hranice",
+    "city": "Hranice",
+    "type": "landmark",
+    "description": "This town is known for its historical sites, including the Hranice Abyss, which is the deepest underwater cave in the Czech Republic.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "S\u00e1zava Monastery",
+    "city": "S\u00e1zava",
+    "type": "culture",
+    "description": "A historical monastery located in a scenic setting, it offers a serene atmosphere and a glimpse into the country's religious heritage.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Koko\u0159\u00ednsko",
+    "city": "M\u011bln\u00edk",
+    "type": "nature",
+    "description": "A picturesque region characterized by sandstone formations and beautiful forests, popular for hiking and nature photography.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Brno's Tugendhat Villa",
+    "city": "Brno",
+    "type": "culture",
+    "description": "An architectural masterpiece and UNESCO World Heritage site, this villa is a prime example of modernist architecture.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Ostrava's Bolt Tower",
+    "city": "Ostrava",
+    "type": "entertainment",
+    "description": "An observation tower offering stunning views of the city and surroundings, it stands as a symbol of Ostrava's industrial heritage.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "N\u00e1chod Castle",
+    "city": "N\u00e1chod",
+    "type": "landmark",
+    "description": "A historic castle with beautiful gardens and panoramic views of the surrounding landscape, offering a glimpse into the region's past.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Czech Switzerland",
+    "city": "D\u011b\u010d\u00edn",
+    "type": "nature",
+    "description": "A stunning national park characterized by its sandstone cliffs, deep gorges, and rich biodiversity, perfect for outdoor adventures.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Litomy\u0161l",
+    "city": "Litomy\u0161l",
+    "type": "culture",
+    "description": "A charming town known for its Renaissance castle, a UNESCO World Heritage site, and vibrant cultural events throughout the year.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hranice",
+    "city": "Hranice",
+    "type": "landmark",
+    "description": "A historical town with a rich heritage, known for its beautiful architecture and the nearby Hranice Abyss.",
+    "country": "Czech Republic",
+    "country_rank": 8
+  }
+]

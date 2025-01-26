@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Halong Bay",
+    "city": "Quang Ninh",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site known for its emerald waters and thousands of towering limestone islands topped with rainforests. A perfect spot for cruises, kayaking, and exploring caves.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Phong Nha-Ke Bang National Park",
+    "city": "Quang Binh",
+    "type": "nature",
+    "description": "Home to some of the world's largest and most spectacular caves, including Son Doong Cave. The park offers stunning landscapes and diverse ecosystems.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Hanoi Old Quarter",
+    "city": "Hanoi",
+    "type": "culture",
+    "description": "A bustling area filled with narrow streets, colonial architecture, and vibrant street food culture. The Old Quarter is a great place to experience the local lifestyle and history.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "My Son Sanctuary",
+    "city": "Quang Nam",
+    "type": "culture",
+    "description": "An ancient Hindu temple complex that showcases the Cham civilization's architectural prowess. It's a UNESCO World Heritage site surrounded by lush greenery.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Mekong Delta",
+    "city": "Mekong Delta",
+    "type": "nature",
+    "description": "A vast network of rivers, swamps, and islands, known for its floating markets and traditional villages. A unique destination to experience rural Vietnamese life.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Cu Chi Tunnels",
+    "city": "Ho Chi Minh City",
+    "type": "landmark",
+    "description": "An extensive underground tunnel system used during the Vietnam War. Visitors can explore parts of the tunnels and learn about their historical significance.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Sapa",
+    "city": "Lao Cai",
+    "type": "nature",
+    "description": "Famous for its terraced rice fields and stunning mountain landscapes. Sapa is also home to diverse ethnic minority groups and offers trekking opportunities.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Hue Imperial City",
+    "city": "Hue",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site that served as the imperial capital of Vietnam. The complex features palaces, temples, and a massive wall, showcasing the country's royal history.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Hoi An Ancient Town",
+    "city": "Quang Nam",
+    "type": "culture",
+    "description": "A well-preserved town known for its mix of different architectural styles, beautiful lanterns, and vibrant markets. Hoi An is a UNESCO World Heritage site that offers a glimpse into Vietnam's past.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Nha Trang",
+    "city": "Khanh Hoa",
+    "type": "entertainment",
+    "description": "A coastal city famous for its beautiful beaches, vibrant nightlife, and water sports. Nha Trang also features historical sites like the Po Nagar Cham Towers.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Cat Ba Island",
+    "city": "Hai Phong",
+    "type": "nature",
+    "description": "The largest island in Halong Bay, known for its beautiful beaches and rugged landscapes. It's a great place for hiking, swimming, and exploring unique wildlife.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Ba Na Hills",
+    "city": "Da Nang",
+    "type": "entertainment",
+    "description": "Famous for its Golden Bridge held up by giant stone hands, Ba Na Hills offers panoramic views, amusement parks, and stunning gardens. A popular day trip destination from Da Nang.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Ninh Binh",
+    "city": "Ninh Binh",
+    "type": "nature",
+    "description": "Often referred to as 'Halong Bay on land', Ninh Binh features spectacular limestone karsts and lush rice paddies. Visitors can enjoy boat rides through scenic landscapes.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Tam Coc",
+    "city": "Ninh Binh",
+    "type": "nature",
+    "description": "A stunning area known for its limestone caves and picturesque rice fields. A boat ride along the river offers breathtaking views of the surrounding countryside.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bana Hills",
+    "city": "Da Nang",
+    "type": "entertainment",
+    "description": "Home to the famous Golden Bridge and a French-themed village, Bana Hills offers a mix of culture, stunning views, and amusement attractions.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Dalat",
+    "city": "Lam Dong",
+    "type": "nature",
+    "description": "Known as the 'City of Eternal Spring', Dalat is famous for its cool climate, beautiful gardens, and French colonial architecture. It's perfect for outdoor activities and relaxation.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Tam Dao",
+    "city": "Vinh Phuc",
+    "type": "nature",
+    "description": "A charming mountain town with cool weather, lush forests, and stunning views. Ideal for hiking and enjoying the serene atmosphere.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Can Tho",
+    "city": "Can Tho",
+    "type": "culture",
+    "description": "The largest city in the Mekong Delta, famous for its floating markets and river life. Can Tho offers a unique cultural experience and delicious local cuisine.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Mui Ne",
+    "city": "Binh Thuan",
+    "type": "nature",
+    "description": "Known for its stunning sand dunes and beaches, Mui Ne is a popular destination for water sports, especially kite surfing. The red and white sand dunes create a unique landscape.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Lang Co Beach",
+    "city": "Thua Thien-Hue",
+    "type": "nature",
+    "description": "A beautiful stretch of coastline known for its clear waters and sandy beaches. It's an ideal spot for relaxation and water activities.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Yen Tu Mountain",
+    "city": "Quang Ninh",
+    "type": "nature",
+    "description": "A sacred mountain with a rich history, known for its Buddhist temples and serene landscapes. The area offers breathtaking views and peaceful hiking trails.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bai Tu Long Bay",
+    "city": "Quang Ninh",
+    "type": "nature",
+    "description": "A lesser-known counterpart to Halong Bay, Bai Tu Long Bay offers stunning scenery, tranquil waters, and fewer tourists, making it perfect for peaceful exploration.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Phu Quoc Island",
+    "city": "Kien Giang",
+    "type": "nature",
+    "description": "Famous for its pristine beaches and lush tropical landscapes, Phu Quoc is a paradise for relaxation and water sports. It's also known for its unique fish sauce production.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Son La Coffee Plantations",
+    "city": "Son La",
+    "type": "culture",
+    "description": "Known for its high-quality coffee, this region offers stunning landscapes and a chance to learn about the coffee production process. Visitors can enjoy local coffee and explore plantations.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bach Ma National Park",
+    "city": "Thua Thien-Hue",
+    "type": "nature",
+    "description": "A beautiful park with diverse flora and fauna, hiking trails, and stunning views from its peak. It's a hidden gem for nature lovers.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Con Dao Islands",
+    "city": "Ba Ria-Vung Tau",
+    "type": "nature",
+    "description": "A group of islands with pristine beaches and rich history, known for their national park and marine life. It's perfect for diving, snorkeling, and exploring historical sites.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Dai Loc",
+    "city": "Quang Nam",
+    "type": "culture",
+    "description": "A rural district known for its traditional crafts and peaceful landscapes. Visitors can experience local life and enjoy authentic Vietnamese cuisine.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Binh Ba Island",
+    "city": "Khanh Hoa",
+    "type": "nature",
+    "description": "A lesser-known island with beautiful beaches and clear waters, perfect for snorkeling and relaxation. The island is known for its fresh seafood.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Coc Ly Market",
+    "city": "Lao Cai",
+    "type": "culture",
+    "description": "A vibrant local market that takes place every Tuesday, showcasing ethnic minority crafts, foods, and customs. It's a great place to experience local culture.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Thung Nai",
+    "city": "Hoa Binh",
+    "type": "nature",
+    "description": "A serene lake area surrounded by lush mountains, perfect for boat rides and camping. It's lesser-known, making it a peaceful getaway.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bai Dinh Pagoda",
+    "city": "Ninh Binh",
+    "type": "landmark",
+    "description": "One of the largest Buddhist complexes in Vietnam, featuring impressive architecture and beautiful landscapes. It's a major pilgrimage site and cultural landmark.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Tam Thanh Mural Village",
+    "city": "Quang Nam",
+    "type": "culture",
+    "description": "A village transformed by colorful murals, showcasing local culture and art. It's a great spot for photography and appreciating local creativity.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Mai Chau",
+    "city": "Hoa Binh",
+    "type": "nature",
+    "description": "A picturesque valley known for its stunning landscapes and ethnic minority communities. It's an excellent place for trekking and cultural experiences.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Lang Biang Mountain",
+    "city": "Lam Dong",
+    "type": "nature",
+    "description": "A popular trekking destination with stunning views and diverse flora and fauna. The area is also rich in local legend and culture.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bai Xep Beach",
+    "city": "Phu Yen",
+    "type": "nature",
+    "description": "A tranquil beach known for its beauty and laid-back atmosphere. It's a hidden gem for those looking to escape the crowds.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Tam Coc-Bich Dong",
+    "city": "Ninh Binh",
+    "type": "nature",
+    "description": "A stunning area featuring limestone caves and picturesque landscapes. It's perfect for boat trips and exploring the surrounding scenery.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Phu Yen's Ganh Da Dia",
+    "city": "Phu Yen",
+    "type": "landmark",
+    "description": "Known for its unique hexagonal basalt columns, this geological formation is a stunning sight. It's a great spot for photography and enjoying the coastal scenery.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Bac Ha Market",
+    "city": "Lao Cai",
+    "type": "culture",
+    "description": "One of the biggest and most colorful markets in northern Vietnam, held on Sundays. It's a vibrant place to experience local culture and shop for handicrafts.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Hanoi Opera House",
+    "city": "Hanoi",
+    "type": "landmark",
+    "description": "An architectural masterpiece built during the French colonial period. The Opera House hosts various cultural performances and is a symbol of Hanoi's heritage.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Con Son Island",
+    "city": "Hai Duong",
+    "type": "nature",
+    "description": "A tranquil island known for its beautiful landscapes and historical significance as a revolutionary site. It's a peaceful place for relaxation and exploring nature.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Da Nang Marble Mountains",
+    "city": "Da Nang",
+    "type": "nature",
+    "description": "A cluster of five marble and limestone hills, famous for their caves, tunnels, and Buddhist temples. A great spot for hiking and enjoying panoramic views.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Kong Island",
+    "city": "Kien Giang",
+    "type": "nature",
+    "description": "A secluded island with pristine beaches and rich biodiversity. It's a perfect escape for nature lovers and those seeking tranquility.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Lang Co Fishing Village",
+    "city": "Thua Thien-Hue",
+    "type": "culture",
+    "description": "A charming fishing village known for its traditional way of life and stunning coastal scenery. Visitors can explore local culture and enjoy fresh seafood.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Tam Suoi Waterfall",
+    "city": "Ninh Thuan",
+    "type": "nature",
+    "description": "A hidden gem with stunning waterfalls surrounded by lush greenery. It's an ideal spot for picnics and enjoying nature.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Thang Long Water Puppet Theatre",
+    "city": "Hanoi",
+    "type": "entertainment",
+    "description": "A unique cultural performance showcasing traditional Vietnamese water puppetry. It's an entertaining way to learn about local folklore and traditions.",
+    "country": "Vietnam",
+    "country_rank": 8
+  },
+  {
+    "name": "Nha Trang Vinpearl Land",
+    "city": "Khanh Hoa",
+    "type": "entertainment",
+    "description": "A large amusement park and resort on an island, featuring rides, water parks, and beautiful beaches. A fun destination for families and thrill-seekers.",
+    "country": "Vietnam",
+    "country_rank": 8
+  }
+]

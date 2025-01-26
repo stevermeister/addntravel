@@ -1,0 +1,410 @@
+[
+  {
+    "name": "AlUla",
+    "city": "AlUla",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, AlUla is known for its stunning rock formations and ancient tombs. It offers a glimpse into the rich history of the Nabateans.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Madain Saleh",
+    "city": "AlUla",
+    "type": "culture",
+    "description": "Another UNESCO site, Madain Saleh features well-preserved Nabatean tombs carved into sandstone mountains, showcasing incredible archaeological significance.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riyadh's National Museum",
+    "city": "Riyadh",
+    "type": "culture",
+    "description": "This museum offers an extensive overview of Arabian history and culture, with interactive exhibits and artifacts dating back to prehistoric times.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Diriyah",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A historic town that served as the original home of the Saudi royal family, Diriyah features beautiful mud-brick architecture and is a symbol of Saudi heritage.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al Khobar Corniche",
+    "city": "Al Khobar",
+    "type": "nature",
+    "description": "This picturesque waterfront promenade offers stunning views of the Arabian Gulf, with parks, walking paths, and recreational activities for families.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Abha",
+    "city": "Abha",
+    "type": "nature",
+    "description": "Known for its cool climate and lush landscapes, Abha is a perfect getaway featuring the Asir National Park and stunning views of the surrounding mountains.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jeddah Corniche",
+    "city": "Jeddah",
+    "type": "nature",
+    "description": "A scenic waterfront area featuring parks, sculptures, and the iconic King Fahd Fountain, the Jeddah Corniche is perfect for leisurely strolls and picnics.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Taif",
+    "city": "Taif",
+    "type": "nature",
+    "description": "Famous for its rose gardens and cool climate, Taif is a charming mountain town that offers beautiful landscapes and a vibrant local culture.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "King Fahd's Fountain",
+    "city": "Jeddah",
+    "type": "landmark",
+    "description": "The tallest water fountain in the world, King Fahd's Fountain is a stunning sight, especially when illuminated at night, and a symbol of Jeddah.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Qasr Marid",
+    "city": "Najran",
+    "type": "landmark",
+    "description": "An ancient fort in Najran, Qasr Marid showcases the region's history and architecture, standing testament to the area's rich past.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Edge of the World",
+    "city": "Riyadh",
+    "type": "nature",
+    "description": "A breathtaking geological wonder featuring dramatic cliffs that overlook the surrounding plains, offering stunning views and a serene atmosphere.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Ahsa Oasis",
+    "city": "Al Ahsa",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Al-Ahsa is a lush oasis known for its date palms, historical sites, and traditional mud-brick architecture.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "King Abdulaziz Historical Center",
+    "city": "Riyadh",
+    "type": "culture",
+    "description": "A cultural complex that includes museums and gardens, this center offers insights into the history and development of Saudi Arabia.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Balad",
+    "city": "Jeddah",
+    "type": "culture",
+    "description": "The old town of Jeddah, Al-Balad is characterized by its traditional coral houses and historical sites, reflecting the city's rich trading history.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Wadi Rum",
+    "city": "Near Tabuk",
+    "type": "nature",
+    "description": "Known for its stunning desert landscapes, Wadi Rum offers adventure seekers options for rock climbing, hiking, and exploring ancient petroglyphs.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jebel al-Lawz",
+    "city": "Tabuk",
+    "type": "nature",
+    "description": "A mountain that is said to be the biblical Mount Sinai, Jebel al-Lawz is surrounded by beautiful landscapes and is perfect for hiking enthusiasts.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Soudah Park",
+    "city": "Abha",
+    "type": "nature",
+    "description": "A picturesque park located in the Asir region, Al-Soudah offers cool weather, stunning views, and opportunities for hiking and picnicking.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Namas",
+    "city": "Al Namas",
+    "type": "nature",
+    "description": "Known for its beautiful nature and scenic views, Al-Namas is a charming destination with lush green valleys and traditional villages.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Heritage Village",
+    "city": "Abha",
+    "type": "culture",
+    "description": "A cultural attraction showcasing traditional Saudi architecture and crafts, the Heritage Village provides insight into the customs and history of the region.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Buraidah's Date Market",
+    "city": "Buraidah",
+    "type": "culture",
+    "description": "One of the largest date markets in the world, Buraidah's market offers a wide variety of dates and a glimpse into the local agricultural culture.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Diriyah Gate",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A historic district in Riyadh that preserves the traditional architecture and rich history of the Saudi dynasty, offering a cultural experience.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jeddah Sculpture Museum",
+    "city": "Jeddah",
+    "type": "culture",
+    "description": "An open-air museum featuring contemporary sculptures from local and international artists, located along the Jeddah Corniche.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Khobar's Half Moon Bay",
+    "city": "Al Khobar",
+    "type": "nature",
+    "description": "A beautiful beach area perfect for water sports, picnics, and family outings, known for its crescent-shaped coastline.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Red Sea Project",
+    "city": "Saudi Arabia's West Coast",
+    "type": "entertainment",
+    "description": "An ambitious tourism development project that aims to create a luxury resort destination along the stunning Red Sea coast.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Faisaliah Tower",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "One of Riyadh's most iconic skyscrapers, featuring a unique globe-shaped top and offering panoramic views of the city from its observation deck.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Masmak Fortress",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A historic mud-brick fort that played a key role in the unification of Saudi Arabia, now serving as a museum showcasing the country's history.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kingdom Centre",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A prominent skyscraper with a distinctive design, featuring a sky bridge and a shopping mall, offering spectacular views of Riyadh.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Jawf",
+    "city": "Al-Jawf",
+    "type": "culture",
+    "description": "Known for its ancient ruins and archaeological sites, Al-Jawf offers a glimpse into pre-Islamic history with its rock carvings and forts.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Hasa Heritage Village",
+    "city": "Al Ahsa",
+    "type": "culture",
+    "description": "A traditional village showcasing the rich cultural heritage of the Al Ahsa region, with museums, crafts, and historical architecture.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ushaiger Heritage Village",
+    "city": "Riyadh",
+    "type": "culture",
+    "description": "A preserved traditional village that reflects the architectural style and lifestyle of Saudi Arabia's past, complete with museums and handicrafts.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Salam Palace",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A royal palace known for its impressive architecture and gardens, showcasing the beauty of traditional Saudi design.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Masjid an-Nabawi",
+    "city": "Medina",
+    "type": "landmark",
+    "description": "The second holiest mosque in Islam, it is a site of pilgrimage for millions, featuring stunning architecture and a peaceful atmosphere.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Mount Uhud",
+    "city": "Medina",
+    "type": "landmark",
+    "description": "A historic site of a famous battle in Islamic history, Mount Uhud offers hiking opportunities and panoramic views of the surrounding area.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Baha",
+    "city": "Al Baha",
+    "type": "nature",
+    "description": "A stunning mountainous region known for its natural beauty, cool climate, and vibrant local culture, perfect for outdoor activities.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Farasan Islands",
+    "city": "Farasan",
+    "type": "nature",
+    "description": "A beautiful archipelago in the Red Sea, known for its pristine beaches, coral reefs, and rich marine life, ideal for diving and snorkeling.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Empty Quarter (Rub' al Khali)",
+    "city": "Southern Saudi Arabia",
+    "type": "nature",
+    "description": "The largest continuous sand desert in the world, offering stunning dunes and a sense of adventure for those willing to explore its remote beauty.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Quba Mosque",
+    "city": "Medina",
+    "type": "landmark",
+    "description": "The first mosque built in Islam, Quba Mosque is a significant religious site with beautiful architecture and a serene atmosphere.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Fahad Park",
+    "city": "Riyadh",
+    "type": "nature",
+    "description": "A large urban park offering green spaces, walking paths, and recreational facilities, perfect for families and outdoor enthusiasts.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Qasr Al-Masmak",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "A historic fort that played a significant role in the kingdom's history, now serving as a museum showcasing artifacts from the unification of Saudi Arabia.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Nassif House Museum",
+    "city": "Jeddah",
+    "type": "culture",
+    "description": "A beautifully restored historic home that provides insight into the lifestyle of Jeddah's elite in the 19th century, featuring traditional architecture and artifacts.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Jouf Olive Oil Factory",
+    "city": "Al-Jouf",
+    "type": "culture",
+    "description": "One of the largest olive oil producers in the region, this factory offers tours and tastings, showcasing the importance of olive farming in Saudi culture.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "King Abdullah Park",
+    "city": "Riyadh",
+    "type": "nature",
+    "description": "A large urban park featuring beautiful landscapes, walking paths, and recreational areas, perfect for relaxation and family outings.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Majma'ah",
+    "city": "Majma'ah",
+    "type": "culture",
+    "description": "A lesser-known city with a rich history, featuring traditional architecture and local markets that reflect the cultural heritage of the region.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Qarah Mountain",
+    "city": "Al Ahsa",
+    "type": "nature",
+    "description": "A unique geological formation with stunning caves and rock formations, offering hiking opportunities and beautiful views of the surrounding landscape.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jeddah's Floating Mosque",
+    "city": "Jeddah",
+    "type": "landmark",
+    "description": "A stunning mosque built on stilts over the sea, offering breathtaking views and a peaceful atmosphere for worshippers and visitors alike.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Abha's Cable Car",
+    "city": "Abha",
+    "type": "entertainment",
+    "description": "Offering panoramic views of the Asir mountains, the cable car ride is a thrilling experience that showcases the stunning landscapes of Abha.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Ula's Elephant Rock",
+    "city": "AlUla",
+    "type": "nature",
+    "description": "A natural rock formation resembling an elephant, this stunning geological feature is a popular spot for photography and exploration.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Wadi Hanifah",
+    "city": "Riyadh",
+    "type": "nature",
+    "description": "A beautiful valley that offers a refreshing escape from the city, featuring walking paths, parks, and natural landscapes.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Al-Madhbah",
+    "city": "Makkah",
+    "type": "landmark",
+    "description": "A significant historical site near Makkah, known for its association with the rituals of Hajj and its proximity to the sacred city.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "King Khalid Grand Mosque",
+    "city": "Riyadh",
+    "type": "landmark",
+    "description": "One of the largest mosques in Saudi Arabia, known for its impressive architecture and serene atmosphere, welcoming visitors for prayer and reflection.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  },
+  {
+    "name": "Khamis Mushait",
+    "city": "Khamis Mushait",
+    "type": "culture",
+    "description": "A city rich in cultural heritage, known for its traditional crafts, vibrant markets, and proximity to the stunning Asir mountains.",
+    "country": "Saudi Arabia",
+    "country_rank": 7
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "name": "Grandvalira",
+    "city": "Encamp",
+    "type": "nature",
+    "description": "The largest ski resort in the Pyrenees, Grandvalira offers over 200 kilometers of slopes and breathtaking mountain views. It's a winter sports paradise, attracting skiers and snowboarders from around the world.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Andorra la Vella",
+    "city": "Andorra la Vella",
+    "type": "culture",
+    "description": "The capital city is known for its charming old town, vibrant shopping scene, and rich history. Visitors can explore the stunning Romanesque churches and enjoy the lively atmosphere of the streets.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Vallnord",
+    "city": "La Massana",
+    "type": "nature",
+    "description": "A popular ski resort in Andorra, Vallnord offers a range of winter sports and summer mountain biking trails. It's known for its stunning landscapes and family-friendly activities.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Casa de la Vall",
+    "city": "Andorra la Vella",
+    "type": "landmark",
+    "description": "This historic house served as the seat of Andorra's parliament for over 200 years. Its medieval architecture and beautiful interior give visitors a glimpse into the country's past.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Sant Joan de Caselles",
+    "city": "Canillo",
+    "type": "culture",
+    "description": "A stunning Romanesque church dating back to the 11th century, Sant Joan de Caselles features beautiful frescoes and an iconic bell tower. It represents Andorra's rich cultural heritage.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Estany de les Truites",
+    "city": "Encamp",
+    "type": "nature",
+    "description": "A hidden gem, this serene lake is perfect for a peaceful hike and offers picturesque views of the surrounding mountains. It's a great spot for picnicking and enjoying nature.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Naturland",
+    "city": "Sant Juli\u00e0 de L\u00f2ria",
+    "type": "entertainment",
+    "description": "An adventure park that combines nature with fun activities, Naturland features a toboggan run, zip lines, and various outdoor sports. It's perfect for families and thrill-seekers alike.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Coma Pedrosa",
+    "city": "La Massana",
+    "type": "nature",
+    "description": "The highest peak in Andorra, Coma Pedrosa offers challenging hiking trails and breathtaking panoramic views. The trek to the summit is a rewarding adventure for experienced hikers.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Engordany Arts Centre",
+    "city": "Escaldes-Engordany",
+    "type": "culture",
+    "description": "This cultural hub showcases contemporary art exhibitions and hosts various cultural events throughout the year. It's a great place to experience local artistic talent.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Carrer de la Vall",
+    "city": "Andorra la Vella",
+    "type": "landmark",
+    "description": "Known for its charming architecture and historical significance, this street is lined with shops, cafes, and beautiful buildings. It's a great place for a leisurely stroll.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "La Cortinada Golf Club",
+    "city": "Ordino",
+    "type": "entertainment",
+    "description": "This picturesque 9-hole golf course offers stunning views of the surrounding mountains. It's a unique golfing experience in the heart of the Pyrenees.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Iron Route",
+    "city": "Various",
+    "type": "nature",
+    "description": "A unique hiking trail that takes visitors through Andorra's historical iron mines and natural landscapes. The route is dotted with informative signs about the region's mining history.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Palau de Gel",
+    "city": "Canillo",
+    "type": "entertainment",
+    "description": "A year-round ice rink that offers various activities such as ice skating and curling. It's a fun destination for families and those looking to try something new.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "La Casa de la Vall",
+    "city": "Andorra la Vella",
+    "type": "landmark",
+    "description": "An important historical building that once served as the seat of the Andorran parliament and a symbol of the country's governance. Visitors can explore its fascinating history and architecture.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Cultural Centre Andorra la Vella",
+    "city": "Andorra la Vella",
+    "type": "culture",
+    "description": "A modern cultural space that hosts exhibitions, concerts, and cultural events, showcasing Andorra's artistic heritage and contemporary creativity.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Roc de l'Abella",
+    "city": "La Massana",
+    "type": "nature",
+    "description": "This lesser-known viewpoint offers stunning vistas of the surrounding valleys and mountains. It's a perfect spot for photography and enjoying the beauty of Andorra.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Aig\u00fcestortes i Estany de Sant Maurici National Park",
+    "city": "El Pont de Suert",
+    "type": "nature",
+    "description": "Though primarily located in Spain, this national park's proximity to Andorra makes it a great destination for nature lovers. The park features stunning lakes, waterfalls, and hiking trails.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Les Fonts de les Escaldes",
+    "city": "Escaldes-Engordany",
+    "type": "landmark",
+    "description": "Beautiful thermal springs that are said to have healing properties. Visitors can enjoy the scenic surroundings and learn about the history of the thermal waters.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Tobacco Museum",
+    "city": "Sant Juli\u00e0 de L\u00f2ria",
+    "type": "culture",
+    "description": "This unique museum offers insights into the history and culture of tobacco production in Andorra. Visitors can explore exhibits showcasing traditional methods and tools.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Pic de Casamanya",
+    "city": "Ordino",
+    "type": "nature",
+    "description": "A popular hiking destination known for its distinctive shape and stunning views from the summit. The trail offers a challenging yet rewarding experience for hikers.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Museu del Perfum",
+    "city": "Escaldes-Engordany",
+    "type": "culture",
+    "description": "A unique museum dedicated to the art of perfumery, showcasing the history and techniques of fragrance creation. Visitors can learn about the perfume-making process and even create their own scent.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Catedral de Santa Maria",
+    "city": "Andorra la Vella",
+    "type": "landmark",
+    "description": "This beautiful cathedral features stunning architecture and intricate details. It's an important religious site and offers a glimpse into Andorra's spiritual heritage.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "L'Andorr\u00e0",
+    "city": "Andorra la Vella",
+    "type": "entertainment",
+    "description": "A local casino that offers gaming, entertainment, and dining options. It's a popular destination for those looking to try their luck and enjoy a night out.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Les Truites Lake",
+    "city": "Encamp",
+    "type": "nature",
+    "description": "A hidden lake surrounded by breathtaking scenery, perfect for a quiet retreat or a day of fishing. The area is tranquil and ideal for nature enthusiasts.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Vall d'Incles",
+    "city": "Canillo",
+    "type": "nature",
+    "description": "A picturesque valley known for its stunning landscapes, hiking trails, and diverse flora and fauna. It's a great spot for outdoor activities and enjoying the natural beauty of Andorra.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Andorran National Cinema",
+    "city": "Andorra la Vella",
+    "type": "entertainment",
+    "description": "Showcasing local and international films, this cinema is a cultural hub for film enthusiasts. It often hosts film festivals and special screenings.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Sant Serni de Nagol",
+    "city": "Nagol",
+    "type": "culture",
+    "description": "A hidden gem, this Romanesque church is known for its beautiful frescoes and tranquil setting. It's a perfect spot for those looking to explore Andorra's religious history.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Cam\u00ed de les Fonts",
+    "city": "Escaldes-Engordany",
+    "type": "nature",
+    "description": "A scenic walking trail that leads to various natural springs and waterfalls. It's a peaceful hike that showcases the natural beauty of Andorra.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Arinsal",
+    "city": "La Massana",
+    "type": "entertainment",
+    "description": "A charming village known for its skiing and outdoor activities. In summer, it transforms into a hub for hiking and mountain biking.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Andorran Parliament",
+    "city": "Andorra la Vella",
+    "type": "landmark",
+    "description": "A modern building that represents the democratic values of Andorra. Visitors can learn about the country's political system and governance.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Estany de Engolasters",
+    "city": "Escaldes-Engordany",
+    "type": "nature",
+    "description": "A beautiful glacial lake surrounded by stunning mountains, perfect for hiking and enjoying nature. The area offers picnic spots and scenic walking paths.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Miniatures",
+    "city": "Escaldes-Engordany",
+    "type": "culture",
+    "description": "A fascinating museum showcasing intricate miniatures and dioramas. It's a unique experience that fascinates visitors of all ages.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Ordino Arcal\u00eds",
+    "city": "Ordino",
+    "type": "nature",
+    "description": "A ski resort known for its excellent snow conditions and beautiful landscapes. In summer, it offers hiking trails and outdoor activities.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Sant Miquel d'Engolasters",
+    "city": "Escaldes-Engordany",
+    "type": "culture",
+    "description": "A stunning Romanesque church located near a picturesque lake. Its historical significance and beautiful surroundings make it a must-visit.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Historic Centre of Ordino",
+    "city": "Ordino",
+    "type": "culture",
+    "description": "A charming area filled with traditional Andorran architecture, quaint shops, and cafes. It's a great place to experience the local culture and history.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "La Massana Market",
+    "city": "La Massana",
+    "type": "entertainment",
+    "description": "A vibrant weekly market where locals sell fresh produce, crafts, and traditional goods. It's a fantastic way to experience Andorran culture.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The River Walk of Escaldes",
+    "city": "Escaldes-Engordany",
+    "type": "nature",
+    "description": "A beautiful pathway along the river, perfect for leisurely walks and enjoying the scenery. The area is dotted with sculptures and art installations.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Andorran Museum of Ethnography",
+    "city": "Encamp",
+    "type": "culture",
+    "description": "This museum showcases traditional Andorran life and culture through artifacts and exhibits. It's a great way to learn about the country's history.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Coll de la Botella",
+    "city": "Canillo",
+    "type": "nature",
+    "description": "A scenic mountain pass that offers stunning views and hiking opportunities. It's a peaceful retreat away from the hustle and bustle.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "The Route of the Romanesque Churches",
+    "city": "Various",
+    "type": "culture",
+    "description": "This route takes visitors through Andorra's beautiful Romanesque churches, showcasing their architectural beauty and historical significance. It's a unique cultural experience.",
+    "country": "Andorra",
+    "country_rank": 6
+  },
+  {
+    "name": "Port d'Envalira",
+    "city": "Encamp",
+    "type": "nature",
+    "description": "One of the highest mountain passes in the Pyrenees, offering breathtaking views and access to hiking trails. It's a popular spot for adventure seekers.",
+    "country": "Andorra",
+    "country_rank": 6
+  }
+]

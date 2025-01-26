@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Pico Duarte",
+    "city": "Jarabacoa",
+    "type": "nature",
+    "description": "The highest mountain in the Caribbean, Pico Duarte offers stunning views and challenging hikes. Adventurers can explore its diverse ecosystems and enjoy the cool climate.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Haitises National Park",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "A hidden gem with lush mangroves, limestone caves, and unique wildlife. This national park is perfect for eco-tourism, bird watching, and exploring ancient Taino petroglyphs.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "B\u00e1varo Beach",
+    "city": "Punta Cana",
+    "type": "nature",
+    "description": "Known for its powdery white sand and crystal-clear waters, B\u00e1varo Beach is a paradise for sun-seekers and water sports enthusiasts. It's also home to vibrant coral reefs.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Altos de Chav\u00f3n",
+    "city": "La Romana",
+    "type": "culture",
+    "description": "A replica of a 16th-century Mediterranean village, Altos de Chav\u00f3n features cobbled streets, artisan shops, and stunning views of the Chav\u00f3n River. It\u2019s also home to an amphitheater that hosts concerts.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Santo Domingo Colonial Zone",
+    "city": "Santo Domingo",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, this historic area features the oldest European architecture in the Americas, including the first cathedral and the Alc\u00e1zar de Col\u00f3n.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabarete Beach",
+    "city": "Cabarete",
+    "type": "entertainment",
+    "description": "Famous for its world-class windsurfing and kitesurfing, Cabarete Beach is a vibrant hub for water sports and nightlife, attracting adventure seekers from around the globe.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Dudu Lagoon",
+    "city": "Cabarete",
+    "type": "nature",
+    "description": "A stunning blue lagoon surrounded by lush vegetation, Dudu Lagoon is a perfect spot for swimming and snorkeling. Its unique underground caves offer an adventurous experience.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "27 Waterfalls of Damajagua",
+    "city": "Puerto Plata",
+    "type": "nature",
+    "description": "An exhilarating natural attraction where visitors can hike and jump through a series of beautiful waterfalls. It's a fun and refreshing experience for nature lovers.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Samana Bay",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "Famous for whale watching, Samana Bay is a stunning destination with lush landscapes and beautiful beaches. The bay is also home to the picturesque town of Las Terrenas.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cayo Levantado",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "A small island known for its palm-fringed beaches and crystal-clear waters. Cayo Levantado is a tranquil escape, perfect for relaxation and enjoying nature.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "La Romana",
+    "city": "La Romana",
+    "type": "culture",
+    "description": "Home to the famous Altos de Chav\u00f3n and beautiful beaches, La Romana is rich in culture and history. The city also hosts several art galleries and local craft shops.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Isla Saona",
+    "city": "La Romana",
+    "type": "nature",
+    "description": "A stunning island off the southeastern coast, Isla Saona is renowned for its pristine beaches and turquoise waters. It's a popular spot for day trips and snorkeling.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Tres Ojos",
+    "city": "Santo Domingo",
+    "type": "nature",
+    "description": "A remarkable natural park featuring three stunning lakes within limestone caves. Visitors can explore the caves, swim in the lakes, and learn about the area\u2019s history.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "El Limon Waterfall",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "A breathtaking waterfall surrounded by lush tropical forest. Visitors can hike to the waterfall and enjoy a refreshing swim in the natural pool below.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hoyo Azul",
+    "city": "Punta Cana",
+    "type": "nature",
+    "description": "A stunning natural lagoon known for its vibrant blue waters. Hoyo Azul is a hidden gem where visitors can swim and relax amid the beautiful scenery.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Bonao",
+    "city": "Bonao",
+    "type": "nature",
+    "description": "Known for its beautiful mountains and rivers, Bonao is a great destination for hiking and exploring nature. It offers a taste of Dominican rural life.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cascada El Lim\u00f3n",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "This impressive waterfall cascades over 50 meters into a natural pool. It\u2019s a popular spot for hiking and photography, surrounded by lush tropical vegetation.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Zona Colonial",
+    "city": "Santo Domingo",
+    "type": "culture",
+    "description": "The heart of Santo Domingo, this area is rich in history, featuring colonial architecture, museums, and vibrant street life. It\u2019s a UNESCO World Heritage Site.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional Jaragua",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "A national park with diverse ecosystems, including wetlands, beaches, and dry forests. It's a great spot for bird watching and exploring untouched nature.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Cacaos",
+    "city": "Santo Domingo",
+    "type": "culture",
+    "description": "A charming village known for its traditional Dominican culture and local crafts. Visitors can enjoy authentic cuisine and experience the local way of life.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "La Isla de la Bah\u00eda",
+    "city": "Bayahibe",
+    "type": "nature",
+    "description": "A beautiful island with tranquil beaches and crystal-clear waters. It\u2019s a great spot for snorkeling and relaxation away from the crowds.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Macor\u00eds del Sur",
+    "city": "San Pedro de Macor\u00eds",
+    "type": "culture",
+    "description": "Known for its rich baseball culture, San Pedro de Macor\u00eds is home to several baseball academies. Visitors can immerse themselves in local sports culture.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Punta Rucia",
+    "city": "Puerto Plata",
+    "type": "nature",
+    "description": "A serene beach destination with stunning natural beauty and a laid-back atmosphere. It\u2019s known for its clear waters and nearby natural reserves.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Sierra de Bahoruco",
+    "city": "Bahoruco",
+    "type": "nature",
+    "description": "A mountainous region with diverse ecosystems and stunning landscapes. It's perfect for hiking and observing unique flora and fauna.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabo Rojo",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "Famous for its breathtaking cliffs and stunning ocean views, Cabo Rojo is a hidden paradise ideal for photography and nature lovers.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "La Altagracia",
+    "city": "Higuey",
+    "type": "culture",
+    "description": "Home to the Basilica of Our Lady of Altagracia, this city is a significant religious center. Visitors can explore its rich history and local culture.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "El Morro",
+    "city": "Santo Domingo",
+    "type": "landmark",
+    "description": "An iconic fortress dating back to the 16th century, El Morro offers stunning views of the city and sea. It\u2019s a historical site with significant cultural importance.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional del Este",
+    "city": "La Romana",
+    "type": "nature",
+    "description": "This national park is known for its diverse ecosystems, including mangroves and coral reefs. It's a great place for hiking, bird watching, and snorkeling.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cerro de Punta",
+    "city": "San Juan",
+    "type": "nature",
+    "description": "The second highest peak in the Caribbean, Cerro de Punta is a popular destination for hiking and offers panoramic views of the surrounding landscapes.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cueva de las Maravillas",
+    "city": "La Romana",
+    "type": "landmark",
+    "description": "A fascinating cave system featuring stunning stalactites and stalagmites. Guided tours provide insight into the geological history and Taino culture.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Saman\u00e1 Peninsula",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "This picturesque peninsula is famous for its lush landscapes, stunning beaches, and whale watching opportunities. It's a perfect blend of adventure and relaxation.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Laguna de Oviedo",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "A beautiful saltwater lagoon known for its diverse bird species and unique ecosystems. It's a great spot for kayaking and bird watching.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Punta Cana Ecological Foundation",
+    "city": "Punta Cana",
+    "type": "nature",
+    "description": "An organization focused on conservation and education about local ecosystems. Visitors can learn about sustainability and explore beautiful natural surroundings.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Hacienda La Esmeralda",
+    "city": "Santiago",
+    "type": "culture",
+    "description": "A coffee plantation offering tours and tastings. Visitors can learn about the coffee production process and enjoy the beautiful mountainous landscape.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cayo Arena",
+    "city": "Monte Cristi",
+    "type": "nature",
+    "description": "A stunning small island known for its pristine beaches and vibrant marine life. Ideal for snorkeling and a perfect getaway for nature lovers.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "El Choco National Park",
+    "city": "Cabarete",
+    "type": "nature",
+    "description": "A protected area featuring lush tropical forests, caves, and diverse wildlife. It\u2019s a great place for hiking and exploring the region\u2019s natural beauty.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral Primada de Am\u00e9rica",
+    "city": "Santo Domingo",
+    "type": "landmark",
+    "description": "The oldest cathedral in the Americas, this architectural marvel showcases Gothic and Baroque styles. It\u2019s a significant historical site in the Colonial Zone.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "La Playa de Los Muertos",
+    "city": "Barahona",
+    "type": "nature",
+    "description": "A beautiful beach known for its unique black sand and clear waters. It's a tranquil spot for relaxation and enjoying the natural surroundings.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Museo de las Casas Reales",
+    "city": "Santo Domingo",
+    "type": "culture",
+    "description": "A museum housed in a historic building that showcases the colonial history of the Dominican Republic. Exhibits include artifacts and artworks from the colonial era.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Mirador Sur",
+    "city": "Santo Domingo",
+    "type": "nature",
+    "description": "A beautiful urban park along the coastline, perfect for picnics, walking, and enjoying views of the Caribbean Sea. It\u2019s a popular spot for locals and tourists alike.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "La Romana's Sugar Cane Fields",
+    "city": "La Romana",
+    "type": "culture",
+    "description": "Explore the rich history of sugar production in the Dominican Republic. Visitors can learn about the sugar cane industry and its impact on local culture.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cueva de los Taino",
+    "city": "Santo Domingo",
+    "type": "landmark",
+    "description": "An archaeological site featuring ancient Taino petroglyphs and artifacts. It's a fascinating glimpse into the indigenous culture of the island.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Punta de la Playa",
+    "city": "Puerto Plata",
+    "type": "nature",
+    "description": "A stunning beach known for its serene environment and beautiful sunsets. It\u2019s less crowded, making it perfect for relaxation and enjoying nature.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Playa Grande",
+    "city": "Rio San Juan",
+    "type": "nature",
+    "description": "A stunning beach known for its golden sand and clear waters. It\u2019s a great spot for swimming and lounging, surrounded by beautiful landscapes.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Parque Nacional Jaragua",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "A national park featuring diverse ecosystems, including coastal and marine areas. It\u2019s a great destination for hiking, bird watching, and exploring nature.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Bah\u00eda de las \u00c1guilas",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "A remote and pristine beach known for its stunning beauty and crystal-clear waters. It's a hidden paradise for those seeking tranquility.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabo San Rafael",
+    "city": "Santiago",
+    "type": "nature",
+    "description": "A beautiful coastal area featuring stunning cliffs and clear waters. It's perfect for hiking and enjoying breathtaking views.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Playa de Bayahibe",
+    "city": "La Romana",
+    "type": "nature",
+    "description": "A picturesque beach with soft white sand and calm waters, ideal for swimming and snorkeling. It\u2019s a gateway to nearby diving spots.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "El Parque Nacional de los Haitises",
+    "city": "Saman\u00e1",
+    "type": "nature",
+    "description": "A stunning national park featuring mangroves, limestone formations, and rich biodiversity. It's a great place for eco-tours and exploring nature.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabo Rojo",
+    "city": "Pedernales",
+    "type": "nature",
+    "description": "Renowned for its dramatic cliffs and stunning coastal views, Cabo Rojo is an ideal destination for nature lovers and photographers.",
+    "country": "Dominican Republic",
+    "country_rank": 8
+  }
+]

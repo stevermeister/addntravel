@@ -1,0 +1,338 @@
+[
+  {
+    "name": "The Museum of Islamic Art",
+    "city": "Doha",
+    "type": "culture",
+    "description": "This architectural marvel designed by I.M. Pei houses a vast collection of Islamic art spanning 1,400 years. Its location on the Doha Corniche provides stunning views of the city skyline.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Souq Waqif",
+    "city": "Doha",
+    "type": "culture",
+    "description": "A vibrant marketplace that offers a glimpse into traditional Qatari life. Visitors can explore shops selling spices, textiles, and handicrafts, as well as enjoy local cuisine in various restaurants.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Katara Cultural Village",
+    "city": "Doha",
+    "type": "culture",
+    "description": "A cultural hub that features art galleries, theaters, and concert halls. Katara hosts numerous festivals and events, showcasing the rich heritage and diversity of Qatar.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar National Museum",
+    "city": "Doha",
+    "type": "culture",
+    "description": "Designed by Jean Nouvel, this museum narrates the story of Qatar's past, present, and future through immersive exhibits. Its unique architecture resembles a desert rose.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Pearl-Qatar",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "An artificial island known for its luxury residences, shops, and dining options. The Pearl features beautiful canals and a Mediterranean ambiance, making it a popular destination for leisure.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Zubarah Fort",
+    "city": "Al Zubarah",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this 18th-century fort offers insight into the region's history and pearl trading past. The surrounding archaeological site contains ruins of a once-thriving town.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Aspire Park",
+    "city": "Doha",
+    "type": "nature",
+    "description": "One of the largest parks in Doha, featuring lush green spaces, lakes, and walking paths. It's a perfect spot for picnics and outdoor activities, with views of the iconic Aspire Tower.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Doha Corniche",
+    "city": "Doha",
+    "type": "landmark",
+    "description": "A picturesque waterfront promenade offering stunning views of the Arabian Gulf and the Doha skyline. It's a popular place for walking, jogging, and enjoying the sunset.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Waqif Art Gallery",
+    "city": "Doha",
+    "type": "culture",
+    "description": "Nested within Souq Waqif, this gallery showcases contemporary art from local and international artists. It's a hidden gem for art lovers looking to explore Qatar's growing art scene.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Wakrah Heritage Village",
+    "city": "Al Wakrah",
+    "type": "culture",
+    "description": "A quaint seaside village that reflects traditional Qatari architecture and lifestyle. Visitors can explore restored buildings, museums, and enjoy fresh seafood at local restaurants.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Khor Al Adaid",
+    "city": "Mesaieed",
+    "type": "nature",
+    "description": "Also known as the Inland Sea, this stunning natural reserve is surrounded by towering sand dunes. It's a haven for adventure lovers, offering opportunities for dune bashing and camel rides.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar Desert",
+    "city": "Various",
+    "type": "nature",
+    "description": "The vast and beautiful desert offers unique experiences like camping under the stars, desert safaris, and sandboarding. It\u2019s a perfect escape into nature, showcasing Qatar's natural beauty.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Fanar - Qatar Islamic Cultural Center",
+    "city": "Doha",
+    "type": "culture",
+    "description": "A center dedicated to promoting Islamic culture and understanding. The spiral minaret, inspired by traditional designs, is a landmark and hosts various cultural events and educational programs.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Thakira Mangroves",
+    "city": "Al Khor",
+    "type": "nature",
+    "description": "A serene natural habitat featuring lush mangroves, perfect for kayaking and bird-watching. This hidden gem is ideal for nature enthusiasts looking to explore Qatar's diverse ecosystems.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Msheireb Downtown Doha",
+    "city": "Doha",
+    "type": "culture",
+    "description": "A modern development that revitalizes the old commercial center of Doha with sustainable architecture. It blends culture, heritage, and contemporary lifestyle, featuring museums and shops.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Qatar Opera House",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "An architectural masterpiece that hosts a variety of performances, from opera to ballet. The venue's stunning design and acoustics make it a must-visit for culture enthusiasts.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jassasiya Carvings",
+    "city": "Al Jassasiya",
+    "type": "culture",
+    "description": "An archaeological site featuring ancient petroglyphs carved into rocks, dating back to the pre-Islamic period. It's a fascinating glimpse into Qatar's historical heritage.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar Science and Technology Park",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "A hub for innovation and technology, offering interactive exhibits and workshops. It\u2019s a great destination for families and anyone interested in science and technology.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Lusail City",
+    "city": "Lusail",
+    "type": "entertainment",
+    "description": "A futuristic city under development, aiming to be a smart and sustainable urban center. It features stunning architecture, parks, and waterfront areas that attract visitors.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "National Museum of Qatar",
+    "city": "Doha",
+    "type": "culture",
+    "description": "This museum showcases Qatar's rich culture and history through immersive exhibits. The building's unique design resembles a desert rose, symbolizing the country's heritage.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Khor Park",
+    "city": "Al Khor",
+    "type": "nature",
+    "description": "A beautiful park featuring gardens, playgrounds, and a small zoo. It's an ideal place for families to relax and enjoy outdoor activities in a scenic environment.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Doha Festival City",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "One of the largest retail and entertainment destinations in Qatar, offering shopping, dining, and leisure activities. The mall features an indoor snow park and a range of family-friendly attractions.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Doha Exhibition and Convention Center",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "A modern venue that hosts various exhibitions, conferences, and events throughout the year. It plays a significant role in Qatar\u2019s growing business and tourism sectors.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Wajba Fort",
+    "city": "Doha",
+    "type": "landmark",
+    "description": "An important historical site that dates back to the 18th century, known for its role in the Battle of Al Wajba. The fort provides insight into Qatar's military history and architecture.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Zekreet Beach",
+    "city": "Zekreet",
+    "type": "nature",
+    "description": "A tranquil beach known for its stunning rock formations and clear waters. It's a lesser-known destination perfect for picnics, swimming, and enjoying the natural beauty of Qatar.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Reem Biosphere Reserve",
+    "city": "Various",
+    "type": "nature",
+    "description": "A protected area showcasing Qatar's natural landscapes and biodiversity. It's an excellent location for eco-tourism, offering opportunities for hiking and wildlife observation.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Fanar Mosque",
+    "city": "Doha",
+    "type": "landmark",
+    "description": "Known for its stunning spiral minaret, this mosque is a symbol of Islamic architecture in Qatar. It serves as a place of worship and cultural education for visitors.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Doha Art Gallery",
+    "city": "Doha",
+    "type": "culture",
+    "description": "A contemporary art space that showcases works from local and international artists. The gallery hosts exhibitions and events, making it a hub for the artistic community.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar Racing Club",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "Home to thrilling horse racing events and other equestrian activities. Visitors can experience the excitement of races and enjoy the beautiful facilities of the club.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Gharafa Park",
+    "city": "Doha",
+    "type": "nature",
+    "description": "A spacious park featuring walking trails, playgrounds, and picnic areas. It's a great spot for families and those looking to enjoy a day outdoors in a peaceful environment.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Wakrah Souq",
+    "city": "Al Wakrah",
+    "type": "culture",
+    "description": "A charming traditional market with a mix of shops selling local crafts, spices, and food. It's a lesser-known gem that offers a taste of Qatar's vibrant culture.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Torch Doha",
+    "city": "Doha",
+    "type": "landmark",
+    "description": "A unique hotel shaped like a torch, offering panoramic views of the city from its observation deck. The hotel also features a restaurant and sports facilities.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "The Barzan Towers",
+    "city": "Umm Salal Mohammed",
+    "type": "landmark",
+    "description": "Historic watchtowers built in the late 19th century, providing stunning views of the surrounding area. They are a testament to Qatar's architectural heritage.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Sailiya",
+    "city": "Doha",
+    "type": "nature",
+    "description": "A natural reserve known for its stunning landscapes and wildlife. Visitors can enjoy outdoor activities like hiking and bird-watching in this serene environment.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Koot Fort",
+    "city": "Doha",
+    "type": "landmark",
+    "description": "A historical fort that served as a military fortress in the 19th century. It now houses a museum showcasing Qatar's history and cultural heritage.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar University",
+    "city": "Doha",
+    "type": "culture",
+    "description": "The country's primary institution of higher education, known for its beautiful campus and cultural events. Visitors can explore its facilities and attend various academic and cultural programs.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Wadi Desert Resort",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "A luxury resort that offers unique desert experiences, including camel rides, falconry, and stargazing. It\u2019s a hidden gem for those looking for a blend of relaxation and adventure.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jazeera Media Cafe",
+    "city": "Doha",
+    "type": "entertainment",
+    "description": "A unique cafe that combines a media hub with a casual dining experience. Visitors can enjoy delicious food while engaging with the latest news and media.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Khor Museum",
+    "city": "Al Khor",
+    "type": "culture",
+    "description": "A small local museum showcasing the maritime history and heritage of the Al Khor region. It offers insights into the traditional pearling and fishing industries.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Qatar's Art Mill",
+    "city": "Doha",
+    "type": "culture",
+    "description": "An innovative space that combines art and culture with sustainability. The Art Mill hosts exhibitions and workshops focusing on contemporary art and environmental issues.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jassasiya Beach",
+    "city": "Al Jassasiya",
+    "type": "nature",
+    "description": "A quiet beach known for its clear waters and beautiful surroundings, ideal for a relaxing day by the sea. It\u2019s a hidden gem for those looking to escape the crowds.",
+    "country": "Qatar",
+    "country_rank": 6
+  },
+  {
+    "name": "MIA Park",
+    "city": "Doha",
+    "type": "nature",
+    "description": "A beautiful park adjacent to the Museum of Islamic Art, featuring walking paths, sculptures, and picnic areas. It's a perfect spot to relax and enjoy the views of the museum and the waterfront.",
+    "country": "Qatar",
+    "country_rank": 6
+  }
+]

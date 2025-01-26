@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Mlilwane Wildlife Sanctuary",
+    "city": "Mbabane",
+    "type": "nature",
+    "description": "Mlilwane is the oldest protected area in Eswatini and offers stunning landscapes, diverse wildlife, and a host of outdoor activities like hiking and horseback riding. Visitors can experience the beauty of nature up close while spotting animals like zebras and antelopes.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Hlane Royal National Park",
+    "city": "Simunye",
+    "type": "nature",
+    "description": "Hlane is the largest national park in Eswatini, known for its vast savannas and abundant wildlife, including elephants and rhinos. The park features guided game drives and walking safaris, allowing for an immersive wildlife experience.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Ngwenya Glass Village",
+    "city": "Ngwenya",
+    "type": "culture",
+    "description": "This unique village showcases the art of glassblowing, where visitors can witness artisans creating beautiful glass pieces from recycled materials. It's a great place to purchase handmade crafts and learn about sustainable practices.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Siphofaneni",
+    "city": "Siphofaneni",
+    "type": "culture",
+    "description": "A quaint town that offers a glimpse into traditional Swazi life, Siphofaneni is known for its craft markets and vibrant culture. Visitors can engage with local artisans and experience authentic Swazi hospitality.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Mantenga Cultural Village",
+    "city": "Mbabane",
+    "type": "culture",
+    "description": "Mantenga Cultural Village is a living museum that showcases traditional Swazi culture through dance, crafts, and storytelling. Visitors can enjoy traditional performances and learn about the customs and history of the Swazi people.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Lobamba",
+    "city": "Lobamba",
+    "type": "culture",
+    "description": "Lobamba is the cultural heart of Eswatini, home to the royal family and significant historical sites. The Parliament building and the Ngwenya Glass Factory are must-see attractions in this vibrant town.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Mkhaya Game Reserve",
+    "city": "Mkhaya",
+    "type": "nature",
+    "description": "Mkhaya is a hidden gem that offers a more intimate wildlife experience, focusing on conservation and eco-tourism. The reserve is home to endangered species such as the white rhino and offers exclusive guided game drives.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "The Swazi Cultural Centre",
+    "city": "Mbabane",
+    "type": "culture",
+    "description": "This center promotes and showcases Swazi culture through art, music, and dance. It hosts various events and exhibitions that highlight the rich heritage of the Swazi people.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Bulembu",
+    "city": "Bulembu",
+    "type": "nature",
+    "description": "Once a thriving mining town, Bulembu is now a serene spot surrounded by stunning mountain scenery. It offers hiking trails and a chance to learn about the area's rich history while enjoying the tranquility of nature.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Sibebe Rock",
+    "city": "Mbabane",
+    "type": "landmark",
+    "description": "Sibebe Rock is one of the largest exposed granite domes in the world, offering breathtaking views and hiking opportunities. It is a popular spot for both locals and tourists seeking adventure and stunning landscapes.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Royal Kraal",
+    "city": "Lobamba",
+    "type": "landmark",
+    "description": "The Royal Kraal is the traditional home of the Swazi royal family, showcasing the country's rich heritage. Visitors can learn about Swazi customs, history, and the significance of the monarchy.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Piggs Peak",
+    "city": "Piggs Peak",
+    "type": "nature",
+    "description": "Known for its lush landscapes and rich mining history, Piggs Peak offers a tranquil escape into nature. It's a great place for hiking and exploring the beautiful surrounding areas.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Emlembe",
+    "city": "Emlembe",
+    "type": "nature",
+    "description": "Emlembe is a lesser-known area that boasts stunning mountain views and peaceful surroundings. It's perfect for those seeking solitude and a deeper connection with nature.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Hhohho Region",
+    "city": "Hhohho",
+    "type": "nature",
+    "description": "The Hhohho Region is known for its breathtaking landscapes, including mountains and valleys. It's a great area for hiking and exploring the natural beauty of Eswatini.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Usuthu River",
+    "city": "Kwaluseni",
+    "type": "nature",
+    "description": "The Usuthu River offers scenic views and opportunities for fishing and picnicking. It's a perfect spot for outdoor enthusiasts looking to relax by the water.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Ngwenya Mine",
+    "city": "Ngwenya",
+    "type": "landmark",
+    "description": "One of the oldest known iron-ore mines in the world, Ngwenya Mine offers fascinating insights into Eswatini's mining history. The site has been transformed into a tourist attraction with educational displays.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Dwaleni Lodge",
+    "city": "Dwaleni",
+    "type": "entertainment",
+    "description": "This lodge is known for its family-friendly atmosphere and various activities, including horse riding and nature walks. It provides a great base for exploring nearby attractions.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Siphofaneni Craft Market",
+    "city": "Siphofaneni",
+    "type": "culture",
+    "description": "This market features a variety of local crafts and handmade goods, perfect for those looking to take home a piece of Swazi culture. It's a vibrant place to shop and interact with local artisans.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Nisela Safari Park",
+    "city": "Mbabane",
+    "type": "nature",
+    "description": "Nisela offers a unique blend of wildlife experiences and adventure activities like zip-lining and mountain biking. It's a great spot for families and thrill-seekers alike.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Mbuluzi Game Reserve",
+    "city": "Siteki",
+    "type": "nature",
+    "description": "A lesser-known reserve that offers a serene wildlife experience, Mbuluzi is perfect for walking safaris and birdwatching. Its beautiful landscapes make it a hidden gem for nature lovers.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "The Big Tree",
+    "city": "Hhohho",
+    "type": "landmark",
+    "description": "This ancient fig tree is a significant landmark in Eswatini, known for its impressive size and historical importance. It's a great spot for photos and a peaceful picnic.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Lugogo Sun",
+    "city": "Manzini",
+    "type": "entertainment",
+    "description": "A popular resort offering a variety of leisure activities, including water sports and cultural entertainment. It\u2019s an ideal place for relaxation and family fun.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Khwela Cultural Village",
+    "city": "Khwela",
+    "type": "culture",
+    "description": "A hidden gem that offers visitors a chance to experience traditional Swazi life through guided tours, local music, and traditional food. It's an authentic cultural experience away from the tourist crowds.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Cato Ridge",
+    "city": "Nhlangano",
+    "type": "nature",
+    "description": "Cato Ridge is known for its scenic landscapes and outdoor activities such as hiking and birdwatching. It's an ideal spot for nature lovers looking to escape the hustle and bustle.",
+    "country": "Eswatini",
+    "country_rank": 3
+  },
+  {
+    "name": "Mkhaya Lodge",
+    "city": "Mkhaya",
+    "type": "entertainment",
+    "description": "This lodge combines luxury with wildlife experiences, offering guided safaris and comfortable accommodations. It's perfect for those wanting to immerse themselves in nature without sacrificing comfort.",
+    "country": "Eswatini",
+    "country_rank": 3
+  }
+]

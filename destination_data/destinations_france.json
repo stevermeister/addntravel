@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Eiffel Tower",
+    "city": "Paris",
+    "type": "landmark",
+    "description": "Iconic iron lattice tower that offers breathtaking views of Paris from its observation decks.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Mont Saint-Michel",
+    "city": "Mont Saint-Michel",
+    "type": "landmark",
+    "description": "A stunning island commune featuring a medieval abbey perched atop rocky cliffs, surrounded by tidal waters.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Louvre Museum",
+    "city": "Paris",
+    "type": "culture",
+    "description": "The world's largest art museum, home to thousands of works, including the Mona Lisa and the Venus de Milo.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Palace of Versailles",
+    "city": "Versailles",
+    "type": "landmark",
+    "description": "A symbol of royal opulence, this grand palace boasts stunning gardens and historically significant architecture.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Provence Lavender Fields",
+    "city": "Provence",
+    "type": "nature",
+    "description": "Vast fields of fragrant lavender bloom in summer, creating a picturesque landscape that attracts photographers and nature lovers.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Chambord",
+    "city": "Chambord",
+    "type": "landmark",
+    "description": "A masterpiece of the French Renaissance, this chateau is renowned for its distinctive architectural features and expansive grounds.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Gorges du Verdon",
+    "city": "Provence",
+    "type": "nature",
+    "description": "Often referred to as the 'Grand Canyon of Europe,' this stunning river canyon is perfect for hiking, kayaking, and breathtaking views.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Sainte-Chapelle",
+    "city": "Paris",
+    "type": "culture",
+    "description": "A Gothic chapel famous for its magnificent stained glass windows that depict biblical scenes and flood the interior with colorful light.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "C\u00f4te d'Azur",
+    "city": "Nice",
+    "type": "entertainment",
+    "description": "The glamorous French Riviera is known for its beautiful beaches, luxury resorts, and vibrant nightlife amidst stunning coastal scenery.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Dune du Pilat",
+    "city": "La Teste-de-Buch",
+    "type": "nature",
+    "description": "The tallest sand dune in Europe, offering panoramic views of the Atlantic Ocean and the surrounding pine forests.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Carcassonne",
+    "city": "Carcassonne",
+    "type": "landmark",
+    "description": "A medieval fortress town with well-preserved walls and towers, featuring a fairy-tale atmosphere and rich history.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Chartres Cathedral",
+    "city": "Chartres",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this cathedral is known for its stunning Gothic architecture and remarkable stained glass.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "\u00c9tretat Cliffs",
+    "city": "\u00c9tretat",
+    "type": "nature",
+    "description": "Famous for their dramatic white chalk cliffs and natural arches, these coastal formations offer breathtaking views of the Normandy coastline.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Saint-Tropez",
+    "city": "Saint-Tropez",
+    "type": "entertainment",
+    "description": "A famous resort town known for its beautiful beaches, luxury yachts, and vibrant nightlife, attracting celebrities and tourists alike.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Pont du Gard",
+    "city": "Vers-Pont-du-Gard",
+    "type": "landmark",
+    "description": "An ancient Roman aqueduct bridge recognized as a UNESCO World Heritage site, showcasing impressive engineering from antiquity.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Colmar",
+    "city": "Colmar",
+    "type": "culture",
+    "description": "A charming Alsatian town with colorful half-timbered houses, canals, and a rich history, often referred to as the 'Venice of France'.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Calanques National Park",
+    "city": "Marseille",
+    "type": "nature",
+    "description": "A stunning coastal park known for its dramatic cliffs, turquoise waters, and beautiful hiking trails.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Bordeaux Wine Region",
+    "city": "Bordeaux",
+    "type": "culture",
+    "description": "Renowned for its world-class vineyards, this region offers wine tours, tastings, and picturesque landscapes.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "\u00cele de R\u00e9",
+    "city": "\u00cele de R\u00e9",
+    "type": "nature",
+    "description": "A beautiful island known for its sandy beaches, charming villages, and cycling paths, perfect for a relaxing getaway.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Cimetiere du Pere Lachaise",
+    "city": "Paris",
+    "type": "culture",
+    "description": "The largest cemetery in Paris, famous for the graves of notable figures like Jim Morrison and Oscar Wilde, set in a beautiful, park-like environment.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Cascades du H\u00e9risson",
+    "city": "Jura",
+    "type": "nature",
+    "description": "A spectacular series of waterfalls located in the Jura Mountains, ideal for hiking and enjoying nature.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Amiens Cathedral",
+    "city": "Amiens",
+    "type": "landmark",
+    "description": "The largest Gothic cathedral in France, known for its impressive facade and stunning interior, including remarkable stained glass.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Lascaux Caves",
+    "city": "Montignac",
+    "type": "culture",
+    "description": "Famous for its prehistoric cave paintings, these caves offer a glimpse into early human creativity and history.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Rocamadour",
+    "city": "Rocamadour",
+    "type": "landmark",
+    "description": "A stunning clifftop village known for its historic pilgrimage site and breathtaking views of the Alzou valley.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Chenonceau",
+    "city": "Chenonceaux",
+    "type": "landmark",
+    "description": "Also known as the 'Ladies' Castle,' this exquisite ch\u00e2teau is built over the Cher River and features beautifully landscaped gardens.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Baux-de-Provence",
+    "city": "Les Baux-de-Provence",
+    "type": "landmark",
+    "description": "A historic village perched atop a rocky outcrop, offering stunning views and fascinating ruins from the Middle Ages.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Dinan",
+    "city": "Dinan",
+    "type": "culture",
+    "description": "A medieval town with cobbled streets, half-timbered houses, and a stunning castle, reflecting the charm of Brittany.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Palace of the Popes",
+    "city": "Avignon",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this impressive Gothic palace was the residence of the popes in the 14th century.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Saint-Malo",
+    "city": "Saint-Malo",
+    "type": "landmark",
+    "description": "A historic fortified town with beautiful beaches, cobblestone streets, and rich maritime history.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Foug\u00e8res",
+    "city": "Foug\u00e8res",
+    "type": "landmark",
+    "description": "One of the largest medieval fortresses in Europe, offering a glimpse into the past with its impressive towers and walls.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Jardins de Marqueyssac",
+    "city": "V\u00e9zac",
+    "type": "nature",
+    "description": "Beautifully landscaped gardens with stunning views of the Dordogne Valley, featuring topiary and picturesque walking paths.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Etretat",
+    "city": "Etretat",
+    "type": "nature",
+    "description": "Known for its striking chalk cliffs and scenic beaches, this coastal town has inspired many artists over the years.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Abbey of Saint-Savin",
+    "city": "Saint-Savin",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, famous for its stunning Romanesque frescoes and beautiful architecture.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Giverny",
+    "city": "Giverny",
+    "type": "culture",
+    "description": "The home of Claude Monet, this village is renowned for its beautiful gardens and the iconic water lily pond that inspired many of his paintings.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Puy du Fou",
+    "city": "Les Epesses",
+    "type": "entertainment",
+    "description": "A historical theme park that features spectacular shows and reenactments of significant events from French history.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Le Mont-Dore",
+    "city": "Mont-Dore",
+    "type": "nature",
+    "description": "A beautiful mountain resort known for its skiing in winter and hiking trails in summer, offering stunning views of the Auvergne region.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "V\u00e9zelay",
+    "city": "V\u00e9zelay",
+    "type": "landmark",
+    "description": "A historic hilltop village known for its stunning basilica and as a starting point for the pilgrimage to Santiago de Compostela.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Gien",
+    "city": "Gien",
+    "type": "landmark",
+    "description": "A historic castle overlooking the Loire River, known for its beautiful architecture and rich history.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Gorges de l'Ard\u00e8che",
+    "city": "Vallon-Pont-d'Arc",
+    "type": "nature",
+    "description": "A breathtaking river canyon famous for its stunning landscapes, natural arch, and opportunities for canoeing and hiking.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Cit\u00e9 des Sciences et de l'Industrie",
+    "city": "Paris",
+    "type": "entertainment",
+    "description": "The largest science museum in Europe, featuring interactive exhibits, a planetarium, and an IMAX theater.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Halles",
+    "city": "Paris",
+    "type": "entertainment",
+    "description": "A vibrant shopping district that combines a historic market atmosphere with modern retail experiences, dining, and entertainment.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Saint-Germain-en-Laye",
+    "city": "Saint-Germain-en-Laye",
+    "type": "landmark",
+    "description": "A royal ch\u00e2teau with beautiful gardens, known as the birthplace of King Louis XIV and now housing a museum of archaeology.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Lake Annecy",
+    "city": "Annecy",
+    "type": "nature",
+    "description": "Often called the 'Venice of the Alps,' this stunning lake is surrounded by mountains and is perfect for swimming, sailing, and hiking.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Basilica of Saint-Sernin",
+    "city": "Toulouse",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site and one of the largest Romanesque churches in Europe, known for its impressive architecture.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "La Rochelle",
+    "city": "La Rochelle",
+    "type": "culture",
+    "description": "A picturesque port city with historic architecture, beautiful sea views, and a vibrant atmosphere, perfect for exploring.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Basilique du Sacr\u00e9-C\u0153ur",
+    "city": "Paris",
+    "type": "landmark",
+    "description": "A stunning basilica located on Montmartre hill, offering panoramic views of Paris and a beautiful interior.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "C\u00f4te de Granit Rose",
+    "city": "Ploumanac'h",
+    "type": "nature",
+    "description": "Known for its unique pink granite rocks and stunning coastal scenery, this area is perfect for hiking and beachcombing.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Abbey of Cluny",
+    "city": "Cluny",
+    "type": "landmark",
+    "description": "Once one of the most powerful abbeys in medieval Europe, its ruins and museum offer insight into monastic life.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Halles de Lyon Paul Bocuse",
+    "city": "Lyon",
+    "type": "culture",
+    "description": "A gastronomic market showcasing the best of Lyon's culinary offerings, from local cheeses to pastries.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Montsoreau",
+    "city": "Montsoreau",
+    "type": "landmark",
+    "description": "A unique ch\u00e2teau built on the banks of the Loire River, now housing a contemporary art museum.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Parc National des \u00c9crins",
+    "city": "\u00c9crins",
+    "type": "nature",
+    "description": "A stunning national park in the French Alps, known for its breathtaking mountain scenery and outdoor activities.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Grotte de Lascaux II",
+    "city": "Montignac",
+    "type": "culture",
+    "description": "A replica of the original Lascaux Caves, showcasing ancient cave paintings that date back thousands of years.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Br\u00e9z\u00e9",
+    "city": "Br\u00e9z\u00e9",
+    "type": "landmark",
+    "description": "Known for its impressive underground tunnels and unique architecture, this ch\u00e2teau is a hidden gem in the Loire Valley.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Calvados Boulard",
+    "city": "Cormeilles",
+    "type": "entertainment",
+    "description": "A distillery offering tours and tastings of the famous Calvados apple brandy, set in a picturesque Normandy landscape.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Mus\u00e9e d'Orsay",
+    "city": "Paris",
+    "type": "culture",
+    "description": "An art museum housed in a former railway station, featuring an extensive collection of Impressionist and Post-Impressionist masterpieces.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "\u00cele d'Aix",
+    "city": "\u00cele d'Aix",
+    "type": "nature",
+    "description": "A small, car-free island known for its beautiful beaches, charming streets, and the historic Fort Boyard.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Parc de la T\u00eate d'Or",
+    "city": "Lyon",
+    "type": "nature",
+    "description": "A large urban park featuring a lake, botanical gardens, and a zoo, perfect for leisurely strolls and picnics.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Chaumont",
+    "city": "Chaumont-sur-Loire",
+    "type": "landmark",
+    "description": "Famous for its stunning gardens and annual garden festival, this ch\u00e2teau offers beautiful views of the Loire Valley.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Bayeux Tapestry",
+    "city": "Bayeux",
+    "type": "culture",
+    "description": "An extraordinary embroidery depicting the Norman Conquest of England, now housed in a dedicated museum.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "La Maison de la Magie",
+    "city": "Blois",
+    "type": "entertainment",
+    "description": "A unique museum dedicated to magic and illusion, featuring fascinating exhibits and live performances.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Vitr\u00e9",
+    "city": "Vitr\u00e9",
+    "type": "landmark",
+    "description": "A well-preserved medieval castle surrounded by charming streets, showcasing a rich history and stunning architecture.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Puy de Sancy",
+    "city": "Mont-Dore",
+    "type": "nature",
+    "description": "The highest peak in the Massif Central, offering hiking, skiing, and breathtaking views of the surrounding landscape.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Les Machines de l'\u00eele",
+    "city": "Nantes",
+    "type": "entertainment",
+    "description": "An artistic amusement park where giant mechanical creatures, including a moving elephant, come to life.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Hautefort",
+    "city": "Hautefort",
+    "type": "landmark",
+    "description": "A stunning ch\u00e2teau surrounded by beautiful gardens, known for its rich history and picturesque setting.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Mus\u00e9e Picasso",
+    "city": "Paris",
+    "type": "culture",
+    "description": "A museum dedicated to the works of Pablo Picasso, showcasing an extensive collection of his paintings, sculptures, and sketches.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Futuroscope",
+    "city": "Poitiers",
+    "type": "entertainment",
+    "description": "A futuristic theme park featuring innovative attractions and multimedia experiences, ideal for families and thrill-seekers.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Castelnaud",
+    "city": "Castelnaud-la-Chapelle",
+    "type": "landmark",
+    "description": "A medieval castle overlooking the Dordogne River, featuring exhibits on medieval warfare and stunning views.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Saint-Emilion",
+    "city": "Saint-Emilion",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site known for its picturesque vineyards, historic architecture, and delicious wines.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Cit\u00e9 de Carcassonne",
+    "city": "Carcassonne",
+    "type": "landmark",
+    "description": "An impressive fortress town with a double wall and medieval architecture, often considered one of the best-preserved in Europe.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Cascades de Gairaut",
+    "city": "Nice",
+    "type": "nature",
+    "description": "Beautiful waterfalls located in a picturesque park, offering a peaceful escape from the bustling city.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "La Route des Vins",
+    "city": "Alsace",
+    "type": "culture",
+    "description": "A scenic wine route through picturesque villages and vineyards, known for its charming architecture and delicious wines.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Viaduc de Millau",
+    "city": "Millau",
+    "type": "landmark",
+    "description": "The tallest bridge in the world, offering breathtaking views of the Tarn Valley and showcasing modern engineering.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Basilique de Saint-Denis",
+    "city": "Saint-Denis",
+    "type": "landmark",
+    "description": "A Gothic masterpiece and the burial site of French kings, notable for its stunning architecture and historical significance.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "\u00cele d'Ol\u00e9ron",
+    "city": "\u00cele d'Ol\u00e9ron",
+    "type": "nature",
+    "description": "A beautiful island known for its sandy beaches, charming villages, and delicious seafood, perfect for a relaxing getaway.",
+    "country": "France",
+    "country_rank": 10
+  },
+  {
+    "name": "Ch\u00e2teau de Brissac",
+    "city": "Brissac-Quinc\u00e9",
+    "type": "landmark",
+    "description": "The tallest ch\u00e2teau in France, known for its opulent interiors and beautiful gardens, often referred to as the 'Giant of the Loire.'",
+    "country": "France",
+    "country_rank": 10
+  }
+]

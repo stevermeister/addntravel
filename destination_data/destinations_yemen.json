@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Old Sana'a",
+    "city": "Sana'a",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Old Sana'a is known for its unique architecture featuring multi-story buildings adorned with intricate geometric patterns. The city\u2019s rich history and vibrant markets make it a fascinating destination for those interested in Yemeni culture.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Socotra Island",
+    "city": "Socotra",
+    "type": "nature",
+    "description": "Often referred to as the 'Gal\u00e1pagos of the Indian Ocean', Socotra Island is home to a variety of unique flora and fauna, including the iconic Dragon's Blood Tree. Its stunning landscapes and biodiversity offer a rare glimpse into nature's wonders.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Shibam",
+    "city": "Hadramaut",
+    "type": "landmark",
+    "description": "Known as the 'Manhattan of the Desert', Shibam features a collection of mudbrick skyscrapers that date back to the 16th century. This ancient city is an architectural marvel and a UNESCO World Heritage site, showcasing the ingenuity of its builders.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Mahwit",
+    "city": "Al-Mahwit",
+    "type": "nature",
+    "description": "Nestled in the mountains, Al-Mahwit is known for its lush green landscapes and terraced agriculture. The scenic beauty and cooler climate make it a perfect escape for nature lovers.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Dar Al-Hekma",
+    "city": "Sana'a",
+    "type": "culture",
+    "description": "This historical house museum showcases the traditional Yemeni way of life and architecture. Visitors can explore various artifacts, including pottery and textiles, while experiencing the rich cultural heritage of Yemen.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Wadi Dahr",
+    "city": "Sana'a",
+    "type": "nature",
+    "description": "Known for its stunning rock formations and lush greenery, Wadi Dahr is a picturesque valley that features the iconic Dar al-Hajar palace perched on a cliff. It's a great spot for hiking and enjoying the natural beauty of Yemen.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Jawf",
+    "city": "Al-Jawf",
+    "type": "landmark",
+    "description": "The region of Al-Jawf is famous for its ancient ruins, including the archaeological site of Al-Hazm Castle. The site offers insights into Yemen's history and is surrounded by beautiful desert landscapes.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Seyun",
+    "city": "Hadramaut",
+    "type": "culture",
+    "description": "Seyun is known for its impressive mudbrick buildings and the historic Al-Qasr Palace. It's a cultural hub that reflects the rich history of the Hadramaut region and is a gateway to explore the surrounding desert.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al Mukalla",
+    "city": "Hadramaut",
+    "type": "entertainment",
+    "description": "Al Mukalla is a coastal city offering beautiful beaches and a vibrant waterfront. Visitors can enjoy fresh seafood, explore the local markets, and relax in the warm sun along the Arabian Sea.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Raysut",
+    "city": "Al-Mahrah",
+    "type": "nature",
+    "description": "Raysut is a hidden gem known for its beautiful coastline and clear waters. It's an ideal spot for snorkeling and diving, offering a chance to see diverse marine life in an untouched environment.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Hajjah",
+    "city": "Hajjah",
+    "type": "nature",
+    "description": "Set in the mountains, Hajjah is known for its breathtaking views and terraced farming. Its cool climate and natural beauty make it a perfect destination for hiking and outdoor activities.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Baidha",
+    "city": "Al-Baidha",
+    "type": "culture",
+    "description": "Al-Baidha is home to some of Yemen's oldest historical sites, including ancient ruins and traditional architecture. It offers a glimpse into the country's rich history and cultural heritage.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Marib Dam",
+    "city": "Marib",
+    "type": "landmark",
+    "description": "The Marib Dam is an ancient engineering marvel that dates back to the Sabaean civilization. It symbolizes the ingenuity of ancient Yemeni engineers and is surrounded by stunning desert landscapes.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Kawkaban",
+    "city": "Al-Mahwit",
+    "type": "landmark",
+    "description": "Kawkaban is a historic mountaintop village known for its medieval architecture and spectacular views. The fortress and the surrounding area are rich in history and offer a peaceful retreat.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Saleh Mosque",
+    "city": "Sana'a",
+    "type": "landmark",
+    "description": "This grand mosque is one of the largest in Yemen and showcases stunning Islamic architecture. It is a symbol of modern Yemeni culture and a place of great spiritual significance.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Qalah",
+    "city": "Dhamar",
+    "type": "landmark",
+    "description": "Al-Qalah is an ancient city with fascinating archaeological sites that reveal the history of the Sabaean civilization. The stunning landscapes surrounding the ruins enhance the experience for visitors.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Socotra Dragon Blood Tree Forest",
+    "city": "Socotra",
+    "type": "nature",
+    "description": "This unique forest is home to the rare Dragon Blood Trees, which have a distinct umbrella shape and produce a bright red sap. The surreal landscape and biodiversity make it a must-visit for nature enthusiasts.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Al-Hudaydah",
+    "city": "Al-Hudaydah",
+    "type": "entertainment",
+    "description": "Known for its beautiful beaches and vibrant fishing industry, Al-Hudaydah offers a lively atmosphere with markets and local seafood restaurants. It's a great place to experience the coastal culture of Yemen.",
+    "country": "Yemen",
+    "country_rank": 2
+  },
+  {
+    "name": "Bura'a",
+    "city": "Bura'a",
+    "type": "culture",
+    "description": "This small town is known for its rich history and traditional Yemeni architecture. The local culture, friendly inhabitants, and beautiful landscapes make it a charming off-the-beaten-path destination.",
+    "country": "Yemen",
+    "country_rank": 2
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Tivoli Gardens",
+    "city": "Copenhagen",
+    "type": "entertainment",
+    "description": "One of the world's oldest amusement parks, Tivoli Gardens offers a magical atmosphere with its beautiful gardens, thrilling rides, and enchanting performances. It's a must-visit for both families and those looking for a romantic night out.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Nyhavn",
+    "city": "Copenhagen",
+    "type": "landmark",
+    "description": "Famous for its colorful 17th-century waterfront, Nyhavn is lined with vibrant townhouses and ships. It's a great spot for dining, bar-hopping, and enjoying the lively ambiance of Copenhagen.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Little Mermaid",
+    "city": "Copenhagen",
+    "type": "landmark",
+    "description": "This iconic statue inspired by Hans Christian Andersen's fairy tale is a symbol of Copenhagen. Perched on a rock by the harbor, it attracts millions of visitors despite its small size.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Rosenborg Castle",
+    "city": "Copenhagen",
+    "type": "culture",
+    "description": "Rosenborg Castle is a stunning Renaissance castle that houses the Danish crown jewels and royal regalia. The beautiful gardens surrounding the castle are perfect for a leisurely stroll.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Aarhus Art Museum",
+    "city": "Aarhus",
+    "type": "culture",
+    "description": "The ARoS Aarhus Art Museum is known for its modern art exhibitions and the iconic 'Your Rainbow Panorama' walkway. It offers a unique view of the city from its rooftop.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Legoland Billund",
+    "city": "Billund",
+    "type": "entertainment",
+    "description": "A family-friendly theme park, Legoland Billund features rides, attractions, and impressive Lego sculptures. It's a fun destination for children and Lego enthusiasts of all ages.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "M\u00f8ns Klint",
+    "city": "Stege",
+    "type": "nature",
+    "description": "M\u00f8ns Klint is a stunning chalk cliff formation along the eastern coast of M\u00f8n island. It offers breathtaking views of the Baltic Sea and is perfect for hiking and nature photography.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Freetown Christiania",
+    "city": "Copenhagen",
+    "type": "culture",
+    "description": "A self-proclaimed autonomous neighborhood, Christiania is known for its alternative lifestyle, colorful murals, and communal living. Visitors can explore its unique shops and cafes.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Kronborg Castle",
+    "city": "Helsing\u00f8r",
+    "type": "landmark",
+    "description": "Kronborg Castle, a UNESCO World Heritage site, is famously known as Elsinore from Shakespeare's Hamlet. The majestic fortress is a marvel of Renaissance architecture.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Round Tower",
+    "city": "Copenhagen",
+    "type": "landmark",
+    "description": "The Round Tower is a 17th-century tower with a unique spiral ramp leading to a stunning view of Copenhagen. It's also home to an observatory and a gallery space.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Skagen",
+    "city": "Skagen",
+    "type": "nature",
+    "description": "Skagen is known for its beautiful beaches and unique light that has inspired many artists. Visitors can experience the meeting of the North Sea and the Baltic Sea at Grenen.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Viking Ship Museum",
+    "city": "Roskilde",
+    "type": "culture",
+    "description": "This museum showcases five original Viking ships and offers insights into Viking maritime history. Visitors can also participate in workshops and boat-building activities.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Museum of Denmark",
+    "city": "Copenhagen",
+    "type": "culture",
+    "description": "The National Museum offers a comprehensive overview of Danish history and culture, from the Stone Age to modern times. It's a treasure trove of artifacts and exhibitions.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Amalienborg Palace",
+    "city": "Copenhagen",
+    "type": "landmark",
+    "description": "The home of the Danish royal family, Amalienborg Palace is composed of four identical palaces surrounding an octagonal courtyard. Visitors can witness the changing of the guard.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Bornholm",
+    "city": "Bornholm",
+    "type": "nature",
+    "description": "This picturesque island in the Baltic Sea is known for its dramatic cliffs, sandy beaches, and charming villages. It's a popular destination for hiking, cycling, and exploring nature.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Town (Den Gamle By)",
+    "city": "Aarhus",
+    "type": "culture",
+    "description": "Den Gamle By is an open-air museum that recreates a Danish town from the 19th century. Visitors can explore historic buildings, interact with costumed guides, and experience traditional crafts.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Vikingeborgen Trelleborg",
+    "city": "Slagelse",
+    "type": "landmark",
+    "description": "Trelleborg is a reconstructed Viking fortress that offers a glimpse into Denmark's Viking heritage. Visitors can explore the site, learn about Viking life, and participate in activities.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Blue Planet",
+    "city": "Copenhagen",
+    "type": "entertainment",
+    "description": "Denmark's largest aquarium, The Blue Planet, is home to a variety of marine life from around the world. Its striking architecture and interactive exhibits make it a great family outing.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Koldinghus",
+    "city": "Kolding",
+    "type": "landmark",
+    "description": "Koldinghus is a historic castle that now serves as a museum showcasing Danish history and culture. Its impressive architecture and beautiful gardens are worth exploring.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Louisiana Museum of Modern Art",
+    "city": "Humleb\u00e6k",
+    "type": "culture",
+    "description": "Located on the coast north of Copenhagen, the Louisiana Museum is renowned for its modern art collection and beautiful sculpture park. The museum's stunning views of the \u00d8resund Strait enhance the experience.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Aalborg Zoo",
+    "city": "Aalborg",
+    "type": "entertainment",
+    "description": "Aalborg Zoo features a diverse range of animals in naturalistic settings. It's a fun destination for families and offers educational programs about wildlife conservation.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Drag\u00f8r",
+    "city": "Drag\u00f8r",
+    "type": "hidden gem",
+    "description": "This charming village near Copenhagen is known for its well-preserved 18th-century houses and picturesque harbor. It's a peaceful escape from the city, perfect for leisurely walks.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Sams\u00f8 Island",
+    "city": "Sams\u00f8",
+    "type": "nature",
+    "description": "Sams\u00f8 is known for its beautiful landscapes, organic farms, and commitment to sustainability. It's a great destination for cycling, hiking, and enjoying local cuisine.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Helsing\u00f8r Maritime Museum",
+    "city": "Helsing\u00f8r",
+    "type": "culture",
+    "description": "Helsing\u00f8r Maritime Museum explores Denmark's maritime history through engaging exhibits and a striking architectural design. It's located in a former dry dock, adding to its unique charm.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Fjords of Denmark",
+    "city": "Various",
+    "type": "nature",
+    "description": "Denmark's fjords offer stunning natural beauty and opportunities for outdoor activities like kayaking, hiking, and birdwatching. Each fjord has its own unique charm and landscape.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Kerteminde",
+    "city": "Kerteminde",
+    "type": "hidden gem",
+    "description": "This quaint coastal town is known for its beautiful beaches and charming harbor. It's a great spot for relaxing, enjoying fresh seafood, and exploring nearby nature reserves.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Mols Bjerge National Park",
+    "city": "Ebeltoft",
+    "type": "nature",
+    "description": "This national park is characterized by rolling hills, diverse flora, and scenic landscapes. It's perfect for hiking, cycling, and enjoying stunning views of the surrounding countryside.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Gorms of Jelling",
+    "city": "Jelling",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, the Jelling stones are considered Denmark's birth certificate. These monumental stones commemorate the unification of Denmark and the transition to Christianity.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Frederiksberg Garden",
+    "city": "Copenhagen",
+    "type": "nature",
+    "description": "Frederiksberg Garden is a beautiful park featuring lush lawns, canals, and a picturesque palace. It's a popular spot for picnics, leisurely strolls, and enjoying nature in the heart of the city.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of Copenhagen",
+    "city": "Copenhagen",
+    "type": "culture",
+    "description": "This museum delves into the history and development of Copenhagen through engaging exhibits and artifacts. It's an excellent place to learn about the city's rich past.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "\u00d8sterlars Round Church",
+    "city": "Bornholm",
+    "type": "landmark",
+    "description": "One of the most famous round churches in Denmark, \u00d8sterlars features unique architectural design and beautiful frescoes. It's a fascinating example of medieval church architecture.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "T\u00f8nder",
+    "city": "T\u00f8nder",
+    "type": "hidden gem",
+    "description": "This historic town near the German border is known for its well-preserved architecture, cobblestone streets, and cultural festivals. It's a charming destination for exploring local history.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Silkeborg Lakes",
+    "city": "Silkeborg",
+    "type": "nature",
+    "description": "The Silkeborg Lakes are a stunning network of lakes and forests, perfect for hiking, boating, and enjoying nature. The area is also known for its rich cultural heritage.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ribe Viking Center",
+    "city": "Ribe",
+    "type": "culture",
+    "description": "This living history museum offers an immersive experience into Viking life with reenactments, workshops, and exhibitions. It's a great place for families to learn about history in an engaging way.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Cliffs of Stevns",
+    "city": "Stevns",
+    "type": "nature",
+    "description": "These dramatic cliffs along the eastern coast are famous for their geological significance and stunning views. It's a great spot for hiking and enjoying the natural beauty of Denmark.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Langelandsfort",
+    "city": "Langeland",
+    "type": "landmark",
+    "description": "Langelandsfort is a former military fortress that now serves as a museum dedicated to the Cold War. Visitors can explore the bunkers, exhibitions, and learn about the history of the area.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Fur Island",
+    "city": "Fur",
+    "type": "hidden gem",
+    "description": "Known for its unique clay formations and rich fossil history, Fur Island is a peaceful getaway with beautiful landscapes and charming villages. It's perfect for nature lovers and geology enthusiasts.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Hirschholm Palace",
+    "city": "H\u00f8rsholm",
+    "type": "landmark",
+    "description": "Once a royal residence, Hirschholm Palace is an important historical site with beautiful gardens and stunning architecture. The grounds are perfect for a leisurely stroll or picnic.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Wadden Sea",
+    "city": "Esbjerg",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, the Wadden Sea is known for its unique tidal flats and rich biodiversity. It's a great destination for birdwatching, seal watching, and exploring nature.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "L\u00fcbeck, Germany",
+    "city": "L\u00fcbeck",
+    "type": "hidden gem",
+    "description": "Just a short trip from Denmark, L\u00fcbeck is a charming medieval town known for its beautiful architecture and historic sites. It's a great day trip for those looking to explore beyond Denmark.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Funen Village",
+    "city": "Odense",
+    "type": "culture",
+    "description": "An open-air museum showcasing rural life in Funen during the 19th century, Funen Village features traditional houses and gardens. Visitors can engage in various historical activities.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The North Sea Oceanarium",
+    "city": "Hirtshals",
+    "type": "entertainment",
+    "description": "Denmark's largest aquarium, the North Sea Oceanarium offers an immersive experience into marine life. Its exhibits and interactive displays make it a fun and educational destination for families.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The H.C. Andersen Museum",
+    "city": "Odense",
+    "type": "culture",
+    "description": "Dedicated to the life and works of Hans Christian Andersen, this museum features exhibits on his fairy tales and personal history. It's a must-visit for literature lovers and fans of his stories.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "Nyboder",
+    "city": "Copenhagen",
+    "type": "hidden gem",
+    "description": "This historic row of yellow houses was built in the 17th century for naval sailors. It's a charming area that offers a glimpse into Denmark's military history and architectural style.",
+    "country": "Denmark",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great Belt Bridge",
+    "city": "Nyborg",
+    "type": "landmark",
+    "description": "Spanning the Great Belt Strait, this impressive bridge connects the islands of Zealand and Funen. It's an engineering marvel and offers stunning views of the surrounding waters.",
+    "country": "Denmark",
+    "country_rank": 7
+  }
+]

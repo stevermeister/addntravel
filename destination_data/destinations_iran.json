@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Persepolis",
+    "city": "Shiraz",
+    "type": "landmark",
+    "description": "An ancient ceremonial capital of the Persian Empire, Persepolis is known for its monumental ruins and stunning architecture, reflecting the grandeur of Achaemenid civilization.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Naqsh-e Jahan Square",
+    "city": "Isfahan",
+    "type": "landmark",
+    "description": "One of the largest squares in the world, this UNESCO World Heritage site is surrounded by stunning Safavid-era architecture, including the Shah Mosque and the Ali Qapu Palace.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Golestan Palace",
+    "city": "Tehran",
+    "type": "culture",
+    "description": "A masterpiece of Qajar-era architecture, Golestan Palace features exquisite gardens, intricate tile work, and a rich history as a royal residence.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Mount Damavand",
+    "city": "Tehran",
+    "type": "nature",
+    "description": "The highest peak in the Middle East, Mount Damavand is a dormant volcano with stunning views and diverse flora and fauna, attracting hikers and nature enthusiasts.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Shiraz",
+    "city": "Shiraz",
+    "type": "culture",
+    "description": "Famous for its rich literary history, Shiraz is home to the tombs of poets like Hafez and Saadi, as well as beautiful gardens and vibrant bazaars.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kashan",
+    "city": "Kashan",
+    "type": "culture",
+    "description": "Known for its traditional Persian houses and beautiful gardens, Kashan offers a glimpse into Iran's architectural heritage with sites like the Tabatabai House.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Zanjan's Soltaniyeh Dome",
+    "city": "Zanjan",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this stunning dome is one of the largest brick domes in the world and is a remarkable example of Persian architecture.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Yazd",
+    "city": "Yazd",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Yazd is known for its unique mud-brick architecture, Zoroastrian heritage, and the famous windcatchers (badgirs) that cool the city.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Towers of Silence",
+    "city": "Yazd",
+    "type": "culture",
+    "description": "An ancient Zoroastrian burial site, the Towers of Silence are intriguing structures on a hill where the Zoroastrians once placed their dead, surrounded by stunning desert landscapes.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Susa",
+    "city": "Khuzestan",
+    "type": "landmark",
+    "description": "One of the oldest cities in the world, Susa is rich in archaeological sites, including the ruins of the ancient Achaemenid city and the famous Apadana Palace.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Masuleh",
+    "city": "Gilan",
+    "type": "nature",
+    "description": "A picturesque village built on a steep hillside, Masuleh is known for its unique architecture, lush greenery, and stunning views of the surrounding mountains.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Qeshm Island",
+    "city": "Hormozgan",
+    "type": "nature",
+    "description": "The largest island in the Persian Gulf, Qeshm features diverse landscapes, including mangroves, caves, and unique geological formations like the Chahkooh Canyon.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Shushtar Historical Hydraulic System",
+    "city": "Khuzestan",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this ancient hydraulic system showcases the ingenuity of Persian engineering with its canals, bridges, and waterfalls.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Eram Garden",
+    "city": "Shiraz",
+    "type": "nature",
+    "description": "A stunning historic garden dating back to the 13th century, Eram Garden is famous for its beautiful floral arrangements, ancient cypress trees, and a magnificent mansion.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Chogha Zanbil",
+    "city": "Khuzestan",
+    "type": "landmark",
+    "description": "A Ziggurat built in the 13th century BC, Chogha Zanbil is a UNESCO World Heritage site that provides insight into ancient Elamite civilization.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kerman's Ganjali Khan Complex",
+    "city": "Kerman",
+    "type": "culture",
+    "description": "A historical complex featuring a bazaar, bathhouse, and mosque, Ganjali Khan Complex showcases the architectural beauty of the Safavid era.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Tabriz Historic Bazaar Complex",
+    "city": "Tabriz",
+    "type": "culture",
+    "description": "One of the oldest bazaars in the Middle East, this UNESCO-listed site is renowned for its stunning architecture and vibrant atmosphere, offering a glimpse into traditional commerce.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Cyrus the Great's Tomb",
+    "city": "Pasargadae",
+    "type": "landmark",
+    "description": "The final resting place of Cyrus the Great, this mausoleum is a symbol of Persian heritage and a must-visit for history enthusiasts.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Jameh Mosque of Isfahan",
+    "city": "Isfahan",
+    "type": "landmark",
+    "description": "A stunning example of Islamic architecture, this mosque features intricate tile work and various architectural styles from different periods.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kandovan Village",
+    "city": "East Azerbaijan",
+    "type": "culture",
+    "description": "An ancient troglodyte village carved into volcanic rock, Kandovan offers a unique glimpse into traditional Persian life and stunning natural surroundings.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "The Persian Gulf",
+    "city": "Hormozgan",
+    "type": "nature",
+    "description": "Famous for its stunning beaches and diverse marine life, the Persian Gulf is a popular destination for relaxation and water sports.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Vank Cathedral",
+    "city": "Isfahan",
+    "type": "culture",
+    "description": "An impressive Armenian cathedral featuring beautiful frescoes and unique architectural elements, Vank Cathedral reflects the rich cultural tapestry of Isfahan.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Abyaneh",
+    "city": "Kashan",
+    "type": "culture",
+    "description": "A traditional Persian village known for its red mud-brick houses and rich cultural heritage, Abyaneh is a hidden gem that offers a glimpse into Iran's past.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kuh-e Nooshak",
+    "city": "Kermanshah",
+    "type": "nature",
+    "description": "A stunning mountain range known for its breathtaking landscapes and diverse wildlife, Kuh-e Nooshak is a favorite destination for hikers and nature lovers.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Khunjan Village",
+    "city": "Kerman",
+    "type": "culture",
+    "description": "A hidden gem known for its unique architecture and traditional way of life, Khunjan offers visitors an authentic experience of rural Persia.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Shahdad Kalouts",
+    "city": "Kerman",
+    "type": "nature",
+    "description": "A mesmerizing desert landscape featuring unique rock formations and sand dunes, Shahdad Kalouts is a breathtaking destination for nature lovers and photographers.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Sari",
+    "city": "Mazandaran",
+    "type": "nature",
+    "description": "Nestled in lush green hills, Sari offers stunning natural beauty and access to the Caspian Sea, making it a perfect getaway for nature enthusiasts.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Jiroft",
+    "city": "Kerman",
+    "type": "culture",
+    "description": "Known for its ancient archaeological sites, Jiroft is a treasure trove of history, believed to be one of the cradles of civilization.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Bam Citadel",
+    "city": "Kerman",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, Bam Citadel is one of the largest adobe structures in the world, showcasing impressive ancient architecture.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Gilan's Caspian Sea Coast",
+    "city": "Gilan",
+    "type": "nature",
+    "description": "Known for its lush landscapes and beautiful beaches, Gilan's Caspian Sea Coast offers a serene escape for beach lovers and adventure seekers.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Ovan Lake",
+    "city": "Qazvin",
+    "type": "nature",
+    "description": "A picturesque lake surrounded by mountains, Ovan Lake is an ideal spot for hiking, picnicking, and enjoying the stunning natural scenery.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kharanaq Village",
+    "city": "Yazd",
+    "type": "culture",
+    "description": "An ancient village with crumbling mud-brick structures, Kharanaq is a hidden gem that offers a glimpse into Iran's rich history and architectural heritage.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Nain",
+    "city": "Isfahan",
+    "type": "culture",
+    "description": "Famous for its traditional carpets and ancient mosques, Nain is a charming town that showcases the beauty of Persian craftsmanship.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Bam and its Cultural Landscape",
+    "city": "Kerman",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, Bam is known for its impressive adobe architecture and ancient cultural heritage, making it a must-visit for history buffs.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Lut Desert",
+    "city": "Kerman",
+    "type": "nature",
+    "description": "One of the hottest places on earth, the Lut Desert features stunning landscapes, including vast salt flats and unique geological formations.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "The Garden of Fin",
+    "city": "Kashan",
+    "type": "nature",
+    "description": "A historic Persian garden known for its beautiful design and tranquil atmosphere, the Garden of Fin is a perfect spot for relaxation and exploration.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Chalus",
+    "city": "Mazandaran",
+    "type": "nature",
+    "description": "A charming coastal town along the Caspian Sea, Chalus offers beautiful beaches and lush green mountains, perfect for outdoor activities and relaxation.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Seyyed Mosque",
+    "city": "Tehran",
+    "type": "landmark",
+    "description": "A stunning mosque known for its intricate tile work and beautiful gardens, Seyyed Mosque is a peaceful oasis in the bustling capital.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Zayanderud River",
+    "city": "Isfahan",
+    "type": "nature",
+    "description": "The main river flowing through Isfahan, Zayanderud is lined with historic bridges and parks, making it a popular spot for leisurely walks and picnics.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Bavanat",
+    "city": "Fars",
+    "type": "nature",
+    "description": "A picturesque town in the mountains, Bavanat is surrounded by stunning natural beauty and offers opportunities for hiking and outdoor adventures.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Taq Kasra",
+    "city": "Baghdad",
+    "type": "landmark",
+    "description": "The largest brick arch in the world, Taq Kasra is an architectural marvel that reflects the greatness of the ancient Persian Empire.",
+    "country": "Iran",
+    "country_rank": 6
+  },
+  {
+    "name": "Kermanshah's Tagh-e Bostan",
+    "city": "Kermanshah",
+    "type": "landmark",
+    "description": "Famous for its rock reliefs depicting ancient Persian kings, Tagh-e Bostan is a significant archaeological site that offers insight into Iran's historical legacy.",
+    "country": "Iran",
+    "country_rank": 6
+  }
+]

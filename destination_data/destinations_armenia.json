@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Geghard Monastery",
+    "city": "Garni",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Geghard Monastery is carved into the rock and surrounded by stunning cliffs. Its ancient churches and tombs date back to the 4th century and showcase remarkable medieval architecture.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Lake Sevan",
+    "city": "Sevan",
+    "type": "nature",
+    "description": "One of the largest freshwater high-altitude lakes in the world, Lake Sevan is known for its beautiful landscapes and unique biodiversity. The lake's stunning blue waters and surrounding mountains make it a perfect escape for nature lovers.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Khor Virap",
+    "city": "Ararat Province",
+    "type": "landmark",
+    "description": "Khor Virap is an ancient monastery located near the Turkish border, famous for its stunning views of Mount Ararat. It is also significant for its history as the site where Saint Gregory the Illuminator was imprisoned.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tatev Monastery",
+    "city": "Tatev",
+    "type": "culture",
+    "description": "Perched on a dramatic cliff, Tatev Monastery offers breathtaking views of the Vorotan Gorge. It is accessible via the Wings of Tatev, the world's longest reversible aerial tramway.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Dilijan National Park",
+    "city": "Dilijan",
+    "type": "nature",
+    "description": "Often referred to as the 'Switzerland of Armenia', Dilijan National Park is known for its lush forests, pristine rivers, and charming old town. It's a great spot for hiking, bird watching, and enjoying nature.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Etchmiadzin Cathedral",
+    "city": "Vagharshapat",
+    "type": "landmark",
+    "description": "As one of the oldest churches in the world, Etchmiadzin Cathedral is the spiritual center of the Armenian Apostolic Church. Its stunning architecture and historical significance attract many visitors.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Goris",
+    "city": "Goris",
+    "type": "entertainment",
+    "description": "Goris is known for its unique rock formations and vibrant cultural scene. The town offers picturesque views and is a gateway to the nearby ancient cave dwellings of Khndzoresk.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Aragats Mountain",
+    "city": "Ashtarak",
+    "type": "nature",
+    "description": "The highest mountain in Armenia, Aragats is a popular destination for hikers and adventure enthusiasts. Its diverse landscapes range from alpine meadows to glaciers.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Odzun Monastery",
+    "city": "Odzun",
+    "type": "culture",
+    "description": "A hidden gem away from the typical tourist path, Odzun Monastery features beautiful ancient architecture and a tranquil setting amidst lush greenery. Its stunning stone carvings are a highlight.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Haghpat Monastery",
+    "city": "Haghpat",
+    "type": "culture",
+    "description": "Another UNESCO World Heritage site, Haghpat Monastery is renowned for its medieval architecture and magnificent views of the Debed River Gorge. The complex contains several churches and a magnificent bell tower.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Amberd Fortress",
+    "city": "Aragatsotn",
+    "type": "landmark",
+    "description": "Nestled on the slopes of Mount Aragats, Amberd Fortress offers panoramic views and a glimpse into Armenia's medieval past. Its ruins date back to the 7th century and evoke a sense of history.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Noravank Monastery",
+    "city": "Vayots Dzor",
+    "type": "culture",
+    "description": "Famed for its stunning red rock cliffs, Noravank Monastery is an architectural masterpiece set in a breathtaking landscape. The intricate carvings and the surrounding natural beauty make it a must-visit.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Jermuk",
+    "city": "Jermuk",
+    "type": "entertainment",
+    "description": "Known for its mineral waters and spa resorts, Jermuk is a popular health retreat. The picturesque town is surrounded by mountains and offers numerous hiking trails and waterfalls.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Saghmosavank",
+    "city": "Saghmosavan",
+    "type": "culture",
+    "description": "Saghmosavank is an ancient monastery overlooking the Kasagh River gorge, offering stunning views and beautiful stone architecture. Its serene atmosphere makes it a peaceful retreat for visitors.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Areni Wine Factory",
+    "city": "Areni",
+    "type": "entertainment",
+    "description": "Located in the heart of Armenia's wine country, Areni is famous for its rich winemaking heritage. Visitors can tour the factory, taste a variety of wines, and explore the nearby Areni Cave.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Shaki Waterfall",
+    "city": "Shaki",
+    "type": "nature",
+    "description": "A hidden gem in Armenia, Shaki Waterfall is a beautiful natural site surrounded by lush greenery. The serene atmosphere and stunning views make it an ideal spot for picnics and relaxation.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Goshavank Monastery",
+    "city": "Gosh",
+    "type": "culture",
+    "description": "This lesser-known monastery is set in a picturesque forested area and features beautifully carved khachkars (cross-stones). It provides a peaceful environment for reflection and exploration.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Armenian Genocide Memorial",
+    "city": "Yerevan",
+    "type": "landmark",
+    "description": "Dedicated to the victims of the Armenian Genocide, this memorial complex serves as a poignant reminder of history. The site includes a museum and an eternal flame, drawing visitors from around the world.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kopan Monastery",
+    "city": "Kopan",
+    "type": "culture",
+    "description": "A lesser-known site, Kopan Monastery offers a tranquil setting and beautiful views of the surrounding mountains. It is a perfect place for meditation and spiritual retreat.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Sevanavank",
+    "city": "Sevan",
+    "type": "landmark",
+    "description": "This historic monastery overlooks Lake Sevan and is famous for its stunning views and ancient architecture. The site is particularly beautiful during sunset.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Kaghaznavank Monastery",
+    "city": "Kaghaznavank",
+    "type": "culture",
+    "description": "A hidden gem with stunning views, Kaghaznavank Monastery is known for its serene atmosphere and beautiful stone carvings. The location offers a perfect spot for hiking and photography.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Tatev Village",
+    "city": "Tatev",
+    "type": "entertainment",
+    "description": "This quaint village is known for its scenic beauty and rich history. The area offers various outdoor activities and is a great base for exploring the nearby Tatev Monastery.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Karsavank",
+    "city": "Gyumri",
+    "type": "culture",
+    "description": "A historic church complex with beautiful architecture and a serene atmosphere, Karsavank is less visited but offers a wonderful glimpse into Armenia's rich cultural heritage.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Khnzoresk Cave Village",
+    "city": "Khnzoresk",
+    "type": "landmark",
+    "description": "An ancient cave village with a unique history, Khnzoresk features rock-cut dwellings and churches. The area offers breathtaking views and is a fascinating place to explore.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Matenadaran",
+    "city": "Yerevan",
+    "type": "culture",
+    "description": "The Matenadaran is a depository of ancient manuscripts and a research institute. It houses an impressive collection of Armenian and global historical texts, making it a treasure trove for history enthusiasts.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Vorotnavank Monastery",
+    "city": "Yeghegnadzor",
+    "type": "culture",
+    "description": "Set in a stunning valley, Vorotnavank Monastery is known for its beautiful stone architecture and serene surroundings. It offers a peaceful escape and a deep sense of history.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Haghartsin Monastery",
+    "city": "Dilijan",
+    "type": "culture",
+    "description": "Nestled within the forests of Dilijan National Park, Haghartsin Monastery is a beautiful site featuring ancient churches and tranquil surroundings. The lush greenery adds to its charm.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Vardzia",
+    "city": "Vardzia",
+    "type": "landmark",
+    "description": "This impressive cave monastery carved into the cliffs dates back to the 12th century. Vardzia is a remarkable historical site with stunning views and a fascinating history.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Bjni Fortress",
+    "city": "Bjni",
+    "type": "landmark",
+    "description": "An ancient fortress located on a hilltop, Bjni Fortress offers panoramic views of the surrounding landscape. It's a lesser-known site but rich in history and natural beauty.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Armenian Alphabet Monument",
+    "city": "Artik",
+    "type": "landmark",
+    "description": "This unique monument celebrates the Armenian alphabet with giant letters representing each character. It's a symbol of Armenian identity and culture, set in a beautiful park.",
+    "country": "Armenia",
+    "country_rank": 4
+  },
+  {
+    "name": "Shikahogh State Reserve",
+    "city": "Sisian",
+    "type": "nature",
+    "description": "A hidden paradise, Shikahogh State Reserve is one of the last remaining temperate rainforests in Armenia. It's home to diverse flora and fauna, offering great opportunities for hiking and birdwatching.",
+    "country": "Armenia",
+    "country_rank": 4
+  }
+]

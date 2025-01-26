@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Banff National Park",
+    "city": "Banff",
+    "type": "nature",
+    "description": "Canada's first national park, Banff offers stunning mountain landscapes, turquoise glacial lakes, and abundant wildlife. It's a haven for outdoor enthusiasts with opportunities for hiking, skiing, and soaking in natural hot springs.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Niagara Falls",
+    "city": "Niagara Falls",
+    "type": "landmark",
+    "description": "One of the most famous waterfalls in the world, Niagara Falls captivates visitors with its breathtaking beauty and thundering sound. The area offers numerous attractions, including boat tours that take you close to the falls.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Vancouver Island",
+    "city": "Victoria",
+    "type": "nature",
+    "description": "Vancouver Island is known for its rugged coastline, quaint towns, and lush forests. It boasts beautiful beaches, whale watching opportunities, and the vibrant city of Victoria, famous for its British colonial architecture.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Old Quebec",
+    "city": "Quebec City",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Old Quebec is a charming area filled with cobblestone streets, historic buildings, and European flair. Visitors can explore the iconic Ch\u00e2teau Frontenac and enjoy local cuisine at cozy bistros.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Jasper National Park",
+    "city": "Jasper",
+    "type": "nature",
+    "description": "Known for its stunning landscapes and dark sky preserve, Jasper National Park is a paradise for nature lovers. It offers hiking, wildlife viewing, and opportunities to stargaze in one of the best dark sky locations in the world.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Cape Breton Highlands",
+    "city": "Inverness",
+    "type": "nature",
+    "description": "The Cape Breton Highlands are famous for their dramatic coastal cliffs and stunning ocean views. The Cabot Trail, a scenic drive, offers breathtaking vistas and access to hiking trails in the national park.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Montreal's Old Port",
+    "city": "Montreal",
+    "type": "culture",
+    "description": "The Old Port of Montreal is a historic area with a vibrant atmosphere, featuring waterfront activities, boutiques, and restaurants. Visitors can enjoy festivals, outdoor markets, and the iconic Notre-Dame Basilica.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Butchart Gardens",
+    "city": "Brentwood Bay",
+    "type": "nature",
+    "description": "A stunning display of floral beauty, The Butchart Gardens feature over 55 acres of beautifully designed gardens. It's a perfect spot for a leisurely stroll amidst vibrant flowers and tranquil ponds.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Canadian Museum of History",
+    "city": "Gatineau",
+    "type": "culture",
+    "description": "This museum showcases Canada's rich history and cultural heritage through engaging exhibits and artifacts. Its stunning architecture and location by the Ottawa River make it a must-visit for history buffs.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Riding Mountain National Park",
+    "city": "Bowsman",
+    "type": "nature",
+    "description": "Riding Mountain National Park is a hidden gem known for its diverse ecosystems, including forests, grasslands, and lakes. Visitors can hike, bike, or spot wildlife in this serene natural setting.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Banff Gondola",
+    "city": "Banff",
+    "type": "entertainment",
+    "description": "The Banff Gondola takes visitors on a scenic ride to the summit of Sulphur Mountain, offering panoramic views of the Canadian Rockies. At the top, there are walking trails and a restaurant to enjoy the breathtaking scenery.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Gros Morne National Park",
+    "city": "Rocky Harbour",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Gros Morne National Park is known for its dramatic landscapes, including fjords and mountains. Hikers can explore the diverse ecosystems and unique geological features.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "St. Joseph's Oratory",
+    "city": "Montreal",
+    "type": "landmark",
+    "description": "St. Joseph's Oratory is an impressive basilica and one of the largest churches in the world. Its stunning architecture and panoramic views of Montreal make it a must-see for visitors.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Louise",
+    "city": "Lake Louise",
+    "type": "nature",
+    "description": "Lake Louise is famous for its stunning turquoise waters surrounded by towering mountains. It offers year-round activities, including hiking in summer and skiing in winter, making it a perfect escape for nature lovers.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Whistler Blackcomb",
+    "city": "Whistler",
+    "type": "entertainment",
+    "description": "Whistler Blackcomb is North America's largest ski resort, offering a world-class skiing experience. In addition to winter sports, it features mountain biking trails and a vibrant village with shops and restaurants.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Ottawa's Rideau Canal",
+    "city": "Ottawa",
+    "type": "landmark",
+    "description": "The Rideau Canal, a UNESCO World Heritage site, is the world's largest skating rink in winter and a beautiful waterway in summer. Visitors can enjoy boating, biking, and picturesque views throughout the year.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Churchill",
+    "city": "Churchill",
+    "type": "nature",
+    "description": "Known as the 'Polar Bear Capital of the World,' Churchill offers unique opportunities for wildlife viewing, including polar bears and beluga whales. It's a remote destination that attracts adventurers and nature enthusiasts.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Lunenburg",
+    "city": "Lunenburg",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Lunenburg is a historic town known for its colorful waterfront and well-preserved colonial architecture. It's a great place to learn about maritime history and enjoy fresh seafood.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Moraine Lake",
+    "city": "Lake Louise",
+    "type": "nature",
+    "description": "Moraine Lake is famous for its striking blue waters and surrounding mountain peaks. The area offers hiking trails and stunning viewpoints, making it one of the most photographed locations in Canada.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Banff Upper Hot Springs",
+    "city": "Banff",
+    "type": "entertainment",
+    "description": "The Banff Upper Hot Springs provide a relaxing experience with stunning views of the surrounding mountains. Visitors can soak in the mineral-rich waters and enjoy the natural beauty of the area.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Forks",
+    "city": "Winnipeg",
+    "type": "culture",
+    "description": "The Forks is a historic site and gathering place at the confluence of the Red and Assiniboine Rivers. It features shops, restaurants, and cultural attractions, making it a vibrant hub for locals and tourists alike.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Kakabeka Falls",
+    "city": "Kakabeka Falls",
+    "type": "nature",
+    "description": "Kakabeka Falls is often referred to as the 'Niagara of the North.' The stunning waterfall cascades over 40 meters and is surrounded by beautiful trails and viewpoints.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Signal Hill",
+    "city": "St. John's",
+    "type": "landmark",
+    "description": "Signal Hill offers breathtaking views of St. John's and the Atlantic Ocean. It's a historic site where visitors can learn about the city's military history and enjoy scenic walking trails.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Cabot Trail",
+    "city": "Cape Breton",
+    "type": "nature",
+    "description": "The Cabot Trail is a scenic highway that winds through Cape Breton Highlands National Park. It offers stunning ocean views, hiking trails, and opportunities to spot wildlife along the way.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Royal Ontario Museum",
+    "city": "Toronto",
+    "type": "culture",
+    "description": "As one of the largest museums in North America, the Royal Ontario Museum features diverse exhibits ranging from natural history to world cultures. Its iconic architecture is a landmark in Toronto.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Flowerpot Island",
+    "city": "Tobermory",
+    "type": "nature",
+    "description": "Flowerpot Island, part of Fathom Five National Marine Park, is known for its unique rock formations and crystal-clear waters. Visitors can hike the trails and explore the marine life through glass-bottom boat tours.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Wells Gray Provincial Park",
+    "city": "Clearwater",
+    "type": "nature",
+    "description": "Wells Gray Provincial Park is known for its stunning waterfalls, including Helmcken Falls, which is higher than Niagara Falls. The park offers hiking trails, camping, and opportunities for wildlife viewing.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Art Gallery of Ontario",
+    "city": "Toronto",
+    "type": "culture",
+    "description": "The Art Gallery of Ontario houses an impressive collection of Canadian and international art. Its striking architecture and diverse exhibits make it a cultural gem in the heart of Toronto.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Tadoussac",
+    "city": "Tadoussac",
+    "type": "nature",
+    "description": "Tadoussac is a charming village known for its whale-watching opportunities in the Saguenay\u2013St. Lawrence Marine Park. The picturesque scenery and historic sites make it a perfect spot for nature lovers.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Elk Island National Park",
+    "city": "Fort Saskatchewan",
+    "type": "nature",
+    "description": "Elk Island National Park is a hidden gem where visitors can see bison and other wildlife in their natural habitat. The park offers hiking trails and stargazing opportunities in a peaceful setting.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Capilano Suspension Bridge Park",
+    "city": "Vancouver",
+    "type": "entertainment",
+    "description": "The Capilano Suspension Bridge Park features a thrilling suspension bridge that spans 137 meters across a river canyon. Visitors can also explore tree-top walkways and learn about the area's natural history.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Bay of Fundy",
+    "city": "Bay of Fundy",
+    "type": "nature",
+    "description": "The Bay of Fundy is renowned for having the highest tides in the world. Visitors can explore the unique ecosystems and enjoy activities such as whale watching and exploring the tidal flats.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Parks Canada",
+    "city": "National",
+    "type": "nature",
+    "description": "Parks Canada offers a vast network of national parks and historic sites across the country, showcasing Canada's natural beauty and cultural heritage. Each park has its own unique landscapes and recreational opportunities.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Hopewell Rocks",
+    "city": "Hopewell Cape",
+    "type": "nature",
+    "description": "Hopewell Rocks features unique rock formations shaped by the Bay of Fundy's tides. Visitors can walk on the ocean floor during low tide and kayak around the towering flowerpot rocks.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Canadian War Museum",
+    "city": "Ottawa",
+    "type": "culture",
+    "description": "The Canadian War Museum provides an in-depth look at Canada's military history through exhibits and artifacts. Its striking architecture and vast collection make it a significant cultural site.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Mont Tremblant",
+    "city": "Mont Tremblant",
+    "type": "entertainment",
+    "description": "Mont Tremblant is a popular ski resort known for its vibrant village and year-round outdoor activities. In addition to skiing, visitors can enjoy hiking, golfing, and spa experiences.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Polar Bear Habitat",
+    "city": "Cochrane",
+    "type": "entertainment",
+    "description": "The Polar Bear Habitat is a unique facility dedicated to the conservation of polar bears. Visitors can learn about these magnificent animals and observe them in a naturalistic setting.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Muskoka Lakes",
+    "city": "Muskoka",
+    "type": "nature",
+    "description": "The Muskoka Lakes region is a picturesque area known for its stunning lakes, charming cottages, and outdoor activities. It's a popular destination for boating, fishing, and relaxing by the water.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Toronto Islands",
+    "city": "Toronto",
+    "type": "nature",
+    "description": "The Toronto Islands offer a serene escape from the city with beautiful parks, beaches, and stunning views of the skyline. It's a perfect spot for picnics, cycling, and enjoying nature.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "St. Lawrence Market",
+    "city": "Toronto",
+    "type": "culture",
+    "description": "St. Lawrence Market is a historic market filled with local vendors selling fresh produce, meats, artisanal foods, and crafts. It's a vibrant spot to experience Toronto's culinary scene.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Saskatchewan's Grasslands National Park",
+    "city": "Val Marie",
+    "type": "nature",
+    "description": "Grasslands National Park showcases the unique prairie ecosystem, home to diverse wildlife and stunning landscapes. Visitors can hike and camp in this untouched natural setting.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Kootenay National Park",
+    "city": "Radium Hot Springs",
+    "type": "nature",
+    "description": "Kootenay National Park features a variety of landscapes, from hot springs to rugged mountains. It's known for its natural beauty and outdoor activities such as hiking and wildlife watching.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Strathcona Provincial Park",
+    "city": "Campbell River",
+    "type": "nature",
+    "description": "Strathcona Provincial Park is home to stunning glaciers, alpine lakes, and diverse wildlife. It's a fantastic spot for hiking, camping, and experiencing the raw beauty of British Columbia.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Museum of Anthropology",
+    "city": "Vancouver",
+    "type": "culture",
+    "description": "The Museum of Anthropology at the University of British Columbia showcases indigenous art and culture. Its impressive collection and stunning architecture are set against beautiful natural surroundings.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Cap de la Madeleine",
+    "city": "Trois-Rivi\u00e8res",
+    "type": "culture",
+    "description": "Cap de la Madeleine is known for its beautiful basilica and rich religious history. The site offers a peaceful atmosphere and stunning views of the St. Lawrence River.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Okanagan Valley",
+    "city": "Kelowna",
+    "type": "nature",
+    "description": "The Okanagan Valley is famous for its vineyards, orchards, and beautiful lakes. Visitors can enjoy wine tours, outdoor activities, and stunning scenery throughout the year.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Fogo Island",
+    "city": "Fogo Island",
+    "type": "nature",
+    "description": "Fogo Island is known for its stunning landscapes, unique culture, and vibrant arts community. Visitors can explore the rugged coastline, quaint fishing villages, and the famous Fogo Island Inn.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Rogers Centre",
+    "city": "Toronto",
+    "type": "entertainment",
+    "description": "Rogers Centre is a multi-purpose stadium known for its retractable roof and as the home of the Toronto Blue Jays. It hosts various events, including concerts and sports games.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Montmorency Falls",
+    "city": "Quebec City",
+    "type": "nature",
+    "description": "Montmorency Falls is a stunning waterfall that is higher than Niagara Falls. Visitors can take a cable car or hike to viewpoints for breathtaking views of the falls and the surrounding area.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Vancouver Aquarium",
+    "city": "Vancouver",
+    "type": "entertainment",
+    "description": "The Vancouver Aquarium is a leader in marine conservation and education. Visitors can view a variety of marine life and learn about the importance of protecting our oceans.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "The Canadian Rockies",
+    "city": "Various",
+    "type": "nature",
+    "description": "The Canadian Rockies are a majestic mountain range that offers stunning scenery, outdoor activities, and wildlife viewing. The region is known for its beautiful national parks and breathtaking landscapes.",
+    "country": "Canada",
+    "country_rank": 9
+  },
+  {
+    "name": "Shaw Festival",
+    "city": "Niagara-on-the-Lake",
+    "type": "entertainment",
+    "description": "The Shaw Festival is a renowned theatre festival that celebrates the works of George Bernard Shaw and his contemporaries. It takes place in a picturesque town known for its charming streets and historic sites.",
+    "country": "Canada",
+    "country_rank": 9
+  }
+]

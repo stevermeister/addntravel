@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Great Blue Hole",
+    "city": "Lighthouse Reef",
+    "type": "nature",
+    "description": "A world-famous marine sinkhole, the Great Blue Hole is a UNESCO World Heritage Site known for its stunning blue waters and diverse marine life. Ideal for scuba diving and snorkeling, it offers an unparalleled underwater experience.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Ambergris Caye",
+    "city": "San Pedro",
+    "type": "nature",
+    "description": "The largest island in Belize, Ambergris Caye is renowned for its beautiful beaches and vibrant coral reefs. Visitors can enjoy water sports, local cuisine, and a laid-back atmosphere.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Caye Caulker",
+    "city": "Caye Caulker",
+    "type": "nature",
+    "description": "A small, relaxed island with a bohemian vibe, Caye Caulker is famous for its stunning sunsets and the 'Split,' a natural pool perfect for swimming. It's a great spot for snorkeling and enjoying fresh seafood.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Belize Barrier Reef",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "The second-largest barrier reef in the world, this UNESCO World Heritage Site is a paradise for divers and snorkelers. Its vibrant marine ecosystems are home to countless species of fish, coral, and other wildlife.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Mayan Ruins of Tikal",
+    "city": "Tikal",
+    "type": "culture",
+    "description": "Once a powerful city of the Maya civilization, Tikal features impressive temples and pyramids set in the lush rainforest. It's a UNESCO World Heritage Site and a must-visit for history enthusiasts.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Xunantunich",
+    "city": "San Ignacio",
+    "type": "culture",
+    "description": "An ancient Mayan archaeological site, Xunantunich boasts impressive temples and a stunning view from the top of El Castillo. The site is accessible via a hand-cranked ferry across the Mopan River.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Caracol",
+    "city": "Cayo District",
+    "type": "culture",
+    "description": "One of the largest Maya cities in Belize, Caracol is known for its impressive architecture and rich history. The site features the tallest structure in Belize, Caana, which offers panoramic views of the surrounding jungle.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Actun Tunichil Muknal (ATM) Cave",
+    "city": "Teakettle Village",
+    "type": "culture",
+    "description": "A fascinating cave system that contains ancient Maya artifacts and skeletal remains, ATM Cave offers guided tours that delve into the history and spirituality of the Maya. It's a unique adventure for the intrepid traveler.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Hol Chan Marine Reserve",
+    "city": "Ambergris Caye",
+    "type": "nature",
+    "description": "This protected marine reserve is famous for its rich biodiversity, offering fantastic snorkeling and diving opportunities. Visitors can see a variety of marine life, including sharks, rays, and colorful fish.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Cockscomb Basin Wildlife Sanctuary",
+    "city": "Dangriga",
+    "type": "nature",
+    "description": "Known as the world's first jaguar reserve, Cockscomb Basin offers stunning hiking trails and opportunities for wildlife spotting. The sanctuary is home to a variety of flora and fauna, making it a nature lover's paradise.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Placencia",
+    "city": "Placencia",
+    "type": "nature",
+    "description": "A charming coastal village known for its beautiful beaches and vibrant culture, Placencia is a great base for exploring nearby cayes and the Belize Barrier Reef. The area is also famous for its seafood and friendly locals.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Bocca del Toro",
+    "city": "Corozal District",
+    "type": "nature",
+    "description": "A beautiful, lesser-known beach destination, Bocca del Toro features crystal-clear waters and serene surroundings. It's perfect for a quiet getaway and offers opportunities for kayaking and exploring nearby islands.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Belize Zoo",
+    "city": "Belmopan",
+    "type": "nature",
+    "description": "The Belize Zoo is home to a variety of native animals in natural habitats. It focuses on education and conservation, providing visitors with a chance to learn about Belize's unique wildlife.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Lamanai",
+    "city": "Orange Walk District",
+    "type": "culture",
+    "description": "An ancient Mayan city set in a lush jungle, Lamanai features impressive temples and a rich history. Visitors can explore the ruins and take a scenic boat ride through the wildlife-rich lagoon.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "River of Caves",
+    "city": "San Ignacio",
+    "type": "nature",
+    "description": "A network of caves and underground rivers, the River of Caves offers thrilling adventures for those interested in cave tubing and exploring the natural beauty of Belize\u2019s underground.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Blue Hole National Park",
+    "city": "Belmopan",
+    "type": "nature",
+    "description": "This stunning national park features a deep blue sinkhole surrounded by lush rainforest. It's a great spot for hiking, swimming, and bird-watching.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Glover's Reef Atoll",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, Glover's Reef Atoll is known for its incredible biodiversity and pristine coral reefs. It's a fantastic destination for diving and snorkeling.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "St. Herman's Blue Hole National Park",
+    "city": "Belmopan",
+    "type": "nature",
+    "description": "This park features a beautiful blue hole, cave systems, and lush hiking trails. It's an excellent spot for swimming, picnicking, and exploring the unique limestone formations.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Belize Audubon Society",
+    "city": "Belmopan",
+    "type": "nature",
+    "description": "Dedicated to conservation and education, the Belize Audubon Society offers guided birdwatching tours and programs for nature lovers. The organization promotes the protection of Belize's unique ecosystems.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Mennonite Community in Spanish Lookout",
+    "city": "Spanish Lookout",
+    "type": "culture",
+    "description": "This unique community showcases the rich Mennonite culture in Belize. Visitors can experience traditional farming practices, local crafts, and delicious homemade goods.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Altun Ha",
+    "city": "Belize District",
+    "type": "culture",
+    "description": "An ancient Mayan city known for its archaeological significance, Altun Ha features impressive temples and is famous for the discovery of the jade head of the Sun God. The site is easily accessible and offers a glimpse into Belize's history.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo District",
+    "city": "Cayo District",
+    "type": "nature",
+    "description": "Known for its lush landscapes and rich biodiversity, Cayo District offers numerous outdoor activities such as hiking, cave exploring, and birdwatching. It's a great base for exploring nearby attractions.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Sarteneja",
+    "city": "Corozal District",
+    "type": "nature",
+    "description": "A small fishing village on the northern coast, Sarteneja is known for its tranquil beaches and friendly community. It offers a more authentic Belizean experience away from the tourist crowds.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Big Rock Falls",
+    "city": "Mountain Pine Ridge",
+    "type": "nature",
+    "description": "A stunning waterfall set in the Mountain Pine Ridge Forest Reserve, Big Rock Falls is a hidden gem perfect for swimming and picnicking. The surrounding area features beautiful hiking trails.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Tobacco Caye",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "A charming small island known for its relaxed atmosphere, Tobacco Caye is perfect for snorkeling, diving, and enjoying the stunning Caribbean views. It's a great escape for those looking to unwind.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Half Moon Caye",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "Part of the Belize Barrier Reef Reserve System, Half Moon Caye is a stunning island known for its rich birdlife, including the famed red-footed booby. It's an excellent spot for eco-tourism and snorkeling.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Chiquibul Cave",
+    "city": "Cayo District",
+    "type": "nature",
+    "description": "A unique cave system that offers both adventure and exploration, Chiquibul Cave is known for its impressive stalactites and stalagmites. Guided tours allow visitors to learn about the geological formations.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Espanto",
+    "city": "Ambergris Caye",
+    "type": "entertainment",
+    "description": "A luxurious private island resort, Cayo Espanto is the ultimate getaway for those seeking relaxation and exclusivity. It offers upscale accommodations, personalized service, and breathtaking views.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Art Box",
+    "city": "San Pedro",
+    "type": "culture",
+    "description": "A unique art gallery and workshop in San Pedro, The Art Box showcases local artists and offers art classes for visitors. It's a great place to explore Belizean creativity and culture.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Lighthouse Reef",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "A stunning atoll that is part of the Belize Barrier Reef, Lighthouse Reef is known for its crystal-clear waters and vibrant marine life. It's a top destination for scuba divers and snorkelers.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Frances Farm & Fly",
+    "city": "Placencia",
+    "type": "entertainment",
+    "description": "A unique eco-resort and fishing lodge that offers a blend of luxury and adventure, Cayo Frances is perfect for anglers and nature lovers. The lodge provides access to pristine fishing grounds.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Punta Gorda",
+    "city": "Punta Gorda",
+    "type": "culture",
+    "description": "A charming coastal town with a vibrant Garifuna culture, Punta Gorda is known for its colorful markets and delicious local cuisine. It's a great place to experience authentic Belizean culture.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Corozal Bay",
+    "city": "Corozal",
+    "type": "nature",
+    "description": "A beautiful bay known for its serene waters and stunning sunsets, Corozal Bay is perfect for kayaking, fishing, and relaxing on the beach. It's a lesser-known gem in Belize.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Rendezvous Caye",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "A secluded caye known for its pristine beaches and crystal-clear waters, Rendezvous Caye is perfect for a quiet day of sunbathing and snorkeling. It's a hidden paradise away from the crowds.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Belize City",
+    "city": "Belize City",
+    "type": "culture",
+    "description": "The largest city in Belize, Belize City is rich in history and culture. Visitors can explore landmarks, museums, and vibrant local markets that showcase the city's diverse heritage.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Old Belize Cultural and Historical Center",
+    "city": "Belize City",
+    "type": "culture",
+    "description": "A fascinating museum that highlights Belize\u2019s history, culture, and natural beauty, Old Belize offers exhibits, artifacts, and an outdoor recreation area. It's a great place to learn about the country's heritage.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Shark Ray Alley",
+    "city": "Ambergris Caye",
+    "type": "nature",
+    "description": "A popular snorkeling spot in the Hol Chan Marine Reserve, Shark Ray Alley is famous for its friendly nurse sharks and stingrays. It's a thrilling experience for marine life enthusiasts.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Nim Li Punit",
+    "city": "Toledo District",
+    "type": "culture",
+    "description": "An ancient Mayan site featuring impressive stelae and ceremonial platforms, Nim Li Punit offers a glimpse into the rich history of the Maya civilization. It's a peaceful place to explore and learn.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Monkey River",
+    "city": "Toledo District",
+    "type": "nature",
+    "description": "A tranquil river known for its lush surroundings and howler monkeys, Monkey River offers boat tours for wildlife spotting and eco-tourism. It's a great place to connect with nature.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "Cayo Rosa",
+    "city": "Offshore",
+    "type": "nature",
+    "description": "A beautiful, lesser-known caye, Cayo Rosa is perfect for snorkeling, diving, and enjoying the peaceful Caribbean atmosphere. It's an ideal escape for those looking to unwind.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Belize Chocolate Company",
+    "city": "San Ignacio",
+    "type": "entertainment",
+    "description": "A unique chocolate factory that offers tours and tastings, the Belize Chocolate Company showcases the process of making artisanal chocolate from local cacao. It's a delicious experience for chocolate lovers.",
+    "country": "Belize",
+    "country_rank": 6
+  },
+  {
+    "name": "The Belize Spice Farm",
+    "city": "Cayo District",
+    "type": "culture",
+    "description": "A working spice farm that offers tours and tastings, the Belize Spice Farm is a great place to learn about local spices and their uses in cooking. It's a flavorful experience for food enthusiasts.",
+    "country": "Belize",
+    "country_rank": 6
+  }
+]

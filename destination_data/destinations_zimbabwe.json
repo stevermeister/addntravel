@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Victoria Falls",
+    "city": "Victoria Falls",
+    "type": "landmark",
+    "description": "One of the largest and most famous waterfalls in the world, Victoria Falls is a UNESCO World Heritage site. It offers breathtaking views and various adventure activities such as bungee jumping and white-water rafting.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Hwange National Park",
+    "city": "Hwange",
+    "type": "nature",
+    "description": "The largest national park in Zimbabwe, Hwange is home to a diverse range of wildlife, including one of the largest populations of elephants in Africa. The park offers excellent game viewing opportunities in a stunning natural setting.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Lake Kariba",
+    "city": "Kariba",
+    "type": "nature",
+    "description": "A massive artificial lake on the Zambezi River, Lake Kariba is famous for its stunning sunsets and opportunities for fishing and boat cruises. The surrounding area is rich in wildlife, making it a popular destination for nature lovers.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Great Zimbabwe Ruins",
+    "city": "Masvingo",
+    "type": "culture",
+    "description": "The largest ancient structure in sub-Saharan Africa, Great Zimbabwe is a UNESCO World Heritage site that showcases the impressive stone ruins of a lost civilization. It offers insights into the history and culture of the region.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Mana Pools National Park",
+    "city": "Sanyati",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Mana Pools is known for its stunning landscapes, diverse wildlife, and opportunities for walking safaris. The park is famous for its large elephant populations and picturesque floodplains.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Bulawayo Railway Museum",
+    "city": "Bulawayo",
+    "type": "culture",
+    "description": "This museum showcases the rich history of rail transport in Zimbabwe, featuring vintage locomotives and carriages. It offers a fascinating glimpse into the development of the rail system in the region.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Chimanimani Mountains",
+    "city": "Chimanimani",
+    "type": "nature",
+    "description": "A stunning range of mountains known for their unique rock formations, beautiful hiking trails, and diverse flora and fauna. The area is perfect for outdoor enthusiasts looking for adventure and natural beauty.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Kariba Dam",
+    "city": "Kariba",
+    "type": "landmark",
+    "description": "An engineering marvel, Kariba Dam is one of the largest dams in the world. Visitors can explore the dam, enjoy boat tours on the lake, and witness spectacular views of the surrounding landscape.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Bvumba Mountains",
+    "city": "Mutare",
+    "type": "nature",
+    "description": "A picturesque mountain range known for its lush vegetation, stunning views, and cool climate. The Bvumba area is ideal for hiking, bird watching, and enjoying the tranquility of nature.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Ndebele Villages",
+    "city": "Matobo",
+    "type": "culture",
+    "description": "Visiting Ndebele villages offers a unique cultural experience, showcasing traditional crafts, colorful homes, and the rich heritage of the Ndebele people. It's an opportunity to learn about their customs and way of life.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Matobo National Park",
+    "city": "Bulawayo",
+    "type": "nature",
+    "description": "Famous for its unique balancing rock formations and rich biodiversity, Matobo National Park is home to a significant population of black and white rhinos. It also features ancient rock art and stunning landscapes.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Chinhoyi Caves",
+    "city": "Chinhoyi",
+    "type": "nature",
+    "description": "A series of limestone caves known for their stunning blue underground pools and impressive stalactite formations. The caves are a fascinating natural wonder and offer opportunities for exploration and adventure.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Victoria Falls Bridge",
+    "city": "Victoria Falls",
+    "type": "landmark",
+    "description": "An iconic bridge that spans the Zambezi River, offering stunning views of Victoria Falls. Visitors can walk across the bridge and enjoy bungee jumping and zip-lining experiences.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Eastern Highlands",
+    "city": "Mutare",
+    "type": "nature",
+    "description": "A beautiful region characterized by lush landscapes, rolling hills, and stunning views. The Eastern Highlands are perfect for hiking, bird watching, and enjoying the cool climate.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Zambezi National Park",
+    "city": "Victoria Falls",
+    "type": "nature",
+    "description": "Located along the Zambezi River, this park is known for its diverse wildlife and beautiful scenery. It offers excellent opportunities for game drives and river cruises.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Natural History Museum",
+    "city": "Bulawayo",
+    "type": "culture",
+    "description": "This museum showcases Zimbabwe's rich natural history, featuring exhibits on fossils, minerals, and wildlife. It's a great place to learn about the country's biodiversity and geological heritage.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Senga Bay",
+    "city": "Kariba",
+    "type": "entertainment",
+    "description": "A popular recreational area on the shores of Lake Kariba, known for its beaches and water sports. Senga Bay is a great spot for relaxation and enjoying the lake's beauty.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Chimanimani National Park",
+    "city": "Chimanimani",
+    "type": "nature",
+    "description": "A stunning national park known for its rugged terrain, breathtaking views, and diverse wildlife. It's a great destination for hiking, rock climbing, and nature photography.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Nyanga National Park",
+    "city": "Nyanga",
+    "type": "nature",
+    "description": "Famous for its mountainous terrain and beautiful waterfalls, Nyanga National Park offers a range of outdoor activities including hiking, fishing, and bird watching. The park's stunning scenery makes it a favorite among nature lovers.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Gweru Military Museum",
+    "city": "Gweru",
+    "type": "culture",
+    "description": "This museum showcases Zimbabwe's military history, featuring exhibits on various conflicts and military equipment. It's an insightful place for those interested in the country's past.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Mukuvisi Woodlands",
+    "city": "Harare",
+    "type": "nature",
+    "description": "A nature reserve located near Harare, Mukuvisi Woodlands offers walking trails and opportunities to see wildlife such as giraffes and zebras. It's a peaceful escape from the city.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The National Gallery of Zimbabwe",
+    "city": "Harare",
+    "type": "culture",
+    "description": "A premier art gallery showcasing contemporary African art, as well as traditional works. It's a cultural hub that promotes local artists and hosts various exhibitions.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Kangani Falls",
+    "city": "Kangani",
+    "type": "nature",
+    "description": "A hidden gem featuring a series of beautiful waterfalls and lush vegetation. It's an ideal spot for picnics, hiking, and enjoying the serene natural surroundings.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Chipangali Wildlife Orphanage",
+    "city": "Bulawayo",
+    "type": "entertainment",
+    "description": "Dedicated to the rescue and rehabilitation of wildlife, Chipangali provides a unique opportunity to see and learn about various animals. The orphanage offers guided tours and educational programs.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Harare Gardens",
+    "city": "Harare",
+    "type": "nature",
+    "description": "A beautiful public park in the heart of Harare, featuring lush lawns, fountains, and a variety of trees and flowers. It's a perfect spot for relaxation, picnics, and enjoying outdoor concerts.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Shrine of Our Lady of Fatima",
+    "city": "Harare",
+    "type": "landmark",
+    "description": "A significant religious site in Zimbabwe, this shrine attracts visitors for its beautiful architecture and serene environment. It is also a place of pilgrimage for many.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Lion & Cheetah Park",
+    "city": "Harare",
+    "type": "entertainment",
+    "description": "A unique wildlife park where visitors can see lions, cheetahs, and other animals up close. The park offers guided tours and interactive experiences, making it a great family destination.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Domboshava Caves",
+    "city": "Domboshava",
+    "type": "culture",
+    "description": "Known for their ancient rock art and stunning views, the Domboshava Caves are a significant historical site. Visitors can hike to the caves and explore the fascinating prehistoric artwork.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Haka Game Park",
+    "city": "Harare",
+    "type": "nature",
+    "description": "A lesser-known game park that offers a more intimate wildlife experience. Visitors can enjoy game drives and guided walks, spotting various species in a tranquil setting.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Shona Sculpture Park",
+    "city": "Harare",
+    "type": "culture",
+    "description": "An outdoor gallery showcasing the incredible talent of Shona sculptors. The park features numerous stunning sculptures set within a beautiful landscape.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "Matobo Hills",
+    "city": "Bulawayo",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site known for its dramatic granite landscapes and rich cultural history. The area is home to ancient rock art and a variety of wildlife.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Chinhoyi Caves",
+    "city": "Chinhoyi",
+    "type": "nature",
+    "description": "Famous for their stunning blue waters, the Chinhoyi Caves offer a unique underground adventure. Visitors can explore the caves and learn about their geological significance.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Zimbabwe Museum of Human Sciences",
+    "city": "Harare",
+    "type": "culture",
+    "description": "A museum dedicated to the cultural and historical heritage of Zimbabwe, showcasing artifacts, art, and exhibits that highlight the country's rich history.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Botanical Gardens",
+    "city": "Harare",
+    "type": "nature",
+    "description": "A tranquil space featuring a variety of indigenous and exotic plants, the gardens are perfect for leisurely strolls and picnics. It's a great spot for nature lovers and photographers.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Binga Fishing Camp",
+    "city": "Binga",
+    "type": "entertainment",
+    "description": "A hidden gem on the shores of Lake Kariba, Binga offers fishing and water activities in a serene setting. The camp provides a unique experience for those looking to relax by the water.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Nyanga Trout Farm",
+    "city": "Nyanga",
+    "type": "entertainment",
+    "description": "A charming spot for fishing enthusiasts, the trout farm offers a peaceful environment and the chance to catch fresh trout. It's a great place to unwind and enjoy nature.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Antelope Park",
+    "city": "Gweru",
+    "type": "entertainment",
+    "description": "A unique wildlife park focused on conservation, offering guests the chance to interact with lions and learn about animal rehabilitation efforts. It's an unforgettable experience for animal lovers.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Masvingo Castle",
+    "city": "Masvingo",
+    "type": "landmark",
+    "description": "A historical site with a fascinating past, Masvingo Castle is a reminder of the colonial era. Visitors can explore the castle and enjoy views of the surrounding area.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Ruins of Khami",
+    "city": "Bulawayo",
+    "type": "culture",
+    "description": "An archaeological site featuring the remains of an ancient city, Khami offers insights into the Great Zimbabwe civilization. The site is less crowded than Great Zimbabwe and provides a unique historical perspective.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  },
+  {
+    "name": "The Marondera Arts and Crafts Market",
+    "city": "Marondera",
+    "type": "culture",
+    "description": "A vibrant market showcasing local arts and crafts, this is a great place to find unique souvenirs and interact with local artisans. The market reflects the rich cultural heritage of Zimbabwe.",
+    "country": "Zimbabwe",
+    "country_rank": 6
+  }
+]

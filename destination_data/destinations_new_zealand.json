@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Milford Sound",
+    "city": "Fiordland",
+    "type": "nature",
+    "description": "A stunning natural fjord known for its breathtaking scenery, towering cliffs, and cascading waterfalls. It's often referred to as the 'eighth wonder of the world' and offers incredible boat tours.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Rotorua",
+    "city": "Rotorua",
+    "type": "culture",
+    "description": "Famous for its geothermal activity and rich Maori culture, Rotorua offers hot springs, geysers, and cultural performances. Visitors can experience traditional hangi feasts and learn about Maori history.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Tongariro National Park",
+    "city": "Tongariro",
+    "type": "nature",
+    "description": "Home to three active volcanoes, this UNESCO World Heritage site features stunning landscapes, hiking trails, and the famous Tongariro Alpine Crossing. It's a haven for adventurous hikers.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Queenstown",
+    "city": "Queenstown",
+    "type": "entertainment",
+    "description": "Known as the adventure capital of New Zealand, Queenstown offers a plethora of adrenaline-pumping activities like bungee jumping, skydiving, and skiing. Its stunning alpine scenery attracts visitors year-round.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Bay of Islands",
+    "city": "Paihia",
+    "type": "nature",
+    "description": "A beautiful region made up of over 140 islands, perfect for sailing, fishing, and exploring. The Bay of Islands is also rich in history, being one of the first areas settled by Europeans.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Waiheke Island",
+    "city": "Auckland",
+    "type": "nature",
+    "description": "Just a short ferry ride from Auckland, Waiheke Island is known for its stunning vineyards, olive groves, and beautiful beaches. It's a great place for wine tasting and relaxing in a picturesque setting.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Aoraki / Mount Cook National Park",
+    "city": "Mount Cook Village",
+    "type": "nature",
+    "description": "Home to New Zealand's highest peak, Aoraki, this national park features stunning alpine scenery, hiking trails, and starry night skies. It's a paradise for mountaineers and nature lovers.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Franz Josef Glacier",
+    "city": "Franz Josef",
+    "type": "nature",
+    "description": "One of the most accessible glaciers in the world, Franz Josef offers guided walks and helicopter tours for breathtaking views of the ice formations. The surrounding rainforest adds to its unique beauty.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Waitomo Caves",
+    "city": "Waitomo",
+    "type": "nature",
+    "description": "Famous for its glowworm caves, Waitomo offers guided tours through stunning underground landscapes. Visitors can also enjoy black-water rafting and abseiling for an adventurous experience.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Hobbiton",
+    "city": "Matamata",
+    "type": "culture",
+    "description": "The movie set from 'The Lord of the Rings' and 'The Hobbit' trilogies, Hobbiton offers immersive tours of the charming Shire. Fans of the films can explore the iconic hobbit holes and enjoy a drink at the Green Dragon Inn.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Christchurch Botanic Gardens",
+    "city": "Christchurch",
+    "type": "nature",
+    "description": "A beautiful collection of gardens featuring a wide variety of plant species, stunning landscapes, and serene riverside walks. It's a perfect place for a relaxing day amidst nature.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Te Papa Museum",
+    "city": "Wellington",
+    "type": "culture",
+    "description": "New Zealand's national museum, Te Papa, showcases the country's cultural heritage, natural history, and art. Its interactive exhibits make it a fun and educational experience for visitors of all ages.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Kaikoura",
+    "city": "Kaikoura",
+    "type": "nature",
+    "description": "Renowned for its marine wildlife, Kaikoura offers opportunities for whale watching, dolphin swimming, and seal encounters. The stunning coastal scenery adds to its charm.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Punakaiki Pancake Rocks",
+    "city": "Punakaiki",
+    "type": "nature",
+    "description": "Famous for its unique limestone formations that resemble stacks of pancakes, Punakaiki offers stunning coastal views and blowholes that are active during high tide.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Coromandel",
+    "city": "Coromandel",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and lush forests, the Coromandel Peninsula is a great destination for hiking, swimming, and relaxation. Hot Water Beach is a must-visit for its natural hot springs.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Eden",
+    "city": "Auckland",
+    "type": "landmark",
+    "description": "An extinct volcano that offers panoramic views of Auckland, Mount Eden is a popular spot for both locals and tourists. The lush green landscape and volcanic crater make it a unique landmark.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Abel Tasman National Park",
+    "city": "Marahau",
+    "type": "nature",
+    "description": "Known for its golden beaches, clear waters, and lush forests, this national park is perfect for hiking, kayaking, and relaxing. The Abel Tasman Coast Track is one of New Zealand\u2019s Great Walks.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Glenorchy",
+    "city": "Glenorchy",
+    "type": "nature",
+    "description": "A small village surrounded by stunning mountains and lakes, Glenorchy is the gateway to numerous hiking trails and scenic spots. It's also a filming location for 'The Lord of the Rings'.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Oamaru",
+    "city": "Oamaru",
+    "type": "culture",
+    "description": "Famous for its Victorian architecture and blue penguin colony, Oamaru offers a glimpse into New Zealand's history. The Steampunk HQ adds a quirky twist to the cultural experience.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Waitaki Valley",
+    "city": "Oamaru",
+    "type": "nature",
+    "description": "Known for its stunning landscapes, vineyards, and rich geological history, the Waitaki Valley is perfect for outdoor activities and wine tasting. It's a less-traveled gem for those seeking tranquility.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Catlins",
+    "city": "The Catlins",
+    "type": "nature",
+    "description": "A remote and rugged coastal area known for its dramatic scenery, waterfalls, and wildlife. The Catlins is a hidden gem for nature lovers, with opportunities to see sea lions and penguins.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Castle Hill",
+    "city": "Castle Hill",
+    "type": "nature",
+    "description": "Famous for its limestone rock formations, Castle Hill is a popular spot for rock climbing and photography. The stunning landscape has also been used as a filming location for 'The Chronicles of Narnia'.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Tairua",
+    "city": "Tairua",
+    "type": "nature",
+    "description": "A small coastal town known for its beautiful beaches and surf spots. Tairua is perfect for relaxing, water sports, and enjoying the picturesque views of the surrounding hills.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Tekapo",
+    "city": "Tekapo",
+    "type": "nature",
+    "description": "Famous for its stunning turquoise waters and the iconic Church of the Good Shepherd, Lake Tekapo offers incredible stargazing opportunities, being part of a UNESCO Dark Sky Reserve.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Raglan",
+    "city": "Raglan",
+    "type": "nature",
+    "description": "Known for its laid-back vibe and world-class surfing beaches, Raglan is a creative hub with a strong arts scene. The stunning coastline and nearby waterfalls make it a great spot for outdoor activities.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Doubtful Sound",
+    "city": "Te Anau",
+    "type": "nature",
+    "description": "Less visited than Milford Sound, Doubtful Sound offers a more tranquil experience with breathtaking scenery and abundant wildlife. It's accessible only by boat or plane, making it a unique adventure.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Forgotten World Highway",
+    "city": "Taumarunui",
+    "type": "landmark",
+    "description": "A scenic drive through remote landscapes and historic towns, the Forgotten World Highway offers a glimpse into New Zealand's past. The route includes the famous Whangam\u014dmona Hotel, known as a republic.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Whanganui River",
+    "city": "Whanganui",
+    "type": "nature",
+    "description": "New Zealand's longest river, the Whanganui River offers stunning scenery, kayaking, and cultural experiences. The river is significant to the local Maori people and is known for its rich history.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Tonga Island Marine Reserve",
+    "city": "Abel Tasman National Park",
+    "type": "nature",
+    "description": "An underwater paradise, this marine reserve is perfect for snorkeling and diving, showcasing an abundance of marine life. The beautiful coastal scenery adds to the experience.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Marlborough Sounds",
+    "city": "Marlborough",
+    "type": "nature",
+    "description": "A stunning network of sea-drowned valleys filled with islands and waterways, the Marlborough Sounds is perfect for boating, hiking, and exploring. The region is also known for its excellent wine.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Pukekura Park",
+    "city": "New Plymouth",
+    "type": "nature",
+    "description": "A beautiful park featuring lush gardens, a lake, and walking trails, Pukekura Park is a great place for relaxation and outdoor activities. The park hosts various events throughout the year, including the Festival of Lights.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Remarkables",
+    "city": "Queenstown",
+    "type": "nature",
+    "description": "A mountain range known for its skiing and snowboarding in winter, and hiking in summer. The Remarkables offer stunning views of Lake Wakatipu and the surrounding area.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Kauri Forest",
+    "city": "Waipoua",
+    "type": "nature",
+    "description": "Home to some of the largest Kauri trees in the world, this forest is a unique natural wonder. Visitors can walk among these ancient giants and learn about their ecological significance.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Owhiro Bay",
+    "city": "Wellington",
+    "type": "nature",
+    "description": "A hidden gem located in Wellington, Owhiro Bay is known for its stunning coastal views and rugged cliffs. It's a great spot for seaside walks and enjoying a quiet day away from the city.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Coromandel Coastal Walkway",
+    "city": "Coromandel",
+    "type": "nature",
+    "description": "This scenic walkway offers breathtaking views of the Coromandel coastline, with opportunities for swimming and picnicking along the way. It's a great way to experience New Zealand's natural beauty.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Sierra de la Ventana",
+    "city": "Te Anau",
+    "type": "nature",
+    "description": "A lesser-known hiking destination, Sierra de la Ventana offers stunning views and challenging trails in a tranquil setting. It's perfect for hikers looking to escape the crowds.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Kaiteriteri Beach",
+    "city": "Kaiteriteri",
+    "type": "nature",
+    "description": "A beautiful golden sand beach, Kaiteriteri is a popular spot for swimming, kayaking, and sunbathing. Its proximity to Abel Tasman National Park makes it a great base for exploration.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Ninety Mile Beach",
+    "city": "Kaitaia",
+    "type": "nature",
+    "description": "A stunning stretch of beach known for its wild beauty and dramatic dunes. Visitors can enjoy scenic drives, fishing, and the unique experience of driving on the beach.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Castlepoint",
+    "city": "Wairarapa",
+    "type": "nature",
+    "description": "A stunning coastal area known for its lighthouse, Castlepoint features dramatic cliffs and beautiful beaches. It's a great spot for picnics, fishing, and exploring tidal rock pools.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Taranaki Maunga",
+    "city": "Taranaki",
+    "type": "nature",
+    "description": "An iconic dormant volcano, Taranaki Maunga is surrounded by lush gardens and hiking trails. The symmetrical cone shape makes it one of New Zealand's most photographed landscapes.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Taranaki",
+    "city": "New Plymouth",
+    "type": "nature",
+    "description": "Renowned for its perfect cone shape, Mount Taranaki offers stunning hiking trails and breathtaking views. The mountain is sacred to the Maori people and has significant cultural importance.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Waitomo Glowworm Caves",
+    "city": "Waitomo",
+    "type": "nature",
+    "description": "A magical underground world illuminated by thousands of glowworms, these caves offer guided boat tours through stunning limestone formations. It's a unique experience that showcases New Zealand's natural wonders.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Shakespeare Cliff Lookout",
+    "city": "Coromandel",
+    "type": "nature",
+    "description": "A popular viewpoint offering stunning views of the Coromandel coastline and islands. It's a great spot for photography and enjoying the natural beauty of the area.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Wanaka",
+    "city": "Wanaka",
+    "type": "nature",
+    "description": "A stunning lake surrounded by mountains, Lake Wanaka is perfect for outdoor activities such as hiking, biking, and water sports. The iconic lone tree is a popular photography spot.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Muriwai Beach",
+    "city": "Muriwai",
+    "type": "nature",
+    "description": "Known for its black sand beach and stunning cliffs, Muriwai is also home to a gannet colony. The dramatic coastline offers great walking trails and beautiful views.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Blue Pools",
+    "city": "Haast",
+    "type": "nature",
+    "description": "A hidden gem in the South Island, the Blue Pools are known for their vibrant blue water and stunning scenery. A short walk leads visitors to the pools, making it an accessible and beautiful spot.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Hawke's Bay",
+    "city": "Napier",
+    "type": "nature",
+    "description": "Famous for its wineries and stunning coastal views, Hawke's Bay is a great destination for food and wine lovers. The region also boasts beautiful Art Deco architecture in Napier.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Old Ghost Road",
+    "city": "West Coast",
+    "type": "nature",
+    "description": "A remote mountain bike trail that runs through stunning landscapes and historical gold mining towns. It's a unique adventure for cyclists and hikers looking to explore the wilderness.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Orokonui Ecosanctuary",
+    "city": "Dunedin",
+    "type": "nature",
+    "description": "A protected area dedicated to the conservation of native flora and fauna, Orokonui offers walking trails and opportunities to see rare birds in their natural habitat.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Pukaki",
+    "city": "Pukaki",
+    "type": "nature",
+    "description": "Known for its striking turquoise waters and views of Mount Cook, Lake Pukaki is a photographer's paradise. The surrounding landscapes are breathtaking and offer numerous recreational activities.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Clyde Dam",
+    "city": "Clyde",
+    "type": "landmark",
+    "description": "An impressive hydroelectric dam that offers beautiful views of the surrounding area. Visitors can learn about renewable energy and enjoy outdoor activities nearby.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Rimutaka Rail Trail",
+    "city": "Wellington",
+    "type": "nature",
+    "description": "A scenic cycling and walking trail that follows the route of the historic Rimutaka Incline Railway. It offers stunning views and a glimpse into New Zealand\u2019s railway history.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Maunganui",
+    "city": "Tauranga",
+    "type": "nature",
+    "description": "A popular holiday destination, Mount Maunganui features stunning beaches, a volcanic cone, and great walking trails. The area is known for its vibrant atmosphere and outdoor activities.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "The Otago Central Rail Trail",
+    "city": "Otago",
+    "type": "nature",
+    "description": "New Zealand's first dedicated cycling trail, it offers beautiful scenery, historic sites, and charming towns along the way. It's perfect for cyclists of all levels.",
+    "country": "New Zealand",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Wakatipu",
+    "city": "Queenstown",
+    "type": "nature",
+    "description": "A stunning glacial lake surrounded by mountains, Lake Wakatipu is perfect for scenic boat rides, fishing, and hiking. The picturesque views make it a must-visit destination.",
+    "country": "New Zealand",
+    "country_rank": 9
+  }
+]

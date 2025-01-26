@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Angkor Wat",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "The largest religious monument in the world, Angkor Wat is renowned for its stunning architecture and intricate bas-reliefs depicting Hindu mythology.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Bayon Temple",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "Famous for its massive stone faces, Bayon Temple offers a unique glimpse into the Khmer Empire with its intricate carvings and sprawling complex.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Ta Prohm",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "Known for the giant trees and ruins intertwined, Ta Prohm provides a mesmerizing atmosphere that showcases nature's reclamation of history.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Phnom Penh Royal Palace",
+    "city": "Phnom Penh",
+    "type": "landmark",
+    "description": "The Royal Palace is a stunning example of Khmer architecture and serves as the residence of the King of Cambodia, featuring ornate buildings and beautiful gardens.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Silver Pagoda",
+    "city": "Phnom Penh",
+    "type": "landmark",
+    "description": "Part of the Royal Palace complex, the Silver Pagoda is famed for its silver-tiled floor and houses a collection of priceless Buddhist artifacts.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Killing Fields of Choeung Ek",
+    "city": "Phnom Penh",
+    "type": "culture",
+    "description": "A poignant memorial to the victims of the Khmer Rouge regime, the Killing Fields offer a somber reflection on Cambodia's tragic history.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Tuol Sleng Genocide Museum",
+    "city": "Phnom Penh",
+    "type": "culture",
+    "description": "Once a high school turned into a prison, this museum provides a harrowing insight into the atrocities of the Khmer Rouge.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Bokor National Park",
+    "city": "Kampot",
+    "type": "nature",
+    "description": "Home to lush rainforests, waterfalls, and the abandoned Bokor Hill Station, this national park offers stunning views and a serene escape into nature.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Kampot River",
+    "city": "Kampot",
+    "type": "nature",
+    "description": "The picturesque Kampot River is perfect for boat tours and kayaking, surrounded by stunning landscapes and charming riverside restaurants.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Phnom Kulen National Park",
+    "city": "Siem Reap",
+    "type": "nature",
+    "description": "This national park is home to the sacred Kulen Mountain, known for its waterfalls, ancient temples, and as the birthplace of the Khmer Empire.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Sihanoukville Beaches",
+    "city": "Sihanoukville",
+    "type": "nature",
+    "description": "Famous for its beautiful sandy beaches and clear waters, Sihanoukville is a popular destination for relaxation, water sports, and vibrant nightlife.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Rong",
+    "city": "Koh Rong",
+    "type": "nature",
+    "description": "An idyllic island known for its pristine beaches and vibrant coral reefs, Koh Rong is perfect for snorkelling, diving, and enjoying nature's tranquility.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Battambang Bamboo Train",
+    "city": "Battambang",
+    "type": "entertainment",
+    "description": "A unique mode of transport, the bamboo train allows visitors to experience the countryside while riding on a flatbed bamboo platform.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Rice Field Tours",
+    "city": "Battambang",
+    "type": "culture",
+    "description": "Explore the rural lifestyle of Cambodia through guided tours of rice fields, where you can learn about traditional farming practices and local culture.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Preah Vihear Temple",
+    "city": "Preah Vihear",
+    "type": "landmark",
+    "description": "Perched on a 600-meter cliff, this UNESCO World Heritage site offers breathtaking views and is a stunning example of Khmer architecture.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Ker",
+    "city": "Koh Ker",
+    "type": "landmark",
+    "description": "Less visited than Angkor, Koh Ker features impressive ruins, including the pyramid-shaped temple of Prasat Thom, surrounded by dense jungle.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Banteay Srei",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "Known as the 'Citadel of Women,' Banteay Srei is famous for its stunningly detailed pink sandstone carvings, making it a must-visit for art lovers.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Tonle Sap Lake",
+    "city": "Siem Reap",
+    "type": "nature",
+    "description": "The largest freshwater lake in Southeast Asia, Tonle Sap is home to floating villages and diverse wildlife, offering boat tours that showcase unique local culture.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Oudong",
+    "city": "Kandal",
+    "type": "culture",
+    "description": "Once the capital of Cambodia, Oudong features a series of stupas on a hill, showcasing the country's royal heritage and offering panoramic views.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Prek Toal Bird Sanctuary",
+    "city": "Siem Reap",
+    "type": "nature",
+    "description": "A vital habitat for various bird species, this sanctuary is perfect for birdwatching and experiencing the unique ecosystem of Tonle Sap.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Mekong River",
+    "city": "Kratie",
+    "type": "nature",
+    "description": "The Mekong River is known for its beautiful sunsets and the rare Irrawaddy dolphins that inhabit its waters, making it a serene place to explore.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Phnom Penh Night Market",
+    "city": "Phnom Penh",
+    "type": "entertainment",
+    "description": "A bustling market offering local crafts, street food, and live music, the Phnom Penh Night Market is a vibrant experience of Cambodian culture.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Samatoa Textile School",
+    "city": "Siem Reap",
+    "type": "culture",
+    "description": "This unique school teaches traditional silk weaving techniques while providing support to local artisans, offering visitors a chance to learn and shop.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Silk Island",
+    "city": "Phnom Penh",
+    "type": "culture",
+    "description": "A short boat ride from the city, Silk Island is known for its silk weaving, where visitors can witness the traditional process and purchase handmade products.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Ta Kiev",
+    "city": "Sihanoukville",
+    "type": "nature",
+    "description": "A lesser-known island offering serene beaches and lush jungles, Koh Ta Kiev is ideal for those looking to escape the crowds and enjoy nature.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Sangkar River",
+    "city": "Battambang",
+    "type": "nature",
+    "description": "The Sangkar River is perfect for boat tours, offering stunning views of rice paddies, traditional villages, and opportunities to see local wildlife.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Wat Phnom",
+    "city": "Phnom Penh",
+    "type": "landmark",
+    "description": "This historic temple sits on a hill and is the tallest religious structure in the city, surrounded by lush gardens and bustling streets.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Chau Say Tevoda",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "A beautiful temple complex dedicated to the Hindu gods, Chau Say Tevoda features intricate carvings and is often less crowded than other sites.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "NagaWorld",
+    "city": "Phnom Penh",
+    "type": "entertainment",
+    "description": "This entertainment complex combines a luxury hotel, casino, and numerous dining options, providing a vibrant nightlife experience in the capital.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Kampong Phluk",
+    "city": "Siem Reap",
+    "type": "culture",
+    "description": "A floating village on Tonle Sap Lake, Kampong Phluk offers a glimpse into the unique lifestyle of its residents and the natural beauty of the area.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Banteay Samre",
+    "city": "Siem Reap",
+    "type": "landmark",
+    "description": "This lesser-known temple is admired for its well-preserved carvings and beautiful surroundings, providing a peaceful alternative to more popular sites.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Norea",
+    "city": "Phnom Penh",
+    "type": "nature",
+    "description": "A hidden gem, Koh Norea offers serene landscapes and a chance to explore untouched nature away from the bustling city.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Kratie Riverfront",
+    "city": "Kratie",
+    "type": "nature",
+    "description": "The riverfront area of Kratie is ideal for relaxing and enjoying the scenic views of the Mekong River and spotting the rare Irrawaddy dolphins.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Phnom Chisor",
+    "city": "Takeo",
+    "type": "landmark",
+    "description": "This ancient hilltop temple offers stunning views of the surrounding countryside and is a peaceful site often overlooked by tourists.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Sangha Retreat",
+    "city": "Koh Rong",
+    "type": "entertainment",
+    "description": "A unique wellness retreat offering yoga and meditation, Sangha Retreat is set in a tranquil environment, perfect for relaxation and rejuvenation.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Thmei",
+    "city": "Koh Kong",
+    "type": "nature",
+    "description": "A quiet island known for its natural beauty and rich marine life, Koh Thmei is perfect for snorkeling and enjoying the pristine environment.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Cardamom Mountains",
+    "city": "Koh Kong",
+    "type": "nature",
+    "description": "A remote area filled with rich biodiversity, the Cardamom Mountains are ideal for trekking and discovering the natural beauty of Cambodia.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Ream National Park",
+    "city": "Sihanoukville",
+    "type": "nature",
+    "description": "This coastal national park features mangroves, pristine beaches, and diverse wildlife, providing opportunities for hiking, birdwatching, and relaxation.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Wat Ounalom",
+    "city": "Phnom Penh",
+    "type": "landmark",
+    "description": "One of the most important temples in Phnom Penh, Wat Ounalom is a center of Cambodian Buddhism and features stunning architecture and serene grounds.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Coconut Village",
+    "city": "Koh Pich",
+    "type": "culture",
+    "description": "A cultural village showcasing traditional Khmer architecture and crafts, Coconut Village is a unique place to learn about Cambodian heritage.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Sangha Retreat",
+    "city": "Koh Rong",
+    "type": "entertainment",
+    "description": "A wellness retreat offering yoga, meditation, and holistic treatments, Sangha Retreat is set in a stunning tropical paradise.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Bamboo Island",
+    "city": "Sihanoukville",
+    "type": "nature",
+    "description": "A tranquil island known for its crystal-clear waters and white sandy beaches, perfect for swimming and relaxation away from the crowds.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Wat Ek Phnom",
+    "city": "Battambang",
+    "type": "landmark",
+    "description": "This ancient temple features impressive ruins and serene surroundings, providing a glimpse into Cambodia's rich history.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Pich",
+    "city": "Phnom Penh",
+    "type": "entertainment",
+    "description": "A popular entertainment hub with shopping, dining, and nightlife, Koh Pich offers a vibrant atmosphere for both locals and tourists.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Sangha Retreat",
+    "city": "Koh Rong",
+    "type": "entertainment",
+    "description": "A unique wellness retreat offering yoga and meditation, Sangha Retreat is set in a tranquil environment, perfect for relaxation and rejuvenation.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Koh Ta Kiev",
+    "city": "Sihanoukville",
+    "type": "nature",
+    "description": "A lesser-known island offering serene beaches and lush jungles, Koh Ta Kiev is ideal for those looking to escape the crowds and enjoy nature.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Oudong",
+    "city": "Kandal",
+    "type": "culture",
+    "description": "Once the capital of Cambodia, Oudong features a series of stupas on a hill, showcasing the country's royal heritage and offering panoramic views.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Bamboo Train",
+    "city": "Battambang",
+    "type": "entertainment",
+    "description": "A unique mode of transport, the bamboo train allows visitors to experience the countryside while riding on a flatbed bamboo platform.",
+    "country": "Cambodia",
+    "country_rank": 8
+  },
+  {
+    "name": "Tonle Sap Lake",
+    "city": "Siem Reap",
+    "type": "nature",
+    "description": "The largest freshwater lake in Southeast Asia, Tonle Sap is home to floating villages and diverse wildlife, offering boat tours that showcase unique local culture.",
+    "country": "Cambodia",
+    "country_rank": 8
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Victoria Falls",
+    "city": "Livingstone",
+    "type": "landmark",
+    "description": "One of the largest and most famous waterfalls in the world, Victoria Falls offers breathtaking views and the opportunity for thrilling activities such as bungee jumping and white-water rafting.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "South Luangwa National Park",
+    "city": "Mfuwe",
+    "type": "nature",
+    "description": "Renowned for its walking safaris, this park is home to a diverse array of wildlife including elephants, lions, and leopards amidst stunning landscapes.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Lower Zambezi National Park",
+    "city": "Chiawa",
+    "type": "nature",
+    "description": "This park offers a tranquil safari experience along the banks of the Zambezi River, with opportunities for canoeing and game viewing in a pristine wilderness.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kafue National Park",
+    "city": "Kafue",
+    "type": "nature",
+    "description": "One of Africa's largest national parks, Kafue is characterized by its diverse ecosystems and abundant wildlife, making it a fantastic destination for nature lovers.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Lake Kariba",
+    "city": "Siavonga",
+    "type": "nature",
+    "description": "A massive man-made lake that offers stunning sunsets, fishing, boating, and opportunities to see hippos and crocodiles in their natural habitat.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Livingstone Museum",
+    "city": "Livingstone",
+    "type": "culture",
+    "description": "The largest museum in Zambia, this establishment showcases the country's history, culture, and the life of explorer David Livingstone.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mukuni Village",
+    "city": "Livingstone",
+    "type": "culture",
+    "description": "A traditional village that offers visitors a glimpse into the local culture and lifestyle, including traditional crafts and ceremonies.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Lusaka National Park",
+    "city": "Lusaka",
+    "type": "nature",
+    "description": "A short drive from the capital, this park is a hidden gem with beautiful landscapes and a range of wildlife, making it perfect for day trips.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chobe National Park",
+    "city": "Kasane",
+    "type": "nature",
+    "description": "While technically in Botswana, its proximity to Zambia makes it a popular add-on for visitors wanting to see elephants, buffalo, and other wildlife.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Zambezi River",
+    "city": "Livingstone",
+    "type": "nature",
+    "description": "The fourth longest river in Africa, the Zambezi offers various activities like river cruises, fishing, and kayaking amidst stunning scenery.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Copperbelt Museum",
+    "city": "Kitwe",
+    "type": "culture",
+    "description": "This museum delves into the history of Zambia\u2019s mining industry and showcases the cultural heritage of the Copperbelt region.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kalambo Falls",
+    "city": "Nkamba",
+    "type": "nature",
+    "description": "One of the tallest waterfalls in Africa, it offers stunning natural beauty and is surrounded by rich biodiversity.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Batoka Gorge",
+    "city": "Livingstone",
+    "type": "nature",
+    "description": "A dramatic gorge carved by the Zambezi River, known for its stunning views and adventure sports, including white-water rafting.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Islands of the Zambezi",
+    "city": "Livingstone",
+    "type": "nature",
+    "description": "A collection of small islands that provide a serene escape, perfect for picnics, birdwatching, and enjoying the flow of the river.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kasanka National Park",
+    "city": "Chitambo",
+    "type": "nature",
+    "description": "Famous for its bat migration, this park is a hidden gem that offers unique wildlife experiences and beautiful wetlands.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "The Royal Livingstone Express",
+    "city": "Livingstone",
+    "type": "entertainment",
+    "description": "A luxury train experience that combines fine dining with scenic views along the Zambezi River, offering a taste of Zambia's colonial past.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Nkwazi Lodge",
+    "city": "Siavonga",
+    "type": "entertainment",
+    "description": "A beautiful lodge that provides activities such as fishing, boat cruises, and a chance to relax by the lake with stunning views.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Wildlife Encounter",
+    "city": "Lusaka",
+    "type": "nature",
+    "description": "An interactive wildlife experience that allows visitors to engage with animals and learn about conservation efforts in Zambia.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Magical Kafue",
+    "city": "Kafue",
+    "type": "nature",
+    "description": "An eco-friendly lodge situated in Kafue National Park, offering immersive wildlife experiences and a chance to relax in nature.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Zambezi Sun Hotel",
+    "city": "Livingstone",
+    "type": "entertainment",
+    "description": "A luxurious hotel that offers stunning views of the Zambezi River and proximity to Victoria Falls, providing a unique blend of comfort and adventure.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mosi-oa-Tunya National Park",
+    "city": "Livingstone",
+    "type": "nature",
+    "description": "A small national park that encompasses part of Victoria Falls, allowing for wildlife viewing and scenic walks.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chimfunshi Wildlife Orphanage",
+    "city": "Chingola",
+    "type": "nature",
+    "description": "A sanctuary for orphaned chimpanzees, offering visitors a unique chance to see these incredible animals up close while supporting wildlife conservation.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Ngonye Falls",
+    "city": "Sioma",
+    "type": "nature",
+    "description": "A stunning waterfall located in a remote area, providing a tranquil escape and opportunities for hiking and exploration.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Luwangwa River",
+    "city": "Mfuwe",
+    "type": "nature",
+    "description": "Known for its rich biodiversity, the Luwangwa River is a great spot for fishing and wildlife viewing, especially during the dry season.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chichele Presidential Lodge",
+    "city": "Chipata",
+    "type": "entertainment",
+    "description": "Formerly the official residence of the Zambian president, this lodge offers luxurious accommodations and stunning views of the surrounding wildlife.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Nsumbu National Park",
+    "city": "Mpulungu",
+    "type": "nature",
+    "description": "A lesser-known park that offers beautiful lake views and opportunities for wildlife sightings, including elephants and various bird species.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Old Drift Lodge",
+    "city": "Livingstone",
+    "type": "entertainment",
+    "description": "A luxury lodge that offers river safaris and cultural experiences, blending comfort with adventure along the Zambezi.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "The Big Tree",
+    "city": "Livingstone",
+    "type": "landmark",
+    "description": "A giant baobab tree that is over a thousand years old, offering a unique photo opportunity and a sense of history.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kafue River",
+    "city": "Kafue",
+    "type": "nature",
+    "description": "The lifeblood of Kafue National Park, the river provides stunning views and exceptional wildlife viewing opportunities.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kalambo Lake",
+    "city": "Nkamba",
+    "type": "nature",
+    "description": "A beautiful hidden gem perfect for birdwatching, fishing, and enjoying the serenity of nature.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Shiwa Ng'andu",
+    "city": "Chinsali",
+    "type": "culture",
+    "description": "A historic estate with a fascinating history, offering guided tours of the estate and its gardens, along with stunning views of the surrounding landscape.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Livingstone Island",
+    "city": "Livingstone",
+    "type": "nature",
+    "description": "An island located on the Zambezi River, offering exclusive tours and a unique perspective of Victoria Falls.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mikango Wildlife Conservation",
+    "city": "Lusaka",
+    "type": "nature",
+    "description": "A conservation area that allows visitors to learn about and engage in wildlife protection efforts while enjoying nature walks.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chikuni Mission",
+    "city": "Chikuni",
+    "type": "culture",
+    "description": "A historical mission site with beautiful architecture, providing insight into Zambia's religious heritage.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Zambian National Art Gallery",
+    "city": "Lusaka",
+    "type": "culture",
+    "description": "A gallery showcasing contemporary Zambian art and cultural artifacts, promoting local artists and heritage.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Luangwa River",
+    "city": "Mfuwe",
+    "type": "nature",
+    "description": "A vital water source for wildlife in South Luangwa National Park, offering stunning views and excellent opportunities for game viewing.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mulungushi River",
+    "city": "Kabwe",
+    "type": "nature",
+    "description": "A tranquil river known for its beautiful scenery and opportunities for fishing and picnicking.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chikankata Mission",
+    "city": "Chikankata",
+    "type": "culture",
+    "description": "An important historical mission site with rich cultural significance, offering insights into Zambia's educational and religious history.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Victoria Falls Bridge",
+    "city": "Livingstone",
+    "type": "landmark",
+    "description": "An iconic bridge that offers breathtaking views of Victoria Falls and the Zambezi River, providing a popular spot for photography.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Senanga Lagoon",
+    "city": "Senanga",
+    "type": "nature",
+    "description": "A serene lagoon perfect for birdwatching and fishing, providing a peaceful escape into nature.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Nanzhila Plains Camp",
+    "city": "Kafue",
+    "type": "entertainment",
+    "description": "A remote camp located in Kafue National Park, offering unique camping experiences and wildlife viewing opportunities.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Chipata Market",
+    "city": "Chipata",
+    "type": "culture",
+    "description": "A bustling market where visitors can experience local food, crafts, and the vibrant culture of the Eastern Province.",
+    "country": "Zambia",
+    "country_rank": 6
+  },
+  {
+    "name": "Zambezi Sawmills",
+    "city": "Livingstone",
+    "type": "culture",
+    "description": "A local sawmill that offers tours to showcase sustainable forestry practices and the importance of conservation.",
+    "country": "Zambia",
+    "country_rank": 6
+  }
+]

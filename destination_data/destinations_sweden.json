@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Vasa Museum",
+    "city": "Stockholm",
+    "type": "culture",
+    "description": "The Vasa Museum houses the well-preserved 17th-century warship Vasa, which sank on its maiden voyage. It offers a fascinating insight into maritime history and Swedish craftsmanship.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Gamla Stan",
+    "city": "Stockholm",
+    "type": "landmark",
+    "description": "Gamla Stan is the historic heart of Stockholm, featuring cobblestone streets, colorful buildings, and medieval architecture. It is also home to the Royal Palace and the Stockholm Cathedral.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Abisko National Park",
+    "city": "Abisko",
+    "type": "nature",
+    "description": "Abisko National Park is renowned for its stunning northern lights displays and breathtaking landscapes. It offers excellent hiking trails, and the famous Kungsleden trail begins here.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Icehotel",
+    "city": "Jukkasj\u00e4rvi",
+    "type": "entertainment",
+    "description": "The Icehotel is a unique hotel made entirely of ice and snow, rebuilt each year. Guests can experience art suites, ice bars, and various winter activities in a breathtaking icy setting.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Gotland",
+    "city": "Visby",
+    "type": "nature",
+    "description": "Gotland is Sweden's largest island, known for its medieval town of Visby, beautiful beaches, and unique limestone formations. It's a perfect destination for history buffs and nature lovers.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Kungsleden Trail",
+    "city": "Lapland",
+    "type": "nature",
+    "description": "The Kungsleden Trail is a famous hiking trail stretching over 400 kilometers through stunning Swedish Lapland. It offers breathtaking views of mountains, lakes, and forests.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Skansen",
+    "city": "Stockholm",
+    "type": "culture",
+    "description": "Skansen is the world's first open-air museum and zoo, showcasing Swedish history and culture. Visitors can explore traditional houses, farms, and see native animals in a picturesque setting.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Uppsala University",
+    "city": "Uppsala",
+    "type": "culture",
+    "description": "Founded in 1477, Uppsala University is one of the oldest universities in Scandinavia. Its beautiful botanical gardens and historic buildings are worth a visit.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Drottningholm Palace",
+    "city": "Eker\u00f6",
+    "type": "landmark",
+    "description": "Drottningholm Palace is the private residence of the Swedish royal family and a UNESCO World Heritage site. The palace features stunning gardens and a theater dating back to the 18th century.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Archipelago",
+    "city": "Stockholm",
+    "type": "nature",
+    "description": "Stockholm's Archipelago consists of over 30,000 islands, offering stunning natural beauty and opportunities for kayaking, sailing, and exploring quaint fishing villages.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Malm\u00f6's Turning Torso",
+    "city": "Malm\u00f6",
+    "type": "landmark",
+    "description": "Turning Torso is a striking skyscraper and the tallest building in Scandinavia, designed by Santiago Calatrava. Its twisting shape and modern design make it an architectural marvel.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Liseberg Amusement Park",
+    "city": "Gothenburg",
+    "type": "entertainment",
+    "description": "Liseberg is one of Scandinavia's most popular amusement parks, featuring thrilling rides, games, and beautiful gardens. It is especially magical during the Christmas season.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The G\u00f6ta Canal",
+    "city": "Various",
+    "type": "nature",
+    "description": "The G\u00f6ta Canal is a historic waterway that stretches across Sweden, offering scenic views and opportunities for boating and cycling along its picturesque banks.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Visby",
+    "city": "Gotland",
+    "type": "landmark",
+    "description": "Visby is a UNESCO World Heritage site known for its well-preserved medieval town walls and buildings. The annual Medieval Week transforms the town into a vibrant historical celebration.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Sigtuna",
+    "city": "Sigtuna",
+    "type": "culture",
+    "description": "Sigtuna is Sweden's oldest town, featuring charming wooden houses, historic rune stones, and quaint shops. It offers a glimpse into Sweden's Viking heritage.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Helsingborg's Sofiero Palace",
+    "city": "Helsingborg",
+    "type": "landmark",
+    "description": "Sofiero Palace is known for its beautiful gardens and stunning views of the \u00d6resund Strait. It was once a royal summer residence and is now open to the public.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Bohus Fortress",
+    "city": "Kung\u00e4lv",
+    "type": "landmark",
+    "description": "Bohus Fortress is a medieval fortress overlooking the G\u00f6ta River, offering historical exhibitions and panoramic views of the surrounding landscape.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "\u00d6land",
+    "city": "\u00d6land",
+    "type": "nature",
+    "description": "\u00d6land is Sweden's second-largest island, known for its unique landscapes, including sandy beaches, limestone cliffs, and rich flora and fauna, making it a perfect spot for nature lovers.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Kosta Boda Glassworks",
+    "city": "Kosta",
+    "type": "culture",
+    "description": "Kosta Boda is famous for its exquisite glass art and production. Visitors can watch artisans at work and explore the glass shop filled with beautiful creations.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Sami Village",
+    "city": "Jokkmokk",
+    "type": "culture",
+    "description": "Jokkmokk is known for its rich Sami culture, and the annual Jokkmokk Winter Market is a must-visit for those interested in indigenous traditions and handicrafts.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Fj\u00e4llbacka",
+    "city": "Fj\u00e4llbacka",
+    "type": "nature",
+    "description": "Fj\u00e4llbacka is a picturesque coastal village known for its stunning archipelago views and hiking trails. It is also famous as the setting for many of Camilla L\u00e4ckberg's crime novels.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Stora Sj\u00f6fallet National Park",
+    "city": "Lapland",
+    "type": "nature",
+    "description": "Stora Sj\u00f6fallet National Park features dramatic landscapes with waterfalls, mountains, and rich wildlife. It offers excellent hiking opportunities and is a great place for outdoor enthusiasts.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Astrid Lindgren's World",
+    "city": "Vimmerby",
+    "type": "entertainment",
+    "description": "Astrid Lindgren's World is a theme park dedicated to the beloved Swedish author. Visitors can immerse themselves in the magical worlds of Pippi Longstocking and other characters.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Royal Dramatic Theatre",
+    "city": "Stockholm",
+    "type": "culture",
+    "description": "The Royal Dramatic Theatre is Sweden's national stage for drama, offering world-class performances and a beautiful setting along the waterfront.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Lund Cathedral",
+    "city": "Lund",
+    "type": "landmark",
+    "description": "Lund Cathedral is a stunning example of Romanesque architecture, dating back to the 12th century. Its impressive twin towers and intricate carvings draw visitors from around the world.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Falkenberg Beach",
+    "city": "Falkenberg",
+    "type": "nature",
+    "description": "Falkenberg Beach boasts miles of sandy shores and beautiful dunes, making it a popular spot for sunbathing, swimming, and water sports during the summer months.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Midsummer Pole",
+    "city": "Various",
+    "type": "culture",
+    "description": "The Midsummer Pole is a traditional symbol of Swedish summer festivities. Celebrated across the country, it features flower decorations and dances around the pole, making it a unique cultural experience.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Storkyrkan",
+    "city": "Stockholm",
+    "type": "landmark",
+    "description": "Storkyrkan, or the Great Church, is the oldest church in Stockholm and features stunning Gothic architecture. The church is notable for its impressive altarpiece and the famous statue of St. George and the Dragon.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "H\u00f6gan\u00e4s",
+    "city": "H\u00f6gan\u00e4s",
+    "type": "culture",
+    "description": "H\u00f6gan\u00e4s is famous for its ceramics, particularly stoneware. Visitors can explore local pottery shops and learn about the town's rich artistic heritage.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Kungsan",
+    "city": "Stockholm",
+    "type": "entertainment",
+    "description": "Kungstr\u00e4dg\u00e5rden, or Kungsan, is a vibrant park in the heart of Stockholm, known for its cherry blossoms in spring and lively events year-round, including concerts and markets.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Nordens Ark",
+    "city": "Bohusl\u00e4n",
+    "type": "entertainment",
+    "description": "Nordens Ark is a wildlife park dedicated to the conservation of endangered species, featuring a variety of animals and engaging educational exhibits.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "G\u00f6taplatsen",
+    "city": "Gothenburg",
+    "type": "landmark",
+    "description": "G\u00f6taplatsen is a cultural square in Gothenburg, home to the iconic Poseidon statue and the Gothenburg Museum of Art. It is a hub for cultural events and gatherings.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Sundsvall's Stone City",
+    "city": "Sundsvall",
+    "type": "landmark",
+    "description": "Sundsvall's Stone City is known for its unique 19th-century architecture made from local granite. The area is a historic gem, showcasing beautiful buildings and a vibrant atmosphere.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "R\u00e4ttvik",
+    "city": "R\u00e4ttvik",
+    "type": "nature",
+    "description": "R\u00e4ttvik is famous for its stunning views of Lake Siljan and traditional wooden architecture. It\u2019s a perfect spot for outdoor activities like hiking and swimming.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Visby Botanical Garden",
+    "city": "Visby",
+    "type": "nature",
+    "description": "The Visby Botanical Garden is a peaceful oasis featuring a diverse collection of plants, including many native to Gotland. It\u2019s a great spot for a leisurely stroll.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Mariefred",
+    "city": "Mariefred",
+    "type": "culture",
+    "description": "Mariefred is a charming town known for its well-preserved wooden buildings and the impressive Gripsholm Castle, which dates back to the 16th century.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "S\u00e4len",
+    "city": "S\u00e4len",
+    "type": "nature",
+    "description": "S\u00e4len is a popular ski resort area in Sweden, offering excellent winter sports opportunities along with stunning mountain scenery.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Helsingborg's Kullaberg",
+    "city": "M\u00f6lle",
+    "type": "nature",
+    "description": "Kullaberg offers breathtaking views of the coastline and is a popular destination for hiking, climbing, and exploring its unique geology and rich biodiversity.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Ume\u00e5's Bildmuseet",
+    "city": "Ume\u00e5",
+    "type": "culture",
+    "description": "Bildmuseet is a contemporary art museum located by the Ume River, featuring rotating exhibitions of modern art and design.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Laponia World Heritage Site",
+    "city": "Lapland",
+    "type": "nature",
+    "description": "Laponia is a UNESCO World Heritage site known for its stunning natural landscapes, indigenous Sami culture, and diverse wildlife.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Oskarshamn",
+    "city": "Oskarshamn",
+    "type": "entertainment",
+    "description": "Oskarshamn is a coastal town known for its beautiful archipelago and vibrant maritime culture, offering boat trips and fishing opportunities.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Kingdom of Crystal",
+    "city": "Kosta",
+    "type": "culture",
+    "description": "The Kingdom of Crystal is a region known for its glass production, where visitors can tour glassworks, learn about the craft, and purchase beautiful glassware.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "M\u00e4laren",
+    "city": "Various",
+    "type": "nature",
+    "description": "Lake M\u00e4laren is one of Sweden's largest lakes, surrounded by charming towns and beautiful nature, perfect for boating, fishing, and picnicking.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Trollh\u00e4ttan Falls",
+    "city": "Trollh\u00e4ttan",
+    "type": "nature",
+    "description": "Trollh\u00e4ttan Falls is a spectacular waterfall on the G\u00f6ta River, known for its impressive flow and the surrounding scenic park.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Falun Mine",
+    "city": "Falun",
+    "type": "landmark",
+    "description": "Falun Mine is a UNESCO World Heritage site that played a significant role in Sweden's copper mining history, featuring an underground tour and a fascinating museum.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "V\u00e4ster\u00e5s Cathedral",
+    "city": "V\u00e4ster\u00e5s",
+    "type": "landmark",
+    "description": "V\u00e4ster\u00e5s Cathedral is one of Sweden's oldest cathedrals, showcasing stunning Gothic architecture and a rich history dating back to the 13th century.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Norrk\u00f6ping's Industrial Landscape",
+    "city": "Norrk\u00f6ping",
+    "type": "culture",
+    "description": "Norrk\u00f6ping's Industrial Landscape is a unique area where old factories have been transformed into cultural venues, offering a glimpse into the city's industrial past.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Sk\u00e5nes Djurpark",
+    "city": "H\u00e4ssleholm",
+    "type": "entertainment",
+    "description": "Sk\u00e5nes Djurpark is a wildlife park showcasing Nordic animals in natural habitats, offering educational experiences for families and animal lovers.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Caves of Lummelunda",
+    "city": "Gotland",
+    "type": "nature",
+    "description": "The Lummelunda Caves are a fascinating limestone cave system located on Gotland, known for their stunning formations and guided tours.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Birka and Hovg\u00e5rden",
+    "city": "Birka",
+    "type": "culture",
+    "description": "Birka is an ancient Viking settlement and UNESCO World Heritage site, offering a glimpse into Sweden's Viking past with reconstructed buildings and a museum.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "The Ice Road",
+    "city": "Varmland",
+    "type": "entertainment",
+    "description": "The Ice Road is a unique winter experience where visitors can drive on frozen lakes, offering stunning views and a thrilling adventure.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Kullaberg Nature Reserve",
+    "city": "M\u00f6lle",
+    "type": "nature",
+    "description": "Kullaberg Nature Reserve is known for its dramatic cliffs and stunning coastal scenery, offering excellent hiking trails and birdwatching opportunities.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Sk\u00e5ne's Beaches",
+    "city": "Sk\u00e5ne",
+    "type": "nature",
+    "description": "Sk\u00e5ne boasts some of Sweden's best beaches, with sandy shores and shallow waters perfect for swimming, sunbathing, and beach activities.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Trollskogen",
+    "city": "\u00d6land",
+    "type": "nature",
+    "description": "Trollskogen, or 'The Troll Forest,' is a unique area on \u00d6land with twisted trees and a mystical atmosphere, perfect for hiking and exploring.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "\u00d6rebro Castle",
+    "city": "\u00d6rebro",
+    "type": "landmark",
+    "description": "\u00d6rebro Castle is a historic fortress dating back to the 13th century, offering guided tours and beautiful views of the surrounding park.",
+    "country": "Sweden",
+    "country_rank": 9
+  },
+  {
+    "name": "Kungs\u00e4ngen",
+    "city": "Stockholm",
+    "type": "nature",
+    "description": "Kungs\u00e4ngen is known for its beautiful natural landscapes and recreational opportunities, including hiking, cycling, and birdwatching.",
+    "country": "Sweden",
+    "country_rank": 9
+  }
+]

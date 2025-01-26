@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Sagrada Familia",
+    "city": "Barcelona",
+    "type": "landmark",
+    "description": "A breathtaking basilica designed by Antoni Gaud\u00ed, still under construction. Its intricate facades and towering spires are a testament to Gaud\u00ed's visionary architecture.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Park G\u00fcell",
+    "city": "Barcelona",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this colorful park is filled with Gaud\u00ed's whimsical designs and mosaics. It offers stunning views of the city and showcases the artist's unique style.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Alhambra",
+    "city": "Granada",
+    "type": "landmark",
+    "description": "A magnificent palace and fortress complex reflecting Moorish architecture, lush gardens, and rich history. The intricate designs and serene surroundings make it a must-visit.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Mezquita-Catedral",
+    "city": "C\u00f3rdoba",
+    "type": "landmark",
+    "description": "An architectural marvel that showcases the city\u2019s Islamic heritage. Its stunning arches and columns create a unique atmosphere that intertwines both Islamic and Christian elements.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "La Rambla",
+    "city": "Barcelona",
+    "type": "entertainment",
+    "description": "A vibrant street in the heart of Barcelona filled with shops, restaurants, and street performers. It's the perfect place to experience the city's lively culture.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Camino de Santiago",
+    "city": "Various",
+    "type": "nature",
+    "description": "A historic pilgrimage route that stretches across northern Spain, offering beautiful landscapes and charming villages. It\u2019s a spiritual journey and a chance to connect with nature.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Santillana del Mar",
+    "city": "Cantabria",
+    "type": "culture",
+    "description": "A picturesque medieval village known for its cobbled streets and historical architecture. The nearby Altamira Caves are famous for their prehistoric cave paintings.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Ronda",
+    "city": "M\u00e1laga",
+    "type": "landmark",
+    "description": "Famous for its dramatic cliffside location and the stunning Puente Nuevo bridge. Ronda offers breathtaking views and a rich history dating back to Roman times.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "La Albufera",
+    "city": "Valencia",
+    "type": "nature",
+    "description": "A large freshwater lagoon and wetland that is home to diverse wildlife and rice fields. It\u2019s a perfect spot for birdwatching and enjoying traditional paella.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Casa Batll\u00f3",
+    "city": "Barcelona",
+    "type": "landmark",
+    "description": "Another masterpiece by Antoni Gaud\u00ed, this building is known for its unique organic shapes and vibrant colors. The interior is just as captivating as its exterior.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Guggenheim Museum",
+    "city": "Bilbao",
+    "type": "culture",
+    "description": "A modern and contemporary art museum famous for its innovative building design by Frank Gehry. Its exhibitions and surrounding area make it a cultural hotspot.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Toledo's Historic Center",
+    "city": "Toledo",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site known for its blend of Christian, Muslim, and Jewish influences. The city is filled with historical landmarks, stunning architecture, and narrow streets.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Cabo de Gata",
+    "city": "Almer\u00eda",
+    "type": "nature",
+    "description": "A stunning natural park featuring dramatic cliffs, secluded beaches, and unique flora and fauna. It's a great destination for hiking, snorkeling, and enjoying unspoiled landscapes.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "El Camino del Norte",
+    "city": "Various",
+    "type": "nature",
+    "description": "The northern route of the Camino de Santiago, offering stunning coastal scenery and lush green landscapes. It\u2019s less crowded than the traditional route, providing a peaceful experience.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Segovia Aqueduct",
+    "city": "Segovia",
+    "type": "landmark",
+    "description": "An impressive Roman aqueduct that stands as a testament to ancient engineering. Its well-preserved structure dominates the city\u2019s skyline and dates back to the first century.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Montserrat Monastery",
+    "city": "Montserrat",
+    "type": "landmark",
+    "description": "A stunning mountain range with a Benedictine monastery nestled among its peaks. It offers breathtaking views and is a site of pilgrimage for many.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Picos de Europa",
+    "city": "Asturias",
+    "type": "nature",
+    "description": "A breathtaking national park known for its dramatic peaks, deep gorges, and diverse wildlife. It's perfect for hiking, outdoor activities, and experiencing nature.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Bilbao's Old Town",
+    "city": "Bilbao",
+    "type": "culture",
+    "description": "Known as 'Las Siete Calles', this charming old quarter is filled with narrow streets, local shops, and traditional Basque cuisine. It\u2019s a vibrant area that showcases local culture.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Palacio Real de Madrid",
+    "city": "Madrid",
+    "type": "landmark",
+    "description": "The official residence of the Spanish royal family, this grand palace boasts opulent architecture and rich history. Visitors can explore its stunning rooms and beautiful gardens.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Baeza and \u00dabeda",
+    "city": "Ja\u00e9n",
+    "type": "culture",
+    "description": "Two Renaissance towns that are UNESCO World Heritage sites, known for their stunning architecture and historical significance. They offer a glimpse into Spain's rich past.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Las M\u00e9dulas",
+    "city": "El Bierzo",
+    "type": "landmark",
+    "description": "An ancient Roman gold-mining site that features stunning red earth formations. The unique landscape is a UNESCO World Heritage site and offers beautiful hiking paths.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "C\u00edes Islands",
+    "city": "Vigo",
+    "type": "nature",
+    "description": "Part of the Atlantic Islands of Galicia National Park, these islands are known for their pristine beaches and crystal-clear waters. They are a perfect retreat for nature lovers.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Alcal\u00e1 de Henares",
+    "city": "Madrid",
+    "type": "culture",
+    "description": "The birthplace of Miguel de Cervantes, this charming town is rich in literary history and features a well-preserved historic center, making it a great day trip from Madrid.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Costa Brava",
+    "city": "Girona",
+    "type": "nature",
+    "description": "A stunning coastal region known for its rugged cliffs, secluded coves, and charming fishing villages. It's popular for beachgoers and those seeking nature adventures.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Pueblo de Ronda",
+    "city": "Ronda",
+    "type": "culture",
+    "description": "A town famous for its picturesque streets, stunning views of the surrounding countryside, and rich history. The blend of cultures gives it a unique character.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "La Rioja Wine Region",
+    "city": "La Rioja",
+    "type": "entertainment",
+    "description": "Renowned for its excellent wines, this region offers vineyard tours and tastings. Visitors can enjoy beautiful landscapes while learning about wine production.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Castillo de Almod\u00f3var",
+    "city": "C\u00f3rdoba",
+    "type": "landmark",
+    "description": "A well-preserved medieval castle with rich history and stunning views. It is a fantastic spot for history enthusiasts and offers guided tours.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Jerez de la Frontera",
+    "city": "Jerez",
+    "type": "culture",
+    "description": "Famous for its sherry production, this city also showcases flamenco culture, equestrian traditions, and beautiful architecture. It's a vibrant destination worth exploring.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral de Santiago de Compostela",
+    "city": "Santiago de Compostela",
+    "type": "landmark",
+    "description": "An iconic cathedral marking the end of the Camino de Santiago. Its stunning architecture and religious significance attract pilgrims and tourists alike.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Caminito del Rey",
+    "city": "M\u00e1laga",
+    "type": "nature",
+    "description": "A thrilling walkway pinned along the steep walls of a narrow gorge. It offers breathtaking views and is a popular spot for adventure seekers.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Las Fallas",
+    "city": "Valencia",
+    "type": "entertainment",
+    "description": "A famous festival celebrated in March, known for its elaborate sculptures and fireworks. The event culminates in the burning of the sculptures, making it a unique experience.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Plaza Mayor",
+    "city": "Madrid",
+    "type": "landmark",
+    "description": "A grand square surrounded by historic buildings, cafes, and shops. It's a popular meeting place and a great spot to enjoy local cuisine and culture.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Burgos Cathedral",
+    "city": "Burgos",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage site, this Gothic cathedral is known for its stunning architecture and intricate details. It's a significant monument in Spanish history.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Teide National Park",
+    "city": "Tenerife",
+    "type": "nature",
+    "description": "Home to Spain's highest peak, Mount Teide, this national park features unique volcanic landscapes. It's a UNESCO World Heritage site and offers great hiking opportunities.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Ronda's Bullring",
+    "city": "Ronda",
+    "type": "culture",
+    "description": "One of the oldest bullrings in Spain, it symbolizes the region's bullfighting tradition. The museum inside provides insight into the history and culture of bullfighting.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Sierra de Grazalema",
+    "city": "C\u00e1diz",
+    "type": "nature",
+    "description": "A natural park known for its stunning landscapes, diverse wildlife, and charming white villages. It's a great destination for hiking and birdwatching.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "The Alc\u00e1zar of Seville",
+    "city": "Seville",
+    "type": "landmark",
+    "description": "A stunning royal palace originally developed by Moorish Muslim kings, with beautiful gardens and intricate designs. It's a UNESCO World Heritage site and a must-visit.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Cascada de la Huerta",
+    "city": "Picos de Europa",
+    "type": "nature",
+    "description": "A hidden gem featuring a stunning waterfall surrounded by lush greenery. It\u2019s a peaceful spot for hiking and enjoying nature away from the crowds.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Coves de Campanet",
+    "city": "Mallorca",
+    "type": "nature",
+    "description": "A series of beautiful caves showcasing impressive stalactites and stalagmites. The guided tours offer insight into the geological history of the area.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral de Le\u00f3n",
+    "city": "Le\u00f3n",
+    "type": "landmark",
+    "description": "A masterpiece of Gothic architecture, known for its stunning stained glass windows and intricate details. It\u2019s a significant religious building in Spain.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Castillo de Alhambra",
+    "city": "Granada",
+    "type": "landmark",
+    "description": "An iconic fortress complex that showcases Moorish architecture and beautiful gardens. The views of the surrounding city are breathtaking.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Tabernas Desert",
+    "city": "Almer\u00eda",
+    "type": "nature",
+    "description": "Europe's only true desert, known for its unique landscapes and film history. It's a fascinating destination for photography and outdoor exploration.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Playa de las Catedrales",
+    "city": "Ribadeo",
+    "type": "nature",
+    "description": "A stunning beach famous for its dramatic rock formations resembling cathedral arches. Best visited at low tide, it offers breathtaking views and photography opportunities.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral de Santiago de Compostela",
+    "city": "Santiago de Compostela",
+    "type": "landmark",
+    "description": "An architectural wonder and a pilgrimage site, known for its stunning Baroque facade and rich history. It is the final destination of the Camino de Santiago.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "La Ciudad Encantada",
+    "city": "Cuenca",
+    "type": "nature",
+    "description": "A natural park known for its unique rock formations resembling animals and other shapes. The surreal landscape is perfect for hiking and exploring.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Plaza de Espa\u00f1a",
+    "city": "Seville",
+    "type": "landmark",
+    "description": "A stunning square featuring a semi-circular building and a large fountain. It's surrounded by beautiful gardens and is a popular spot for photography.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "El Escorial",
+    "city": "San Lorenzo de El Escorial",
+    "type": "landmark",
+    "description": "A historical residence of the King of Spain, this vast complex is a UNESCO World Heritage site known for its Renaissance architecture and rich history.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Las M\u00e9dulas",
+    "city": "El Bierzo",
+    "type": "landmark",
+    "description": "An ancient Roman gold-mining site featuring stunning red earth formations and hiking trails. It's a UNESCO World Heritage site that showcases Spain's mining history.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Catedral de Mallorca",
+    "city": "Palma",
+    "type": "landmark",
+    "description": "An impressive Gothic cathedral overlooking the bay of Palma, known for its stunning architecture and beautiful interior. It's a symbol of the city.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Los Picos de Europa",
+    "city": "Asturias",
+    "type": "nature",
+    "description": "A stunning mountain range offering breathtaking views, hiking trails, and diverse wildlife. It's a paradise for nature lovers and outdoor enthusiasts.",
+    "country": "Spain",
+    "country_rank": 8
+  },
+  {
+    "name": "Museo Picasso",
+    "city": "M\u00e1laga",
+    "type": "culture",
+    "description": "Dedicated to the works of Pablo Picasso, this museum showcases a vast collection of his art, providing insight into the artist's life and creative evolution.",
+    "country": "Spain",
+    "country_rank": 8
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Maasai Mara National Reserve",
+    "city": "Narok",
+    "type": "nature",
+    "description": "Famous for the Great Migration of wildebeest and zebras, this reserve offers stunning landscapes and rich wildlife. It's a prime destination for safari enthusiasts.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Nairobi National Park",
+    "city": "Nairobi",
+    "type": "nature",
+    "description": "Unique for being a wildlife park located within a major city, it hosts lions, rhinos, and other animals amidst a backdrop of skyscrapers.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Nakuru National Park",
+    "city": "Nakuru",
+    "type": "nature",
+    "description": "Known for its birdwatching opportunities, especially the flamingos that flock to the lake, this park also features rhinos and diverse ecosystems.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Diani Beach",
+    "city": "Kwale",
+    "type": "nature",
+    "description": "Renowned for its white sandy beaches and turquoise waters, Diani Beach is perfect for relaxation and water sports, making it a tropical paradise.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Lamu Old Town",
+    "city": "Lamu",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Lamu Old Town is known for its narrow streets, Swahili architecture, and rich history, offering a glimpse into traditional coastal life.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Samburu National Reserve",
+    "city": "Samburu",
+    "type": "nature",
+    "description": "Home to rare species like the Grevy's zebra and the Somali ostrich, this reserve provides a unique wildlife experience set against the backdrop of stunning landscapes.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Mount Kenya",
+    "city": "Nyeri",
+    "type": "nature",
+    "description": "Africa's second-highest peak, Mount Kenya offers challenging hikes and breathtaking views, as well as diverse ecosystems ranging from rainforests to alpine meadows.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Hell's Gate National Park",
+    "city": "Naivasha",
+    "type": "nature",
+    "description": "Known for its dramatic cliffs and geothermal activity, Hell's Gate allows visitors to hike and bike through the park while spotting wildlife such as giraffes and buffalo.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Bomas of Kenya",
+    "city": "Nairobi",
+    "type": "culture",
+    "description": "A cultural center that showcases traditional Kenyan music, dance, and crafts, Bomas of Kenya offers visitors an immersive experience of the country's diverse cultures.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Gede Ruins",
+    "city": "Malindi",
+    "type": "landmark",
+    "description": "An archaeological site of a 12th-century Swahili town, Gede Ruins features ancient coral stone structures and lush gardens, revealing the rich history of the coastal region.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Tsavo National Park",
+    "city": "Taita-Taveta",
+    "type": "nature",
+    "description": "One of the largest national parks in the world, Tsavo is known for its red elephants and diverse wildlife, making it a must-visit for safari lovers.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Ol Pejeta Conservancy",
+    "city": "Laikipia",
+    "type": "nature",
+    "description": "Home to the last two northern white rhinos, Ol Pejeta offers a unique conservation experience along with opportunities to see diverse wildlife.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kakamega Forest",
+    "city": "Kakamega",
+    "type": "nature",
+    "description": "The only tropical rainforest in Kenya, Kakamega Forest is rich in biodiversity and offers opportunities for birdwatching and hiking in a lush environment.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Watamu Marine National Park",
+    "city": "Malindi",
+    "type": "nature",
+    "description": "A protected marine area known for its coral reefs and vibrant marine life, Watamu Marine National Park is perfect for snorkeling and diving.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Karen Blixen Museum",
+    "city": "Nairobi",
+    "type": "culture",
+    "description": "Located in the former home of the famous author of 'Out of Africa', the museum offers insights into her life and the colonial history of Kenya.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kisumu Impala Sanctuary",
+    "city": "Kisumu",
+    "type": "nature",
+    "description": "This sanctuary is home to a variety of wildlife, including impalas and hippos, and offers scenic views of Lake Victoria.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Aberdare National Park",
+    "city": "Nyeri",
+    "type": "nature",
+    "description": "Known for its stunning waterfalls and rich wildlife, Aberdare National Park features lush forests and the opportunity to see elephants and leopards.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Narok Cultural Center",
+    "city": "Narok",
+    "type": "culture",
+    "description": "A center dedicated to showcasing Maasai culture, visitors can learn about traditional practices, dance, and art.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Ruma National Park",
+    "city": "Homa Bay",
+    "type": "nature",
+    "description": "A lesser-known gem, Ruma is home to the endangered roan antelope and offers a tranquil safari experience with fewer crowds.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The David Sheldrick Wildlife Trust",
+    "city": "Nairobi",
+    "type": "nature",
+    "description": "Famous for its elephant orphanage, this sanctuary rescues and rehabilitates orphaned elephants, allowing visitors to learn about conservation efforts.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Shimba Hills National Reserve",
+    "city": "Kwale",
+    "type": "nature",
+    "description": "A coastal rainforest reserve known for its rich biodiversity and the rare Sable Antelope, Shimba Hills offers scenic hiking trails and stunning views.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kakamega Golf Club",
+    "city": "Kakamega",
+    "type": "entertainment",
+    "description": "A unique golfing experience set in a lush environment, this golf club offers a blend of sport and nature in the heart of Kakamega.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Mombasa Old Town",
+    "city": "Mombasa",
+    "type": "culture",
+    "description": "Characterized by its Swahili architecture and rich history, Mombasa Old Town is a vibrant area filled with markets, shops, and cultural landmarks.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Ol Donyo Sabuk National Park",
+    "city": "Machakos",
+    "type": "nature",
+    "description": "This park is a hidden gem that offers stunning views of the surrounding area, with hiking trails and opportunities to see wildlife like buffalo and hyenas.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kisii Soapstone Carvings",
+    "city": "Kisii",
+    "type": "culture",
+    "description": "Known for its unique soapstone carvings, the Kisii region offers visitors a chance to explore local artisans' work and purchase beautiful handcrafted souvenirs.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Nairobi Railway Museum",
+    "city": "Nairobi",
+    "type": "landmark",
+    "description": "A fascinating museum showcasing the history of the railway in Kenya, it features vintage locomotives and offers insights into the country's colonial past.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Naivasha",
+    "city": "Naivasha",
+    "type": "nature",
+    "description": "A beautiful freshwater lake known for its birdlife and the chance to see hippos, Lake Naivasha is a great spot for boat rides and picnics.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kisumu Museum",
+    "city": "Kisumu",
+    "type": "culture",
+    "description": "The museum features exhibits on the culture, history, and natural heritage of the Lake Victoria region, making it a great place to learn about local traditions.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Soysambu Conservancy",
+    "city": "Nakuru",
+    "type": "nature",
+    "description": "An expansive private conservancy that offers a unique safari experience with opportunities to see wildlife and engage in eco-tourism activities.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Chyulu Hills National Park",
+    "city": "Kajiado",
+    "type": "nature",
+    "description": "A hidden gem with rolling green hills and volcanic landscapes, Chyulu Hills is perfect for hiking and offers stunning views of Mount Kilimanjaro.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kereita Forest",
+    "city": "Kiambu",
+    "type": "nature",
+    "description": "A lesser-known forest area ideal for hiking and zip-lining, Kereita offers a serene escape with beautiful scenery just outside Nairobi.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Lakeside City Mall",
+    "city": "Kisumu",
+    "type": "entertainment",
+    "description": "A modern shopping destination in Kisumu, the mall features various shops, restaurants, and entertainment options, making it a hub for locals and visitors alike.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Mount Longonot",
+    "city": "Naivasha",
+    "type": "nature",
+    "description": "An extinct volcano that offers a challenging hike with rewarding views from the summit, making it a popular spot for adventure seekers.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Giraffe Centre",
+    "city": "Nairobi",
+    "type": "nature",
+    "description": "A conservation center for the endangered Rothschild giraffe, visitors can feed and interact with these gentle giants in a beautiful setting.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The Nairobi National Museum",
+    "city": "Nairobi",
+    "type": "culture",
+    "description": "This museum showcases Kenya's rich heritage, including art, history, and natural history, making it a perfect introduction to the country's diverse culture.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Olorgesailie Prehistoric Site",
+    "city": "Kajiado",
+    "type": "landmark",
+    "description": "An archaeological site where ancient stone tools were discovered, offering insights into early human life and evolution in East Africa.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The Bantu Cultural Centre",
+    "city": "Mombasa",
+    "type": "culture",
+    "description": "A center dedicated to promoting Bantu culture, the venue hosts traditional dance performances, art exhibitions, and workshops.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kisumu Port",
+    "city": "Kisumu",
+    "type": "landmark",
+    "description": "A bustling port on Lake Victoria, Kisumu Port is a hub for fishing and trade, offering visitors a glimpse into the vibrant life around the lake.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kereita Zipline",
+    "city": "Kiambu",
+    "type": "entertainment",
+    "description": "An adrenaline-filled experience, the Kereita Zipline allows visitors to soar through the forest canopy while enjoying breathtaking views of the surrounding landscape.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Bogoria National Reserve",
+    "city": "Baringo",
+    "type": "nature",
+    "description": "Known for its hot springs and large flocks of flamingos, Lake Bogoria is a unique natural wonder that offers a serene escape in a stunning environment.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The Sarova Lion Hill Game Lodge",
+    "city": "Nakuru",
+    "type": "entertainment",
+    "description": "A luxurious lodge located in Lake Nakuru National Park, it offers comfortable accommodations and guided safari experiences.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Wajir Museum",
+    "city": "Wajir",
+    "type": "culture",
+    "description": "A small museum that showcases the culture and history of the Wajir County, offering insights into the local traditions and way of life.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Kakamega Rainforest Eco Lodge",
+    "city": "Kakamega",
+    "type": "entertainment",
+    "description": "A unique accommodation option located in the Kakamega Forest, providing eco-friendly lodging and opportunities for guided nature walks.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "A Nature Walk at Karura Forest",
+    "city": "Nairobi",
+    "type": "nature",
+    "description": "An urban oasis in the heart of Nairobi, Karura Forest offers scenic walking and biking trails, picnic spots, and a chance to escape the city bustle.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The Nairobi Railway Station",
+    "city": "Nairobi",
+    "type": "landmark",
+    "description": "An architectural marvel and a key transportation hub, it is a historical site that reflects the colonial era of Kenya.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "Jumba la Mtwana Ruins",
+    "city": "Mombasa",
+    "type": "landmark",
+    "description": "The remains of a 13th-century Swahili settlement, these ruins are surrounded by beautiful scenery and offer insights into the region's rich history.",
+    "country": "Kenya",
+    "country_rank": 7
+  },
+  {
+    "name": "The Kenya National Archives",
+    "city": "Nairobi",
+    "type": "culture",
+    "description": "A treasure trove of Kenya's history, the archives house important documents, photographs, and artifacts that tell the story of the nation.",
+    "country": "Kenya",
+    "country_rank": 7
+  }
+]

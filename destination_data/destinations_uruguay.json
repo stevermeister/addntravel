@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Punta del Este",
+    "city": "Punta del Este",
+    "type": "entertainment",
+    "description": "Known as the 'Monaco of South America', this glamorous beach resort offers stunning beaches, vibrant nightlife, and a rich array of cultural events during the summer.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Colonia del Sacramento",
+    "city": "Colonia del Sacramento",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, this charming colonial town features cobblestone streets, historic buildings, and a picturesque waterfront, reflecting its Portuguese and Spanish heritage.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Montevideo's Ciudad Vieja",
+    "city": "Montevideo",
+    "type": "culture",
+    "description": "The historic old town of Montevideo showcases colonial architecture, bustling markets, and vibrant street art, making it a cultural hotspot.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "La Paloma",
+    "city": "La Paloma",
+    "type": "nature",
+    "description": "A serene coastal town known for its beautiful beaches, La Paloma is a perfect spot for relaxation, surfing, and enjoying sunsets over the Atlantic.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Cabo Polonio",
+    "city": "Cabo Polonio",
+    "type": "nature",
+    "description": "A remote village without electricity, Cabo Polonio is famous for its stunning dunes, wildlife, and a rustic lighthouse, offering a unique escape into nature.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Salto del Penitente",
+    "city": "Lavalleja",
+    "type": "nature",
+    "description": "This beautiful waterfall is surrounded by lush landscapes and offers hiking trails, picnic areas, and a chance to connect with nature.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Barrio Historico",
+    "city": "Colonia del Sacramento",
+    "type": "culture",
+    "description": "This historic neighborhood features well-preserved buildings from the 17th and 18th centuries, with cobblestone streets and a vibrant atmosphere.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Isla de Lobos",
+    "city": "Punta del Este",
+    "type": "nature",
+    "description": "A wildlife reserve teeming with sea lions and birds, Isla de Lobos is a short boat ride from Punta del Este and offers a unique opportunity to observe nature.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Piri\u00e1polis",
+    "city": "Piri\u00e1polis",
+    "type": "entertainment",
+    "description": "This charming coastal town features beautiful beaches, a picturesque promenade, and the iconic Cerro del Toro, offering stunning views of the coastline.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Valle del Lunarejo",
+    "city": "Rivera",
+    "type": "nature",
+    "description": "A hidden gem in Uruguay, this valley offers breathtaking landscapes, hiking trails, and opportunities for birdwatching amidst its diverse flora and fauna.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Santa Teresa National Park",
+    "city": "Rocha",
+    "type": "nature",
+    "description": "This protected area boasts beautiful beaches, lush forests, and diverse wildlife, making it a perfect destination for eco-tourism and outdoor activities.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "The Rambla",
+    "city": "Montevideo",
+    "type": "entertainment",
+    "description": "This iconic waterfront promenade stretches for miles along the coast, offering picturesque views, recreational activities, and a vibrant atmosphere.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Fray Bentos",
+    "city": "Fray Bentos",
+    "type": "culture",
+    "description": "Home to the historic Anglo meatpacking plant, a UNESCO World Heritage site, Fray Bentos offers insight into Uruguay's industrial history.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Estancia de Ambrosio",
+    "city": "Tacuaremb\u00f3",
+    "type": "culture",
+    "description": "A traditional ranch that showcases the gaucho culture, offering visitors a chance to experience horseback riding, folklore, and local cuisine.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "La Quebrada",
+    "city": "Cerro Largo",
+    "type": "nature",
+    "description": "A stunning natural landscape featuring cliffs and valleys, La Quebrada is perfect for hiking and enjoying panoramic views of the surrounding area.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Torre Ejecutiva",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "The tallest building in Uruguay, Torre Ejecutiva serves as the office of the President and offers a modern contrast to the city's historic architecture.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro Pan de Az\u00facar",
+    "city": "Maldonado",
+    "type": "nature",
+    "description": "A prominent hill offering panoramic views of the surrounding landscape, it's a popular hiking spot with a charming park at its base.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Plaza Independencia",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "The main square of Montevideo, featuring the iconic Artigas Mausoleum and surrounded by important historical buildings, it serves as a cultural hub.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "El Parque Rod\u00f3",
+    "city": "Montevideo",
+    "type": "nature",
+    "description": "A lush park located near the city center, perfect for picnics, jogging, and enjoying art exhibitions in its open-air gallery.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Colonia Valdense",
+    "city": "Colonia del Sacramento",
+    "type": "culture",
+    "description": "A small town founded by Italian immigrants, known for its unique architecture and a strong sense of community and cultural heritage.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Punta del Diablo",
+    "city": "Rocha",
+    "type": "nature",
+    "description": "This laid-back fishing village is known for its sandy beaches, vibrant arts scene, and proximity to natural reserves, making it ideal for eco-tourists.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Museo Nacional de Artes Visuales",
+    "city": "Montevideo",
+    "type": "culture",
+    "description": "This museum houses an impressive collection of Uruguayan art, featuring works by prominent artists such as Joaqu\u00edn Torres Garc\u00eda.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro del Toro",
+    "city": "Piri\u00e1polis",
+    "type": "nature",
+    "description": "A hill that offers breathtaking views of the coast, ideal for hiking and enjoying the natural beauty of the region.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Museo del Carnaval",
+    "city": "Montevideo",
+    "type": "culture",
+    "description": "Dedicated to the vibrant Uruguayan carnival, this museum showcases costumes, masks, and the history of this colorful celebration.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa La Mansa",
+    "city": "Punta del Este",
+    "type": "nature",
+    "description": "Known for its calm waters and family-friendly atmosphere, Playa La Mansa is a perfect spot for swimming and beach activities.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Laguna de Rocha",
+    "city": "Rocha",
+    "type": "nature",
+    "description": "A protected lagoon known for its rich biodiversity, it is an excellent spot for birdwatching and enjoying the tranquility of nature.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Pueblo Ed\u00e9n",
+    "city": "Maldonado",
+    "type": "culture",
+    "description": "A quaint village characterized by its rustic charm, art galleries, and local markets, offering a glimpse into the rural lifestyle of Uruguay.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Plaza Cagancha",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "A significant public square in Montevideo featuring beautiful architecture and often hosting cultural events and gatherings.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Arroyo del Pando",
+    "city": "Canelones",
+    "type": "nature",
+    "description": "A peaceful natural area perfect for outdoor activities such as hiking, fishing, and birdwatching amidst scenic landscapes.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Catedral Metropolitana",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "This stunning neoclassical cathedral is known for its impressive architecture and historic significance, located in the heart of Montevideo.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Bodega Bouza",
+    "city": "Canelones",
+    "type": "entertainment",
+    "description": "A renowned winery offering tours and tastings, showcasing Uruguay's wine culture and beautiful vineyard landscapes.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Termas del Arapey",
+    "city": "Salto",
+    "type": "entertainment",
+    "description": "A popular thermal spa destination known for its relaxing hot springs, surrounded by beautiful natural scenery.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa Brava",
+    "city": "Punta del Este",
+    "type": "nature",
+    "description": "Famous for its strong waves and iconic sculpture 'La Mano', Playa Brava is a hub for surfers and beach lovers.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Estadio Centenario",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "The historic stadium that hosted the first-ever World Cup, it now houses a museum dedicated to the history of Uruguayan soccer.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro de Montevideo",
+    "city": "Montevideo",
+    "type": "nature",
+    "description": "The highest point in the city, offering panoramic views of Montevideo and the coastline, it's a popular spot for both locals and tourists.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Museo del Futbol",
+    "city": "Montevideo",
+    "type": "culture",
+    "description": "A museum dedicated to the history of soccer in Uruguay, showcasing memorabilia, trophies, and the country's rich soccer culture.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Caminito del Rey",
+    "city": "Colonia del Sacramento",
+    "type": "nature",
+    "description": "A picturesque walkway along the river, perfect for a leisurely stroll while enjoying the scenic views and historical surroundings.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Laguna del Sauce",
+    "city": "Maldonado",
+    "type": "nature",
+    "description": "A serene lake ideal for water sports and relaxation, surrounded by mountains and lush vegetation, perfect for a day trip.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Plaza de la Armada",
+    "city": "Montevideo",
+    "type": "landmark",
+    "description": "A historic square featuring monuments commemorating the naval history of Uruguay, surrounded by lush greenery.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Cerro de San Antonio",
+    "city": "Maldonado",
+    "type": "nature",
+    "description": "A scenic hill offering panoramic views of the surrounding area, great for hiking and picnicking.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Museo del Azulejo",
+    "city": "Montevideo",
+    "type": "culture",
+    "description": "A unique museum dedicated to the art of ceramics, showcasing stunning tile work and historical pieces.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Playa de la Viuda",
+    "city": "Maldonado",
+    "type": "nature",
+    "description": "A secluded beach known for its stunning natural beauty and tranquility, perfect for a peaceful day by the sea.",
+    "country": "Uruguay",
+    "country_rank": 6
+  },
+  {
+    "name": "Estancia El Colibri",
+    "city": "Cerro Largo",
+    "type": "culture",
+    "description": "A working ranch that offers visitors an immersive experience in rural life, with horseback rides and traditional meals.",
+    "country": "Uruguay",
+    "country_rank": 6
+  }
+]

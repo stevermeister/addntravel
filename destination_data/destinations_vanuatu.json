@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Mount Yasur",
+    "city": "Tanna",
+    "type": "nature",
+    "description": "An active volcano that offers spectacular views of eruptions and lava flows. Visitors can hike to the rim for a breathtaking experience.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Champagne Beach",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "Famous for its powdery white sands and crystal-clear waters. The beach is a perfect spot for snorkeling and relaxing.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Blue Lagoon",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "A stunning natural pool with vibrant blue waters surrounded by lush greenery. It's a great place for swimming and picnicking.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Port Vila Market",
+    "city": "Port Vila",
+    "type": "culture",
+    "description": "A bustling market showcasing local produce, crafts, and traditional foods. It's a vibrant place to experience the local culture and cuisine.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Mele Cascades",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A beautiful series of waterfalls surrounded by lush tropical rainforest. Visitors can hike to the falls and enjoy swimming in the natural pools.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Aore Island",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "A serene island known for its beautiful beaches and coral reefs. It provides excellent diving and snorkeling opportunities.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Conical Hill",
+    "city": "Tanna",
+    "type": "nature",
+    "description": "A popular hiking destination offering panoramic views of the island and its stunning landscapes. The trek is rewarding with breathtaking scenery.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Banyan Tree",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A massive banyan tree located near the waterfront. It\u2019s a great spot for relaxation and photos, symbolizing the natural beauty of Vanuatu.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Secret Garden",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A lush tropical garden that showcases local flora and fauna. It also features cultural performances and traditional village life experiences.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Unity Park",
+    "city": "Port Vila",
+    "type": "landmark",
+    "description": "A public park that celebrates Vanuatu's culture and history, featuring monuments and sculptures. It's a peaceful place to relax and enjoy the scenery.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Epi Island",
+    "city": "Epi",
+    "type": "nature",
+    "description": "An island known for its beautiful beaches and rich marine life. It's a hidden gem for those looking to escape the crowds.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Ono Island",
+    "city": "Ono",
+    "type": "nature",
+    "description": "A secluded island offering stunning beaches and snorkeling spots. It\u2019s perfect for visitors seeking tranquility and natural beauty.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Tanna Coffee",
+    "city": "Tanna",
+    "type": "culture",
+    "description": "Visit local coffee plantations to learn about the coffee-making process. Tanna Coffee is renowned for its unique flavor and quality.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Nambas Cultural Show",
+    "city": "Port Vila",
+    "type": "culture",
+    "description": "A vibrant cultural performance showcasing traditional dances and music. It provides insight into the rich heritage of the Vanuatu people.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Riri Blue Hole",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "A stunning blue hole with crystal-clear water ideal for swimming and relaxing. It's a less-known paradise perfect for a day trip.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Vanuatu Cultural Centre",
+    "city": "Port Vila",
+    "type": "culture",
+    "description": "A center dedicated to preserving and showcasing the cultural heritage of Vanuatu. Visitors can learn about traditional customs, artifacts, and history.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Kastom Village",
+    "city": "Tanna",
+    "type": "culture",
+    "description": "Experience traditional village life and customs in this cultural community. Visitors can engage with locals and learn about their way of life.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Northeast Malekula",
+    "city": "Malekula",
+    "type": "culture",
+    "description": "A region rich in cultural diversity with unique customs and traditions. Explore traditional ceremonies and local crafts.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Santo Mountain",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "A scenic mountain that offers hiking trails and stunning views of the surrounding landscape. It's a great spot for nature lovers.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Vanuatu's Underwater Post Office",
+    "city": "Espiritu Santo",
+    "type": "landmark",
+    "description": "The world's only underwater post office, where visitors can send waterproof postcards. It's a unique experience for divers and snorkelers.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Museum of Vanuatu",
+    "city": "Port Vila",
+    "type": "culture",
+    "description": "A museum dedicated to the history, culture, and art of Vanuatu. It features exhibitions on traditional artifacts and contemporary art.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Lelepa Island",
+    "city": "Lelepa",
+    "type": "nature",
+    "description": "An idyllic island known for its untouched beaches and snorkeling spots. It's a perfect escape for nature enthusiasts.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Eratap Beach",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A stunning beach with soft sand and clear waters, ideal for swimming and relaxing. It's less crowded, making it a peaceful retreat.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Tetepare Island",
+    "city": "Tetepare",
+    "type": "nature",
+    "description": "The largest uninhabited island in the South Pacific, known for its diverse wildlife and lush rainforests. A perfect spot for eco-tourism.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Malekula Island",
+    "city": "Malekula",
+    "type": "nature",
+    "description": "Known for its rich cultural traditions and beautiful landscapes, it's perfect for trekking and discovering local customs.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Pango Village",
+    "city": "Port Vila",
+    "type": "culture",
+    "description": "A vibrant village known for its friendly locals and traditional crafts. Visitors can engage with the community and learn about their customs.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Tanna Yaqona Bar",
+    "city": "Tanna",
+    "type": "entertainment",
+    "description": "Experience traditional kava ceremonies in a local bar. It's a unique way to engage with Vanuatu's social culture.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Nukubalav Island",
+    "city": "Nukubalav",
+    "type": "nature",
+    "description": "A remote island known for its pristine beaches and clear waters. It\u2019s perfect for snorkeling and experiencing untouched nature.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Cascade Waterfalls",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A beautiful series of cascading waterfalls surrounded by lush rainforest. A great spot for swimming and picnicking.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Great North Road",
+    "city": "Espiritu Santo",
+    "type": "landmark",
+    "description": "A scenic road that showcases stunning landscapes and traditional villages. It's a great way to explore the natural beauty of Vanuatu.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Luganville",
+    "city": "Espiritu Santo",
+    "type": "culture",
+    "description": "The second-largest town in Vanuatu, known for its lively market and historical significance. It's a hub for cultural exchange.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Namboru Waterfall",
+    "city": "Espiritu Santo",
+    "type": "nature",
+    "description": "A hidden gem waterfall perfect for swimming and relaxing in a tranquil environment. It's less frequented by tourists.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Havannah Harbour",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A beautiful natural harbor ideal for sailing and water activities. It's a picturesque spot for relaxation and enjoying the scenery.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Fanafo River",
+    "city": "Malekula",
+    "type": "nature",
+    "description": "A serene river known for its lush surroundings and wildlife. It's great for kayaking and exploring the natural landscape.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Mystery Island",
+    "city": "Mystery Island",
+    "type": "nature",
+    "description": "A tiny, uninhabited island perfect for a day trip. Explore its pristine beaches, crystal-clear waters, and vibrant marine life.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Tassiriki Island",
+    "city": "Tassiriki",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and rich coral reefs, it's a lesser-known paradise for snorkeling and relaxation.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Vao Island",
+    "city": "Vao",
+    "type": "nature",
+    "description": "A tranquil island known for its untouched beauty and friendly locals. It's an ideal spot for those seeking solitude and nature.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Eton Beach",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A beautiful beach with soft sand and clear waters, perfect for a relaxing day. It\u2019s less crowded, providing a peaceful atmosphere.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Bikini Island",
+    "city": "Bikini",
+    "type": "nature",
+    "description": "A remote island known for its stunning beaches and vibrant marine life. It's a hidden gem for those looking to escape.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Tanna Island",
+    "city": "Tanna",
+    "type": "nature",
+    "description": "Known for its volcanic activity and stunning landscapes, it's a must-visit for adventure seekers and nature lovers.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Vanuatu Whale Watching",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "Join tours to observe majestic whales in their natural habitat. It's an unforgettable experience for wildlife enthusiasts.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Lone Pine",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A solitary pine tree on the beach that has become a symbol of Vanuatu. It's a great spot for photos and enjoying the sunset.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Aneityum Island",
+    "city": "Aneityum",
+    "type": "nature",
+    "description": "A remote island known for its stunning coral reefs and tranquil beaches. Perfect for snorkeling and experiencing untouched nature.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "The Old Customs House",
+    "city": "Port Vila",
+    "type": "landmark",
+    "description": "A historic building that showcases Vanuatu's colonial past. It's an interesting spot for history buffs.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  },
+  {
+    "name": "Mango Bay",
+    "city": "Port Vila",
+    "type": "nature",
+    "description": "A beautiful bay known for its calm waters and vibrant marine life. It's a great place for swimming and enjoying water activities.",
+    "country": "Vanuatu",
+    "country_rank": 6
+  }
+]

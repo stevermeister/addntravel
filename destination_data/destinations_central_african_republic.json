@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dzanga-Sangha Special Reserve",
+    "city": "Bayanga",
+    "type": "nature",
+    "description": "This pristine rainforest reserve is a haven for biodiversity, featuring lush landscapes and a wide variety of wildlife, including gorillas and elephants. Visitors can take guided tours to experience the rich flora and fauna up close.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Boali Waterfalls",
+    "city": "Boali",
+    "type": "nature",
+    "description": "Known for its stunning 50-meter drop, the Boali Waterfalls are a picturesque destination just a short drive from Bangui. The surrounding area offers beautiful views and opportunities for picnicking and relaxation.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Manovo-Gounda St. Floris National Park",
+    "city": "Bocaranga",
+    "type": "nature",
+    "description": "This UNESCO World Heritage site is renowned for its diverse ecosystems, including savanna, riverine, and forest habitats. It's home to numerous endangered species, making it a perfect destination for wildlife enthusiasts.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Bangui's Central Market",
+    "city": "Bangui",
+    "type": "culture",
+    "description": "A vibrant hub of local life, Bangui's Central Market offers an immersive experience into the culture and daily life of the Central African Republic. Visitors can find everything from handmade crafts to fresh produce while enjoying the lively atmosphere.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Kotto River",
+    "city": "Kotto",
+    "type": "nature",
+    "description": "This serene river is perfect for canoeing and fishing, surrounded by lush vegetation and the sounds of nature. It's a great spot for travelers looking to escape the hustle and bustle of city life.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Lobaye River",
+    "city": "Berberati",
+    "type": "nature",
+    "description": "The Lobaye River is known for its beautiful scenery and opportunities for adventure. Eco-tourism activities like hiking and bird-watching are popular here, making it a hidden gem for nature lovers.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Sangha Tri-National Park",
+    "city": "Sangha-Mba\u00e9r\u00e9",
+    "type": "nature",
+    "description": "This park, which spans across three countries, is a sanctuary for rare species such as the forest elephant and the northern white rhino. It offers unique eco-tourism experiences and the chance to explore the rich biodiversity of the region.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Historical Museum of Bangui",
+    "city": "Bangui",
+    "type": "culture",
+    "description": "This museum showcases the rich history and cultural heritage of the Central African Republic through artifacts, traditional crafts, and educational exhibits. It's a great place for visitors to learn more about the country's past.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "Gorilla Tracking in Dzanga-Sangha",
+    "city": "Bayanga",
+    "type": "entertainment",
+    "description": "Experience the thrill of tracking wild gorillas in their natural habitat. This guided activity offers a unique opportunity to observe these magnificent creatures up close while promoting wildlife conservation.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  },
+  {
+    "name": "The Mosque of Bangui",
+    "city": "Bangui",
+    "type": "landmark",
+    "description": "One of the largest mosques in the country, the Mosque of Bangui is notable for its impressive architecture and cultural significance. It serves as a symbol of the diverse religious landscape of the Central African Republic.",
+    "country": "Central African Republic",
+    "country_rank": 1
+  }
+]

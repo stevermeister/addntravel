@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Sultan Qaboos Grand Mosque",
+    "city": "Muscat",
+    "type": "landmark",
+    "description": "One of the largest mosques in the world, this stunning architectural marvel can accommodate over 20,000 worshippers. Its beautiful Persian carpet and intricate chandeliers make it a must-visit.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Shab",
+    "city": "Sur",
+    "type": "nature",
+    "description": "A breathtaking oasis with turquoise waters, Wadi Shab is perfect for hiking and swimming. The stunning scenery and hidden caves make it a unique escape.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Nizwa Fort",
+    "city": "Nizwa",
+    "type": "landmark",
+    "description": "This historic fort offers panoramic views of the surrounding area and is a testament to Oman's rich history. The impressive architecture and well-preserved interiors attract many visitors.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Jebel Akhdar",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "Known as the 'Green Mountain', Jebel Akhdar is famous for its terraced farms and stunning views. It\u2019s a great spot for hiking and experiencing Omani mountain culture.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Mutrah Souq",
+    "city": "Muscat",
+    "type": "culture",
+    "description": "One of the oldest souqs in Oman, it offers a vibrant atmosphere filled with shops selling traditional crafts, spices, and jewelry. The souq is a great place to experience local culture.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Ras Al Jinz Turtle Reserve",
+    "city": "Sur",
+    "type": "nature",
+    "description": "A significant nesting site for green turtles, this reserve allows visitors to witness the incredible sight of turtles coming ashore to lay eggs. Guided tours provide insights into conservation efforts.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Bahla Fort",
+    "city": "Bahla",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, this impressive fort is surrounded by a wall that stretches for several kilometers. The fort's unique architecture showcases Omani craftsmanship.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Hoota Cave",
+    "city": "Al Hamra",
+    "type": "nature",
+    "description": "This stunning cave system features impressive stalactites and stalagmites, along with an underground lake. Guided tours offer a glimpse into the remarkable geology of Oman.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Bani Khalid",
+    "city": "Wadi Bani Khalid",
+    "type": "nature",
+    "description": "A beautiful oasis with crystal-clear pools, Wadi Bani Khalid is ideal for swimming and relaxing. Its picturesque setting makes it a popular spot for both locals and tourists.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "The Royal Opera House",
+    "city": "Muscat",
+    "type": "entertainment",
+    "description": "A stunning cultural landmark, the Royal Opera House hosts a variety of performances, from opera to classical music. Its beautiful architecture and lush gardens enhance the artistic experience.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jalali and Al Mirani Forts",
+    "city": "Muscat",
+    "type": "landmark",
+    "description": "These two forts are situated on opposite sides of the harbor and offer rich history and stunning views of the coastline. They are a symbol of Oman's defensive architecture.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Salalah",
+    "city": "Salalah",
+    "type": "nature",
+    "description": "Known for its lush greenery and beautiful beaches, Salalah becomes a tropical paradise during the Khareef season. The area is rich in history and natural beauty, making it a unique destination.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Ayn Heritage Village",
+    "city": "Nizwa",
+    "type": "culture",
+    "description": "This traditional village showcases the skills of Omani artisans and offers visitors a glimpse into the country's rich cultural heritage. The ancient falaj irrigation system is a highlight.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Khasab",
+    "city": "Khasab",
+    "type": "nature",
+    "description": "Located in Musandam, Khasab is known for its dramatic fjords and stunning coastal scenery. Boat tours offer opportunities to see dolphins and explore hidden coves.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Jebel Shams",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "Oman's highest peak offers breathtaking views of the Grand Canyon of Oman. It's a popular spot for hiking and camping, providing an adventurous escape.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Sumhuram Archaeological Site",
+    "city": "Salalah",
+    "type": "culture",
+    "description": "An ancient city that dates back to the frankincense trade, Sumhuram offers ruins and insights into Oman's rich history. The site is surrounded by beautiful landscapes.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Qurum Beach",
+    "city": "Muscat",
+    "type": "nature",
+    "description": "A popular beach destination, Qurum Beach features soft sands and clear waters. It's great for swimming, picnics, and enjoying stunning sunsets over the Arabian Sea.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Tiwi",
+    "city": "Tiwi",
+    "type": "nature",
+    "description": "Less known than Wadi Shab, Wadi Tiwi features stunning palm plantations and crystal-clear waters. It's a tranquil spot for hiking and exploring hidden pools.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "The Frankincense Trail",
+    "city": "Salalah",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, this trail showcases the ancient trade routes of frankincense. It connects several historic sites, making it a fascinating cultural journey.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Bahla Pottery",
+    "city": "Bahla",
+    "type": "culture",
+    "description": "Famous for its traditional pottery, Bahla showcases the art of Omani craftsmen. Visitors can witness pottery-making techniques and purchase unique handcrafted items.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Rustaq Fort",
+    "city": "Al Rustaq",
+    "type": "landmark",
+    "description": "This historic fort is known for its strategic location and impressive architecture. It offers insight into Oman's military history and provides stunning views of the surrounding area.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Rimal Al Sharqiya",
+    "city": "Sur",
+    "type": "nature",
+    "description": "A beautiful stretch of golden sand dunes, Rimal Al Sharqiya is perfect for desert adventures. Visitors can enjoy camel rides, quad biking, and stargazing.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Al Khoudh",
+    "city": "Muscat",
+    "type": "nature",
+    "description": "A lesser-known wadi that features lush greenery and refreshing pools. It's a great spot for a picnic and enjoying the serene surroundings.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Sohar Fort",
+    "city": "Sohar",
+    "type": "landmark",
+    "description": "This fort is an important historical site that reflects Oman's maritime history. The fort's impressive walls and towers offer panoramic views of the surrounding area.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Masirah Island",
+    "city": "Masirah",
+    "type": "nature",
+    "description": "A hidden gem known for its pristine beaches and diverse wildlife, Masirah Island is perfect for nature enthusiasts. It's a great spot for birdwatching, kite surfing, and exploring secluded beaches.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Muntarib",
+    "city": "Muscat",
+    "type": "nature",
+    "description": "A beautiful beach known for its stunning rock formations and turquoise waters. It's a perfect spot for relaxation and enjoying the natural beauty of Oman.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "The Lost City of Ubar",
+    "city": "Rub' al Khali",
+    "type": "culture",
+    "description": "A legendary city mentioned in ancient texts, Ubar is rumored to have been lost in the sands. Exploring the surrounding area offers a sense of adventure and mystery.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Ibra",
+    "city": "Ibra",
+    "type": "culture",
+    "description": "Known for its traditional mud-brick architecture, Ibra is a charming town that offers a glimpse into Omani heritage. The local markets are vibrant and filled with traditional goods.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jebel Al Akhdar Rose Gardens",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "Famous for its rose cultivation, the gardens bloom beautifully in spring, creating a stunning landscape. It's a unique experience to witness the rose-picking process.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Qalhat",
+    "city": "Sur",
+    "type": "culture",
+    "description": "An ancient port city with ruins and historical significance, Qalhat is less visited but rich in culture. The site includes remnants of mosques and fortifications.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Hawiyat Najm Park",
+    "city": "Muscat",
+    "type": "nature",
+    "description": "This beautiful park features a stunning sinkhole and is a great spot for picnics and relaxation. The unique geological formation attracts nature lovers.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Kamil Wal Wafi",
+    "city": "Al Kamil Wal Wafi",
+    "type": "culture",
+    "description": "Known for its traditional crafts and local markets, this town offers a glimpse into rural Omani life. It's a great place to experience local culture and hospitality.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Marneef Cave",
+    "city": "Salalah",
+    "type": "nature",
+    "description": "Located near Mughsail Beach, Marneef Cave is known for its blowholes and stunning coastal views. It's a perfect spot for photography and enjoying the natural beauty.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "The Tree of Life",
+    "city": "Bahrain",
+    "type": "nature",
+    "description": "A solitary tree that thrives in the desert, this iconic tree is a symbol of resilience and mystery. Its unique location and story attract many visitors.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Batinah Coast",
+    "city": "Sohar",
+    "type": "nature",
+    "description": "This scenic coastline features beautiful beaches, dramatic cliffs, and lush vegetation. It's ideal for beach activities, picnics, and enjoying the tranquility of nature.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Rugged Mountains of Dhofar",
+    "city": "Salalah",
+    "type": "nature",
+    "description": "The dramatic landscape of Dhofar is known for its rugged mountains and stunning views. It's perfect for hiking and exploring the unique flora and fauna.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Sahtan",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "A beautiful wadi featuring lush greenery and freshwater pools, Wadi Sahtan is a tranquil escape for nature lovers. It's perfect for picnics and swimming.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Jabrin Castle",
+    "city": "Jabrin",
+    "type": "landmark",
+    "description": "A beautifully restored castle dating back to the 17th century, Al Jabrin offers insight into Omani history and architecture. The intricate woodwork and stunning views make it a highlight.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Hibi",
+    "city": "Muscat",
+    "type": "nature",
+    "description": "A serene wadi known for its lush palm groves and clear waters, Wadi Hibi is an ideal spot for a peaceful retreat. It's less crowded and perfect for relaxation.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Al Hajar Mountains",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "This mountain range features stunning landscapes and offers excellent hiking opportunities. The dramatic cliffs and valleys are perfect for adventure seekers.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Suwaiq Castle",
+    "city": "Suwaiq",
+    "type": "landmark",
+    "description": "A historic castle overlooking the sea, Suwaiq Castle has great historical significance and offers a glimpse into Oman's past. The views from the castle are breathtaking.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Ghul",
+    "city": "Nizwa",
+    "type": "nature",
+    "description": "Often referred to as Oman's Grand Canyon, Wadi Ghul offers stunning views and hiking opportunities. The rugged terrain and dramatic cliffs make it a popular destination for adventurers.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "The Sultan's Palace",
+    "city": "Muscat",
+    "type": "landmark",
+    "description": "The stunning Al Alam Palace is the ceremonial palace of Sultan Qaboos and features beautiful architecture and gardens. While not open to the public, it's a popular photo spot.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Qasr Al Jalali",
+    "city": "Muscat",
+    "type": "landmark",
+    "description": "An iconic historic fort that showcases Oman's rich military heritage, Qasr Al Jalali is a great place to learn about the country's history. The views from the fort are impressive.",
+    "country": "Oman",
+    "country_rank": 6
+  },
+  {
+    "name": "Wadi Al Abyad",
+    "city": "Bahla",
+    "type": "nature",
+    "description": "Known for its white rocks and crystal-clear waters, Wadi Al Abyad is a hidden gem perfect for swimming and picnicking. It's a peaceful spot away from the crowds.",
+    "country": "Oman",
+    "country_rank": 6
+  }
+]

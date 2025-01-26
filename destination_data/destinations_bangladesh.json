@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Sundarbans",
+    "city": "Khulna",
+    "type": "nature",
+    "description": "The largest mangrove forest in the world, home to the Royal Bengal Tiger. It's a UNESCO World Heritage Site offering unique biodiversity and breathtaking landscapes.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Cox's Bazar",
+    "city": "Cox's Bazar",
+    "type": "nature",
+    "description": "Known for having the longest natural sea beach in the world, this destination is perfect for sunbathing, surfing, and enjoying fresh seafood along the coast.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Srimangal",
+    "city": "Moulvibazar",
+    "type": "nature",
+    "description": "Famous for its tea gardens and biodiversity, Srimangal is a tranquil retreat for nature lovers and offers scenic views and opportunities for trekking.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Rangamati",
+    "city": "Rangamati",
+    "type": "nature",
+    "description": "Nestled among hills and lakes, this picturesque town is known for its tribal culture, vibrant markets, and stunning views of the Kaptai Lake.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Sylhet Tea Gardens",
+    "city": "Sylhet",
+    "type": "nature",
+    "description": "This region is dotted with lush green tea estates, where visitors can learn about tea production and enjoy the serene landscapes.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Paharpur Buddhist Monastery",
+    "city": "Naogaon",
+    "type": "cultural",
+    "description": "One of the most important archaeological sites in Bangladesh, this ancient monastery showcases the remnants of a once-thriving Buddhist civilization.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Jaflong",
+    "city": "Sylhet",
+    "type": "nature",
+    "description": "A scenic border area between Bangladesh and India, known for its stunning landscapes, tea gardens, and the Dawki River's crystal-clear waters.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Bagerhat",
+    "city": "Bagerhat",
+    "type": "cultural",
+    "description": "A UNESCO World Heritage Site, Bagerhat is famous for its historic mosques and the 60 Dome Mosque, showcasing exquisite Mughal architecture.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Sangsad Bhaban",
+    "city": "Dhaka",
+    "type": "landmark",
+    "description": "Designed by Louis Kahn, this stunning National Parliament House is an architectural marvel and a symbol of Bangladesh's sovereignty.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Mahasthangarh",
+    "city": "Bogura",
+    "type": "cultural",
+    "description": "An ancient archaeological site that dates back to the 3rd century BC, offering insights into the region's rich history with its ruins and artifacts.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Chandranath Hill",
+    "city": "Sitakunda",
+    "type": "nature",
+    "description": "The second highest hill in Bangladesh, offering panoramic views and a sacred temple dedicated to Lord Shiva, attracting both pilgrims and trekkers.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Nijhum Dwip",
+    "city": "Hatiya",
+    "type": "nature",
+    "description": "A serene island in the Bay of Bengal known for its rich wildlife, beautiful beaches, and tranquil environment, perfect for a peaceful getaway.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Cox's Bazar Marine Drive",
+    "city": "Cox's Bazar",
+    "type": "nature",
+    "description": "A scenic coastal road that stretches along the beach, offering stunning sea views and a perfect spot for leisurely drives and picnics.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Ratargul Swamp Forest",
+    "city": "Gowainghat",
+    "type": "nature",
+    "description": "A freshwater swamp forest known for its unique ecosystem and biodiversity, offering boat rides through its lush greenery and tranquil waters.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Foy's Lake",
+    "city": "Chattogram",
+    "type": "entertainment",
+    "description": "An artificial lake surrounded by hills, offering recreational activities like boating, an amusement park, and scenic views, making it a popular family destination.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Sreemangal",
+    "city": "Moulvibazar",
+    "type": "nature",
+    "description": "Often referred to as the tea capital of Bangladesh, Sreemangal is famous for its rolling hills covered in tea plantations and its peaceful rural atmosphere.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Gulshan Lake Park",
+    "city": "Dhaka",
+    "type": "nature",
+    "description": "A beautiful park in the heart of Dhaka, perfect for leisurely walks, picnics, and enjoying nature amidst the bustling city.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Bhasan Char",
+    "city": "Noakhali",
+    "type": "nature",
+    "description": "A newly developed island that serves as a home for displaced Rohingya refugees, featuring unique landscapes and a commitment to sustainability.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Chittagong Hill Tracts",
+    "city": "Chattogram",
+    "type": "nature",
+    "description": "Home to diverse indigenous communities and breathtaking landscapes, this region is perfect for trekking, cultural experiences, and immersing in nature.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Sadarghat River Port",
+    "city": "Dhaka",
+    "type": "landmark",
+    "description": "One of the busiest river ports in the world, offering a glimpse into the vibrant life along the Buriganga River with numerous boats and ferries.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Kaptai Lake",
+    "city": "Rangamati",
+    "type": "nature",
+    "description": "The largest man-made lake in Bangladesh, surrounded by hills and forests, offering opportunities for boating, fishing, and exploring tribal villages.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Sonargaon",
+    "city": "Narayanganj",
+    "type": "cultural",
+    "description": "Once the capital of Bengal, this historical town is filled with ancient buildings, museums, and the beautiful Panam City, reflecting its rich heritage.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Shilaidaha Kuthibari",
+    "city": "Kushtia",
+    "type": "cultural",
+    "description": "The former residence of Nobel laureate Rabindranath Tagore, this site is rich in history and literature, attracting poetry enthusiasts and tourists alike.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "The Liberation War Museum",
+    "city": "Dhaka",
+    "type": "cultural",
+    "description": "A poignant museum dedicated to the history of the 1971 Bangladesh Liberation War, providing a deep insight into the nation's struggle for independence.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Kuakata Sea Beach",
+    "city": "Patuakhali",
+    "type": "nature",
+    "description": "Known as the 'Daughter of the Sea,' this beach offers stunning views of both sunrise and sunset, making it a unique coastal experience.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Himchari National Park",
+    "city": "Cox's Bazar",
+    "type": "nature",
+    "description": "A national park known for its hilly terrain, sandy beaches, and diverse wildlife, perfect for hiking and exploring nature away from the crowds.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  },
+  {
+    "name": "Bishnupur Temple",
+    "city": "Bishnupur",
+    "type": "cultural",
+    "description": "Famous for its terracotta temples and rich artistic heritage, this town showcases exquisite architecture and craftsmanship from the 17th century.",
+    "country": "Bangladesh",
+    "country_rank": 3
+  }
+]

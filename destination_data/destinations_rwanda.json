@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Volcanoes National Park",
+    "city": "Musanze",
+    "type": "nature",
+    "description": "Home to the endangered mountain gorillas, this park offers breathtaking views of the volcanic landscape and opportunities for gorilla trekking.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Nyungwe Forest National Park",
+    "city": "Rusizi",
+    "type": "nature",
+    "description": "A biodiversity hotspot, Nyungwe is famous for its primates and lush rainforest. The canopy walk provides a unique perspective of the treetops.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Akagera National Park",
+    "city": "Kayonza",
+    "type": "nature",
+    "description": "This savannah park is known for its diverse wildlife, including the Big Five. Boat trips on Lake Akagera offer stunning views of the park's landscapes.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali Genocide Memorial",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "A poignant memorial that honors the victims of the 1994 genocide. It provides deep insights into Rwanda's history and resilience.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Lake Kivu",
+    "city": "Gisenyi",
+    "type": "nature",
+    "description": "One of Africa's Great Lakes, Lake Kivu is surrounded by beautiful hills and offers opportunities for boating, swimming, and relaxation.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Butare National Museum",
+    "city": "Huye",
+    "type": "culture",
+    "description": "The largest museum in Rwanda, it showcases the country's cultural heritage and history through various exhibits and artifacts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Gisenyi Beach",
+    "city": "Gisenyi",
+    "type": "entertainment",
+    "description": "A stunning beach on the shores of Lake Kivu, perfect for sunbathing, swimming, and enjoying watersports.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Ntarama Church",
+    "city": "Bugesera",
+    "type": "culture",
+    "description": "A historical site that serves as a memorial to the victims of the genocide, preserving the tragic history within its walls.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "King's Palace Museum",
+    "city": "Nyanza",
+    "type": "culture",
+    "description": "A reconstructed royal residence showcasing Rwanda's monarchy and culture, offering insights into the traditions of Rwandan kings.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Mount Nyiragongo",
+    "city": "Rutshuru",
+    "type": "nature",
+    "description": "An active volcano that is part of the Virunga Massif, known for its lava lake and stunning hiking trails.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali City Tower",
+    "city": "Kigali",
+    "type": "landmark",
+    "description": "One of the tallest buildings in Rwanda, offering panoramic views of Kigali and beyond from its observation deck.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Ethnographic Museum",
+    "city": "Huye",
+    "type": "culture",
+    "description": "This museum houses a vast collection of artifacts that reflect the rich cultural heritage of Rwanda.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Cultural Village in Iby'Iwacu",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "An interactive experience that showcases traditional Rwandan life, including music, dance, and crafts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze Caves",
+    "city": "Musanze",
+    "type": "nature",
+    "description": "These ancient caves offer unique geological formations and a glimpse into the region's history.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali Convention Centre",
+    "city": "Kigali",
+    "type": "landmark",
+    "description": "A modern architectural marvel that hosts international conferences and events, symbolizing Rwanda's growth.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Inema Arts Center",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "A vibrant art gallery that showcases contemporary Rwandan art and hosts workshops and cultural events.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Gorilla Guardians Village",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "A community-based tourism initiative where visitors can learn about local culture and support conservation efforts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kibuye",
+    "city": "Kibuye",
+    "type": "nature",
+    "description": "A serene town by Lake Kivu, famous for its beautiful waterfront and tranquil atmosphere.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Bujumbura",
+    "city": "Bujumbura",
+    "type": "nature",
+    "description": "Located near the border with Burundi, this area is known for its stunning lake views and serene environment.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Muhanga",
+    "city": "Muhanga",
+    "type": "culture",
+    "description": "A town rich in culture and history, offering insights into traditional Rwandan practices and crafts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze Market",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "A bustling local market where visitors can experience Rwandan daily life and shop for fresh produce and crafts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Sabyinyo Silverback Lodge",
+    "city": "Musanze",
+    "type": "entertainment",
+    "description": "A luxury lodge located near Volcanoes National Park, offering comfort and unique experiences like guided gorilla treks.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali Art Museum",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "Showcases a range of contemporary art from Rwanda and the African diaspora, fostering cultural exchange.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Lake Burera",
+    "city": "Musanze",
+    "type": "nature",
+    "description": "A picturesque lake surrounded by rolling hills, perfect for kayaking and relaxing in nature.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Gorilla Trekking in Volcanoes National Park",
+    "city": "Musanze",
+    "type": "nature",
+    "description": "An unforgettable experience that allows visitors to trek through the mountains and observe the majestic gorillas in their natural habitat.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kabuye Catholic Church",
+    "city": "Kibuye",
+    "type": "culture",
+    "description": "A historic church located on the shores of Lake Kivu, known for its stunning architecture and serene surroundings.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "The Drum Sanctuary",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "A cultural center dedicated to the traditional art of drumming, offering performances and workshops.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze Rock Art",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "Ancient rock art that provides insight into the early inhabitants of the region and their way of life.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Gikongoro Memorial Site",
+    "city": "Gikongoro",
+    "type": "culture",
+    "description": "A site dedicated to the memory of the victims of the genocide, offering education on the tragic events of the past.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Rwanda Art Museum",
+    "city": "Huye",
+    "type": "culture",
+    "description": "Housed in a former presidential palace, this museum exhibits Rwandan art, showcasing the country's vibrant creativity.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze Adventure Tours",
+    "city": "Musanze",
+    "type": "entertainment",
+    "description": "Offers thrilling activities such as mountain biking and guided hikes in the scenic landscapes of the region.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali's Local Breweries",
+    "city": "Kigali",
+    "type": "entertainment",
+    "description": "Experience Rwanda's burgeoning craft beer scene by visiting local breweries that offer tastings and tours.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Biking around Lake Kivu",
+    "city": "Gisenyi",
+    "type": "nature",
+    "description": "A scenic biking route that offers stunning views of the lake and surrounding hills, perfect for outdoor enthusiasts.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali Memorial Centre",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "A comprehensive center dedicated to educating visitors about the genocide and promoting peace and reconciliation.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Ruhengeri",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "A vibrant town that serves as a gateway to the Volcanoes National Park, offering cultural experiences and local markets.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Nyanza King's Palace",
+    "city": "Nyanza",
+    "type": "culture",
+    "description": "A historical site reflecting the architectural style of Rwandan kings, offering insights into the country's royal history.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Rwanda's Coffee Tours",
+    "city": "Various",
+    "type": "culture",
+    "description": "Experience the process of coffee production from bean to cup, with tours available at various coffee plantations.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Kigali's Street Art",
+    "city": "Kigali",
+    "type": "culture",
+    "description": "Explore vibrant murals and street art that reflect the culture and history of Kigali, providing a modern artistic perspective.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze Cultural Center",
+    "city": "Musanze",
+    "type": "culture",
+    "description": "A hub for showcasing Rwandan culture through performances, arts and crafts, and culinary experiences.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Gihundwe Hill",
+    "city": "Rusizi",
+    "type": "nature",
+    "description": "An excellent spot for hiking with panoramic views of Lake Kivu and the surrounding landscapes.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Musanze's Traditional Dance",
+    "city": "Musanze",
+    "type": "entertainment",
+    "description": "Experience traditional Rwandan dance performances that celebrate the country's vibrant culture and history.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Rwandan Local Cuisine Tours",
+    "city": "Various",
+    "type": "culture",
+    "description": "Explore the rich flavors of Rwandan cuisine through guided tours that include tastings of local dishes.",
+    "country": "Rwanda",
+    "country_rank": 6
+  },
+  {
+    "name": "Congo Nile Trail",
+    "city": "Rubavu",
+    "type": "nature",
+    "description": "A scenic trail along the shores of Lake Kivu offering hiking, biking, and breathtaking views of the landscape.",
+    "country": "Rwanda",
+    "country_rank": 6
+  }
+]

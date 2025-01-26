@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Anse Source d'Argent",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "Famous for its stunning granite boulders and crystal-clear waters, Anse Source d'Argent is often considered one of the most photographed beaches in the world. The shallow lagoon is perfect for swimming and snorkeling.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Vall\u00e9e de Mai",
+    "city": "Praslin",
+    "type": "nature",
+    "description": "A UNESCO World Heritage Site, Vall\u00e9e de Mai is a natural reserve home to the rare coco de mer palm. This lush palm forest also hosts unique wildlife, making it a must-visit for nature lovers.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Curieuse Island",
+    "city": "Curieuse",
+    "type": "nature",
+    "description": "Known for its giant tortoises and stunning nature trails, Curieuse Island offers an opportunity to see unique wildlife up close. The island's rich history as a leper colony adds to its intriguing allure.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Aride Island",
+    "city": "Aride",
+    "type": "nature",
+    "description": "Aride Island is a nature reserve renowned for its diverse bird species, including the endangered Seychelles magpie-robin. The island's untouched beauty and crystal-clear waters offer incredible snorkeling opportunities.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Morne Seychellois National Park",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "Covering over 20% of Mah\u00e9, this national park features lush rainforests, hiking trails, and the highest peak in Seychelles. Adventurous visitors can enjoy breathtaking views and diverse flora and fauna.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "La Digue Island",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "La Digue is known for its stunning beaches and laid-back atmosphere. The island's charm comes from its traditional Creole architecture and the absence of cars, making it perfect for cycling.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Lazio",
+    "city": "Praslin",
+    "type": "nature",
+    "description": "Often voted one of the best beaches in the world, Anse Lazio is famous for its soft white sand and turquoise waters. The surrounding granite boulders create a picturesque setting ideal for relaxation.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles National Botanical Gardens",
+    "city": "Victoria",
+    "type": "nature",
+    "description": "Located in the capital, Victoria, these gardens are home to an impressive collection of tropical plants and a giant tortoise enclosure. The gardens offer a peaceful escape and insight into Seychelles' diverse flora.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Victoria Market",
+    "city": "Victoria",
+    "type": "culture",
+    "description": "A vibrant market in the heart of Victoria, this bustling spot showcases local produce, spices, and handicrafts. It's a great place to experience the local culture and taste delicious Seychellois cuisine.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Mission Lodge",
+    "city": "Mah\u00e9",
+    "type": "landmark",
+    "description": "Offering panoramic views of the island, Mission Lodge was once a school for the children of former slaves. The site features historical significance and beautiful nature trails leading to breathtaking vistas.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Intendance",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "Known for its dramatic waves and stunning scenery, Anse Intendance is a great spot for beach lovers and surfers. The surrounding nature reserve is home to diverse wildlife, including rare birds.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Cousin Island",
+    "city": "Cousin",
+    "type": "nature",
+    "description": "Cousin Island is a nature reserve famous for its conservation efforts and rich biodiversity. Visitors can explore the island's trails and observe its unique birdlife, including the Seychelles warbler.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "St. Pierre Island",
+    "city": "St. Pierre",
+    "type": "nature",
+    "description": "A small, uninhabited island known for its beautiful coral reefs, St. Pierre is a popular spot for snorkeling and diving. Its clear waters are teeming with colorful marine life.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Takamaka Rum Distillery",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "Visitors can tour this local distillery to learn about the rum-making process and enjoy tastings of their unique blends. The distillery's beautiful setting adds to the experience.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "L'Islette Island",
+    "city": "L'Islette",
+    "type": "nature",
+    "description": "This small, private island is known for its stunning beaches and tranquil atmosphere. It offers a perfect escape for those seeking solitude and relaxation away from the main tourist areas.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Art Gallery",
+    "city": "Victoria",
+    "type": "culture",
+    "description": "Showcasing the works of local artists, this gallery provides insight into Seychelles' vibrant art scene. Visitors can appreciate the diverse styles and themes that reflect the islands' culture.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Beau Vallon Beach",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "A popular beach known for its water sports and lively atmosphere, Beau Vallon Beach is perfect for swimming, snorkeling, and enjoying local food stalls. The sunset views here are breathtaking.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Natural History Museum",
+    "city": "Victoria",
+    "type": "culture",
+    "description": "This museum offers a look into Seychelles' unique biodiversity and cultural heritage. Exhibits include everything from fossils to traditional artifacts, making it a great stop for history enthusiasts.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Grand Anse Beach",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "Known for its stunning scenery and powerful waves, Grand Anse Beach is a less crowded alternative for beach lovers. It's perfect for sunbathing and enjoying the natural beauty of the island.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Cap Lazare",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "A hidden gem known for its secluded beaches and lush forests, Cap Lazare offers a tranquil escape for those looking to connect with nature. The area is perfect for hiking and exploring.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Georgette",
+    "city": "Praslin",
+    "type": "nature",
+    "description": "A secluded beach accessible through a private resort, Anse Georgette is known for its soft white sands and clear waters. The tranquility and beauty make it a hidden paradise.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Heritage Foundation",
+    "city": "Victoria",
+    "type": "culture",
+    "description": "Dedicated to preserving Seychelles' cultural heritage, this foundation hosts various events and exhibitions. It's a great place to learn about the islands' history and traditions.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Labrador Nature Reserve",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "This lesser-known reserve offers beautiful hiking trails and opportunities to see unique wildlife in its natural habitat. The area's pristine environment is perfect for nature photography.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Felicite Island",
+    "city": "Felicite",
+    "type": "nature",
+    "description": "A private island known for its luxurious resorts and spectacular landscapes, Felicite Island offers pristine beaches and excellent snorkeling spots. It's a perfect destination for a romantic getaway.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Severe",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "Anse Severe is a tranquil beach ideal for swimming and picnicking. Its calm waters and beautiful surroundings make it a favorite among locals and those seeking a peaceful day at the beach.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles National Museum of History",
+    "city": "Victoria",
+    "type": "culture",
+    "description": "This museum provides an overview of Seychelles' history, culture, and natural heritage. Exhibits include artifacts, photographs, and multimedia displays that engage visitors.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Moyenne Island",
+    "city": "Moyenne",
+    "type": "nature",
+    "description": "Part of the Sainte Anne Marine National Park, Moyenne Island is famous for its giant tortoises and lush vegetation. The island's trails offer a unique opportunity to explore its rich biodiversity.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Cocos",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "A hidden gem accessible via a short hike, Anse Cocos is known for its stunning scenery and serene atmosphere. The beach features beautiful rock formations and soft sands.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "L'Atelier",
+    "city": "Mah\u00e9",
+    "type": "culture",
+    "description": "An art studio and gallery showcasing local artists, L'Atelier offers visitors a chance to see and purchase unique pieces inspired by Seychelles' landscapes and culture.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Morne Blanc",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "A popular hiking destination, Morne Blanc offers stunning panoramic views of Mah\u00e9 and the surrounding islands. The trail winds through lush forests, showcasing the island's natural beauty.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse aux Serpents",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "This remote beach is known for its rugged beauty and isolation. It's a great spot for adventurous travelers seeking a peaceful retreat away from the more crowded beaches.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Caf\u00e9 des Arts",
+    "city": "La Digue",
+    "type": "entertainment",
+    "description": "A charming restaurant and art gallery, Caf\u00e9 des Arts offers a unique dining experience with local cuisine surrounded by beautiful artwork. It's a perfect spot to relax after exploring La Digue.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse La Mouche",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "A beautiful beach known for its calm waters, Anse La Mouche is ideal for families and beachgoers looking for a relaxing day in the sun. The surrounding area offers great snorkeling opportunities.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Cable Car",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "Offering breathtaking views of Mah\u00e9, the Seychelles Cable Car takes visitors on a scenic ride through the lush mountains. It's a thrilling way to experience the island\u2019s natural beauty.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Roxanne's Restaurant",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "A charming local eatery known for its delicious Creole cuisine, Roxanne's offers a taste of authentic Seychellois flavors. The welcoming atmosphere and friendly service make it a popular dining spot.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Major",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "Accessible by a scenic hike, Anse Major is a secluded beach known for its stunning beauty and tranquility. It's an ideal spot for picnics and enjoying the natural surroundings.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Amitie Beach",
+    "city": "Praslin",
+    "type": "nature",
+    "description": "A serene and less crowded beach, Amitie Beach is perfect for relaxation and enjoying the pristine environment. The calm waters make it ideal for swimming and snorkeling.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Eden Island",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "A luxury resort and residential area, Eden Island features upscale dining, shopping, and beautiful beaches. It's a great place to enjoy a day of leisure and indulge in luxury.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Forbans",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "Known for its calm waters and beautiful surroundings, Anse Forbans is perfect for swimming and relaxing. The beach is less crowded, offering a peaceful atmosphere.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Cousin Island Special Reserve",
+    "city": "Cousin",
+    "type": "nature",
+    "description": "A conservation area rich in biodiversity, Cousin Island is home to numerous bird species and endemic plants. Guided tours allow visitors to explore its unique ecosystems.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Baie Ternay Marine National Park",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "This marine park is known for its vibrant coral reefs and diverse marine life, making it a popular spot for snorkeling and diving. The pristine waters offer stunning underwater vistas.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Golf Club",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "Set in a picturesque location, the Seychelles Golf Club offers an 18-hole course surrounded by beautiful landscapes. It's a great spot for golf enthusiasts looking to enjoy the outdoors.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse La R\u00e9union",
+    "city": "La Digue",
+    "type": "nature",
+    "description": "A small, tranquil beach perfect for swimming and relaxing, Anse La R\u00e9union features clear waters and soft sand. The beach is often less crowded, providing a serene atmosphere.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Port Launay Marine National Park",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "Known for its rich marine biodiversity, Port Launay Marine National Park is a great destination for snorkeling and diving. The area features beautiful coral reefs and diverse marine species.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles International Airport",
+    "city": "Mah\u00e9",
+    "type": "landmark",
+    "description": "The gateway to Seychelles, the airport features unique architecture and is located in a picturesque setting. Visitors can enjoy the beautiful views while arriving or departing.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Coco Island",
+    "city": "Coco",
+    "type": "nature",
+    "description": "A small, uninhabited island known for its stunning beaches and rich marine life, Coco Island is a popular spot for snorkeling and relaxation. Its peaceful atmosphere makes it a perfect getaway.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Avani Seychelles Barbarons Resort & Spa",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "A luxurious resort featuring beautiful accommodations and a variety of activities, Avani offers a range of dining options, spa treatments, and water sports, perfect for a relaxing vacation.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse \u00e0 la Mouche",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "With its calm waters and scenic surroundings, Anse \u00e0 la Mouche is ideal for swimming, snorkeling, and family outings. The beach features beautiful sunsets and a relaxed atmosphere.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Eden Island Marina",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "A luxurious marina that caters to yacht owners and visitors, Eden Island Marina offers upscale dining, shopping, and leisure activities. It's a great place to enjoy the vibrant atmosphere.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Anse Royale",
+    "city": "Mah\u00e9",
+    "type": "nature",
+    "description": "A popular beach known for its soft sands and calm waters, Anse Royale is perfect for swimming and family outings. The beach is lined with local restaurants and shops, adding to its charm.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "La Digue Island Lodge",
+    "city": "La Digue",
+    "type": "entertainment",
+    "description": "A charming lodge offering comfortable accommodations and easy access to beautiful beaches, La Digue Island Lodge is perfect for travelers seeking relaxation amidst stunning surroundings.",
+    "country": "Seychelles",
+    "country_rank": 8
+  },
+  {
+    "name": "Seychelles Diving Center",
+    "city": "Mah\u00e9",
+    "type": "entertainment",
+    "description": "Offering a variety of diving experiences for all skill levels, the Seychelles Diving Center is a great place to explore the rich marine biodiversity of the islands. Guided dives allow for unforgettable underwater adventures.",
+    "country": "Seychelles",
+    "country_rank": 8
+  }
+]

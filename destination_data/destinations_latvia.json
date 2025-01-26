@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Riga Old Town",
+    "city": "Riga",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Riga's Old Town is famous for its cobblestone streets, medieval architecture, and vibrant atmosphere. Visitors can explore charming cafes, shops, and historic landmarks.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "J\u016brmala Beach",
+    "city": "J\u016brmala",
+    "type": "nature",
+    "description": "Stretching along the Gulf of Riga, J\u016brmala Beach is known for its soft white sands and scenic pine forests. It's a popular destination for relaxation, swimming, and enjoying water sports.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Gauja National Park",
+    "city": "Sigulda",
+    "type": "nature",
+    "description": "This stunning national park features deep valleys, sandstone cliffs, and the Gauja River. It's perfect for hiking, cycling, and exploring medieval castles like the Turaida Castle.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Rund\u0101le Palace",
+    "city": "Bauska",
+    "type": "landmark",
+    "description": "Often referred to as the 'Versailles of Latvia', Rund\u0101le Palace boasts exquisite Baroque architecture and beautifully landscaped gardens. Guided tours reveal its rich history and art.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "C\u0113sis Castle",
+    "city": "C\u0113sis",
+    "type": "landmark",
+    "description": "A medieval castle with a rich history, C\u0113sis Castle offers visitors a glimpse into Latvia's past. Its towers provide panoramic views of the surrounding area.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuld\u012bga's Ventas Rumba",
+    "city": "Kuld\u012bga",
+    "type": "nature",
+    "description": "Home to Europe's widest waterfall, Ventas Rumba is a natural gem perfect for photography and enjoying nature. The charming town of Kuld\u012bga nearby adds to the experience.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Aglona Basilica",
+    "city": "Aglona",
+    "type": "landmark",
+    "description": "A significant pilgrimage site, Aglona Basilica is known for its stunning Neoclassical architecture and serene atmosphere. It's a must-visit for those interested in spirituality and history.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Liep\u0101ja Beach",
+    "city": "Liep\u0101ja",
+    "type": "nature",
+    "description": "Liep\u0101ja Beach is famous for its unique white sand dunes and gentle waves, making it an ideal spot for sunbathing and swimming. The nearby city also boasts a rich musical heritage.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Turaida Museum Reserve",
+    "city": "Sigulda",
+    "type": "culture",
+    "description": "This open-air museum combines natural beauty with historical significance, featuring Turaida Castle and a variety of cultural exhibitions. It's a wonderful place to learn about Latvian heritage.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Salaspils Memorial Ensemble",
+    "city": "Salaspils",
+    "type": "culture",
+    "description": "A poignant memorial dedicated to the victims of the Salaspils concentration camp, this site offers a reflective space to learn about Latvia's history during WWII.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Koknese Castle Ruins",
+    "city": "Koknese",
+    "type": "landmark",
+    "description": "Overlooking the Daugava River, the ruins of Koknese Castle provide stunning views and a sense of history. The surrounding area is perfect for picnics and exploration.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riga Central Market",
+    "city": "Riga",
+    "type": "entertainment",
+    "description": "One of the largest markets in Europe, Riga Central Market is housed in former zeppelin hangars. It's a vibrant place to sample local foods and shop for unique crafts.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bauska Castle",
+    "city": "Bauska",
+    "type": "landmark",
+    "description": "This picturesque castle, located at the confluence of two rivers, offers beautiful views and is a great spot for history enthusiasts to learn about the region's past.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Vecr\u012bga",
+    "city": "Riga",
+    "type": "culture",
+    "description": "The historic heart of Riga, Vecr\u012bga is filled with colorful buildings, cafes, and shops. It's a lively hub for culture, history, and nightlife.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Daugavpils Fortress",
+    "city": "Daugavpils",
+    "type": "landmark",
+    "description": "One of the largest fortresses in Eastern Europe, Daugavpils Fortress is a fascinating monument of military architecture and offers engaging exhibitions and tours.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "J\u016brmala City Museum",
+    "city": "J\u016brmala",
+    "type": "culture",
+    "description": "This museum showcases the history and culture of J\u016brmala, highlighting its development as a resort town. It's an insightful visit for those interested in local heritage.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kandava Waterfall",
+    "city": "Kandava",
+    "type": "nature",
+    "description": "A hidden gem, Kandava Waterfall is a beautiful spot for nature lovers. It\u2019s one of the few waterfalls that flows over a dam, creating a picturesque scene.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Lielupe River",
+    "city": "J\u016brmala",
+    "type": "nature",
+    "description": "The Lielupe River is perfect for kayaking and boating, offering stunning views of the surrounding nature. It\u2019s a great spot for outdoor adventures.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Talsi Lake",
+    "city": "Talsi",
+    "type": "nature",
+    "description": "A beautiful lake surrounded by hills, Talsi Lake is ideal for swimming, fishing, and picnicking. The area is also home to scenic walking trails.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Freedom Monument",
+    "city": "Riga",
+    "type": "landmark",
+    "description": "A symbol of Latvian independence, the Freedom Monument stands proudly in the center of Riga. It commemorates those who fought for Latvia's freedom and is a must-see for visitors.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Dundaga Castle",
+    "city": "Dundaga",
+    "type": "landmark",
+    "description": "This medieval castle offers a glimpse into Latvia's history and is surrounded by beautiful natural landscapes. Guided tours provide insights into its storied past.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riga Art Nouveau District",
+    "city": "Riga",
+    "type": "culture",
+    "description": "Renowned for its stunning Art Nouveau architecture, this district is a treat for architecture enthusiasts. Many buildings feature intricate decorations and unique designs.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "C\u0113sis",
+    "city": "C\u0113sis",
+    "type": "culture",
+    "description": "A charming medieval town with cobbled streets, C\u0113sis is known for its well-preserved castle and vibrant cultural scene, including festivals and art exhibitions.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuld\u012bga Old Town",
+    "city": "Kuld\u012bga",
+    "type": "culture",
+    "description": "Famous for its wooden architecture, Kuld\u012bga's Old Town is a picturesque area with quaint streets and unique shops. It's a hidden gem for those seeking authenticity.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ventspils Beach",
+    "city": "Ventspils",
+    "type": "nature",
+    "description": "Known for its clean sands and family-friendly atmosphere, Ventspils Beach is ideal for swimming and sunbathing. The nearby promenade features cafes and recreational activities.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Lauku S\u0113ta",
+    "city": "P\u0101vilosta",
+    "type": "entertainment",
+    "description": "A unique open-air museum showcasing traditional Latvian rural life. Visitors can engage in workshops, enjoy folk performances, and explore historical farmhouses.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Great \u0136emeri Bog",
+    "city": "\u0136emeri",
+    "type": "nature",
+    "description": "A stunning natural reserve, the Great \u0136emeri Bog offers boardwalk trails through unique ecosystems. It\u2019s a tranquil spot for birdwatching and enjoying nature.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riga Motor Museum",
+    "city": "Riga",
+    "type": "entertainment",
+    "description": "This museum houses an impressive collection of vintage cars and motorcycles, showcasing automotive history in Latvia. It's a fun and educational experience for all ages.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jelgava Palace",
+    "city": "Jelgava",
+    "type": "landmark",
+    "description": "Once the summer residence of the Duke of Courland, Jelgava Palace features stunning architecture and beautiful gardens, making it a lovely spot for a leisurely stroll.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Baldone",
+    "city": "Baldone",
+    "type": "nature",
+    "description": "This small town is famous for its mineral springs and wellness retreats. It\u2019s a perfect destination for relaxation and rejuvenation amid nature.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riga's Ethnographic Open-Air Museum",
+    "city": "Riga",
+    "type": "culture",
+    "description": "This expansive museum showcases traditional Latvian rural life through historical buildings and exhibits. It's an engaging place to learn about Latvia's heritage.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Koknese Park",
+    "city": "Koknese",
+    "type": "nature",
+    "description": "This beautiful park surrounds the ruins of Koknese Castle and offers walking paths, picnic areas, and stunning views of the Daugava River.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "L\u012bgatne Nature Trails",
+    "city": "L\u012bgatne",
+    "type": "nature",
+    "description": "These trails offer an immersive experience in Latvia's diverse flora and fauna. Visitors can spot wildlife while enjoying scenic walks in a tranquil environment.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Bauska Regional Museum",
+    "city": "Bauska",
+    "type": "culture",
+    "description": "The museum showcases the history and culture of the Bauska region, featuring exhibitions on local traditions and artifacts. It's a fascinating stop for history buffs.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Riga Canal",
+    "city": "Riga",
+    "type": "entertainment",
+    "description": "A picturesque waterway that runs through the city, the Riga Canal is perfect for leisurely boat rides and scenic walks along its banks.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cranberry Marsh",
+    "city": "Talsi",
+    "type": "nature",
+    "description": "A unique natural site where visitors can explore cranberry harvesting during the season. It's a hidden gem for those interested in local produce and nature.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "P\u0101vilosta",
+    "city": "P\u0101vilosta",
+    "type": "nature",
+    "description": "A quaint seaside town known for its laid-back atmosphere, P\u0101vilosta offers beautiful beaches and opportunities for water sports, such as kayaking and windsurfing.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuld\u012bga's Rumba Waterfall",
+    "city": "Kuld\u012bga",
+    "type": "nature",
+    "description": "A hidden gem, this waterfall is the widest in Europe and provides a stunning natural backdrop for photography and nature walks.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Museum of the Occupation of Latvia",
+    "city": "Riga",
+    "type": "culture",
+    "description": "This museum offers an insightful look into Latvia's history during the Soviet and Nazi occupations, providing a deep understanding of the nation's struggles.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ventspils Castle",
+    "city": "Ventspils",
+    "type": "landmark",
+    "description": "This well-preserved medieval castle now houses a museum showcasing the history of Ventspils. Its picturesque surroundings make it a lovely visit.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Jaunpils Castle",
+    "city": "Jaunpils",
+    "type": "landmark",
+    "description": "A romantic castle surrounded by picturesque landscapes, Jaunpils Castle offers guided tours and hosts various cultural events throughout the year.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuld\u012bga Town Hall",
+    "city": "Kuld\u012bga",
+    "type": "landmark",
+    "description": "An architectural highlight of Kuld\u012bga, the Town Hall is a charming building that reflects the town's rich history and cultural significance.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Latvian National Museum of Art",
+    "city": "Riga",
+    "type": "culture",
+    "description": "This museum houses an extensive collection of Latvian art from the 18th century to contemporary works. It's a must-visit for art lovers.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Gr\u012bzi\u0146kalns Park",
+    "city": "Riga",
+    "type": "nature",
+    "description": "A peaceful urban park in Riga, Gr\u012bzi\u0146kalns is an ideal spot for a leisurely walk or picnic, surrounded by greenery and natural beauty.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Skrunda-1",
+    "city": "Skrunda",
+    "type": "landmark",
+    "description": "An abandoned Soviet-era military town, Skrunda-1 is a fascinating site for urban explorers. Guided tours reveal its intriguing history and architecture.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "C\u0113sis Art Museum",
+    "city": "C\u0113sis",
+    "type": "culture",
+    "description": "Housed in a historic building, this museum features contemporary art exhibitions and cultural events, making it a vibrant part of the C\u0113sis cultural scene.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Nida",
+    "city": "Nida",
+    "type": "nature",
+    "description": "Located on the Curonian Spit, Nida is known for its stunning dunes and serene beaches. It's a perfect getaway for nature lovers and offers a tranquil atmosphere.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "P\u0113rkons, Daugava",
+    "city": "Riga",
+    "type": "landmark",
+    "description": "An impressive monument dedicated to the Daugava River, this site features artistic representations and offers a beautiful view of the river and surrounding area.",
+    "country": "Latvia",
+    "country_rank": 7
+  },
+  {
+    "name": "Talsi",
+    "city": "Talsi",
+    "type": "culture",
+    "description": "A charming town known for its beautiful lakes and hills, Talsi is perfect for outdoor activities and exploring local culture and history.",
+    "country": "Latvia",
+    "country_rank": 7
+  }
+]

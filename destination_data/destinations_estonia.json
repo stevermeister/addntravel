@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Tallinn Old Town",
+    "city": "Tallinn",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, Tallinn Old Town features cobblestone streets, medieval architecture, and vibrant squares. It's a blend of Gothic and Baroque styles that tells the story of the city's rich history.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Lahemaa National Park",
+    "city": "Viru-Nigula",
+    "type": "nature",
+    "description": "Estonia's largest national park, Lahemaa is known for its stunning coastal landscapes, diverse ecosystems, and historic manors. It offers excellent hiking trails and opportunities for wildlife spotting.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Parnu Beach",
+    "city": "Parnu",
+    "type": "nature",
+    "description": "Known as Estonia's summer capital, Parnu Beach is famous for its soft white sand and shallow waters, making it perfect for families. The beach is lined with cafes and activities, creating a lively atmosphere.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kumu Art Museum",
+    "city": "Tallinn",
+    "type": "culture",
+    "description": "The largest and most modern art museum in Estonia, Kumu hosts a vast collection of Estonian art from the 18th century to contemporary works. Its striking architecture blends seamlessly with the surrounding landscape.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Saaremaa Island",
+    "city": "Kuressaare",
+    "type": "nature",
+    "description": "Saaremaa Island is known for its tranquil landscapes, windmills, and unique geological formations. It's a perfect getaway for those looking to explore nature and enjoy local culture.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tallinn TV Tower",
+    "city": "Tallinn",
+    "type": "landmark",
+    "description": "Standing at 314 meters, the Tallinn TV Tower offers breathtaking panoramic views of the city and surrounding areas. Visitors can enjoy an interactive exhibition about the tower's history and significance.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tartu University Botanical Gardens",
+    "city": "Tartu",
+    "type": "nature",
+    "description": "These beautiful gardens showcase a diverse collection of plant species from around the world. It's a peaceful spot for a leisurely stroll and to learn about botanical conservation.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Narva Castle",
+    "city": "Narva",
+    "type": "landmark",
+    "description": "A stunning medieval fortress located on the banks of the Narva River, this castle offers insights into the region's history and architecture. The view from the tower overlooks the border with Russia.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Osmussaar Island",
+    "city": "Kihnu",
+    "type": "nature",
+    "description": "A hidden gem, Osmussaar Island is known for its pristine nature and diverse birdlife. It's a great destination for nature enthusiasts and those seeking solitude.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Soomaa National Park",
+    "city": "Tori",
+    "type": "nature",
+    "description": "Famous for its unique flooding bogs, Soomaa National Park offers visitors a chance to explore its serene waterways and diverse flora and fauna. Canoeing and hiking are popular activities here.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kihnu Island",
+    "city": "Kihnu",
+    "type": "culture",
+    "description": "This small island is known for its unique culture, traditional customs, and vibrant folk music. Visitors can experience the local way of life and the famous Kihnu women who are known for their distinctive dress.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Patarei Sea Fortress",
+    "city": "Tallinn",
+    "type": "landmark",
+    "description": "An imposing structure along the Tallinn coastline, Patarei was originally built as a sea fortress and later used as a prison. It now serves as a museum highlighting Estonia's complex history.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Rocca al Mare Open Air Museum",
+    "city": "Tallinn",
+    "type": "culture",
+    "description": "This open-air museum showcases traditional Estonian rural architecture and lifestyle through reconstructed buildings and exhibits. It's a fascinating place to learn about Estonia's cultural heritage.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Viru Bog",
+    "city": "Lahemaa",
+    "type": "nature",
+    "description": "A unique ecosystem, Viru Bog features wooden walkways that allow visitors to explore its beautiful and diverse landscapes. Birdwatching and photography are especially popular here.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kadriorg Palace",
+    "city": "Tallinn",
+    "type": "landmark",
+    "description": "Built by Peter the Great for his wife Catherine, Kadriorg Palace is a stunning example of Baroque architecture. The surrounding park offers beautiful gardens and a serene atmosphere.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Piusa Caves",
+    "city": "Piusa",
+    "type": "landmark",
+    "description": "These unique caves are formed from sand mining and are home to several species of bats. Visitors can explore the caves and learn about their geological significance.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Viljandi Castle",
+    "city": "Viljandi",
+    "type": "landmark",
+    "description": "A picturesque ruin overlooking Lake Viljandi, this medieval castle is a reminder of Estonia's historical past. The area is popular for summer concerts and festivals.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Aegna Island",
+    "city": "Tallinn",
+    "type": "nature",
+    "description": "Just a short ferry ride from Tallinn, Aegna Island offers sandy beaches, hiking trails, and a rich history with remnants of military fortifications. It's a perfect day-trip destination.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kihnu Lighthouse",
+    "city": "Kihnu",
+    "type": "landmark",
+    "description": "An iconic symbol of Kihnu, this lighthouse offers stunning views of the surrounding waters. It's a popular spot for photography and to enjoy the island's natural beauty.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Sillam\u00e4e",
+    "city": "Sillam\u00e4e",
+    "type": "culture",
+    "description": "This small town is known for its unique architecture from the Soviet era, with colorful buildings and a scenic waterfront. It's a fascinating place to explore Estonia's Soviet history.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "P\u00fchtitsa Convent",
+    "city": "Kudina",
+    "type": "culture",
+    "description": "A serene Orthodox convent, P\u00fchtitsa is a spiritual haven known for its beautiful architecture and peaceful surroundings. Visitors can explore the grounds and learn about its religious significance.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Estonian Open Air Museum",
+    "city": "Tallinn",
+    "type": "culture",
+    "description": "This expansive museum showcases traditional Estonian rural life through authentic farmsteads, windmills, and other structures. It offers a glimpse into the country's heritage and customs.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "K\u00e4rdla",
+    "city": "Hiiumaa",
+    "type": "nature",
+    "description": "The capital of Hiiumaa Island, K\u00e4rdla is known for its beautiful nature, sandy beaches, and relaxed atmosphere. It's a great base for exploring the island's unique landscapes.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "J\u00e4gala Waterfall",
+    "city": "J\u00f5el\u00e4htme",
+    "type": "nature",
+    "description": "Estonia's highest waterfall, J\u00e4gala Waterfall is a stunning natural site, especially during spring thaw when the water cascades dramatically. It's a popular spot for photography and picnics.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Elistvere Animal Park",
+    "city": "Elistvere",
+    "type": "entertainment",
+    "description": "This wildlife park is home to native Estonian animals, offering visitors a chance to see them in their natural habitats. It's a great spot for families and nature lovers.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Puurmani Castle",
+    "city": "Puurmani",
+    "type": "landmark",
+    "description": "This charming castle features beautiful architecture and a picturesque park. It's a lesser-known gem that's perfect for a quiet visit away from the crowds.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vihula Manor",
+    "city": "Vihula",
+    "type": "culture",
+    "description": "A beautifully restored manor house, Vihula offers insight into Estonia's noble history and picturesque grounds. The estate also hosts a spa and various cultural events throughout the year.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "K\u00e4smu Village",
+    "city": "Viru-Nigula",
+    "type": "culture",
+    "description": "Known as the 'Captain's Village', K\u00e4smu is steeped in maritime history and offers charming wooden houses and a scenic harbor. It's a perfect spot for a relaxing coastal getaway.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Mihkli Farm Museum",
+    "city": "Saaremaa",
+    "type": "culture",
+    "description": "This open-air museum provides a glimpse into traditional Estonian rural life with its preserved farm buildings and exhibitions. Visitors can learn about the local agricultural heritage.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kunda",
+    "city": "Kunda",
+    "type": "culture",
+    "description": "A small town known for its rich industrial history, Kunda has several historical sites and a picturesque riverside. It's an interesting stop for those exploring Estonia's industrial heritage.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vana-Vigala",
+    "city": "Vana-Vigala",
+    "type": "nature",
+    "description": "A quaint village that offers beautiful landscapes and tranquil surroundings, perfect for hiking and enjoying Estonia's nature away from the bustle of larger towns.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Valaste Waterfall",
+    "city": "Kohtla-J\u00e4rve",
+    "type": "nature",
+    "description": "The highest waterfall in Estonia, Valaste cascades down a stunning cliff and is particularly impressive during spring. It's a great spot for nature lovers and photographers.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tuhala Witch's Well",
+    "city": "Tuhala",
+    "type": "landmark",
+    "description": "A unique natural phenomenon, the Witch's Well is known for its mysterious bubbling waters that appear during heavy rains. It's steeped in local folklore and attracts curious visitors.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Paldiski",
+    "city": "Paldiski",
+    "type": "culture",
+    "description": "Once a military town, Paldiski offers a glimpse into Estonia's Soviet past with its abandoned buildings and rugged coastline. The area is perfect for exploration and has stunning sea views.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Toila-Oru Park",
+    "city": "Toila",
+    "type": "nature",
+    "description": "A beautifully landscaped park that offers a mix of gardens, ponds, and coastal views. It's a peaceful place for a picnic or a leisurely walk along the trails.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kunda Nordic Towing",
+    "city": "Kunda",
+    "type": "entertainment",
+    "description": "An adventure park that offers various outdoor activities including zip-lining and climbing. It's a great place for families and thrill-seekers looking for fun experiences.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Vihula River",
+    "city": "Vihula",
+    "type": "nature",
+    "description": "A serene river that flows through lush landscapes, perfect for kayaking and wildlife spotting. The river is surrounded by picturesque scenery, making it ideal for a peaceful retreat.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Kalev Spa Hotel & Waterpark",
+    "city": "Tallinn",
+    "type": "entertainment",
+    "description": "A popular destination for families and relaxation, this hotel features a large waterpark, spa facilities, and wellness treatments. It's an excellent place to unwind after exploring the city.",
+    "country": "Estonia",
+    "country_rank": 6
+  },
+  {
+    "name": "Tammiku Nature Reserve",
+    "city": "Tammiku",
+    "type": "nature",
+    "description": "A hidden nature reserve known for its rich biodiversity and tranquil landscapes. Its well-maintained trails provide opportunities for hiking and birdwatching.",
+    "country": "Estonia",
+    "country_rank": 6
+  }
+]

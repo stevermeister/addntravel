@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Santa Claus Village",
+    "city": "Rovaniemi",
+    "type": "entertainment",
+    "description": "A magical destination where visitors can meet Santa Claus year-round. It's a festive village filled with shops, restaurants, and winter activities.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Northern Lights",
+    "city": "Various locations",
+    "type": "nature",
+    "description": "Witness the breathtaking Aurora Borealis in the Finnish Lapland, particularly around Rovaniemi and Inari. The vibrant colors of the lights dancing across the sky create a mesmerizing experience.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Suomenlinna Fortress",
+    "city": "Helsinki",
+    "type": "landmark",
+    "description": "A UNESCO World Heritage Site, this sea fortress spans several islands and offers rich history, stunning views, and beautiful parks. It's a great place for a picnic and exploring the past.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kemi SnowCastle",
+    "city": "Kemi",
+    "type": "entertainment",
+    "description": "This unique attraction is built entirely from snow and ice each winter. It features impressive sculptures, an ice hotel, and a restaurant, making it a winter wonderland for visitors.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Oulanka National Park",
+    "city": "Kuusamo",
+    "type": "nature",
+    "description": "Known for its stunning landscapes, Oulanka National Park offers hiking trails alongside rivers, rapids, and lush forests. The park is also home to diverse wildlife and the famous Karhunkierros trail.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Helsinki Cathedral",
+    "city": "Helsinki",
+    "type": "landmark",
+    "description": "An iconic symbol of the city, this neoclassical cathedral is known for its striking white exterior and green dome. It\u2019s a must-visit for its architectural beauty and panoramic views from the steps.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Aland Islands",
+    "city": "Mariehamn",
+    "type": "nature",
+    "description": "A unique archipelago located between Finland and Sweden, the Aland Islands offer beautiful landscapes, cycling routes, and quaint villages. It's a peaceful getaway with rich maritime history.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Rovaniemi Arctic Circle",
+    "city": "Rovaniemi",
+    "type": "landmark",
+    "description": "Cross the Arctic Circle and experience the magic of the North. This spot features a monument, visitor center, and activities like husky sledding and reindeer tours.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Porvoo Old Town",
+    "city": "Porvoo",
+    "type": "culture",
+    "description": "One of the oldest towns in Finland, Porvoo boasts charming cobblestone streets, colorful wooden houses, and a picturesque riverside. It's perfect for a day of exploring cafes, boutiques, and historical sites.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Lapland Hotels SnowVillage",
+    "city": "Kittil\u00e4",
+    "type": "entertainment",
+    "description": "A stunning creation made entirely of snow and ice, this hotel features unique ice sculptures, a bar, and a chapel. Guests can stay overnight or explore during the day.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Nuuksio National Park",
+    "city": "Espoo",
+    "type": "nature",
+    "description": "Just a short drive from Helsinki, Nuuksio offers serene forests, crystal-clear lakes, and numerous trails for hiking and camping. It's a perfect escape for nature lovers.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Seurasaari Open-Air Museum",
+    "city": "Helsinki",
+    "type": "culture",
+    "description": "This museum showcases traditional Finnish life with well-preserved wooden buildings from different eras. Visitors can wander through the island and learn about Finland's rural heritage.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Salla Reindeer Park",
+    "city": "Salla",
+    "type": "entertainment",
+    "description": "Experience the charm of traditional Finnish reindeer herding. Visitors can meet and feed reindeer, go on sleigh rides, and learn about the Sami culture.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Isle of Seili",
+    "city": "Turku Archipelago",
+    "type": "hidden gem",
+    "description": "Once a leper colony, this serene island offers a haunting yet beautiful landscape with historical remnants and hiking trails. It's an off-the-beaten-path destination for those seeking solitude.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Lofoten Islands",
+    "city": "Helsinki (gateway)",
+    "type": "nature",
+    "description": "Though technically part of Norway, these islands are often accessed from Finland. Known for dramatic mountains and fjords, they offer breathtaking views and outdoor adventures like hiking and kayaking.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Koli National Park",
+    "city": "Lieksa",
+    "type": "nature",
+    "description": "Famous for its stunning hilltop views over Lake Pielinen, Koli is a paradise for hikers and nature enthusiasts. The park features diverse flora and fauna, along with historical significance.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Ruka Ski Resort",
+    "city": "Ruka",
+    "type": "entertainment",
+    "description": "One of Finland's most popular ski destinations, Ruka offers excellent slopes, snowboarding, and a vibrant apr\u00e8s-ski scene. It's perfect for winter sports lovers and families.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Ainola Museum",
+    "city": "J\u00e4rvenp\u00e4\u00e4",
+    "type": "culture",
+    "description": "The former home of composer Jean Sibelius, Ainola is now a museum dedicated to his life and work. Visitors can explore the beautiful gardens and learn about Finland's musical heritage.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Mustio Manor",
+    "city": "Inkoo",
+    "type": "hidden gem",
+    "description": "This 18th-century manor is surrounded by stunning gardens and a park. It's a peaceful retreat, offering guided tours and a glimpse into Finland's aristocratic history.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kangaskoski Rapids",
+    "city": "Ruokolahti",
+    "type": "nature",
+    "description": "A beautiful natural site featuring scenic rapids and lush surroundings. It's a great spot for fishing, picnicking, and enjoying the tranquility of nature.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Punkaharju Ridge",
+    "city": "Punkaharju",
+    "type": "nature",
+    "description": "Known for its stunning views and unique ridge landscape, Punkaharju is perfect for hiking and cycling. The area is rich in cultural history and offers plenty of recreational activities.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Sibelius Monument",
+    "city": "Helsinki",
+    "type": "landmark",
+    "description": "A striking abstract sculpture dedicated to composer Jean Sibelius, the monument is located in a beautiful park. It's a popular spot for photos and enjoying the surrounding nature.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Lake Saimaa",
+    "city": "Various locations",
+    "type": "nature",
+    "description": "Finland's largest lake, Saimaa is known for its crystal-clear waters and numerous islands. It's ideal for boating, fishing, and exploring the beautiful Finnish countryside.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Oulu Market Square",
+    "city": "Oulu",
+    "type": "entertainment",
+    "description": "A vibrant hub of local life, the market square is filled with stalls selling fresh produce, crafts, and local delicacies. It's a great place to experience Finnish culture and cuisine.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Aulanko Nature Reserve",
+    "city": "H\u00e4meenlinna",
+    "type": "nature",
+    "description": "Famed for its scenic views and diverse ecosystems, Aulanko offers hiking trails, birdwatching, and a lovely park. The lookout tower provides panoramic views of the surrounding landscape.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Ruins of the Church of St. Henry",
+    "city": "Kemi\u00f6nsaari",
+    "type": "landmark",
+    "description": "The remnants of an ancient church, this site provides insight into Finland's medieval history. It's a peaceful spot surrounded by nature, perfect for reflection.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kemi City Theatre",
+    "city": "Kemi",
+    "type": "entertainment",
+    "description": "A center for cultural activities, this theatre hosts various performances, including plays and concerts. It's a vibrant part of Kemi's cultural scene.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Linnanm\u00e4ki Amusement Park",
+    "city": "Helsinki",
+    "type": "entertainment",
+    "description": "A popular amusement park offering thrilling rides, games, and entertainment for all ages. The park also features beautiful gardens and a view of the city.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Merikannontie Street Art",
+    "city": "Helsinki",
+    "type": "culture",
+    "description": "This street is an open-air gallery showcasing vibrant murals and street art by local and international artists. It's a unique area that embodies Helsinki's creative spirit.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Salla Ski Resort",
+    "city": "Salla",
+    "type": "entertainment",
+    "description": "A lesser-known ski resort that offers a more tranquil experience compared to larger resorts. It features excellent slopes, cross-country skiing trails, and beautiful natural surroundings.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Olavinlinna Castle",
+    "city": "Savonlinna",
+    "type": "landmark",
+    "description": "A medieval castle built on an island, Olavinlinna is one of the best-preserved castles in Finland. It hosts the annual Savonlinna Opera Festival, attracting visitors from around the world.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "H\u00e4meenlinna Fortress",
+    "city": "H\u00e4meenlinna",
+    "type": "landmark",
+    "description": "This historic fortress offers a glimpse into Finland's military past. Visitors can explore the grounds, museums, and enjoy events held throughout the year.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Sein\u00e4joki City Theatre",
+    "city": "Sein\u00e4joki",
+    "type": "entertainment",
+    "description": "Known for its modern architecture and vibrant cultural scene, this theatre hosts a variety of performances and events. It's a key part of Sein\u00e4joki's artistic community.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Ruokolahti Church",
+    "city": "Ruokolahti",
+    "type": "landmark",
+    "description": "A beautiful wooden church surrounded by serene nature, known for its picturesque setting and historic significance. It's a peaceful place for reflection and exploration.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kuhmo Chamber Music Festival",
+    "city": "Kuhmo",
+    "type": "culture",
+    "description": "An annual festival that attracts world-class musicians and music lovers. Set in the stunning countryside, it offers a unique blend of classical music and nature.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Mikkeli Market Square",
+    "city": "Mikkeli",
+    "type": "entertainment",
+    "description": "A lively market square where locals gather to sell fresh produce, crafts, and food. It's a great place to immerse yourself in local culture and enjoy Finnish delicacies.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kemi\u00f6nsaari Archipelago",
+    "city": "Kemi\u00f6nsaari",
+    "type": "nature",
+    "description": "This beautiful archipelago offers stunning coastal landscapes, perfect for hiking, cycling, and exploring charming villages. It's an ideal destination for nature enthusiasts.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Helsinki Zoo",
+    "city": "Helsinki",
+    "type": "entertainment",
+    "description": "Located on Korkeasaari Island, this zoo is home to a variety of animals from around the world. It's a great family-friendly destination with beautiful views of the city.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kemi City Museum",
+    "city": "Kemi",
+    "type": "culture",
+    "description": "A museum showcasing the history and culture of Kemi and its surroundings. It features exhibitions on local history, art, and industry.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "L\u00f6yly Sauna",
+    "city": "Helsinki",
+    "type": "entertainment",
+    "description": "A modern public sauna located by the sea, L\u00f6yly offers a unique sauna experience with stunning views. It's a perfect place to relax and enjoy traditional Finnish culture.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Kauppatori Market Square",
+    "city": "Helsinki",
+    "type": "entertainment",
+    "description": "A bustling market square by the harbor, where visitors can find fresh produce, local crafts, and delicious Finnish food. It's a great spot for people-watching and enjoying the atmosphere.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Pori Jazz Festival",
+    "city": "Pori",
+    "type": "culture",
+    "description": "One of the most renowned jazz festivals in Europe, it attracts top international artists and music lovers every summer. The festival offers a lively atmosphere with various performances.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Repovesi National Park",
+    "city": "Lapinj\u00e4rvi",
+    "type": "nature",
+    "description": "Known for its rugged terrain, forests, and clear lakes, Repovesi is perfect for hiking, canoeing, and wildlife watching. The park features stunning views and diverse ecosystems.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Vasa Museum",
+    "city": "Helsinki",
+    "type": "culture",
+    "description": "Home to the famous Vasa ship, this museum showcases maritime history and the story of the ill-fated warship that sank on its maiden voyage. The impressive ship is a must-see.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Fj\u00e4llbacka",
+    "city": "Helsinki (gateway)",
+    "type": "hidden gem",
+    "description": "Though primarily in Sweden, this picturesque coastal town is a popular stop for those exploring the region. Its stunning archipelago, charming cafes, and hiking trails make it a hidden gem.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Koli Nature Centre Ukko",
+    "city": "Lieksa",
+    "type": "nature",
+    "description": "An information center for Koli National Park, offering exhibits about the area\u2019s nature and history. It serves as a great starting point for hiking and exploring the park.",
+    "country": "Finland",
+    "country_rank": 7
+  },
+  {
+    "name": "Oulu Cathedral",
+    "city": "Oulu",
+    "type": "landmark",
+    "description": "A beautiful neoclassical cathedral that serves as a prominent symbol of the city. Visitors can explore its stunning architecture and historical significance.",
+    "country": "Finland",
+    "country_rank": 7
+  }
+]

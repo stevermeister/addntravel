@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Kim Il-sung Square",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "A grand public square that serves as a central location for parades and national celebrations. It is surrounded by important governmental buildings and offers a glimpse into the country's history.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Mansudae Grand Monument",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "Featuring colossal statues of Kim Il-sung and Kim Jong-il, this monument is a significant site for both locals and tourists. Visitors often pay their respects here and participate in the cultural practices surrounding the site.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Kumsusan Palace of the Sun",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "The mausoleum of Kim Il-sung and Kim Jong-il, this palace is an architectural marvel. Visitors can view the preserved bodies of the leaders, which are displayed in a ceremonial manner.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Arch of Triumph",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "Built to commemorate the Korean War, this arch is the largest of its kind in the world. It stands as a symbol of national pride and offers stunning views of the surrounding area.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Mount Myohyang",
+    "city": "Myohyang",
+    "type": "nature",
+    "description": "Known for its stunning natural beauty and rich biodiversity, this mountain is also home to the International Friendship Exhibition. The serene environment makes it a perfect spot for hiking.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Kaesong Koryo Museum",
+    "city": "Kaesong",
+    "type": "culture",
+    "description": "Housed in a former Confucian school, this museum showcases artifacts from the Koryo Dynasty. It provides insight into Korea's history and cultural heritage.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Myeonggan Pavilion",
+    "city": "Wonsan",
+    "type": "landmark",
+    "description": "This picturesque pavilion is situated by the sea and is a tranquil spot to enjoy the coastal scenery. It offers a mix of natural beauty and cultural significance.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Sariwon Folk Village",
+    "city": "Sariwon",
+    "type": "culture",
+    "description": "A reconstructed traditional Korean village that showcases the lifestyle and customs of the Korean people. Visitors can explore traditional homes and participate in local crafts.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Pyongyang Metro",
+    "city": "Pyongyang",
+    "type": "entertainment",
+    "description": "One of the deepest metro systems in the world, the Pyongyang Metro is known for its ornate stations and unique atmosphere. Riding the metro offers a glimpse into daily life in the capital.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Nampo Water Park",
+    "city": "Nampo",
+    "type": "entertainment",
+    "description": "A popular recreational area featuring water slides and pools, this park is a unique way to experience leisure in North Korea. It's a favorite spot for families during the summer.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Korean War Museum",
+    "city": "Pyongyang",
+    "type": "culture",
+    "description": "This museum offers an extensive look at the Korean War from the North Korean perspective. It displays military artifacts, historical documents, and a variety of exhibits.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Juche Tower",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "Standing at 170 meters, this tower symbolizes the Juche ideology. Visitors can ascend the tower for panoramic views of the city and learn about its significance.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Mangyongdae Native House",
+    "city": "Pyongyang",
+    "type": "culture",
+    "description": "The birthplace of Kim Il-sung, this site is preserved as a museum. It offers a glimpse into the early life of the country's founder and the historical context of the time.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Wonsan Beach",
+    "city": "Wonsan",
+    "type": "nature",
+    "description": "A beautiful sandy beach on the east coast of North Korea, Wonsan Beach is ideal for relaxation and enjoying the sea. The area is less frequented by tourists, providing a peaceful escape.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "DPRK Art Studio",
+    "city": "Pyongyang",
+    "type": "culture",
+    "description": "This studio showcases the work of North Korean artists and provides insight into the country's artistic expressions. Visitors can observe artists at work and purchase unique pieces.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Mount Kumgang",
+    "city": "Kumgang",
+    "type": "nature",
+    "description": "Known for its breathtaking views and hiking trails, Mount Kumgang is a scenic region that attracts nature lovers. The area is rich with folklore and historical significance.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Koryo Hotel",
+    "city": "Pyongyang",
+    "type": "entertainment",
+    "description": "One of the most famous hotels in North Korea, it features unique architecture and offers various amenities. Guests can enjoy stunning views of the city from their rooms.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Kim Jong-suk Memorial House",
+    "city": "Pyongyang",
+    "type": "culture",
+    "description": "The memorial dedicated to the mother of Kim Jong-il, this site highlights her contributions to the revolution. It is a place of reflection for many North Koreans.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Baekdusan Mountain",
+    "city": "Ryanggang",
+    "type": "nature",
+    "description": "Considered sacred in Korean culture, Baekdusan is the highest peak on the Korean Peninsula. It features stunning landscapes, including a crater lake and diverse flora.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Chollima Statue",
+    "city": "Pyongyang",
+    "type": "landmark",
+    "description": "This statue symbolizes the Chollima movement, which aimed to promote rapid economic development. It is an important cultural icon and is often featured in national events.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Pijong Pavilion",
+    "city": "Wonsan",
+    "type": "landmark",
+    "description": "A historical pavilion that offers beautiful views of the surrounding area, it is a serene spot for reflection and appreciation of nature.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Tomb of King Dongmyeong",
+    "city": "Kaesong",
+    "type": "landmark",
+    "description": "The burial site of the founder of the Goguryeo Kingdom, this tomb offers insight into ancient Korean history and is surrounded by beautiful landscapes.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Ryanggang Province Hot Springs",
+    "city": "Ryanggang",
+    "type": "nature",
+    "description": "A lesser-known gem, these hot springs provide a relaxing experience amidst stunning natural surroundings. The area is tranquil and perfect for rejuvenation.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Chonji Lake",
+    "city": "Baekdu",
+    "type": "nature",
+    "description": "A picturesque lake located at the foot of Mount Baekdu, known for its clear waters and stunning scenery. It is a popular spot for picnics and leisure activities.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Korean Revolution Museum",
+    "city": "Pyongyang",
+    "type": "culture",
+    "description": "This museum details the history of the Korean revolution and the country's leaders. It is an educational experience that highlights North Korea's narrative of its past.",
+    "country": "North Korea",
+    "country_rank": 3
+  },
+  {
+    "name": "Kumsusan Palace of the Sun Gardens",
+    "city": "Pyongyang",
+    "type": "nature",
+    "description": "These beautifully landscaped gardens surrounding the mausoleum of Kim Il-sung are a peaceful retreat. They feature a variety of trees, flowers, and sculptures, ideal for leisurely walks.",
+    "country": "North Korea",
+    "country_rank": 3
+  }
+]

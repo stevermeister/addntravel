@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Tayrona National Natural Park",
+    "city": "Santa Marta",
+    "type": "nature",
+    "description": "A stunning coastal park featuring beautiful beaches, lush tropical forests, and rich biodiversity. Visitors can hike through scenic trails and discover ancient indigenous ruins.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cartagena's Old Town",
+    "city": "Cartagena",
+    "type": "culture",
+    "description": "A UNESCO World Heritage Site, this historic area is known for its colorful colonial architecture, vibrant streets, and rich history. The walls of the old city offer stunning views of the Caribbean.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Medell\u00edn's Comuna 13",
+    "city": "Medell\u00edn",
+    "type": "culture",
+    "description": "Once considered one of the most dangerous neighborhoods, Comuna 13 has transformed into a hub of creativity and street art. Visitors can explore its vibrant murals and learn about its social transformation.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "El Cocuy National Park",
+    "city": "El Cocuy",
+    "type": "nature",
+    "description": "Known for its breathtaking Andean landscapes, this park features snow-capped peaks and diverse ecosystems. It offers excellent trekking opportunities for adventurous travelers.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "San Basilio de Palenque",
+    "city": "C\u00f3rdoba",
+    "type": "culture",
+    "description": "Recognized as the first free town for enslaved Africans in the Americas, this village showcases Afro-Colombian culture, music, and traditions. It is a UNESCO Masterpiece of the Oral and Intangible Heritage of Humanity.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Lost City (Ciudad Perdida)",
+    "city": "Sierra Nevada",
+    "type": "landmark",
+    "description": "An ancient archaeological site predating Machu Picchu, the Lost City is accessible via a multi-day trek through the jungle. It offers a glimpse into the life of the Tayrona civilization.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Salento and the Cocora Valley",
+    "city": "Salento",
+    "type": "nature",
+    "description": "Famous for its towering wax palms, the Cocora Valley offers stunning landscapes and hiking trails. Salento's charming village atmosphere and coffee culture attract many visitors.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Walled City of Cartagena",
+    "city": "Cartagena",
+    "type": "landmark",
+    "description": "This historic walled city is a beautiful blend of colonial architecture and Caribbean charm. It's perfect for exploring cobblestone streets, vibrant plazas, and historic forts.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Guatap\u00e9 and El Pe\u00f1ol",
+    "city": "Guatap\u00e9",
+    "type": "entertainment",
+    "description": "Known for its colorful z\u00f3calos (decorative bas-reliefs) and the giant rock El Pe\u00f1ol, Guatap\u00e9 is a picturesque town where visitors can enjoy water activities and local cuisine.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Los Nevados National Natural Park",
+    "city": "Manizales",
+    "type": "nature",
+    "description": "This park features stunning volcanic landscapes, diverse wildlife, and high-altitude ecosystems. It's perfect for hiking, birdwatching, and experiencing Colombia's natural beauty.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Villa de Leyva",
+    "city": "Villa de Leyva",
+    "type": "culture",
+    "description": "A colonial town known for its well-preserved architecture and large cobblestone plaza. The surrounding desert landscape offers unique geological formations and historical sites.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Islas del Rosario",
+    "city": "Cartagena",
+    "type": "nature",
+    "description": "A stunning archipelago known for its crystal-clear waters, coral reefs, and rich marine life. It's a perfect getaway for snorkeling, diving, and relaxing on pristine beaches.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Choc\u00f3's Pacific Coast",
+    "city": "Choc\u00f3",
+    "type": "nature",
+    "description": "One of the rainiest places on earth, Choc\u00f3's coast is home to lush jungles and beautiful beaches. It's a unique destination for eco-tourism and experiencing Afro-Colombian culture.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cali's Salsa Clubs",
+    "city": "Cali",
+    "type": "entertainment",
+    "description": "Cali is known as the salsa capital of the world, offering vibrant nightlife with numerous salsa clubs. Visitors can take dance lessons and enjoy live music performances.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "La Guajira Desert",
+    "city": "La Guajira",
+    "type": "nature",
+    "description": "A remote desert region known for its stunning landscapes, including sand dunes, salt flats, and the unique Wayuu culture. It's perfect for adventurous travelers looking for off-the-beaten-path experiences.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Zipaquir\u00e1 Salt Cathedral",
+    "city": "Zipaquir\u00e1",
+    "type": "landmark",
+    "description": "An impressive underground church built within a salt mine, featuring stunning salt sculptures and religious artwork. It's a unique architectural marvel and a symbol of Colombia's mining heritage.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Amazon Rainforest",
+    "city": "Leticia",
+    "type": "nature",
+    "description": "The Colombian Amazon is a biodiverse paradise where visitors can explore the lush rainforest, encounter exotic wildlife, and learn about indigenous cultures. It's ideal for eco-tourism and adventure.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Catedral Bas\u00edlica Metropolitana",
+    "city": "Bogot\u00e1",
+    "type": "landmark",
+    "description": "Located in the heart of Bogot\u00e1's Plaza de Bol\u00edvar, this neo-Gothic cathedral is known for its stunning architecture and historical significance. Visitors can explore its beautiful interior and learn about its history.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Santuario de Las Lajas",
+    "city": "Ipiales",
+    "type": "landmark",
+    "description": "This breathtaking basilica is built over a canyon and is famous for its stunning Gothic architecture. It's a pilgrimage site that attracts visitors for both its beauty and spiritual significance.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Caf\u00e9 del Cielo",
+    "city": "Manizales",
+    "type": "culture",
+    "description": "A unique coffee farm offering immersive experiences in coffee production and sustainability. Visitors can learn about Colombia's coffee culture and enjoy breathtaking views of the Andean mountains.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Barranquilla Carnival",
+    "city": "Barranquilla",
+    "type": "entertainment",
+    "description": "One of Colombia's largest and most vibrant festivals, the Barranquilla Carnival features colorful parades, traditional music, and lively dance. It's a cultural celebration that showcases the country's rich heritage.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Pueblo Viejo",
+    "city": "Caldas",
+    "type": "culture",
+    "description": "A charming little town known for its traditional architecture and coffee culture. Visitors can enjoy picturesque views and learn about the coffee production process.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ca\u00f1on del Chicamocha",
+    "city": "San Gil",
+    "type": "nature",
+    "description": "A stunning canyon that offers breathtaking views and adventure activities like paragliding and river rafting. It's a hidden gem for nature lovers and thrill-seekers.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tatacoa Desert",
+    "city": "Huila",
+    "type": "nature",
+    "description": "A unique desert landscape featuring striking rock formations and a rich array of flora and fauna. It's a great spot for stargazing and photography.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "San Andr\u00e9s Island",
+    "city": "San Andr\u00e9s",
+    "type": "nature",
+    "description": "Known for its beautiful beaches and vibrant coral reefs, San Andr\u00e9s is a Caribbean paradise that offers snorkeling, diving, and relaxation. The island's culture is a mix of Colombian and Caribbean influences.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "The Gold Museum (Museo del Oro)",
+    "city": "Bogot\u00e1",
+    "type": "culture",
+    "description": "Home to an extensive collection of pre-Columbian gold artifacts, this museum offers insight into Colombia's rich indigenous history. It's a must-visit for anyone interested in the country's heritage.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "La Candelaria",
+    "city": "Bogot\u00e1",
+    "type": "culture",
+    "description": "The historic center of Bogot\u00e1, known for its colonial architecture, vibrant street art, and cultural institutions. It's a great place to explore museums, cafes, and local markets.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Valle de Cocora",
+    "city": "Salento",
+    "type": "nature",
+    "description": "Famous for its towering wax palm trees, Valle de Cocora offers stunning hiking trails and breathtaking views. It's an ideal spot for nature lovers and photographers.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Parque Arv\u00ed",
+    "city": "Medell\u00edn",
+    "type": "nature",
+    "description": "A large nature reserve located just outside Medell\u00edn, offering hiking trails, birdwatching, and stunning views of the surrounding mountains. It's a peaceful escape from the bustling city.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Los Llanos",
+    "city": "Meta",
+    "type": "nature",
+    "description": "A vast savanna region known for its diverse wildlife and unique ecosystems. It's a great destination for eco-tourism, birdwatching, and experiencing the culture of Colombia's cowboys.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Sierra Nevada de Santa Marta",
+    "city": "Santa Marta",
+    "type": "nature",
+    "description": "Home to Colombia's highest peaks, this mountain range is a biodiversity hotspot. It's perfect for hiking and exploring indigenous cultures.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Neiva's River Magdalena",
+    "city": "Neiva",
+    "type": "nature",
+    "description": "The longest river in Colombia, the Magdalena offers opportunities for boat trips and exploring the surrounding landscapes. It's a key part of the country's history and culture.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Ca\u00f1on del Sumapaz",
+    "city": "Sumapaz",
+    "type": "nature",
+    "description": "A lesser-known canyon with stunning views and opportunities for hiking and exploring nature. It's a hidden gem for those looking to escape the crowds.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Tierra Bomba Island",
+    "city": "Cartagena",
+    "type": "nature",
+    "description": "A tranquil island near Cartagena known for its pristine beaches and relaxed atmosphere. It's an ideal spot for a day trip to unwind and enjoy the Caribbean.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Cerro de Monserrate",
+    "city": "Bogot\u00e1",
+    "type": "landmark",
+    "description": "A mountain overlooking Bogot\u00e1, offering panoramic views of the city. Visitors can hike or take a cable car to the top, where a church and restaurant await.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Suesca Rocks",
+    "city": "Suesca",
+    "type": "nature",
+    "description": "A popular destination for rock climbing and outdoor enthusiasts. The stunning rock formations and beautiful scenery make it a great spot for adventure and nature lovers.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Laguna de Guatavita",
+    "city": "Guatavita",
+    "type": "nature",
+    "description": "A sacred lake with a rich history tied to the El Dorado legend. Visitors can hike around the lake and learn about its significance in indigenous culture.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Catedral de Sal",
+    "city": "Zipaquir\u00e1",
+    "type": "landmark",
+    "description": "An underground salt cathedral that showcases impressive sculptures and religious art. It's a unique and spiritual experience set within a functioning salt mine.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Parque Nacional Natural Tayrona",
+    "city": "Santa Marta",
+    "type": "nature",
+    "description": "A beautiful national park known for its beaches, tropical forests, and archaeological sites. It's a perfect spot for hiking, swimming, and experiencing Colombia's natural beauty.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "El Parque del Caf\u00e9",
+    "city": "Quindio",
+    "type": "entertainment",
+    "description": "A theme park that celebrates Colombia's coffee culture with rides, attractions, and coffee-related activities. It's a fun destination for families and coffee enthusiasts.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Pueblo de Guatap\u00e9",
+    "city": "Guatap\u00e9",
+    "type": "culture",
+    "description": "Famous for its colorful buildings and artistic z\u00f3calos, Guatap\u00e9 offers a unique cultural experience. Visitors can explore the town and enjoy stunning views from El Pe\u00f1ol.",
+    "country": "Colombia",
+    "country_rank": 7
+  },
+  {
+    "name": "Museo Botero",
+    "city": "Bogot\u00e1",
+    "type": "culture",
+    "description": "This museum features works by Colombian artist Fernando Botero and other renowned artists. It's a cultural highlight in Bogot\u00e1 and a must-visit for art lovers.",
+    "country": "Colombia",
+    "country_rank": 7
+  }
+]

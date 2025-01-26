@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Great Barrier Reef",
+    "city": "Cairns",
+    "type": "nature",
+    "description": "The world's largest coral reef system, the Great Barrier Reef offers stunning underwater biodiversity and is a UNESCO World Heritage site. Snorkeling and diving here reveal vibrant marine life.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Uluru",
+    "city": "Ayers Rock",
+    "type": "landmark",
+    "description": "A sacred site for Indigenous Australians, Uluru is a massive sandstone monolith in the heart of the Northern Territory. Its changing colors at sunrise and sunset create a breathtaking spectacle.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Sydney Opera House",
+    "city": "Sydney",
+    "type": "landmark",
+    "description": "An architectural marvel, the Sydney Opera House is famous for its unique sail-like design. It hosts a variety of performances and is a symbol of Australia.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Daintree Rainforest",
+    "city": "Daintree",
+    "type": "nature",
+    "description": "One of the oldest rainforests in the world, the Daintree is home to diverse flora and fauna. Visitors can take guided tours to learn about its rich ecosystem.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Bondi Beach",
+    "city": "Sydney",
+    "type": "entertainment",
+    "description": "A popular beach destination known for its golden sands and surf culture, Bondi Beach offers vibrant cafes and coastal walks. It's an iconic spot for both locals and tourists.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Blue Mountains",
+    "city": "Katoomba",
+    "type": "nature",
+    "description": "Famous for its dramatic scenery, the Blue Mountains feature steep cliffs, eucalyptus forests, and waterfalls. It's a perfect destination for hiking and breathtaking viewpoints.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Melbourne's laneways",
+    "city": "Melbourne",
+    "type": "culture",
+    "description": "The hidden laneways of Melbourne are filled with street art, unique cafes, and boutique shops. Exploring these narrow streets reveals the city's vibrant culture and artistic spirit.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Fraser Island",
+    "city": "Hervey Bay",
+    "type": "nature",
+    "description": "The world's largest sand island, Fraser Island is known for its stunning beaches, freshwater lakes, and unique wildlife. Visitors can explore its natural beauty via 4WD tours.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Great Ocean Road",
+    "city": "Torquay",
+    "type": "landmark",
+    "description": "This scenic coastal drive stretches over 240 kilometers and features stunning ocean views, cliffs, and the famous Twelve Apostles rock formations. It's a must-do for road trip enthusiasts.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Barossa Valley",
+    "city": "Tanunda",
+    "type": "culture",
+    "description": "Renowned for its wineries, Barossa Valley is a food and wine lover's paradise. Visitors can enjoy wine tastings, gourmet food, and picturesque vineyard landscapes.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Ningaloo Reef",
+    "city": "Exmouth",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Ningaloo Reef is famous for its incredible snorkeling and diving opportunities, including encounters with whale sharks and vibrant coral reefs.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Tasman National Park",
+    "city": "Port Arthur",
+    "type": "nature",
+    "description": "Home to dramatic coastlines and diverse wildlife, Tasman National Park offers stunning hiking trails and breathtaking views. It's ideal for nature lovers and adventure seekers.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Kangaroo Island",
+    "city": "Kingscote",
+    "type": "nature",
+    "description": "Known for its unique wildlife and natural beauty, Kangaroo Island is a haven for nature enthusiasts. Visitors can see sea lions, koalas, and stunning coastal landscapes.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Rottnest Island",
+    "city": "Fremantle",
+    "type": "nature",
+    "description": "A short ferry ride from Perth, Rottnest Island is famous for its quokkas, beautiful beaches, and crystal-clear waters. It's an ideal spot for cycling and relaxing by the beach.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Whitsundays",
+    "city": "Airlie Beach",
+    "type": "nature",
+    "description": "This stunning archipelago is known for its white sandy beaches and turquoise waters. Popular for sailing and snorkeling, the Whitsundays are a tropical paradise.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Cairns Esplanade",
+    "city": "Cairns",
+    "type": "entertainment",
+    "description": "The Cairns Esplanade is a vibrant waterfront area featuring parks, walking paths, and a lagoon. It's a hub for outdoor activities and local events throughout the year.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Port Arthur Historic Site",
+    "city": "Port Arthur",
+    "type": "culture",
+    "description": "A former penal colony, this historic site offers insights into Australia's convict past. Visitors can explore well-preserved buildings and learn about the history of the area.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Pinnacles Desert",
+    "city": "Nambung National Park",
+    "type": "nature",
+    "description": "Famous for its unique limestone formations, the Pinnacles Desert offers a surreal landscape that is best explored during sunrise or sunset for stunning photographic opportunities.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Margaret River",
+    "city": "Margaret River",
+    "type": "culture",
+    "description": "Known for its wineries and gourmet food scene, Margaret River is a popular destination for food and wine lovers. The region also boasts beautiful beaches and limestone caves.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Twelve Apostles",
+    "city": "Port Campbell",
+    "type": "landmark",
+    "description": "These iconic limestone stacks rise dramatically from the Southern Ocean, creating a breathtaking coastal landscape. The best views can be enjoyed at sunset.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Sapphire Beach",
+    "city": "Coffs Harbour",
+    "type": "nature",
+    "description": "A hidden gem on the New South Wales coast, Sapphire Beach offers a tranquil escape with pristine sands and clear waters, perfect for swimming and relaxing away from the crowds.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Katherine Gorge",
+    "city": "Katherine",
+    "type": "nature",
+    "description": "Part of Nitmiluk National Park, Katherine Gorge features stunning cliffs and beautiful river systems. Visitors can enjoy canoeing, hiking, and guided boat tours through the gorge.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Mungo National Park",
+    "city": "Mungo",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Mungo National Park is known for its ancient landscapes and Aboriginal heritage. The park features the famous Mungo Lady and Mungo Man archaeological sites.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Wineglass Bay",
+    "city": "Freycinet National Park",
+    "type": "nature",
+    "description": "Renowned for its stunning crescent shape and turquoise waters, Wineglass Bay is a popular hiking destination. The views from the lookout are simply breathtaking.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Hamelin Pool",
+    "city": "Shark Bay",
+    "type": "nature",
+    "description": "Famous for its stromatolites, Hamelin Pool is a unique marine environment that showcases ancient life forms. It's a fascinating spot for nature lovers and those interested in geology.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Kosciuszko",
+    "city": "Snowy Mountains",
+    "type": "nature",
+    "description": "As the highest peak in Australia, Mount Kosciuszko offers stunning views and hiking opportunities. The summit can be reached via a walking trail or chairlift.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Jervis Bay",
+    "city": "Huskisson",
+    "type": "nature",
+    "description": "Known for its white sand beaches and clear waters, Jervis Bay is a haven for marine life and water sports. It's a popular spot for dolphin watching and snorkelling.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Gold Coast",
+    "city": "Gold Coast",
+    "type": "entertainment",
+    "description": "Famous for its theme parks, beaches, and nightlife, the Gold Coast is a vibrant destination for tourists. It offers a mix of relaxation and adventure.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Grampians",
+    "city": "Halls Gap",
+    "type": "nature",
+    "description": "Known for its rugged mountains and stunning landscapes, the Grampians are great for hiking, rock climbing, and wildlife spotting. The area is also rich in Aboriginal culture.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Warning",
+    "city": "Murwillumbah",
+    "type": "nature",
+    "description": "An ancient volcano, Mount Warning offers panoramic views of the surrounding landscape. The challenging hike to the summit rewards adventurers with breathtaking vistas.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Wilpena Pound",
+    "city": "Flinders Ranges",
+    "type": "nature",
+    "description": "A natural amphitheater formed by mountains, Wilpena Pound offers stunning hiking trails and a chance to experience Australia's outback. It is a significant site for the local Indigenous people.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Lake Hillier",
+    "city": "Middle Island",
+    "type": "nature",
+    "description": "Famous for its vibrant pink color, Lake Hillier is a unique natural phenomenon. It is located on Middle Island and is best viewed from above.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Cobbold Gorge",
+    "city": "Forsayth",
+    "type": "nature",
+    "description": "A stunning gorge located in Far North Queensland, Cobbold Gorge features dramatic cliffs and a crystal-clear creek. Boat tours offer a unique perspective of this hidden gem.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Bungle Bungles",
+    "city": "Purnululu National Park",
+    "type": "nature",
+    "description": "Famous for their distinctive beehive-shaped formations, the Bungle Bungles are a striking sight in the Kimberley region. The park offers hiking trails and scenic helicopter flights.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Murray River",
+    "city": "Mildura",
+    "type": "nature",
+    "description": "Australia's longest river, the Murray River is perfect for houseboat holidays, fishing, and exploring its picturesque towns. The river's ecosystems support diverse wildlife.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Noosa National Park",
+    "city": "Noosa",
+    "type": "nature",
+    "description": "A coastal paradise, Noosa National Park offers stunning coastal trails, beautiful beaches, and opportunities to spot wildlife like koalas and dolphins.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Booderee National Park",
+    "city": "Jervis Bay",
+    "type": "nature",
+    "description": "Home to stunning beaches, lush forests, and Aboriginal heritage, Booderee National Park offers a range of outdoor activities, including hiking, swimming, and birdwatching.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Rocks",
+    "city": "Sydney",
+    "type": "culture",
+    "description": "A historic area in Sydney, The Rocks features cobblestone streets, markets, and museums. It's a great place to learn about the city's history and enjoy local food.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Twelve Apostles Marine National Park",
+    "city": "Port Campbell",
+    "type": "nature",
+    "description": "This marine park is home to diverse marine life and stunning coastal scenery. It offers opportunities for snorkeling, diving, and exploring the iconic rock formations.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Breathtaking Valley",
+    "city": "Blue Mountains",
+    "type": "nature",
+    "description": "Known for its dramatic cliffs and waterfalls, Breathtaking Valley offers hiking trails with stunning views. It's a perfect spot for outdoor enthusiasts.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Glenrowan",
+    "city": "Wangaratta",
+    "type": "culture",
+    "description": "Famous for its connection to the bushranger Ned Kelly, Glenrowan offers historical sites and reenactments. It's a must-visit for those interested in Australian folklore.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Lord Howe Island",
+    "city": "Lord Howe",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, Lord Howe Island is known for its stunning landscapes, crystal-clear waters, and unique wildlife. It's a paradise for nature lovers and hikers.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Cottesloe Beach",
+    "city": "Perth",
+    "type": "nature",
+    "description": "Cottesloe Beach is famous for its clear waters and vibrant sunsets. It's a popular spot for swimming, sunbathing, and beachside dining.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Tangalooma Island Resort",
+    "city": "Moreton Island",
+    "type": "entertainment",
+    "description": "This resort offers unique experiences like feeding wild dolphins, snorkeling, and sand tobogganing. It's an adventure lover's paradise just a ferry ride from Brisbane.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Kings Canyon",
+    "city": "Watarrka National Park",
+    "type": "nature",
+    "description": "Known for its stunning sandstone walls and unique rock formations, Kings Canyon offers spectacular hiking trails with breathtaking views of the surrounding landscape.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Nambung National Park",
+    "city": "Cervantes",
+    "type": "nature",
+    "description": "Home to the Pinnacles Desert, this park features unique limestone formations rising from the sand. It's a surreal landscape that attracts visitors year-round.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Darwin Waterfront Precinct",
+    "city": "Darwin",
+    "type": "entertainment",
+    "description": "A vibrant area with restaurants, parks, and recreational facilities, the Darwin Waterfront Precinct is perfect for relaxing by the lagoon or enjoying outdoor events.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Currumbin Wildlife Sanctuary",
+    "city": "Gold Coast",
+    "type": "entertainment",
+    "description": "This wildlife sanctuary offers interactive experiences with Australian animals, including kangaroos and koalas. It's a fun and educational day out for families.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Wilsons Promontory",
+    "city": "Tidal River",
+    "type": "nature",
+    "description": "Known for its stunning coastal scenery and diverse wildlife, Wilsons Promontory offers hiking trails, beautiful beaches, and opportunities to spot kangaroos and wombats.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Gibb River Road",
+    "city": "Kimberley",
+    "type": "nature",
+    "description": "A remote road that takes you through the breathtaking landscapes of the Kimberley region, Gibb River Road offers access to stunning gorges, waterfalls, and Aboriginal heritage sites.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Katherine Hot Springs",
+    "city": "Katherine",
+    "type": "nature",
+    "description": "These natural thermal springs offer a relaxing experience in a beautiful setting. Visitors can enjoy swimming in the warm waters surrounded by lush vegetation.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Caernarfon Castle",
+    "city": "Newcastle",
+    "type": "landmark",
+    "description": "An impressive historical site, Caernarfon Castle showcases stunning architecture and offers insights into Australia's colonial past. It's a great place to explore history.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Bellingen",
+    "city": "Bellingen",
+    "type": "culture",
+    "description": "Known for its vibrant arts scene and stunning natural surroundings, Bellingen is a charming town that offers markets, festivals, and beautiful landscapes.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Hyams Beach",
+    "city": "Jervis Bay",
+    "type": "nature",
+    "description": "Famous for having some of the whitest sand in the world, Hyams Beach is a picturesque spot for swimming, sunbathing, and beach activities.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Mount Rundle",
+    "city": "Banff",
+    "type": "nature",
+    "description": "This iconic peak in the Australian Alps offers stunning views and hiking opportunities. It's a popular destination for outdoor enthusiasts.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "The Olgas",
+    "city": "Ayers Rock",
+    "type": "landmark",
+    "description": "Known as Kata Tjuta, this group of large, domed rock formations offers stunning views and unique hiking experiences. It's a significant site for Indigenous Australians.",
+    "country": "Australia",
+    "country_rank": 9
+  },
+  {
+    "name": "Cascades Female Factory",
+    "city": "Hobart",
+    "type": "culture",
+    "description": "A UNESCO World Heritage site, the Cascades Female Factory is a historic site that tells the story of female convicts in Tasmania. Guided tours provide insights into their lives.",
+    "country": "Australia",
+    "country_rank": 9
+  }
+]

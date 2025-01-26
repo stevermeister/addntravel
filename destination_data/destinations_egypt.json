@@ -1,0 +1,418 @@
+[
+  {
+    "name": "Great Pyramid of Giza",
+    "city": "Giza",
+    "type": "landmark",
+    "description": "The last of the Seven Wonders of the Ancient World, this pyramid is a marvel of engineering and a testament to ancient Egyptian civilization.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Luxor Temple",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "An ancient temple complex dedicated to the rejuvenation of kingship, Luxor Temple is beautifully illuminated at night, offering a stunning view of its massive columns.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Valley of the Kings",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "This burial site of Egypt's New Kingdom pharaohs is famous for its richly decorated tombs, including that of Tutankhamun.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Karnak Temple",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "One of the largest religious complexes in the world, Karnak Temple showcases the architectural grandeur of ancient Egypt with its massive columns and obelisks.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Abu Simbel",
+    "city": "Aswan",
+    "type": "landmark",
+    "description": "These two monumental temples carved out of solid rock are dedicated to Ramses II and his queen Nefertari, and are remarkable for their breathtaking architecture.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Siwa Oasis",
+    "city": "Siwa",
+    "type": "nature",
+    "description": "A tranquil oasis in the Western Desert, Siwa offers stunning landscapes, ancient ruins, and the unique culture of the Berber people.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "White Desert",
+    "city": "Farafra",
+    "type": "nature",
+    "description": "Famous for its otherworldly chalk rock formations, this desert offers surreal landscapes perfect for exploration and photography.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Sphinx of Giza",
+    "city": "Giza",
+    "type": "landmark",
+    "description": "This iconic limestone statue with the body of a lion and a human head is a symbol of ancient Egypt, shrouded in mystery and history.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Cairo Citadel",
+    "city": "Cairo",
+    "type": "landmark",
+    "description": "A medieval Islamic fortification that offers panoramic views of Cairo, the Citadel houses several mosques and museums.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Egyptian Museum",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "Home to an extensive collection of ancient Egyptian antiquities, including treasures from the tomb of Tutankhamun.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Saint Catherine's Monastery",
+    "city": "Sinai",
+    "type": "culture",
+    "description": "This UNESCO World Heritage site is one of the oldest working Christian monasteries and is located at the foot of Mount Sinai.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Mount Sinai",
+    "city": "Sinai",
+    "type": "nature",
+    "description": "A sacred site for multiple religions, climbing this mountain provides breathtaking views and a profound sense of spirituality.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Aswan High Dam",
+    "city": "Aswan",
+    "type": "landmark",
+    "description": "A modern engineering marvel that controls the Nile's flooding and provides hydroelectric power, the dam also forms Lake Nasser.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Nubian Village",
+    "city": "Aswan",
+    "type": "culture",
+    "description": "A colorful and vibrant village that showcases the unique culture and traditions of the Nubian people, offering visitors a glimpse into their lifestyle.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Dahshur",
+    "city": "Dahshur",
+    "type": "landmark",
+    "description": "Home to the Bent Pyramid and the Red Pyramid, this archaeological site provides insight into the evolution of pyramid construction.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Temple of Philae",
+    "city": "Aswan",
+    "type": "landmark",
+    "description": "Dedicated to the goddess Isis, this temple complex is beautifully situated on an island and is known for its stunning reliefs and architecture.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Ras Muhammad National Park",
+    "city": "Sharm El Sheikh",
+    "type": "nature",
+    "description": "A marine park renowned for its vibrant coral reefs and diverse marine life, perfect for snorkeling and diving.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Giza Solar Boat Museum",
+    "city": "Giza",
+    "type": "culture",
+    "description": "This museum houses an ancient Egyptian solar boat believed to have been built for Pharaoh Khufu, showcasing remarkable preservation techniques.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "El Alamein",
+    "city": "El Alamein",
+    "type": "landmark",
+    "description": "Famous for its WWII history, the site features war cemeteries and museums dedicated to the Battle of El Alamein.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Fayoum Oasis",
+    "city": "Fayoum",
+    "type": "nature",
+    "description": "Known for its stunning lakes and rich biodiversity, Fayoum is an ideal destination for nature lovers and offers unique attractions like the Valley of the Whales.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Al-Azhar Mosque",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "One of the oldest mosques in Cairo, Al-Azhar is a center of Islamic scholarship and features stunning Islamic architecture.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Zamalek",
+    "city": "Cairo",
+    "type": "entertainment",
+    "description": "A charming district known for its parks, art galleries, and cafes, Zamalek is a great place to relax and enjoy the local atmosphere.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Ismailia",
+    "city": "Ismailia",
+    "type": "nature",
+    "description": "Located on the banks of the Suez Canal, Ismailia is known for its beautiful gardens and waterfront views, making it a peaceful getaway.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Sidi Bou Said",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "A beautiful coastal town with stunning whitewashed buildings and blue doors, known for its artistic vibe and scenic vistas.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Alexandria Library",
+    "city": "Alexandria",
+    "type": "culture",
+    "description": "A modern architectural marvel built to commemorate the ancient Library of Alexandria, it houses millions of books and cultural artifacts.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Coptic Cairo",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "An area rich in Christian heritage, Coptic Cairo features ancient churches and the Coptic Museum, showcasing the history of Christianity in Egypt.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Temples of Karnak",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "This complex includes several temples and chapels, making it one of the largest religious sites in the world, famous for its stunning hypostyle hall.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Ramesseum",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "The mortuary temple of Ramses II, known for its massive statues and grand architecture, is a testament to the pharaoh's legacy.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Citadel of Qaitbay",
+    "city": "Alexandria",
+    "type": "landmark",
+    "description": "Built in the 15th century, this fortress offers stunning views of the Mediterranean Sea and is an important historical site.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Wadi Al-Hitan (Whale Valley)",
+    "city": "Fayoum",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site known for its fossilized whale remains, providing insight into the evolution of marine life.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Temple of Edfu",
+    "city": "Edfu",
+    "type": "landmark",
+    "description": "One of the best-preserved temples in Egypt, dedicated to the falcon god Horus, it features impressive reliefs and inscriptions.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "El-Moez Street",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "A historic street lined with stunning Islamic architecture, offering a glimpse into Cairo's rich history and vibrant culture.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Cairo Opera House",
+    "city": "Cairo",
+    "type": "entertainment",
+    "description": "A cultural center that hosts performances of opera, ballet, and concerts, showcasing Egypt's vibrant arts scene.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Kom Ombo Temple",
+    "city": "Kom Ombo",
+    "type": "landmark",
+    "description": "This unique double temple is dedicated to the crocodile god Sobek and the falcon god Horus, known for its unusual design and stunning reliefs.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Sharm El Sheikh",
+    "city": "Sharm El Sheikh",
+    "type": "entertainment",
+    "description": "A popular resort town known for its beautiful beaches, water sports, and vibrant nightlife, making it a great destination for relaxation.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Al-Fayoum Oasis",
+    "city": "Fayoum",
+    "type": "nature",
+    "description": "A lush oasis with beautiful lakes and waterfalls, it is a haven for birdwatchers and those seeking natural beauty.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Hatshepsut Temple",
+    "city": "Deir el-Bahari",
+    "type": "landmark",
+    "description": "This mortuary temple dedicated to Pharaoh Hatshepsut is famous for its stunning terraces and unique architectural style.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Hanging Church",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "An ancient Coptic church built above a gatehouse of Babylon Fortress, known for its beautiful architecture and rich history.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "El-Mansoura",
+    "city": "El-Mansoura",
+    "type": "culture",
+    "description": "Known for its rich history and beautiful parks, El-Mansoura is a charming city with a vibrant atmosphere.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Oasis of Bahariya",
+    "city": "Bahariya",
+    "type": "nature",
+    "description": "This oasis is famous for its hot springs, golden dunes, and unique rock formations, perfect for adventure seekers.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Temple of Hathor",
+    "city": "Dendera",
+    "type": "landmark",
+    "description": "One of the best-preserved temples in Egypt, dedicated to the goddess Hathor, known for its colorful reliefs and astronomical ceiling.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Tombs of the Nobles",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "A lesser-known site featuring beautifully painted tombs of ancient Egyptian nobles, offering insight into their daily lives and beliefs.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Cairo Tower",
+    "city": "Cairo",
+    "type": "landmark",
+    "description": "Standing at 187 meters, this iconic tower offers panoramic views of the city and a revolving restaurant at the top.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Saint Anthony's Monastery",
+    "city": "Red Sea",
+    "type": "culture",
+    "description": "The oldest Christian monastery in the world, nestled in the Red Sea mountains, known for its stunning architecture and peaceful surroundings.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Qena",
+    "city": "Qena",
+    "type": "culture",
+    "description": "A charming city known for its beautiful architecture and vibrant local markets, providing a true sense of Egyptian culture.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Tomb of Nefertari",
+    "city": "Valley of the Queens",
+    "type": "landmark",
+    "description": "The final resting place of Nefertari, wife of Ramses II, renowned for its exquisite wall paintings and incredible preservation.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Siwa Shali Fortress",
+    "city": "Siwa",
+    "type": "landmark",
+    "description": "Ancient ruins of a fortress made from salt and mud bricks, offering stunning views of the oasis and its surroundings.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Island of Philae",
+    "city": "Aswan",
+    "type": "landmark",
+    "description": "A picturesque island home to ancient temples dedicated to the goddess Isis, known for its beautiful scenery and serene atmosphere.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The National Museum of Egyptian Civilization",
+    "city": "Cairo",
+    "type": "culture",
+    "description": "A modern museum showcasing the richness of Egyptian civilization, housing artifacts from prehistoric times to the present day.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Tombs of the Kings",
+    "city": "Luxor",
+    "type": "landmark",
+    "description": "These tombs provide a glimpse into the burial practices and beliefs of ancient Egyptian royalty, adorned with intricate hieroglyphs.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "The Temple of Seti I",
+    "city": "Abydos",
+    "type": "landmark",
+    "description": "Known for its stunning reliefs and the famous 'list of kings,' this temple is one of the most important archaeological sites in Egypt.",
+    "country": "Egypt",
+    "country_rank": 8
+  },
+  {
+    "name": "Marsa Alam",
+    "city": "Marsa Alam",
+    "type": "nature",
+    "description": "A serene coastal town known for its pristine beaches, coral reefs, and opportunities for diving and snorkeling.",
+    "country": "Egypt",
+    "country_rank": 8
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Band-e Amir National Park",
+    "city": "Bamyan",
+    "type": "nature",
+    "description": "Band-e Amir is Afghanistan's first national park, renowned for its stunning blue lakes and dramatic cliffs. The unique geological formations and vibrant waters provide a breathtaking backdrop for nature lovers and adventure seekers.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Bamiyan Buddhas",
+    "city": "Bamyan",
+    "type": "cultural",
+    "description": "The Bamiyan Buddhas were monumental statues carved into the cliffs of the Bamyan Valley. Although destroyed in 2001, the site remains a UNESCO World Heritage site, symbolizing Afghanistan's rich cultural history and artistic heritage.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Kabul's Gardens of Babur",
+    "city": "Kabul",
+    "type": "cultural",
+    "description": "These historic gardens, dating back to the 16th century, are the final resting place of the Mughal Emperor Babur. The beautifully landscaped gardens offer a serene escape in the heart of Kabul, showcasing a blend of Persian and Mughal architecture.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Minaret of Jam",
+    "city": "Ghor",
+    "type": "landmark",
+    "description": "The Minaret of Jam, a UNESCO World Heritage site, is a remarkable example of 12th-century Islamic architecture. Standing at 65 meters tall, it is surrounded by stunning mountainous landscapes and reflects the rich history of the Ghorid dynasty.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Herat Citadel",
+    "city": "Herat",
+    "type": "landmark",
+    "description": "The Herat Citadel, also known as the Citadel of Herat, is a historic fortress that dates back to the time of Alexander the Great. Its impressive structure and architectural grandeur tell the story of Afghanistan's strategic importance throughout history.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Panjshir Valley",
+    "city": "Panjshir",
+    "type": "nature",
+    "description": "Panjshir Valley is known for its breathtaking natural beauty, with steep mountains and lush greenery. It's a popular destination for hiking and exploring the rich cultural heritage of the Afghan resistance, offering stunning views and a sense of peace.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Darul Aman Palace",
+    "city": "Kabul",
+    "type": "landmark",
+    "description": "Once a royal palace in the 1920s, Darul Aman Palace is an architectural gem that has undergone restoration efforts. Its stunning design and historical significance make it a fascinating site for visitors interested in Afghanistan's royal past.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Mazar-i-Sharif Blue Mosque",
+    "city": "Mazar-i-Sharif",
+    "type": "landmark",
+    "description": "The Blue Mosque, or Shrine of Ali, is famous for its striking blue tiles and intricate designs. This sacred site attracts pilgrims and tourists alike, showcasing the spiritual heritage and vibrant culture of Afghanistan.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Kandahar's Old City",
+    "city": "Kandahar",
+    "type": "cultural",
+    "description": "Kandahar's Old City is steeped in history, with its ancient bazaars and traditional architecture. It offers a glimpse into the traditional Afghan way of life and the region's rich cultural tapestry, making it a unique destination.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  },
+  {
+    "name": "Khost's Wazir Akbar Khan Valley",
+    "city": "Khost",
+    "type": "nature",
+    "description": "This hidden gem is known for its stunning landscapes and rich biodiversity. The valley is a perfect escape for nature enthusiasts and offers opportunities for hiking, bird watching, and experiencing the local culture in a serene setting.",
+    "country": "Afghanistan",
+    "country_rank": 1
+  }
+]

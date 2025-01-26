@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Central Suriname Nature Reserve",
+    "city": "Paramaribo",
+    "type": "nature",
+    "description": "A UNESCO World Heritage site, this vast reserve is home to diverse flora and fauna. It offers pristine rainforests, rivers, and stunning biodiversity, making it a paradise for nature lovers.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Fort Zeelandia",
+    "city": "Paramaribo",
+    "type": "landmark",
+    "description": "An important historical landmark, Fort Zeelandia was built in the 17th century and played a crucial role in Suriname's colonial history. Visitors can explore its museum and enjoy views of the Suriname River.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Brownsberg Nature Park",
+    "city": "Brownsberg",
+    "type": "nature",
+    "description": "Located on a plateau, this nature park features stunning waterfalls, hiking trails, and rich wildlife. It's a great spot for eco-tourism and offers breathtaking views of the surrounding rainforest.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Palmentuin",
+    "city": "Paramaribo",
+    "type": "landmark",
+    "description": "This beautiful palm garden is a peaceful oasis in the heart of Paramaribo. With over 200 species of palm trees, it's a perfect place for a leisurely stroll and to enjoy nature.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Jodensavanne",
+    "city": "Paramaribo",
+    "type": "culture",
+    "description": "A historical site that was once a thriving Jewish settlement in the 17th century. Today, visitors can explore the ruins and learn about the history of the Jewish community in Suriname.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Danpaati River Lodge",
+    "city": "Saramacca",
+    "type": "nature",
+    "description": "A hidden gem located along the river, this eco-lodge offers an immersive experience in nature. Guests can explore the rainforest, enjoy birdwatching, and learn about indigenous cultures.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Commewijne River",
+    "city": "Commewijne",
+    "type": "nature",
+    "description": "This scenic river is perfect for boat tours and exploring the surrounding plantations. It's a great way to experience the tranquility and beauty of Suriname's landscape.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Maroon Villages",
+    "city": "Various",
+    "type": "culture",
+    "description": "Visiting Maroon villages offers a unique insight into the culture and traditions of the descendants of escaped slaves. Tourists can experience their music, dance, and traditional crafts.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "St. Peter and Paul Cathedral",
+    "city": "Paramaribo",
+    "type": "landmark",
+    "description": "This stunning wooden cathedral is one of the largest in the Western Hemisphere. Its unique architecture and beautiful interior make it a must-visit for architecture enthusiasts.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Koto Koti",
+    "city": "Paramaribo",
+    "type": "entertainment",
+    "description": "A lively cultural festival featuring traditional Surinamese music, dance, and cuisine. It's a vibrant celebration of the country's diverse heritage.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Nieuw Amsterdam",
+    "city": "Commewijne",
+    "type": "culture",
+    "description": "A historical town with colonial architecture and a rich history. Visitors can explore old plantations and learn about the sugar industry that once thrived here.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Blowholes at the Sea Wall",
+    "city": "Paramaribo",
+    "type": "nature",
+    "description": "A natural phenomenon where ocean waves create impressive blowholes along the sea wall. It's a spectacular sight and a great spot for photography.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Kabalebo Nature Resort",
+    "city": "Kabalebo",
+    "type": "nature",
+    "description": "Nestled in a remote area, this resort offers access to pristine nature and adventure activities like kayaking and hiking in the rainforest.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Hertenrits",
+    "city": "Paramaribo",
+    "type": "nature",
+    "description": "A serene spot known for its tranquil waters and beautiful landscapes. It's an ideal location for picnics and enjoying the outdoors.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Saramacca River",
+    "city": "Saramacca",
+    "type": "nature",
+    "description": "This river is a key part of Suriname's landscape and is perfect for fishing, boating, and enjoying the scenic views of the countryside.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Marowijne River",
+    "city": "Marowijne",
+    "type": "nature",
+    "description": "A stunning river that forms the border with French Guiana, offering opportunities for boat trips and exploring the surrounding lush forests.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Zanderij",
+    "city": "Zanderij",
+    "type": "culture",
+    "description": "A small town known for its cultural diversity and beautiful landscapes. It serves as a gateway to the rainforest and indigenous communities.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "The Waterkant",
+    "city": "Paramaribo",
+    "type": "entertainment",
+    "description": "A vibrant waterfront area filled with restaurants and bars. It's a popular place for locals and tourists to relax and enjoy the views of the Suriname River.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Bamboo Resort",
+    "city": "Paramaribo",
+    "type": "nature",
+    "description": "This eco-friendly resort is built primarily from bamboo and offers a unique lodging experience. Guests can immerse themselves in nature while enjoying modern amenities.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Boven Saramacca",
+    "city": "Saramacca",
+    "type": "nature",
+    "description": "A lesser-known area with rich biodiversity and opportunities for eco-tourism. It's perfect for adventurous travelers looking to explore untouched landscapes.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "The Surinamese Jungle",
+    "city": "Various",
+    "type": "nature",
+    "description": "Exploring the jungle is an unforgettable experience, rich with opportunities for wildlife spotting, hiking, and experiencing indigenous culture.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Saramacca District",
+    "city": "Saramacca",
+    "type": "culture",
+    "description": "This district is known for its agricultural activities and traditional villages. Visitors can learn about local farming practices and enjoy the rural landscape.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Canoe Tours in the Rainforest",
+    "city": "Various",
+    "type": "nature",
+    "description": "Guided canoe tours through the rainforest offer a unique perspective on the ecosystem and opportunities to observe wildlife up close.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Lelydorp",
+    "city": "Lelydorp",
+    "type": "culture",
+    "description": "This town showcases the rural Surinamese lifestyle and is a great place to experience local culture and traditions away from the capital.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Suriname River",
+    "city": "Paramaribo",
+    "type": "nature",
+    "description": "The main river running through the country, perfect for boat tours and fishing. The riverbanks are lined with lush greenery and offer beautiful scenery.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Kwakoe Festival",
+    "city": "Paramaribo",
+    "type": "entertainment",
+    "description": "An annual celebration featuring traditional music, food, and performances that highlight the cultural diversity of Suriname.",
+    "country": "Suriname",
+    "country_rank": 3
+  },
+  {
+    "name": "Brewery of Suriname",
+    "city": "Paramaribo",
+    "type": "entertainment",
+    "description": "Take a tour of this local brewery to learn about Suriname's beer-making process and taste some unique local brews.",
+    "country": "Suriname",
+    "country_rank": 3
+  }
+]

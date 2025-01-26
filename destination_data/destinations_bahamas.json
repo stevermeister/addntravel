@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Exuma Cays Land and Sea Park",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "A protected marine area, this park is renowned for its stunning coral reefs, diverse marine life, and pristine beaches. It's an ideal spot for snorkeling, diving, and exploring uninhabited islands.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Pink Sands Beach",
+    "city": "Harbour Island",
+    "type": "nature",
+    "description": "Famous for its unique pink-hued sand, this beach offers a picturesque setting with crystal-clear waters. It's perfect for sunbathing, swimming, or taking long walks along the shore.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Blue Hole",
+    "city": "Andros",
+    "type": "nature",
+    "description": "This natural underwater sinkhole is a divers' paradise, featuring clear blue waters and rich marine ecosystems. It's an extraordinary place for snorkeling and exploring unique geological formations.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Cloisters",
+    "city": "Nassau",
+    "type": "landmark",
+    "description": "A beautiful replica of a 12th-century French monastery, The Cloisters offer a serene atmosphere enriched by lush gardens and views of the ocean. It's a unique cultural spot that reflects the Bahamas' colonial history.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Fort Charlotte",
+    "city": "Nassau",
+    "type": "landmark",
+    "description": "The largest of Nassau's forts, Fort Charlotte boasts impressive architecture and offers insights into the island's history. Visitors can explore its dungeons, ramparts, and enjoy panoramic views of the harbor.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Dean's Blue Hole",
+    "city": "Long Island",
+    "type": "nature",
+    "description": "Known as the world's second-deepest blue hole, it plunges to a depth of over 200 meters. This awe-inspiring natural wonder is popular among divers and free divers alike.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Queen's Staircase",
+    "city": "Nassau",
+    "type": "landmark",
+    "description": "Carved by slaves in the late 1700s, this historic staircase comprises 66 steps leading to Fort Fincastle. It's a significant landmark that offers a glimpse into the Bahamas' past.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Andros Island",
+    "city": "Andros",
+    "type": "nature",
+    "description": "The largest island in the Bahamas, Andros is known for its untouched natural beauty, including the world's third-largest barrier reef and numerous blue holes. It's a haven for eco-tourists and nature lovers.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Harbour Island",
+    "city": "Harbour Island",
+    "type": "nature",
+    "description": "Often referred to as Briland, this small island is famous for its pink-sand beaches and charming colonial architecture. It's a tranquil getaway offering relaxation and luxury.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Bimini Road",
+    "city": "Bimini",
+    "type": "landmark",
+    "description": "An underwater rock formation that some believe to be remnants of the lost city of Atlantis, Bimini Road attracts divers and history enthusiasts. Its mysterious origins fuel ongoing debates and intrigue.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Glass Window Bridge",
+    "city": "Eleuthera",
+    "type": "landmark",
+    "description": "This natural bridge separates the Caribbean Sea from the Atlantic Ocean, creating breathtaking views of both bodies of water. It's a popular photo spot and a testament to the island's dramatic landscapes.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Exuma Pig Beach",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "Home to a famous swimming pig population, this beach offers visitors a unique experience of interacting with friendly pigs in their natural habitat. It's a quirky, must-see attraction.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Bahamas National Trust",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "This organization preserves the unique natural resources of the Bahamas. Visitors can explore various parks and reserves, gaining insight into the country's ecological heritage.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Tarpum Bay",
+    "city": "Eleuthera",
+    "type": "nature",
+    "description": "A hidden gem on Eleuthera, Tarpum Bay boasts stunning coastal views and rich marine life. It's a perfect spot for fishing, kayaking, or simply enjoying the tranquil environment.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Arawak Cay",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "Known as the 'Fish Fry,' Arawak Cay is a vibrant area where visitors can indulge in local Bahamian cuisine. It's a lively spot to experience the island's culture and flavors.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Hermitage",
+    "city": "Cat Island",
+    "type": "landmark",
+    "description": "A historic monastery built in the 18th century, The Hermitage offers visitors a glimpse into the island's spiritual heritage. Its scenic location provides stunning views of the surrounding landscape.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Stocking Island",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "Just a short boat ride from George Town, Stocking Island offers secluded beaches and serene surroundings. It's perfect for a day of relaxation, snorkeling, or exploring nature trails.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Art Gallery of The Bahamas",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "Housed in a historic mansion, this gallery showcases Bahamian art and cultural heritage. Visitors can appreciate local artists' works and learn about the nation's artistic evolution.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Bacardi Rum Factory",
+    "city": "Nassau",
+    "type": "entertainment",
+    "description": "Take a tour of this iconic rum distillery to learn about the rum-making process and enjoy tastings. It's a fun experience that combines history, culture, and delicious cocktails.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Retreat Garden",
+    "city": "Nassau",
+    "type": "nature",
+    "description": "An oasis of tranquility, this garden features lush tropical plants and beautiful walking paths. It's a great place to relax and appreciate the natural beauty of the Bahamas.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Eleuthera's Glass Window",
+    "city": "Eleuthera",
+    "type": "nature",
+    "description": "A stunning natural spectacle where the Atlantic Ocean meets the Caribbean Sea, the Glass Window is renowned for its breathtaking views and dramatic cliffs. It's a perfect spot for photography.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Pompey Museum of Slavery and Emancipation",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "This museum offers a profound insight into the history of slavery and emancipation in the Bahamas. Through exhibits and artifacts, visitors can learn about the struggles and resilience of enslaved people.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Blue Lagoon Island",
+    "city": "Nassau",
+    "type": "entertainment",
+    "description": "A private island paradise, Blue Lagoon Island is known for its beautiful beaches and water activities. Visitors can enjoy swimming with dolphins, snorkeling, and relaxing in a tropical setting.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Bahamas Historical Society Museum",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "This museum showcases the rich history of the Bahamas through artifacts, documents, and displays. It's a great place to learn about the islands' cultural heritage.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Cabbage Beach",
+    "city": "Paradise Island",
+    "type": "nature",
+    "description": "Famous for its stunning beauty and vibrant atmosphere, Cabbage Beach offers visitors a perfect spot for sunbathing and water sports. It's a popular destination for locals and tourists alike.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Queen's Staircase",
+    "city": "Nassau",
+    "type": "landmark",
+    "description": "A historic staircase carved by slaves in the late 1700s, offering insight into the island's past. It's a significant landmark that leads to Fort Fincastle.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Long Island",
+    "city": "Long Island",
+    "type": "nature",
+    "description": "Known for its dramatic cliffs and secluded beaches, Long Island is perfect for those seeking adventure and tranquility. It's an ideal destination for fishing, diving, and exploring local culture.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Fishing Hole",
+    "city": "Grand Bahama",
+    "type": "nature",
+    "description": "A hidden gem for fishing enthusiasts, this secluded spot offers an abundance of fish and a serene environment. It's great for both experienced anglers and beginners.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Little Exuma",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "A quieter alternative to Great Exuma, Little Exuma is known for its serene beaches and laid-back atmosphere. Visitors can explore the stunning coastline and enjoy fresh seafood.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Blue Hole",
+    "city": "Andros",
+    "type": "nature",
+    "description": "A world-famous diving site, the Blue Hole is a natural underwater sinkhole with crystal-clear waters. It's a unique experience for divers and snorkelers exploring its depths.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Nassau Straw Market",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "A bustling market where visitors can find handmade crafts, souvenirs, and local treasures. It's a great place to experience Bahamian culture and support local artisans.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Old Fort",
+    "city": "Nassau",
+    "type": "landmark",
+    "description": "A historical site that offers insights into the Bahamas' colonial past. Visitors can explore the fort's ruins and enjoy beautiful views of the surrounding area.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Pineapple Fields",
+    "city": "Eleuthera",
+    "type": "nature",
+    "description": "A beautiful resort area surrounded by lush tropical landscapes, Pineapple Fields offers a relaxing getaway. It's known for its stunning beaches and warm hospitality.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Rainbow Bay",
+    "city": "Eleuthera",
+    "type": "nature",
+    "description": "A secluded beach known for its crystal-clear waters and colorful coral reefs. It's a hidden gem for snorkeling and enjoying the natural beauty of the Bahamas.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Tropic of Cancer Beach",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "One of the most beautiful beaches in the Bahamas, this stretch of white sand and turquoise waters is perfect for relaxation and photography. It's a less crowded paradise.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Shroud Cay",
+    "city": "Exuma",
+    "type": "nature",
+    "description": "A stunning uninhabited island known for its mangroves and crystal-clear waters. Visitors can kayak through the mangroves and enjoy the natural beauty of this hidden gem.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ocean Club, A Four Seasons Resort",
+    "city": "Paradise Island",
+    "type": "entertainment",
+    "description": "An exclusive luxury resort offering top-notch amenities, fine dining, and stunning beachfront views. It's a perfect destination for those seeking a lavish getaway.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Ardastra Gardens, Zoo and Conservation Center",
+    "city": "Nassau",
+    "type": "entertainment",
+    "description": "A unique attraction that combines a zoo with lush gardens, this center is home to various native and exotic animals. Visitors can enjoy interactive experiences and learn about conservation efforts.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "Gold Rock Beach",
+    "city": "Grand Bahama",
+    "type": "nature",
+    "description": "Part of the Lucayan National Park, Gold Rock Beach is renowned for its stunning scenery and soft white sands. It's perfect for swimming and relaxing away from the crowds.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Bonefish Pond National Park",
+    "city": "New Providence",
+    "type": "nature",
+    "description": "A beautiful wetland area known for birdwatching and eco-tourism. Visitors can explore its mangroves and spot various bird species in their natural habitat.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Grand Bahama Island",
+    "city": "Freeport",
+    "type": "nature",
+    "description": "Famous for its beautiful beaches and vibrant coral reefs, Grand Bahama Island offers a variety of activities, including snorkeling, diving, and eco-tours.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Lantern Head Lighthouse",
+    "city": "Eleuthera",
+    "type": "landmark",
+    "description": "A historic lighthouse that provides stunning coastal views and a glimpse into maritime history. It's an excellent spot for photography and enjoying the sunset.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Lost Blue Hole",
+    "city": "Lucayan National Park",
+    "type": "nature",
+    "description": "A mesmerizing underwater sinkhole offering snorkeling and diving opportunities. It's surrounded by lush landscapes and is a hidden gem for adventure seekers.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The National Trust for The Bahamas",
+    "city": "Nassau",
+    "type": "culture",
+    "description": "An organization dedicated to preserving the natural and cultural heritage of the Bahamas. Visitors can explore various protected areas and learn about conservation efforts.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Pink Sands Resort",
+    "city": "Harbour Island",
+    "type": "entertainment",
+    "description": "A luxurious resort situated on the famous pink sands, offering top-notch amenities and stunning ocean views. It's a perfect getaway for relaxation and pampering.",
+    "country": "Bahamas",
+    "country_rank": 7
+  },
+  {
+    "name": "The Exuma Regatta",
+    "city": "Exuma",
+    "type": "entertainment",
+    "description": "An annual sailing event that showcases the beauty of the Exuma Cays. Visitors can enjoy local culture, music, and delicious Bahamian cuisine while watching the races.",
+    "country": "Bahamas",
+    "country_rank": 7
+  }
+]

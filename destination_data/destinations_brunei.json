@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Omar Ali Saifuddien Mosque",
+    "city": "Bandar Seri Begawan",
+    "type": "landmark",
+    "description": "A stunning example of modern Islamic architecture, this mosque features a golden dome and beautiful gardens. It's an iconic symbol of Brunei and offers a peaceful atmosphere for reflection.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Jame' Asr Hassanil Bolkiah Mosque",
+    "city": "Bandar Seri Begawan",
+    "type": "landmark",
+    "description": "This mosque is the largest in Brunei and boasts a magnificent design with 29 domes. It is particularly breathtaking at night when illuminated.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Ulu Temburong National Park",
+    "city": "Temburong",
+    "type": "nature",
+    "description": "Known as the 'Green Jewel of Brunei', this national park is home to pristine rainforest and diverse wildlife. Visitors can explore via canopy walks and enjoy breathtaking views.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Kampong Ayer",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "Often referred to as the 'Venice of the East', this water village is built on stilts and showcases the traditional lifestyle of Bruneians. Visitors can explore its wooden walkways and experience local culture.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Sultan Omar Ali Saifuddien Park",
+    "city": "Bandar Seri Begawan",
+    "type": "nature",
+    "description": "This beautiful park surrounds the Omar Ali Saifuddien Mosque and features well-manicured lawns, fountains, and a serene lagoon. It's a perfect spot for relaxation and photography.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Tasek Merimbun Heritage Park",
+    "city": "Tutong",
+    "type": "nature",
+    "description": "Brunei's largest natural lake, this park is rich in biodiversity and offers walking trails through lush rainforest. It's a great place for birdwatching and appreciating nature.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Brunei Museum",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "This museum showcases Brunei's rich history, culture, and Islamic heritage through various exhibits and artifacts. It's an informative stop for anyone interested in the country's past.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Royal Regalia Museum",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "Home to the Sultan's ceremonial regalia, this museum offers insight into Brunei's monarchy and its significance. The displays are both impressive and educational.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Bukit Patoi Forest Reserve",
+    "city": "Kuala Belait",
+    "type": "nature",
+    "description": "This lesser-known forest reserve is ideal for hiking and discovering indigenous flora and fauna. The trails offer stunning views of the surrounding landscape.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Labi Forest Reserve",
+    "city": "Belait",
+    "type": "nature",
+    "description": "A hidden gem for nature lovers, this reserve features rich biodiversity and tranquil trails. It's perfect for a peaceful escape from urban life.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Niah Caves",
+    "city": "Niah",
+    "type": "nature",
+    "description": "Though primarily in Malaysia, these caves are near the Brunei border and are significant for archaeological finds. The stunning limestone formations and prehistoric significance make it a unique visit.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Taman Mahkota Jubli Emas",
+    "city": "Bandar Seri Begawan",
+    "type": "entertainment",
+    "description": "This park is a popular spot for locals and tourists alike, featuring beautiful gardens, playgrounds, and picnic areas. It's a great place to relax and enjoy outdoor activities.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Crown Prince's Cultural Centre",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "This cultural hub hosts various events and exhibitions that celebrate Brunei's heritage. Visitors can learn about local arts, crafts, and traditional performances.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Pulau Selirong",
+    "city": "Temburong",
+    "type": "nature",
+    "description": "An untouched island that is part of the Brunei Bay, it is known for its mangrove ecosystems and diverse wildlife. It's a great spot for eco-tourism and exploring nature.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Serasa Beach",
+    "city": "Muara",
+    "type": "nature",
+    "description": "A tranquil beach that offers a perfect escape for relaxation and picnics. The scenic views and calm waters make it ideal for a day out.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Kampong Luagan Lalak",
+    "city": "Tutong",
+    "type": "culture",
+    "description": "This lesser-known village offers a glimpse into traditional Bruneian life. Visitors can engage with locals and learn about their customs and daily activities.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Malay Technology Museum",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "This museum showcases the traditional technologies and crafts of the Malay people. It's a fascinating place to learn about the local heritage.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Bubur Lambuk",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "A local delicacy, this rice porridge is traditionally served during Ramadan. Visitors can try it at various local eateries and experience the culinary culture.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Jerudong Park",
+    "city": "Jerudong",
+    "type": "entertainment",
+    "description": "Once a major amusement park, Jerudong Park offers a variety of rides and attractions. It's a fun destination for families looking for entertainment.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Taman Peranginan Tasek",
+    "city": "Bandar Seri Begawan",
+    "type": "nature",
+    "description": "A scenic park by the lake that offers walking paths and areas for relaxation. It's perfect for enjoying nature and taking leisurely strolls.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Berakas Forest Reserve",
+    "city": "Bandar Seri Begawan",
+    "type": "nature",
+    "description": "This reserve features well-preserved rainforest and a variety of hiking trails. It's a great spot for outdoor enthusiasts and those looking to connect with nature.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Rimba Nature Reserve",
+    "city": "Bandar Seri Begawan",
+    "type": "nature",
+    "description": "This reserve is home to diverse ecosystems and is great for birdwatching and hiking. The well-maintained trails offer a peaceful escape into the jungle.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Istana Nurul Iman",
+    "city": "Bandar Seri Begawan",
+    "type": "landmark",
+    "description": "The official residence of the Sultan of Brunei, this palace is one of the largest in the world. While not open to the public, its grand architecture is a sight to behold.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Royal Brunei Polo and Riding Club",
+    "city": "Bandar Seri Begawan",
+    "type": "entertainment",
+    "description": "An exclusive venue for equestrian sports and polo, this club offers unique experiences for horse lovers. Visitors can enjoy watching matches and participating in riding lessons.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Taman Jubli Perak",
+    "city": "Bandar Seri Begawan",
+    "type": "nature",
+    "description": "A beautiful park that features landscaped gardens and a monument commemorating the Sultan's silver jubilee. It's a lovely spot for picnics and leisurely walks.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Borneo Adventure Tours",
+    "city": "Bandar Seri Begawan",
+    "type": "entertainment",
+    "description": "Offering unique eco-tours and adventures, this company takes visitors to explore Brunei's natural beauty, including rainforest treks and wildlife spotting.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "The Brunei Gallery",
+    "city": "Bandar Seri Begawan",
+    "type": "culture",
+    "description": "Located at the University of Brunei Darussalam, this gallery features contemporary and traditional art exhibitions. It's a great place to appreciate local creativity.",
+    "country": "Brunei",
+    "country_rank": 3
+  },
+  {
+    "name": "Lumapas Waterfall",
+    "city": "Brunei-Muara",
+    "type": "nature",
+    "description": "A hidden gem, this waterfall is perfect for a refreshing swim and offers beautiful scenery. It\u2019s less crowded, making it a serene escape into nature.",
+    "country": "Brunei",
+    "country_rank": 3
+  }
+]
